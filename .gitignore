@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# backend build output
+backend/dist/
+*.tsbuildinfo
+
+# backend generated run reports (playback/narration-frequency artifacts)
+backend/reports/*.json
+/response.json
+
+# env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# editor
+.vscode/*
+!.vscode/extensions.json

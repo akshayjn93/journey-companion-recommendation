@@ -1,0 +1,1334 @@
+[
+  {
+    "content_key": "garhmukteshwar-ancient-name-shivvallabhpur",
+    "category": "history",
+    "tags": [
+      "garhmukteshwar",
+      "history",
+      "hapur",
+      "shiva"
+    ],
+    "location": {
+      "lng": 78.0823,
+      "lat": 28.7892
+    },
+    "interestingness": 8.4,
+    "confidence": 0.94,
+    "sourceName": "District Hapur, Government of Uttar Pradesh",
+    "sourceUrl": "https://hapur.nic.in/tourist-place/garhmukteshwar/",
+    "translations": {
+      "en": {
+        "title": "Garhmukteshwar had an older name",
+        "shortDescription": "The Hapur district administration records Shivvallabhpur as Garhmukteshwar's earlier name.",
+        "longDescription": "The Hapur district administration describes Garhmukteshwar as an ancient religious centre and records its older name as Shivvallabhpur.",
+        "narrationHint": "Lead with the old name, then connect it to the town's long religious history."
+      },
+      "hi": {
+        "title": "गढ़मुक्तेश्वर का पुराना नाम",
+        "shortDescription": "हापुड़ जिला प्रशासन के अनुसार गढ़मुक्तेश्वर का पुराना नाम शिववल्लभपुर था।",
+        "longDescription": "गढ़मुक्तेश्वर को प्राचीन धार्मिक स्थल बताते हुए जिला प्रशासन इसका पुराना नाम शिववल्लभपुर दर्ज करता है।",
+        "narrationHint": "पहले पुराने नाम का जिक्र करें, फिर धार्मिक इतिहास से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "brijghat-kartik-purnima-ganga-mela",
+    "category": "culture",
+    "tags": [
+      "brijghat",
+      "ganga",
+      "kartik-purnima",
+      "fair"
+    ],
+    "location": {
+      "lng": 78.079,
+      "lat": 28.796
+    },
+    "interestingness": 8.7,
+    "confidence": 0.96,
+    "sourceName": "District Hapur, Government of Uttar Pradesh",
+    "sourceUrl": "https://hapur.nic.in/tourist-place/brijghat/",
+    "translations": {
+      "en": {
+        "title": "Brijghat turns into a huge pilgrimage fair",
+        "shortDescription": "Brijghat hosts a major Ganga-side fair around Kartik Purnima.",
+        "longDescription": "The Hapur district administration says a large historic fair is held on the Ganga ghat at Brijghat and surrounding areas during Kartik Purnima.",
+        "narrationHint": "Paint a quick picture of how the riverfront changes during the festival."
+      },
+      "hi": {
+        "title": "कार्तिक पूर्णिमा पर ब्रजघाट का रूप बदल जाता है",
+        "shortDescription": "कार्तिक पूर्णिमा के आसपास ब्रजघाट पर गंगा किनारे बड़ा मेला लगता है।",
+        "longDescription": "हापुड़ जिला प्रशासन के अनुसार कार्तिक पूर्णिमा पर ब्रजघाट और आसपास गंगा किनारे बड़ा ऐतिहासिक मेला लगता है।",
+        "narrationHint": "मेले के समय घाट के बदलते माहौल की कल्पना कराएं।"
+      }
+    }
+  },
+  {
+    "content_key": "brijghat-evening-ganga-aarti",
+    "category": "culture",
+    "tags": [
+      "brijghat",
+      "ganga",
+      "aarti"
+    ],
+    "location": {
+      "lng": 78.079,
+      "lat": 28.796
+    },
+    "interestingness": 8.1,
+    "confidence": 0.95,
+    "sourceName": "District Hapur, Government of Uttar Pradesh",
+    "sourceUrl": "https://hapur.nic.in/tourist-place/brijghat/",
+    "translations": {
+      "en": {
+        "title": "Brijghat is known for its evening Ganga aarti",
+        "shortDescription": "The district administration highlights the evening Ganga aarti at Brijghat.",
+        "longDescription": "Brijghat sits on the Ganga near Garhmukteshwar. The district administration specifically notes the evening Ganga aarti as an interesting sight.",
+        "narrationHint": "Use a short sensory image: river, lamps and the evening gathering."
+      },
+      "hi": {
+        "title": "ब्रजघाट की शाम की गंगा आरती",
+        "shortDescription": "ब्रजघाट की शाम की गंगा आरती यहां का खास दृश्य है।",
+        "longDescription": "जिला प्रशासन ब्रजघाट की शाम की गंगा आरती को विशेष आकर्षण बताता है।",
+        "narrationHint": "दीयों और नदी के किनारे शाम का माहौल बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "garhmukteshwar-multiple-landmarks",
+    "category": "places",
+    "tags": [
+      "garhmukteshwar",
+      "ganga",
+      "temple",
+      "heritage"
+    ],
+    "location": {
+      "lng": 78.0823,
+      "lat": 28.7892
+    },
+    "interestingness": 7.9,
+    "confidence": 0.93,
+    "sourceName": "District Hapur, Government of Uttar Pradesh",
+    "sourceUrl": "https://hapur.nic.in/tourist-place/garhmukteshwar/",
+    "translations": {
+      "en": {
+        "title": "Garhmukteshwar has a cluster of landmarks",
+        "shortDescription": "The district lists Ganga Mandir, Kanka Kuo, Jama Masjid and Meera Bai Ki Reti among its sights.",
+        "longDescription": "Garhmukteshwar is not just one temple stop. The official tourism page lists several religious and historic sights including Ganga Mandir, Kanka Kuo, Jama Masjid and Meera Bai Ki Reti.",
+        "narrationHint": "Frame it as a town with several small stories rather than one attraction."
+      },
+      "hi": {
+        "title": "गढ़मुक्तेश्वर में कई दर्शनीय स्थल हैं",
+        "shortDescription": "जिला प्रशासन गंगा मंदिर, कंका कुआं, जामा मस्जिद और मीरा बाई की रेती जैसे कई स्थलों का उल्लेख करता है।",
+        "longDescription": "गढ़मुक्तेश्वर में कई धार्मिक और ऐतिहासिक स्थल हैं, जिनका उल्लेख आधिकारिक पर्यटन पेज पर है।",
+        "narrationHint": "इसे एक जगह की बजाय कई छोटी कहानियों वाले शहर की तरह पेश करें।"
+      }
+    }
+  },
+  {
+    "content_key": "amroha-bayen-ka-kuan",
+    "category": "places",
+    "tags": [
+      "amroha",
+      "stepwell",
+      "heritage"
+    ],
+    "location": {
+      "lng": 78.4755,
+      "lat": 28.8929
+    },
+    "interestingness": 8.3,
+    "confidence": 0.95,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Amroha has a historic stepwell",
+        "shortDescription": "Bayen Ka Kuan is listed as a historic site known for its ancient stepwell.",
+        "longDescription": "The official Amroha tourism listing identifies Bayen Ka Kuan as a historic site associated with an ancient stepwell and local cultural heritage.",
+        "narrationHint": "A good hidden-heritage hook for highway travellers."
+      },
+      "hi": {
+        "title": "अमरोहा में ऐतिहासिक बावड़ी है",
+        "shortDescription": "बायें का कुआं अमरोहा में एक ऐतिहासिक बावड़ी स्थल है।",
+        "longDescription": "अमरोहा की आधिकारिक पर्यटन सूची बायें का कुआं को प्राचीन बावड़ी और सांस्कृतिक विरासत से जुड़ा स्थल बताती है।",
+        "narrationHint": "इसे हाईवे से अलग छिपी विरासत की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "amroha-vasudev-tirth",
+    "category": "culture",
+    "tags": [
+      "amroha",
+      "vasudev",
+      "temple",
+      "tradition"
+    ],
+    "location": {
+      "lng": 78.4755,
+      "lat": 28.8929
+    },
+    "interestingness": 8.5,
+    "confidence": 0.82,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Amroha's Vasudev Tirth has a Krishna tradition",
+        "shortDescription": "The district tourism page records a local tradition connecting Vasudev Tirth with Lord Krishna.",
+        "longDescription": "The official tourism page describes Vasudev Tirth as an ancient sacred site and records a local tradition that Lord Krishna bathed in its pond. Treat this as a tradition, not independently proven chronology.",
+        "narrationHint": "Clearly separate the district's account from the traditional belief."
+      },
+      "hi": {
+        "title": "अमरोहा का वासुदेव तीर्थ कृष्ण से जुड़ी मान्यता रखता है",
+        "shortDescription": "जिला पर्यटन पेज वासुदेव तीर्थ को कृष्ण से जुड़ी स्थानीय मान्यता वाला प्राचीन स्थल बताता है।",
+        "longDescription": "आधिकारिक पेज इसे प्राचीन पवित्र स्थल बताता है और कृष्ण के स्नान से जुड़ी स्थानीय मान्यता दर्ज करता है।",
+        "narrationHint": "आस्था और प्रमाण के बीच फर्क साफ रखें।"
+      }
+    }
+  },
+  {
+    "content_key": "amroha-shah-wilayat-shrine",
+    "category": "culture",
+    "tags": [
+      "amroha",
+      "sufi",
+      "shrine",
+      "heritage"
+    ],
+    "location": {
+      "lng": 78.4755,
+      "lat": 28.8929
+    },
+    "interestingness": 8.0,
+    "confidence": 0.95,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Amroha has a major Sufi shrine",
+        "shortDescription": "The district lists the shrine of Syed Hussain Sharafuddin Shah Wilayat among Amroha's main attractions.",
+        "longDescription": "The official Amroha tourism listing identifies the shrine of Syed Hussain Sharafuddin Shah Wilayat as a major attraction visited by people from across India.",
+        "narrationHint": "Use it to show the city's layered religious heritage."
+      },
+      "hi": {
+        "title": "अमरोहा में प्रमुख सूफी दरगाह भी है",
+        "shortDescription": "शाह विलायत की दरगाह अमरोहा के प्रमुख आकर्षणों में है।",
+        "longDescription": "अमरोहा जिला प्रशासन के अनुसार सैयद हुसैन शरफुद्दीन शाह विलायत की दरगाह प्रमुख आकर्षणों में शामिल है।",
+        "narrationHint": "शहर की बहुस्तरीय धार्मिक विरासत दिखाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "amroha-mango-local-identity",
+    "category": "food",
+    "tags": [
+      "amroha",
+      "mango",
+      "agriculture"
+    ],
+    "location": {
+      "lng": 78.4755,
+      "lat": 28.8929
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Mangoes are part of Amroha's local identity",
+        "shortDescription": "The district description specifically mentions mangoes as abundant in Amroha.",
+        "longDescription": "The official district description mentions mangoes and fish as abundant local products, making local food and agriculture a natural story when passing the area.",
+        "narrationHint": "Keep this about local food culture, not a specific mango variety."
+      },
+      "hi": {
+        "title": "अमरोहा की पहचान में आम भी शामिल हैं",
+        "shortDescription": "जिला प्रशासन अमरोहा में आम की प्रचुरता का उल्लेख करता है।",
+        "longDescription": "अमरोहा के आधिकारिक विवरण में आम और मछली की स्थानीय उपलब्धता का उल्लेख है।",
+        "narrationHint": "इसे स्थानीय खाद्य संस्कृति से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "gajraula-industrial-city",
+    "category": "local_economy",
+    "tags": [
+      "gajraula",
+      "industry",
+      "amroha",
+      "nh9"
+    ],
+    "location": {
+      "lng": 78.2394,
+      "lat": 28.8449
+    },
+    "interestingness": 7.8,
+    "confidence": 0.95,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Gajraula grew into an important industrial city",
+        "shortDescription": "The Amroha district describes Gajraula as an important industrial city on the highway.",
+        "longDescription": "The district administration notes that Gajraula developed as an important industrial city with large and medium-scale industries.",
+        "narrationHint": "Connect the industrial landscape outside the window with the town's role on the highway."
+      },
+      "hi": {
+        "title": "गजरौला एक महत्वपूर्ण औद्योगिक शहर है",
+        "shortDescription": "अमरोहा जिला प्रशासन गजरौला को महत्वपूर्ण औद्योगिक शहर बताता है।",
+        "longDescription": "जिला प्रशासन के अनुसार गजरौला हाईवे पर विकसित एक महत्वपूर्ण औद्योगिक शहर है जहां बड़े और मध्यम उद्योग हैं।",
+        "narrationHint": "बाहर दिखते औद्योगिक इलाके को शहर की कहानी से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "tigri-ganga-mela",
+    "category": "culture",
+    "tags": [
+      "tigri",
+      "ganga",
+      "mela",
+      "kartik-purnima"
+    ],
+    "location": {
+      "lng": 78.294,
+      "lat": 28.964
+    },
+    "interestingness": 8.7,
+    "confidence": 0.94,
+    "sourceName": "District Amroha, Government of Uttar Pradesh",
+    "sourceUrl": "https://amroha.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Tigri hosts a major Ganga fair",
+        "shortDescription": "Tigri hosts a famous annual Ganga Mela around Kartik Purnima.",
+        "longDescription": "The Amroha district administration says a famous Ganga Mela is held at Tigri every Kartik Purnima and devotees take a holy dip in the river.",
+        "narrationHint": "A strong seasonal story; avoid inventing crowd numbers."
+      },
+      "hi": {
+        "title": "टिगरी में गंगा किनारे बड़ा मेला लगता है",
+        "shortDescription": "टिगरी में कार्तिक पूर्णिमा पर प्रसिद्ध गंगा मेला लगता है।",
+        "longDescription": "अमरोहा जिला प्रशासन के अनुसार हर कार्तिक पूर्णिमा पर टिगरी में गंगा मेला आयोजित होता है और श्रद्धालु स्नान करते हैं।",
+        "narrationHint": "गंगा किनारे जुटते मेले का दृश्य बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "moradabad-ramganga",
+    "category": "nature",
+    "tags": [
+      "moradabad",
+      "ramganga",
+      "river",
+      "geography"
+    ],
+    "location": {
+      "lng": 78.776,
+      "lat": 28.8389
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "sourceName": "District Moradabad, Government of Uttar Pradesh",
+    "sourceUrl": "https://moradabad.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Moradabad sits on the Ramganga",
+        "shortDescription": "Moradabad is situated on the banks of the Ramganga River.",
+        "longDescription": "The Moradabad district administration describes the city as being on the banks of the Ramganga, an important geographical anchor for the city.",
+        "narrationHint": "Use the river to explain the city's geography."
+      },
+      "hi": {
+        "title": "मुरादाबाद रामगंगा के किनारे बसा है",
+        "shortDescription": "मुरादाबाद शहर रामगंगा नदी के किनारे स्थित है।",
+        "longDescription": "जिला प्रशासन के अनुसार मुरादाबाद रामगंगा नदी के किनारे बसा है।",
+        "narrationHint": "नदी को शहर की भौगोलिक पहचान बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "moradabad-railway-centre",
+    "category": "interesting",
+    "tags": [
+      "moradabad",
+      "railway",
+      "transport"
+    ],
+    "location": {
+      "lng": 78.776,
+      "lat": 28.8389
+    },
+    "interestingness": 7.9,
+    "confidence": 0.95,
+    "sourceName": "District Moradabad, Government of Uttar Pradesh",
+    "sourceUrl": "https://moradabad.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Moradabad is also a major railway centre",
+        "shortDescription": "The district describes Moradabad as a divisional headquarters of Northern Railway.",
+        "longDescription": "Beyond brass, Moradabad is a divisional headquarters of Northern Railway, making it an important transport city too.",
+        "narrationHint": "Contrast the famous brass identity with its railway importance."
+      },
+      "hi": {
+        "title": "मुरादाबाद रेलवे के लिए भी महत्वपूर्ण है",
+        "shortDescription": "मुरादाबाद उत्तर रेलवे का मंडलीय मुख्यालय भी है।",
+        "longDescription": "पीतल के अलावा मुरादाबाद उत्तर रेलवे का मंडलीय मुख्यालय भी है।",
+        "narrationHint": "पीतल की प्रसिद्ध पहचान के साथ रेलवे की भूमिका बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "moradabad-jama-masjid-history",
+    "category": "places",
+    "tags": [
+      "moradabad",
+      "jama-masjid",
+      "mughal",
+      "history"
+    ],
+    "location": {
+      "lng": 78.776,
+      "lat": 28.8389
+    },
+    "interestingness": 8.0,
+    "confidence": 0.94,
+    "sourceName": "District Moradabad, Government of Uttar Pradesh",
+    "sourceUrl": "https://moradabad.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Moradabad's Jama Masjid connects to its Mughal-era beginnings",
+        "shortDescription": "The district history links the city's Jama Masjid to its early Mughal-era history.",
+        "longDescription": "The Moradabad district history says Rustam Khan established the city in the 1620s and constructed a Jama Masjid for the Mughal emperor.",
+        "narrationHint": "Use the mosque as a bridge between today's city and its early history."
+      },
+      "hi": {
+        "title": "मुरादाबाद की जामा मस्जिद मुगलकालीन इतिहास से जुड़ी है",
+        "shortDescription": "जिला इतिहास जामा मस्जिद को शहर के शुरुआती मुगलकालीन इतिहास से जोड़ता है।",
+        "longDescription": "जिला इतिहास के अनुसार रुस्तम खान ने 1620 के दशक में शहर की स्थापना की और यहां जामा मस्जिद बनवाई।",
+        "narrationHint": "आज के शहर को उसके शुरुआती इतिहास से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "moradabad-diverse-tourist-list",
+    "category": "places",
+    "tags": [
+      "moradabad",
+      "temples",
+      "mosque",
+      "library",
+      "tourism"
+    ],
+    "location": {
+      "lng": 78.776,
+      "lat": 28.8389
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "sourceName": "District Moradabad, Government of Uttar Pradesh",
+    "sourceUrl": "https://moradabad.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Moradabad's official tourist list is surprisingly diverse",
+        "shortDescription": "The district lists temples, Jama Masjid, Raza Library and recreational attractions.",
+        "longDescription": "Moradabad's official tourist list includes Raza Library, Jama Masjid, Sai Temple, Jain and Hanuman temples and other attractions.",
+        "narrationHint": "Use the variety itself as the interesting fact."
+      },
+      "hi": {
+        "title": "मुरादाबाद की पर्यटन सूची काफी विविध है",
+        "shortDescription": "मुरादाबाद में मंदिर, मस्जिद, पुस्तकालय और अन्य आकर्षण हैं।",
+        "longDescription": "आधिकारिक सूची में रज़ा लाइब्रेरी, जामा मस्जिद, साईं मंदिर, जैन और हनुमान मंदिर शामिल हैं।",
+        "narrationHint": "विविधता को ही कहानी का मुख्य बिंदु बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-royal-history-faizullah",
+    "category": "history",
+    "tags": [
+      "rampur",
+      "nawabs",
+      "faizullah-khan"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.2,
+    "confidence": 0.95,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/district-profile/",
+    "translations": {
+      "en": {
+        "title": "Rampur's identity begins with its Nawabi history",
+        "shortDescription": "The district profile identifies Nawab Faizullah Khan as the founder of Rampur state.",
+        "longDescription": "Rampur's official district profile says Nawab Faizullah Khan founded the state and ruled from 1774 to 1794.",
+        "narrationHint": "Introduce the Nawabi background before the library or food stories."
+      },
+      "hi": {
+        "title": "रामपुर की पहचान नवाबी इतिहास से शुरू होती है",
+        "shortDescription": "जिला प्रोफाइल के अनुसार नवाब फैज़ुल्लाह खान ने रामपुर राज्य की स्थापना की।",
+        "longDescription": "आधिकारिक जिला प्रोफाइल के अनुसार फैज़ुल्लाह खान ने राज्य की स्थापना की और 1774 से 1794 तक शासन किया।",
+        "narrationHint": "लाइब्रेरी या खान-पान से पहले नवाबी पृष्ठभूमि बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-urdu-poetry",
+    "category": "culture",
+    "tags": [
+      "rampur",
+      "urdu",
+      "poetry",
+      "ghazal"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.9,
+    "confidence": 0.94,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/culture-and-heritage/",
+    "translations": {
+      "en": {
+        "title": "Rampur became a major school of Urdu poetry",
+        "shortDescription": "Rampur is described by the district as a school of Urdu poetry after Delhi and Lucknow.",
+        "longDescription": "Rampur's heritage page describes the city as the third school of Urdu poetry after Delhi and Lucknow and notes royal patronage of poets.",
+        "narrationHint": "Use this as a literary surprise."
+      },
+      "hi": {
+        "title": "रामपुर उर्दू शायरी का बड़ा केंद्र बना",
+        "shortDescription": "जिला प्रशासन रामपुर को दिल्ली और लखनऊ के बाद उर्दू शायरी का प्रमुख स्कूल बताता है।",
+        "longDescription": "रामपुर के विरासत पेज के अनुसार नवाबों के संरक्षण ने शहर को उर्दू कविता और शायरी का महत्वपूर्ण केंद्र बनाया।",
+        "narrationHint": "इसे साहित्यिक सरप्राइज़ की तरह बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-sahaswan-gharana",
+    "category": "culture",
+    "tags": [
+      "rampur",
+      "music",
+      "rampur-sahaswan",
+      "hindustani"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 9.0,
+    "confidence": 0.94,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/culture-and-heritage/",
+    "translations": {
+      "en": {
+        "title": "Rampur is associated with the Rampur-Sahaswan gharana",
+        "shortDescription": "The district traces the gharana to the musical traditions of Rampur's court.",
+        "longDescription": "Rampur's heritage page connects the Rampur-Sahaswan gharana of Hindustani classical music to court musicians and figures such as Ustad Inayat Hussain Khan.",
+        "narrationHint": "Mention the courtly roots of the musical tradition."
+      },
+      "hi": {
+        "title": "रामपुर-सहसवान घराने की जड़ें रामपुर के दरबार से जुड़ी हैं",
+        "shortDescription": "जिला प्रशासन के अनुसार रामपुर-सहसवान घराना रामपुर की दरबारी संगीत परंपरा से जुड़ा है।",
+        "longDescription": "रामपुर के विरासत पेज के अनुसार इस घराने की जड़ें नवाबी दरबार के संगीतकारों की परंपरा में हैं।",
+        "narrationHint": "दरबारी संगीत से घराने तक की यात्रा बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-zardozi-zari",
+    "category": "craft",
+    "tags": [
+      "rampur",
+      "zardozi",
+      "zari",
+      "handicraft"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.0,
+    "confidence": 0.93,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/culture-and-heritage/",
+    "translations": {
+      "en": {
+        "title": "Rampur has a zardozi and zari tradition",
+        "shortDescription": "The district lists zardozi and zari work among Rampur's traditional handicrafts.",
+        "longDescription": "Rampur's official heritage page says the city is known for zardozi and zari work associated historically with Nawabi clothing and local craftsmanship.",
+        "narrationHint": "Connect craft with courtly history."
+      },
+      "hi": {
+        "title": "रामपुर की पहचान ज़रदोज़ी और ज़री से भी है",
+        "shortDescription": "जिला प्रशासन रामपुर की पारंपरिक हस्तकलाओं में ज़रदोज़ी और ज़री का उल्लेख करता है।",
+        "longDescription": "रामपुर के विरासत पेज के अनुसार शहर ज़रदोज़ी और ज़री काम के लिए जाना जाता है।",
+        "narrationHint": "हस्तकला को नवाबी इतिहास से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-kite-making",
+    "category": "craft",
+    "tags": [
+      "rampur",
+      "kites",
+      "handicraft",
+      "culture"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.1,
+    "confidence": 0.93,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/culture-and-heritage/",
+    "translations": {
+      "en": {
+        "title": "Rampur also has a kite-making tradition",
+        "shortDescription": "The district identifies kite making as one of Rampur's handicraft industries.",
+        "longDescription": "Alongside zardozi and zari, the official heritage page notes a kite-making industry producing kites in different sizes and shapes.",
+        "narrationHint": "The unexpected kite connection makes a good contrast with the royal image."
+      },
+      "hi": {
+        "title": "रामपुर में पतंग बनाने की परंपरा भी है",
+        "shortDescription": "जिला प्रशासन रामपुर की हस्तकलाओं में पतंग बनाने का उद्योग भी गिनता है।",
+        "longDescription": "आधिकारिक विरासत पेज में अलग-अलग आकार की पतंग बनाने की परंपरा का उल्लेख है।",
+        "narrationHint": "नवाबी छवि के साथ इस अनपेक्षित कहानी को जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-khas-bagh-architecture",
+    "category": "architecture",
+    "tags": [
+      "rampur",
+      "khas-bagh",
+      "architecture",
+      "nawabi"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.6,
+    "confidence": 0.93,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/culture-and-heritage/",
+    "translations": {
+      "en": {
+        "title": "Khas Bagh mixes Mughal and British influences",
+        "shortDescription": "Rampur's Khas Bagh palace is described as a blend of Mughal and British architectural styles.",
+        "longDescription": "The official heritage page says Khas Bagh was completed in 1930 and combines Mughal and British architectural influences.",
+        "narrationHint": "The architectural blend is the hook."
+      },
+      "hi": {
+        "title": "रामपुर का खास बाग़ मुगल और ब्रिटिश वास्तु प्रभाव मिलाता है",
+        "shortDescription": "जिला प्रशासन खास बाग़ को मुगल और ब्रिटिश वास्तुशैली के मिश्रण के रूप में बताता है।",
+        "longDescription": "आधिकारिक विरासत पेज के अनुसार खास बाग़ 1930 में पूरा हुआ और इसमें दोनों वास्तु प्रभाव हैं।",
+        "narrationHint": "दो वास्तु परंपराओं के मेल को मुख्य तथ्य बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rampur-gandhi-samadhi",
+    "category": "history",
+    "tags": [
+      "rampur",
+      "gandhi",
+      "memorial",
+      "independence"
+    ],
+    "location": {
+      "lng": 79.021,
+      "lat": 28.8
+    },
+    "interestingness": 8.4,
+    "confidence": 0.92,
+    "sourceName": "District Rampur, Government of Uttar Pradesh",
+    "sourceUrl": "https://rampur.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Rampur has a Gandhi memorial",
+        "shortDescription": "Gandhi Samadhi is listed among Rampur's tourist places.",
+        "longDescription": "The district administration lists Gandhi Samadhi as a memorial associated with Mahatma Gandhi and the freedom struggle.",
+        "narrationHint": "Use it as a short historical surprise."
+      },
+      "hi": {
+        "title": "रामपुर में गांधी समाधि भी है",
+        "shortDescription": "गांधी समाधि रामपुर के प्रमुख पर्यटन स्थलों में शामिल है।",
+        "longDescription": "जिला प्रशासन इसे महात्मा गांधी और स्वतंत्रता संघर्ष से जुड़ा स्मारक बताता है।",
+        "narrationHint": "इसे छोटे ऐतिहासिक सरप्राइज़ की तरह बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rudrapur-lake-paradise",
+    "category": "places",
+    "tags": [
+      "rudrapur",
+      "lake",
+      "kalyani",
+      "udham-singh-nagar"
+    ],
+    "location": {
+      "lng": 79.399,
+      "lat": 28.98
+    },
+    "interestingness": 7.8,
+    "confidence": 0.95,
+    "sourceName": "District Udham Singh Nagar, Government of Uttarakhand",
+    "sourceUrl": "https://usnagar.nic.in/tourist-place/lake-paradise-rudrapur/",
+    "translations": {
+      "en": {
+        "title": "Rudrapur has a lake in the middle of the city",
+        "shortDescription": "Lake Paradise is a green development in central Rudrapur near the Kalyani River.",
+        "longDescription": "The district administration describes Lake Paradise as a green development in central Rudrapur near the Kalyani River and says it attracts visitors throughout the year.",
+        "narrationHint": "Contrast the highway with a green urban stop."
+      },
+      "hi": {
+        "title": "रुद्रपुर के बीचोंबीच एक झील है",
+        "shortDescription": "लेक पैराडाइज रुद्रपुर में कल्याणी नदी के पास हरित स्थल है।",
+        "longDescription": "उधम सिंह नगर जिला प्रशासन इसे रुद्रपुर के केंद्र में कल्याणी नदी के पास विकसित हरित पर्यटन स्थल बताता है।",
+        "narrationHint": "औद्योगिक शहर के बीच हरित ठहराव का विरोधाभास बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "rudrapur-atariya-temple",
+    "category": "places",
+    "tags": [
+      "rudrapur",
+      "atariya",
+      "temple"
+    ],
+    "location": {
+      "lng": 79.398,
+      "lat": 28.98
+    },
+    "interestingness": 7.6,
+    "confidence": 0.95,
+    "sourceName": "District Udham Singh Nagar, Government of Uttarakhand",
+    "sourceUrl": "https://usnagar.nic.in/tourist-place/atariya-temple/",
+    "translations": {
+      "en": {
+        "title": "Atariya Temple is close to Rudrapur's centre",
+        "shortDescription": "The district places Atariya Temple about 2 km from Rudrapur bus station.",
+        "longDescription": "Atariya Temple is listed as a local Rudrapur attraction and is described as about 2 km from the city's bus station.",
+        "narrationHint": "A practical hidden-stop recommendation rather than a historical claim."
+      },
+      "hi": {
+        "title": "रुद्रपुर के पास अटरिया मंदिर है",
+        "shortDescription": "अटरिया मंदिर रुद्रपुर बस स्टेशन से लगभग 2 किमी दूर है।",
+        "longDescription": "जिला प्रशासन इसे रुद्रपुर का स्थानीय आकर्षण बताता है।",
+        "narrationHint": "इसे स्थानीय पड़ाव की तरह बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "pantnagar-first-agricultural-university",
+    "category": "agriculture",
+    "tags": [
+      "pantnagar",
+      "agriculture",
+      "university",
+      "history"
+    ],
+    "location": {
+      "lng": 79.438,
+      "lat": 29.022
+    },
+    "interestingness": 9.3,
+    "confidence": 0.98,
+    "sourceName": "Govind Ballabh Pant University of Agriculture & Technology",
+    "sourceUrl": "https://www.gbpuat.ac.in/",
+    "translations": {
+      "en": {
+        "title": "Pantnagar is home to India's first agricultural university",
+        "shortDescription": "GB Pant University says it was established in 1960 as India's first agricultural university.",
+        "longDescription": "The university states that it was established in 1960 on the American land-grant model and became India's first agricultural university.",
+        "narrationHint": "Connect the surrounding farmland to India's agricultural education history."
+      },
+      "hi": {
+        "title": "पंतनगर में भारत का पहला कृषि विश्वविद्यालय स्थापित हुआ",
+        "shortDescription": "जीबी पंत विश्वविद्यालय के अनुसार इसकी स्थापना 1960 में भारत के पहले कृषि विश्वविद्यालय के रूप में हुई।",
+        "longDescription": "विश्वविद्यालय के अनुसार इसकी स्थापना 1960 में अमेरिकी लैंड-ग्रांट मॉडल पर भारत के पहले कृषि विश्वविद्यालय के रूप में हुई।",
+        "narrationHint": "रास्ते के कृषि क्षेत्र को कृषि शिक्षा के इतिहास से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "pantnagar-green-revolution",
+    "category": "agriculture",
+    "tags": [
+      "pantnagar",
+      "green-revolution",
+      "research"
+    ],
+    "location": {
+      "lng": 79.438,
+      "lat": 29.022
+    },
+    "interestingness": 9.0,
+    "confidence": 0.96,
+    "sourceName": "Govind Ballabh Pant University of Agriculture & Technology",
+    "sourceUrl": "https://www.gbpuat.ac.in/",
+    "translations": {
+      "en": {
+        "title": "Pantnagar is tied to India's Green Revolution story",
+        "shortDescription": "The university describes Pantnagar as the 'Harbinger of Green Revolution'.",
+        "longDescription": "GB Pant University uses the phrase 'Harbinger of Green Revolution' and highlights decades of agricultural research and released crop varieties.",
+        "narrationHint": "Attribute the phrase to the university rather than presenting it as an uncontested title."
+      },
+      "hi": {
+        "title": "पंतनगर को हरित क्रांति की कहानी से जोड़ा जाता है",
+        "shortDescription": "विश्वविद्यालय पंतनगर को 'Harbinger of Green Revolution' कहता है।",
+        "longDescription": "जीबी पंत विश्वविद्यालय अपने कृषि अनुसंधान और हरित क्रांति से जुड़ी भूमिका पर प्रकाश डालता है।",
+        "narrationHint": "'विश्वविद्यालय के अनुसार' कहकर दावा बताएं।"
+      }
+    }
+  },
+  {
+    "content_key": "pantnagar-land-grant-model",
+    "category": "history",
+    "tags": [
+      "pantnagar",
+      "land-grant",
+      "education",
+      "agriculture"
+    ],
+    "location": {
+      "lng": 79.438,
+      "lat": 29.022
+    },
+    "interestingness": 8.7,
+    "confidence": 0.98,
+    "sourceName": "Govind Ballabh Pant University of Agriculture & Technology",
+    "sourceUrl": "https://www.gbpuat.ac.in/",
+    "translations": {
+      "en": {
+        "title": "Pantnagar was inspired by America's land-grant model",
+        "shortDescription": "The university says its founding followed the American land-grant university pattern.",
+        "longDescription": "GB Pant University says its 1960 founding followed the American land-grant model, combining education, research and extension in agriculture.",
+        "narrationHint": "The surprising India-US education connection is the hook."
+      },
+      "hi": {
+        "title": "पंतनगर विश्वविद्यालय अमेरिकी लैंड-ग्रांट मॉडल से प्रेरित था",
+        "shortDescription": "विश्वविद्यालय की स्थापना अमेरिकी लैंड-ग्रांट मॉडल पर की गई थी।",
+        "longDescription": "जीबी पंत विश्वविद्यालय के अनुसार 1960 में इसकी स्थापना अमेरिकी लैंड-ग्रांट मॉडल पर हुई।",
+        "narrationHint": "भारत-अमेरिका शिक्षा मॉडल के इस संबंध को मुख्य तथ्य बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "pantnagar-research-farm-scale",
+    "category": "agriculture",
+    "tags": [
+      "pantnagar",
+      "farm",
+      "research"
+    ],
+    "location": {
+      "lng": 79.438,
+      "lat": 29.022
+    },
+    "interestingness": 8.3,
+    "confidence": 0.97,
+    "sourceName": "Govind Ballabh Pant University of Agriculture & Technology",
+    "sourceUrl": "https://www.gbpuat.ac.in/",
+    "translations": {
+      "en": {
+        "title": "Pantnagar's university farm is enormous",
+        "shortDescription": "The university says its farm covers nearly 6,000 acres for continuous research.",
+        "longDescription": "GB Pant University describes a nearly 6,000-acre university farm used for continuous agricultural research.",
+        "narrationHint": "Use the scale as the surprise."
+      },
+      "hi": {
+        "title": "पंतनगर विश्वविद्यालय का शोध फार्म बहुत बड़ा है",
+        "shortDescription": "विश्वविद्यालय के अनुसार उसका फार्म लगभग 6,000 एकड़ में फैला है।",
+        "longDescription": "जीबी पंत विश्वविद्यालय अपने लगभग 6,000 एकड़ के विश्वविद्यालय फार्म का उल्लेख करता है, जहां लगातार कृषि अनुसंधान होता है।",
+        "narrationHint": "विशाल शोध परिसर को कहानी का हुक बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "bhowali-fruit-market-sanatorium",
+    "category": "culture",
+    "tags": [
+      "bhowali",
+      "fruit",
+      "sanatorium",
+      "nainital"
+    ],
+    "location": {
+      "lng": 79.5188,
+      "lat": 29.3835
+    },
+    "interestingness": 8.4,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/bhowali/",
+    "translations": {
+      "en": {
+        "title": "Bhowali became known as a hill fruit market",
+        "shortDescription": "The district describes Bhowali as a hill fruit market and notes a TB sanatorium established in 1912.",
+        "longDescription": "The Nainital district administration describes Bhowali as a scenic road junction and hill fruit market and records its TB sanatorium established in 1912.",
+        "narrationHint": "Pair the fruit-market identity with the unexpected medical-history detail."
+      },
+      "hi": {
+        "title": "भवाली पहाड़ी फलों के बाजार के लिए जाना जाता है",
+        "shortDescription": "जिला प्रशासन भवाली को पहाड़ी फलों के बाजार और 1912 के टीबी सैनिटोरियम से जोड़ता है।",
+        "longDescription": "नैनीताल जिला प्रशासन भवाली को पहाड़ी फलों का बाजार बताता है और 1912 में टीबी सैनिटोरियम की स्थापना का उल्लेख करता है।",
+        "narrationHint": "फलों और चिकित्सा इतिहास के इस मेल को कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "bhowali-kumaon-road-junction",
+    "category": "road",
+    "tags": [
+      "bhowali",
+      "kumaon",
+      "road-junction"
+    ],
+    "location": {
+      "lng": 79.5188,
+      "lat": 29.3835
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/bhowali/",
+    "translations": {
+      "en": {
+        "title": "Bhowali is a key road junction in Kumaon",
+        "shortDescription": "The district describes Bhowali as a road junction serving nearby hill stations.",
+        "longDescription": "Bhowali is a strategic road junction from which travellers can head toward Nainital and other nearby hill destinations.",
+        "narrationHint": "Use this when the journey changes from highway travel to a network of hill roads."
+      },
+      "hi": {
+        "title": "भवाली कुमाऊं की पहाड़ी सड़कों का महत्वपूर्ण जंक्शन है",
+        "shortDescription": "भवाली आसपास के पहाड़ी पर्यटन स्थलों के लिए महत्वपूर्ण सड़क जंक्शन है।",
+        "longDescription": "जिला प्रशासन भवाली को आसपास के हिल स्टेशनों को जोड़ने वाला सड़क जंक्शन बताता है।",
+        "narrationHint": "यहां से बदलते पहाड़ी रास्तों के नेटवर्क को कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "kainchi-dham-1962",
+    "category": "places",
+    "tags": [
+      "kainchi-dham",
+      "neem-karoli-baba",
+      "temple"
+    ],
+    "location": {
+      "lng": 79.444,
+      "lat": 29.358
+    },
+    "interestingness": 9.4,
+    "confidence": 0.97,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://uttarakhandtourism.gov.in/destination/nainital/",
+    "translations": {
+      "en": {
+        "title": "Kainchi Dham was founded in 1962",
+        "shortDescription": "Uttarakhand Tourism says Kainchi Dham was founded by Neem Karoli Baba in 1962.",
+        "longDescription": "The state tourism department describes Kainchi Dham as a Hanuman temple and ashram founded by Neem Karoli Baba in 1962, between hills shaped like scissors.",
+        "narrationHint": "Use the 1962 date and the scissors-shaped hills as the hook."
+      },
+      "hi": {
+        "title": "कैंची धाम की स्थापना 1962 में हुई थी",
+        "shortDescription": "उत्तराखंड पर्यटन के अनुसार कैंची धाम की स्थापना नीम करौली बाबा ने 1962 में की थी।",
+        "longDescription": "उत्तराखंड पर्यटन कैंची धाम को 1962 में स्थापित हनुमान मंदिर और आश्रम बताता है।",
+        "narrationHint": "1962 और कैंची जैसी पहाड़ियों को मुख्य हुक बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "kainchi-dham-famous-visitors",
+    "category": "interesting",
+    "tags": [
+      "kainchi-dham",
+      "steve-jobs",
+      "mark-zuckerberg"
+    ],
+    "location": {
+      "lng": 79.444,
+      "lat": 29.358
+    },
+    "interestingness": 9.5,
+    "confidence": 0.9,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://uttarakhandtourism.gov.in/destination/nainital/",
+    "translations": {
+      "en": {
+        "title": "Kainchi Dham attracted famous technology figures",
+        "shortDescription": "Uttarakhand Tourism notes visits by Steve Jobs and Mark Zuckerberg.",
+        "longDescription": "The state tourism department says Kainchi Dham gained additional recognition through visits by Steve Jobs and Mark Zuckerberg.",
+        "narrationHint": "Do not embellish what they did there; stick to the tourism department's statement."
+      },
+      "hi": {
+        "title": "कैंची धाम से टेक जगत के बड़े नाम भी जुड़े हैं",
+        "shortDescription": "उत्तराखंड पर्यटन स्टीव जॉब्स और मार्क ज़करबर्ग के यहां आने का उल्लेख करता है।",
+        "longDescription": "उत्तराखंड पर्यटन के अनुसार कैंची धाम को इन यात्राओं से अतिरिक्त पहचान मिली।",
+        "narrationHint": "दर्ज तथ्य तक सीमित रहें, आगे की कहानी न गढ़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "bhimtal-lake-island-aquarium",
+    "category": "nature",
+    "tags": [
+      "bhimtal",
+      "lake",
+      "island",
+      "aquarium"
+    ],
+    "location": {
+      "lng": 79.563,
+      "lat": 29.344
+    },
+    "interestingness": 8.5,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/bhimtal/",
+    "translations": {
+      "en": {
+        "title": "Bhimtal has an island in its lake",
+        "shortDescription": "The lake has an island with an aquarium reached by boat.",
+        "longDescription": "The district describes Bhimtal's lake as larger than Naini Lake and notes an island in the middle with an aquarium reached by boat.",
+        "narrationHint": "The island-in-a-lake detail is the hook."
+      },
+      "hi": {
+        "title": "भीमताल की झील के बीच एक द्वीप है",
+        "shortDescription": "भीमताल झील के बीच एक द्वीप है जहां एक एक्वेरियम भी है।",
+        "longDescription": "जिला प्रशासन के अनुसार झील के बीच द्वीप और उस पर एक्वेरियम है जहां नाव से पहुंचा जाता है।",
+        "narrationHint": "झील के बीच द्वीप वाले तथ्य को मुख्य हुक बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "bhimtal-bhimeshwar-17th-century",
+    "category": "history",
+    "tags": [
+      "bhimtal",
+      "bhimeshwar",
+      "temple",
+      "17th-century"
+    ],
+    "location": {
+      "lng": 79.563,
+      "lat": 29.344
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/bhimtal/",
+    "translations": {
+      "en": {
+        "title": "Bhimtal has a 17th-century temple complex",
+        "shortDescription": "The district describes the Bhimeshwar temple complex as dating to the 17th century.",
+        "longDescription": "Along Bhimtal's lake, the district administration identifies a Bhimeshwar temple complex dating to the 17th century.",
+        "narrationHint": "Use the age of the temple complex as the hook."
+      },
+      "hi": {
+        "title": "भीमताल में 17वीं सदी का भीमेश्वर मंदिर परिसर है",
+        "shortDescription": "जिला प्रशासन भीमेश्वर मंदिर परिसर को 17वीं सदी का बताता है।",
+        "longDescription": "भीमताल झील के पास जिला प्रशासन 17वीं सदी के भीमेश्वर मंदिर परिसर का उल्लेख करता है।",
+        "narrationHint": "मंदिर की पुरानी उम्र को मुख्य तथ्य बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "naukuchiatal-nine-corners",
+    "category": "nature",
+    "tags": [
+      "naukuchiatal",
+      "lake",
+      "nine-corners"
+    ],
+    "location": {
+      "lng": 79.553,
+      "lat": 29.335
+    },
+    "interestingness": 8.9,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/naukuchiatal/",
+    "translations": {
+      "en": {
+        "title": "Naukuchiatal is the lake of nine corners",
+        "shortDescription": "The district describes Naukuchiatal as a lake with nine corners.",
+        "longDescription": "Naukuchiatal is described as a deep lake with nine corners, set in a valley suitable for boating, angling and bird watching.",
+        "narrationHint": "Ask the listener to imagine finding all nine corners from the shore."
+      },
+      "hi": {
+        "title": "नौकुचियाताल नौ कोनों वाली झील है",
+        "shortDescription": "जिला प्रशासन नौकुचियाताल को नौ कोनों वाली गहरी झील बताता है।",
+        "longDescription": "नौकुचियाताल लगभग 1,220 मीटर की ऊंचाई पर नौ कोनों वाली झील के रूप में वर्णित है।",
+        "narrationHint": "नौ कोनों की कल्पना करवाना कहानी का हुक है।"
+      }
+    }
+  },
+  {
+    "content_key": "sattal-cluster-of-lakes",
+    "category": "nature",
+    "tags": [
+      "sattal",
+      "lakes",
+      "oak-forest"
+    ],
+    "location": {
+      "lng": 79.525,
+      "lat": 29.343
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/sattal/",
+    "translations": {
+      "en": {
+        "title": "Sattal is a cluster of lakes in an oak forest",
+        "shortDescription": "Sattal is described as a group of lakes surrounded by oak forest.",
+        "longDescription": "The district describes Sattal as a cluster of lakes amid oak forest and names several of the lakes in the group.",
+        "narrationHint": "Use the idea of several lakes packed into one forested landscape."
+      },
+      "hi": {
+        "title": "सातताल ओक के जंगलों के बीच झीलों का समूह है",
+        "shortDescription": "सातताल ओक के जंगलों के बीच कई झीलों का समूह है।",
+        "longDescription": "जिला प्रशासन सातताल को ओक के जंगलों के बीच झीलों का समूह बताता है।",
+        "narrationHint": "एक जंगल में कई झीलों की तस्वीर सामने रखें।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-seven-hills",
+    "category": "nature",
+    "tags": [
+      "nainital",
+      "seven-hills",
+      "geography"
+    ],
+    "location": {
+      "lng": 79.4636,
+      "lat": 29.3919
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://www.uttarakhandtourism.gov.in/explore/nainital",
+    "translations": {
+      "en": {
+        "title": "Nainital is surrounded by seven hills",
+        "shortDescription": "Uttarakhand Tourism describes Nainital as being surrounded by seven hills.",
+        "longDescription": "The state tourism department lists seven surrounding hills and describes Nainital as centred around Naini Lake in the Kumaon Himalayas.",
+        "narrationHint": "Introduce the lake as the centre of a bowl-like landscape of hills."
+      },
+      "hi": {
+        "title": "नैनीताल सात पहाड़ियों से घिरा है",
+        "shortDescription": "उत्तराखंड पर्यटन के अनुसार नैनीताल सात पहाड़ियों से घिरा है।",
+        "longDescription": "उत्तराखंड पर्यटन नैनीताल के चारों ओर सात पहाड़ियों और नैनी झील के आसपास बसे शहर का उल्लेख करता है।",
+        "narrationHint": "झील के चारों ओर पहाड़ियों की कटोरे जैसी संरचना समझाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-summer-capital",
+    "category": "history",
+    "tags": [
+      "nainital",
+      "british",
+      "summer-capital",
+      "colonial"
+    ],
+    "location": {
+      "lng": 79.4636,
+      "lat": 29.3919
+    },
+    "interestingness": 8.9,
+    "confidence": 0.97,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://www.uttarakhandtourism.gov.in/explore/nainital",
+    "translations": {
+      "en": {
+        "title": "Nainital was a summer capital during the British era",
+        "shortDescription": "Uttarakhand Tourism notes Nainital's role as the summer capital of the United Provinces during British rule.",
+        "longDescription": "The state tourism department highlights Nainital's colonial heritage and its role as the summer capital of the United Provinces.",
+        "narrationHint": "Use this to explain the town's colonial architecture and institutions."
+      },
+      "hi": {
+        "title": "नैनीताल ब्रिटिश दौर में ग्रीष्मकालीन राजधानी था",
+        "shortDescription": "उत्तराखंड पर्यटन नैनीताल को संयुक्त प्रांत की ग्रीष्मकालीन राजधानी के रूप में दर्ज करता है।",
+        "longDescription": "उत्तराखंड पर्यटन नैनीताल की औपनिवेशिक विरासत और संयुक्त प्रांत की ग्रीष्मकालीन राजधानी के रूप में इसकी भूमिका बताता है।",
+        "narrationHint": "शहर की औपनिवेशिक इमारतों की पृष्ठभूमि समझाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-ronald-ross",
+    "category": "interesting",
+    "tags": [
+      "nainital",
+      "ronald-ross",
+      "science",
+      "malaria"
+    ],
+    "location": {
+      "lng": 79.4636,
+      "lat": 29.3919
+    },
+    "interestingness": 9.2,
+    "confidence": 0.96,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://www.uttarakhandtourism.gov.in/explore/nainital",
+    "translations": {
+      "en": {
+        "title": "A Nobel laureate in medicine was born in Nainital",
+        "shortDescription": "Uttarakhand Tourism notes that Sir Ronald Ross was born in Nainital in 1857.",
+        "longDescription": "The tourism department records Nainital as the birthplace of Sir Ronald Ross, who later received the Nobel Prize for Physiology or Medicine for work on malaria.",
+        "narrationHint": "Connect the hill town to global medical science."
+      },
+      "hi": {
+        "title": "नैनीताल में एक नोबेल पुरस्कार विजेता का जन्म हुआ था",
+        "shortDescription": "उत्तराखंड पर्यटन के अनुसार सर रोनाल्ड रॉस का जन्म 1857 में नैनीताल में हुआ था।",
+        "longDescription": "उत्तराखंड पर्यटन रोनाल्ड रॉस को नैनीताल में जन्मा बताता है और मलेरिया पर उनके काम के लिए नोबेल पुरस्कार का उल्लेख करता है।",
+        "narrationHint": "पहाड़ी शहर को वैश्विक चिकित्सा इतिहास से जोड़ें।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-lake-mallital-tallital",
+    "category": "places",
+    "tags": [
+      "naini-lake",
+      "mallital",
+      "tallital",
+      "nainital"
+    ],
+    "location": {
+      "lng": 79.4636,
+      "lat": 29.3919
+    },
+    "interestingness": 8.2,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/naini-lake/",
+    "translations": {
+      "en": {
+        "title": "Naini Lake has two named ends",
+        "shortDescription": "The north end is Mallital and the south end is Tallital.",
+        "longDescription": "The official Nainital district page identifies the northern end of Naini Lake as Mallital and the southern end as Tallital, connected by the lake bridge.",
+        "narrationHint": "Useful orientation for first-time visitors."
+      },
+      "hi": {
+        "title": "नैनी झील के दो सिरों के नाम मल्लीताल और तल्लीताल हैं",
+        "shortDescription": "झील के उत्तरी छोर को मल्लीताल और दक्षिणी छोर को तल्लीताल कहा जाता है।",
+        "longDescription": "जिला प्रशासन के अनुसार नैनी झील के दोनों सिरों के नाम मल्लीताल और तल्लीताल हैं।",
+        "narrationHint": "पहली बार आने वाले यात्री को शहर समझाने के लिए उपयोग करें।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-raj-bhavan-113-rooms",
+    "category": "architecture",
+    "tags": [
+      "nainital",
+      "raj-bhavan",
+      "colonial",
+      "architecture"
+    ],
+    "location": {
+      "lng": 79.458,
+      "lat": 29.375
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/governors-house-raj-bhavan/",
+    "translations": {
+      "en": {
+        "title": "Nainital's Raj Bhavan has 113 rooms",
+        "shortDescription": "The district says Raj Bhavan has 113 rooms and was built as a British governor's residence.",
+        "longDescription": "The Nainital district administration describes Raj Bhavan as a former British governor's residence with 113 rooms, gardens and golf links.",
+        "narrationHint": "The 113-room figure is the hook."
+      },
+      "hi": {
+        "title": "नैनीताल के राजभवन में 113 कमरे हैं",
+        "shortDescription": "जिला प्रशासन के अनुसार राजभवन में 113 कमरे हैं और यह ब्रिटिश दौर का गवर्नर निवास था।",
+        "longDescription": "नैनीताल जिला प्रशासन राजभवन को 113 कमरों वाले पूर्व ब्रिटिश गवर्नर निवास के रूप में बताता है।",
+        "narrationHint": "113 कमरों के आंकड़े को मुख्य हुक बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-flatts-cultural-mix",
+    "category": "culture",
+    "tags": [
+      "nainital",
+      "flatts",
+      "market",
+      "gurudwara",
+      "temple"
+    ],
+    "location": {
+      "lng": 79.461,
+      "lat": 29.395
+    },
+    "interestingness": 8.5,
+    "confidence": 0.95,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/the-flatts/",
+    "translations": {
+      "en": {
+        "title": "The Flats brings many sides of Nainital together",
+        "shortDescription": "The Flats combines markets, sports space and several places of worship around the lake.",
+        "longDescription": "The district lists a statue, bandstand, sports ground, Chat Bazaar, Bhotia Market, mosque, gurudwara and Naina Devi temple around The Flats.",
+        "narrationHint": "Highlight the unusual concentration of different activities in one small area."
+      },
+      "hi": {
+        "title": "फ्लैट्स नैनीताल की कई परतों को एक जगह जोड़ता है",
+        "shortDescription": "फ्लैट्स में बाजार, खेल का मैदान और अलग-अलग धार्मिक स्थल हैं।",
+        "longDescription": "जिला प्रशासन के अनुसार यहां बाजार, खेल मैदान, मस्जिद, गुरुद्वारा और नैना देवी मंदिर जैसे स्थल हैं।",
+        "narrationHint": "एक छोटे इलाके में शहर की विविधता को कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "content_key": "nainital-snow-view",
+    "category": "nature",
+    "tags": [
+      "nainital",
+      "snow-view",
+      "himalayas",
+      "ropeway"
+    ],
+    "location": {
+      "lng": 79.459,
+      "lat": 29.405
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "sourceName": "District Nainital, Government of Uttarakhand",
+    "sourceUrl": "https://nainital.nic.in/tourist-place/snow-view/",
+    "translations": {
+      "en": {
+        "title": "Snow View is one of Nainital's accessible high viewpoints",
+        "shortDescription": "Snow View is about 2.5 km from town and can be reached by ropeway or road.",
+        "longDescription": "The district describes Snow View as a 2,270-metre viewpoint accessible by ropeway and motorable road, with views toward the Himalayan snow ranges.",
+        "narrationHint": "Use it as a destination teaser rather than a promise of visible snow every day."
+      },
+      "hi": {
+        "title": "स्नो व्यू नैनीताल का आसान ऊंचा व्यू-पॉइंट है",
+        "shortDescription": "स्नो व्यू शहर से लगभग 2.5 किमी दूर है और रोपवे या सड़क से पहुंचा जा सकता है।",
+        "longDescription": "जिला प्रशासन इसे 2,270 मीटर ऊंचा व्यू-पॉइंट बताता है जहां रोपवे और सड़क से पहुंचा जा सकता है।",
+        "narrationHint": "इसे नैनीताल पहुंचने के बाद देखने लायक जगह के टीज़र की तरह रखें।"
+      }
+    }
+  }
+]

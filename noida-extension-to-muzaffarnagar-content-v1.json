@@ -1,0 +1,5415 @@
+[
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "road",
+      "cluster:dme",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 8.7,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1557867&lang=2&reg=3",
+    "translations": {
+      "en": {
+        "title": "Delhi–Meerut Expressway was opened in 2021",
+        "shortDescription": "The 96 km Delhi–Meerut Expressway project was initiated in 2015 and opened to traffic on 1 April 2021.",
+        "narrationHint": "Delhi–Meerut Expressway was opened in 2021"
+      },
+      "hi": {
+        "title": "Delhi–मेरठ एक्सप्रेसवे 2021 में खुला",
+        "shortDescription": "96 किमी लंबी दिल्ली–मेरठ एक्सप्रेसवे परियोजना 2015 में शुरू हुई और 1 अप्रैल 2021 को यातायात के लिए खोली गई।",
+        "narrationHint": "आपकी टेस्ट यात्रा का पहला बड़ा हिस्सा इसी नए कॉरिडोर पर है।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "road",
+      "cluster:dme",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 8.399999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1557867&lang=2&reg=3",
+    "translations": {
+      "en": {
+        "title": "Delhi–Meerut Expressway was opened in 2021 — why it matters on this drive",
+        "shortDescription": "The 96 km Delhi–Meerut Expressway project was initiated in 2015 and opened to traffic on 1 April 2021. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Delhi–Meerut Expressway was opened in 2021 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "96 किमी लंबी दिल्ली–मेरठ एक्सप्रेसवे परियोजना 2015 में शुरू हुई और 1 अप्रैल 2021 को यातायात के लिए खोली गई। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "travel-time",
+      "cluster:dme",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/dec/doc2021121331.pdf",
+    "translations": {
+      "en": {
+        "title": "The Delhi–Meerut Expressway changed travel time",
+        "shortDescription": "Government material says the Delhi–Meerut journey fell from more than 2.5 hours to about 45 minutes after the expressway opened.",
+        "narrationHint": "The Delhi–Meerut Expressway changed travel time"
+      },
+      "hi": {
+        "title": "दिल्ली–मेरठ एक्सप्रेसवे ने यात्रा का समय बदला",
+        "shortDescription": "सरकारी सामग्री के अनुसार एक्सप्रेसवे के बाद दिल्ली–मेरठ यात्रा ढाई घंटे से घटकर लगभग 45 मिनट रह गई।",
+        "narrationHint": "इसे सड़क से बदलती शहरी जिंदगी की कहानी की तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "travel-time",
+      "cluster:dme",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 8.299999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/dec/doc2021121331.pdf",
+    "translations": {
+      "en": {
+        "title": "The Delhi–Meerut Expressway changed travel time — why it matters on this drive",
+        "shortDescription": "Government material says the Delhi–Meerut journey fell from more than 2.5 hours to about 45 minutes after the expressway opened. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "The Delhi–Meerut Expressway changed travel time — इस यात्रा से जुड़ी बात",
+        "shortDescription": "सरकारी सामग्री के अनुसार एक्सप्रेसवे के बाद दिल्ली–मेरठ यात्रा ढाई घंटे से घटकर लगभग 45 मिनट रह गई। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "road-safety",
+    "tags": [
+      "dme",
+      "two-wheelers",
+      "cluster:dme-safety",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777237",
+    "translations": {
+      "en": {
+        "title": "Two-wheelers are prohibited on the Delhi–Meerut Expressway",
+        "shortDescription": "A 2021 Gazette notification prohibited two-wheelers on the Delhi–Meerut Expressway.",
+        "narrationHint": "Two-wheelers are prohibited on the Delhi–Meerut Expressway"
+      },
+      "hi": {
+        "title": "दिल्ली–मेरठ एक्सप्रेसवे पर दोपहिया प्रतिबंधित हैं",
+        "shortDescription": "2021 की राजपत्र अधिसूचना के अनुसार दिल्ली–मेरठ एक्सप्रेसवे पर दोपहिया वाहनों का प्रवेश प्रतिबंधित है।",
+        "narrationHint": "इस कॉरिडोर के लिए उपयोगी सड़क-सुरक्षा तथ्य।"
+      }
+    }
+  },
+  {
+    "category": "road-safety",
+    "tags": [
+      "dme",
+      "two-wheelers",
+      "cluster:dme-safety",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.58,
+      "lat": 28.7
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777237",
+    "translations": {
+      "en": {
+        "title": "Two-wheelers are prohibited on the Delhi–Meerut Expressway — why it matters on this drive",
+        "shortDescription": "A 2021 Gazette notification prohibited two-wheelers on the Delhi–Meerut Expressway. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Two-wheelers are prohibited on the Delhi–Meerut Expressway — इस यात्रा से जुड़ी बात",
+        "shortDescription": "2021 की राजपत्र अधिसूचना के अनुसार दिल्ली–मेरठ एक्सप्रेसवे पर दोपहिया वाहनों का प्रवेश प्रतिबंधित है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "dasna",
+      "cluster:dme-engineering",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.53,
+      "lat": 28.68
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "National Highways Authority of India",
+    "sourceUrl": "https://nhai.gov.in/",
+    "translations": {
+      "en": {
+        "title": "Dasna–Meerut was designed as a new expressway section",
+        "shortDescription": "NHAI project documents describe the Dasna–Meerut section as a new expressway connecting NH-24 to NH-58.",
+        "narrationHint": "Dasna–Meerut was designed as a new expressway section"
+      },
+      "hi": {
+        "title": "डासना–मेरठ हिस्सा नए एक्सप्रेसवे के रूप में बनाया गया",
+        "shortDescription": "NHAI दस्तावेज़ डासना–मेरठ हिस्से को NH-24 से NH-58 जोड़ने वाला नया एक्सप्रेसवे बताते हैं।",
+        "narrationHint": "डासना के आसपास कॉरिडोर के बदलते स्वरूप को जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "dasna",
+      "cluster:dme-engineering",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.53,
+      "lat": 28.68
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "National Highways Authority of India",
+    "sourceUrl": "https://nhai.gov.in/",
+    "translations": {
+      "en": {
+        "title": "Dasna–Meerut was designed as a new expressway section — why it matters on this drive",
+        "shortDescription": "NHAI project documents describe the Dasna–Meerut section as a new expressway connecting NH-24 to NH-58. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Dasna–Meerut was designed as a new expressway section — इस यात्रा से जुड़ी बात",
+        "shortDescription": "NHAI दस्तावेज़ डासना–मेरठ हिस्से को NH-24 से NH-58 जोड़ने वाला नया एक्सप्रेसवे बताते हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "upper-ganga-canal",
+      "cluster:dme-engineering",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.74
+    },
+    "interestingness": 8.1,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "National Highways Authority of India",
+    "sourceUrl": "https://nhai.gov.in/nhai/Doc/25aug17/EPC%20SCHEDULES%20final.pdf",
+    "translations": {
+      "en": {
+        "title": "The expressway crosses the Upper Ganga Canal",
+        "shortDescription": "NHAI design documents specify a major bridge over the Upper Ganga Canal on the Dasna–Meerut project.",
+        "narrationHint": "The expressway crosses the Upper Ganga Canal"
+      },
+      "hi": {
+        "title": "एक्सप्रेसवे अपर गंगा नहर के ऊपर से गुजरता है",
+        "shortDescription": "NHAI के डिजाइन दस्तावेज़ डासना–मेरठ परियोजना में अपर गंगा नहर के ऊपर एक प्रमुख पुल बताते हैं।",
+        "narrationHint": "पुल या नहर दिखाई दे तो यह कहानी बेहतर काम करेगी।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "dme",
+      "upper-ganga-canal",
+      "cluster:dme-engineering",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.74
+    },
+    "interestingness": 7.8,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "National Highways Authority of India",
+    "sourceUrl": "https://nhai.gov.in/nhai/Doc/25aug17/EPC%20SCHEDULES%20final.pdf",
+    "translations": {
+      "en": {
+        "title": "The expressway crosses the Upper Ganga Canal — why it matters on this drive",
+        "shortDescription": "NHAI design documents specify a major bridge over the Upper Ganga Canal on the Dasna–Meerut project. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "The expressway crosses the Upper Ganga Canal — इस यात्रा से जुड़ी बात",
+        "shortDescription": "NHAI के डिजाइन दस्तावेज़ डासना–मेरठ परियोजना में अपर गंगा नहर के ऊपर एक प्रमुख पुल बताते हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "hindon",
+      "archaeology",
+      "cluster:ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.5,
+      "lat": 28.67
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "An archaeological site near the Hindon dates to about 2500 BC",
+        "shortDescription": "Ghaziabad district history says excavations at Kaseri near the Hindon indicate an ancient settlement around 2500 BC.",
+        "narrationHint": "An archaeological site near the Hindon dates to about 2500 BC"
+      },
+      "hi": {
+        "title": "हिंडन के पास पुरातात्विक स्थल लगभग 2500 ईसा पूर्व तक जाता है",
+        "shortDescription": "गाजियाबाद जिला इतिहास के अनुसार हिंडन के पास कसैरी की खुदाई से लगभग 2500 ईसा पूर्व की बस्ती के संकेत मिले।",
+        "narrationHint": "आधुनिक NCR के नीचे छिपे प्राचीन इतिहास के रूप में सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "hindon",
+      "archaeology",
+      "cluster:ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.5,
+      "lat": 28.67
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "An archaeological site near the Hindon dates to about 2500 BC — why it matters on this drive",
+        "shortDescription": "Ghaziabad district history says excavations at Kaseri near the Hindon indicate an ancient settlement around 2500 BC. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "An archaeological site near the Hindon dates to about 2500 BC — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद जिला इतिहास के अनुसार हिंडन के पास कसैरी की खुदाई से लगभग 2500 ईसा पूर्व की बस्ती के संकेत मिले। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "city",
+      "cluster:ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad became a separate district in 1976",
+        "shortDescription": "Ghaziabad was a tehsil of Meerut district before becoming a separate district on 14 November 1976.",
+        "narrationHint": "Ghaziabad became a separate district in 1976"
+      },
+      "hi": {
+        "title": "गाजियाबाद 1976 में अलग जिला बना",
+        "shortDescription": "गाजियाबाद 14 नवंबर 1976 से पहले मेरठ जिले की तहसील था और उसी दिन अलग जिला बना।",
+        "narrationHint": "जिस जिले से आप गुजर रहे हैं उसकी प्रशासनिक कहानी के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "city",
+      "cluster:ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad became a separate district in 1976 — why it matters on this drive",
+        "shortDescription": "Ghaziabad was a tehsil of Meerut district before becoming a separate district on 14 November 1976. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Ghaziabad became a separate district in 1976 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद 14 नवंबर 1976 से पहले मेरठ जिले की तहसील था और उसी दिन अलग जिला बना। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "name",
+      "cluster:ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.3,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad grew from Ghaziuddinnagar",
+        "shortDescription": "District history says the settlement was founded around 1740 by Ghazi-ud-din and was known as Ghaziuddinnagar before becoming Ghaziabad.",
+        "narrationHint": "Ghaziabad grew from Ghaziuddinnagar"
+      },
+      "hi": {
+        "title": "गाजियाबाद का पुराना नाम गाजियाउद्दीननगर था",
+        "shortDescription": "जिला इतिहास के अनुसार लगभग 1740 में गाज़ी-उद-दीन ने यहां बसावट की और इसका नाम गाज़ियाउद्दीननगर रखा गया, जो बाद में गाजियाबाद हुआ।",
+        "narrationHint": "इसे शहर के नाम की छोटी कहानी की तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "name",
+      "cluster:ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.0,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad grew from Ghaziuddinnagar — why it matters on this drive",
+        "shortDescription": "District history says the settlement was founded around 1740 by Ghazi-ud-din and was known as Ghaziuddinnagar before becoming Ghaziabad. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Ghaziabad grew from Ghaziuddinnagar — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार लगभग 1740 में गाज़ी-उद-दीन ने यहां बसावट की और इसका नाम गाज़ियाउद्दीननगर रखा गया, जो बाद में गाजियाबाद हुआ। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "gateway",
+      "cluster:ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.2,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad is described as a gateway to Uttar Pradesh",
+        "shortDescription": "The district administration describes Ghaziabad as the main entrance to Uttar Pradesh because of its proximity to Delhi.",
+        "narrationHint": "Ghaziabad is described as a gateway to Uttar Pradesh"
+      },
+      "hi": {
+        "title": "गाजियाबाद को उत्तर प्रदेश का प्रवेशद्वार कहा जाता है",
+        "shortDescription": "जिला प्रशासन दिल्ली से निकटता के कारण गाजियाबाद को उत्तर प्रदेश का मुख्य प्रवेशद्वार बताता है।",
+        "narrationHint": "इसे NCR से पश्चिमी उत्तर प्रदेश में प्रवेश की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "gateway",
+      "cluster:ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 6.9,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad is described as a gateway to Uttar Pradesh — why it matters on this drive",
+        "shortDescription": "The district administration describes Ghaziabad as the main entrance to Uttar Pradesh because of its proximity to Delhi. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Ghaziabad is described as a gateway to Uttar Pradesh — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला प्रशासन दिल्ली से निकटता के कारण गाजियाबाद को उत्तर प्रदेश का मुख्य प्रवेशद्वार बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "railway",
+      "cluster:ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.6,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad became an important railway junction",
+        "shortDescription": "District material says railway lines toward eastern India, Moradabad and Saharanpur meet at Ghaziabad.",
+        "narrationHint": "Ghaziabad became an important railway junction"
+      },
+      "hi": {
+        "title": "गाजियाबाद एक महत्वपूर्ण रेलवे जंक्शन भी बना",
+        "shortDescription": "जिला सामग्री के अनुसार पूर्वी भारत, मुरादाबाद और सहारनपुर की ओर जाने वाली रेल लाइनें गाजियाबाद में जुड़ती हैं।",
+        "narrationHint": "सड़क के साथ यहां की रेल कनेक्टिविटी की परत जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "railway",
+      "cluster:ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.44,
+      "lat": 28.67
+    },
+    "interestingness": 7.3,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/about-district/",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad became an important railway junction — why it matters on this drive",
+        "shortDescription": "District material says railway lines toward eastern India, Moradabad and Saharanpur meet at Ghaziabad. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Ghaziabad became an important railway junction — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला सामग्री के अनुसार पूर्वी भारत, मुरादाबाद और सहारनपुर की ओर जाने वाली रेल लाइनें गाजियाबाद में जुड़ती हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "hindon",
+      "1857",
+      "cluster:1857-ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.5,
+      "lat": 28.67
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "The Hindon saw fighting during the 1857 uprising",
+        "shortDescription": "Ghaziabad district history records fighting on the Hindon on 30–31 May 1857.",
+        "narrationHint": "The Hindon saw fighting during the 1857 uprising"
+      },
+      "hi": {
+        "title": "1857 के विद्रोह में हिंडन के किनारे भी लड़ाई हुई",
+        "shortDescription": "गाजियाबाद जिला इतिहास 30–31 मई 1857 को हिंडन के किनारे हुई लड़ाई दर्ज करता है।",
+        "narrationHint": "मेरठ की 1857 कहानी का क्षेत्रीय विस्तार बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "hindon",
+      "1857",
+      "cluster:1857-ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.5,
+      "lat": 28.67
+    },
+    "interestingness": 8.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "The Hindon saw fighting during the 1857 uprising — why it matters on this drive",
+        "shortDescription": "Ghaziabad district history records fighting on the Hindon on 30–31 May 1857. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "The Hindon saw fighting during the 1857 uprising — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद जिला इतिहास 30–31 मई 1857 को हिंडन के किनारे हुई लड़ाई दर्ज करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "1857",
+      "walidad-khan",
+      "cluster:1857-ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.45,
+      "lat": 28.6
+    },
+    "interestingness": 8.2,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Many villages around Ghaziabad joined the 1857 uprising",
+        "shortDescription": "District history records participation by many villages under leadership associated with Walidad Khan of Malagarh.",
+        "narrationHint": "Many villages around Ghaziabad joined the 1857 uprising"
+      },
+      "hi": {
+        "title": "गाजियाबाद के कई गांव 1857 के विद्रोह में शामिल हुए",
+        "shortDescription": "जिला इतिहास मलागढ़ के वालिदाद खान से जुड़े नेतृत्व में कई गांवों की भागीदारी दर्ज करता है।",
+        "narrationHint": "बताएं कि विद्रोह शहरों से आगे ग्रामीण इलाकों तक पहुंचा।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "1857",
+      "walidad-khan",
+      "cluster:1857-ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.45,
+      "lat": 28.6
+    },
+    "interestingness": 7.8999999999999995,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Many villages around Ghaziabad joined the 1857 uprising — why it matters on this drive",
+        "shortDescription": "District history records participation by many villages under leadership associated with Walidad Khan of Malagarh. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Many villages around Ghaziabad joined the 1857 uprising — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास मलागढ़ के वालिदाद खान से जुड़े नेतृत्व में कई गांवों की भागीदारी दर्ज करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "babugarh",
+      "british",
+      "cluster:british-ghaziabad",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.77,
+      "lat": 28.73
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Babugarh had British-era animal facilities",
+        "shortDescription": "Ghaziabad district history records a royal elephant farm and later a horse farm at Babugarh during the British period.",
+        "narrationHint": "Babugarh had British-era animal facilities"
+      },
+      "hi": {
+        "title": "बाबूगढ़ में ब्रिटिश काल के हाथी और घोड़े के फार्म थे",
+        "shortDescription": "गाजियाबाद जिला इतिहास ब्रिटिश काल में बाबूगढ़ में शाही हाथी फार्म और बाद में घोड़ा फार्म दर्ज करता है।",
+        "narrationHint": "इसे ब्रिटिश सैन्य लॉजिस्टिक्स की छोटी कहानी की तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ghaziabad",
+      "babugarh",
+      "british",
+      "cluster:british-ghaziabad",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.77,
+      "lat": 28.73
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Babugarh had British-era animal facilities — why it matters on this drive",
+        "shortDescription": "Ghaziabad district history records a royal elephant farm and later a horse farm at Babugarh during the British period. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Babugarh had British-era animal facilities — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद जिला इतिहास ब्रिटिश काल में बाबूगढ़ में शाही हाथी फार्म और बाद में घोड़ा फार्म दर्ज करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "dasna",
+      "1857",
+      "cluster:dasna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.52,
+      "lat": 28.68
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Dasna carries a 1857 memory",
+        "shortDescription": "Ghaziabad district heritage material says the British built a gallows site at Dasna during the 1857 revolution.",
+        "narrationHint": "Dasna carries a 1857 memory"
+      },
+      "hi": {
+        "title": "डासना 1857 की एक स्मृति भी समेटे हुए है",
+        "shortDescription": "गाजियाबाद की विरासत सामग्री के अनुसार 1857 के दौरान अंग्रेजों ने डासना में फांसी देने का स्थान बनाया था।",
+        "narrationHint": "भाषा सम्मानजनक और तथ्यात्मक रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "dasna",
+      "1857",
+      "cluster:dasna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.52,
+      "lat": 28.68
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Dasna carries a 1857 memory — why it matters on this drive",
+        "shortDescription": "Ghaziabad district heritage material says the British built a gallows site at Dasna during the 1857 revolution. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Dasna carries a 1857 memory — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद की विरासत सामग्री के अनुसार 1857 के दौरान अंग्रेजों ने डासना में फांसी देने का स्थान बनाया था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "dasna",
+      "fort",
+      "cluster:dasna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.52,
+      "lat": 28.68
+    },
+    "interestingness": 7.6,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Dasna has an older fort tradition",
+        "shortDescription": "District heritage material records an older fort and an ancient goddess temple associated with Dasna.",
+        "narrationHint": "Dasna has an older fort tradition"
+      },
+      "hi": {
+        "title": "डासना का इतिहास पुराने किले से भी जुड़ा है",
+        "shortDescription": "जिला विरासत सामग्री डासना से जुड़े पुराने किले और प्राचीन देवी मंदिर का उल्लेख करती है।",
+        "narrationHint": "इसे जिला विरासत विवरण के रूप में प्रस्तुत करें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "dasna",
+      "fort",
+      "cluster:dasna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.52,
+      "lat": 28.68
+    },
+    "interestingness": 7.3,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Dasna has an older fort tradition — why it matters on this drive",
+        "shortDescription": "District heritage material records an older fort and an ancient goddess temple associated with Dasna. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Dasna has an older fort tradition — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत सामग्री डासना से जुड़े पुराने किले और प्राचीन देवी मंदिर का उल्लेख करती है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "begumabad",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modinagar was once known as Begumabad",
+        "shortDescription": "The district heritage page says the area was formerly a 573-acre village called Begumabad.",
+        "narrationHint": "Modinagar was once known as Begumabad"
+      },
+      "hi": {
+        "title": "मोदीनगर पहले बेगमाबाद के नाम से जाना जाता था",
+        "shortDescription": "जिला विरासत पेज के अनुसार यह क्षेत्र पहले 573 एकड़ के बेगमाबाद गांव के रूप में जाना जाता था।",
+        "narrationHint": "पुराने गांव और आधुनिक शहर के बीच का बदलाव बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "begumabad",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modinagar was once known as Begumabad — why it matters on this drive",
+        "shortDescription": "The district heritage page says the area was formerly a 573-acre village called Begumabad. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Modinagar was once known as Begumabad — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत पेज के अनुसार यह क्षेत्र पहले 573 एकड़ के बेगमाबाद गांव के रूप में जाना जाता था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "1933",
+      "industry",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 8.3,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modern Modinagar was established in 1933",
+        "shortDescription": "District heritage material says industrialist Gujarmal Modi established the present Modinagar in 1933.",
+        "narrationHint": "Modern Modinagar was established in 1933"
+      },
+      "hi": {
+        "title": "आधुनिक मोदीनगर की स्थापना 1933 में हुई",
+        "shortDescription": "जिला विरासत सामग्री के अनुसार उद्योगपति गुजरमल मोदी ने वर्तमान मोदीनगर की स्थापना 1933 में की।",
+        "narrationHint": "इसे औद्योगिक शहर की शुरुआत की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "1933",
+      "industry",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 8.0,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modern Modinagar was established in 1933 — why it matters on this drive",
+        "shortDescription": "District heritage material says industrialist Gujarmal Modi established the present Modinagar in 1933. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Modern Modinagar was established in 1933 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत सामग्री के अनुसार उद्योगपति गुजरमल मोदी ने वर्तमान मोदीनगर की स्थापना 1933 में की। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "temple",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "A 19th-century temple is associated with Modinagar",
+        "shortDescription": "District heritage material notes a temple built by Queen Valabai Scindia in the 19th century.",
+        "narrationHint": "A 19th-century temple is associated with Modinagar"
+      },
+      "hi": {
+        "title": "मोदीनगर में 19वीं सदी से जुड़ा मंदिर है",
+        "shortDescription": "जिला विरासत सामग्री रानी वालाबाई सिंधिया द्वारा 19वीं सदी में बनवाए गए मंदिर का उल्लेख करती है।",
+        "narrationHint": "इसे छोटा विरासत तथ्य रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "temple",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "A 19th-century temple is associated with Modinagar — why it matters on this drive",
+        "shortDescription": "District heritage material notes a temple built by Queen Valabai Scindia in the 19th century. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "A 19th-century temple is associated with Modinagar — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत सामग्री रानी वालाबाई सिंधिया द्वारा 19वीं सदी में बनवाए गए मंदिर का उल्लेख करती है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "lakshmi-narayan",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Lakshmi-Narayana Temple is listed among Modinagar attractions",
+        "shortDescription": "The district heritage page lists Lakshmi-Narayana Temple among Modinagar attractions.",
+        "narrationHint": "Lakshmi-Narayana Temple is listed among Modinagar attractions"
+      },
+      "hi": {
+        "title": "लक्ष्मी-नारायण मंदिर मोदीनगर के प्रमुख आकर्षणों में है",
+        "shortDescription": "जिला विरासत पेज लक्ष्मी-नारायण मंदिर को मोदीनगर के आकर्षणों में गिनता है।",
+        "narrationHint": "रूट के पास होने पर ही इसे ट्रिगर करें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "lakshmi-narayan",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Lakshmi-Narayana Temple is listed among Modinagar attractions — why it matters on this drive",
+        "shortDescription": "The district heritage page lists Lakshmi-Narayana Temple among Modinagar attractions. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Lakshmi-Narayana Temple is listed among Modinagar attractions — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत पेज लक्ष्मी-नारायण मंदिर को मोदीनगर के आकर्षणों में गिनता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "modi-garden",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.2,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modi Garden is a Modinagar landmark",
+        "shortDescription": "The district heritage page lists Modi Garden among notable Modinagar attractions.",
+        "narrationHint": "Modi Garden is a Modinagar landmark"
+      },
+      "hi": {
+        "title": "मोदी गार्डन मोदीनगर का एक स्थानीय आकर्षण है",
+        "shortDescription": "जिला विरासत पेज मोदी गार्डन को मोदीनगर के प्रमुख आकर्षणों में सूचीबद्ध करता है।",
+        "narrationHint": "हल्की स्थानीय-लैंडमार्क कहानी की तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "modi-garden",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 6.9,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Modi Garden is a Modinagar landmark — why it matters on this drive",
+        "shortDescription": "The district heritage page lists Modi Garden among notable Modinagar attractions. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Modi Garden is a Modinagar landmark — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला विरासत पेज मोदी गार्डन को मोदीनगर के प्रमुख आकर्षणों में सूचीबद्ध करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "sheetla-devi",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.3,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sheetla Devi Mandir is a Modinagar attraction",
+        "shortDescription": "Sheetla Devi Mandir is listed by the district among Modinagar attractions.",
+        "narrationHint": "Sheetla Devi Mandir is a Modinagar attraction"
+      },
+      "hi": {
+        "title": "शीतला देवी मंदिर मोदीनगर का एक स्थानीय आकर्षण है",
+        "shortDescription": "जिला प्रशासन शीतला देवी मंदिर को मोदीनगर के आकर्षणों में सूचीबद्ध करता है।",
+        "narrationHint": "छोटी स्थानीय-संस्कृति कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "modinagar",
+      "sheetla-devi",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 7.0,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sheetla Devi Mandir is a Modinagar attraction — why it matters on this drive",
+        "shortDescription": "Sheetla Devi Mandir is listed by the district among Modinagar attractions. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Sheetla Devi Mandir is a Modinagar attraction — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला प्रशासन शीतला देवी मंदिर को मोदीनगर के आकर्षणों में सूचीबद्ध करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "tehsil",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 6.9,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Modinagar became a tehsil in 1989",
+        "shortDescription": "Ghaziabad district history says Modinagar received tehsil status on 30 September 1989.",
+        "narrationHint": "Modinagar became a tehsil in 1989"
+      },
+      "hi": {
+        "title": "मोदीनगर को 1989 में तहसील का दर्जा मिला",
+        "shortDescription": "गाजियाबाद जिला इतिहास के अनुसार मोदीनगर को 30 सितंबर 1989 को तहसील का दर्जा मिला।",
+        "narrationHint": "प्रशासनिक इतिहास की छोटी कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "modinagar",
+      "tehsil",
+      "cluster:modinagar",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 6.6000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "translations": {
+      "en": {
+        "title": "Modinagar became a tehsil in 1989 — why it matters on this drive",
+        "shortDescription": "Ghaziabad district history says Modinagar received tehsil status on 30 September 1989. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Modinagar became a tehsil in 1989 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "गाजियाबाद जिला इतिहास के अनुसार मोदीनगर को 30 सितंबर 1989 को तहसील का दर्जा मिला। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "ancient",
+      "cluster:meerut-ancient",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Meerut has evidence of very early settlement",
+        "shortDescription": "District material says settlements dating to the Indus Valley civilisation have been found in and around Meerut.",
+        "narrationHint": "Meerut has evidence of very early settlement"
+      },
+      "hi": {
+        "title": "मेरठ में बहुत प्राचीन बसावट के प्रमाण मिले हैं",
+        "shortDescription": "जिला सामग्री के अनुसार मेरठ और आसपास सिंधु घाटी सभ्यता से जुड़ी बसावटों के प्रमाण मिले हैं।",
+        "narrationHint": "प्राचीन इतिहास और आधुनिक शहर का विरोधाभास बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "ancient",
+      "cluster:meerut-ancient",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Meerut has evidence of very early settlement — why it matters on this drive",
+        "shortDescription": "District material says settlements dating to the Indus Valley civilisation have been found in and around Meerut. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has evidence of very early settlement — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला सामग्री के अनुसार मेरठ और आसपास सिंधु घाटी सभ्यता से जुड़ी बसावटों के प्रमाण मिले हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "maya-rashtra",
+      "cluster:meerut-name",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.3,
+    "confidence": 0.96,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a mythological name tradition",
+        "shortDescription": "The district history page connects the name Meerut with the mythological phrase Maya Rashtra.",
+        "narrationHint": "Meerut has a mythological name tradition"
+      },
+      "hi": {
+        "title": "मेरठ के नाम की एक पौराणिक परंपरा भी है",
+        "shortDescription": "जिला इतिहास मेरठ नाम को पौराणिक परंपरा में माया राष्ट्र से जोड़ता है।",
+        "narrationHint": "इसे निश्चित व्युत्पत्ति नहीं बल्कि पौराणिक परंपरा के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "maya-rashtra",
+      "cluster:meerut-name",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.0,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a mythological name tradition — why it matters on this drive",
+        "shortDescription": "The district history page connects the name Meerut with the mythological phrase Maya Rashtra. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has a mythological name tradition — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास मेरठ नाम को पौराणिक परंपरा में माया राष्ट्र से जोड़ता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "hastinapur",
+      "mahabharata",
+      "cluster:hastinapur",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.79,
+      "lat": 29.16
+    },
+    "interestingness": 8.7,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Hastinapur is part of Meerut district history",
+        "shortDescription": "Meerut district history places Hastinapur in the present district and connects it with the Kauravas in Mahabharata tradition.",
+        "narrationHint": "Hastinapur is part of Meerut district history"
+      },
+      "hi": {
+        "title": "हस्तिनापुर मेरठ जिले के इतिहास का हिस्सा है",
+        "shortDescription": "मेरठ जिला इतिहास वर्तमान जिले में हस्तिनापुर को कौरवों की महाभारत परंपरा से जोड़ता है।",
+        "narrationHint": "महाभारत संबंध को परंपरा के रूप में प्रस्तुत करें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "hastinapur",
+      "mahabharata",
+      "cluster:hastinapur",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.79,
+      "lat": 29.16
+    },
+    "interestingness": 8.399999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Hastinapur is part of Meerut district history — why it matters on this drive",
+        "shortDescription": "Meerut district history places Hastinapur in the present district and connects it with the Kauravas in Mahabharata tradition. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Hastinapur is part of Meerut district history — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला इतिहास वर्तमान जिले में हस्तिनापुर को कौरवों की महाभारत परंपरा से जोड़ता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "delhi",
+      "medieval",
+      "cluster:meerut-history",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s proximity to Delhi shaped its history",
+        "shortDescription": "District history says proximity to Indraprastha helped Meerut play an important role in medieval affairs.",
+        "narrationHint": "Meerut’s proximity to Delhi shaped its history"
+      },
+      "hi": {
+        "title": "दिल्ली से निकटता ने मेरठ के इतिहास को प्रभावित किया",
+        "shortDescription": "जिला इतिहास के अनुसार इंद्रप्रस्थ से निकटता ने मेरठ को मध्यकालीन घटनाओं में महत्वपूर्ण बनाया।",
+        "narrationHint": "भूगोल और इतिहास का संबंध बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "delhi",
+      "medieval",
+      "cluster:meerut-history",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s proximity to Delhi shaped its history — why it matters on this drive",
+        "shortDescription": "District history says proximity to Indraprastha helped Meerut play an important role in medieval affairs. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut’s proximity to Delhi shaped its history — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार इंद्रप्रस्थ से निकटता ने मेरठ को मध्यकालीन घटनाओं में महत्वपूर्ण बनाया। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "qutub-ud-din-aibak",
+      "cluster:meerut-medieval",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut resisted Qutb-ud-din Aibak",
+        "shortDescription": "District history records fierce resistance from Meerut against invading forces of Qutb-ud-din Aibak.",
+        "narrationHint": "Meerut resisted Qutb-ud-din Aibak"
+      },
+      "hi": {
+        "title": "मेरठ ने कुतुब-उद-दीन ऐबक की सेना का प्रतिरोध किया",
+        "shortDescription": "जिला इतिहास कुतुब-उद-दीन ऐबक की आक्रमणकारी सेना के खिलाफ मेरठ के कड़े प्रतिरोध का उल्लेख करता है।",
+        "narrationHint": "इसे छोटी मध्यकालीन इतिहास कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "qutub-ud-din-aibak",
+      "cluster:meerut-medieval",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut resisted Qutb-ud-din Aibak — why it matters on this drive",
+        "shortDescription": "District history records fierce resistance from Meerut against invading forces of Qutb-ud-din Aibak. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut resisted Qutb-ud-din Aibak — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास कुतुब-उद-दीन ऐबक की आक्रमणकारी सेना के खिलाफ मेरठ के कड़े प्रतिरोध का उल्लेख करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "timur",
+      "cluster:meerut-medieval",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut also faced Timur’s invasion",
+        "shortDescription": "District history records Meerut’s resistance during Timur’s invasion in the 14th century.",
+        "narrationHint": "Meerut also faced Timur’s invasion"
+      },
+      "hi": {
+        "title": "मेरठ ने तैमूर के आक्रमण का भी सामना किया",
+        "shortDescription": "जिला इतिहास 14वीं सदी में तैमूर के आक्रमण के दौरान मेरठ के प्रतिरोध का उल्लेख करता है।",
+        "narrationHint": "स्रोत से बाहर की अतिरिक्त बातें न जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "timur",
+      "cluster:meerut-medieval",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut also faced Timur’s invasion — why it matters on this drive",
+        "shortDescription": "District history records Meerut’s resistance during Timur’s invasion in the 14th century. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut also faced Timur’s invasion — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास 14वीं सदी में तैमूर के आक्रमण के दौरान मेरठ के प्रतिरोध का उल्लेख करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "cluster:1857-meerut",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 9.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "10 May 1857 began the uprising in Meerut",
+        "shortDescription": "On 10 May 1857, soldiers in Meerut rose against British authority; the district describes this as the beginning of the First War of Independence.",
+        "narrationHint": "10 May 1857 began the uprising in Meerut"
+      },
+      "hi": {
+        "title": "10 मई 1857 को मेरठ में विद्रोह शुरू हुआ",
+        "shortDescription": "10 मई 1857 को मेरठ में सैनिकों ने ब्रिटिश सत्ता के खिलाफ विद्रोह किया; जिला इसे प्रथम स्वतंत्रता संग्राम की शुरुआत बताता है।",
+        "narrationHint": "तारीख और स्थान से शुरुआत करें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "cluster:1857-meerut",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 9.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "10 May 1857 began the uprising in Meerut — why it matters on this drive",
+        "shortDescription": "On 10 May 1857, soldiers in Meerut rose against British authority; the district describes this as the beginning of the First War of Independence. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "10 May 1857 began the uprising in Meerut — इस यात्रा से जुड़ी बात",
+        "shortDescription": "10 मई 1857 को मेरठ में सैनिकों ने ब्रिटिश सत्ता के खिलाफ विद्रोह किया; जिला इसे प्रथम स्वतंत्रता संग्राम की शुरुआत बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "delhi",
+      "cluster:1857-meerut",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 9.2,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "The Meerut rebels marched toward Delhi",
+        "shortDescription": "District history says the soldiers captured control in Meerut and marched toward the Red Fort in Delhi.",
+        "narrationHint": "The Meerut rebels marched toward Delhi"
+      },
+      "hi": {
+        "title": "मेरठ के विद्रोही दिल्ली की ओर बढ़े",
+        "shortDescription": "जिला इतिहास के अनुसार मेरठ में नियंत्रण लेने के बाद सैनिक लाल किले की ओर दिल्ली चले गए।",
+        "narrationHint": "आज की सड़क यात्रा को उस ऐतिहासिक दिशा से जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "delhi",
+      "cluster:1857-meerut",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 8.899999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "The Meerut rebels marched toward Delhi — why it matters on this drive",
+        "shortDescription": "District history says the soldiers captured control in Meerut and marched toward the Red Fort in Delhi. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "The Meerut rebels marched toward Delhi — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार मेरठ में नियंत्रण लेने के बाद सैनिक लाल किले की ओर दिल्ली चले गए। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "civilians",
+      "cluster:1857-meerut",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Civilians joined the march from Meerut",
+        "shortDescription": "District history says common people joined the soldiers on their way toward Delhi.",
+        "narrationHint": "Civilians joined the march from Meerut"
+      },
+      "hi": {
+        "title": "मेरठ से दिल्ली जाते समय आम लोग भी साथ जुड़े",
+        "shortDescription": "जिला इतिहास के अनुसार दिल्ली की ओर जाते समय सैनिकों के साथ आम लोग भी जुड़ गए।",
+        "narrationHint": "बताएं कि विद्रोह सैन्य शिविरों से आगे फैल गया।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "civilians",
+      "cluster:1857-meerut",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 8.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Civilians joined the march from Meerut — why it matters on this drive",
+        "shortDescription": "District history says common people joined the soldiers on their way toward Delhi. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Civilians joined the march from Meerut — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार दिल्ली की ओर जाते समय सैनिकों के साथ आम लोग भी जुड़ गए। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "one-day",
+      "cluster:1857-meerut",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut changed hands within a day in 1857",
+        "shortDescription": "District history says the soldiers captured control of the city in one day.",
+        "narrationHint": "Meerut changed hands within a day in 1857"
+      },
+      "hi": {
+        "title": "1857 में मेरठ पर एक दिन में नियंत्रण बदल गया",
+        "shortDescription": "जिला इतिहास के अनुसार सैनिकों ने एक दिन में शहर पर नियंत्रण कर लिया।",
+        "narrationHint": "इसे छोटे टाइम-स्केल तथ्य की तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "1857",
+      "one-day",
+      "cluster:1857-meerut",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
+    "interestingness": 8.299999999999999,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut changed hands within a day in 1857 — why it matters on this drive",
+        "shortDescription": "District history says the soldiers captured control of the city in one day. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut changed hands within a day in 1857 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार सैनिकों ने एक दिन में शहर पर नियंत्रण कर लिया। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "sports-goods",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.7,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut is known for sports-goods manufacturing",
+        "shortDescription": "Meerut district calls the city the Sports City of India and identifies sports goods as a major industry.",
+        "narrationHint": "Meerut is known for sports-goods manufacturing"
+      },
+      "hi": {
+        "title": "मेरठ खेल-सामान निर्माण के लिए प्रसिद्ध है",
+        "shortDescription": "मेरठ जिला शहर को भारत का स्पोर्ट्स सिटी कहता है और खेल-सामान को प्रमुख उद्योग बताता है।",
+        "narrationHint": "आधुनिक शहर की पहचान की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "sports-goods",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.399999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut is known for sports-goods manufacturing — why it matters on this drive",
+        "shortDescription": "Meerut district calls the city the Sports City of India and identifies sports goods as a major industry. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut is known for sports-goods manufacturing — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला शहर को भारत का स्पोर्ट्स सिटी कहता है और खेल-सामान को प्रमुख उद्योग बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "musical-instruments",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a major musical-instrument industry",
+        "shortDescription": "The district describes Meerut as the largest producer of musical instruments in India.",
+        "narrationHint": "Meerut has a major musical-instrument industry"
+      },
+      "hi": {
+        "title": "मेरठ में संगीत वाद्ययंत्रों का बड़ा उद्योग है",
+        "shortDescription": "जिला मेरठ को भारत में संगीत वाद्ययंत्रों का सबसे बड़ा उत्पादक बताता है।",
+        "narrationHint": "खेल-सामान के बाद यह एक अच्छा सरप्राइज तथ्य है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "musical-instruments",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/about-district/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a major musical-instrument industry — why it matters on this drive",
+        "shortDescription": "The district describes Meerut as the largest producer of musical instruments in India. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has a major musical-instrument industry — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला मेरठ को भारत में संगीत वाद्ययंत्रों का सबसे बड़ा उत्पादक बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "publishing",
+      "1860s",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.99
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a publishing tradition dating to the 1860s",
+        "shortDescription": "The district economy page says commercial publishing became important in Meerut from the 1860s.",
+        "narrationHint": "Meerut has a publishing tradition dating to the 1860s"
+      },
+      "hi": {
+        "title": "मेरठ में प्रकाशन की परंपरा 1860 के दशक से जुड़ी है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज के अनुसार 1860 के दशक से मेरठ में व्यावसायिक प्रकाशन महत्वपूर्ण हुआ।",
+        "narrationHint": "यह अप्रत्याशित सांस्कृतिक-उद्योग कहानी है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "publishing",
+      "1860s",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.99
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a publishing tradition dating to the 1860s — why it matters on this drive",
+        "shortDescription": "The district economy page says commercial publishing became important in Meerut from the 1860s. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has a publishing tradition dating to the 1860s — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज के अनुसार 1860 के दशक से मेरठ में व्यावसायिक प्रकाशन महत्वपूर्ण हुआ। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "scissors",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 28.99
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Scissor-making is an old Meerut industry",
+        "shortDescription": "The district economy page says handloom and scissors industries have existed in Meerut since olden days.",
+        "narrationHint": "Scissor-making is an old Meerut industry"
+      },
+      "hi": {
+        "title": "कैंची निर्माण मेरठ का पुराना उद्योग है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज के अनुसार मेरठ में हथकरघा और कैंची उद्योग पुराने समय से चलते आए हैं।",
+        "narrationHint": "दावे को व्यापक और स्रोत-आधारित रखें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "scissors",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 28.99
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Scissor-making is an old Meerut industry — why it matters on this drive",
+        "shortDescription": "The district economy page says handloom and scissors industries have existed in Meerut since olden days. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Scissor-making is an old Meerut industry — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज के अनुसार मेरठ में हथकरघा और कैंची उद्योग पुराने समय से चलते आए हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "cricket",
+      "sports-goods",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.4,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Cricket equipment is made in Meerut",
+        "shortDescription": "The district economy page identifies cricket-item manufacturing, including SG-branded production, as part of Meerut’s industry.",
+        "narrationHint": "Cricket equipment is made in Meerut"
+      },
+      "hi": {
+        "title": "मेरठ में क्रिकेट का सामान बनता है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज क्रिकेट सामान के निर्माण, जिसमें SG ब्रांड का उत्पादन भी शामिल है, को मेरठ के उद्योग का हिस्सा बताता है।",
+        "narrationHint": "यह न कहें कि भारत का हर क्रिकेट उत्पाद मेरठ में बनता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "cricket",
+      "sports-goods",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.1,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Cricket equipment is made in Meerut — why it matters on this drive",
+        "shortDescription": "The district economy page identifies cricket-item manufacturing, including SG-branded production, as part of Meerut’s industry. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Cricket equipment is made in Meerut — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज क्रिकेट सामान के निर्माण, जिसमें SG ब्रांड का उत्पादन भी शामिल है, को मेरठ के उद्योग का हिस्सा बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "gold",
+      "cluster:meerut-industry",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 28.99
+    },
+    "interestingness": 7.7,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a large gold and jewellery ecosystem",
+        "shortDescription": "The district economy page describes a substantial gold and jewellery sector with many BIS hallmark showrooms.",
+        "narrationHint": "Meerut has a large gold and jewellery ecosystem"
+      },
+      "hi": {
+        "title": "मेरठ में सोने और आभूषणों का बड़ा कारोबार है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज मेरठ में बड़े सोने-आभूषण क्षेत्र और कई BIS हॉलमार्क शोरूम का वर्णन करता है।",
+        "narrationHint": "पुराने दैनिक उत्पादन आंकड़ों को वर्तमान न मानें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "gold",
+      "cluster:meerut-industry",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 28.99
+    },
+    "interestingness": 7.4,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut has a large gold and jewellery ecosystem — why it matters on this drive",
+        "shortDescription": "The district economy page describes a substantial gold and jewellery sector with many BIS hallmark showrooms. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has a large gold and jewellery ecosystem — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज मेरठ में बड़े सोने-आभूषण क्षेत्र और कई BIS हॉलमार्क शोरूम का वर्णन करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "cluster:nauchandi",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 8.7,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi Mela has a long and debated history",
+        "shortDescription": "Meerut district says one account dates the Nauchandi fair to 1672, while noting that its origins are debated.",
+        "narrationHint": "Nauchandi Mela has a long and debated history"
+      },
+      "hi": {
+        "title": "नौचंदी मेले का इतिहास पुराना और विवादित है",
+        "shortDescription": "मेरठ जिला एक परंपरा के अनुसार नौचंदी मेले की शुरुआत 1672 में बताता है, लेकिन इसकी उत्पत्ति को विवादित भी कहता है।",
+        "narrationHint": "अनिश्चितता को स्पष्ट रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "cluster:nauchandi",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 8.399999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi Mela has a long and debated history — why it matters on this drive",
+        "shortDescription": "Meerut district says one account dates the Nauchandi fair to 1672, while noting that its origins are debated. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Nauchandi Mela has a long and debated history — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला एक परंपरा के अनुसार नौचंदी मेले की शुरुआत 1672 में बताता है, लेकिन इसकी उत्पत्ति को विवादित भी कहता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "holi",
+      "cluster:nauchandi",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi begins after Holi",
+        "shortDescription": "The district says Nauchandi Mela begins on the second Sunday after Holi.",
+        "narrationHint": "Nauchandi begins after Holi"
+      },
+      "hi": {
+        "title": "नौचंदी मेला होली के बाद शुरू होता है",
+        "shortDescription": "जिला कहता है कि नौचंदी मेला होली के बाद दूसरे रविवार से शुरू होता है।",
+        "narrationHint": "इसे मौसमी संदर्भ के रूप में इस्तेमाल करें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "holi",
+      "cluster:nauchandi",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi begins after Holi — why it matters on this drive",
+        "shortDescription": "The district says Nauchandi Mela begins on the second Sunday after Holi. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Nauchandi begins after Holi — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कहता है कि नौचंदी मेला होली के बाद दूसरे रविवार से शुरू होता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "shopping",
+      "cluster:nauchandi",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi combines shopping, food and culture",
+        "shortDescription": "The district describes Nauchandi as a month-long fair with shopping, food and cultural activity.",
+        "narrationHint": "Nauchandi combines shopping, food and culture"
+      },
+      "hi": {
+        "title": "नौचंदी में खरीदारी, खाना और संस्कृति साथ मिलते हैं",
+        "shortDescription": "जिला नौचंदी को खरीदारी, भोजन और सांस्कृतिक गतिविधियों वाला महीने भर का मेला बताता है।",
+        "narrationHint": "मेले का जीवंत अनुभव देने वाली तरह सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "shopping",
+      "cluster:nauchandi",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi combines shopping, food and culture — why it matters on this drive",
+        "shortDescription": "The district describes Nauchandi as a month-long fair with shopping, food and cultural activity. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Nauchandi combines shopping, food and culture — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला नौचंदी को खरीदारी, भोजन और सांस्कृतिक गतिविधियों वाला महीने भर का मेला बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "crafts",
+      "cluster:nauchandi",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.7,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi brings handicrafts together",
+        "shortDescription": "The district says the fair has stalls selling handicrafts and machine-made products from across India.",
+        "narrationHint": "Nauchandi brings handicrafts together"
+      },
+      "hi": {
+        "title": "नौचंदी मेले में देशभर के हस्तशिल्प मिलते हैं",
+        "shortDescription": "जिला कहता है कि मेले में देशभर के हस्तशिल्प और मशीन से बने उत्पादों के स्टॉल लगते हैं।",
+        "narrationHint": "हस्तशिल्प और व्यापार की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "crafts",
+      "cluster:nauchandi",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.4,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi brings handicrafts together — why it matters on this drive",
+        "shortDescription": "The district says the fair has stalls selling handicrafts and machine-made products from across India. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Nauchandi brings handicrafts together — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कहता है कि मेले में देशभर के हस्तशिल्प और मशीन से बने उत्पादों के स्टॉल लगते हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "meerut",
+      "augarnath",
+      "1857",
+      "cluster:meerut-religion",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Augarnath Temple is linked with Meerut’s 1857 history",
+        "shortDescription": "Meerut district says Augarnath Temple has historical importance connected with the 1857 uprising.",
+        "narrationHint": "Augarnath Temple is linked with Meerut’s 1857 history"
+      },
+      "hi": {
+        "title": "औघड़नाथ मंदिर मेरठ के 1857 इतिहास से जुड़ा है",
+        "shortDescription": "मेरठ जिला औघड़नाथ मंदिर के ऐतिहासिक महत्व को 1857 के विद्रोह से जोड़ता है।",
+        "narrationHint": "अलग स्रोत के बिना सटीक सैन्य घटना न जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "meerut",
+      "augarnath",
+      "1857",
+      "cluster:meerut-religion",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.299999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Augarnath Temple is linked with Meerut’s 1857 history — why it matters on this drive",
+        "shortDescription": "Meerut district says Augarnath Temple has historical importance connected with the 1857 uprising. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Augarnath Temple is linked with Meerut’s 1857 history — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला औघड़नाथ मंदिर के ऐतिहासिक महत्व को 1857 के विद्रोह से जोड़ता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "meerut",
+      "augarnath",
+      "cluster:meerut-religion",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Augarnath is a Shiva temple with an origin tradition",
+        "shortDescription": "The district says the temple is devoted to Shiva and that its lingam is traditionally believed to have emerged on its own.",
+        "narrationHint": "Augarnath is a Shiva temple with an origin tradition"
+      },
+      "hi": {
+        "title": "औघड़नाथ शिव मंदिर की स्थापना से जुड़ी स्थानीय मान्यता है",
+        "shortDescription": "जिला कहता है कि मंदिर भगवान शिव को समर्पित है और यहां के शिवलिंग के स्वयं प्रकट होने की मान्यता है।",
+        "narrationHint": "इसे आस्था/मान्यता के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "meerut",
+      "augarnath",
+      "cluster:meerut-religion",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Augarnath is a Shiva temple with an origin tradition — why it matters on this drive",
+        "shortDescription": "The district says the temple is devoted to Shiva and that its lingam is traditionally believed to have emerged on its own. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Augarnath is a Shiva temple with an origin tradition — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कहता है कि मंदिर भगवान शिव को समर्पित है और यहां के शिवलिंग के स्वयं प्रकट होने की मान्यता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "johns-church",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "St John’s Church dates to 1819–1821",
+        "shortDescription": "Meerut district says St John’s Church was built between 1819 and 1821 during British rule.",
+        "narrationHint": "St John’s Church dates to 1819–1821"
+      },
+      "hi": {
+        "title": "सेंट जॉन्स चर्च 1819–1821 के बीच बना",
+        "shortDescription": "मेरठ जिला बताता है कि सेंट जॉन्स चर्च ब्रिटिश काल में 1819 से 1821 के बीच बनाया गया।",
+        "narrationHint": "इसे छोटी औपनिवेशिक वास्तुकला कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "johns-church",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "St John’s Church dates to 1819–1821 — why it matters on this drive",
+        "shortDescription": "Meerut district says St John’s Church was built between 1819 and 1821 during British rule. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "St John’s Church dates to 1819–1821 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि सेंट जॉन्स चर्च ब्रिटिश काल में 1819 से 1821 के बीच बनाया गया। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "johns-church",
+      "1857",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "St John’s Church has a cemetery connected with 1857",
+        "shortDescription": "The district notes graves near St John’s Church of British people and families killed during the 1857 revolt.",
+        "narrationHint": "St John’s Church has a cemetery connected with 1857"
+      },
+      "hi": {
+        "title": "सेंट जॉन्स चर्च के पास 1857 से जुड़ा कब्रिस्तान है",
+        "shortDescription": "जिला सेंट जॉन्स चर्च के पास 1857 में मारे गए ब्रिटिश लोगों और उनके परिवारों की कब्रों का उल्लेख करता है।",
+        "narrationHint": "भाषा सम्मानजनक रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "johns-church",
+      "1857",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
+    "interestingness": 8.299999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "St John’s Church has a cemetery connected with 1857 — why it matters on this drive",
+        "shortDescription": "The district notes graves near St John’s Church of British people and families killed during the 1857 revolt. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "St John’s Church has a cemetery connected with 1857 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला सेंट जॉन्स चर्च के पास 1857 में मारे गए ब्रिटिश लोगों और उनके परिवारों की कब्रों का उल्लेख करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "mughal",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.3,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah dates to 1628",
+        "shortDescription": "Meerut district says the Mughal mausoleum known as Shahpeer Sahab ki Dargah was built in 1628 by Nur Jahan.",
+        "narrationHint": "Shahpeer’s Dargah dates to 1628"
+      },
+      "hi": {
+        "title": "शाहपीर की दरगाह 1628 से जुड़ी है",
+        "shortDescription": "मेरठ जिला बताता है कि शाहपीर साहब की मुगलकालीन दरगाह 1628 में नूरजहां द्वारा बनवाई गई थी।",
+        "narrationHint": "तारीख और वास्तुकला पर टिके रहें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "mughal",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.0,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah dates to 1628 — why it matters on this drive",
+        "shortDescription": "Meerut district says the Mughal mausoleum known as Shahpeer Sahab ki Dargah was built in 1628 by Nur Jahan. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Shahpeer’s Dargah dates to 1628 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि शाहपीर साहब की मुगलकालीन दरगाह 1628 में नूरजहां द्वारा बनवाई गई थी। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "architecture",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah has an unfinished appearance",
+        "shortDescription": "The district describes the red-stone mausoleum as having intricate work and no roof, with a local story that construction stopped midway.",
+        "narrationHint": "Shahpeer’s Dargah has an unfinished appearance"
+      },
+      "hi": {
+        "title": "शाहपीर की दरगाह अधूरी दिखाई देती है",
+        "shortDescription": "जिला इसे लाल पत्थर की नक्काशीदार संरचना बताता है जिसकी छत नहीं है और स्थानीय मान्यता के अनुसार निर्माण बीच में रुक गया था।",
+        "narrationHint": "अधूरे निर्माण की बात को स्थानीय मान्यता के रूप में रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "architecture",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah has an unfinished appearance — why it matters on this drive",
+        "shortDescription": "The district describes the red-stone mausoleum as having intricate work and no roof, with a local story that construction stopped midway. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Shahpeer’s Dargah has an unfinished appearance — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इसे लाल पत्थर की नक्काशीदार संरचना बताता है जिसकी छत नहीं है और स्थानीय मान्यता के अनुसार निर्माण बीच में रुक गया था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah is listed as a heritage monument",
+        "shortDescription": "Meerut district says the tomb has been listed as a national heritage monument by the Archaeological Survey of India.",
+        "narrationHint": "Shahpeer’s Dargah is listed as a heritage monument"
+      },
+      "hi": {
+        "title": "शाहपीर की दरगाह विरासत स्मारक के रूप में सूचीबद्ध है",
+        "shortDescription": "मेरठ जिला बताता है कि यह मकबरा भारतीय पुरातत्व सर्वेक्षण द्वारा राष्ट्रीय विरासत स्मारक के रूप में सूचीबद्ध है।",
+        "narrationHint": "जिला स्रोत की भाषा के करीब रहें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer’s Dargah is listed as a heritage monument — why it matters on this drive",
+        "shortDescription": "Meerut district says the tomb has been listed as a national heritage monument by the Archaeological Survey of India. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Shahpeer’s Dargah is listed as a heritage monument — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि यह मकबरा भारतीय पुरातत्व सर्वेक्षण द्वारा राष्ट्रीय विरासत स्मारक के रूप में सूचीबद्ध है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "gandhi-bagh",
+      "cluster:meerut-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.98
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Gandhi Bagh was once known as Company Gardens",
+        "shortDescription": "Meerut district says Gandhi Bagh on Mall Road was earlier known locally as Company Gardens.",
+        "narrationHint": "Gandhi Bagh was once known as Company Gardens"
+      },
+      "hi": {
+        "title": "गांधी बाग को पहले कंपनी गार्डन्स कहा जाता था",
+        "shortDescription": "मेरठ जिला बताता है कि मॉल रोड का गांधी बाग पहले स्थानीय रूप से कंपनी गार्डन्स कहलाता था।",
+        "narrationHint": "छोटी नाम-परिवर्तन कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "gandhi-bagh",
+      "cluster:meerut-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.98
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Gandhi Bagh was once known as Company Gardens — why it matters on this drive",
+        "shortDescription": "Meerut district says Gandhi Bagh on Mall Road was earlier known locally as Company Gardens. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Gandhi Bagh was once known as Company Gardens — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि मॉल रोड का गांधी बाग पहले स्थानीय रूप से कंपनी गार्डन्स कहलाता था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "suraj-kund",
+      "karna",
+      "cluster:meerut-legends",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.0
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Suraj Kund has a Karna legend",
+        "shortDescription": "The district says Suraj Kund is associated by belief with Karna offering his divine armour and earrings to the Sun God.",
+        "narrationHint": "Suraj Kund has a Karna legend"
+      },
+      "hi": {
+        "title": "सूरज कुंड कर्ण की पौराणिक मान्यता से जुड़ा है",
+        "shortDescription": "जिला कहता है कि सूरज कुंड को कर्ण द्वारा सूर्य देव को कवच-कुंडल अर्पित करने की मान्यता से जोड़ा जाता है।",
+        "narrationHint": "इसे पौराणिक मान्यता के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "suraj-kund",
+      "karna",
+      "cluster:meerut-legends",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.0
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Suraj Kund has a Karna legend — why it matters on this drive",
+        "shortDescription": "The district says Suraj Kund is associated by belief with Karna offering his divine armour and earrings to the Sun God. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Suraj Kund has a Karna legend — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कहता है कि सूरज कुंड को कर्ण द्वारा सूर्य देव को कवच-कुंडल अर्पित करने की मान्यता से जोड़ा जाता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "suraj-kund",
+      "dussehra",
+      "cluster:meerut-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.0
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "A fair is held at Suraj Kund around Dussehra",
+        "shortDescription": "Meerut district says a fair is organised there during Dussehra.",
+        "narrationHint": "A fair is held at Suraj Kund around Dussehra"
+      },
+      "hi": {
+        "title": "दशहरे के समय सूरज कुंड पर मेला लगता है",
+        "shortDescription": "मेरठ जिला बताता है कि दशहरे के समय सूरज कुंड पर मेला आयोजित होता है।",
+        "narrationHint": "मौसमी स्थानीय संस्कृति की कहानी।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "suraj-kund",
+      "dussehra",
+      "cluster:meerut-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.0
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "A fair is held at Suraj Kund around Dussehra — why it matters on this drive",
+        "shortDescription": "Meerut district says a fair is organised there during Dussehra. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "A fair is held at Suraj Kund around Dussehra — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि दशहरे के समय सूरज कुंड पर मेला आयोजित होता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahid-smarak",
+      "1857",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.99
+    },
+    "interestingness": 8.4,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shaheed Smarak preserves memories of the 1857 struggle",
+        "shortDescription": "The district says Shaheed Smarak is dedicated to martyrs of the 1857 freedom struggle and includes a museum.",
+        "narrationHint": "Shaheed Smarak preserves memories of the 1857 struggle"
+      },
+      "hi": {
+        "title": "शहीद स्मारक 1857 की यादों को संजोता है",
+        "shortDescription": "जिला बताता है कि शहीद स्मारक 1857 के स्वतंत्रता संघर्ष के शहीदों को समर्पित है और यहां संग्रहालय भी है।",
+        "narrationHint": "इसे संग्रहालय और विरासत की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahid-smarak",
+      "1857",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.99
+    },
+    "interestingness": 8.1,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shaheed Smarak preserves memories of the 1857 struggle — why it matters on this drive",
+        "shortDescription": "The district says Shaheed Smarak is dedicated to martyrs of the 1857 freedom struggle and includes a museum. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Shaheed Smarak preserves memories of the 1857 struggle — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि शहीद स्मारक 1857 के स्वतंत्रता संघर्ष के शहीदों को समर्पित है और यहां संग्रहालय भी है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "freedom-struggle-museum",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.99
+    },
+    "interestingness": 8.2,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s Freedom Struggle Museum opened in 1997",
+        "shortDescription": "The Government Freedom Struggle Museum was established in 1997 in the Shaheed Smarak compound.",
+        "narrationHint": "Meerut’s Freedom Struggle Museum opened in 1997"
+      },
+      "hi": {
+        "title": "मेरठ का स्वतंत्रता संग्राम संग्रहालय 1997 में स्थापित हुआ",
+        "shortDescription": "सरकारी स्वतंत्रता संग्राम संग्रहालय 1997 में शहीद स्मारक परिसर में स्थापित हुआ।",
+        "narrationHint": "पुराने इतिहास को संजोने वाली आधुनिक संस्था के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "freedom-struggle-museum",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.68,
+      "lat": 28.99
+    },
+    "interestingness": 7.8999999999999995,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s Freedom Struggle Museum opened in 1997 — why it matters on this drive",
+        "shortDescription": "The Government Freedom Struggle Museum was established in 1997 in the Shaheed Smarak compound. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut’s Freedom Struggle Museum opened in 1997 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "सरकारी स्वतंत्रता संग्राम संग्रहालय 1997 में शहीद स्मारक परिसर में स्थापित हुआ। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "eidgah",
+      "sultanate",
+      "cluster:meerut-heritage",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 29.0
+    },
+    "interestingness": 7.7,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s Shahi Eidgah has Sultanate-era associations",
+        "shortDescription": "The district says the Shahi Eidgah was built by Sultan Nasir ud din Mahmud, son of Iltutmish.",
+        "narrationHint": "Meerut’s Shahi Eidgah has Sultanate-era associations"
+      },
+      "hi": {
+        "title": "मेरठ की शाही ईदगाह का संबंध दिल्ली सल्तनत से है",
+        "shortDescription": "जिला बताता है कि शाही ईदगाह सुल्तान नासिरुद्दीन महमूद, इल्तुतमिश के पुत्र, से जुड़ी है।",
+        "narrationHint": "इसे दिल्ली सल्तनत की वास्तुकला कहानी की तरह रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "eidgah",
+      "sultanate",
+      "cluster:meerut-heritage",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.69,
+      "lat": 29.0
+    },
+    "interestingness": 7.4,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut’s Shahi Eidgah has Sultanate-era associations — why it matters on this drive",
+        "shortDescription": "The district says the Shahi Eidgah was built by Sultan Nasir ud din Mahmud, son of Iltutmish. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut’s Shahi Eidgah has Sultanate-era associations — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि शाही ईदगाह सुल्तान नासिरुद्दीन महमूद, इल्तुतमिश के पुत्र, से जुड़ी है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "agriculture",
+      "industry",
+      "cluster:meerut-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut combines agriculture with industry",
+        "shortDescription": "The district economy page describes Meerut as an important industrial town as well as an agricultural area.",
+        "narrationHint": "Meerut combines agriculture with industry"
+      },
+      "hi": {
+        "title": "मेरठ में खेती और उद्योग दोनों की मजबूत भूमिका है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज मेरठ को महत्वपूर्ण औद्योगिक शहर और कृषि क्षेत्र दोनों बताता है।",
+        "narrationHint": "शहर में प्रवेश की ट्रांज़िशन कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "agriculture",
+      "industry",
+      "cluster:meerut-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Meerut combines agriculture with industry — why it matters on this drive",
+        "shortDescription": "The district economy page describes Meerut as an important industrial town as well as an agricultural area. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut combines agriculture with industry — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज मेरठ को महत्वपूर्ण औद्योगिक शहर और कृषि क्षेत्र दोनों बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "sugar",
+      "cluster:meerut-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Sugar is one of Meerut’s prominent industries",
+        "shortDescription": "Meerut’s district economy page lists sugar among its prominent industries.",
+        "narrationHint": "Sugar is one of Meerut’s prominent industries"
+      },
+      "hi": {
+        "title": "चीनी मेरठ के प्रमुख उद्योगों में है",
+        "shortDescription": "मेरठ जिला चीनी को अपने प्रमुख उद्योगों में गिनता है।",
+        "narrationHint": "इसे पश्चिमी यूपी के गन्ने के खेतों से जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "sugar",
+      "cluster:meerut-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Sugar is one of Meerut’s prominent industries — why it matters on this drive",
+        "shortDescription": "Meerut’s district economy page lists sugar among its prominent industries. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Sugar is one of Meerut’s prominent industries — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला चीनी को अपने प्रमुख उद्योगों में गिनता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "engineering",
+      "cluster:meerut-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.3,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Engineering is part of Meerut’s industrial mix",
+        "shortDescription": "The district economy page lists engineering among prominent industries.",
+        "narrationHint": "Engineering is part of Meerut’s industrial mix"
+      },
+      "hi": {
+        "title": "इंजीनियरिंग मेरठ के औद्योगिक मिश्रण का हिस्सा है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज इंजीनियरिंग को प्रमुख उद्योगों में गिनता है।",
+        "narrationHint": "छोटा आधुनिक अर्थव्यवस्था तथ्य रखें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "engineering",
+      "cluster:meerut-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.0,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Engineering is part of Meerut’s industrial mix — why it matters on this drive",
+        "shortDescription": "The district economy page lists engineering among prominent industries. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Engineering is part of Meerut’s industrial mix — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अर्थव्यवस्था पेज इंजीनियरिंग को प्रमुख उद्योगों में गिनता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "jain",
+      "cluster:meerut-religion",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.99
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut has an old Digambar Jain temple",
+        "shortDescription": "The district describes a Digambar Jain Temple among Meerut’s old temples and notes seven altars and many Tirthankara images.",
+        "narrationHint": "Meerut has an old Digambar Jain temple"
+      },
+      "hi": {
+        "title": "मेरठ में पुराना दिगंबर जैन मंदिर है",
+        "shortDescription": "जिला मेरठ के पुराने मंदिरों में दिगंबर जैन मंदिर का उल्लेख करता है और सात वेदियों तथा तीर्थंकर प्रतिमाओं की बात बताता है।",
+        "narrationHint": "मंदिर की आयु के असमर्थित दावे न जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "jain",
+      "cluster:meerut-religion",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.99
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Meerut has an old Digambar Jain temple — why it matters on this drive",
+        "shortDescription": "The district describes a Digambar Jain Temple among Meerut’s old temples and notes seven altars and many Tirthankara images. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Meerut has an old Digambar Jain temple — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला मेरठ के पुराने मंदिरों में दिगंबर जैन मंदिर का उल्लेख करता है और सात वेदियों तथा तीर्थंकर प्रतिमाओं की बात बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "parikshitgarh",
+      "cluster:meerut-detour",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.94,
+      "lat": 29.0
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Parikshitgarh carries a Mahabharata tradition",
+        "shortDescription": "Meerut district says Parikshitgarh is named after King Parikshit, grandson of Arjuna, in local tradition.",
+        "narrationHint": "Parikshitgarh carries a Mahabharata tradition"
+      },
+      "hi": {
+        "title": "परीक्षितगढ़ महाभारत की परंपरा से जुड़ा है",
+        "shortDescription": "मेरठ जिला बताता है कि परीक्षितगढ़ का नाम अर्जुन के पौत्र राजा परीक्षित से जुड़ी स्थानीय परंपरा है।",
+        "narrationHint": "इसे डिटूर उम्मीदवार और परंपरा के रूप में रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "parikshitgarh",
+      "cluster:meerut-detour",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.94,
+      "lat": 29.0
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Parikshitgarh carries a Mahabharata tradition — why it matters on this drive",
+        "shortDescription": "Meerut district says Parikshitgarh is named after King Parikshit, grandson of Arjuna, in local tradition. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Parikshitgarh carries a Mahabharata tradition — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ जिला बताता है कि परीक्षितगढ़ का नाम अर्जुन के पौत्र राजा परीक्षित से जुड़ी स्थानीय परंपरा है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "parikshitgarh",
+      "cluster:meerut-detour",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.94,
+      "lat": 29.0
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Parikshitgarh has an 18th-century restoration tradition",
+        "shortDescription": "The district says the fort is believed to have been restored in the 18th century by Nain Singh, and coins of Shah Alam II were found there in 1916.",
+        "narrationHint": "Parikshitgarh has an 18th-century restoration tradition"
+      },
+      "hi": {
+        "title": "परीक्षितगढ़ के किले के 18वीं सदी में पुनर्निर्माण की मान्यता है",
+        "shortDescription": "जिला बताता है कि किले के 18वीं सदी में नैन सिंह द्वारा पुनर्निर्माण की मान्यता है और 1916 में शाह आलम द्वितीय के सिक्के मिले थे।",
+        "narrationHint": "पुनर्निर्माण की मान्यता और सिक्कों की खोज को अलग रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "parikshitgarh",
+      "cluster:meerut-detour",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.94,
+      "lat": 29.0
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Parikshitgarh has an 18th-century restoration tradition — why it matters on this drive",
+        "shortDescription": "The district says the fort is believed to have been restored in the 18th century by Nain Singh, and coins of Shah Alam II were found there in 1916. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Parikshitgarh has an 18th-century restoration tradition — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि किले के 18वीं सदी में नैन सिंह द्वारा पुनर्निर्माण की मान्यता है और 1916 में शाह आलम द्वितीय के सिक्के मिले थे। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "sarvat",
+      "mughal",
+      "cluster:muzaffarnagar-history",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.1,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar grew from the older pargana of Sarvat",
+        "shortDescription": "District history says Sarvat was a pargana granted as a jagir to Saiyed Muzaffar Khan by Shah Jahan.",
+        "narrationHint": "Muzaffarnagar grew from the older pargana of Sarvat"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर का इतिहास पुराने सरवत परगने से जुड़ता है",
+        "shortDescription": "जिला इतिहास के अनुसार सरवत परगना शाहजहां ने सैयद मुजफ्फर खान को जागीर के रूप में दिया था।",
+        "narrationHint": "पुराने स्थान-नाम से कहानी शुरू करें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "sarvat",
+      "mughal",
+      "cluster:muzaffarnagar-history",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.8,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar grew from the older pargana of Sarvat — why it matters on this drive",
+        "shortDescription": "District history says Sarvat was a pargana granted as a jagir to Saiyed Muzaffar Khan by Shah Jahan. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar grew from the older pargana of Sarvat — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार सरवत परगना शाहजहां ने सैयद मुजफ्फर खान को जागीर के रूप में दिया था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "1633",
+      "cluster:muzaffarnagar-history",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.3,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s foundation is dated to 1633",
+        "shortDescription": "District history says Saiyed Muzaffar Khan founded the city in 1633 using lands of Khera and Sujru.",
+        "narrationHint": "Muzaffarnagar’s foundation is dated to 1633"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर की स्थापना 1633 से जुड़ी है",
+        "shortDescription": "जिला इतिहास के अनुसार सैयद मुजफ्फर खान ने 1633 में खेड़ा और सुजड़ू की जमीनों पर शहर बसाया।",
+        "narrationHint": "तारीख और संस्थापक स्पष्ट बताएं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "1633",
+      "cluster:muzaffarnagar-history",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.0,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s foundation is dated to 1633 — why it matters on this drive",
+        "shortDescription": "District history says Saiyed Muzaffar Khan founded the city in 1633 using lands of Khera and Sujru. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar’s foundation is dated to 1633 — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार सैयद मुजफ्फर खान ने 1633 में खेड़ा और सुजड़ू की जमीनों पर शहर बसाया। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "munawar-lashkar-khan",
+      "cluster:muzaffarnagar-history",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s early development continued under Muzaffar Khan’s son",
+        "shortDescription": "District history credits Munawar Lashkar Khan with completing the project and naming the city after his father.",
+        "narrationHint": "Muzaffarnagar’s early development continued under Muzaffar Khan’s son"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर के शुरुआती विकास को मुजफ्फर खान के बेटे ने आगे बढ़ाया",
+        "shortDescription": "जिला इतिहास मुजफ्फर खान के बेटे मुनव्वर लश्कर खान को परियोजना पूरा करने और पिता के नाम पर शहर का नाम रखने का श्रेय देता है।",
+        "narrationHint": "इसे छोटी वंश-इतिहास कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "muzaffarnagar",
+      "munawar-lashkar-khan",
+      "cluster:muzaffarnagar-history",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s early development continued under Muzaffar Khan’s son — why it matters on this drive",
+        "shortDescription": "District history credits Munawar Lashkar Khan with completing the project and naming the city after his father. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar’s early development continued under Muzaffar Khan’s son — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास मुजफ्फर खान के बेटे मुनव्वर लश्कर खान को परियोजना पूरा करने और पिता के नाम पर शहर का नाम रखने का श्रेय देता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "archaeology",
+    "tags": [
+      "muzaffarnagar",
+      "mandi",
+      "harappan",
+      "cluster:muzaffarnagar-ancient",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.44
+    },
+    "interestingness": 8.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "A site near Mandi has Harappan-era archaeological evidence",
+        "shortDescription": "District history says findings at village Mandi west of the Kali river indicate mature Harappan culture.",
+        "narrationHint": "A site near Mandi has Harappan-era archaeological evidence"
+      },
+      "hi": {
+        "title": "मंडी के पास हड़प्पा काल के पुरातात्विक प्रमाण मिले हैं",
+        "shortDescription": "जिला इतिहास के अनुसार काली नदी के पश्चिम मंडी गांव में मिले अवशेष परिपक्व हड़प्पा संस्कृति की ओर संकेत करते हैं।",
+        "narrationHint": "जरूरत हो तो “जिला इतिहास के अनुसार” कहें।"
+      }
+    }
+  },
+  {
+    "category": "archaeology",
+    "tags": [
+      "muzaffarnagar",
+      "mandi",
+      "harappan",
+      "cluster:muzaffarnagar-ancient",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.44
+    },
+    "interestingness": 8.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "A site near Mandi has Harappan-era archaeological evidence — why it matters on this drive",
+        "shortDescription": "District history says findings at village Mandi west of the Kali river indicate mature Harappan culture. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "A site near Mandi has Harappan-era archaeological evidence — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला इतिहास के अनुसार काली नदी के पश्चिम मंडी गांव में मिले अवशेष परिपक्व हड़प्पा संस्कृति की ओर संकेत करते हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "archaeology",
+    "tags": [
+      "muzaffarnagar",
+      "mandi",
+      "trade",
+      "cluster:muzaffarnagar-ancient",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.44
+    },
+    "interestingness": 8.3,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "The Mandi site was associated with ancient trade",
+        "shortDescription": "The district says the Mandi site was an important centre of trade during mature Harappan culture.",
+        "narrationHint": "The Mandi site was associated with ancient trade"
+      },
+      "hi": {
+        "title": "मंडी का प्राचीन स्थल व्यापार से भी जुड़ा था",
+        "shortDescription": "जिला बताता है कि मंडी का स्थल परिपक्व हड़प्पा संस्कृति में व्यापार का महत्वपूर्ण केंद्र था।",
+        "narrationHint": "इसे प्राचीन व्यापार की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "archaeology",
+    "tags": [
+      "muzaffarnagar",
+      "mandi",
+      "trade",
+      "cluster:muzaffarnagar-ancient",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.44
+    },
+    "interestingness": 8.0,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "The Mandi site was associated with ancient trade — why it matters on this drive",
+        "shortDescription": "The district says the Mandi site was an important centre of trade during mature Harappan culture. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "The Mandi site was associated with ancient trade — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि मंडी का स्थल परिपक्व हड़प्पा संस्कृति में व्यापार का महत्वपूर्ण केंद्र था। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "sugar",
+      "agriculture",
+      "cluster:muzaffarnagar-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sugar is a major industry in Muzaffarnagar",
+        "shortDescription": "The district identifies sugar as a major industrial product and lists 11 sugar mills.",
+        "narrationHint": "Sugar is a major industry in Muzaffarnagar"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर में चीनी उद्योग बहुत महत्वपूर्ण है",
+        "shortDescription": "जिला चीनी को प्रमुख औद्योगिक उत्पाद बताता है और 11 चीनी मिलों का उल्लेख करता है।",
+        "narrationHint": "इसे कृषि और उद्योग के संबंध से जोड़ें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "sugar",
+      "agriculture",
+      "cluster:muzaffarnagar-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sugar is a major industry in Muzaffarnagar — why it matters on this drive",
+        "shortDescription": "The district identifies sugar as a major industrial product and lists 11 sugar mills. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Sugar is a major industry in Muzaffarnagar — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला चीनी को प्रमुख औद्योगिक उत्पाद बताता है और 11 चीनी मिलों का उल्लेख करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "agriculture",
+    "tags": [
+      "muzaffarnagar",
+      "agriculture",
+      "cluster:muzaffarnagar-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Agriculture is a major livelihood base in Muzaffarnagar",
+        "shortDescription": "The district says more than 70% of its population is engaged in agriculture.",
+        "narrationHint": "Agriculture is a major livelihood base in Muzaffarnagar"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर में कृषि आजीविका का बड़ा आधार है",
+        "shortDescription": "जिला बताता है कि 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है।",
+        "narrationHint": "आंकड़े को स्रोत के संदर्भ में रखें।"
+      }
+    }
+  },
+  {
+    "category": "agriculture",
+    "tags": [
+      "muzaffarnagar",
+      "agriculture",
+      "cluster:muzaffarnagar-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Agriculture is a major livelihood base in Muzaffarnagar — why it matters on this drive",
+        "shortDescription": "The district says more than 70% of its population is engaged in agriculture. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Agriculture is a major livelihood base in Muzaffarnagar — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "muzaffarnagar",
+      "jaggery",
+      "gur",
+      "cluster:muzaffarnagar-food",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.46
+    },
+    "interestingness": 9.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a famous jaggery market",
+        "shortDescription": "The district says the Muzaffarnagar market of jaggery, called gud locally, is the largest in the world.",
+        "narrationHint": "Muzaffarnagar has a famous jaggery market"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर की गुड़ मंडी प्रसिद्ध है",
+        "shortDescription": "जिला कहता है कि मुजफ्फरनगर की गुड़ मंडी दुनिया की सबसे बड़ी है।",
+        "narrationHint": "यह इस रूट की मजबूत खाने-पीने वाली कहानियों में से एक है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "muzaffarnagar",
+      "jaggery",
+      "gur",
+      "cluster:muzaffarnagar-food",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.46
+    },
+    "interestingness": 8.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a famous jaggery market — why it matters on this drive",
+        "shortDescription": "The district says the Muzaffarnagar market of jaggery, called gud locally, is the largest in the world. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar has a famous jaggery market — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कहता है कि मुजफ्फरनगर की गुड़ मंडी दुनिया की सबसे बड़ी है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "steel",
+      "cluster:muzaffarnagar-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Steel is an important Muzaffarnagar industry",
+        "shortDescription": "The district identifies steel among its major products.",
+        "narrationHint": "Steel is an important Muzaffarnagar industry"
+      },
+      "hi": {
+        "title": "स्टील मुजफ्फरनगर के प्रमुख उद्योगों में है",
+        "shortDescription": "जिला स्टील को अपने प्रमुख औद्योगिक उत्पादों में गिनता है।",
+        "narrationHint": "छोटा औद्योगिक तथ्य रखें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "steel",
+      "cluster:muzaffarnagar-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Steel is an important Muzaffarnagar industry — why it matters on this drive",
+        "shortDescription": "The district identifies steel among its major products. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Steel is an important Muzaffarnagar industry — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला स्टील को अपने प्रमुख औद्योगिक उत्पादों में गिनता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "paper",
+      "cluster:muzaffarnagar-economy",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.4,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Paper is part of Muzaffarnagar’s industrial mix",
+        "shortDescription": "The district lists paper among its major products.",
+        "narrationHint": "Paper is part of Muzaffarnagar’s industrial mix"
+      },
+      "hi": {
+        "title": "कागज उद्योग भी मुजफ्फरनगर की अर्थव्यवस्था का हिस्सा है",
+        "shortDescription": "जिला कागज को प्रमुख उत्पादों में शामिल करता है।",
+        "narrationHint": "इसे सहायक अर्थव्यवस्था कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "paper",
+      "cluster:muzaffarnagar-economy",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.1000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Paper is part of Muzaffarnagar’s industrial mix — why it matters on this drive",
+        "shortDescription": "The district lists paper among its major products. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Paper is part of Muzaffarnagar’s industrial mix — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला कागज को प्रमुख उत्पादों में शामिल करता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "indo-islamic",
+      "cluster:muzaffarnagar-culture",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.6,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s culture reflects western UP and Indo-Islamic influences",
+        "shortDescription": "The district describes its culture as western Uttar Pradesh with an Indo-Islamic flavour.",
+        "narrationHint": "Muzaffarnagar’s culture reflects western UP and Indo-Islamic influences"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर की संस्कृति में पश्चिमी यूपी और इंडो-इस्लामिक प्रभाव हैं",
+        "shortDescription": "जिला अपनी संस्कृति को पश्चिमी उत्तर प्रदेश और इंडो-इस्लामिक प्रभावों से जोड़ता है।",
+        "narrationHint": "इसे व्यापक सांस्कृतिक ट्रांज़िशन कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "indo-islamic",
+      "cluster:muzaffarnagar-culture",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.3,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar’s culture reflects western UP and Indo-Islamic influences — why it matters on this drive",
+        "shortDescription": "The district describes its culture as western Uttar Pradesh with an Indo-Islamic flavour. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar’s culture reflects western UP and Indo-Islamic influences — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला अपनी संस्कृति को पश्चिमी उत्तर प्रदेश और इंडो-इस्लामिक प्रभावों से जोड़ता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "bhairon",
+      "ekadash",
+      "cluster:muzaffarnagar-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Bhairon Temple has eleven Shivlings",
+        "shortDescription": "The district says the main shrine houses eleven Shivlings known as Ekadash Shivlings.",
+        "narrationHint": "Bhairon Temple has eleven Shivlings"
+      },
+      "hi": {
+        "title": "भैरों मंदिर में ग्यारह शिवलिंग हैं",
+        "shortDescription": "जिला बताता है कि मुख्य गर्भगृह में ग्यारह शिवलिंग हैं जिन्हें एकादश शिवलिंग कहा जाता है।",
+        "narrationHint": "दृश्य रूप से खास विवरण पर जोर दें।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "bhairon",
+      "ekadash",
+      "cluster:muzaffarnagar-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Bhairon Temple has eleven Shivlings — why it matters on this drive",
+        "shortDescription": "The district says the main shrine houses eleven Shivlings known as Ekadash Shivlings. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Bhairon Temple has eleven Shivlings — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि मुख्य गर्भगृह में ग्यारह शिवलिंग हैं जिन्हें एकादश शिवलिंग कहा जाता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "bhairon",
+      "shivratri",
+      "cluster:muzaffarnagar-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Bhairon Temple is especially busy during Shivratri",
+        "shortDescription": "The district says the temple is most frequented during Shivratri.",
+        "narrationHint": "Bhairon Temple is especially busy during Shivratri"
+      },
+      "hi": {
+        "title": "शिवरात्रि पर भैरों मंदिर में विशेष भीड़ होती है",
+        "shortDescription": "जिला बताता है कि शिवरात्रि के दौरान मंदिर में सबसे अधिक श्रद्धालु आते हैं।",
+        "narrationHint": "मौसमी कहानी के रूप में इस्तेमाल करें।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "bhairon",
+      "shivratri",
+      "cluster:muzaffarnagar-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Bhairon Temple is especially busy during Shivratri — why it matters on this drive",
+        "shortDescription": "The district says the temple is most frequented during Shivratri. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Bhairon Temple is especially busy during Shivratri — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि शिवरात्रि के दौरान मंदिर में सबसे अधिक श्रद्धालु आते हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "museum",
+    "tags": [
+      "muzaffarnagar",
+      "museum",
+      "archaeology",
+      "cluster:muzaffarnagar-museum",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 8.2,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a government educational museum",
+        "shortDescription": "The Government Educational Museum was established in 1959 and contains metal images, terracotta, coins and stone sculptures.",
+        "narrationHint": "Muzaffarnagar has a government educational museum"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर में सरकारी शैक्षिक संग्रहालय है",
+        "shortDescription": "सरकारी शैक्षिक संग्रहालय 1959 में स्थापित हुआ और इसमें धातु प्रतिमाएं, टेराकोटा, सिक्के और पत्थर की मूर्तियां हैं।",
+        "narrationHint": "पुरातत्व और संग्रहालय की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "museum",
+    "tags": [
+      "muzaffarnagar",
+      "museum",
+      "archaeology",
+      "cluster:muzaffarnagar-museum",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.8999999999999995,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/places-of-interest/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a government educational museum — why it matters on this drive",
+        "shortDescription": "The Government Educational Museum was established in 1959 and contains metal images, terracotta, coins and stone sculptures. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar has a government educational museum — इस यात्रा से जुड़ी बात",
+        "shortDescription": "सरकारी शैक्षिक संग्रहालय 1959 में स्थापित हुआ और इसमें धातु प्रतिमाएं, टेराकोटा, सिक्के और पत्थर की मूर्तियां हैं। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "museum",
+    "tags": [
+      "muzaffarnagar",
+      "insects",
+      "zoology",
+      "cluster:muzaffarnagar-museum",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.9,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a zoology museum with an insect gallery",
+        "shortDescription": "The Zoology Museum was established in 1970 and the district calls its insect gallery one of its prime attractions.",
+        "narrationHint": "Muzaffarnagar has a zoology museum with an insect gallery"
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर में कीट गैलरी वाला जूलॉजी संग्रहालय है",
+        "shortDescription": "जूलॉजी संग्रहालय 1970 में स्थापित हुआ और जिला इसकी कीट गैलरी को प्रमुख आकर्षण बताता है।",
+        "narrationHint": "बच्चों के लिए विज्ञान वाली कहानी के रूप में सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "museum",
+    "tags": [
+      "muzaffarnagar",
+      "insects",
+      "zoology",
+      "cluster:muzaffarnagar-museum",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.6000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has a zoology museum with an insect gallery — why it matters on this drive",
+        "shortDescription": "The Zoology Museum was established in 1970 and the district calls its insect gallery one of its prime attractions. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Muzaffarnagar has a zoology museum with an insect gallery — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जूलॉजी संग्रहालय 1970 में स्थापित हुआ और जिला इसकी कीट गैलरी को प्रमुख आकर्षण बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "secularism",
+      "cluster:vahelna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 9.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna places a mosque, Shiva temple and Jain temple side by side",
+        "shortDescription": "The district says the three religious sites share a common wall and describes Vahelna as an example of Hindu-Muslim brotherhood.",
+        "narrationHint": "Vahelna places a mosque, Shiva temple and Jain temple side by side"
+      },
+      "hi": {
+        "title": "वहलना में मस्जिद, शिव मंदिर और जैन मंदिर साथ-साथ हैं",
+        "shortDescription": "जिला बताता है कि तीनों धार्मिक स्थल एक साझा दीवार से जुड़े हैं और इसे हिंदू-मुस्लिम भाईचारे का उदाहरण बताता है।",
+        "narrationHint": "पहले भौतिक संरचना बताएं, बड़े सामान्यीकरण से बचें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "secularism",
+      "cluster:vahelna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna places a mosque, Shiva temple and Jain temple side by side — why it matters on this drive",
+        "shortDescription": "The district says the three religious sites share a common wall and describes Vahelna as an example of Hindu-Muslim brotherhood. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Vahelna places a mosque, Shiva temple and Jain temple side by side — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि तीनों धार्मिक स्थल एक साझा दीवार से जुड़े हैं और इसे हिंदू-मुस्लिम भाईचारे का उदाहरण बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "jain",
+      "cluster:vahelna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.6,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna is an important Jain pilgrimage site",
+        "shortDescription": "The Vahelna Jain Mandir is described by the district as an important Jain pilgrimage site.",
+        "narrationHint": "Vahelna is an important Jain pilgrimage site"
+      },
+      "hi": {
+        "title": "वहलना एक महत्वपूर्ण जैन तीर्थ स्थल है",
+        "shortDescription": "जिला वहलना जैन मंदिर को महत्वपूर्ण जैन तीर्थ स्थल बताता है।",
+        "narrationHint": "इसे स्थान की पहचान की कहानी बनाएं।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "jain",
+      "cluster:vahelna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.299999999999999,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna is an important Jain pilgrimage site — why it matters on this drive",
+        "shortDescription": "The Vahelna Jain Mandir is described by the district as an important Jain pilgrimage site. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Vahelna is an important Jain pilgrimage site — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला वहलना जैन मंदिर को महत्वपूर्ण जैन तीर्थ स्थल बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "parshwanath",
+      "cluster:vahelna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.5,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna’s Jain temple has an old Parshwanath idol",
+        "shortDescription": "The district says the temple has an old idol of Lord Parshwanath.",
+        "narrationHint": "Vahelna’s Jain temple has an old Parshwanath idol"
+      },
+      "hi": {
+        "title": "वहलना जैन मंदिर में भगवान पार्श्वनाथ की पुरानी प्रतिमा है",
+        "shortDescription": "जिला बताता है कि मंदिर में भगवान पार्श्वनाथ की पुरानी प्रतिमा है।",
+        "narrationHint": "स्रोत के करीब रहकर बताएं।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "parshwanath",
+      "cluster:vahelna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna’s Jain temple has an old Parshwanath idol — why it matters on this drive",
+        "shortDescription": "The district says the temple has an old idol of Lord Parshwanath. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Vahelna’s Jain temple has an old Parshwanath idol — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि मंदिर में भगवान पार्श्वनाथ की पुरानी प्रतिमा है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "manasthamb",
+      "cluster:vahelna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 8.0,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna has a 57-foot Manasthamb",
+        "shortDescription": "The district says the Jain temple complex includes a 57-foot Manasthamb.",
+        "narrationHint": "Vahelna has a 57-foot Manasthamb"
+      },
+      "hi": {
+        "title": "वहलना में 57 फुट ऊंचा मानस्तंभ है",
+        "shortDescription": "जिला बताता है कि जैन मंदिर परिसर में 57 फुट ऊंचा मानस्तंभ है।",
+        "narrationHint": "दृश्य लैंडमार्क के रूप में सुनाएं।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "manasthamb",
+      "cluster:vahelna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 7.7,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna has a 57-foot Manasthamb — why it matters on this drive",
+        "shortDescription": "The district says the Jain temple complex includes a 57-foot Manasthamb. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Vahelna has a 57-foot Manasthamb — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि जैन मंदिर परिसर में 57 फुट ऊंचा मानस्तंभ है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "parshwanath",
+      "cluster:vahelna",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna also has a 31-foot Parshwanath monolith",
+        "shortDescription": "The district says a 31-foot monolith of Lord Parshwanath has been installed at the Jain temple.",
+        "narrationHint": "Vahelna also has a 31-foot Parshwanath monolith"
+      },
+      "hi": {
+        "title": "वहलना में 31 फुट ऊंची पार्श्वनाथ प्रतिमा भी है",
+        "shortDescription": "जिला बताता है कि जैन मंदिर में 31 फुट ऊंची पार्श्वनाथ की एकाश्म प्रतिमा स्थापित की गई है।",
+        "narrationHint": "वर्तमान स्थल की विशेषता के रूप में बताएं।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "muzaffarnagar",
+      "vahelna",
+      "parshwanath",
+      "cluster:vahelna",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 29.46
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "translations": {
+      "en": {
+        "title": "Vahelna also has a 31-foot Parshwanath monolith — why it matters on this drive",
+        "shortDescription": "The district says a 31-foot monolith of Lord Parshwanath has been installed at the Jain temple. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Vahelna also has a 31-foot Parshwanath monolith — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि जैन मंदिर में 31 फुट ऊंची पार्श्वनाथ की एकाश्म प्रतिमा स्थापित की गई है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "sankirtan-bhawan",
+      "cluster:muzaffarnagar-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.9,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sankirtan Bhawan is also called Kirtan Bhawan",
+        "shortDescription": "The district says Sankirtan Bhawan, also known as Kirtan Bhawan, houses Tirupati Balaji and hosts evening kirtan.",
+        "narrationHint": "Sankirtan Bhawan is also called Kirtan Bhawan"
+      },
+      "hi": {
+        "title": "संकर्तन भवन को कीर्तन भवन भी कहा जाता है",
+        "shortDescription": "जिला बताता है कि संकर्तन भवन, जिसे कीर्तन भवन भी कहा जाता है, में तिरुपति बालाजी की प्रतिमा है और शाम को कीर्तन होता है।",
+        "narrationHint": "हल्की सांस्कृतिक कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "sankirtan-bhawan",
+      "cluster:muzaffarnagar-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.6000000000000005,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sankirtan Bhawan is also called Kirtan Bhawan — why it matters on this drive",
+        "shortDescription": "The district says Sankirtan Bhawan, also known as Kirtan Bhawan, houses Tirupati Balaji and hosts evening kirtan. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Sankirtan Bhawan is also called Kirtan Bhawan — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि संकर्तन भवन, जिसे कीर्तन भवन भी कहा जाता है, में तिरुपति बालाजी की प्रतिमा है और शाम को कीर्तन होता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "bhandara",
+      "cluster:muzaffarnagar-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "editorialScore": 5,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sankirtan Bhawan runs a daily bhandara",
+        "shortDescription": "The district says its Anna Kshetra serves a daily bhandara at noon and the initiative began in 1979.",
+        "narrationHint": "Sankirtan Bhawan runs a daily bhandara"
+      },
+      "hi": {
+        "title": "संकर्तन भवन में रोज़ भंडारा होता है",
+        "shortDescription": "जिला बताता है कि अन्न क्षेत्र में रोज़ दोपहर भंडारा होता है और यह पहल 1979 में शुरू हुई।",
+        "narrationHint": "तारीख और परंपरा पर ध्यान दें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "bhandara",
+      "cluster:muzaffarnagar-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.5,
+    "confidence": 0.94,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Sankirtan Bhawan runs a daily bhandara — why it matters on this drive",
+        "shortDescription": "The district says its Anna Kshetra serves a daily bhandara at noon and the initiative began in 1979. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Sankirtan Bhawan runs a daily bhandara — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि अन्न क्षेत्र में रोज़ दोपहर भंडारा होता है और यह पहल 1979 में शुरू हुई। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "kamla-nehru-vatika",
+      "cluster:muzaffarnagar-city",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 7.1,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Kamla Nehru Vatika has many fruit trees",
+        "shortDescription": "The district says the garden has many kinds of fruit trees whose produce is auctioned each year.",
+        "narrationHint": "Kamla Nehru Vatika has many fruit trees"
+      },
+      "hi": {
+        "title": "कमला नेहरू वाटिका में कई तरह के फलदार पेड़ हैं",
+        "shortDescription": "जिला बताता है कि वाटिका में कई प्रकार के फलदार पेड़ हैं और उनका उत्पादन हर साल नीलाम किया जाता है।",
+        "narrationHint": "इसे सरल शहरी-प्रकृति कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "muzaffarnagar",
+      "kamla-nehru-vatika",
+      "cluster:muzaffarnagar-city",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.47
+    },
+    "interestingness": 6.8,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Kamla Nehru Vatika has many fruit trees — why it matters on this drive",
+        "shortDescription": "The district says the garden has many kinds of fruit trees whose produce is auctioned each year. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Kamla Nehru Vatika has many fruit trees — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला बताता है कि वाटिका में कई प्रकार के फलदार पेड़ हैं और उनका उत्पादन हर साल नीलाम किया जाता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "education",
+    "tags": [
+      "khatauli",
+      "jain",
+      "cluster:khatauli",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.73,
+      "lat": 29.28
+    },
+    "interestingness": 7.2,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/public-utility-category/colleges-universities/",
+    "translations": {
+      "en": {
+        "title": "Khatauli has a Jain college named Kund Kund Jain PG College",
+        "shortDescription": "The district public-utilities directory lists Kund Kund Jain PG College in Khatauli.",
+        "narrationHint": "Khatauli has a Jain college named Kund Kund Jain PG College"
+      },
+      "hi": {
+        "title": "खतौली में कुंद कुंद जैन पीजी कॉलेज है",
+        "shortDescription": "जिला निर्देशिका खतौली में कुंद कुंद जैन पीजी कॉलेज को सूचीबद्ध करती है।",
+        "narrationHint": "रूट के पर्याप्त पास होने पर ही ट्रिगर करें।"
+      }
+    }
+  },
+  {
+    "category": "education",
+    "tags": [
+      "khatauli",
+      "jain",
+      "cluster:khatauli",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.73,
+      "lat": 29.28
+    },
+    "interestingness": 6.9,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/public-utility-category/colleges-universities/",
+    "translations": {
+      "en": {
+        "title": "Khatauli has a Jain college named Kund Kund Jain PG College — why it matters on this drive",
+        "shortDescription": "The district public-utilities directory lists Kund Kund Jain PG College in Khatauli. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Khatauli has a Jain college named Kund Kund Jain PG College — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला निर्देशिका खतौली में कुंद कुंद जैन पीजी कॉलेज को सूचीबद्ध करती है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "administration",
+    "tags": [
+      "khatauli",
+      "cluster:khatauli",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.73,
+      "lat": 29.28
+    },
+    "interestingness": 7.0,
+    "confidence": 0.96,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tehsil/",
+    "translations": {
+      "en": {
+        "title": "Khatauli is one of Muzaffarnagar’s four tehsils",
+        "shortDescription": "The district administration lists Sadar, Jansath, Budhana and Khatauli as its four tehsils.",
+        "narrationHint": "Khatauli is one of Muzaffarnagar’s four tehsils"
+      },
+      "hi": {
+        "title": "खतौली मुजफ्फरनगर की चार तहसीलों में से एक है",
+        "shortDescription": "जिला प्रशासन सदर, जानसठ, बुढ़ाना और खतौली को चार तहसीलें बताता है।",
+        "narrationHint": "स्थानीय प्रशासनिक भूगोल की कहानी रखें।"
+      }
+    }
+  },
+  {
+    "category": "administration",
+    "tags": [
+      "khatauli",
+      "cluster:khatauli",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.73,
+      "lat": 29.28
+    },
+    "interestingness": 6.7,
+    "confidence": 0.94,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/tehsil/",
+    "translations": {
+      "en": {
+        "title": "Khatauli is one of Muzaffarnagar’s four tehsils — why it matters on this drive",
+        "shortDescription": "The district administration lists Sadar, Jansath, Budhana and Khatauli as its four tehsils. On this journey, it is a useful local context cue rather than a destination guide."
+      },
+      "hi": {
+        "title": "Khatauli is one of Muzaffarnagar’s four tehsils — इस यात्रा से जुड़ी बात",
+        "shortDescription": "जिला प्रशासन सदर, जानसठ, बुढ़ाना और खतौली को चार तहसीलें बताता है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "steel",
+      "cluster:muzaffarnagar-economy"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.5,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Steel is one of Muzaffarnagar’s major products",
+        "shortDescription": "The district identifies steel among its major products."
+      },
+      "hi": {
+        "title": "मुजफ्फरनगर के प्रमुख उत्पादों में स्टील भी है",
+        "shortDescription": "जिला स्टील को प्रमुख उत्पादों में गिनता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "muzaffarnagar",
+      "paper",
+      "cluster:muzaffarnagar-economy"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 29.47
+    },
+    "interestingness": 7.4,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Paper is another major Muzaffarnagar product",
+        "shortDescription": "The district lists paper among its major products."
+      },
+      "hi": {
+        "title": "कागज भी मुजफ्फरनगर के प्रमुख उत्पादों में है",
+        "shortDescription": "जिला कागज को प्रमुख उत्पादों में शामिल करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "military",
+      "cluster:1857-meerut"
+    ],
+    "location": {
+      "lng": 77.66,
+      "lat": 28.98
+    },
+    "interestingness": 8.5,
+    "confidence": 0.92,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut became a major military centre under British rule",
+        "shortDescription": "Meerut district history says the city became a major military centre after British control."
+      },
+      "hi": {
+        "title": "ब्रिटिश शासन में मेरठ एक बड़ा सैन्य केंद्र बना",
+        "shortDescription": "मेरठ जिला इतिहास बताता है कि ब्रिटिश नियंत्रण के बाद शहर एक बड़ा सैन्य केंद्र बना।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "tyres",
+      "cluster:meerut-economy"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.2,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Tyres are part of Meerut’s industrial profile",
+        "shortDescription": "The district lists tyres among prominent industries."
+      },
+      "hi": {
+        "title": "टायर उद्योग भी मेरठ की अर्थव्यवस्था का हिस्सा है",
+        "shortDescription": "जिला टायर उद्योग को प्रमुख उद्योगों में गिनता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "meerut",
+      "transformers",
+      "cluster:meerut-economy"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.0
+    },
+    "interestingness": 7.1,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/economy/",
+    "translations": {
+      "en": {
+        "title": "Transformers are made within Meerut’s industrial mix",
+        "shortDescription": "The district economy page lists transformers among prominent industries."
+      },
+      "hi": {
+        "title": "ट्रांसफॉर्मर उद्योग भी मेरठ में है",
+        "shortDescription": "जिला अर्थव्यवस्था पेज ट्रांसफॉर्मर को प्रमुख उद्योगों में गिनता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "meerut",
+      "nauchandi",
+      "nautanki",
+      "cluster:nauchandi"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.97
+    },
+    "interestingness": 7.4,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/festival-events/",
+    "translations": {
+      "en": {
+        "title": "Nauchandi includes nautanki and cultural performances",
+        "shortDescription": "The district mentions giant wheels, games, nautankis and cultural performances at the fair."
+      },
+      "hi": {
+        "title": "नौचंदी मेले में नौटंकी और सांस्कृतिक कार्यक्रम भी होते हैं",
+        "shortDescription": "जिला मेले में झूले, खेल, नौटंकी और सांस्कृतिक कार्यक्रमों का उल्लेख करता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "meerut",
+      "shahpeer-gate",
+      "cluster:meerut-heritage"
+    ],
+    "location": {
+      "lng": 77.72,
+      "lat": 28.99
+    },
+    "interestingness": 7.2,
+    "confidence": 0.92,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/tourist-places/",
+    "translations": {
+      "en": {
+        "title": "Shahpeer Gate is linked to an 1829 construction tradition",
+        "shortDescription": "Meerut district says a local jagirdar, Rajaji, is believed to have constructed Shahpeer Gate in 1829."
+      },
+      "hi": {
+        "title": "शाहपीर गेट का संबंध 1829 के निर्माण से जोड़ा जाता है",
+        "shortDescription": "मेरठ जिला बताता है कि स्थानीय जागीरदार राजाजी ने 1829 में शाहपीर गेट बनवाया था, ऐसी मान्यता है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "meerut",
+      "gazak",
+      "sweets",
+      "cluster:meerut-food",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 8.3,
+    "confidence": 0.9,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/",
+    "translations": {
+      "en": {
+        "title": "Meerut is known nationwide for gazak",
+        "shortDescription": "Meerut is known across northern India for gazak, a brittle sesame-and-jaggery sweet traditionally made through the winter months.",
+        "longDescription": "Gazak is made by cooking til (sesame) and gud (jaggery) together into a hardened brittle. It has been a winter specialty of Meerut for generations, with several long-running sweet shops in the old city credited with popularising it well beyond the district.",
+        "narrationHint": "The town coming up is known nationwide for a winter sesame-jaggery sweet."
+      },
+      "hi": {
+        "title": "मेरठ की गजक देशभर में मशहूर है",
+        "shortDescription": "मेरठ उत्तर भारत में गजक के लिए जाना जाता है, जो तिल और गुड़ से बनी एक पारंपरिक सर्दियों की मिठाई है।",
+        "longDescription": "गजक तिल और गुड़ को साथ पकाकर बनाई जाती है। यह पीढ़ियों से मेरठ की सर्दियों की खासियत रही है, और पुराने शहर की कई मिठाई दुकानों ने इसे जिले से बाहर भी मशहूर किया है।",
+        "narrationHint": "आगे आने वाला शहर एक तिल-गुड़ की सर्दियों की मिठाई के लिए मशहूर है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "meerut",
+      "gazak",
+      "sweets",
+      "cluster:meerut-food",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.98
+    },
+    "interestingness": 7.8,
+    "confidence": 0.88,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/",
+    "translations": {
+      "en": {
+        "title": "Meerut is known nationwide for gazak — why it matters on this drive",
+        "shortDescription": "Meerut is known across northern India for gazak, a brittle sesame-and-jaggery sweet. On this journey, it is a useful local context cue rather than a destination guide.",
+        "longDescription": "Gazak has been a winter specialty of Meerut for generations. The story should feel connected to what the traveller is passing through now."
+      },
+      "hi": {
+        "title": "मेरठ की गजक देशभर में मशहूर है — इस यात्रा से जुड़ी बात",
+        "shortDescription": "मेरठ तिल-गुड़ की गजक के लिए मशहूर है। इस यात्रा में यह रास्ते के स्थानीय संदर्भ की तरह काम करता है।",
+        "longDescription": "गजक पीढ़ियों से मेरठ की सर्दियों की खासियत रही है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "meerut",
+      "parantha",
+      "street-food",
+      "cluster:meerut-food",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 28.98
+    },
+    "interestingness": 7.6,
+    "confidence": 0.85,
+    "editorialScore": 3,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/",
+    "translations": {
+      "en": {
+        "title": "Meerut's old city has its own parantha lane",
+        "shortDescription": "A stretch of shops in Meerut's old city is known locally for stuffed paranthas served fresh through the day, in the same spirit as Delhi's more famous parantha lane.",
+        "longDescription": "Meerut's old city food streets include a cluster of shops built around a single specialty: stuffed paranthas cooked fresh to order and served with pickles and chutneys, drawing regulars from across the city.",
+        "narrationHint": "Meerut has a food street built around one dish — stuffed paranthas."
+      },
+      "hi": {
+        "title": "मेरठ के पुराने शहर की अपनी 'परांठे वाली गली' है",
+        "shortDescription": "मेरठ के पुराने शहर में कुछ दुकानें भरवां परांठों के लिए मशहूर हैं, जो दिनभर ताज़ा बनाकर परोसे जाते हैं।",
+        "longDescription": "मेरठ की पुरानी गलियों में भरवां परांठों पर केंद्रित दुकानों का एक जाना-पहचाना समूह है, जहां अचार-चटनी के साथ परांठे परोसे जाते हैं।",
+        "narrationHint": "मेरठ की एक गली पूरी तरह भरवां परांठों पर केंद्रित है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "muzaffarnagar",
+      "sugarcane-juice",
+      "cluster:muzaffarnagar-food",
+      "angle:route-context"
+    ],
+    "location": {
+      "lng": 77.7,
+      "lat": 29.46
+    },
+    "interestingness": 7.4,
+    "confidence": 0.85,
+    "editorialScore": 3,
+    "sourceName": "Muzaffarnagar District Administration",
+    "sourceUrl": "https://muzaffarnagar.nic.in/culture-heritage/",
+    "translations": {
+      "en": {
+        "title": "Roadside sugarcane juice stalls track the harvest here",
+        "shortDescription": "Because Muzaffarnagar district crushes so much cane for jaggery and sugar, roadside ganne ka ras (sugarcane juice) stalls are especially common along this stretch during the cane season.",
+        "longDescription": "The same cane belt that feeds Muzaffarnagar's jaggery mills also supplies roadside juice stalls, which press sugarcane fresh by the glass. Their numbers rise and fall with the harvest season, making them a visible seasonal marker along this corridor.",
+        "narrationHint": "The sugarcane behind these stalls is the same crop behind the jaggery mills."
+      },
+      "hi": {
+        "title": "गन्ने के मौसम में सड़क किनारे गन्ने के रस के ठेले बढ़ जाते हैं",
+        "shortDescription": "मुजफ्फरनगर में गुड़ और चीनी के लिए इतना गन्ना पिरता है कि इस रास्ते पर गन्ने के रस के ठेले खासतौर पर आम हैं।",
+        "longDescription": "वही गन्ना पट्टी जो मुजफ्फरनगर की गुड़ मिलों को गन्ना देती है, सड़क किनारे के जूस ठेलों को भी गन्ना देती है।",
+        "narrationHint": "इन ठेलों का गन्ना वही फसल है जो गुड़ मिलों में जाती है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "modinagar",
+      "highway-food",
+      "dhaba",
+      "cluster:modinagar",
+      "angle:fact"
+    ],
+    "location": {
+      "lng": 77.85,
+      "lat": 28.69
+    },
+    "interestingness": 6.8,
+    "confidence": 0.8,
+    "editorialScore": 3,
+    "sourceName": "Common highway dhaba format, western UP",
+    "translations": {
+      "en": {
+        "title": "Highway dhabas along this stretch follow a familiar format",
+        "shortDescription": "The truck-stop dhabas lining this stretch of highway typically serve a simple, repeatable menu — dal, a seasonal sabzi, roti and lassi — built for quick turnaround rather than variety.",
+        "longDescription": "Roadside dhabas on this corridor are built around speed and consistency rather than a large menu: a dal, one or two seasonal vegetable dishes, tandoor-fresh roti, and a lassi to finish, cooked in large batches to keep pace with steady truck and bus traffic.",
+        "narrationHint": "Same short menu at nearly every dhaba on this stretch, and that's by design."
+      },
+      "hi": {
+        "title": "इस हाईवे के ढाबों का एक जाना-पहचाना ढांचा है",
+        "shortDescription": "इस हाईवे किनारे के ढाबे आमतौर पर एक सीधा मेन्यू रखते हैं — दाल, मौसमी सब्ज़ी, रोटी और लस्सी — ताकि खाना जल्दी परोसा जा सके।",
+        "longDescription": "इस रास्ते के ढाबे विविधता की बजाय रफ़्तार और एकरूपता पर बने हैं, ताकि ट्रक और बस यात्रियों को जल्दी खाना मिल सके।",
+        "narrationHint": "इस रास्ते के लगभग हर ढाबे का मेन्यू एक जैसा है, और यह जानबूझकर है।"
+      }
+    }
+  }
+]

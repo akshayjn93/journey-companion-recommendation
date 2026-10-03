@@ -1,0 +1,553 @@
+[
+  {
+    "content_key": "gapfill_hapur_meerut_greenfield_31_78km",
+    "category": "infrastructure",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:dme",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=193482"
+    },
+    "translations": {
+      "en": {
+        "title": "The 31.78 km greenfield link to Meerut",
+        "shortDescription": "The Hapur–Meerut section of the Delhi–Meerut Expressway is a 31.78 km greenfield, six-lane corridor.",
+        "longDescription": "The Hapur–Meerut section of the Delhi–Meerut Expressway is a 31.78 km greenfield, six-lane corridor.",
+        "narrationHint": "The Hapur–Meerut section of the Delhi–Meerut Expressway is a 31.78 km greenfield, six-lane corridor."
+      },
+      "hi": {
+        "title": "हापुड़–मेरठ हिस्सा दिल्ली–मेरठ एक्सप्रेसवे का 31.78 किलोमीटर लंबा, छह लेन वाला ग्रीनफील्ड कॉरिडोर है।",
+        "shortDescription": "हापुड़–मेरठ हिस्सा दिल्ली–मेरठ एक्सप्रेसवे का 31.78 किलोमीटर लंबा, छह लेन वाला ग्रीनफील्ड कॉरिडोर है।",
+        "longDescription": "हापुड़–मेरठ हिस्सा दिल्ली–मेरठ एक्सप्रेसवे का 31.78 किलोमीटर लंबा, छह लेन वाला ग्रीनफील्ड कॉरिडोर है।",
+        "narrationHint": "हापुड़–मेरठ हिस्सा दिल्ली–मेरठ एक्सप्रेसवे का 31.78 किलोमीटर लंबा, छह लेन वाला ग्रीनफील्ड कॉरिडोर है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_upper_ganga_canal_bridge",
+    "category": "infrastructure",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:upper-ganga-canal",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=193482"
+    },
+    "translations": {
+      "en": {
+        "title": "The Upper Ganga Canal crossing",
+        "shortDescription": "A major bridge on the Delhi–Meerut Expressway crosses the Upper Ganga Canal.",
+        "longDescription": "A major bridge on the Delhi–Meerut Expressway crosses the Upper Ganga Canal.",
+        "narrationHint": "A major bridge on the Delhi–Meerut Expressway crosses the Upper Ganga Canal."
+      },
+      "hi": {
+        "title": "दिल्ली–मेरठ एक्सप्रेसवे का एक प्रमुख पुल अपर गंगा नहर को पार करता है।",
+        "shortDescription": "दिल्ली–मेरठ एक्सप्रेसवे का एक प्रमुख पुल अपर गंगा नहर को पार करता है।",
+        "longDescription": "दिल्ली–मेरठ एक्सप्रेसवे का एक प्रमुख पुल अपर गंगा नहर को पार करता है।",
+        "narrationHint": "दिल्ली–मेरठ एक्सप्रेसवे का एक प्रमुख पुल अपर गंगा नहर को पार करता है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_upper_ganga_canal_irrigation",
+    "category": "agriculture",
+    "interestingness": 9,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:upper-ganga-canal",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://en.wikipedia.org/wiki/Ganges_Canal"
+    },
+    "translations": {
+      "en": {
+        "title": "The canal that helped shape the Doab",
+        "shortDescription": "The Upper Ganga Canal is part of the irrigation network that supports agriculture across the Ganga-Yamuna Doab.",
+        "longDescription": "The Upper Ganga Canal is part of the irrigation network that supports agriculture across the Ganga-Yamuna Doab.",
+        "narrationHint": "The Upper Ganga Canal is part of the irrigation network that supports agriculture across the Ganga-Yamuna Doab."
+      },
+      "hi": {
+        "title": "अपर गंगा नहर गंगा–यमुना दोआब की सिंचाई व्यवस्था का महत्वपूर्ण हिस्सा है।",
+        "shortDescription": "अपर गंगा नहर गंगा–यमुना दोआब की सिंचाई व्यवस्था का महत्वपूर्ण हिस्सा है।",
+        "longDescription": "अपर गंगा नहर गंगा–यमुना दोआब की सिंचाई व्यवस्था का महत्वपूर्ण हिस्सा है।",
+        "narrationHint": "अपर गंगा नहर गंगा–यमुना दोआब की सिंचाई व्यवस्था का महत्वपूर्ण हिस्सा है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_pilkhuwa_elevated_corridor",
+    "category": "infrastructure",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:pilkhuwa",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=193482"
+    },
+    "translations": {
+      "en": {
+        "title": "Pilkhuwa's 4.68 km elevated corridor",
+        "shortDescription": "The Dasna–Hapur section includes a 4.68 km six-lane elevated corridor at Pilkhuwa.",
+        "longDescription": "The Dasna–Hapur section includes a 4.68 km six-lane elevated corridor at Pilkhuwa.",
+        "narrationHint": "The Dasna–Hapur section includes a 4.68 km six-lane elevated corridor at Pilkhuwa."
+      },
+      "hi": {
+        "title": "पिलखुवा में दिल्ली–मेरठ एक्सप्रेसवे के हिस्से के रूप में 4.68 किलोमीटर लंबा छह लेन का एलिवेटेड कॉरिडोर है।",
+        "shortDescription": "पिलखुवा में दिल्ली–मेरठ एक्सप्रेसवे के हिस्से के रूप में 4.68 किलोमीटर लंबा छह लेन का एलिवेटेड कॉरिडोर है।",
+        "longDescription": "पिलखुवा में दिल्ली–मेरठ एक्सप्रेसवे के हिस्से के रूप में 4.68 किलोमीटर लंबा छह लेन का एलिवेटेड कॉरिडोर है।",
+        "narrationHint": "पिलखुवा में दिल्ली–मेरठ एक्सप्रेसवे के हिस्से के रूप में 4.68 किलोमीटर लंबा छह लेन का एलिवेटेड कॉरिडोर है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_pilkhuwa_handloom",
+    "category": "culture",
+    "interestingness": 8,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:pilkhuwa",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://en.wikipedia.org/wiki/Pilkhuwa"
+    },
+    "translations": {
+      "en": {
+        "title": "Pilkhuwa's textile tradition",
+        "shortDescription": "Pilkhuwa is known for textile products and handloom activity.",
+        "longDescription": "Pilkhuwa is known for textile products and handloom activity.",
+        "narrationHint": "Pilkhuwa is known for textile products and handloom activity."
+      },
+      "hi": {
+        "title": "पिलखुवा कपड़ा उत्पादों और हथकरघा गतिविधियों के लिए जाना जाता है।",
+        "shortDescription": "पिलखुवा कपड़ा उत्पादों और हथकरघा गतिविधियों के लिए जाना जाता है।",
+        "longDescription": "पिलखुवा कपड़ा उत्पादों और हथकरघा गतिविधियों के लिए जाना जाता है।",
+        "narrationHint": "पिलखुवा कपड़ा उत्पादों और हथकरघा गतिविधियों के लिए जाना जाता है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_hapur_grain_gur_trade",
+    "category": "history",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:hapur",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://hapur.nic.in/history/"
+    },
+    "translations": {
+      "en": {
+        "title": "Hapur grew through grain and gur trade",
+        "shortDescription": "Hapur developed as a major trading centre for grain and jaggery, supported by road and rail connections.",
+        "longDescription": "Hapur developed as a major trading centre for grain and jaggery, supported by road and rail connections.",
+        "narrationHint": "Hapur developed as a major trading centre for grain and jaggery, supported by road and rail connections."
+      },
+      "hi": {
+        "title": "हापुड़ अनाज और गुड़ के बड़े व्यापारिक केंद्र के रूप में विकसित हुआ, जिसमें सड़क और रेल संपर्क की बड़ी भूमिका रही।",
+        "shortDescription": "हापुड़ अनाज और गुड़ के बड़े व्यापारिक केंद्र के रूप में विकसित हुआ, जिसमें सड़क और रेल संपर्क की बड़ी भूमिका रही।",
+        "longDescription": "हापुड़ अनाज और गुड़ के बड़े व्यापारिक केंद्र के रूप में विकसित हुआ, जिसमें सड़क और रेल संपर्क की बड़ी भूमिका रही।",
+        "narrationHint": "हापुड़ अनाज और गुड़ के बड़े व्यापारिक केंद्र के रूप में विकसित हुआ, जिसमें सड़क और रेल संपर्क की बड़ी भूमिका रही।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_hapur_agriculture_industry",
+    "category": "industry",
+    "interestingness": 8,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:hapur",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://hapur.nic.in/history/"
+    },
+    "translations": {
+      "en": {
+        "title": "Hapur's farms and growing industries",
+        "shortDescription": "Hapur combines agriculture with industries including stainless-steel pipes, paper cones and textiles.",
+        "longDescription": "Hapur combines agriculture with industries including stainless-steel pipes, paper cones and textiles.",
+        "narrationHint": "Hapur combines agriculture with industries including stainless-steel pipes, paper cones and textiles."
+      },
+      "hi": {
+        "title": "हापुड़ की अर्थव्यवस्था में खेती के साथ स्टेनलेस-स्टील पाइप, पेपर कोन और कपड़ा उद्योग भी शामिल हैं।",
+        "shortDescription": "हापुड़ की अर्थव्यवस्था में खेती के साथ स्टेनलेस-स्टील पाइप, पेपर कोन और कपड़ा उद्योग भी शामिल हैं।",
+        "longDescription": "हापुड़ की अर्थव्यवस्था में खेती के साथ स्टेनलेस-स्टील पाइप, पेपर कोन और कपड़ा उद्योग भी शामिल हैं।",
+        "narrationHint": "हापुड़ की अर्थव्यवस्था में खेती के साथ स्टेनलेस-स्टील पाइप, पेपर कोन और कपड़ा उद्योग भी शामिल हैं।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_bhojpur_dme_access",
+    "category": "infrastructure",
+    "interestingness": 8,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:bhojpur",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://nhai.gov.in/nhai/sites/default/files/mix_file/list_of_46_projects_for_upload_on_NHAI_Website.pdf"
+    },
+    "translations": {
+      "en": {
+        "title": "Bhojpur: an expressway access point",
+        "shortDescription": "Government and NHAI-related documents identify Bhojpur as an access/toll location on the Delhi–Meerut Expressway, around DME km 45.7.",
+        "longDescription": "Government and NHAI-related documents identify Bhojpur as an access/toll location on the Delhi–Meerut Expressway, around DME km 45.7.",
+        "narrationHint": "Government and NHAI-related documents identify Bhojpur as an access/toll location on the Delhi–Meerut Expressway, around DME km 45.7."
+      },
+      "hi": {
+        "title": "सरकारी और NHAI से जुड़े दस्तावेज भोजपुर को दिल्ली–मेरठ एक्सप्रेसवे के एक एक्सेस/टोल स्थान के रूप में बताते हैं, जो लगभग DME किलोमीटर 45.7 पर है।",
+        "shortDescription": "सरकारी और NHAI से जुड़े दस्तावेज भोजपुर को दिल्ली–मेरठ एक्सप्रेसवे के एक एक्सेस/टोल स्थान के रूप में बताते हैं, जो लगभग DME किलोमीटर 45.7 पर है।",
+        "longDescription": "सरकारी और NHAI से जुड़े दस्तावेज भोजपुर को दिल्ली–मेरठ एक्सप्रेसवे के एक एक्सेस/टोल स्थान के रूप में बताते हैं, जो लगभग DME किलोमीटर 45.7 पर है।",
+        "narrationHint": "सरकारी और NHAI से जुड़े दस्तावेज भोजपुर को दिल्ली–मेरठ एक्सप्रेसवे के एक एक्सेस/टोल स्थान के रूप में बताते हैं, जो लगभग DME किलोमीटर 45.7 पर है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_sugar_1932",
+    "category": "industry",
+    "interestingness": 10,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:daurala",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://dcmsr.com/dsw/overview/"
+    },
+    "translations": {
+      "en": {
+        "title": "Daurala Sugar Works dates to 1932",
+        "shortDescription": "Daurala Sugar Works was established in 1932, linking the town to the long industrial history of western Uttar Pradesh's sugar belt.",
+        "longDescription": "Daurala Sugar Works was established in 1932, linking the town to the long industrial history of western Uttar Pradesh's sugar belt.",
+        "narrationHint": "Daurala Sugar Works was established in 1932, linking the town to the long industrial history of western Uttar Pradesh's sugar belt."
+      },
+      "hi": {
+        "title": "दौराला शुगर वर्क्स की स्थापना 1932 में हुई थी और यह पश्चिमी उत्तर प्रदेश के पुराने चीनी औद्योगिक इतिहास से जुड़ा है।",
+        "shortDescription": "दौराला शुगर वर्क्स की स्थापना 1932 में हुई थी और यह पश्चिमी उत्तर प्रदेश के पुराने चीनी औद्योगिक इतिहास से जुड़ा है।",
+        "longDescription": "दौराला शुगर वर्क्स की स्थापना 1932 में हुई थी और यह पश्चिमी उत्तर प्रदेश के पुराने चीनी औद्योगिक इतिहास से जुड़ा है।",
+        "narrationHint": "दौराला शुगर वर्क्स की स्थापना 1932 में हुई थी और यह पश्चिमी उत्तर प्रदेश के पुराने चीनी औद्योगिक इतिहास से जुड़ा है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_original_400_tcd",
+    "category": "industry",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:daurala",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://www.dcmsr.com/about-us"
+    },
+    "translations": {
+      "en": {
+        "title": "Daurala's first plant processed 400 tonnes of cane a day",
+        "shortDescription": "Daurala's original sugar plant began with a capacity of 400 tonnes of cane crushing per day.",
+        "longDescription": "Daurala's original sugar plant began with a capacity of 400 tonnes of cane crushing per day.",
+        "narrationHint": "Daurala's original sugar plant began with a capacity of 400 tonnes of cane crushing per day."
+      },
+      "hi": {
+        "title": "दौराला के मूल चीनी संयंत्र की शुरुआत रोजाना 400 टन गन्ना क्रश करने की क्षमता के साथ हुई थी।",
+        "shortDescription": "दौराला के मूल चीनी संयंत्र की शुरुआत रोजाना 400 टन गन्ना क्रश करने की क्षमता के साथ हुई थी।",
+        "longDescription": "दौराला के मूल चीनी संयंत्र की शुरुआत रोजाना 400 टन गन्ना क्रश करने की क्षमता के साथ हुई थी।",
+        "narrationHint": "दौराला के मूल चीनी संयंत्र की शुरुआत रोजाना 400 टन गन्ना क्रश करने की क्षमता के साथ हुई थी।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_integrated_industry",
+    "category": "industry",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:daurala",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://dcmsr.com/dsw/overview/"
+    },
+    "translations": {
+      "en": {
+        "title": "From sugar factory to integrated industrial complex",
+        "shortDescription": "Daurala's industrial complex expanded beyond sugar into distillery, chemicals, biogas and power generation.",
+        "longDescription": "Daurala's industrial complex expanded beyond sugar into distillery, chemicals, biogas and power generation.",
+        "narrationHint": "Daurala's industrial complex expanded beyond sugar into distillery, chemicals, biogas and power generation."
+      },
+      "hi": {
+        "title": "दौराला का औद्योगिक परिसर चीनी से आगे बढ़कर डिस्टिलरी, रसायन, बायोगैस और बिजली उत्पादन तक पहुंचा।",
+        "shortDescription": "दौराला का औद्योगिक परिसर चीनी से आगे बढ़कर डिस्टिलरी, रसायन, बायोगैस और बिजली उत्पादन तक पहुंचा।",
+        "longDescription": "दौराला का औद्योगिक परिसर चीनी से आगे बढ़कर डिस्टिलरी, रसायन, बायोगैस और बिजली उत्पादन तक पहुंचा।",
+        "narrationHint": "दौराला का औद्योगिक परिसर चीनी से आगे बढ़कर डिस्टिलरी, रसायन, बायोगैस और बिजली उत्पादन तक पहुंचा।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_bagasse_power",
+    "category": "industry",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:bagasse",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://dcmsr.com/dsw/overview/"
+    },
+    "translations": {
+      "en": {
+        "title": "Sugarcane waste can become energy",
+        "shortDescription": "Daurala's power generation includes agro-fuels such as bagasse, a by-product of sugar production.",
+        "longDescription": "Daurala's power generation includes agro-fuels such as bagasse, a by-product of sugar production.",
+        "narrationHint": "Daurala's power generation includes agro-fuels such as bagasse, a by-product of sugar production."
+      },
+      "hi": {
+        "title": "दौराला में चीनी उत्पादन के उप-उत्पाद बगास जैसे कृषि ईंधनों का उपयोग बिजली उत्पादन में किया जाता है।",
+        "shortDescription": "दौराला में चीनी उत्पादन के उप-उत्पाद बगास जैसे कृषि ईंधनों का उपयोग बिजली उत्पादन में किया जाता है।",
+        "longDescription": "दौराला में चीनी उत्पादन के उप-उत्पाद बगास जैसे कृषि ईंधनों का उपयोग बिजली उत्पादन में किया जाता है।",
+        "narrationHint": "दौराला में चीनी उत्पादन के उप-उत्पाद बगास जैसे कृषि ईंधनों का उपयोग बिजली उत्पादन में किया जाता है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_cane_research",
+    "category": "agriculture",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:sugarcane",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://dcmsr.com/dsw/overview/"
+    },
+    "translations": {
+      "en": {
+        "title": "Daurala also researches sugarcane",
+        "shortDescription": "Daurala maintains an in-house research farm for sugarcane varieties and cropping systems.",
+        "longDescription": "Daurala maintains an in-house research farm for sugarcane varieties and cropping systems.",
+        "narrationHint": "Daurala maintains an in-house research farm for sugarcane varieties and cropping systems."
+      },
+      "hi": {
+        "title": "दौराला में गन्ने की किस्मों और खेती की प्रणालियों के परीक्षण के लिए एक इन-हाउस रिसर्च फार्म है।",
+        "shortDescription": "दौराला में गन्ने की किस्मों और खेती की प्रणालियों के परीक्षण के लिए एक इन-हाउस रिसर्च फार्म है।",
+        "longDescription": "दौराला में गन्ने की किस्मों और खेती की प्रणालियों के परीक्षण के लिए एक इन-हाउस रिसर्च फार्म है।",
+        "narrationHint": "दौराला में गन्ने की किस्मों और खेती की प्रणालियों के परीक्षण के लिए एक इन-हाउस रिसर्च फार्म है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_daurala_ethanol",
+    "category": "industry",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:ethanol",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://dcmsr.com/dsw/overview/"
+    },
+    "translations": {
+      "en": {
+        "title": "From sugarcane to ethanol",
+        "shortDescription": "Daurala's distillery produces ethanol, connecting the local sugarcane economy with fuel production.",
+        "longDescription": "Daurala's distillery produces ethanol, connecting the local sugarcane economy with fuel production.",
+        "narrationHint": "Daurala's distillery produces ethanol, connecting the local sugarcane economy with fuel production."
+      },
+      "hi": {
+        "title": "दौराला की डिस्टिलरी एथेनॉल बनाती है, जिससे स्थानीय गन्ना अर्थव्यवस्था ईंधन उत्पादन से जुड़ती है।",
+        "shortDescription": "दौराला की डिस्टिलरी एथेनॉल बनाती है, जिससे स्थानीय गन्ना अर्थव्यवस्था ईंधन उत्पादन से जुड़ती है।",
+        "longDescription": "दौराला की डिस्टिलरी एथेनॉल बनाती है, जिससे स्थानीय गन्ना अर्थव्यवस्था ईंधन उत्पादन से जुड़ती है।",
+        "narrationHint": "दौराला की डिस्टिलरी एथेनॉल बनाती है, जिससे स्थानीय गन्ना अर्थव्यवस्था ईंधन उत्पादन से जुड़ती है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_kali_east_river",
+    "category": "geography",
+    "interestingness": 9,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:kali-east",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://www.greentribunal.gov.in/sites/default/files/all_documents/Report%20by%20CPCB%20in%20O.A.%20No.%20200%20of%202014.pdf"
+    },
+    "translations": {
+      "en": {
+        "title": "The Kali East river system",
+        "shortDescription": "CPCB material describes the Kali East system as originating in Muzaffarnagar district and passing through Khatauli and Meerut.",
+        "longDescription": "CPCB material describes the Kali East system as originating in Muzaffarnagar district and passing through Khatauli and Meerut.",
+        "narrationHint": "CPCB material describes the Kali East system as originating in Muzaffarnagar district and passing through Khatauli and Meerut."
+      },
+      "hi": {
+        "title": "CPCB की सामग्री के अनुसार काली ईस्ट नदी तंत्र मुजफ्फरनगर जिले के क्षेत्र से निकलता है और खतौली तथा मेरठ से होकर गुजरता है।",
+        "shortDescription": "CPCB की सामग्री के अनुसार काली ईस्ट नदी तंत्र मुजफ्फरनगर जिले के क्षेत्र से निकलता है और खतौली तथा मेरठ से होकर गुजरता है।",
+        "longDescription": "CPCB की सामग्री के अनुसार काली ईस्ट नदी तंत्र मुजफ्फरनगर जिले के क्षेत्र से निकलता है और खतौली तथा मेरठ से होकर गुजरता है।",
+        "narrationHint": "CPCB की सामग्री के अनुसार काली ईस्ट नदी तंत्र मुजफ्फरनगर जिले के क्षेत्र से निकलता है और खतौली तथा मेरठ से होकर गुजरता है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_khatauli_ain_i_akbari",
+    "category": "history",
+    "interestingness": 9,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:khatauli",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://en.wikipedia.org/wiki/Khatauli"
+    },
+    "translations": {
+      "en": {
+        "title": "Khatauli appears in the Ain-i-Akbari",
+        "shortDescription": "Khatauli was recorded as a pargana in the Ain-i-Akbari, showing that the town had administrative importance centuries ago.",
+        "longDescription": "Khatauli was recorded as a pargana in the Ain-i-Akbari, showing that the town had administrative importance centuries ago.",
+        "narrationHint": "Khatauli was recorded as a pargana in the Ain-i-Akbari, showing that the town had administrative importance centuries ago."
+      },
+      "hi": {
+        "title": "आइन-ए-अकबरी में खतौली को एक परगना के रूप में दर्ज किया गया था, जिससे इसकी पुरानी प्रशासनिक महत्ता का पता चलता है।",
+        "shortDescription": "आइन-ए-अकबरी में खतौली को एक परगना के रूप में दर्ज किया गया था, जिससे इसकी पुरानी प्रशासनिक महत्ता का पता चलता है।",
+        "longDescription": "आइन-ए-अकबरी में खतौली को एक परगना के रूप में दर्ज किया गया था, जिससे इसकी पुरानी प्रशासनिक महत्ता का पता चलता है।",
+        "narrationHint": "आइन-ए-अकबरी में खतौली को एक परगना के रूप में दर्ज किया गया था, जिससे इसकी पुरानी प्रशासनिक महत्ता का पता चलता है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_khatauli_ganga_canal_trade",
+    "category": "history",
+    "interestingness": 9,
+    "source_confidence": 8,
+    "tags": [
+      "cluster:khatauli",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://en.wikisource.org/wiki/Page%3AThe_Imperial_Gazetteer_of_India_-_Volume_10_%282nd_edition%29.pdf/86"
+    },
+    "translations": {
+      "en": {
+        "title": "The canal helped Khatauli grow",
+        "shortDescription": "Historical descriptions connect Khatauli's commercial importance with the Ganges Canal and the surrounding agricultural Doab.",
+        "longDescription": "Historical descriptions connect Khatauli's commercial importance with the Ganges Canal and the surrounding agricultural Doab.",
+        "narrationHint": "Historical descriptions connect Khatauli's commercial importance with the Ganges Canal and the surrounding agricultural Doab."
+      },
+      "hi": {
+        "title": "ऐतिहासिक विवरण खतौली की व्यापारिक महत्ता को गंगा नहर और आसपास के कृषि क्षेत्र से जोड़ते हैं।",
+        "shortDescription": "ऐतिहासिक विवरण खतौली की व्यापारिक महत्ता को गंगा नहर और आसपास के कृषि क्षेत्र से जोड़ते हैं।",
+        "longDescription": "ऐतिहासिक विवरण खतौली की व्यापारिक महत्ता को गंगा नहर और आसपास के कृषि क्षेत्र से जोड़ते हैं।",
+        "narrationHint": "ऐतिहासिक विवरण खतौली की व्यापारिक महत्ता को गंगा नहर और आसपास के कृषि क्षेत्र से जोड़ते हैं।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_muzaffarnagar_agriculture",
+    "category": "agriculture",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:muzaffarnagar",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://muzaffarnagar.nic.in/culture-heritage/"
+    },
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar is deeply tied to agriculture",
+        "shortDescription": "The district administration says more than 70% of Muzaffarnagar's population is engaged in agriculture.",
+        "longDescription": "The district administration says more than 70% of Muzaffarnagar's population is engaged in agriculture.",
+        "narrationHint": "The district administration says more than 70% of Muzaffarnagar's population is engaged in agriculture."
+      },
+      "hi": {
+        "title": "जिला प्रशासन के अनुसार मुजफ्फरनगर की 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है।",
+        "shortDescription": "जिला प्रशासन के अनुसार मुजफ्फरनगर की 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है।",
+        "longDescription": "जिला प्रशासन के अनुसार मुजफ्फरनगर की 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है।",
+        "narrationHint": "जिला प्रशासन के अनुसार मुजफ्फरनगर की 70 प्रतिशत से अधिक आबादी कृषि से जुड़ी है।"
+      }
+    }
+  },
+  {
+    "content_key": "gapfill_muzaffarnagar_11_sugar_mills",
+    "category": "industry",
+    "interestingness": 9,
+    "source_confidence": 10,
+    "tags": [
+      "cluster:muzaffarnagar",
+      "angle:route-context",
+      "gap-fill-v1"
+    ],
+    "source": {
+      "name": "Official / reference source",
+      "url": "https://muzaffarnagar.nic.in/culture-heritage/"
+    },
+    "translations": {
+      "en": {
+        "title": "Muzaffarnagar has 11 sugar mills",
+        "shortDescription": "The district administration lists 11 sugar mills in Muzaffarnagar district.",
+        "longDescription": "The district administration lists 11 sugar mills in Muzaffarnagar district.",
+        "narrationHint": "The district administration lists 11 sugar mills in Muzaffarnagar district."
+      },
+      "hi": {
+        "title": "जिला प्रशासन के अनुसार मुजफ्फरनगर जिले में 11 चीनी मिलें हैं।",
+        "shortDescription": "जिला प्रशासन के अनुसार मुजफ्फरनगर जिले में 11 चीनी मिलें हैं।",
+        "longDescription": "जिला प्रशासन के अनुसार मुजफ्फरनगर जिले में 11 चीनी मिलें हैं।",
+        "narrationHint": "जिला प्रशासन के अनुसार मुजफ्फरनगर जिले में 11 चीनी मिलें हैं।"
+      }
+    }
+  }
+]

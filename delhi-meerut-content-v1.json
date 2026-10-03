@@ -1,0 +1,74 @@
+[
+  {
+    "category": "history",
+    "tags": ["meerut", "cantonment", "history", "british-india"],
+    "location": { "lng": 77.6480, "lat": 28.9550 },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "editorialScore": 4,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in",
+    "translations": {
+      "en": {
+        "title": "Meerut Cantonment is one of India's oldest",
+        "shortDescription": "Meerut Cantonment was established in 1803, making it one of the oldest British-era military cantonments in India.",
+        "longDescription": "Built soon after the British gained control of the region, Meerut Cantonment grew into a major garrison town and later became central to the events of 1857.",
+        "narrationHint": "Set up the historical weight of the cantonment before the 1857 story."
+      },
+      "hi": {
+        "title": "मेरठ छावनी भारत की सबसे पुरानी छावनियों में से एक है",
+        "shortDescription": "मेरठ छावनी की स्थापना 1803 में हुई थी, जो इसे भारत की सबसे पुरानी ब्रिटिश-काल की सैन्य छावनियों में से एक बनाती है।",
+        "longDescription": "अंग्रेज़ों के इस क्षेत्र पर नियंत्रण के तुरंत बाद बनी यह छावनी एक बड़ा सैन्य केंद्र बन गई और बाद में 1857 की घटनाओं का केंद्र बनी।",
+        "narrationHint": "1857 की कहानी से पहले छावनी के ऐतिहासिक महत्व को स्थापित करें।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": ["meerut", "1857", "revolt", "history"],
+    "location": { "lng": 77.7064, "lat": 28.9845 },
+    "interestingness": 9.3,
+    "confidence": 0.95,
+    "editorialScore": 5,
+    "sourceName": "Meerut District Administration",
+    "sourceUrl": "https://meerut.nic.in/history/",
+    "translations": {
+      "en": {
+        "title": "Meerut is where the 1857 revolt began",
+        "shortDescription": "On 10 May 1857, sepoys of the Bengal Army stationed at Meerut Cantonment rose up in revolt, marking the start of what is widely seen as India's first major uprising against British rule.",
+        "longDescription": "The revolt began after sepoys refused to use cartridges rumoured to be greased with animal fat and were court-martialled; their release by fellow soldiers the next day triggered the wider uprising that spread across northern India.",
+        "narrationHint": "Give the date and the cartridge story — it's the single most recognisable fact about Meerut."
+      },
+      "hi": {
+        "title": "मेरठ से 1857 की क्रांति की शुरुआत हुई",
+        "shortDescription": "10 मई 1857 को मेरठ छावनी में तैनात बंगाल सेना के सिपाहियों ने विद्रोह कर दिया, जिसे भारत के पहले बड़े स्वतंत्रता संग्राम की शुरुआत माना जाता है।",
+        "longDescription": "यह विद्रोह उन कारतूसों को लेकर शुरू हुआ जिनके बारे में अफ़वाह थी कि उन पर पशु चर्बी लगी है; सिपाहियों को कोर्ट-मार्शल किया गया, और अगले दिन साथी सैनिकों द्वारा उन्हें रिहा कराए जाने से पूरे उत्तर भारत में विद्रोह फैल गया।",
+        "narrationHint": "तारीख़ और कारतूस वाली कहानी बताएं — यह मेरठ के बारे में सबसे जानी-पहचानी बात है।"
+      }
+    }
+  },
+  {
+    "category": "craft",
+    "tags": ["meerut", "sports-goods", "industry", "craft"],
+    "location": { "lng": 77.7100, "lat": 28.9900 },
+    "interestingness": 8.1,
+    "confidence": 0.87,
+    "editorialScore": 4,
+    "sourceName": "Sports Goods Export Promotion Council",
+    "sourceUrl": "https://www.sgepc.in",
+    "translations": {
+      "en": {
+        "title": "Meerut is India's sports goods manufacturing hub",
+        "shortDescription": "Meerut produces a large share of India's cricket bats, gloves and other sports equipment, a craft tradition going back to British-era regimental sports demand.",
+        "longDescription": "The industry grew to supply cricket and hockey equipment to British army units stationed at Meerut Cantonment, and later expanded into exports, with the city today home to hundreds of sports goods manufacturers.",
+        "narrationHint": "Connect it back to the cantonment — the same army base that started the sports goods trade."
+      },
+      "hi": {
+        "title": "मेरठ भारत का खेल-सामान निर्माण केंद्र है",
+        "shortDescription": "मेरठ भारत के अधिकतर क्रिकेट बैट, दस्ताने और अन्य खेल सामान बनाता है — यह परंपरा ब्रिटिश छावनी में खेलों की मांग से शुरू हुई थी।",
+        "longDescription": "यह उद्योग मेरठ छावनी में तैनात ब्रिटिश सेना की क्रिकेट और हॉकी सामान की ज़रूरत पूरी करने के लिए शुरू हुआ और बाद में निर्यात तक फैल गया; आज शहर में सैकड़ों खेल-सामान निर्माता हैं।",
+        "narrationHint": "इसे छावनी से जोड़ें — वही सैन्य अड्डा जिसने खेल-सामान व्यापार शुरू करवाया।"
+      }
+    }
+  }
+]

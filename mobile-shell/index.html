@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journey Companion</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Offline journey</p>
+          <h1>Journey Companion</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="playRouteButton" class="secondary" type="button">Play route</button>
+          <button id="loadPackageButton" class="primary">Load package</button>
+        </div>
+      </header>
+
+      <section class="controls">
+        <label>
+          Journey ID
+          <input id="journeyIdInput" type="text" value="2f05c55f-1e6e-4dfb-9534-48d0387a0ead" placeholder="Paste journey UUID" />
+        </label>
+        <label>
+          API base
+          <input id="apiBaseInput" type="text" value="http://localhost:3000" />
+        </label>
+      </section>
+
+      <div id="status" class="status muted">Ready to load a journey package.</div>
+
+      <main class="content-grid">
+        <section class="panel summary-panel">
+          <h2>Route summary</h2>
+          <div id="summary"></div>
+        </section>
+
+        <section class="panel story-panel">
+          <h2>Current story</h2>
+          <div id="storyDetail"></div>
+          <div id="narrationControls" class="narration-controls">
+            <label>
+              Narration language
+              <select id="narrationLanguage">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+              </select>
+            </label>
+            <div class="narration-buttons">
+              <button id="speakButton" class="primary" type="button">Speak narration</button>
+              <button id="stopSpeakButton" class="secondary" type="button">Stop</button>
+            </div>
+            <div id="narrationMeta" class="muted narration-meta"></div>
+          </div>
+          <div id="drivingControls" class="driving-controls">
+            <div class="driving-buttons">
+              <button id="startDrivingButton" class="primary" type="button">Start driving (GPS)</button>
+              <button id="stopDrivingButton" class="secondary" type="button" disabled>Stop driving</button>
+            </div>
+            <div id="drivingStatus" class="muted driving-status">Real GPS driving is idle. Load a live journey, then press Start driving.</div>
+          </div>
+          <div id="playbackState" class="playback-state paused">Paused</div>
+          <div class="progress-control">
+            <label for="progressSlider">Route progress</label>
+            <input id="progressSlider" type="range" min="0" max="100" step="1" value="0" />
+            <div class="completion-track" aria-hidden="true">
+              <div id="completionBar" class="completion-fill"></div>
+            </div>
+            <div class="progress-meta">
+              <span>0%</span>
+              <strong id="progressValue">0%</strong>
+              <span>100%</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="panel list-panel">
+        <h2>Story list</h2>
+        <div id="storyList" class="story-list"></div>
+      </section>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

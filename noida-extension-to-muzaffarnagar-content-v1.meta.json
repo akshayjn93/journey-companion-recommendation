@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "route": {
+    "start": "Noida Extension – Ek Murti Chowk",
+    "end": "Muzaffarnagar – Mahavir Chowk",
+    "primaryCorridor": "Delhi–Meerut Expressway, then Meerut–Muzaffarnagar corridor"
+  },
+  "storyCount": 179,
+  "qualityNote": "Research-backed candidate pool for real-world testing. Coordinates are approximate and must be checked against the actual OSRM route before import. Several entries are alternate narration angles of the same fact and share a cluster tag; do not let both variants trigger in the same journey.",
+  "detourNote": "Hastinapur/Parikshitgarh-style entries are contextual/detour candidates and should not be treated as directly roadside unless the route corridor supports them.",
+  "sources": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1557867&lang=2&reg=3",
+    "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/dec/doc2021121331.pdf",
+    "https://nhai.gov.in/",
+    "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+    "https://ghaziabad.nic.in/en/culture-heritage/",
+    "https://meerut.nic.in/history/",
+    "https://meerut.nic.in/tourist-places/",
+    "https://meerut.nic.in/economy/",
+    "https://meerut.nic.in/culture-heritage/",
+    "https://meerut.nic.in/festival-events/",
+    "https://muzaffarnagar.nic.in/history/",
+    "https://muzaffarnagar.nic.in/culture-heritage/",
+    "https://muzaffarnagar.nic.in/places-of-interest/",
+    "https://muzaffarnagar.nic.in/tourist-place/vehlna/",
+    "https://muzaffarnagar.nic.in/tehsil/",
+    "https://muzaffarnagar.nic.in/public-utility-category/colleges-universities/"
+  ]
+}

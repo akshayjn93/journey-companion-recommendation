@@ -1,0 +1,314 @@
+[
+  {
+    "category": "agriculture",
+    "tags": ["sugarcane", "UP", "sugar", "agriculture", "plains"],
+    "location": { "lng": 78.0800, "lat": 28.7900 },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "sourceName": "National Federation of Cooperative Sugar Factories / Ministry of Agriculture India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sugarcane_production_in_India",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Uttar Pradesh grows more sugarcane than anywhere else in India",
+        "shortDescription": "The fields around this highway are part of India's largest sugarcane belt. Uttar Pradesh produces roughly half of India's sugar — and the districts along this route are among the most productive in the country.",
+        "longDescription": "Sugarcane cultivation has been central to the economy of western and central Uttar Pradesh for over a century. The belt running through Meerut, Hapur, Ghaziabad and the surrounding districts accounts for a very large share of India's total sugar output. Dozens of sugar mills — some established in the early 1900s — are scattered across this landscape. The crop cycle changes how the fields look at different times of year: tall green stalks in summer, blackened stubble after harvesting, and bright green shoots in spring. Jaggery (gur) from this belt is traded across India and is considered among the finest in quality.",
+        "narrationHint": "The fields here are part of India's largest sugarcane belt. Uttar Pradesh produces roughly half of the country's sugar."
+      },
+      "hi": {
+        "title": "उत्तर प्रदेश पूरे भारत में सबसे अधिक गन्ना उगाता है",
+        "shortDescription": "इस राजमार्ग के आसपास के खेत भारत के सबसे बड़े गन्ना क्षेत्र का हिस्सा हैं। उत्तर प्रदेश भारत की लगभग आधी चीनी पैदा करता है।",
+        "longDescription": "मेरठ, हापुड़ और आसपास के जिलों की यह पट्टी भारत के कुल चीनी उत्पादन में बड़ा योगदान देती है। यहाँ का गुड़ पूरे भारत में बिकता है और बेहतरीन माना जाता है। फसल के मौसम के अनुसार खेत हरे, काले या ताज़े अंकुरों से भरे दिखते हैं।",
+        "narrationHint": "यहाँ के खेत भारत के सबसे बड़े गन्ना क्षेत्र का हिस्सा हैं। उत्तर प्रदेश भारत की लगभग आधी चीनी पैदा करता है।"
+      }
+    }
+  },
+  {
+    "category": "geography",
+    "tags": ["indo-gangetic", "plain", "alluvial", "flat", "fertile", "geology"],
+    "location": { "lng": 78.2500, "lat": 28.8400 },
+    "interestingness": 8.4,
+    "confidence": 0.97,
+    "sourceName": "Geological Survey of India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Indo-Gangetic_Plain",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "The flatness you see is among the largest alluvial deposits on Earth",
+        "shortDescription": "The perfectly flat land around you is the Indo-Gangetic Plain — formed by millions of years of Himalayan sediment washing down into a giant basin. It is one of the most fertile and densely populated regions on Earth.",
+        "longDescription": "The Indo-Gangetic Plain stretches roughly 2,500 km across Pakistan, northern India and Bangladesh. It formed as the Himalayan rivers carried enormous quantities of sediment down from the mountains into the depression created by the collision of the Indian and Eurasian tectonic plates. The soil is remarkably fertile — millions of years of material from the highest mountains in the world, compressed and enriched. The plain supports over 400 million people and has been one of the heartlands of Indian civilisation for at least five thousand years. The mountains you are heading toward are the very source of the soil beneath your wheels right now.",
+        "narrationHint": "The perfectly flat land around you is the Indo-Gangetic Plain — one of the largest alluvial deposits on Earth, formed by millions of years of Himalayan rivers carrying sediment down from the mountains."
+      },
+      "hi": {
+        "title": "आपके चारों ओर की समतलता पृथ्वी के सबसे बड़े जलोढ़ निक्षेपों में से है",
+        "shortDescription": "यह एकदम सपाट ज़मीन — इंडो-गैंगेटिक मैदान — करोड़ों वर्षों में हिमालय की मिट्टी से बना है। यह पृथ्वी के सबसे उपजाऊ और घनी आबादी वाले क्षेत्रों में से एक है।",
+        "longDescription": "यह मैदान लगभग 2,500 किमी लंबा है और 40 करोड़ से अधिक लोगों का घर है। हिमालय की नदियों ने करोड़ों वर्षों में पहाड़ों की मिट्टी लाकर यह मैदान बनाया। यह पाँच हज़ार वर्षों से भारतीय सभ्यता का हृदय रहा है। जिन पहाड़ों की ओर आप जा रहे हैं, वही पहाड़ आपके पाँव तले की मिट्टी के स्रोत हैं।",
+        "narrationHint": "आपके चारों ओर की समतल ज़मीन इंडो-गैंगेटिक मैदान है — पृथ्वी के सबसे बड़े जलोढ़ निक्षेपों में से एक, जो हिमालय की नदियों ने करोड़ों वर्षों में बनाया।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": ["rohilkhand", "rohilla", "history", "afghan", "mughal", "region"],
+    "location": { "lng": 78.6500, "lat": 28.8800 },
+    "interestingness": 8.5,
+    "confidence": 0.92,
+    "sourceName": "Imperial Gazetteer of India / Rohilkhand University",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rohilkhand",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "This region was once a separate kingdom called Rohilkhand",
+        "shortDescription": "The area between Moradabad and Rampur — which you are crossing — was historically known as Rohilkhand, a region that had its own distinct political identity in the 18th century under Afghan chiefs called Rohillas.",
+        "longDescription": "Rohilkhand is the historical name for the region of northern India stretching from the Ganges to the Himalayan foothills. In the 18th century, as Mughal authority weakened, Rohilla Afghan chiefs established a semi-independent state here. The Rohillas were eventually defeated by a joint British and Nawab of Awadh force in 1774. Cities like Moradabad, Rampur and Bareilly all carry the imprint of this era — in their architecture, their Urdu literary traditions, their music, and their crafts. Rampur state itself was a Rohilla principality that survived as a nawabate under British protection and became the home of the Raza Library you may have heard about.",
+        "narrationHint": "The land between Moradabad and Rampur was once called Rohilkhand — an 18th-century Afghan-controlled region that emerged as Mughal power declined. Rampur itself was a Rohilla princely state."
+      },
+      "hi": {
+        "title": "यह क्षेत्र कभी रोहिलखंड नाम का एक अलग राज्य था",
+        "shortDescription": "मुरादाबाद से रामपुर के बीच यह इलाका रोहिलखंड कहलाता था — 18वीं सदी में अफ़ग़ान रोहिल्लाओं के अधीन एक अर्ध-स्वतंत्र राज्य।",
+        "longDescription": "18वीं सदी में जब मुगल सत्ता कमज़ोर पड़ी, रोहिल्ला अफ़ग़ान सरदारों ने यहाँ अपना राज्य बनाया। 1774 में अंग्रेज़ों और अवध के नवाब ने मिलकर उन्हें हराया। मुरादाबाद, रामपुर, बरेली — ये सब इस रोहिल्ला युग की छाप लिए हैं। रामपुर रियासत स्वयं एक रोहिल्ला नवाबी थी जहाँ रज़ा लाइब्रेरी जैसी धरोहर बनी।",
+        "narrationHint": "मुरादाबाद से रामपुर के बीच की यह ज़मीन कभी रोहिलखंड थी — मुगल पतन के दौर में अफ़ग़ान रोहिल्लाओं का राज्य।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["ramganga", "river", "tributary", "ganges", "plains", "moradabad"],
+    "location": { "lng": 78.7200, "lat": 28.8500 },
+    "interestingness": 7.9,
+    "confidence": 0.93,
+    "sourceName": "Central Water Commission India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ramganga",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "The Ramganga flows out of the same hills you are heading toward",
+        "shortDescription": "The Ramganga river originates in the Kumaon Himalayas and flows through the plains near Moradabad before joining the Ganga. Moradabad grew beside this river — the same river that begins in the hills ahead of you.",
+        "longDescription": "The Ramganga is a major tributary of the Ganga, rising in Uttarakhand near the Gairsain area and flowing generally southwest through the Terai and into the Gangetic plain. It shaped the geography of this region and supported agriculture here for centuries. Jim Corbett National Park was created partly to protect the upper watershed of this river. The river's name means 'beautiful river of Ram'. Near Moradabad the Ramganga widens significantly before eventually joining the Ganga near Kannauj. The city of Moradabad grew on its bank and the river is woven into the cultural identity of the region.",
+        "narrationHint": "The Ramganga originates in the Kumaon hills you are heading toward, and Moradabad grew beside it. The same water that comes from those mountains has fed these plains for centuries."
+      },
+      "hi": {
+        "title": "रामगंगा उन्हीं पहाड़ों से निकलती है जहाँ आप जा रहे हैं",
+        "shortDescription": "रामगंगा कुमाऊँ हिमालय से निकलकर मुरादाबाद के पास मैदानों में बहती है। मुरादाबाद इसी नदी के किनारे बसा है।",
+        "longDescription": "रामगंगा गंगा की एक प्रमुख सहायक नदी है जो उत्तराखंड से निकलती है। जिम कॉर्बेट राष्ट्रीय उद्यान इसी नदी के ऊपरी जलग्रहण क्षेत्र की रक्षा के लिए बनाया गया था। मुरादाबाद इसी के किनारे बसा है और यह नदी इस क्षेत्र की सांस्कृतिक पहचान का हिस्सा है।",
+        "narrationHint": "रामगंगा उन्हीं कुमाऊँ पहाड़ों से आती है जहाँ आप जा रहे हैं। मुरादाबाद इसी नदी के किनारे बसा है।"
+      }
+    }
+  },
+  {
+    "category": "interesting",
+    "tags": ["gajraula", "junction", "industry", "pharmaceutical", "manufacturing"],
+    "location": { "lng": 78.2200, "lat": 28.8500 },
+    "interestingness": 7.7,
+    "confidence": 0.86,
+    "sourceName": "UP Industrial Development Authority",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gajraula",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Gajraula near here is a small town with a surprisingly large pharmaceutical presence",
+        "shortDescription": "Gajraula, just off this highway, is home to several major pharmaceutical and consumer goods manufacturing plants. The town punches well above its size in industrial output.",
+        "longDescription": "Gajraula in Amroha district hosts facilities for some of India's major pharmaceutical and fast-moving consumer goods companies. Despite being a relatively small town, it is part of the broader industrial corridor of western Uttar Pradesh and has benefited enormously from its location on the highway between Delhi and eastern UP cities. Several factories established here since economic liberalisation in the 1990s employ thousands of workers from the surrounding rural districts. The town is a good example of how India's highway corridors have become industrial arteries.",
+        "narrationHint": "Gajraula, just off this highway, has major pharmaceutical factories. A small town with an outsized industrial presence — part of western UP's highway industrial corridor."
+      },
+      "hi": {
+        "title": "पास का गजरौला एक छोटा शहर है जिसमें दवा उद्योग की बड़ी मौजूदगी है",
+        "shortDescription": "इस राजमार्ग से थोड़ा हटकर गजरौला में दवा और उपभोक्ता वस्तुओं के बड़े कारखाने हैं।",
+        "longDescription": "अमरोहा ज़िले का गजरौला पश्चिमी उत्तर प्रदेश के औद्योगिक गलियारे का हिस्सा है। 1990 के दशक के उदारीकरण के बाद यहाँ कई बड़े कारखाने खुले जो हज़ारों लोगों को रोज़गार देते हैं।",
+        "narrationHint": "इस राजमार्ग के पास गजरौला में बड़े दवा कारखाने हैं — पश्चिमी उत्तर प्रदेश के राजमार्ग औद्योगिक गलियारे का एक उदाहरण।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["terai", "ecology", "wildlife", "forest", "transition", "himalaya"],
+    "location": { "lng": 79.1800, "lat": 28.9600 },
+    "interestingness": 9.0,
+    "confidence": 0.95,
+    "sourceName": "WWF India / Wildlife Institute of India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Terai",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "You are entering the Terai — one of Asia's richest wildlife corridors",
+        "shortDescription": "The Terai is the narrow belt of flat, moist land between the Gangetic plains and the Himalayan foothills. This stretch runs through one of the most biodiverse regions in South Asia.",
+        "longDescription": "The Terai stretches in a narrow band from Pakistan to Bhutan at the base of the Himalayas. It is characterised by tall elephant grass, dense riverine forests, and sal tree canopy. This belt shelters tigers, leopards, elephants, one-horned rhinoceros and thousands of bird species across protected areas including Corbett, Dudhwa and several wildlife sanctuaries. The Terai was once considered impassable by outsiders due to malaria and dense jungle — British cartographers described it as the most feared natural barrier in northern India. Today it is one of the most important wildlife corridors in Asia, and conservation efforts here are directly linked to the survival of the tiger in India.",
+        "narrationHint": "The flat forested land in this stretch is the Terai — a narrow belt of extraordinary biodiversity at the base of the Himalayas. Tigers, elephants, and leopards live in the forests here."
+      },
+      "hi": {
+        "title": "आप तराई में प्रवेश कर रहे हैं — एशिया के सबसे समृद्ध वन्यजीव गलियारों में से एक",
+        "shortDescription": "तराई हिमालय की तलहटी में गंगा के मैदानों और पहाड़ियों के बीच की संकरी पट्टी है — दक्षिण एशिया के सबसे जैव-विविध क्षेत्रों में से एक।",
+        "longDescription": "तराई पाकिस्तान से भूटान तक हिमालय की तलहटी में फैली है। यहाँ बाघ, हाथी, तेंदुआ, गैंडे और हज़ारों पक्षी प्रजातियाँ मिलती हैं। कभी मलेरिया और घने जंगल के कारण यह इलाका दुर्गम था। आज यह एशिया के सबसे महत्वपूर्ण वन्यजीव गलियारों में से एक है।",
+        "narrationHint": "इस रास्ते पर जो समतल वन क्षेत्र है वह तराई है — हिमालय की तलहटी में वन्यजीवों का अद्भुत गलियारा। बाघ, हाथी और तेंदुए यहाँ रहते हैं।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["sal", "forest", "terai", "trees", "ecology", "timber"],
+    "location": { "lng": 79.2500, "lat": 28.9900 },
+    "interestingness": 8.0,
+    "confidence": 0.93,
+    "sourceName": "Forest Survey of India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shorea_robusta",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "The tall straight trees here are sal — the defining tree of the Terai",
+        "shortDescription": "Sal (Shorea robusta) is the dominant forest species of the Terai and the lower Himalayan belt. The tall, straight-trunked trees you may see along this road are among India's most important timber and culturally significant trees.",
+        "longDescription": "Sal is a large deciduous tree that forms dense, cathedral-like forests in the Terai and lower Himalayan zone. It is considered semi-sacred in several traditions — its seeds produce an oil used in religious rituals, and its large leaves are used to make the disposable leaf plates you will find across northern India. Sal timber is exceptionally strong and has been used for railway sleepers, bridges and building construction. The forests here are part of the larger Terai Arc Landscape — one of the most significant tiger and elephant habitats remaining in Asia. The British extensively logged sal forests in this belt; what remains today is the result of conservation that began in the early 20th century.",
+        "narrationHint": "The tall straight trees along this road are sal — the defining tree of the Terai forests. Sacred in many traditions, their leaves are used for the leaf plates you find across north India."
+      },
+      "hi": {
+        "title": "यहाँ के ऊँचे, सीधे पेड़ साल हैं — तराई का प्रमुख वृक्ष",
+        "shortDescription": "साल (शोरिया रोबस्टा) तराई और निचले हिमालय का मुख्य वन वृक्ष है। इसके बड़े पत्तों से पत्तल बनती है और बीजों से तेल।",
+        "longDescription": "साल के घने जंगल तराई में गिरजाघर की तरह ऊँचे और भव्य होते हैं। इसकी लकड़ी बेहद मज़बूत है — रेलवे स्लीपर और पुल बनाने में काम आती है। अंग्रेज़ों ने इन जंगलों की भारी कटाई की थी। आज जो जंगल बचा है, वह 20वीं सदी की शुरुआत से संरक्षण प्रयासों का नतीजा है।",
+        "narrationHint": "सड़क के किनारे के ऊँचे सीधे पेड़ साल हैं — तराई का मुख्य वृक्ष। इनकी पत्तियों से पूरे उत्तर भारत में पत्तल बनती है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": ["kashipur", "ancient", "govisana", "xuanzang", "drona", "uttarakhand"],
+    "location": { "lng": 79.0100, "lat": 29.1800 },
+    "interestingness": 8.6,
+    "confidence": 0.88,
+    "sourceName": "Archaeological Survey of India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kashipur,_Uttarakhand",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Kashipur stands on an ancient city visited by a 7th-century Chinese traveller",
+        "shortDescription": "Kashipur was historically known as Govisana and was documented by the Chinese Buddhist traveller Xuanzang during his journey through India around 630 CE. It is one of the oldest continuously inhabited towns in this region.",
+        "longDescription": "Xuanzang, the Chinese monk who travelled across India in the 7th century CE and whose journey inspired the classic Chinese novel Journey to the West, visited Govisana — the ancient name for what is now Kashipur. He described it as a prosperous town with Buddhist monasteries. The Drona Sagar, a large ancient tank in Kashipur, is associated in local tradition with Dronacharya — the weapons teacher of the Pandavas and Kauravas in the Mahabharata. The town later became part of the Chand kings of Kumaon and then briefly the Rohilla domain before British rule. Today Kashipur is a growing industrial town but retains these layers of history.",
+        "narrationHint": "Kashipur was known as Govisana in the 7th century, when the Chinese traveller Xuanzang visited it. The Drona Sagar tank here is linked in tradition to Dronacharya from the Mahabharata."
+      },
+      "hi": {
+        "title": "काशीपुर एक प्राचीन शहर पर बसा है जहाँ 7वीं सदी के चीनी यात्री आए थे",
+        "shortDescription": "काशीपुर का प्राचीन नाम गोविषाण था। बौद्ध यात्री ह्वेनसांग ने 630 ईस्वी के आसपास यहाँ की यात्रा की और इसे एक समृद्ध नगर बताया।",
+        "longDescription": "ह्वेनसांग — वही चीनी भिक्षु जिनकी यात्रा पर 'जर्नी टू द वेस्ट' उपन्यास आधारित है — गोविषाण आए थे और यहाँ बौद्ध मठों का उल्लेख किया। काशीपुर का द्रोण सागर — एक प्राचीन कुंड — महाभारत के द्रोणाचार्य से जुड़ा बताया जाता है।",
+        "narrationHint": "काशीपुर प्राचीन गोविषाण है — जहाँ 7वीं सदी में ह्वेनसांग आए थे। यहाँ का द्रोण सागर महाभारत के द्रोणाचार्य से जुड़ा है।"
+      }
+    }
+  },
+  {
+    "category": "geography",
+    "tags": ["foothills", "himalayas", "transition", "landscape", "kumaon", "geology"],
+    "location": { "lng": 79.4000, "lat": 29.1200 },
+    "interestingness": 8.8,
+    "confidence": 0.97,
+    "sourceName": "Geological Survey of India",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kumaon_division",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "The flat horizon is ending — the Himalayas are rising ahead",
+        "shortDescription": "The flat Indo-Gangetic plain you have crossed for most of this journey is about to change dramatically. The Kumaon Himalayas rise sharply ahead — from 300 metres at the foothills to over 7,000 metres within a surprisingly short distance.",
+        "longDescription": "The Kumaon Himalayas form the southern edge of Uttarakhand and represent one of the most abrupt terrain changes in Asia. Unlike the Gangetic plain behind you, which is entirely flat alluvial land built up over millions of years, the Kumaon hills begin almost immediately and rise steeply. This transition zone — the Bhabar and Terai belt — is geologically active. The hills are still rising: the same tectonic collision between the Indian and Eurasian plates that created the Himalayas millions of years ago continues today, pushing the mountains upward by a few millimetres each year. The peaks visible ahead include some of the most famous summits in the Kumaon range.",
+        "narrationHint": "The flat horizon is ending. Ahead, the Kumaon Himalayas rise sharply — from plains to peaks in a distance that feels almost sudden."
+      },
+      "hi": {
+        "title": "सपाट क्षितिज खत्म हो रहा है — हिमालय आगे उठ रहा है",
+        "shortDescription": "इस यात्रा में जो सपाट मैदान आप देखते रहे, वो अब बदलने वाला है। कुमाऊँ हिमालय आगे अचानक और तेज़ी से उठता है — मैदान से 7,000 मीटर तक की ऊँचाई बहुत थोड़ी दूरी में।",
+        "longDescription": "कुमाऊँ हिमालय उत्तराखंड की दक्षिणी सीमा है। भारतीय और यूरेशियाई टेक्टोनिक प्लेटों की टक्कर आज भी जारी है — पहाड़ हर साल कुछ मिलीमीटर और ऊँचे हो रहे हैं। यह ज़मीन भूगर्भीय रूप से सक्रिय है।",
+        "narrationHint": "सपाट मैदान यहाँ खत्म होता है। आगे कुमाऊँ हिमालय अचानक उठता है — एक असाधारण भूदृश्य परिवर्तन।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["gaula", "river", "haldwani", "kumaon", "hills", "nainital"],
+    "location": { "lng": 79.5050, "lat": 29.2100 },
+    "interestingness": 7.9,
+    "confidence": 0.92,
+    "sourceName": "Uttarakhand Jal Sansthan",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gaula_River",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "The Gaula River flows straight out of the hills you are entering",
+        "shortDescription": "The Gaula River originates near Nainital and flows down through Haldwani into the plains. The river near this road carries water from the very hills you are heading toward.",
+        "longDescription": "The Gaula is a tributary of the Ramganga and originates in the hills around Nainital and the Kumaon range. As it descends into Haldwani it transitions from a clear, fast hill stream to a broad, braided river that spreads across the plain. During monsoon it can flood dramatically, and its banks in Haldwani carry the marks of high water. The river is an important source of water for Haldwani and surrounding agricultural land. It is also a popular spot for stone quarrying — the rounded river stones from the Gaula are used extensively in construction across the plains.",
+        "narrationHint": "The Gaula River near Haldwani comes straight from the hills around Nainital — the water here has just descended from the mountains you are about to climb."
+      },
+      "hi": {
+        "title": "गौला नदी उन्हीं पहाड़ियों से बहकर आती है जहाँ आप जा रहे हैं",
+        "shortDescription": "गौला नदी नैनीताल के पास से निकलकर हल्द्वानी से होती हुई मैदानों में आती है। यहाँ की नदी का पानी उन्हीं पहाड़ों से है जहाँ आपकी मंज़िल है।",
+        "longDescription": "गौला रामगंगा की सहायक नदी है। हल्द्वानी में यह एक चौड़ी, बजरी से भरी नदी बन जाती है। मानसून में यह काफी फूल जाती है। इसकी गोल चिकनी कंकड़ियाँ मैदानों के निर्माण कार्यों में खूब काम आती हैं।",
+        "narrationHint": "हल्द्वानी के पास गौला नदी नैनीताल की पहाड़ियों से सीधे उतरती है — यहाँ का पानी उन्हीं पहाड़ों का है जहाँ आप जा रहे हैं।"
+      }
+    }
+  },
+  {
+    "category": "places",
+    "tags": ["haldwani", "gateway", "kumaon", "hills", "market", "plains"],
+    "location": { "lng": 79.5168, "lat": 29.2183 },
+    "interestingness": 8.5,
+    "confidence": 0.95,
+    "sourceName": "Uttarakhand Tourism",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Haldwani",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Haldwani is the gateway to the Kumaon hills",
+        "shortDescription": "You are approaching Haldwani — the last major city of the plains before the Himalayan foothills begin. Almost everything that enters the Kumaon region passes through here.",
+        "longDescription": "Haldwani sits at the precise boundary between the Indo-Gangetic plain and the Kumaon Himalayas. It is the largest city in the Kumaon division and serves as the primary wholesale market for dozens of hill communities. Before the roads into the hills were built, goods were carried by mule from Haldwani upward. The city's large mandi and Bhotia Parao market are legendary in hill culture — the phrase 'going down to Haldwani' is common shorthand across Kumaon for a major supply run from the mountains. Today, every road into the Kumaon hills begins in Haldwani or passes through it.",
+        "narrationHint": "You are entering Haldwani — the gateway to the Kumaon hills. Almost every road into the mountains begins here, and it has supplied hill communities for generations."
+      },
+      "hi": {
+        "title": "हल्द्वानी कुमाऊँ की पहाड़ियों का प्रवेश द्वार है",
+        "shortDescription": "आप हल्द्वानी के पास पहुँच रहे हैं — मैदानी इलाके का आखिरी बड़ा शहर। कुमाऊँ क्षेत्र में जाने वाली लगभग हर चीज़ यहाँ से गुज़रती है।",
+        "longDescription": "हल्द्वानी कुमाऊँ मंडल की सबसे बड़ी नगरी है और पहाड़ी इलाकों के लिए मुख्य थोक बाज़ार है। 'हल्द्वानी नीचे जाना' कुमाऊँ में एक आम कहावत है जिसका मतलब है पहाड़ों से ज़रूरी सामान लेने आना। आज कुमाऊँ के सभी रास्ते यहीं से शुरू होते हैं।",
+        "narrationHint": "आप हल्द्वानी पहुँच रहे हैं — कुमाऊँ की पहाड़ियों का प्रवेश द्वार। पहाड़ों की ओर जाने वाले सभी रास्ते यहाँ से शुरू होते हैं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": ["kathgodam", "railway", "british", "terminus", "mountains", "1884"],
+    "location": { "lng": 79.5221, "lat": 29.2380 },
+    "interestingness": 8.4,
+    "confidence": 0.95,
+    "sourceName": "North Eastern Railway Zone India / Indian Railways",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kathgodam_railway_station",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Kathgodam is where the railway runs out of flat ground",
+        "shortDescription": "Kathgodam railway station, opened in 1884, is the northern terminus of the railway before the hills become too steep for tracks. For over 140 years it has been the arrival and departure point for everyone entering the Kumaon hills by train.",
+        "longDescription": "When the British extended the Oudh and Rohilkhand Railway to Kathgodam in 1884, they stopped at the base of the hills because Victorian-era engineering could not economically manage the steep gradients ahead. The station became the literal end of the line. Travellers arriving from Delhi or Lucknow would transfer here to ponies, palanquins, and later motor vehicles to continue into the mountains. Nainital, Almora, Ranikhet, Munsiyari — all of Kumaon has been reached from this station. Today the road continues where the railway stops, but Kathgodam remains one of the best-known 'ends of the railway' in the Indian Himalayas.",
+        "narrationHint": "Kathgodam station, opened in 1884, is where the railway stops — the hills beyond were too steep for Victorian tracks. For over 140 years it has been the arrival point for everyone heading into Kumaon."
+      },
+      "hi": {
+        "title": "काठगोदाम वह जगह है जहाँ रेलवे के लिए समतल ज़मीन खत्म हो जाती है",
+        "shortDescription": "काठगोदाम रेलवे स्टेशन 1884 में खुला — पहाड़ों की तलहटी में रेलमार्ग का अंतिम पड़ाव। 140 से अधिक वर्षों से यह कुमाऊँ का प्रवेश द्वार रहा है।",
+        "longDescription": "1884 में अंग्रेज़ों ने यहाँ तक रेलवे बिछाई और आगे की खड़ी चढ़ाई के कारण रुकना पड़ा। यहाँ से यात्री घोड़े, पालकी और बाद में मोटरगाड़ियों से पहाड़ों की ओर जाते थे। नैनीताल, अल्मोड़ा, रानीखेत — पूरा कुमाऊँ इसी स्टेशन से पहुँचा जाता रहा है।",
+        "narrationHint": "काठगोदाम 1884 में बना रेलमार्ग का अंतिम स्टेशन है — यहाँ से आगे पहाड़ बहुत खड़े हैं। 140 वर्षों से यह कुमाऊँ का प्रवेश द्वार है।"
+      }
+    }
+  },
+  {
+    "category": "interesting",
+    "tags": ["haldwani", "wholesale", "market", "supply", "hills", "trade"],
+    "location": { "lng": 79.5100, "lat": 29.2050 },
+    "interestingness": 7.8,
+    "confidence": 0.90,
+    "sourceName": "Uttarakhand State Agricultural Marketing Board",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Haldwani",
+    "familyFriendly": true,
+    "translations": {
+      "en": {
+        "title": "Almost everything sold in the Kumaon hills passes through Haldwani first",
+        "shortDescription": "Haldwani's wholesale markets supply food, medicine, construction materials and daily goods to dozens of hill towns and villages. It is the economic engine of the Kumaon hills.",
+        "longDescription": "Haldwani's mandi is one of the busiest wholesale markets in Uttarakhand. Vegetables, grains, medicines, electronics, construction materials — everything that the hill communities of Kumaon need arrives here first by truck from Delhi, Moradabad or Lucknow, and is then redistributed upward into the mountains by smaller vehicles on winding roads. The economic relationship between Haldwani and the hills above it is ancient. Even before the British arrived, this location at the base of the Kumaon hills was a natural trading point. The city has grown dramatically since independence as the hill population has increased and supply chains have modernised.",
+        "narrationHint": "Haldwani's wholesale market supplies dozens of hill towns above. Food, medicine, construction materials — everything travels through Haldwani before going up into the Kumaon hills."
+      },
+      "hi": {
+        "title": "कुमाऊँ की पहाड़ियों में बिकने वाली लगभग हर चीज़ पहले हल्द्वानी से गुज़रती है",
+        "shortDescription": "हल्द्वानी का थोक बाज़ार दर्जनों पहाड़ी कस्बों को खाना, दवाइयाँ और ज़रूरी सामान पहुँचाता है — यह कुमाऊँ की आर्थिक रीढ़ है।",
+        "longDescription": "हल्द्वानी की मंडी उत्तराखंड के सबसे व्यस्त थोक बाज़ारों में से एक है। दिल्ली, मुरादाबाद या लखनऊ से ट्रक में सामान यहाँ आता है और फिर छोटी गाड़ियों में टेढ़े-मेढ़े पहाड़ी रास्तों से ऊपर जाता है। अंग्रेज़ों से पहले भी यह जगह पहाड़ और मैदान के बीच व्यापार का केंद्र थी।",
+        "narrationHint": "हल्द्वानी का थोक बाज़ार ऊपर के दर्जनों पहाड़ी कस्बों को सामान पहुँचाता है — खाना, दवाइयाँ, निर्माण सामग्री, सब कुछ पहले यहाँ से जाता है।"
+      }
+    }
+  }
+]
