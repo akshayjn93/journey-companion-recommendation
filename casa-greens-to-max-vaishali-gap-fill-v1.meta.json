@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "createdOn": "2026-11-22",
+  "storyCount": 11,
+  "purpose": "More stories for real test drives between Noida Extension (Casa Greens) and Max Hospital, Vaishali.",
+  "qualityNote": "Each story is built from the linked source. Facts were checked by web search on 2026-11-22, not by a human editor. Review before treating as final.",
+  "coordinateNote": "Coordinates looked up on OpenStreetMap: Parthala, Noida Sector 62, Indirapuram, Hindon Airport, City Forest. Coordinates that are estimates and should be checked on a map: Hindon river crossing, 14-lane highway point, Hindon Elevated Road, Sahibabad station, Hindon air force base, Dudheshwar Nath temple.",
+  "wordingNotes": [
+    "'Largest air base in Asia' is a common description, not an official ranking, and is worded that way.",
+    "'Longest elevated road of its kind' is the state government's claim at the 2018 opening, and is worded that way.",
+    "City Forest size varies between sources (110 to 175 acres); the story quotes the district website.",
+    "The Dudheshwar Nath story is marked local_tradition."
+  ],
+  "notImported": "Not yet imported into any database."
+}

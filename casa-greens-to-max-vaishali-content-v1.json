@@ -1,0 +1,62 @@
+[
+  {
+    "category": "urban",
+    "tags": ["greater-noida-west", "noida-extension", "planned-city", "urban-growth"],
+    "location": { "lng": 77.4571069, "lat": 28.6125573 },
+    "interestingness": 7.6,
+    "confidence": 0.91,
+    "sourceName": "The Times of India",
+    "sourceUrl": "https://timesofindia.indiatimes.com/city/noida/noida-extension-to-now-be-called-greater-noida-west/articleshow/16403369.cms",
+    "familyFriendly": true,
+    "editorialScore": 7.8,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Noida Extension, Now Greater Noida West",
+        "shortDescription": "The residential district around Casa Greens 1 is widely known as Greater Noida West; the name Noida Extension reflects its earlier identity as an extension of Noida.",
+        "longDescription": "This journey begins in a part of the National Capital Region whose name tells a story of urban expansion. The area was first promoted as Noida Extension, then came to be known as Greater Noida West. Its growing residential sectors show how the NCR has continued to spread beyond the older city boundaries.",
+        "narrationHint": "You are starting in Greater Noida West, a district whose earlier name, Noida Extension, captured its role in the NCR's outward growth."
+      }
+    }
+  },
+  {
+    "category": "urban",
+    "tags": ["ghaziabad", "national-highway", "transport", "ncr"],
+    "location": { "lng": 77.411591, "lat": 28.640878 },
+    "interestingness": 7.4,
+    "confidence": 0.94,
+    "sourceName": "Press Information Bureau, Government of India",
+    "sourceUrl": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=145083",
+    "familyFriendly": true,
+    "editorialScore": 7.6,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Ghaziabad on a North India Highway Corridor",
+        "shortDescription": "Ghaziabad connects to National Highway 9, a long-distance route that runs from Delhi through Uttar Pradesh toward Uttarakhand.",
+        "longDescription": "The roads and flyovers around this stretch sit within a much larger regional transport network. The Government of India's highway description for NH 9 lists both Delhi and Ghaziabad among the places along its route, which continues across Uttar Pradesh toward Uttarakhand. It is a reminder that local commutes share space with journeys spanning several states.",
+        "narrationHint": "These flyovers are part of Ghaziabad's local road network, connected to a much longer highway corridor running across North India."
+      }
+    }
+  },
+  {
+    "category": "transport",
+    "tags": ["vaishali", "delhi-metro", "blue-line", "public-transit"],
+    "location": { "lng": 77.339711, "lat": 28.649947 },
+    "interestingness": 7.8,
+    "confidence": 0.96,
+    "sourceName": "Delhi Metro Rail Corporation",
+    "sourceUrl": "https://www.delhimetrorail.com/station/VASI",
+    "familyFriendly": true,
+    "editorialScore": 8.0,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Vaishali's Blue Line Connection",
+        "shortDescription": "Vaishali station is a Delhi Metro Blue Line stop serving Vaishali and nearby Ghaziabad neighborhoods.",
+        "longDescription": "Near the destination, the journey reaches Vaishali, where the metro provides another way to move through the NCR. The station is part of the Delhi Metro Blue Line and serves Vaishali and neighboring areas on Ghaziabad's Trans-Hindon side, linking local residential districts to the wider metro network.",
+        "narrationHint": "As you approach Vaishali, the road journey meets another regional connection: the Delhi Metro's Blue Line."
+      }
+    }
+  }
+]

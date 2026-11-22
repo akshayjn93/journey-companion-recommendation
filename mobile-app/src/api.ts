@@ -1,4 +1,4 @@
-import type { JourneySimulationResult, Story } from './types';
+import type { JourneySimulationResult, NearbyStoriesResult, Story, TriggerPoint } from './types';
 
 /**
  * Calls the existing backend simulate endpoint and normalizes the response
@@ -61,4 +61,55 @@ export async function fetchJourneySimulation(
     journeyId: data.journeyId ?? journeyId,
     stories,
   };
+}
+
+/**
+ * Downloads every story within `radiusMeters` of a point. No route or journey
+ * is needed. The phone then picks stories on its own, so it works offline.
+ */
+export async function fetchNearbyStories(
+  apiBase: string,
+  center: TriggerPoint,
+  radiusMeters: number,
+  timeoutMs: number,
+): Promise<NearbyStoriesResult> {
+  const trimmedBase = apiBase.trim().replace(/\/+$/, '');
+  // Rounded to about 1 km. The server only needs a rough centre.
+  const lat = center.lat.toFixed(2);
+  const lng = center.lng.toFixed(2);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(
+      `${trimmedBase}/v1/content/nearby?lat=${lat}&lng=${lng}&radiusMeters=${radiusMeters}&lang=en&limit=1000`,
+      { signal: controller.signal },
+    );
+    if (!response.ok) {
+      throw new Error(`Nearby stories request failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+    const items = Array.isArray(data.stories) ? data.stories : [];
+    const stories: Story[] = items
+      .filter(
+        (item: any) =>
+          item && typeof item.point?.lng === 'number' && typeof item.point?.lat === 'number',
+      )
+      .map((item: any) => ({
+        id: String(item.id),
+        title: item.title ?? 'Story',
+        category: item.category ?? 'history',
+        tags: Array.isArray(item.tags) ? item.tags : [],
+        summary: item.summary || item.title || 'Nearby story',
+        cue: item.cue || '',
+        triggerPoint: null,
+        point: { lng: item.point.lng, lat: item.point.lat },
+        approxKm: null,
+      }));
+
+    return { center, radiusMeters, stories };
+  } finally {
+    clearTimeout(timer);
+  }
 }
