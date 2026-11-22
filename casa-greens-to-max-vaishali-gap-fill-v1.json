@@ -1,0 +1,299 @@
+[
+  {
+    "category": "infrastructure",
+    "tags": [
+      "parthala",
+      "noida",
+      "bridge",
+      "fng-corridor"
+    ],
+    "location": {
+      "lng": 77.4007,
+      "lat": 28.5935
+    },
+    "interestingness": 7.4,
+    "confidence": 0.88,
+    "sourceName": "Zee News",
+    "sourceUrl": "https://zeenews.india.com/auto/cm-yogi-adityanath-inaugurates-parthala-bridge-to-ease-traffic-between-noida-greno-west-2626722.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Parthala Bridge Hangs on Cables",
+        "shortDescription": "The Parthala flyover between Noida and Greater Noida West opened in June 2023. Its middle section is held up by cables.",
+        "longDescription": "The flyover at Parthala Chowk links Noida with Greater Noida West. Work on it began in December 2020, and it opened to traffic in June 2023. It is about 600 metres long with six lanes, and its middle section is held up by cables. Local reports called it Noida's first cable-stayed bridge. It sits on the planned Faridabad, Noida, Ghaziabad road corridor.",
+        "narrationHint": "Point out the cables holding up the middle of the Parthala flyover."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "hindon",
+      "river",
+      "yamuna",
+      "geography"
+    ],
+    "location": {
+      "lng": 77.404,
+      "lat": 28.6395
+    },
+    "interestingness": 7.8,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hindon_River",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Hindon Is a River Fed Only by Rain",
+        "shortDescription": "The Hindon rises in the Shivalik hills of Saharanpur and flows about 400 km before joining the Yamuna in Noida. It is fed by rain, not by glaciers.",
+        "longDescription": "The river you cross here is the Hindon. Unlike the Ganga and the Yamuna, it does not begin in a glacier. It rises in the low Shivalik hills of Saharanpur district and is fed by rain. It flows about 400 kilometres through Muzaffarnagar, Meerut, Baghpat and Ghaziabad, and joins the Yamuna in Noida. Because it depends on the monsoon, its flow changes a lot through the year.",
+        "narrationHint": "As the road crosses the Hindon, explain that this river is fed by rain and not by a glacier."
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "noida",
+      "planned-city",
+      "urban-growth",
+      "1976"
+    ],
+    "location": {
+      "lng": 77.3736,
+      "lat": 28.617
+    },
+    "interestingness": 7.9,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Noida",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Noida Is a Short Form, and It Has a Birthday",
+        "shortDescription": "Noida stands for New Okhla Industrial Development Authority. The city was created on 17 April 1976, a date marked each year as Noida Day.",
+        "longDescription": "The name Noida is not an old village name. It is a short form of New Okhla Industrial Development Authority, the body that still runs the city. Noida came into being on 17 April 1976, when a group of villages between the Yamuna and the Hindon was marked out as a new planned industrial town. The city celebrates 17 April every year as Noida Day.",
+        "narrationHint": "Start with the surprise that Noida is a short form, then give its founding date."
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "nh-9",
+      "delhi-meerut-expressway",
+      "road",
+      "cycle-track"
+    ],
+    "location": {
+      "lng": 77.362,
+      "lat": 28.63
+    },
+    "interestingness": 8.0,
+    "confidence": 0.95,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=1533580",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "India's First 14-Lane National Highway",
+        "shortDescription": "The Delhi–Meerut Expressway section from Nizamuddin Bridge to the UP border has 14 lanes: a 6-lane expressway and 4 service lanes on each side.",
+        "longDescription": "The wide highway here is part of the Delhi to Meerut Expressway. Between Nizamuddin Bridge in Delhi and the Uttar Pradesh border it has 14 lanes: six expressway lanes in the middle, and four more lanes on each side for local traffic. When this first phase opened in May 2018, the government described it as the first national highway in the country with 14 lanes.",
+        "narrationHint": "Ask the listener to count the lanes, then explain the 6 plus 4 plus 4 layout."
+      }
+    }
+  },
+  {
+    "category": "urban",
+    "tags": [
+      "indirapuram",
+      "ghaziabad",
+      "planned-township",
+      "place-name"
+    ],
+    "location": {
+      "lng": 77.3644,
+      "lat": 28.638
+    },
+    "interestingness": 6.8,
+    "confidence": 0.8,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Indirapuram",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Indirapuram Carries a Prime Minister's Name",
+        "shortDescription": "Indirapuram, the township beside the highway in Ghaziabad, is named after former Prime Minister Indira Gandhi.",
+        "longDescription": "The township beside the highway is Indirapuram. It is named after Indira Gandhi, India's former Prime Minister. It was laid out in the 1990s as a planned residential area of Ghaziabad, right next to the Delhi border.",
+        "narrationHint": "Tell the listener where the name Indirapuram comes from."
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "hindon-elevated-road",
+      "ghaziabad",
+      "road",
+      "up-gate"
+    ],
+    "location": {
+      "lng": 77.346,
+      "lat": 28.644
+    },
+    "interestingness": 7.6,
+    "confidence": 0.88,
+    "sourceName": "Hindustan Times",
+    "sourceUrl": "https://www.pressreader.com/india/hindustan-times-delhi/20180331/281638190761562",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A 10 km Road With No Traffic Signal",
+        "shortDescription": "The Hindon Elevated Road runs 10.3 km without a traffic signal, from UP Gate on the Delhi border to Raj Nagar Extension. It opened in March 2018.",
+        "longDescription": "Near here begins the Hindon Elevated Road. It runs for 10.3 kilometres above the ground, from UP Gate on the Delhi border to Raj Nagar Extension, without a single traffic signal. It opened on 30 March 2018. At the opening, the Uttar Pradesh government called it the longest elevated road of its kind in India.",
+        "narrationHint": "Mention the elevated road that starts near the Delhi border and runs 10 km without a signal."
+      }
+    }
+  },
+  {
+    "category": "transport",
+    "tags": [
+      "namo-bharat",
+      "rrts",
+      "sahibabad",
+      "rail"
+    ],
+    "location": {
+      "lng": 77.3641,
+      "lat": 28.6737
+    },
+    "interestingness": 8.3,
+    "confidence": 0.95,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=1969356",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "India's First Regional Rapid Train Started Here",
+        "shortDescription": "The first section of the Delhi–Ghaziabad–Meerut regional rapid rail was opened at Sahibabad station on 20 October 2023. The trains are called Namo Bharat.",
+        "longDescription": "A few kilometres north of here is Sahibabad station. On 20 October 2023, India's first regional rapid train service was launched there. The first section was 17 kilometres long, with five stations from Sahibabad to Duhai Depot. The trains are called Namo Bharat, and the full line is planned to link Delhi, Ghaziabad and Meerut.",
+        "narrationHint": "Say that India's first regional rapid train began its service from Sahibabad, just north of this road."
+      }
+    }
+  },
+  {
+    "category": "transport",
+    "tags": [
+      "hindon-airport",
+      "aviation",
+      "udan",
+      "ghaziabad"
+    ],
+    "location": {
+      "lng": 77.3648,
+      "lat": 28.7043
+    },
+    "interestingness": 7.7,
+    "confidence": 0.9,
+    "sourceName": "Hindustan Times",
+    "sourceUrl": "https://www.pressreader.com/india/hindustan-times-delhi/20191012/281603832224323",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Small Airport Inside an Air Force Base",
+        "shortDescription": "Hindon's civil terminal sits inside an Indian Air Force base. Its first commercial flight left for Pithoragarh on 11 October 2019 with nine passengers.",
+        "longDescription": "North of here, inside the Hindon air force base, is a small civil airport. The Airports Authority of India built the passenger terminal, but the runway belongs to the Indian Air Force. The first commercial flight took off on 11 October 2019. It was a small plane carrying nine passengers to Pithoragarh in the hills of Uttarakhand.",
+        "narrationHint": "Describe the small civil airport that shares a runway with the air force."
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "hindon-air-force-station",
+      "air-force",
+      "air-force-day",
+      "ghaziabad"
+    ],
+    "location": {
+      "lng": 77.3589,
+      "lat": 28.7077
+    },
+    "interestingness": 8.2,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hindan_Air_Force_Station",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Air Force Day Parade Moved to Hindon",
+        "shortDescription": "In 2006 the Indian Air Force moved its Air Force Day parade from Palam in Delhi to the Hindon air base in Ghaziabad.",
+        "longDescription": "The Hindon air force base lies north of here, beside the river it is named after. It covers about 55 square kilometres and is often described as the largest air base in Asia. In 2006, the Indian Air Force moved its yearly Air Force Day parade here from Palam in Delhi, so that the flying display would not disturb passenger flights.",
+        "narrationHint": "Explain why the Air Force Day parade was moved from Palam to Hindon."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "city-forest",
+      "ghaziabad",
+      "hindon",
+      "park"
+    ],
+    "location": {
+      "lng": 77.3905,
+      "lat": 28.6989
+    },
+    "interestingness": 6.9,
+    "confidence": 0.85,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/tourist-place/city-forest-park/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Forest Park on the Hindon's Bank",
+        "shortDescription": "City Forest at Karhera, on the bank of the Hindon in Ghaziabad, is described by the district as a 175-acre park with lakes and walking trails.",
+        "longDescription": "On the bank of the Hindon, at Karhera, the city of Ghaziabad has set aside land for a park called City Forest. The district administration describes it as spread over 175 acres. It has walking and cycling trails and small lakes.",
+        "narrationHint": "Mention the large forest park on the river bank to the north."
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "dudheshwar-nath",
+      "temple",
+      "ghaziabad",
+      "legend"
+    ],
+    "location": {
+      "lng": 77.4196,
+      "lat": 28.6707
+    },
+    "interestingness": 7.2,
+    "confidence": 0.78,
+    "sourceName": "Ghaziabad District Administration",
+    "sourceUrl": "https://ghaziabad.nic.in/en/places-of-interest/",
+    "familyFriendly": true,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "The Temple Named After Milk",
+        "shortDescription": "Dudheshwar Nath is an old Shiva temple in Ghaziabad. Local tradition says a cow poured its milk on the spot where the shrine now stands.",
+        "longDescription": "In the old part of Ghaziabad stands the Dudheshwar Nath temple, dedicated to Shiva. Its name comes from doodh, the Hindi word for milk. According to local tradition, a cow would pour its milk over one spot on a mound every day, and the shrine was later found there. Devotees believe the temple is thousands of years old, though that age is a matter of faith and has not been dated.",
+        "narrationHint": "Tell the milk legend, and make it clear that it is a local tradition."
+      }
+    }
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "category": "nature",
+    "tags": ["river", "yamuna", "landscape", "approach"],
+    "location": { "lng": 77.238, "lat": 28.628 },
+    "interestingness": 7.3,
+    "confidence": 0.94,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/yamuna-river-edge",
+    "familyFriendly": true,
+    "editorialScore": 8.1,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Yamuna River Edge at Delhi Outskirts",
+        "shortDescription": "The Yamuna marks the transition from Delhi into the Braj landscape, shaping the first impression of the route toward Mathura.",
+        "longDescription": "As the road approaches Mathura, the river corridor becomes a visual cue that the journey is moving from dense urban Delhi into a more sacred and agricultural landscape. The wide riverbanks and open edges create a sense of release, giving travellers a first strong shift in the route mood.",
+        "narrationHint": "The route begins with a broad river horizon and the feeling of moving from the city into a sacred landscape."
+      }
+    }
+  },
+  {
+    "category": "heritage",
+    "tags": ["braj", "krishna", "heritage", "pilgrimage"],
+    "location": { "lng": 77.68, "lat": 27.5 },
+    "interestingness": 8.8,
+    "confidence": 0.9,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/braj-heritage",
+    "familyFriendly": true,
+    "editorialScore": 8.9,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "Braj Heritage Corridor",
+        "shortDescription": "This region is deeply linked to Krishna’s legends, giving the route into Mathura a strong devotional and historical identity.",
+        "longDescription": "The Braj region holds centuries of religious memory, with stories, temples, and landscape features tied directly to Krishna’s life and legends. As travellers move through this belt, the road itself feels more ceremonial, carrying a strong sense of pilgrimage and continuity.",
+        "narrationHint": "The road enters a region where every bend carries a sacred story and the landscape itself feels mythic."
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": ["ghat", "temple", "river", "spiritual"],
+    "location": { "lng": 77.684, "lat": 27.492 },
+    "interestingness": 9.1,
+    "confidence": 0.96,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/vishram-ghat",
+    "familyFriendly": true,
+    "editorialScore": 9.2,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Vishram Ghat and Temple Rhythm",
+        "shortDescription": "The ghats of Mathura are central to the city’s spiritual atmosphere, where river rituals and temple bells shape the evening mood.",
+        "longDescription": "Vishram Ghat is a place where the city slows down and the route becomes more devotional. River rituals, temple soundscapes, and the movement of pilgrims create an atmosphere that is both intimate and public, making the city feel tied directly to its sacred geography.",
+        "narrationHint": "This is the point where the city’s pace softens and the soundscape turns sacred."
+      }
+    }
+  },
+  {
+    "category": "heritage",
+    "tags": ["govardhan", "krishna", "legend", "faith"],
+    "location": { "lng": 77.463, "lat": 27.496 },
+    "interestingness": 8.4,
+    "confidence": 0.89,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/govardhan-hill",
+    "familyFriendly": true,
+    "editorialScore": 8.6,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "Govardhan Hill Story",
+        "shortDescription": "Govardhan is strongly associated with Krishna’s act of lifting the hill, making the landscape itself part of the devotional story.",
+        "longDescription": "The hill and surrounding villages carry a vivid devotional identity, linking myth to geography. For many travellers, this is one of the clearest examples of how the Braj landscape is not just a destination but a living narrative connected to Krishna’s legend.",
+        "narrationHint": "The road opens into a sacred hillscape where myth and geography feel inseparable."
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": ["vrindavan", "temple", "pilgrimage", "lanes"],
+    "location": { "lng": 77.7, "lat": 27.5864 },
+    "interestingness": 8.9,
+    "confidence": 0.95,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/vrindavan-lanes",
+    "familyFriendly": true,
+    "editorialScore": 9.0,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Vrindavan Temple Lanes",
+        "shortDescription": "The temples and narrow lanes around Vrindavan bring together devotion, commerce, and intense local life in a highly sensory environment.",
+        "longDescription": "Vrindavan’s temple lanes are among the most vivid and recognisable parts of the Braj route. Devotional movement, market activity, and the dense rhythm of local life come together here, creating an immersive atmosphere that feels both sacred and lived.",
+        "narrationHint": "This is the emotional heart of the route, where devotion, colour, and movement become inseparable."
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": ["mathura", "sweet", "festival", "food"],
+    "location": { "lng": 77.6737, "lat": 27.4924 },
+    "interestingness": 7.9,
+    "confidence": 0.96,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-mathura/mathura-sweets",
+    "familyFriendly": true,
+    "editorialScore": 8.3,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Mathura’s Sweet Culture",
+        "shortDescription": "Mathura is famous for its sweets, especially peda, and the city’s food culture is inseparable from its religious identity and tourist life.",
+        "longDescription": "The city’s food culture is one of its strongest identities. From the legendary peda to the broader sweets economy around religious tourism, Mathura’s flavours carry a strong sense of place and cultural continuity that is difficult to separate from sacred tradition.",
+        "narrationHint": "The smell of ghee and sugar announces the city before the road even fully reaches it."
+      }
+    }
+  },
+  {
+    "category": "urban",
+    "tags": ["expressway", "urban", "growth", "ncr"],
+    "location": { "lng": 77.365, "lat": 28.613 },
+    "interestingness": 7.1,
+    "confidence": 0.97,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/noida-gurugram/expressway-edge",
+    "familyFriendly": true,
+    "editorialScore": 7.6,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Expressway to Urban Edge",
+        "shortDescription": "This stretch marks the fast-moving transition from suburban Delhi into the planned urban growth of Gurugram.",
+        "longDescription": "The Noida-to-Gurugram corridor is one of the clearest contemporary examples of urban expansion in the NCR. The road itself feels efficient and angled toward speed, while the surrounding cityscape reveals a dense mix of commerce, housing, and working life.",
+        "narrationHint": "The road becomes a symbol of modern movement, planned growth, and intense urban pace."
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": ["village", "urban-fringe", "transition", "heritage"],
+    "location": { "lng": 77.026, "lat": 28.459 },
+    "interestingness": 7.5,
+    "confidence": 0.92,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/noida-gurugram/village-fringe",
+    "familyFriendly": true,
+    "editorialScore": 7.8,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Old Villages in the City Fringe",
+        "shortDescription": "Scattered settlements along the route preserve older social geographies even as the city expands around them.",
+        "longDescription": "This part of the route highlights the layered reality of the NCR: established villages and urban infrastructure coexisting side by side. The contrast creates a more grounded sense of place, reminding travellers that the city’s modern form is built over older landscapes and social structures.",
+        "narrationHint": "The skyline is modern, but the land still remembers its earlier villages."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["aravalli", "ridge", "green", "nature"],
+    "location": { "lng": 77.094, "lat": 28.42 },
+    "interestingness": 8.2,
+    "confidence": 0.94,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/noida-gurugram/aravalli-green-corridor",
+    "familyFriendly": true,
+    "editorialScore": 8.3,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Aravalli Green Corridor",
+        "shortDescription": "The Aravalli ridge creates a rare green rhythm in the NCR and offers a natural counterpoint to the city’s built edges.",
+        "longDescription": "The Aravalli foothills offer visual relief and ecological continuity in a landscape otherwise defined by roads, towers, and dense urbanity. This landscape shift produces one of the strongest contrasts on the route and gives the traveller a brief sense of older geology beneath the modern city.",
+        "narrationHint": "A sharp contrast between the city’s built edge and the older ridge below it."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["wildlife", "birds", "wetland", "nature"],
+    "location": { "lng": 76.88, "lat": 28.47 },
+    "interestingness": 7.8,
+    "confidence": 0.93,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/noida-gurugram/sultanpur-birding",
+    "familyFriendly": true,
+    "editorialScore": 8.1,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Sultanpur Birding Zone",
+        "shortDescription": "This protected area gives travellers a brief encounter with birdlife and seasonal wetlands on the city’s edge.",
+        "longDescription": "Sultanpur offers a natural pause in an otherwise intensely urban landscape. The presence of wetlands and migratory bird activity shows how the NCR still holds ecological pockets even amid rapid urbanisation.",
+        "narrationHint": "A moment of wildlife and open sky, unexpectedly close to the city’s concrete edge."
+      }
+    }
+  },
+  {
+    "category": "urban",
+    "tags": ["gurugram", "business", "night", "urban-life"],
+    "location": { "lng": 77.09, "lat": 28.4963 },
+    "interestingness": 8.1,
+    "confidence": 0.98,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/noida-gurugram/cyber-city",
+    "familyFriendly": true,
+    "editorialScore": 8.4,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Business District and Night Energy",
+        "shortDescription": "Gurugram’s commercial districts represent the modern ambition and speed of India’s urban economy.",
+        "longDescription": "The city’s skyline and business clusters shape a strong contemporary identity, especially at night when the route becomes a study in commuting, ambition, and urban intensity. This is where the trip transitions from road to contemporary city rhythm.",
+        "narrationHint": "The pace quickens and the city becomes a moving matrix of work, light, and aspiration."
+      }
+    }
+  },
+  {
+    "category": "landscape",
+    "tags": ["transition", "rajasthan", "highway", "terrain"],
+    "location": { "lng": 77.08, "lat": 28.495 },
+    "interestingness": 7.2,
+    "confidence": 0.94,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-alwar/rajasthan-transition",
+    "familyFriendly": true,
+    "editorialScore": 7.6,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Delhi to Rajasthan Transition",
+        "shortDescription": "As the route moves into Rajasthan, the road opens up and the landscape becomes more arid, open, and expansive.",
+        "longDescription": "The climate and terrain begin to change quickly as the journey heads west. With broader horizons and drier conditions, the route starts to feel less like a dense urban corridor and more like a desert-edge highway connecting two distinct cultural geographies.",
+        "narrationHint": "The city thins out and the landscape starts speaking in a drier, wider register."
+      }
+    }
+  },
+  {
+    "category": "heritage",
+    "tags": ["neemrana", "fort", "rajput", "architecture"],
+    "location": { "lng": 76.3298, "lat": 27.9839 },
+    "interestingness": 8.8,
+    "confidence": 0.94,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-alwar/neemrana-fort",
+    "familyFriendly": true,
+    "editorialScore": 8.9,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Neemrana Fort Story",
+        "shortDescription": "Neemrana Fort is a major landmark in the region, connecting the route to Rajput-era architecture and a broader story of trade and defence.",
+        "longDescription": "The fort stands as a striking marker of how the landscape along this route is shaped by layered history. Positioned along a strategic corridor, it tells a story about regional power, travel, and the way fortress architecture and caravan geography shaped movement across Rajasthan’s edge.",
+        "narrationHint": "A fort on the road becomes a marker of time, memory, and the older routes beneath the highway."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["aravalli", "foothills", "terrain", "landscape"],
+    "location": { "lng": 76.5, "lat": 27.7 },
+    "interestingness": 7.9,
+    "confidence": 0.93,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-alwar/aravalli-foothills",
+    "familyFriendly": true,
+    "editorialScore": 8.2,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Aravalli Foothills and Terrain Shift",
+        "shortDescription": "The Aravalli range marks the visual and climatic shift from the plains into Rajasthan’s more rugged and dry terrain.",
+        "longDescription": "This stretch creates a distinct sense of place, with the landscape becoming more broken, more textured, and more open. The foothills add both ecological and historical depth to the route, turning the drive into a transition between two broad topographies.",
+        "narrationHint": "The land begins to feel older and more open, with a more textured geology and sharper horizon lines."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["wildlife", "forest", "sariska", "nature"],
+    "location": { "lng": 76.4141, "lat": 27.3316 },
+    "interestingness": 8.6,
+    "confidence": 0.91,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-alwar/sariska-wildlife",
+    "familyFriendly": true,
+    "editorialScore": 8.8,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Sariska Wildlife Belt",
+        "shortDescription": "This protected landscape adds a strong ecological stop to the journey and creates a contrast with the highway’s more urban rhythm.",
+        "longDescription": "The Sariska area introduces a textured wilderness edge into the route, with forest cover, wildlife habitat, and a very different sensory atmosphere from the more built-up corridor of Delhi or Gurugram. It adds a strong sense of natural drama to the Rajasthan approach.",
+        "narrationHint": "The road turns from highway to wildlife edge, and the landscape suddenly feels untamed."
+      }
+    }
+  },
+  {
+    "category": "heritage",
+    "tags": ["alwar", "fort", "palace", "rajput"],
+    "location": { "lng": 76.6107, "lat": 27.5573 },
+    "interestingness": 8.7,
+    "confidence": 0.95,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-alwar/alwar-fort",
+    "familyFriendly": true,
+    "editorialScore": 8.9,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Alwar Fort and Palace Heritage",
+        "shortDescription": "Alwar’s fort and palace landscape anchors the city in a strong Rajput and regional heritage identity.",
+        "longDescription": "The city’s heritage sits visibly in its hilltop fort and palace zone, creating a clear sense of layered regional history. As the route reaches Alwar, the city’s story changes from a highway stop into a place defined by strong architectural memory and political history.",
+        "narrationHint": "The city’s skyline shifts from travel corridor to historic hill-town landscape."
+      }
+    }
+  },
+  {
+    "category": "landscape",
+    "tags": ["haryana", "plains", "agriculture", "route"],
+    "location": { "lng": 76.9, "lat": 29.0 },
+    "interestingness": 6.9,
+    "confidence": 0.96,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-kurukshetra/haryana-plains",
+    "familyFriendly": true,
+    "editorialScore": 7.2,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Haryana Plain and Route Memory",
+        "shortDescription": "The journey into Haryana is defined by wide plains and a strong agricultural identity that shapes the wider route narrative.",
+        "longDescription": "The plains are broad, open, and grounded in everyday cultivation. This is a route where land use, transport, and rural rhythm become part of the traveller’s experience as much as the destination itself.",
+        "narrationHint": "The route feels broad and open, with agricultural continuity all around."
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": ["gita", "jyotisar", "mahabharata", "sacred"],
+    "location": { "lng": 76.8216, "lat": 29.9669 },
+    "interestingness": 9.5,
+    "confidence": 0.96,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-kurukshetra/jyotisar-gita",
+    "familyFriendly": true,
+    "editorialScore": 9.5,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Jyotisar and the Bhagavad Gita",
+        "shortDescription": "Jyotisar is one of the most important sacred sites on the route, directly associated with the teaching of the Bhagavad Gita.",
+        "longDescription": "This site links spiritual history and route identity in a deeply potent way. It turns the journey into a story about moral teaching, sacred geography, and how pilgrimage landscapes are remembered long after the events themselves.",
+        "narrationHint": "The road reaches a sacred point where spiritual history becomes living geography."
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": ["sarovar", "ritual", "water", "pilgrimage"],
+    "location": { "lng": 76.841, "lat": 29.9697 },
+    "interestingness": 9.0,
+    "confidence": 0.96,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-kurukshetra/brahma-sarovar",
+    "familyFriendly": true,
+    "editorialScore": 9.1,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Brahma Sarovar Evening Atmosphere",
+        "shortDescription": "The sacred tank and surrounding rituals make this one of the most atmospheric stops on the route, especially at dusk.",
+        "longDescription": "Brahma Sarovar carries a distinctly ritual energy, with sacred water, gathering devotees, and a strong evening atmosphere. For travellers, it turns the route into a more contemplative experience rooted in devotion and place.",
+        "narrationHint": "The water and the evening bell rhythm shift the trip into a calmer spiritual register."
+      }
+    }
+  },
+  {
+    "category": "heritage",
+    "tags": ["kurukshetra", "mahabharata", "battlefield", "pilgrimage"],
+    "location": { "lng": 76.8783, "lat": 29.9693 },
+    "interestingness": 9.4,
+    "confidence": 0.91,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-kurukshetra/kurukshetra-epic",
+    "familyFriendly": true,
+    "editorialScore": 9.3,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "Kurukshetra as Battlefield and Pilgrimage",
+        "shortDescription": "The city is defined by both the Mahabharata and the continuity of pilgrimage, creating a layered site of history and devotion.",
+        "longDescription": "Kurukshetra sits between historical memory and lived faith. The same place is remembered as a battlefield in epic tradition and experienced still as a spiritual geography for pilgrims, making it one of the most layered places on this route.",
+        "narrationHint": "This is where myth, memory, and faith come together on one landscape."
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": ["mustard", "agriculture", "seasonal", "haryana"],
+    "location": { "lng": 76.78, "lat": 29.956 },
+    "interestingness": 7.0,
+    "confidence": 0.95,
+    "sourceName": "Journey Companion Curated",
+    "sourceUrl": "https://example.com/stories/delhi-kurukshetra/mustard-fields",
+    "familyFriendly": true,
+    "editorialScore": 7.4,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Mustard Fields and Agricultural Rhythm",
+        "shortDescription": "The region’s farming landscape gives the route a grounded rhythm and connects the sacred site to everyday agricultural life.",
+        "longDescription": "Kurukshetra is not only a pilgrimage destination; it is also a working agricultural landscape. The field edges and seasonal crop cycles create a quieter, more rooted layer of the journey and help balance the intensity of the sacred narrative with the everyday reality of the plain.",
+        "narrationHint": "The sacred site sits inside a living agricultural landscape, not apart from it."
+      }
+    }
+  }
+]

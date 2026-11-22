@@ -2868,3 +2868,65 @@ The central question for the current phase is:
 We do not need to prove that the system can rank the “best” story yet. We need to prove that the system can **discover, retrieve, filter, pace and narrate good content reliably**.
 
 If that works, Phase 2 can use real playback evidence to determine what “best” should mean.
+
+## Competitor reference — RoadTales (added 2026-11-22)
+
+RoadTales (https://roadtalesapp.com/) is the closest known product to Journey Companion / Safarnama. It is the same core idea, built in a different way. Everything below is taken from its own website on 2026-11-22. These are its claims and have not been tested by us.
+
+### What it is
+
+- A "storyteller for road trips" for iPhone (iOS 17+), with CarPlay. Made by one independent developer.
+- Tap Start once and put the phone away. A narrator called Hugo tells a story of about a minute as you approach or pass a place.
+- No route or destination is needed. It uses current location and heading to pick places ahead.
+- Stories are written live by AI from Wikipedia, Wikidata and Wikivoyage, and read by a synthetic voice (ElevenLabs).
+- The site says stories "can contain mistakes". Each story lists its sources and has a "Something's wrong" report button.
+- Coverage: US, Europe and "much of the world". India is not mentioned, but nothing stops it from working wherever Wikipedia has nearby articles.
+- Languages: English, Spanish, Galician, Portuguese, French, German, Italian, Swedish, Dutch. No Hindi.
+- Offline: no new stories without signal. Stories already heard can be replayed.
+- Pacing: Quiet / Normal / Talkative. It pauses when the car is parked.
+- It waits for the navigation voice to finish, and pauses music for the story.
+- Free with 10 new stories per day. Paid story packs exist; prices are not on the site.
+- Launch status is unclear: the site says both "Coming soon to the App Store" and "RoadTales is on the App Store".
+
+### Comparison
+
+| | RoadTales | Journey Companion / Safarnama |
+|---|---|---|
+| Core loop | GPS → nearby place → short story, auto-played | Same |
+| Story source | AI-written live from Wikipedia-family sources | Curated, verified stories in our database |
+| Accuracy | Admits mistakes; relies on user reports | Every fact traceable to a source |
+| Route needed | No | Yes today (journey ID); v2.7 direction is location-first |
+| Coverage | Most of the world, thin where Wikipedia is thin | 2 routes in North India |
+| Offline | No new stories | Fully offline after download |
+| Voice | AI voice, 9 languages, no Hindi | Phone text-to-speech, English |
+| Platform | iPhone only | Android build ready |
+
+### Where we are different (our edge)
+
+1. **Content Wikipedia does not have.** Local food stops, gur and rewri, sugar mills, canals, small temples, highway dhabas. This is the main defence and matches the v2.7 content philosophy.
+2. **Verified facts.** We do not narrate unsupported facts. Keep this rule.
+3. **Offline.** Indian highways lose signal often. RoadTales goes quiet when that happens.
+4. **Android and Hindi.** RoadTales has neither.
+
+### Main risk
+
+A worldwide AI app like this can cover India with no extra work, because it only needs Wikipedia articles near the road. We should not compete on coverage. We compete on content quality, local depth, offline use and language.
+
+### Ideas worth borrowing (candidates, not commitments)
+
+These do not change the v2.7 guardrails. None of them needs ranking or LLM selection.
+
+- Work from current location and heading, with no route needed. Already the v2.7 direction. **Built on 2026-11-22 as "explore mode"** (not yet tested on a real drive):
+  - Backend: `GET /v1/content/nearby?lat=&lng=&radiusMeters=&lang=&limit=` returns verified, active, family-friendly stories around a point, nearest first.
+  - Phone: downloads stories within 100 km, then picks the nearest unplayed story ahead (up to 4 km ahead, up to 10 km to the side of the direction of travel, matching the backend search radius), with a 5-minute quiet gap. It downloads again after moving 40 km, and keeps working offline in between.
+  - Stories told in explore mode are remembered between sessions, so a repeat drive does not repeat them. A "Forget played stories" button clears this.
+  - The planned-journey mode (journey ID) is unchanged and still available.
+- A simple Quiet / Normal / Talkative setting in place of one fixed gap.
+- Pause stories when the car is parked.
+- Wait for the navigation voice to finish before speaking.
+- Show the source for each story, and add a "Something's wrong" button. We already store `sourceName` and `sourceUrl`.
+- A trip journal of stories already heard.
+
+### Other apps in the same space
+
+Not checked in detail. Autio (US, large human-made library), GuideAlong and Storyteller (US/Canada, fixed-route tours), RoadWhisper, Miles Along, Drive Stories, Told, Passenger Seat (newer, several AI-generated). No highway story app for India was found. Indian apps found (HopOn India, Explyore, Storytrails) cover monuments and city walks, not drives.
