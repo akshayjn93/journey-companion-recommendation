@@ -12,6 +12,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import appConfig from './app.json';
 import { fetchJourneySimulation } from './src/api';
 import {
   clearLastRun,
@@ -24,6 +25,7 @@ import {
 import { prepareExplore } from './src/explore';
 import './src/locationTask';
 import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
+import { testVoice } from './src/narration';
 import { replayCurrentStory, setPaused, skipCurrentStory } from './src/playback';
 import { clearPlayLog, readPlayLog, type PlayLogEntry } from './src/playLog';
 import {
@@ -53,6 +55,7 @@ export default function App() {
   const [lastRun, setLastRun] = useState<LastRun | null>(null);
   const [playLog, setPlayLog] = useState<PlayLogEntry[]>([]);
   const [explorePlayed, setExplorePlayed] = useState(0);
+  const [voiceResult, setVoiceResult] = useState<string | null>(null);
 
   useEffect(() => {
     AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
@@ -79,6 +82,20 @@ export default function App() {
     readExplorePlayed().then(ids => setExplorePlayed(ids.length));
     return unsubscribe;
   }, []);
+
+  const handleTestVoice = async () => {
+    setVoiceResult('Testing... you should hear a short line now.');
+    const reason = await testVoice();
+    if (reason === 'finished') {
+      setVoiceResult('Voice works. If you heard nothing, turn up the media volume.');
+    } else if (reason === 'no_voice' || reason === 'error' || reason === 'timeout') {
+      setVoiceResult(
+        "The phone's voice did not start. In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.",
+      );
+    } else {
+      setVoiceResult(null);
+    }
+  };
 
   const handleForgetPlayed = () => {
     Alert.alert(
@@ -205,8 +222,15 @@ export default function App() {
 
   if (!drivingState.isDriving) {
     return (
-      <View style={styles.container}>
+      <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
         <Text style={styles.heading}>Safarnama</Text>
+        <Text style={styles.storyMeta}>
+          Version {appConfig.expo.version} (build {appConfig.expo.android.versionCode})
+        </Text>
+        <View style={styles.smallSpacer}>
+          <Button title="Test voice" onPress={handleTestVoice} />
+          {voiceResult ? <Text style={styles.storyMeta}>{voiceResult}</Text> : null}
+        </View>
         <Text style={styles.label}>Backend API base URL</Text>
         <TextInput
           style={styles.input}
@@ -289,7 +313,7 @@ export default function App() {
           </View>
         ) : null}
         <StatusBar style="auto" />
-      </View>
+      </ScrollView>
     );
   }
 
@@ -351,6 +375,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     padding: 24,
     paddingTop: 72,
+    // Room below the last button, so the phone's navigation bar does not cover it.
+    paddingBottom: 64,
   },
   heading: {
     fontSize: 24,

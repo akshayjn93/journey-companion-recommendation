@@ -16,6 +16,7 @@ export type PlayLogEvent =
   | 'stopped' // cut short because driving was stopped or it was replaced
   | 'error'
   | 'timeout'
+  | 'no_voice' // the phone never started speaking
   | 'dropped' // waited too long in the queue, the place was already passed
   | 'replayed'
   | 'stories_paused'

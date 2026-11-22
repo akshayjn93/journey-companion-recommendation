@@ -1,0 +1,20 @@
+diff --git a/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt b/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
+index ed8d2a7..eddf04b 100644
+--- a/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
++++ b/node_modules/expo-speech/android/src/main/java/expo/modules/speech/SpeechModule.kt
+@@ -37,8 +37,13 @@ class SpeechModule : Module() {
+       TextToSpeech.getMaxSpeechInputLength()
+     }
+ 
+-    OnActivityDestroys {
+-      textToSpeech.shutdown()
++    // Patched for Safarnama: do not shut the voice engine down when the screen
++    // (Activity) is destroyed. Our location service keeps the app process and
++    // this module alive after that, and a shut-down engine is never created
++    // again, so every later speak() was silent with no error. Shut down only
++    // when the module itself is destroyed.
++    OnDestroy {
++      _textToSpeech?.shutdown()
+     }
+ 
+     AsyncFunction<Boolean>("isSpeaking") {
