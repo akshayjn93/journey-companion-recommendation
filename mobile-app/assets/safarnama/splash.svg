@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B2A4E"/><stop offset="1" stop-color="#0F1830"/></linearGradient>
+  <linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB83D"/><stop offset="1" stop-color="#F77F00"/></linearGradient>
+</defs><g transform="translate(512 512) scale(0.9) translate(-512 -512)">
+  <path d="M 670 330 C 670 215, 354 205, 354 372 C 354 522, 670 502, 670 660 C 670 822, 354 808, 354 700" fill="none" stroke="url(#road)" stroke-width="150" stroke-linecap="round"/>
+  <path d="M 670 330 C 670 215, 354 205, 354 372 C 354 522, 670 502, 670 660 C 670 822, 354 808, 354 700" fill="none" stroke="#0F1830" stroke-width="16" stroke-linecap="round" stroke-dasharray="46 40" stroke-dashoffset="-70"/>
+  <circle cx="670" cy="330" r="40" fill="#FFF4DC"/>
+</g></svg>
