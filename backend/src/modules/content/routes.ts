@@ -2,6 +2,8 @@ import { randomUUID } from 'node:crypto';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { z } from 'zod';
 import { db } from '../../common/db.js';
+import { RECOMMENDATION_CONFIG } from '../recommendation/config.js';
+import { findNearPoint } from './repository.js';
 
 // ---------------------------------------------------------------------------
 // Admin auth
@@ -65,6 +67,14 @@ const ListQuery = z.object({
   lang:     z.string().default('en'),
   limit:    z.coerce.number().int().positive().max(100).default(50),
   offset:   z.coerce.number().int().min(0).default(0),
+});
+
+const NearbyQuery = z.object({
+  lat:          z.coerce.number().min(-90).max(90),
+  lng:          z.coerce.number().min(-180).max(180),
+  radiusMeters: z.coerce.number().positive().max(300000).default(100000),
+  lang:         z.string().min(2).default('en'),
+  limit:        z.coerce.number().int().positive().max(1000).default(500),
 });
 
 const IdParam = z.object({ id: z.string().uuid() });
@@ -177,6 +187,61 @@ export async function contentRoutes(app: FastifyInstance) {
     );
 
     return reply.send({ total: result.rowCount, items: result.rows });
+  });
+
+  /**
+   * GET /v1/content/nearby?lat=28.6&lng=77.4&radiusMeters=100000&lang=en
+   * Stories around the traveller's current location, nearest first. No route
+   * or journey is needed. The phone downloads this once, then picks stories
+   * by location and heading on its own, so it keeps working without signal.
+   */
+  app.get('/v1/content/nearby', async (request, reply) => {
+    const { lat, lng, radiusMeters, lang, limit } = NearbyQuery.parse(request.query);
+    const rows = await findNearPoint(
+      { lng, lat },
+      radiusMeters,
+      lang,
+      RECOMMENDATION_CONFIG.minimumSourceConfidence,
+      limit,
+    );
+
+    // The same story can reach us more than once: imported from two files, or
+    // written twice as "X" and "X — why it matters on this drive". Keep one
+    // per story, and prefer the plain title. Rows stay nearest first.
+    const storyKey = (title: string) =>
+      title.trim().toLowerCase().replace(/\s*[—–-]\s*why it matters on this drive\.?$/, '');
+    const bestByKey = new Map<string, (typeof rows)[number]>();
+    for (const row of rows) {
+      const key = storyKey(row.title);
+      const kept = bestByKey.get(key);
+      if (!kept || row.title.trim().length < kept.title.trim().length) bestByKey.set(key, row);
+    }
+    const keptRows = new Set(bestByKey.values());
+    const uniqueRows = rows.filter(row => keptRows.has(row));
+
+    const stories = uniqueRows.map(row => ({
+      id: row.id,
+      title: row.title,
+      category: row.category,
+      tags: row.tags ?? [],
+      // Title, then the story. The full stop gives the voice a pause between them.
+      summary: [/[.!?]$/.test(row.title.trim()) ? row.title.trim() : `${row.title.trim()}.`,
+        row.long_description ?? row.short_description]
+        .filter(Boolean).join(' ').replace(/\s+/g, ' ').trim(),
+      cue: row.narration_hint?.trim() || `Short ${row.category} note nearby.`,
+      sourceName: row.source_name,
+      sourceUrl: row.source_url,
+      point: { lng: Number(row.lng), lat: Number(row.lat) },
+      distanceMeters: Math.round(Number(row.distance_m)),
+    }));
+
+    return reply.send({
+      center: { lng, lat },
+      radiusMeters,
+      language: lang,
+      storyCount: stories.length,
+      stories,
+    });
   });
 
   /**

@@ -54,3 +54,53 @@ export async function findNearRoute(routeGeoJson: object, radiusMeters = 5000, l
   const result = await db.query(sql, [JSON.stringify(routeGeoJson), radiusMeters, language]);
   return result.rows as ContentCandidate[];
 }
+
+export type NearbyStoryRow = {
+  id: string;
+  title: string;
+  short_description: string;
+  long_description: string | null;
+  narration_hint: string | null;
+  category: string;
+  tags: string[];
+  source_name: string;
+  source_url: string | null;
+  lng: number;
+  lat: number;
+  distance_m: number;
+};
+
+/**
+ * Location-first retrieval (Handoff v2.7): stories around a point, with no
+ * route needed. Only content that is safe to narrate is returned: active,
+ * verified, family friendly and above the source-confidence floor.
+ */
+export async function findNearPoint(
+  point: { lng: number; lat: number },
+  radiusMeters: number,
+  language: string,
+  minimumConfidence: number,
+  limit: number,
+) {
+  const sql = `
+    SELECT
+      c.id, c.category, c.tags, c.source_name, c.source_url,
+      COALESCE(t.title, te.title) AS title,
+      COALESCE(t.short_description, te.short_description) AS short_description,
+      COALESCE(t.long_description, te.long_description) AS long_description,
+      COALESCE(t.narration_hint, te.narration_hint) AS narration_hint,
+      ST_X(c.location) AS lng,
+      ST_Y(c.location) AS lat,
+      ST_Distance(c.location::geography, here.geom::geography) AS distance_m
+    FROM (SELECT ST_SetSRID(ST_MakePoint($1, $2), 4326) AS geom) here
+    JOIN content c ON c.active = true AND c.verified = true
+      AND c.family_friendly = true AND c.confidence >= $5
+    JOIN content_translations te ON te.content_id = c.id AND te.language = 'en'
+    LEFT JOIN content_translations t ON t.content_id = c.id AND t.language = $4
+    WHERE ST_DWithin(c.location::geography, here.geom::geography, $3)
+    ORDER BY distance_m ASC
+    LIMIT $6;
+  `;
+  const result = await db.query(sql, [point.lng, point.lat, radiusMeters, language, minimumConfidence, limit]);
+  return result.rows as NearbyStoryRow[];
+}
