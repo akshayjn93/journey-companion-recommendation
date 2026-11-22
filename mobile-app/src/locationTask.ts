@@ -138,7 +138,9 @@ export async function startDriving(): Promise<{ ok: boolean; message: string }> 
   await markStep('Starting location tracking');
   try {
     await Location.startLocationUpdatesAsync(LOCATION_TASK_NAME, {
-      accuracy: Location.Accuracy.Balanced,
+      // High uses GPS. Balanced gave fixes up to 440 m off, with no speed or
+      // heading, on the first real drive.
+      accuracy: Location.Accuracy.High,
       timeInterval: 5000,
       distanceInterval: 25,
       showsBackgroundLocationIndicator: true,
@@ -160,7 +162,7 @@ export async function startDriving(): Promise<{ ok: boolean; message: string }> 
 
   await markStep('Starting tracking while the app is open');
   foregroundSubscription = await Location.watchPositionAsync(
-    { accuracy: Location.Accuracy.Balanced, timeInterval: 5000, distanceInterval: 25 },
+    { accuracy: Location.Accuracy.High, timeInterval: 5000, distanceInterval: 25 },
     latest => {
       handleFix(latest).catch(err => recordError('Location update', err));
     },

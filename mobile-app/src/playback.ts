@@ -155,7 +155,21 @@ function onStoryEnd(story: Story, reason: EndReason, listenedSeconds: number) {
     listenedSeconds,
     distanceMeters: distanceTo(story, lastPosition),
   });
-  setState({ isSpeaking: false });
+  if (reason === 'no_voice') {
+    // Nothing was heard, so the story does not count as played, and we try
+    // again in about a minute instead of waiting for the full quiet gap.
+    const triggeredIds = new Set(getState().triggeredIds);
+    triggeredIds.delete(story.id);
+    lastEndedAt = Date.now() - minGapMs() + 60 * 1000;
+    setState({
+      isSpeaking: false,
+      triggeredIds,
+      statusMessage:
+        "The phone's voice did not start. Stop driving and use Test voice on the start screen.",
+    });
+  } else {
+    setState({ isSpeaking: false });
+  }
   markStep(`Story ended (${reason}) "${story.title}"`);
 
   // GPS updates normally start the next story. This timer covers the case
