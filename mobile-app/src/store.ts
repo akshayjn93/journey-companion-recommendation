@@ -1,24 +1,43 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { Story } from './types';
+import type { JourneyMode, Story, TriggerPoint } from './types';
 
 const JOURNEY_KEY = 'journey-companion:saved-journey';
 const PROGRESS_KEY = 'journey-companion:progress';
+// Stories already told in explore mode. Kept between explore sessions, so a
+// daily drive does not repeat the same stories.
+const EXPLORE_PLAYED_KEY = 'journey-companion:explore-played';
 
 export type DrivingState = {
   isDriving: boolean;
   journeyId: string | null;
+  mode: JourneyMode;
+  /** Explore mode: server address and the centre of the last download. */
+  apiBase: string | null;
+  center: TriggerPoint | null;
   stories: Story[];
   triggeredIds: Set<string>;
+  /** Stories that reached their trigger point and are waiting for their turn. */
+  queuedIds: string[];
   currentStoryId: string | null;
+  /** True when the user has paused stories. */
+  isPaused: boolean;
+  /** True while a story is being spoken. Not saved on the phone. */
+  isSpeaking: boolean;
   statusMessage: string;
 };
 
 const state: DrivingState = {
   isDriving: false,
   journeyId: null,
+  mode: 'route',
+  apiBase: null,
+  center: null,
   stories: [],
   triggeredIds: new Set(),
+  queuedIds: [],
   currentStoryId: null,
+  isPaused: false,
+  isSpeaking: false,
   statusMessage: 'Not driving yet.',
 };
 
@@ -37,9 +56,39 @@ function saveProgress() {
   enqueueWrite(PROGRESS_KEY, {
     journeyId: state.journeyId,
     triggeredIds: [...state.triggeredIds],
+    queuedIds: state.queuedIds,
     currentStoryId: state.currentStoryId,
+    isPaused: state.isPaused,
     isDriving: state.isDriving,
   });
+  if (state.mode === 'explore') {
+    enqueueWrite(EXPLORE_PLAYED_KEY, [...state.triggeredIds]);
+  }
+}
+
+/** Stories already told in earlier explore sessions. */
+export async function readExplorePlayed(): Promise<string[]> {
+  await writeQueue;
+  try {
+    const raw = await AsyncStorage.getItem(EXPLORE_PLAYED_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    return Array.isArray(parsed) ? parsed.filter(id => typeof id === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+/** Lets explore mode tell every story again. */
+export async function forgetExplorePlayed(): Promise<void> {
+  if (state.mode === 'explore') {
+    state.triggeredIds = new Set();
+    state.currentStoryId = null;
+    saveProgress();
+    notify();
+  } else {
+    enqueueWrite(EXPLORE_PLAYED_KEY, []);
+  }
+  await writeQueue;
 }
 
 function notify() {
@@ -69,11 +118,16 @@ export function hydrate(): Promise<void> {
         const journey = JSON.parse(journeyRaw);
         if (!Array.isArray(journey.stories) || !journey.stories.length) return;
         state.journeyId = journey.journeyId ?? null;
+        state.mode = journey.mode === 'explore' ? 'explore' : 'route';
+        state.apiBase = journey.apiBase ?? null;
+        state.center = journey.center ?? null;
         state.stories = journey.stories;
 
         const progress = progressRaw ? JSON.parse(progressRaw) : null;
         if (progress && progress.journeyId === state.journeyId) {
           state.triggeredIds = new Set(progress.triggeredIds ?? []);
+          state.queuedIds = Array.isArray(progress.queuedIds) ? progress.queuedIds : [];
+          state.isPaused = Boolean(progress.isPaused);
           state.currentStoryId = progress.currentStoryId ?? null;
           state.isDriving = Boolean(progress.isDriving);
         }
@@ -97,21 +151,59 @@ export function subscribe(listener: Listener): () => void {
 
 export function setState(partial: Partial<DrivingState>) {
   Object.assign(state, partial);
-  if ('triggeredIds' in partial || 'currentStoryId' in partial || 'isDriving' in partial) {
+  if (
+    'triggeredIds' in partial ||
+    'queuedIds' in partial ||
+    'currentStoryId' in partial ||
+    'isPaused' in partial ||
+    'isDriving' in partial
+  ) {
     saveProgress();
   }
   notify();
 }
 
-export function resetJourneyState(journeyId: string, stories: Story[]) {
+function saveJourney() {
+  enqueueWrite(JOURNEY_KEY, {
+    journeyId: state.journeyId,
+    mode: state.mode,
+    apiBase: state.apiBase,
+    center: state.center,
+    stories: state.stories,
+    savedAt: new Date().toISOString(),
+  });
+}
+
+/**
+ * Explore mode: swaps in a fresh download of nearby stories as the traveller
+ * moves on. Stories already played stay marked as played.
+ */
+export function replaceNearbyStories(stories: Story[], center: TriggerPoint) {
+  state.stories = stories;
+  state.center = center;
+  saveJourney();
+  notify();
+}
+
+export function resetJourneyState(
+  journeyId: string,
+  stories: Story[],
+  explore?: { apiBase: string; center: TriggerPoint; playedIds?: string[] },
+) {
   Object.assign(state, {
     journeyId,
+    mode: explore ? 'explore' : 'route',
+    apiBase: explore?.apiBase ?? null,
+    center: explore?.center ?? null,
     stories,
-    triggeredIds: new Set<string>(),
+    triggeredIds: new Set<string>(explore?.playedIds ?? []),
+    queuedIds: [],
     currentStoryId: null,
+    isPaused: false,
+    isSpeaking: false,
     statusMessage: 'Waiting for GPS fix...',
   });
-  enqueueWrite(JOURNEY_KEY, { journeyId, stories, savedAt: new Date().toISOString() });
+  saveJourney();
   saveProgress();
   notify();
 }

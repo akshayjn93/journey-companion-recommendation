@@ -3,8 +3,10 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
+  Alert,
   Button,
   ScrollView,
+  Share,
   StyleSheet,
   Text,
   TextInput,
@@ -19,12 +21,16 @@ import {
   recordError,
   type LastRun,
 } from './src/diagnostics';
+import { prepareExplore } from './src/explore';
 import './src/locationTask';
 import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
-import { speak, stopSpeaking } from './src/narration';
+import { replayCurrentStory, setPaused, skipCurrentStory } from './src/playback';
+import { clearPlayLog, readPlayLog, type PlayLogEntry } from './src/playLog';
 import {
+  forgetExplorePlayed,
   getState,
   hydrate,
+  readExplorePlayed,
   setState,
   subscribe,
   resetJourneyState,
@@ -45,6 +51,8 @@ export default function App() {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [drivingState, setDrivingState] = useState<DrivingState>(getState());
   const [lastRun, setLastRun] = useState<LastRun | null>(null);
+  const [playLog, setPlayLog] = useState<PlayLogEntry[]>([]);
+  const [explorePlayed, setExplorePlayed] = useState(0);
 
   useEffect(() => {
     AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
@@ -67,8 +75,58 @@ export default function App() {
       if (getState().isDriving !== active) setState({ isDriving: active });
       if (!active) setLastRun(await readLastRun());
     });
+    readPlayLog().then(setPlayLog);
+    readExplorePlayed().then(ids => setExplorePlayed(ids.length));
     return unsubscribe;
   }, []);
+
+  const handleForgetPlayed = () => {
+    Alert.alert(
+      'Forget played stories?',
+      'Explore mode will be able to tell every story again, including ones you have already heard.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Forget',
+          style: 'destructive',
+          onPress: async () => {
+            await forgetExplorePlayed();
+            setExplorePlayed(0);
+          },
+        },
+      ],
+    );
+  };
+
+  const handleShareLog = async () => {
+    const entries = await readPlayLog();
+    setPlayLog(entries);
+    try {
+      await Share.share({
+        title: 'Safarnama play log',
+        message: JSON.stringify(entries),
+      });
+    } catch (err) {
+      await recordError('Share play log', err);
+    }
+  };
+
+  const handleClearLog = () => {
+    Alert.alert('Clear play log?', 'This removes the saved test drive log from this phone.', [
+      { text: 'Cancel', style: 'cancel' },
+      {
+        text: 'Clear',
+        style: 'destructive',
+        onPress: async () => {
+          await clearPlayLog();
+          setPlayLog([]);
+        },
+      },
+    ]);
+  };
+
+  const countEvents = (event: PlayLogEntry['event']) =>
+    playLog.filter(entry => entry.event === event).length;
 
   const handleResumeSaved = async () => {
     setIsLoading(true);
@@ -79,6 +137,30 @@ export default function App() {
     } catch (err: any) {
       await recordError('Resume journey', err);
       setLoadError(err?.message ?? 'Failed to resume journey.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleStartExploring = async () => {
+    setIsLoading(true);
+    setLoadError(null);
+    try {
+      await AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify({ apiBase, journeyId }));
+      const prepared = await prepareExplore(apiBase);
+      if (!prepared.ok) {
+        setLoadError(prepared.message);
+        return;
+      }
+      const outcome = await startDriving();
+      if (!outcome.ok) setLoadError(outcome.message);
+    } catch (err: any) {
+      await recordError('Start exploring', err);
+      setLoadError(
+        err?.name === 'AbortError'
+          ? 'The server took too long to answer. Check your internet and try again.'
+          : (err?.message ?? 'Failed to load nearby stories.'),
+      );
     } finally {
       setIsLoading(false);
     }
@@ -110,10 +192,11 @@ export default function App() {
   };
 
   const handleStopDriving = async () => {
-    stopSpeaking();
     await stopDriving();
     await clearLastRun();
     setLastRun(null);
+    setPlayLog(await readPlayLog());
+    setExplorePlayed((await readExplorePlayed()).length);
   };
 
   const currentStory: Story | undefined = drivingState.stories.find(
@@ -133,6 +216,18 @@ export default function App() {
           autoCorrect={false}
           placeholder="https://journey-companion-recommendation.onrender.com"
         />
+        {isLoading ? (
+          <ActivityIndicator style={styles.spacer} />
+        ) : (
+          <View style={styles.spacer}>
+            <Button title="Start exploring (no route needed)" onPress={handleStartExploring} />
+            <Text style={styles.storyMeta}>
+              Downloads the stories around you, then tells them as you drive past. Works from
+              anywhere, in any direction.
+            </Text>
+          </View>
+        )}
+        <Text style={[styles.label, styles.spacer]}>Or follow a planned journey</Text>
         <Text style={styles.label}>Journey ID</Text>
         <TextInput
           style={styles.input}
@@ -142,21 +237,23 @@ export default function App() {
           autoCorrect={false}
           placeholder="journey id"
         />
-        {isLoading ? (
-          <ActivityIndicator style={styles.spacer} />
-        ) : (
+        {isLoading ? null : (
           <View style={styles.spacer}>
-            <Button title="Start driving" onPress={handleStartDriving} />
+            <Button title="Start planned journey" onPress={handleStartDriving} />
           </View>
         )}
         {loadError ? <Text style={styles.error}>{loadError}</Text> : null}
         {!isLoading && drivingState.stories.length ? (
           <View style={[styles.card, styles.spacer]}>
             <Text style={styles.storyBody}>
-              Saved on this phone: {drivingState.stories.length} stories,{' '}
-              {drivingState.triggeredIds.size} already played. No internet needed.
+              Saved on this phone ({drivingState.mode === 'explore' ? 'explore' : 'planned journey'}
+              ): {drivingState.stories.length} stories, {drivingState.triggeredIds.size} already
+              played. No internet needed.
             </Text>
-            <Button title="Resume saved journey" onPress={handleResumeSaved} />
+            <Button
+              title={drivingState.mode === 'explore' ? 'Resume exploring' : 'Resume saved journey'}
+              onPress={handleResumeSaved}
+            />
           </View>
         ) : null}
         {lastRun?.step || lastRun?.error ? (
@@ -168,6 +265,27 @@ export default function App() {
                 Error: {lastRun.error}
               </Text>
             ) : null}
+          </View>
+        ) : null}
+        {!isLoading && explorePlayed ? (
+          <View style={[styles.card, styles.spacer]}>
+            <Text style={styles.storyBody}>
+              Explore mode remembers {explorePlayed} stories you have heard and will not repeat
+              them.
+            </Text>
+            <Button title="Forget played stories" color="#b00020" onPress={handleForgetPlayed} />
+          </View>
+        ) : null}
+        {playLog.length ? (
+          <View style={[styles.card, styles.spacer]}>
+            <Text style={styles.storyBody}>
+              Play log: {countEvents('started')} played, {countEvents('finished')} heard to the end,{' '}
+              {countEvents('skipped')} skipped, {countEvents('dropped')} dropped.
+            </Text>
+            <Button title="Share play log" onPress={handleShareLog} />
+            <View style={styles.smallSpacer}>
+              <Button title="Clear play log" color="#b00020" onPress={handleClearLog} />
+            </View>
           </View>
         ) : null}
         <StatusBar style="auto" />
@@ -188,21 +306,36 @@ export default function App() {
           <Text style={styles.storyMeta}>Cue: {currentStory.cue}</Text>
           <Text style={styles.storyMeta}>Tags: {currentStory.tags.join(', ') || 'general'}</Text>
           <View style={styles.spacer}>
-            <Button title="Replay narration" onPress={() => speak(currentStory.summary)} />
+            {drivingState.isSpeaking ? (
+              <Button title="Skip story" onPress={skipCurrentStory} />
+            ) : (
+              <Button title="Replay narration" onPress={replayCurrentStory} />
+            )}
           </View>
         </View>
       ) : (
         <View style={styles.card}>
           <Text style={styles.storyBody}>
-            No story has triggered yet — drive towards your route and the nearest story will play
-            automatically.
+            {drivingState.mode === 'explore'
+              ? 'No story has played yet. Keep driving and the nearest story ahead of you will play automatically.'
+              : 'No story has triggered yet — drive towards your route and the nearest story will play automatically.'}
           </Text>
         </View>
       )}
 
       <Text style={styles.label}>
-        {drivingState.triggeredIds.size} of {drivingState.stories.length} stories triggered
+        {drivingState.mode === 'explore'
+          ? `${drivingState.triggeredIds.size} played, ${drivingState.stories.length} stories saved for this area`
+          : `${drivingState.triggeredIds.size} of ${drivingState.stories.length} stories triggered`}
+        {drivingState.queuedIds.length ? `, ${drivingState.queuedIds.length} waiting` : ''}
       </Text>
+
+      <View style={styles.spacer}>
+        <Button
+          title={drivingState.isPaused ? 'Resume stories' : 'Pause stories'}
+          onPress={() => setPaused(!drivingState.isPaused)}
+        />
+      </View>
 
       <View style={styles.spacer}>
         <Button title="Stop driving" color="#b00020" onPress={handleStopDriving} />
@@ -240,6 +373,9 @@ const styles = StyleSheet.create({
   },
   spacer: {
     marginTop: 20,
+  },
+  smallSpacer: {
+    marginTop: 8,
   },
   error: {
     color: '#b00020',

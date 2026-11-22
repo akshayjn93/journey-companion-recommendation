@@ -2,7 +2,8 @@ import * as Location from 'expo-location';
 import { Platform } from 'react-native';
 import * as TaskManager from 'expo-task-manager';
 import { haversineMeters } from './geo';
-import { speak } from './narration';
+import { exploreStep, resetExplore } from './explore';
+import { playNext, queueStory, resetPlayback, type Position } from './playback';
 import { markStep, recordError } from './diagnostics';
 import { getState, hydrate, setState } from './store';
 
@@ -44,42 +45,61 @@ async function handleFix(latest: Location.LocationObject) {
 
   // Android may have relaunched the app with empty memory.
   await hydrate();
-  const { stories, triggeredIds } = getState();
-  const untriggered = stories.filter(story => story.triggerPoint && !triggeredIds.has(story.id));
+  const { stories, triggeredIds, queuedIds, isPaused, mode } = getState();
 
-  if (!untriggered.length) {
-    setState({ statusMessage: 'All stories on this route have been triggered.' });
+  const speed = latest.coords.speed;
+  const position: Position = {
+    lng: latest.coords.longitude,
+    lat: latest.coords.latitude,
+    speedKmh: typeof speed === 'number' && speed >= 0 ? Math.round(speed * 3.6) : undefined,
+    accuracyMeters: Number.isFinite(latest.coords.accuracy)
+      ? Math.round(latest.coords.accuracy ?? 0)
+      : undefined,
+  };
+  const accuracyText =
+    position.accuracyMeters !== undefined ? `±${position.accuracyMeters}m` : 'unknown accuracy';
+
+  // No route: pick stories from location and heading.
+  if (mode === 'explore') {
+    exploreStep(position, latest.coords.heading);
     return;
   }
 
-  const current: [number, number] = [latest.coords.longitude, latest.coords.latitude];
-  const accuracyText = Number.isFinite(latest.coords.accuracy)
-    ? `±${Math.round(latest.coords.accuracy ?? 0)}m`
-    : 'unknown accuracy';
+  // Stories still waiting to reach their trigger point.
+  const untriggered = stories.filter(
+    story => story.triggerPoint && !triggeredIds.has(story.id) && !queuedIds.includes(story.id),
+  );
 
-  let nearest = untriggered[0];
+  let nearest: (typeof stories)[number] | null = null;
   let nearestDistance = Infinity;
   for (const story of untriggered) {
     const point = story.triggerPoint!;
-    const distance = haversineMeters(current, [point.lng, point.lat]);
+    const distance = haversineMeters([position.lng, position.lat], [point.lng, point.lat]);
     if (distance < nearestDistance) {
       nearestDistance = distance;
       nearest = story;
     }
   }
 
-  if (nearestDistance <= TRIGGER_RADIUS_METERS) {
-    const updatedTriggered = new Set(triggeredIds);
-    updatedTriggered.add(nearest.id);
-    setState({
-      triggeredIds: updatedTriggered,
-      currentStoryId: nearest.id,
-      statusMessage: `Triggered "${nearest.title}" (${Math.round(nearestDistance)}m away, ${accuracyText}).`,
-    });
-    await markStep(`Speaking story "${nearest.title}"`);
-    speak(nearest.summary);
-    await markStep(`Story spoken "${nearest.title}"`);
-  } else {
+  // While paused, nothing new joins the waiting line.
+  if (nearest && nearestDistance <= TRIGGER_RADIUS_METERS && !isPaused) {
+    queueStory(nearest, position);
+  }
+
+  // Starts a waiting story only if nothing is playing and the quiet gap has passed.
+  const started = playNext(position);
+  if (started) return;
+
+  const after = getState();
+  if (after.isPaused) {
+    setState({ statusMessage: `Stories are paused (GPS ${accuracyText}).` });
+  } else if (after.isSpeaking) {
+    // Keep the "Playing ..." message.
+  } else if (after.queuedIds.length) {
+    setState({ statusMessage: `${after.queuedIds.length} story waiting for a quiet gap.` });
+  } else if (!untriggered.length) {
+    setState({ statusMessage: 'All stories on this route have been triggered.' });
+  } else if (nearest) {
     setState({
       statusMessage: `GPS fix received (${accuracyText}). Next: "${nearest.title}" in ~${Math.round(nearestDistance)}m.`,
     });
@@ -176,5 +196,7 @@ export async function stopDriving(): Promise<void> {
     foregroundSubscription.remove();
     foregroundSubscription = null;
   }
+  resetPlayback();
+  resetExplore();
   setState({ isDriving: false, statusMessage: 'Driving stopped.' });
 }
