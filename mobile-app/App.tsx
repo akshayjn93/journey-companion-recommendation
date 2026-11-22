@@ -11,20 +11,40 @@ import {
   View,
 } from 'react-native';
 import { fetchJourneySimulation } from './src/api';
+import {
+  clearLastRun,
+  installGlobalErrorHandler,
+  markStep,
+  readLastRun,
+  recordError,
+  type LastRun,
+} from './src/diagnostics';
 import './src/locationTask';
-import { startDriving, stopDriving } from './src/locationTask';
+import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
 import { speak, stopSpeaking } from './src/narration';
-import { getState, subscribe, resetJourneyState, type DrivingState } from './src/store';
+import {
+  getState,
+  hydrate,
+  setState,
+  subscribe,
+  resetJourneyState,
+  type DrivingState,
+} from './src/store';
 import type { Story } from './src/types';
 
-const SETTINGS_KEY = 'journey-companion:settings';
+// Bumped to v2 so devices with a stale LAN-IP apiBase saved under the old key
+// pick up the new Render default instead of silently overriding it.
+const SETTINGS_KEY = 'journey-companion:settings:v2';
+
+installGlobalErrorHandler();
 
 export default function App() {
-  const [apiBase, setApiBase] = useState('http://192.168.1.10:3000');
-  const [journeyId, setJourneyId] = useState('433368e4-5bc0-44e2-bfe1-3e428317cfa0');
+  const [apiBase, setApiBase] = useState('https://journey-companion-recommendation.onrender.com');
+  const [journeyId, setJourneyId] = useState('4e322cd9-43a0-4dd2-aec4-d474e0ba797f');
   const [isLoading, setIsLoading] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [drivingState, setDrivingState] = useState<DrivingState>(getState());
+  const [lastRun, setLastRun] = useState<LastRun | null>(null);
 
   useEffect(() => {
     AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
@@ -37,25 +57,52 @@ export default function App() {
         // ignore malformed saved settings
       }
     });
-    return subscribe(setDrivingState);
+    const unsubscribe = subscribe(setDrivingState);
+    // If the app was closed mid-drive and tracking is still running, go straight
+    // back to the driving screen. If tracking has stopped, the start screen
+    // offers "Resume saved journey" instead. We never restart tracking without
+    // a tap, so a crash can not turn into a crash loop.
+    hydrate().then(async () => {
+      const active = await isTrackingActive();
+      if (getState().isDriving !== active) setState({ isDriving: active });
+      if (!active) setLastRun(await readLastRun());
+    });
+    return unsubscribe;
   }, []);
+
+  const handleResumeSaved = async () => {
+    setIsLoading(true);
+    setLoadError(null);
+    try {
+      const outcome = await startDriving();
+      if (!outcome.ok) setLoadError(outcome.message);
+    } catch (err: any) {
+      await recordError('Resume journey', err);
+      setLoadError(err?.message ?? 'Failed to resume journey.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const handleStartDriving = async () => {
     setIsLoading(true);
     setLoadError(null);
     try {
       await AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify({ apiBase, journeyId }));
+      await markStep('Downloading the journey');
       const result = await fetchJourneySimulation(apiBase, journeyId);
+      await markStep(`Journey downloaded, ${result.stories.length} stories`);
       if (!result.stories.length) {
         setLoadError('This journey returned no stories. Check the journey ID and API base.');
         return;
       }
-      resetJourneyState(result.stories);
+      resetJourneyState(result.journeyId, result.stories);
       const outcome = await startDriving();
       if (!outcome.ok) {
         setLoadError(outcome.message);
       }
     } catch (err: any) {
+      await recordError('Start driving', err);
       setLoadError(err?.message ?? 'Failed to load journey.');
     } finally {
       setIsLoading(false);
@@ -65,6 +112,8 @@ export default function App() {
   const handleStopDriving = async () => {
     stopSpeaking();
     await stopDriving();
+    await clearLastRun();
+    setLastRun(null);
   };
 
   const currentStory: Story | undefined = drivingState.stories.find(
@@ -74,7 +123,7 @@ export default function App() {
   if (!drivingState.isDriving) {
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>Journey Companion</Text>
+        <Text style={styles.heading}>Safarnama</Text>
         <Text style={styles.label}>Backend API base URL</Text>
         <TextInput
           style={styles.input}
@@ -82,7 +131,7 @@ export default function App() {
           onChangeText={setApiBase}
           autoCapitalize="none"
           autoCorrect={false}
-          placeholder="http://192.168.1.10:3000"
+          placeholder="https://journey-companion-recommendation.onrender.com"
         />
         <Text style={styles.label}>Journey ID</Text>
         <TextInput
@@ -101,6 +150,26 @@ export default function App() {
           </View>
         )}
         {loadError ? <Text style={styles.error}>{loadError}</Text> : null}
+        {!isLoading && drivingState.stories.length ? (
+          <View style={[styles.card, styles.spacer]}>
+            <Text style={styles.storyBody}>
+              Saved on this phone: {drivingState.stories.length} stories,{' '}
+              {drivingState.triggeredIds.size} already played. No internet needed.
+            </Text>
+            <Button title="Resume saved journey" onPress={handleResumeSaved} />
+          </View>
+        ) : null}
+        {lastRun?.step || lastRun?.error ? (
+          <View style={[styles.card, styles.spacer]}>
+            <Text style={styles.storyMeta}>Test info: last session did not end with Stop.</Text>
+            {lastRun.step ? <Text style={styles.storyMeta}>Last step: {lastRun.step}</Text> : null}
+            {lastRun.error ? (
+              <Text selectable style={styles.storyMeta}>
+                Error: {lastRun.error}
+              </Text>
+            ) : null}
+          </View>
+        ) : null}
         <StatusBar style="auto" />
       </View>
     );

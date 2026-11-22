@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "mobile-app",
+    "name": "Safarnama",
+    "slug": "journey-companion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,14 +9,17 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "UIBackgroundModes": ["location", "audio"],
-        "NSLocationWhenInUseUsageDescription": "Journey Companion uses your location to trigger nearby stories along your route.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "Journey Companion uses your location in the background so stories keep triggering while your phone is locked or the app is minimized."
+        "UIBackgroundModes": [
+          "location",
+          "audio"
+        ],
+        "NSLocationWhenInUseUsageDescription": "Safarnama uses your location to trigger nearby stories along your route.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Safarnama uses your location in the background so stories keep triggering while your phone is locked or the app is minimized."
       }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#1B2A4E",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -27,8 +30,14 @@
         "ACCESS_FINE_LOCATION",
         "ACCESS_BACKGROUND_LOCATION",
         "FOREGROUND_SERVICE",
-        "FOREGROUND_SERVICE_LOCATION"
-      ]
+        "FOREGROUND_SERVICE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION"
+      ],
+      "package": "com.safarnama.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -37,11 +46,26 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Journey Companion uses your location in the background so stories keep triggering while your phone is locked or the app is minimized.",
+          "locationAlwaysAndWhenInUsePermission": "Safarnama uses your location in the background so stories keep triggering while your phone is locked or the app is minimized.",
           "isAndroidBackgroundLocationEnabled": true,
-          "isAndroidForegroundServiceEnabled": true
+          "isAndroidForegroundServiceEnabled": true,
+          "androidForegroundServiceIcon": "./assets/android-icon-monochrome.png"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "40f803b4-3641-456f-aafb-4605b11cf888"
+      }
+    },
+    "owner": "akshayjn93"
   }
 }

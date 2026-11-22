@@ -1,8 +1,10 @@
 import * as Location from 'expo-location';
+import { Platform } from 'react-native';
 import * as TaskManager from 'expo-task-manager';
 import { haversineMeters } from './geo';
 import { speak } from './narration';
-import { getState, setState } from './store';
+import { markStep, recordError } from './diagnostics';
+import { getState, hydrate, setState } from './store';
 
 export const LOCATION_TASK_NAME = 'journey-companion-location-task';
 
@@ -21,6 +23,27 @@ TaskManager.defineTask(LOCATION_TASK_NAME, async ({ data, error }) => {
   const latest = locations?.[locations.length - 1];
   if (!latest) return;
 
+  try {
+    await handleFix(latest);
+  } catch (err) {
+    await recordError('Location task', err);
+  }
+});
+
+let firstFixMarked = false;
+
+// Set when we fall back to tracking only while the app is open (see
+// startDriving), so stopDriving knows to tear it down.
+let foregroundSubscription: Location.LocationSubscription | null = null;
+
+async function handleFix(latest: Location.LocationObject) {
+  if (!firstFixMarked) {
+    firstFixMarked = true;
+    await markStep('GPS fix received, tracking works');
+  }
+
+  // Android may have relaunched the app with empty memory.
+  await hydrate();
   const { stories, triggeredIds } = getState();
   const untriggered = stories.filter(story => story.triggerPoint && !triggeredIds.has(story.id));
 
@@ -53,53 +76,105 @@ TaskManager.defineTask(LOCATION_TASK_NAME, async ({ data, error }) => {
       currentStoryId: nearest.id,
       statusMessage: `Triggered "${nearest.title}" (${Math.round(nearestDistance)}m away, ${accuracyText}).`,
     });
+    await markStep(`Speaking story "${nearest.title}"`);
     speak(nearest.summary);
+    await markStep(`Story spoken "${nearest.title}"`);
   } else {
     setState({
       statusMessage: `GPS fix received (${accuracyText}). Next: "${nearest.title}" in ~${Math.round(nearestDistance)}m.`,
     });
   }
-});
+}
 
 export async function startDriving(): Promise<{ ok: boolean; message: string }> {
+  await markStep('Asking for location permission');
   const foreground = await Location.requestForegroundPermissionsAsync();
   if (foreground.status !== 'granted') {
     return { ok: false, message: 'Location permission (while using the app) was denied.' };
   }
 
-  const background = await Location.requestBackgroundPermissionsAsync();
-  if (background.status !== 'granted') {
-    return {
-      ok: false,
-      message:
-        'Background location permission was denied — stories will only trigger while the app is open and in the foreground. You can still continue, or grant "Always" location access in Settings for background triggering.',
-    };
+  // Android keeps tracking with the screen locked through the foreground
+  // service below, so it does not need the "Allow all the time" permission.
+  // iOS tracks best with "Always", but still works without it.
+  if (Platform.OS === 'ios') {
+    try {
+      await Location.requestBackgroundPermissionsAsync();
+    } catch {
+      // Not fatal: carry on with "while using" access.
+    }
   }
 
+  await markStep('Checking for an old tracking session');
   const alreadyRunning = await Location.hasStartedLocationUpdatesAsync(LOCATION_TASK_NAME);
   if (alreadyRunning) {
+    await markStep('Stopping the old tracking session');
     await Location.stopLocationUpdatesAsync(LOCATION_TASK_NAME);
   }
+  if (foregroundSubscription) {
+    foregroundSubscription.remove();
+    foregroundSubscription = null;
+  }
 
-  await Location.startLocationUpdatesAsync(LOCATION_TASK_NAME, {
-    accuracy: Location.Accuracy.Balanced,
-    timeInterval: 5000,
-    distanceInterval: 25,
-    showsBackgroundLocationIndicator: true,
-    foregroundService: {
-      notificationTitle: 'Journey Companion is tracking your drive',
-      notificationBody: 'Listening for nearby stories along your route.',
+  await markStep('Starting location tracking');
+  try {
+    await Location.startLocationUpdatesAsync(LOCATION_TASK_NAME, {
+      accuracy: Location.Accuracy.Balanced,
+      timeInterval: 5000,
+      distanceInterval: 25,
+      showsBackgroundLocationIndicator: true,
+      foregroundService: {
+        notificationTitle: 'Safarnama is tracking your drive',
+        notificationBody: 'Listening for nearby stories along your route.',
+        notificationColor: '#F77F00',
+      },
+    });
+    await markStep('Tracking started, waiting for first GPS fix');
+    setState({ isDriving: true, statusMessage: 'Waiting for GPS fix...' });
+    return { ok: true, message: 'Driving started.' };
+  } catch (err) {
+    // Expo Go can't register background location (ERR_LOCATION_INFO_PLIST),
+    // and iOS can refuse it without "Always" access. Track while the app is
+    // open instead of failing. The reason is saved for the test info box.
+    await recordError('Background tracking could not start', err);
+  }
+
+  await markStep('Starting tracking while the app is open');
+  foregroundSubscription = await Location.watchPositionAsync(
+    { accuracy: Location.Accuracy.Balanced, timeInterval: 5000, distanceInterval: 25 },
+    latest => {
+      handleFix(latest).catch(err => recordError('Location update', err));
     },
-  });
+  );
 
-  setState({ isDriving: true, statusMessage: 'Waiting for GPS fix...' });
-  return { ok: true, message: 'Driving started.' };
+  await markStep('Tracking started (app open only), waiting for first GPS fix');
+  setState({
+    isDriving: true,
+    statusMessage: 'Waiting for GPS fix... (keep the app open, background tracking is off)',
+  });
+  return {
+    ok: true,
+    message: 'Driving started. Stories will only play while the app is open.',
+  };
+}
+
+/** True when Android/iOS is still running our location tracking. */
+export async function isTrackingActive(): Promise<boolean> {
+  if (foregroundSubscription) return true;
+  try {
+    return await Location.hasStartedLocationUpdatesAsync(LOCATION_TASK_NAME);
+  } catch {
+    return false;
+  }
 }
 
 export async function stopDriving(): Promise<void> {
   const running = await Location.hasStartedLocationUpdatesAsync(LOCATION_TASK_NAME);
   if (running) {
     await Location.stopLocationUpdatesAsync(LOCATION_TASK_NAME);
+  }
+  if (foregroundSubscription) {
+    foregroundSubscription.remove();
+    foregroundSubscription = null;
   }
   setState({ isDriving: false, statusMessage: 'Driving stopped.' });
 }
