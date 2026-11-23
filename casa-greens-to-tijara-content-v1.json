@@ -1,0 +1,529 @@
+[
+  {
+    "category": "infrastructure",
+    "tags": [
+      "okhla",
+      "yamuna",
+      "agra-canal",
+      "barrage"
+    ],
+    "location": {
+      "lng": 77.3135,
+      "lat": 28.5471
+    },
+    "interestingness": 7.6,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Okhla_barrage",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Canal to Agra Begins at This Barrage",
+        "shortDescription": "The Okhla barrage on the Yamuna and the Agra Canal that starts from it were opened in 1874.",
+        "longDescription": "The low dam across the Yamuna here is the Okhla barrage. It was opened in 1874, along with the Agra Canal, which begins right at this point. The canal carries Yamuna water south for about 230 kilometres, towards Agra, to water farmland on the way. The still water behind the barrage is now also a bird sanctuary.",
+        "narrationHint": "As the road nears the Yamuna, point out the barrage and the canal that starts from it."
+      },
+      "hi": {
+        "title": "इसी बैराज से आगरा नहर निकलती है",
+        "shortDescription": "यमुना पर बना ओखला बैराज और यहाँ से निकलने वाली आगरा नहर, दोनों 1874 में शुरू हुए थे।",
+        "longDescription": "यमुना पर बना यह छोटा बाँध ओखला बैराज है। यह 1874 में शुरू हुआ था, और उसी साल यहीं से आगरा नहर भी निकाली गई। यह नहर यमुना का पानी लगभग 230 किलोमीटर दक्षिण की ओर, आगरा तक ले जाती है और रास्ते के खेतों को सींचती है। बैराज के पीछे रुका हुआ पानी आज एक पक्षी विहार भी है।",
+        "narrationHint": "यमुना के पास पहुँचते हुए बैराज और उससे निकलने वाली नहर के बारे में बताएँ।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "surajkund",
+      "faridabad",
+      "tomar",
+      "reservoir"
+    ],
+    "location": {
+      "lng": 77.283,
+      "lat": 28.4837
+    },
+    "interestingness": 7.8,
+    "confidence": 0.8,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Surajkund",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Thousand-Year-Old Lake Shaped Like the Rising Sun",
+        "shortDescription": "Surajkund is a 10th-century reservoir near Faridabad. Tradition says it was built by a Tomar king named Surajpal.",
+        "longDescription": "In the hills to the west is Surajkund, which means lake of the sun. It is a reservoir from the 10th century, built with stone steps in a half circle, like a rising sun. Tradition says it was made by a Tomar ruler called Surajpal. Today it is best known for the big crafts fair held beside it every year.",
+        "narrationHint": "Explain what the name Surajkund means, and how old the reservoir is."
+      },
+      "hi": {
+        "title": "उगते सूरज के आकार का हज़ार साल पुराना कुंड",
+        "shortDescription": "सूरजकुंड फ़रीदाबाद के पास दसवीं सदी का एक जलाशय है। परंपरा के अनुसार इसे तोमर राजा सूरजपाल ने बनवाया था।",
+        "longDescription": "पश्चिम की पहाड़ियों में सूरजकुंड है, यानी सूरज का कुंड। यह दसवीं सदी का जलाशय है, जिसकी पत्थर की सीढ़ियाँ आधे घेरे में बनी हैं, जैसे उगता हुआ सूरज। परंपरा के अनुसार इसे तोमर राजा सूरजपाल ने बनवाया था। आज यह जगह हर साल लगने वाले बड़े शिल्प मेले के लिए सबसे ज़्यादा जानी जाती है।",
+        "narrationHint": "सूरजकुंड नाम का मतलब और इसकी उम्र बताएँ।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "faridabad",
+      "mughal",
+      "jahangir",
+      "founding"
+    ],
+    "location": {
+      "lng": 77.3114,
+      "lat": 28.4109
+    },
+    "interestingness": 7.7,
+    "confidence": 0.88,
+    "sourceName": "Encyclopaedia Britannica",
+    "sourceUrl": "https://www.britannica.com/place/Faridabad",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Faridabad Began as a Fort to Guard a Road",
+        "shortDescription": "Faridabad was founded in 1607 by Sheikh Farid, treasurer of the Mughal emperor Jahangir, to protect the road between Delhi and Agra.",
+        "longDescription": "Faridabad is named after the man who founded it. In 1607, Sheikh Farid, the treasurer of the Mughal emperor Jahangir, built a fort here. Its job was to guard the main road between Delhi and Agra. A mosque and a water tank were built with it. Four hundred years later, the small fort town has become one of the biggest industrial cities of Haryana.",
+        "narrationHint": "Tell the listener who Faridabad is named after and why it was built."
+      },
+      "hi": {
+        "title": "फ़रीदाबाद की शुरुआत एक सड़क की रखवाली से हुई",
+        "shortDescription": "फ़रीदाबाद को 1607 में मुग़ल बादशाह जहाँगीर के ख़ज़ांची शेख़ फ़रीद ने दिल्ली-आगरा सड़क की हिफ़ाज़त के लिए बसाया था।",
+        "longDescription": "फ़रीदाबाद का नाम इसे बसाने वाले के नाम पर है। 1607 में मुग़ल बादशाह जहाँगीर के ख़ज़ांची शेख़ फ़रीद ने यहाँ एक क़िला बनवाया। इसका काम दिल्ली और आगरा के बीच की मुख्य सड़क की हिफ़ाज़त करना था। साथ में एक मस्जिद और एक तालाब भी बना। चार सौ साल बाद, वही छोटा क़स्बा हरियाणा के सबसे बड़े औद्योगिक शहरों में गिना जाता है।",
+        "narrationHint": "बताएँ कि फ़रीदाबाद किसके नाम पर है और इसे क्यों बसाया गया।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ballabhgarh",
+      "1857",
+      "nahar-singh",
+      "freedom-struggle"
+    ],
+    "location": {
+      "lng": 77.325,
+      "lat": 28.3405
+    },
+    "interestingness": 8.2,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nahar_Singh",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The King of Ballabhgarh Who Was Hanged in 1858",
+        "shortDescription": "Raja Nahar Singh of Ballabhgarh joined the 1857 uprising. The British hanged him in Chandni Chowk, Delhi, on 9 January 1858.",
+        "longDescription": "This town, Ballabhgarh, was once a small kingdom. Its last king was Raja Nahar Singh. In 1857 he sided with the uprising against British rule. After Delhi fell, he was tried and hanged in Chandni Chowk on 9 January 1858, and the British took over his kingdom. His palace, the Nahar Singh Mahal, still stands in the town.",
+        "narrationHint": "Tell the story of Raja Nahar Singh and 1857 with respect."
+      },
+      "hi": {
+        "title": "बल्लभगढ़ के राजा, जिन्हें 1858 में फाँसी दी गई",
+        "shortDescription": "बल्लभगढ़ के राजा नाहर सिंह 1857 के विद्रोह में शामिल हुए। अंग्रेज़ों ने 9 जनवरी 1858 को दिल्ली के चाँदनी चौक में उन्हें फाँसी दे दी।",
+        "longDescription": "यह क़स्बा, बल्लभगढ़, कभी एक छोटी रियासत था। इसके आख़िरी राजा थे राजा नाहर सिंह। 1857 में उन्होंने अंग्रेज़ी राज के ख़िलाफ़ विद्रोह का साथ दिया। दिल्ली के हाथ से निकलने के बाद उन पर मुक़दमा चला और 9 जनवरी 1858 को चाँदनी चौक में उन्हें फाँसी दे दी गई। अंग्रेज़ों ने उनकी रियासत भी ले ली। उनका महल, नाहर सिंह महल, आज भी क़स्बे में खड़ा है।",
+        "narrationHint": "राजा नाहर सिंह और 1857 की कहानी सम्मान के साथ सुनाएँ।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "delhi-mumbai-expressway",
+      "road",
+      "highway"
+    ],
+    "location": {
+      "lng": 77.174,
+      "lat": 28.194
+    },
+    "interestingness": 8.0,
+    "confidence": 0.95,
+    "sourceName": "Press Information Bureau",
+    "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=1898510",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "You Are on the Road Built to Reach Mumbai",
+        "shortDescription": "The Delhi–Mumbai Expressway is planned to be about 1,386 km long. Its first 246 km section, from Delhi to Dausa and Lalsot, opened on 12 February 2023.",
+        "longDescription": "This wide road is the Delhi to Mumbai Expressway. When it is complete, it will be about 1,386 kilometres long, which the government describes as the longest expressway in India. It has eight lanes, with space kept to add four more. The first part, 246 kilometres from Delhi to Dausa and Lalsot in Rajasthan, was opened on 12 February 2023.",
+        "narrationHint": "Tell the listener how far this road is planned to go."
+      },
+      "hi": {
+        "title": "आप मुंबई तक जाने वाली सड़क पर हैं",
+        "shortDescription": "दिल्ली-मुंबई एक्सप्रेसवे लगभग 1,386 किलोमीटर लंबा बनना है। इसका पहला 246 किलोमीटर का हिस्सा, दिल्ली से दौसा और लालसोट तक, 12 फ़रवरी 2023 को खुला।",
+        "longDescription": "यह चौड़ी सड़क दिल्ली-मुंबई एक्सप्रेसवे है। पूरा बनने पर यह लगभग 1,386 किलोमीटर लंबा होगा, और सरकार के अनुसार यह भारत का सबसे लंबा एक्सप्रेसवे होगा। इसमें आठ लेन हैं, और चार और लेन जोड़ने की जगह छोड़ी गई है। इसका पहला हिस्सा, दिल्ली से राजस्थान के दौसा और लालसोट तक 246 किलोमीटर, 12 फ़रवरी 2023 को खोला गया था।",
+        "narrationHint": "बताएँ कि यह सड़क कहाँ तक जाने के लिए बन रही है।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "aravalli",
+      "mountains",
+      "geology"
+    ],
+    "location": {
+      "lng": 77.09,
+      "lat": 28.22
+    },
+    "interestingness": 8.3,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aravalli_Range",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "These Low Hills Are Older Than the Himalayas",
+        "shortDescription": "The Aravalli range runs about 670 km from near Delhi to Gujarat. It is one of the oldest mountain ranges in the world.",
+        "longDescription": "The low, rocky hills around you are the Aravallis. They do not look grand, but they are among the oldest mountains on Earth, far older than the Himalayas. They were pushed up well over a billion years ago, and wind and rain have been wearing them down ever since. The range runs for about 670 kilometres, from near Delhi, across Haryana and Rajasthan, to Gujarat.",
+        "narrationHint": "Point to the low hills and reveal how old they are."
+      },
+      "hi": {
+        "title": "ये छोटी पहाड़ियाँ हिमालय से भी पुरानी हैं",
+        "shortDescription": "अरावली पर्वतमाला दिल्ली के पास से गुजरात तक लगभग 670 किलोमीटर तक फैली है। यह दुनिया की सबसे पुरानी पर्वतमालाओं में से एक है।",
+        "longDescription": "आपके आसपास की ये छोटी, पथरीली पहाड़ियाँ अरावली हैं। देखने में ये बड़ी नहीं लगतीं, पर ये धरती के सबसे पुराने पहाड़ों में से हैं, हिमालय से कहीं ज़्यादा पुरानी। ये एक अरब साल से भी पहले उठी थीं, और तब से हवा और बारिश इन्हें घिसती आ रही है। यह पर्वतमाला दिल्ली के पास से हरियाणा और राजस्थान होती हुई गुजरात तक, लगभग 670 किलोमीटर तक फैली है।",
+        "narrationHint": "पहाड़ियों की ओर ध्यान दिलाएँ और बताएँ कि ये कितनी पुरानी हैं।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "mewat",
+      "nuh",
+      "region",
+      "place-name"
+    ],
+    "location": {
+      "lng": 77.11,
+      "lat": 28.02
+    },
+    "interestingness": 7.5,
+    "confidence": 0.88,
+    "sourceName": "Business Standard",
+    "sourceUrl": "https://www.business-standard.com/article/politics/making-sense-of-renaming-of-mewat-116041800963_1.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Mewat Is a Region, Not a Town",
+        "shortDescription": "This area is Mewat, a cultural region spread over Haryana, Rajasthan and Uttar Pradesh. The Haryana district here was called Mewat until 2016, when it was renamed Nuh.",
+        "longDescription": "You are now in Mewat. Mewat is not one town. It is a cultural region that spreads across parts of Haryana, Rajasthan and Uttar Pradesh. The Haryana district here was created in 2005 and was first named Mewat. In April 2016 the state renamed it Nuh, after its main town, because Mewat is the name of the whole region.",
+        "narrationHint": "Explain that Mewat is a region that crosses three states."
+      },
+      "hi": {
+        "title": "मेवात एक इलाक़ा है, कोई एक शहर नहीं",
+        "shortDescription": "यह इलाक़ा मेवात है, जो हरियाणा, राजस्थान और उत्तर प्रदेश में फैला एक सांस्कृतिक क्षेत्र है। यहाँ के हरियाणा के ज़िले का नाम 2016 तक मेवात था, फिर इसे नूँह कर दिया गया।",
+        "longDescription": "अब आप मेवात में हैं। मेवात कोई एक शहर नहीं है। यह एक सांस्कृतिक इलाक़ा है, जो हरियाणा, राजस्थान और उत्तर प्रदेश के हिस्सों में फैला है। यहाँ का हरियाणा का ज़िला 2005 में बना था और पहले इसका नाम मेवात ही रखा गया था। अप्रैल 2016 में राज्य सरकार ने इसका नाम बदलकर नूँह कर दिया, जो इसका मुख्य क़स्बा है, क्योंकि मेवात तो पूरे इलाक़े का नाम है।",
+        "narrationHint": "समझाएँ कि मेवात तीन राज्यों में फैला एक इलाक़ा है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "firozpur-jhirka",
+      "nuh",
+      "mewat",
+      "founding"
+    ],
+    "location": {
+      "lng": 76.9465,
+      "lat": 27.7877
+    },
+    "interestingness": 6.9,
+    "confidence": 0.8,
+    "sourceName": "Encyclopaedia Britannica",
+    "sourceUrl": "https://www.britannica.com/place/Firozpur-Jhirka",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Town That Began as a Sultan's Army Post",
+        "shortDescription": "Firozpur Jhirka, at the foot of the Aravallis in Nuh district, is said to have been founded by Sultan Firuz Shah as a military outpost.",
+        "longDescription": "The town here is Firozpur Jhirka, at the foot of the Aravalli hills. It is said to have been founded by Sultan Firuz Shah of Delhi as a military outpost, to keep watch over this part of Mewat. The first half of its name remembers him. The hills beside the town form the border between Haryana and Rajasthan.",
+        "narrationHint": "Mention how the town is said to have started, and that Rajasthan begins beyond the hills."
+      },
+      "hi": {
+        "title": "सुल्तान की फ़ौजी चौकी से बना क़स्बा",
+        "shortDescription": "नूँह ज़िले में अरावली की तलहटी में बसा फ़िरोज़पुर झिरका, माना जाता है कि सुल्तान फ़िरोज़ शाह ने फ़ौजी चौकी के रूप में बसाया था।",
+        "longDescription": "यह क़स्बा फ़िरोज़पुर झिरका है, जो अरावली की तलहटी में बसा है। माना जाता है कि इसे दिल्ली के सुल्तान फ़िरोज़ शाह ने एक फ़ौजी चौकी के रूप में बसाया था, ताकि मेवात के इस हिस्से पर नज़र रखी जा सके। इसके नाम का पहला हिस्सा उन्हीं की याद दिलाता है। क़स्बे के पास की पहाड़ियाँ हरियाणा और राजस्थान की सीमा बनाती हैं।",
+        "narrationHint": "बताएँ कि क़स्बा कैसे बसा माना जाता है, और पहाड़ियों के पार राजस्थान शुरू होता है।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "gurugram",
+      "gurgaon",
+      "place-name",
+      "mahabharata"
+    ],
+    "location": {
+      "lng": 77.0299,
+      "lat": 28.4646
+    },
+    "interestingness": 7.4,
+    "confidence": 0.88,
+    "sourceName": "Business Standard",
+    "sourceUrl": "https://www.business-standard.com/article/pti-stories/gurgaon-is-now-gurugram-116041200978_1.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Why Gurgaon Became Gurugram",
+        "shortDescription": "Haryana renamed Gurgaon as Gurugram in April 2016. The name means village of the guru, after the belief that it was given to Guru Dronacharya.",
+        "longDescription": "The city of glass towers around you had its name changed in April 2016, from Gurgaon to Gurugram. Both names mean the same thing: village of the guru. A popular belief says this land was given to Guru Dronacharya, the teacher of the Pandavas and Kauravas in the Mahabharata, by his students. That is a legend, not recorded history, but it is where the name comes from.",
+        "narrationHint": "Explain the meaning of the name, and say clearly that the Dronacharya link is a belief."
+      },
+      "hi": {
+        "title": "गुड़गाँव गुरुग्राम क्यों बना",
+        "shortDescription": "हरियाणा ने अप्रैल 2016 में गुड़गाँव का नाम गुरुग्राम कर दिया। नाम का मतलब है गुरु का गाँव, और मान्यता है कि यह गाँव गुरु द्रोणाचार्य को भेंट किया गया था।",
+        "longDescription": "आपके आसपास काँच की ऊँची इमारतों वाला यह शहर अप्रैल 2016 में गुड़गाँव से गुरुग्राम हो गया। दोनों नामों का मतलब एक ही है: गुरु का गाँव। मान्यता है कि यह ज़मीन महाभारत में पांडवों और कौरवों के गुरु, द्रोणाचार्य को उनके शिष्यों ने भेंट की थी। यह एक मान्यता है, लिखा हुआ इतिहास नहीं, पर नाम यहीं से आया है।",
+        "narrationHint": "नाम का मतलब समझाएँ, और साफ़ कहें कि द्रोणाचार्य वाली बात एक मान्यता है।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "sohna",
+      "hot-spring",
+      "aravalli",
+      "sulphur"
+    ],
+    "location": {
+      "lng": 77.0655,
+      "lat": 28.2475
+    },
+    "interestingness": 7.9,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sohna",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Sohna Has a Spring That Comes Out Hot",
+        "shortDescription": "Sohna, at the foot of the Aravallis, has natural hot springs beside an old Shiva temple. The water is rich in sulphur and comes out at about 46 to 52 degrees Celsius.",
+        "longDescription": "The town of Sohna sits at the foot of the Aravalli hills, and it has something rare for this part of India: a natural hot spring. The water comes out of the rock at about 46 to 52 degrees Celsius and is rich in sulphur. The spring is beside an old Shiva temple, and people have long come here to bathe in it.",
+        "narrationHint": "Surprise the listener with the hot spring, and give the water temperature."
+      },
+      "hi": {
+        "title": "सोहना में ज़मीन से गरम पानी निकलता है",
+        "shortDescription": "अरावली की तलहटी में बसे सोहना में एक पुराने शिव मंदिर के पास गरम पानी के प्राकृतिक झरने हैं। इस गंधक वाले पानी का तापमान लगभग 46 से 52 डिग्री सेल्सियस रहता है।",
+        "longDescription": "सोहना क़स्बा अरावली की तलहटी में बसा है, और यहाँ भारत के इस हिस्से के लिए एक अनोखी चीज़ है: गरम पानी का प्राकृतिक झरना। पानी चट्टान से लगभग 46 से 52 डिग्री सेल्सियस पर निकलता है और इसमें गंधक होता है। यह झरना एक पुराने शिव मंदिर के पास है, और लोग बरसों से यहाँ नहाने आते रहे हैं।",
+        "narrationHint": "गरम पानी के झरने की बात से चौंकाएँ, और पानी का तापमान बताएँ।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "bhiwadi",
+      "industry",
+      "riico",
+      "rajasthan"
+    ],
+    "location": {
+      "lng": 76.8374,
+      "lat": 28.2039
+    },
+    "interestingness": 6.8,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bhiwadi",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Bhiwadi, Rajasthan's Factory Town Next to Haryana",
+        "shortDescription": "Bhiwadi sits right on the Rajasthan–Haryana border, about 60 km from New Delhi. Rajasthan's industrial agency has been building factory areas here since the 1970s.",
+        "longDescription": "Bhiwadi is a factory town that sits right on the border of Rajasthan and Haryana, about 60 kilometres from New Delhi. Rajasthan's state industrial agency, called RIICO, began setting up industrial areas here in the 1970s, because the place is so close to Delhi. Today the town and the areas around it are packed with factories.",
+        "narrationHint": "Explain why factories came to Bhiwadi: it is Rajasthan's closest point to Delhi."
+      },
+      "hi": {
+        "title": "भिवाड़ी: हरियाणा से सटा राजस्थान का कारख़ानों वाला शहर",
+        "shortDescription": "भिवाड़ी राजस्थान और हरियाणा की सीमा पर, नई दिल्ली से लगभग 60 किलोमीटर दूर है। राजस्थान की औद्योगिक संस्था 1970 के दशक से यहाँ औद्योगिक क्षेत्र बना रही है।",
+        "longDescription": "भिवाड़ी कारख़ानों का शहर है, जो ठीक राजस्थान और हरियाणा की सीमा पर, नई दिल्ली से लगभग 60 किलोमीटर दूर बसा है। राजस्थान की औद्योगिक संस्था रीको ने 1970 के दशक में यहाँ औद्योगिक क्षेत्र बनाने शुरू किए, क्योंकि यह जगह दिल्ली के बहुत पास है। आज यह शहर और इसके आसपास के इलाक़े कारख़ानों से भरे हैं।",
+        "narrationHint": "समझाएँ कि कारख़ाने भिवाड़ी क्यों आए: यह राजस्थान का दिल्ली से सबसे नज़दीकी हिस्सा है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "tijara",
+      "district",
+      "rajasthan",
+      "alwar"
+    ],
+    "location": {
+      "lng": 76.848,
+      "lat": 27.93
+    },
+    "interestingness": 6.7,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Khairthal-Tijara_district",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Tijara Got a New District in 2023",
+        "shortDescription": "Tijara was part of Alwar district until August 2023, when Rajasthan created the new Khairthal-Tijara district.",
+        "longDescription": "For a long time, Tijara was part of Alwar district. In August 2023, the Rajasthan government carved out a new district from Alwar and named it Khairthal-Tijara. Its headquarters is at Khairthal. The new district includes Tijara, and also the factory town of Bhiwadi near the Haryana border.",
+        "narrationHint": "Mention that the district you are in is only a few years old."
+      },
+      "hi": {
+        "title": "तिजारा को 2023 में नया ज़िला मिला",
+        "shortDescription": "तिजारा अगस्त 2023 तक अलवर ज़िले में था। फिर राजस्थान ने नया खैरथल-तिजारा ज़िला बनाया।",
+        "longDescription": "लंबे समय तक तिजारा अलवर ज़िले का हिस्सा रहा। अगस्त 2023 में राजस्थान सरकार ने अलवर से अलग करके एक नया ज़िला बनाया और उसका नाम खैरथल-तिजारा रखा। इसका मुख्यालय खैरथल में है। इस नए ज़िले में तिजारा के साथ हरियाणा सीमा के पास का औद्योगिक शहर भिवाड़ी भी आता है।",
+        "narrationHint": "बताएँ कि जिस ज़िले में आप हैं, वह कुछ ही साल पुराना है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "tijara",
+      "mewat",
+      "hasan-khan-mewati",
+      "khanwa",
+      "babur"
+    ],
+    "location": {
+      "lng": 76.8522,
+      "lat": 27.9351
+    },
+    "interestingness": 8.1,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hasan_Khan_Mewati",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A King Born in Tijara Fought Babur",
+        "shortDescription": "Hasan Khan Mewati, the last Khanzada ruler of Mewat, was born at Tijara. He was killed fighting Babur at the Battle of Khanwa in 1527.",
+        "longDescription": "Tijara is the birthplace of Hasan Khan Mewati, the last ruler of the old kingdom of Mewat. He ruled from 1504. When Babur invaded, Hasan Khan joined Rana Sanga of Mewar against him. In March 1527, the two armies met at Khanwa. Hasan Khan was killed in the battle, and after it Mewat became part of the Mughal empire.",
+        "narrationHint": "Tell the story of Hasan Khan Mewati and the Battle of Khanwa."
+      },
+      "hi": {
+        "title": "तिजारा में जन्मे राजा, जो बाबर से लड़े",
+        "shortDescription": "मेवात के आख़िरी ख़ानज़ादा शासक हसन ख़ाँ मेवाती का जन्म तिजारा में हुआ था। वे 1527 में खानवा की लड़ाई में बाबर से लड़ते हुए मारे गए।",
+        "longDescription": "तिजारा हसन ख़ाँ मेवाती की जन्मभूमि है, जो मेवात की पुरानी रियासत के आख़िरी शासक थे। उन्होंने 1504 से राज किया। जब बाबर ने हमला किया, तो हसन ख़ाँ ने मेवाड़ के राणा सांगा का साथ दिया। मार्च 1527 में दोनों सेनाएँ खानवा में आमने-सामने हुईं। हसन ख़ाँ इसी लड़ाई में मारे गए, और इसके बाद मेवात मुग़ल साम्राज्य का हिस्सा बन गया।",
+        "narrationHint": "हसन ख़ाँ मेवाती और खानवा की लड़ाई की कहानी सुनाएँ।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "tijara",
+      "fort",
+      "palace",
+      "alwar"
+    ],
+    "location": {
+      "lng": 76.8665,
+      "lat": 27.923
+    },
+    "interestingness": 7.8,
+    "confidence": 0.8,
+    "sourceName": "Neemrana Hotels",
+    "sourceUrl": "https://www.neemranahotels.com/tijara-fort-palace-alwar-rajasthan/about-us/about-us.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Palace on the Hill Was Left Unfinished",
+        "shortDescription": "Work on Tijara's hilltop fort-palace began in 1835 under Maharaja Balwant Singh. It stopped after his death in 1845, and the palace stayed unfinished for over 150 years.",
+        "longDescription": "On the hill above Tijara is a fort-palace with an odd history. Maharaja Balwant Singh began building it in 1835. He died in 1845, the work stopped, and the palace was never completed. For more than 150 years it stood empty and half built. It was later restored and finished as a heritage hotel, which opened in 2016.",
+        "narrationHint": "Point to the hilltop palace and tell how it was left half built."
+      },
+      "hi": {
+        "title": "पहाड़ी पर बना महल जो अधूरा रह गया",
+        "shortDescription": "तिजारा की पहाड़ी पर क़िले-महल का काम 1835 में महाराजा बलवंत सिंह ने शुरू करवाया। 1845 में उनकी मृत्यु के बाद काम रुक गया और महल डेढ़ सौ साल से ज़्यादा अधूरा रहा।",
+        "longDescription": "तिजारा के ऊपर पहाड़ी पर एक क़िला-महल है, जिसकी कहानी अनोखी है। महाराजा बलवंत सिंह ने 1835 में इसे बनवाना शुरू किया। 1845 में उनकी मृत्यु हो गई, काम रुक गया, और महल कभी पूरा नहीं हुआ। डेढ़ सौ साल से ज़्यादा यह ख़ाली और अधूरा खड़ा रहा। बाद में इसकी मरम्मत करके इसे एक हेरिटेज होटल के रूप में पूरा किया गया, जो 2016 में खुला।",
+        "narrationHint": "पहाड़ी के महल की ओर ध्यान दिलाएँ और बताएँ कि यह कैसे अधूरा रह गया।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "tijara",
+      "jain",
+      "temple",
+      "chandraprabhu"
+    ],
+    "location": {
+      "lng": 76.8555,
+      "lat": 27.9335
+    },
+    "interestingness": 8.6,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tijara_Jain_temple",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Idol That Was Found Under the Ground in 1956",
+        "shortDescription": "The main idol of the Tijara Jain temple, of Lord Chandraprabhu, was found by digging on 16 August 1956. An inscription on it gives a date equal to 1497.",
+        "longDescription": "The Tijara Jain temple exists because of something found under the ground. On 16 August 1956, a white stone idol of Lord Chandraprabhu was dug up here. Devotees say a local woman was shown the spot in a dream. The idol is about 15 inches tall, and the inscription on it gives a date that works out to the year 1497. The temple was built around it, and a second idol was found here in 1972.",
+        "narrationHint": "Tell how the idol was found in 1956. Present the dream as what devotees believe."
+      },
+      "hi": {
+        "title": "वह मूर्ति जो 1956 में ज़मीन के नीचे से मिली",
+        "shortDescription": "तिजारा जैन मंदिर की मुख्य मूर्ति, भगवान चंद्रप्रभु की, 16 अगस्त 1956 को खुदाई में मिली थी। इस पर लिखी तारीख़ सन् 1497 के बराबर है।",
+        "longDescription": "तिजारा का जैन मंदिर ज़मीन के नीचे से मिली एक चीज़ की वजह से बना। 16 अगस्त 1956 को यहाँ खुदाई में भगवान चंद्रप्रभु की सफ़ेद पत्थर की मूर्ति निकली। श्रद्धालु मानते हैं कि एक स्थानीय महिला को सपने में यह जगह दिखाई गई थी। मूर्ति लगभग 15 इंच ऊँची है, और इस पर लिखी तारीख़ सन् 1497 के बराबर बैठती है। मंदिर इसी मूर्ति के लिए बनाया गया, और 1972 में यहाँ एक और मूर्ति मिली।",
+        "narrationHint": "बताएँ कि 1956 में मूर्ति कैसे मिली। सपने वाली बात श्रद्धालुओं की मान्यता के रूप में कहें।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "tijara",
+      "jain",
+      "tirthankara",
+      "chandraprabhu"
+    ],
+    "location": {
+      "lng": 76.8558,
+      "lat": 27.9338
+    },
+    "interestingness": 7.3,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chandraprabha",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Chandraprabhu, the Lord of the Moon's Glow",
+        "shortDescription": "The Tijara temple is dedicated to Chandraprabhu, the eighth of the 24 Tirthankaras of Jainism. His symbol is the crescent moon.",
+        "longDescription": "The temple here is dedicated to Chandraprabhu. In Jainism there are 24 Tirthankaras, the great teachers who showed the path to freedom, and Chandraprabhu is the eighth. His name means the glow of the moon, and his symbol is the crescent moon. Look for a small crescent carved below his idols. That is how you can tell which Tirthankara an idol shows.",
+        "narrationHint": "Explain who Chandraprabhu is and how to spot the crescent moon symbol."
+      },
+      "hi": {
+        "title": "चंद्रप्रभु, यानी चाँद की आभा वाले भगवान",
+        "shortDescription": "तिजारा का मंदिर जैन धर्म के 24 तीर्थंकरों में से आठवें, भगवान चंद्रप्रभु का है। उनका चिह्न अर्धचंद्र है।",
+        "longDescription": "यहाँ का मंदिर भगवान चंद्रप्रभु का है। जैन धर्म में 24 तीर्थंकर हुए हैं, यानी वे महान गुरु जिन्होंने मुक्ति का रास्ता दिखाया, और चंद्रप्रभु उनमें आठवें हैं। उनके नाम का मतलब है चाँद की आभा, और उनका चिह्न अर्धचंद्र है। उनकी मूर्तियों के नीचे बना छोटा सा अर्धचंद्र ढूँढ़िए। इसी चिह्न से पहचाना जाता है कि मूर्ति किस तीर्थंकर की है।",
+        "narrationHint": "बताएँ कि चंद्रप्रभु कौन हैं और अर्धचंद्र का चिह्न कैसे पहचानें।"
+      }
+    }
+  }
+]

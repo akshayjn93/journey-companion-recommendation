@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "createdOn": "2026-11-23",
+  "storyCount": 16,
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "purpose": "Stories for a test drive from Noida Extension (Casa Greens 1) to the Tijara Jain temple. Covers both likely roads: via Faridabad and the Delhi-Mumbai Expressway, and via Gurugram, Sohna and Bhiwadi.",
+  "qualityNote": "Each story is built from the linked source. Facts were checked by web search on 2026-11-23, not by a human editor. Hindi text was written alongside the English and has not been reviewed by a native editor.",
+  "coordinateNote": "Looked up on OpenStreetMap: Okhla Barrage, Surajkund, Old Faridabad, Bhiwadi, Tijara town, Firozpur Jhirka, Gurugram. Estimates that should be checked on a map: Nahar Singh Mahal (Ballabhgarh), Sohna hot spring, Tijara fort-palace, Tijara Jain temple, and the three area stories (Delhi-Mumbai Expressway, Aravalli hills near Sohna, Mewat).",
+  "wordingNotes": [
+    "Surajkund's builder (Surajpal) is tradition, and is worded that way.",
+    "Firozpur Jhirka's founding is 'said to be', following Britannica.",
+    "The Gurugram and Dronacharya link is a belief, and is worded that way.",
+    "The dream in the Tijara idol story is what devotees say, and is worded that way.",
+    "'Longest expressway in India' is the government's description.",
+    "Sources differ on the exact date in August 2023 for the new district; the story says only 'August 2023'. A later report says the district may be renamed Bhartrihari Nagar; not included because it was not confirmed.",
+    "The Tijara palace history comes from the hotel company's own page."
+  ],
+  "notImported": "Not yet imported into any database."
+}
