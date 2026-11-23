@@ -212,9 +212,10 @@ export async function contentRoutes(app: FastifyInstance) {
       title.trim().toLowerCase().replace(/\s*[—–-]\s*why it matters on this drive\.?$/, '');
     const bestByKey = new Map<string, (typeof rows)[number]>();
     for (const row of rows) {
-      const key = storyKey(row.title);
+      // Compare English titles, so this also works when the text is in Hindi.
+      const key = storyKey(row.en_title);
       const kept = bestByKey.get(key);
-      if (!kept || row.title.trim().length < kept.title.trim().length) bestByKey.set(key, row);
+      if (!kept || row.en_title.trim().length < kept.en_title.trim().length) bestByKey.set(key, row);
     }
     const keptRows = new Set(bestByKey.values());
     const uniqueRows = rows.filter(row => keptRows.has(row));
@@ -225,10 +226,15 @@ export async function contentRoutes(app: FastifyInstance) {
       category: row.category,
       tags: row.tags ?? [],
       // Title, then the story. The full stop gives the voice a pause between them.
-      summary: [/[.!?]$/.test(row.title.trim()) ? row.title.trim() : `${row.title.trim()}.`,
+      summary: [/[.!?।]$/.test(row.title.trim())
+        ? row.title.trim()
+        : `${row.title.trim()}${row.has_translation && lang === 'hi' ? '।' : '.'}`,
         row.long_description ?? row.short_description]
         .filter(Boolean).join(' ').replace(/\s+/g, ' ').trim(),
       cue: row.narration_hint?.trim() || `Short ${row.category} note nearby.`,
+      // The language this story's text is really in. A story with no
+      // translation comes back in English, so the phone can pick the right voice.
+      language: row.has_translation ? lang : 'en',
       sourceName: row.source_name,
       sourceUrl: row.source_url,
       point: { lng: Number(row.lng), lat: Number(row.lat) },

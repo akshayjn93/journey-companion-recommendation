@@ -50,6 +50,7 @@ test('GET /v1/content/nearby returns stories nearest first, inside the radius', 
   let previous = 0;
   for (const story of body.stories) {
     assert.equal(typeof story.id, 'string');
+    assert.equal(story.language, 'en');
     assert.ok(story.title.length > 0);
     assert.ok(story.summary.startsWith(story.title.trim()));
     assert.equal(typeof story.point.lng, 'number');
@@ -76,4 +77,18 @@ test('GET /v1/content/nearby honours the limit', async () => {
   });
   assert.equal(res.statusCode, 200);
   assert.ok(res.json().stories.length <= 3);
+});
+
+test('GET /v1/content/nearby with lang=hi marks each story with its real language', async () => {
+  const res = await app.inject({
+    method: 'GET',
+    url: '/v1/content/nearby?lat=28.6139&lng=77.209&radiusMeters=300000&lang=hi&limit=1000',
+  });
+  assert.equal(res.statusCode, 200);
+  const hindi = /[\u0900-\u097F]/;
+  for (const story of res.json().stories) {
+    assert.ok(story.language === 'hi' || story.language === 'en');
+    // A story marked Hindi must have Hindi text, and an English one must not.
+    assert.equal(hindi.test(story.summary), story.language === 'hi', story.title);
+  }
 });
