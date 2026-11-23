@@ -1,4 +1,6 @@
 import * as Speech from 'expo-speech';
+import type { StoryLanguage } from './types';
+import { getVoiceFor, SPEECH_RATE } from './voice';
 
 /** Why a narration ended. */
 export type EndReason =
@@ -41,6 +43,7 @@ function end(token: number, reason: EndReason) {
  * and how many seconds were heard.
  */
 export function speakStory(text: string, onEnd: OnEnd, language: string = 'en') {
+  const spokenLanguage: StoryLanguage = language === 'hi' ? 'hi' : 'en';
   // Cut off anything still playing. Nothing to stop on a quiet phone.
   if (current) stopSpeaking('stopped');
   const token = ++nextToken;
@@ -57,7 +60,9 @@ export function speakStory(text: string, onEnd: OnEnd, language: string = 'en') 
     onEnd,
   };
   Speech.speak(text, {
-    language,
+    language: spokenLanguage,
+    voice: getVoiceFor(spokenLanguage),
+    rate: SPEECH_RATE,
     onStart: () => {
       if (current?.token === token) current.voiceStarted = true;
     },
@@ -89,8 +94,12 @@ export function stopSpeaking(reason: EndReason = 'stopped') {
 }
 
 /** Speaks one short line and reports whether the phone's voice works. */
-export function testVoice(): Promise<EndReason> {
+export function testVoice(language: StoryLanguage = 'en'): Promise<EndReason> {
+  const line =
+    language === 'hi'
+      ? 'यह सफ़रनामा है। आपकी आवाज़ ठीक काम कर रही है।'
+      : 'This is Safarnama. Your voice is working.';
   return new Promise(resolve => {
-    speakStory('This is Safarnama. Your voice is working.', reason => resolve(reason));
+    speakStory(line, reason => resolve(reason), language);
   });
 }

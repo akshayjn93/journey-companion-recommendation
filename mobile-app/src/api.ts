@@ -72,6 +72,7 @@ export async function fetchNearbyStories(
   center: TriggerPoint,
   radiusMeters: number,
   timeoutMs: number,
+  language: string = 'en',
 ): Promise<NearbyStoriesResult> {
   const trimmedBase = apiBase.trim().replace(/\/+$/, '');
   // Rounded to about 1 km. The server only needs a rough centre.
@@ -82,7 +83,7 @@ export async function fetchNearbyStories(
 
   try {
     const response = await fetch(
-      `${trimmedBase}/v1/content/nearby?lat=${lat}&lng=${lng}&radiusMeters=${radiusMeters}&lang=en&limit=1000`,
+      `${trimmedBase}/v1/content/nearby?lat=${lat}&lng=${lng}&radiusMeters=${radiusMeters}&lang=${language}&limit=1000`,
       { signal: controller.signal },
     );
     if (!response.ok) {
@@ -103,6 +104,7 @@ export async function fetchNearbyStories(
         tags: Array.isArray(item.tags) ? item.tags : [],
         summary: item.summary || item.title || 'Nearby story',
         cue: item.cue || '',
+        language: item.language === 'hi' ? 'hi' : 'en',
         triggerPoint: null,
         point: { lng: item.point.lng, lat: item.point.lat },
         approxKm: null,

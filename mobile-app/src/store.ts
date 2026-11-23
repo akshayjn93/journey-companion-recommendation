@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { JourneyMode, Story, TriggerPoint } from './types';
+import type { JourneyMode, Story, StoryLanguage, TriggerPoint } from './types';
 
 const JOURNEY_KEY = 'journey-companion:saved-journey';
 const PROGRESS_KEY = 'journey-companion:progress';
@@ -14,6 +14,8 @@ export type DrivingState = {
   /** Explore mode: server address and the centre of the last download. */
   apiBase: string | null;
   center: TriggerPoint | null;
+  /** Explore mode: the language stories were downloaded in. */
+  storyLanguage: StoryLanguage;
   stories: Story[];
   triggeredIds: Set<string>;
   /** Stories that reached their trigger point and are waiting for their turn. */
@@ -32,6 +34,7 @@ const state: DrivingState = {
   mode: 'route',
   apiBase: null,
   center: null,
+  storyLanguage: 'en',
   stories: [],
   triggeredIds: new Set(),
   queuedIds: [],
@@ -121,6 +124,7 @@ export function hydrate(): Promise<void> {
         state.mode = journey.mode === 'explore' ? 'explore' : 'route';
         state.apiBase = journey.apiBase ?? null;
         state.center = journey.center ?? null;
+        state.storyLanguage = journey.storyLanguage === 'hi' ? 'hi' : 'en';
         state.stories = journey.stories;
 
         const progress = progressRaw ? JSON.parse(progressRaw) : null;
@@ -169,6 +173,7 @@ function saveJourney() {
     mode: state.mode,
     apiBase: state.apiBase,
     center: state.center,
+    storyLanguage: state.storyLanguage,
     stories: state.stories,
     savedAt: new Date().toISOString(),
   });
@@ -188,13 +193,14 @@ export function replaceNearbyStories(stories: Story[], center: TriggerPoint) {
 export function resetJourneyState(
   journeyId: string,
   stories: Story[],
-  explore?: { apiBase: string; center: TriggerPoint; playedIds?: string[] },
+  explore?: { apiBase: string; center: TriggerPoint; playedIds?: string[]; language?: StoryLanguage },
 ) {
   Object.assign(state, {
     journeyId,
     mode: explore ? 'explore' : 'route',
     apiBase: explore?.apiBase ?? null,
     center: explore?.center ?? null,
+    storyLanguage: explore?.language ?? 'en',
     stories,
     triggeredIds: new Set<string>(explore?.playedIds ?? []),
     queuedIds: [],

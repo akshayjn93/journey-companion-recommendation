@@ -38,7 +38,15 @@ import {
   resetJourneyState,
   type DrivingState,
 } from './src/store';
-import type { Story } from './src/types';
+import type { Story, StoryLanguage } from './src/types';
+import {
+  getVoiceFor,
+  listVoices,
+  loadVoiceSettings,
+  setVoiceFor,
+  voiceLabel,
+  type PhoneVoice,
+} from './src/voice';
 
 // Bumped to v2 so devices with a stale LAN-IP apiBase saved under the old key
 // pick up the new Render default instead of silently overriding it.
@@ -56,6 +64,9 @@ export default function App() {
   const [playLog, setPlayLog] = useState<PlayLogEntry[]>([]);
   const [explorePlayed, setExplorePlayed] = useState(0);
   const [voiceResult, setVoiceResult] = useState<string | null>(null);
+  const [storyLanguage, setStoryLanguage] = useState<StoryLanguage>('en');
+  const [voices, setVoices] = useState<PhoneVoice[]>([]);
+  const [voiceId, setVoiceId] = useState<string | undefined>(undefined);
 
   useEffect(() => {
     AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
@@ -64,6 +75,7 @@ export default function App() {
         const saved = JSON.parse(raw);
         if (saved.apiBase) setApiBase(saved.apiBase);
         if (saved.journeyId) setJourneyId(saved.journeyId);
+        if (saved.storyLanguage === 'hi') setStoryLanguage('hi');
       } catch {
         // ignore malformed saved settings
       }
@@ -83,14 +95,53 @@ export default function App() {
     return unsubscribe;
   }, []);
 
+  // The list of phone voices depends on the chosen story language.
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      await loadVoiceSettings();
+      const found = await listVoices(storyLanguage);
+      if (cancelled) return;
+      setVoices(found);
+      setVoiceId(getVoiceFor(storyLanguage));
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [storyLanguage]);
+
+  const saveSettings = (language: StoryLanguage = storyLanguage) =>
+    AsyncStorage.setItem(
+      SETTINGS_KEY,
+      JSON.stringify({ apiBase, journeyId, storyLanguage: language }),
+    );
+
+  const handleLanguage = async (language: StoryLanguage) => {
+    setStoryLanguage(language);
+    setVoiceResult(null);
+    await saveSettings(language);
+  };
+
+  // Moves to the next voice on the phone and plays a sample of it. After the
+  // last voice it goes back to the phone's default voice.
+  const handleNextVoice = async () => {
+    const index = voices.findIndex(voice => voice.identifier === voiceId);
+    const next = index + 1 < voices.length ? voices[index + 1] : undefined;
+    await setVoiceFor(storyLanguage, next?.identifier);
+    setVoiceId(next?.identifier);
+    await handleTestVoice();
+  };
+
   const handleTestVoice = async () => {
     setVoiceResult('Testing... you should hear a short line now.');
-    const reason = await testVoice();
+    const reason = await testVoice(storyLanguage);
     if (reason === 'finished') {
       setVoiceResult('Voice works. If you heard nothing, turn up the media volume.');
     } else if (reason === 'no_voice' || reason === 'error' || reason === 'timeout') {
       setVoiceResult(
-        "The phone's voice did not start. In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.",
+        storyLanguage === 'hi'
+          ? "The phone's Hindi voice did not start. In phone Settings, search for Text-to-speech and install the Hindi voice."
+          : "The phone's voice did not start. In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.",
       );
     } else {
       setVoiceResult(null);
@@ -163,8 +214,8 @@ export default function App() {
     setIsLoading(true);
     setLoadError(null);
     try {
-      await AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify({ apiBase, journeyId }));
-      const prepared = await prepareExplore(apiBase);
+      await saveSettings();
+      const prepared = await prepareExplore(apiBase, storyLanguage);
       if (!prepared.ok) {
         setLoadError(prepared.message);
         return;
@@ -187,7 +238,7 @@ export default function App() {
     setIsLoading(true);
     setLoadError(null);
     try {
-      await AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify({ apiBase, journeyId }));
+      await saveSettings();
       await markStep('Downloading the journey');
       const result = await fetchJourneySimulation(apiBase, journeyId);
       await markStep(`Journey downloaded, ${result.stories.length} stories`);
@@ -227,10 +278,43 @@ export default function App() {
         <Text style={styles.storyMeta}>
           Version {appConfig.expo.version} (build {appConfig.expo.android.versionCode})
         </Text>
-        <View style={styles.smallSpacer}>
-          <Button title="Test voice" onPress={handleTestVoice} />
-          {voiceResult ? <Text style={styles.storyMeta}>{voiceResult}</Text> : null}
+        <Text style={styles.label}>Story language (explore mode)</Text>
+        <View style={styles.row}>
+          <View style={styles.rowItem}>
+            <Button
+              title={storyLanguage === 'en' ? '✓ English' : 'English'}
+              color={storyLanguage === 'en' ? '#1B2A4E' : '#8a8a8a'}
+              onPress={() => handleLanguage('en')}
+            />
+          </View>
+          <View style={styles.rowItem}>
+            <Button
+              title={storyLanguage === 'hi' ? '✓ हिंदी' : 'हिंदी'}
+              color={storyLanguage === 'hi' ? '#1B2A4E' : '#8a8a8a'}
+              onPress={() => handleLanguage('hi')}
+            />
+          </View>
         </View>
+        <Text style={styles.storyMeta}>
+          Voice:{' '}
+          {voices.find(voice => voice.identifier === voiceId)
+            ? voiceLabel(voices.find(voice => voice.identifier === voiceId)!)
+            : "phone's default"}
+          {voices.length
+            ? ` (${voices.length} on this phone)`
+            : storyLanguage === 'hi'
+              ? ' (no Hindi voice found on this phone)'
+              : ''}
+        </Text>
+        <View style={styles.row}>
+          <View style={styles.rowItem}>
+            <Button title="Test voice" onPress={handleTestVoice} />
+          </View>
+          <View style={styles.rowItem}>
+            <Button title="Try next voice" onPress={handleNextVoice} disabled={!voices.length} />
+          </View>
+        </View>
+        {voiceResult ? <Text style={styles.storyMeta}>{voiceResult}</Text> : null}
         <Text style={styles.label}>Backend API base URL</Text>
         <TextInput
           style={styles.input}
@@ -402,6 +486,14 @@ const styles = StyleSheet.create({
   },
   smallSpacer: {
     marginTop: 8,
+  },
+  row: {
+    flexDirection: 'row',
+    gap: 12,
+    marginTop: 8,
+  },
+  rowItem: {
+    flex: 1,
   },
   error: {
     color: '#b00020',
