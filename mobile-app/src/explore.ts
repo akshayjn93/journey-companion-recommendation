@@ -3,6 +3,7 @@ import { findAhead, HeadingTracker } from './ahead';
 import { fetchNearbyStories } from './api';
 import { markStep, recordError } from './diagnostics';
 import { haversineMeters } from './geo';
+import type { StoryLanguage } from './types';
 import { canStartNow, gapSecondsLeft, playNext, queueStory, type Position } from './playback';
 import {
   getState,
@@ -41,7 +42,10 @@ export function resetExplore() {
 }
 
 /** Finds the phone, downloads the stories around it, and saves them. */
-export async function prepareExplore(apiBase: string): Promise<{ ok: boolean; message: string }> {
+export async function prepareExplore(
+  apiBase: string,
+  language: StoryLanguage = 'en',
+): Promise<{ ok: boolean; message: string }> {
   await markStep('Asking for location permission');
   const permission = await Location.requestForegroundPermissionsAsync();
   if (permission.status !== 'granted') {
@@ -60,6 +64,7 @@ export async function prepareExplore(apiBase: string): Promise<{ ok: boolean; me
     center,
     DOWNLOAD_RADIUS_METERS,
     FIRST_DOWNLOAD_TIMEOUT_MS,
+    language,
   );
   await markStep(`Nearby stories downloaded, ${result.stories.length} stories`);
   if (!result.stories.length) {
@@ -80,13 +85,13 @@ export async function prepareExplore(apiBase: string): Promise<{ ok: boolean; me
   }
 
   resetExplore();
-  resetJourneyState(EXPLORE_JOURNEY_ID, result.stories, { apiBase, center, playedIds });
+  resetJourneyState(EXPLORE_JOURNEY_ID, result.stories, { apiBase, center, playedIds, language });
   return { ok: true, message: `${fresh} new stories saved.` };
 }
 
 /** Downloads a fresh set of stories once the traveller has moved far enough. */
 function refreshIfNeeded(position: Position) {
-  const { apiBase, center } = getState();
+  const { apiBase, center, storyLanguage } = getState();
   if (!apiBase || !center || refreshing) return;
   const moved = haversineMeters([center.lng, center.lat], [position.lng, position.lat]);
   if (moved < REFRESH_AFTER_METERS) return;
@@ -95,7 +100,7 @@ function refreshIfNeeded(position: Position) {
   refreshing = true;
   lastRefreshAttemptAt = Date.now();
   const newCenter = { lng: position.lng, lat: position.lat };
-  fetchNearbyStories(apiBase, newCenter, DOWNLOAD_RADIUS_METERS, REFRESH_TIMEOUT_MS)
+  fetchNearbyStories(apiBase, newCenter, DOWNLOAD_RADIUS_METERS, REFRESH_TIMEOUT_MS, storyLanguage)
     .then(result => {
       // Ignore the result if driving stopped or a new journey started meanwhile.
       const now = getState();

@@ -141,7 +141,11 @@ export function playNext(position?: Position): Story | null {
     accuracyMeters: here?.accuracyMeters,
   });
   markStep(`Speaking story "${story.title}"`);
-  speakStory(story.summary, (reason, listenedSeconds) => onStoryEnd(story, reason, listenedSeconds));
+  speakStory(
+    story.summary,
+    (reason, listenedSeconds) => onStoryEnd(story, reason, listenedSeconds),
+    story.language ?? 'en',
+  );
   return story;
 }
 
@@ -213,7 +217,11 @@ export function replayCurrentStory() {
   stopSpeaking('stopped');
   setState({ isSpeaking: true, statusMessage: `Playing "${story.title}" again.` });
   logPlay({ event: 'replayed', journeyId, storyId: story.id, title: story.title });
-  speakStory(story.summary, (reason, listenedSeconds) => onStoryEnd(story, reason, listenedSeconds));
+  speakStory(
+    story.summary,
+    (reason, listenedSeconds) => onStoryEnd(story, reason, listenedSeconds),
+    story.language ?? 'en',
+  );
 }
 
 /** Called when driving stops. Waiting stories go back to "not played yet". */

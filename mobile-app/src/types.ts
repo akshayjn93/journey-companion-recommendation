@@ -12,6 +12,8 @@ export type Story = {
   cue: string;
   /** Route mode: the point on the route where the story should start. */
   triggerPoint: TriggerPoint | null;
+  /** Language of the story text: 'en' or 'hi'. English when missing. */
+  language?: string;
   /** Explore mode: where the place really is. */
   point?: TriggerPoint | null;
   approxKm: number | null;
@@ -22,6 +24,9 @@ export type Story = {
  * explore: no route. Stories are picked from current location and heading.
  */
 export type JourneyMode = 'route' | 'explore';
+
+/** Languages stories can be told in. */
+export type StoryLanguage = 'en' | 'hi';
 
 export type NearbyStoriesResult = {
   center: TriggerPoint;

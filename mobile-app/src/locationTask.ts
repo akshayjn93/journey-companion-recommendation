@@ -6,6 +6,7 @@ import { exploreStep, resetExplore } from './explore';
 import { playNext, queueStory, resetPlayback, type Position } from './playback';
 import { markStep, recordError } from './diagnostics';
 import { getState, hydrate, setState } from './store';
+import { loadVoiceSettings } from './voice';
 
 export const LOCATION_TASK_NAME = 'journey-companion-location-task';
 
@@ -45,6 +46,7 @@ async function handleFix(latest: Location.LocationObject) {
 
   // Android may have relaunched the app with empty memory.
   await hydrate();
+  await loadVoiceSettings();
   const { stories, triggeredIds, queuedIds, isPaused, mode } = getState();
 
   const speed = latest.coords.speed;

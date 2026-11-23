@@ -58,6 +58,8 @@ export async function findNearRoute(routeGeoJson: object, radiusMeters = 5000, l
 export type NearbyStoryRow = {
   id: string;
   title: string;
+  /** English title. Used to spot the same story in any language. */
+  en_title: string;
   short_description: string;
   long_description: string | null;
   narration_hint: string | null;
@@ -68,6 +70,8 @@ export type NearbyStoryRow = {
   lng: number;
   lat: number;
   distance_m: number;
+  /** True when the text is in the requested language, false when it fell back to English. */
+  has_translation: boolean;
 };
 
 /**
@@ -91,7 +95,9 @@ export async function findNearPoint(
       COALESCE(t.narration_hint, te.narration_hint) AS narration_hint,
       ST_X(c.location) AS lng,
       ST_Y(c.location) AS lat,
-      ST_Distance(c.location::geography, here.geom::geography) AS distance_m
+      ST_Distance(c.location::geography, here.geom::geography) AS distance_m,
+      te.title AS en_title,
+      (t.content_id IS NOT NULL) AS has_translation
     FROM (SELECT ST_SetSRID(ST_MakePoint($1, $2), 4326) AS geom) here
     JOIN content c ON c.active = true AND c.verified = true
       AND c.family_friendly = true AND c.confidence >= $5
