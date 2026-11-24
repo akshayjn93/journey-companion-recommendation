@@ -1,0 +1,1747 @@
+[
+  {
+    "category": "history",
+    "tags": [
+      "delhi",
+      "kashmere gate",
+      "1857",
+      "walled city"
+    ],
+    "location": {
+      "lng": 77.2288,
+      "lat": 28.6666
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kashmiri_Gate,_Delhi",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The gate that was blown open in 1857",
+        "shortDescription": "Kashmere Gate was the northern gate of the walled city of Delhi. On 14 September 1857 British soldiers blew part of it open and stormed the city.",
+        "longDescription": "The old gate near the bus terminal is Kashmere Gate. It was the northern gate of the walled city, on the road that led towards Kashmir. On 14 September 1857, British soldiers blew open part of this gate with gunpowder and rushed in. That attack began the last fight for Delhi during the great uprising. A plaque on the gate still remembers that morning. The bus terminal beside it opened in 1976.",
+        "narrationHint": "Steady and clear, with a short pause before the date."
+      },
+      "hi": {
+        "title": "वह दरवाज़ा जो 1857 में बारूद से उड़ाया गया",
+        "shortDescription": "कश्मीरी गेट पुरानी दिल्ली की दीवार का उत्तरी दरवाज़ा था। 14 सितंबर 1857 को अंग्रेज़ सिपाहियों ने इसे बारूद से उड़ाया और शहर में घुस गए।",
+        "longDescription": "बस अड्डे के पास जो पुराना दरवाज़ा है, वही कश्मीरी गेट है। यह दीवार वाले शहर का उत्तरी दरवाज़ा था, और यहाँ से कश्मीर की तरफ़ जाने वाली सड़क निकलती थी। 14 सितंबर 1857 को अंग्रेज़ सिपाहियों ने बारूद से इस दरवाज़े का एक हिस्सा उड़ा दिया और अंदर घुस गए। यहीं से 1857 की बग़ावत में दिल्ली की आख़िरी लड़ाई शुरू हुई। दरवाज़े पर लगी एक पट्टी आज भी उस सुबह की याद दिलाती है। बग़ल का बस अड्डा 1976 में खुला।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "delhi",
+      "majnu ka tila",
+      "guru nanak",
+      "gurdwara",
+      "yamuna"
+    ],
+    "location": {
+      "lng": 77.228202,
+      "lat": 28.695628
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Majnu-ka-tilla",
+    "familyFriendly": true,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "The boatman who gave this place its name",
+        "shortDescription": "Majnu ka Tila means the mound of Majnu. Sikh tradition says a Sufi boatman called Majnu met Guru Nanak here in 1505, and a gurdwara was built here in 1783.",
+        "longDescription": "The name Majnu ka Tila means the mound of Majnu. Sikh tradition says a Sufi called Abdulla lived here in the time of Sultan Sikandar Lodi. People called him Majnu, the mad one, and he rowed travellers across the Yamuna without taking money. Guru Nanak is said to have met him here in July 1505. In 1783 the Sikh general Baghel Singh built a gurdwara here, by the river, to remember that stay.",
+        "narrationHint": "Tell it gently, like an old story, and keep the dates clear."
+      },
+      "hi": {
+        "title": "वह मल्लाह जिसके नाम पर यह जगह बसी",
+        "shortDescription": "मजनू का टीला का मतलब है मजनू का टीला। सिख परंपरा के अनुसार मजनू नाम के एक सूफ़ी मल्लाह की 1505 में यहाँ गुरु नानक से मुलाक़ात हुई थी, और 1783 में यहाँ गुरुद्वारा बना।",
+        "longDescription": "मजनू का टीला नाम के पीछे एक कहानी है। सिख परंपरा के अनुसार सुल्तान सिकंदर लोदी के समय यहाँ अब्दुल्ला नाम का एक सूफ़ी रहता था। लोग उसे मजनू यानी दीवाना कहते थे, और वह मुसाफ़िरों को बिना पैसे लिए नाव से यमुना पार कराता था। माना जाता है कि जुलाई 1505 में गुरु नानक उससे यहीं मिले थे। 1783 में सिख सरदार बघेल सिंह ने उस ठहराव की याद में यहाँ नदी किनारे गुरुद्वारा बनवाया।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "delhi",
+      "majnu ka tila",
+      "tibetan",
+      "laphing",
+      "cafe"
+    ],
+    "location": {
+      "lng": 77.228411,
+      "lat": 28.702554
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "Outlook Traveller",
+    "sourceUrl": "https://www.outlooktraveller.com/experiences/shopping/majnu-ka-tilla-heres-how-to-spend-a-day-at-delhis-mini-tibet",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Little Tibet, and a cold noodle called laphing",
+        "shortDescription": "The Tibetan colony at Majnu ka Tila stands on land given to refugees in 1960. It is known for laphing, thukpa and tingmo, and for AMA Cafe.",
+        "longDescription": "Beside the road here is a small Tibetan colony. The land was given to Tibetan refugees in 1960, and people now call it Little Tibet. Walk into its narrow lanes for laphing, a cold, spicy mung bean noodle roll sold at small stalls. Then sit down for thukpa, a noodle soup, and tingmo, a soft steamed bread. AMA Cafe is the well known coffee stop, liked for its banana muffin and mud cake.",
+        "narrationHint": "Friendly and inviting; say the food names slowly."
+      },
+      "hi": {
+        "title": "छोटा तिब्बत और लाफ़िंग नाम का ठंडा नूडल",
+        "shortDescription": "मजनू का टीला की तिब्बती बस्ती उस ज़मीन पर बसी है जो 1960 में शरणार्थियों को दी गई थी। यह लाफ़िंग, थुकपा, टिंगमो और आमा कैफ़े के लिए मशहूर है।",
+        "longDescription": "सड़क के पास यहाँ एक छोटी सी तिब्बती बस्ती है। यह ज़मीन 1960 में तिब्बती शरणार्थियों को दी गई थी, और आज लोग इसे छोटा तिब्बत कहते हैं। इसकी तंग गलियों में लाफ़िंग ज़रूर खाइए। यह मूंग से बना ठंडा, तीखा नूडल रोल है, जो छोटे ठेलों पर मिलता है। फिर बैठकर थुकपा यानी नूडल वाला सूप और टिंगमो यानी भाप में पकी नरम रोटी मँगाइए। कॉफ़ी के लिए आमा कैफ़े मशहूर है। वहाँ लोग बनाना मफ़िन और मड केक खाने जाते हैं।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "delhi",
+      "wazirabad",
+      "yamuna",
+      "signature bridge",
+      "tughlaq"
+    ],
+    "location": {
+      "lng": 77.234,
+      "lat": 28.7053
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Signature_Bridge",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A bridge tower twice as tall as Qutb Minar",
+        "shortDescription": "The Signature Bridge over the Yamuna at Wazirabad opened in November 2018. Its tower is 165 metres high. Near it stands a 14th century bridge from the time of Firoz Shah Tughlaq.",
+        "longDescription": "Look towards the river for a tall, leaning tower with cables spreading out from it. That is the Signature Bridge over the Yamuna at Wazirabad, opened in November 2018. Its tower rises 165 metres, about twice the height of the Qutb Minar. Close by is a much older crossing. It is a rubble bridge with nine arches, built in the 14th century under Sultan Firoz Shah Tughlaq, and vehicles still drive over it.",
+        "narrationHint": "Start by pointing the listener's eyes to the tower, then slow down for the old bridge."
+      },
+      "hi": {
+        "title": "क़ुतुब मीनार से दोगुना ऊँचा पुल का खंभा",
+        "shortDescription": "वज़ीराबाद में यमुना पर बना सिग्नेचर पुल नवंबर 2018 में खुला। इसका खंभा 165 मीटर ऊँचा है। पास ही फ़िरोज़ शाह तुग़लक़ के समय का 14वीं सदी का पुल भी है।",
+        "longDescription": "नदी की तरफ़ देखिए। एक ऊँचा, झुका हुआ खंभा दिखेगा, जिससे तार फैले हुए हैं। यह वज़ीराबाद में यमुना पर बना सिग्नेचर पुल है, जो नवंबर 2018 में खुला। इसका खंभा 165 मीटर ऊँचा है, यानी क़ुतुब मीनार से लगभग दोगुना। इसके पास ही एक बहुत पुराना पुल भी है। पत्थरों से बना, नौ मेहराबों वाला यह पुल 14वीं सदी में सुल्तान फ़िरोज़ शाह तुग़लक़ के समय बना था, और आज भी इस पर गाड़ियाँ चलती हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "delhi",
+      "kamla nagar",
+      "chole bhature",
+      "north campus"
+    ],
+    "location": {
+      "lng": 77.206024,
+      "lat": 28.682317
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Outlook Traveller Eats",
+    "sourceUrl": "https://oteats.outlooktraveller.com/features/check-out-these-5-spots-for-delhis-best-chhole-bhature",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The tiny shop every North Campus student knows",
+        "shortDescription": "Chache di Hatti in Kamla Nagar is a very small shop known for chole bhature, cooked without onion, garlic or tomato.",
+        "longDescription": "Students of Delhi University's North Campus know one tiny shop in Kamla Nagar. Chache di Hatti is about ten feet by four feet, and is known for one thing: chole bhature. The chole is cooked without onion, garlic or tomato, and the bhature are soft and light. Many people ask for the aloo chole bhature. The owner says Amitabh Bachchan used to come here as a college student. Expect to wait for your plate.",
+        "narrationHint": "Warm and a little playful; this is a much loved student haunt."
+      },
+      "hi": {
+        "title": "वह छोटी सी दुकान जिसे हर छात्र जानता है",
+        "shortDescription": "कमला नगर की चाचे दी हट्टी एक बहुत छोटी दुकान है, जो छोले भटूरे के लिए मशहूर है। यहाँ छोले बिना प्याज़, लहसुन और टमाटर के बनते हैं।",
+        "longDescription": "दिल्ली विश्वविद्यालय के नॉर्थ कैंपस के छात्र कमला नगर की एक छोटी सी दुकान को ख़ूब जानते हैं। चाचे दी हट्टी क़रीब दस फ़ुट लंबी और चार फ़ुट चौड़ी है, और एक ही चीज़ के लिए मशहूर है, छोले भटूरे। यहाँ छोले बिना प्याज़, लहसुन और टमाटर के बनते हैं, और भटूरे नरम और हल्के होते हैं। बहुत लोग आलू छोले भटूरे मँगाते हैं। मालिक बताते हैं कि अमिताभ बच्चन कॉलेज के दिनों में यहाँ आया करते थे। अपनी प्लेट के लिए थोड़ा इंतज़ार करना पड़ सकता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "delhi",
+      "coronation park",
+      "durbar",
+      "british raj",
+      "statues"
+    ],
+    "location": {
+      "lng": 77.19694,
+      "lat": 28.72306
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Park,_Delhi",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Where the statues of the Raj were sent",
+        "shortDescription": "Coronation Park on Burari Road is the ground of the three Delhi Durbars of 1877, 1903 and 1911. A statue of King George the Fifth that once stood near India Gate was moved here.",
+        "longDescription": "A short way off this road is a park where the British Raj held its grandest shows. Three great durbars took place on this ground, in 1877, 1903 and 1911. A sandstone pillar marks the spot. Facing it is a tall marble statue of King George the Fifth. It once stood under the stone canopy near India Gate and was moved here in the 1960s. Around it are statues of viceroys, and many empty stands.",
+        "narrationHint": "A touch of irony is fine; the mighty statues ended up in a quiet park."
+      },
+      "hi": {
+        "title": "जहाँ अंग्रेज़ी राज की मूर्तियाँ भेज दी गईं",
+        "shortDescription": "बुराड़ी रोड का कोरोनेशन पार्क वही मैदान है जहाँ 1877, 1903 और 1911 के दिल्ली दरबार लगे थे। इंडिया गेट के पास खड़ी जॉर्ज पंचम की मूर्ति बाद में यहीं लाई गई।",
+        "longDescription": "इस सड़क से थोड़ी दूर एक पार्क है, जहाँ अंग्रेज़ी राज अपने सबसे बड़े जलसे करता था। इसी मैदान पर 1877, 1903 और 1911 में तीन बड़े दरबार लगे थे। बलुआ पत्थर का एक खंभा उस जगह की निशानी है। उसके सामने जॉर्ज पंचम की संगमरमर की ऊँची मूर्ति खड़ी है। यह मूर्ति पहले इंडिया गेट के पास वाली छतरी के नीचे थी, और 1960 के दशक में यहाँ लाई गई। आसपास वायसरायों की मूर्तियाँ हैं, और कई चबूतरे ख़ाली पड़े हैं।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "delhi",
+      "azadpur",
+      "mandi",
+      "fruit",
+      "vegetables"
+    ],
+    "location": {
+      "lng": 77.164922,
+      "lat": 28.721893
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Agricultural Produce Marketing Committee, Azadpur",
+    "sourceUrl": "https://delagrimarket.nic.in/general%20info/ginfo_azadpur.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Where Delhi's fruit and vegetables come from",
+        "shortDescription": "Azadpur Mandi is often described as the largest fruit and vegetable market in Asia. It spreads over more than 80 acres beside the Grand Trunk Road.",
+        "longDescription": "The loaded trucks around you are heading for Azadpur Mandi. It is often described as the largest wholesale fruit and vegetable market in Asia, and it spreads over more than 80 acres. The market was moved here in the 1970s, out of the crowded old city. Fruit and vegetables come in by truck from far away, are sold in bulk, and then go out to the shops and carts of Delhi.",
+        "narrationHint": "Brisk, like the market itself."
+      },
+      "hi": {
+        "title": "जहाँ दिल्ली के फल और सब्ज़ियाँ पहुँचती हैं",
+        "shortDescription": "आज़ादपुर मंडी को अक्सर एशिया की सबसे बड़ी फल और सब्ज़ी मंडी कहा जाता है। यह जी टी रोड के किनारे 80 एकड़ से ज़्यादा में फैली है।",
+        "longDescription": "आपके आसपास जो लदे हुए ट्रक दिख रहे हैं, वे आज़ादपुर मंडी जा रहे हैं। इसे अक्सर एशिया की सबसे बड़ी थोक फल और सब्ज़ी मंडी कहा जाता है, और यह 80 एकड़ से ज़्यादा में फैली है। 1970 के दशक में मंडी को भीड़ भरे पुराने शहर से हटाकर यहाँ लाया गया था। दूर दूर से फल और सब्ज़ियाँ ट्रकों में यहाँ आती हैं, थोक में बिकती हैं, और फिर दिल्ली की दुकानों और ठेलों तक पहुँचती हैं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "delhi",
+      "azadpur",
+      "1857",
+      "battle",
+      "badli ki sarai"
+    ],
+    "location": {
+      "lng": 77.1675,
+      "lat": 28.7189
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Badli-ki-Serai",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The 1857 battle fought across this road",
+        "shortDescription": "On 8 June 1857 rebel soldiers tried to stop a British force at an inn called Badli ki Sarai on the Grand Trunk Road. The British won and went on to besiege Delhi.",
+        "longDescription": "On 8 June 1857 a battle was fought right here. Rebel soldiers had dug in with their guns at an old roadside inn called Badli ki Sarai, to stop a British force marching down the Grand Trunk Road to Delhi. The British, under General Henry Barnard, took the inn and then camped on the Delhi Ridge. Their siege of Delhi lasted more than three months. The old gateways of the sarai still stand near Azadpur.",
+        "narrationHint": "Serious and even; let the date and the name of the inn land clearly."
+      },
+      "hi": {
+        "title": "1857 की वह लड़ाई जो इसी सड़क पर हुई",
+        "shortDescription": "8 जून 1857 को बाग़ी सिपाहियों ने जी टी रोड पर बादली की सराय के पास अंग्रेज़ी फ़ौज को रोकने की कोशिश की। अंग्रेज़ जीते और फिर उन्होंने दिल्ली को घेर लिया।",
+        "longDescription": "8 जून 1857 को ठीक यहीं एक लड़ाई हुई थी। बाग़ी सिपाहियों ने सड़क किनारे की एक पुरानी सराय, बादली की सराय, पर अपनी तोपें जमा ली थीं, ताकि जी टी रोड से दिल्ली की तरफ़ बढ़ती अंग्रेज़ी फ़ौज को रोक सकें। जनरल हेनरी बर्नार्ड की फ़ौज ने सराय पर क़ब्ज़ा कर लिया और फिर दिल्ली की पहाड़ी पर डेरा डाला। दिल्ली की घेराबंदी तीन महीने से ज़्यादा चली। सराय के पुराने दरवाज़े आज भी आज़ादपुर के पास खड़े हैं।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "delhi",
+      "singhu border",
+      "guru tegh bahadur",
+      "memorial"
+    ],
+    "location": {
+      "lng": 77.126615,
+      "lat": 28.853981
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Delhi Tourism",
+    "sourceUrl": "https://delhitourism.gov.in/tourist_place/gtb.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The tall memorial at Delhi's northern door",
+        "shortDescription": "The Guru Tegh Bahadur Memorial stands beside the highway near the Singhu border. Its central tower is 24 metres high.",
+        "longDescription": "Near the Singhu border, look for a tall tower rising beside the highway. This is the memorial to Guru Tegh Bahadur, the ninth Sikh Guru, built by the Delhi government at this entry to the city. The central tower is 24 metres high. The petals at its base stand for the Guru and his strength. Three curved arches stand for three of his followers, and ten stone blocks carry sayings of the ten Sikh Gurus.",
+        "narrationHint": "Calm and respectful; begin by guiding the listener's eyes to the tower."
+      },
+      "hi": {
+        "title": "दिल्ली के उत्तरी दरवाज़े पर खड़ा ऊँचा स्मारक",
+        "shortDescription": "गुरु तेग़ बहादुर स्मारक सिंघु बॉर्डर के पास हाईवे के किनारे बना है। इसका बीच वाला स्तंभ 24 मीटर ऊँचा है।",
+        "longDescription": "सिंघु बॉर्डर के पास हाईवे के किनारे एक ऊँचा स्तंभ दिखेगा। यह सिखों के नौवें गुरु, गुरु तेग़ बहादुर का स्मारक है, जिसे दिल्ली सरकार ने शहर के इस दरवाज़े पर बनवाया। बीच वाला स्तंभ 24 मीटर ऊँचा है। उसके नीचे बनी पंखुड़ियाँ गुरु और उनकी ताक़त की निशानी हैं। तीन घुमावदार मेहराबें उनके तीन साथियों की याद में हैं, और दस पत्थरों पर दसों सिख गुरुओं की बातें लिखी हैं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "grand trunk road",
+      "sher shah suri",
+      "highway",
+      "alipur"
+    ],
+    "location": {
+      "lng": 77.136639,
+      "lat": 28.810813
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Trunk_Road",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The old road from Bengal to Kabul",
+        "shortDescription": "National Highway 44 here follows the Grand Trunk Road. Sher Shah Suri repaired and widened it in the 1540s and built inns for travellers along it.",
+        "longDescription": "The road under your wheels is one of the oldest highways in Asia. As the Grand Trunk Road, it ran from Bengal to Kabul. In the 1540s the ruler Sher Shah Suri repaired and widened it, and built inns for travellers along the way. He ruled for only five years, and also gave India its first silver rupee. Kipling called this road 'such a river of life as nowhere else exists in the world'.",
+        "narrationHint": "Speak with a sense of distance and time; slow down for the Kipling line."
+      },
+      "hi": {
+        "title": "बंगाल से काबुल तक जाने वाली पुरानी सड़क",
+        "shortDescription": "यहाँ राष्ट्रीय राजमार्ग 44 पुरानी जी टी रोड पर ही चलता है। शेर शाह सूरी ने 1540 के दशक में इसे ठीक और चौड़ा कराया और रास्ते में मुसाफ़िरों के लिए सरायें बनवाईं।",
+        "longDescription": "आपकी गाड़ी जिस सड़क पर चल रही है, वह एशिया की सबसे पुरानी सड़कों में से एक है। जी टी रोड के नाम से मशहूर यह सड़क बंगाल से काबुल तक जाती थी। 1540 के दशक में शेर शाह सूरी ने इसकी मरम्मत कराई, इसे चौड़ा कराया, और रास्ते में मुसाफ़िरों के लिए सरायें बनवाईं। उसने सिर्फ़ 5 साल राज किया, और चाँदी का पहला रुपया भी उसी ने चलाया। लेखक किपलिंग ने इस सड़क को ज़िंदगी की ऐसी नदी कहा था, जैसी दुनिया में और कहीं नहीं है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "sonipat",
+      "rai",
+      "kos minar",
+      "mughal",
+      "grand trunk road"
+    ],
+    "location": {
+      "lng": 77.0694,
+      "lat": 28.8956
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kos_Minar",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The brick pillars that were once milestones",
+        "shortDescription": "Kos minars are tall brick pillars that marked distance on the old royal road. Several still stand in Sonipat district, including one at Akbarpur Barota.",
+        "longDescription": "Long before signboards, this road had kos minars. These are solid brick pillars, about nine metres tall, set up at every kos, roughly three kilometres, so that travellers knew how far they had come. Sher Shah Suri began the practice and the Mughal emperors carried it on. Several still stand in Sonipat district, in villages a few kilometres west of today's highway. One is at Akbarpur Barota, and it is a protected monument.",
+        "narrationHint": "Curious and clear; explain the word kos simply."
+      },
+      "hi": {
+        "title": "ईंटों की वे मीनारें जो कभी मील के पत्थर थीं",
+        "shortDescription": "कोस मीनारें ईंटों के ऊँचे खंभे हैं, जो पुराने शाही रास्ते पर दूरी बताते थे। सोनीपत ज़िले में आज भी कई खड़ी हैं, जिनमें एक अकबरपुर बरोटा में है।",
+        "longDescription": "साइन बोर्ड आने से बहुत पहले इस सड़क पर कोस मीनारें थीं। ये ईंटों के ठोस खंभे हैं, क़रीब 9 मीटर ऊँचे, जो हर कोस पर यानी लगभग 3 किलोमीटर पर बनाए जाते थे, ताकि मुसाफ़िर जान सकें कि वे कितनी दूर आ गए। यह सिलसिला शेर शाह सूरी ने शुरू किया और मुग़ल बादशाहों ने आगे बढ़ाया। सोनीपत ज़िले में आज भी कई मीनारें खड़ी हैं, हाईवे से कुछ किलोमीटर पश्चिम के गाँवों में। एक अकबरपुर बरोटा में है, और वह संरक्षित स्मारक है।"
+      }
+    }
+  },
+  {
+    "category": "sport",
+    "tags": [
+      "rai",
+      "sonipat",
+      "sports school",
+      "haryana"
+    ],
+    "location": {
+      "lng": 77.106172,
+      "lat": 28.924945
+    },
+    "interestingness": 8.0,
+    "confidence": 0.86,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Motilal_Nehru_School_of_Sports",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A school where sport counts like studies",
+        "shortDescription": "The Motilal Nehru School of Sports at Rai was opened by Haryana in July 1973 on about 300 acres. The Sports University of Haryana was set up at Rai in 2022.",
+        "longDescription": "The large campus beside the highway at Rai is the Motilal Nehru School of Sports. Haryana opened it in July 1973 as a boarding school where sport matters as much as class work. It covers about 300 acres, and boys and girls live and train here. The actor Randeep Hooda studied at this school. In 2022 the state also set up the Sports University of Haryana here at Rai.",
+        "narrationHint": "Upbeat and simple."
+      },
+      "hi": {
+        "title": "वह स्कूल जहाँ खेल पढ़ाई जितना ज़रूरी है",
+        "shortDescription": "राई का मोतीलाल नेहरू खेल स्कूल हरियाणा सरकार ने जुलाई 1973 में क़रीब 300 एकड़ में खोला था। 2022 में राई में हरियाणा खेल विश्वविद्यालय भी बना।",
+        "longDescription": "राई में हाईवे के किनारे जो बड़ा परिसर है, वह मोतीलाल नेहरू खेल स्कूल है। हरियाणा सरकार ने इसे जुलाई 1973 में खोला था। यह ऐसा बोर्डिंग स्कूल है जहाँ खेल को पढ़ाई जितनी ही अहमियत दी जाती है। यह क़रीब 300 एकड़ में फैला है, और लड़के लड़कियाँ यहीं रहकर अभ्यास करते हैं। अभिनेता रणदीप हुड्डा इसी स्कूल में पढ़े हैं। 2022 में राज्य सरकार ने यहीं राई में हरियाणा खेल विश्वविद्यालय भी बनाया।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "sonipat",
+      "mahabharata",
+      "pandavas",
+      "name"
+    ],
+    "location": {
+      "lng": 77.023363,
+      "lat": 28.995376
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Sonipat district official website",
+    "sourceUrl": "https://sonipat.gov.in/history/",
+    "familyFriendly": true,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "One of five towns the Pandavas asked for",
+        "shortDescription": "Sonipat's name comes from Suvarna Prastha, the place of gold. A popular tradition counts it among the five towns the Pandavas asked for in the Mahabharata.",
+        "longDescription": "Sonipat, the town to the west of this highway, has a name that comes from Suvarna Prastha, the place of gold. A popular tradition ties it to the Mahabharata. It says Yudhishthira asked Duryodhana for just five towns as the price of peace: Indraprastha, Panipat, Sonipat, Baghpat and Tilpat. He was refused, and the great war followed. The old grammarian Panini also names a town called Sonaprastha in his book.",
+        "narrationHint": "Tell it as a tradition, not as proven history."
+      },
+      "hi": {
+        "title": "पांडवों ने जो पाँच गाँव माँगे, उनमें एक",
+        "shortDescription": "सोनीपत का नाम सुवर्ण प्रस्थ यानी सोने की जगह से निकला है। परंपरा के अनुसार यह उन पाँच जगहों में था जो महाभारत में पांडवों ने माँगी थीं।",
+        "longDescription": "हाईवे के पश्चिम में सोनीपत शहर है। इसका नाम सुवर्ण प्रस्थ से निकला है, यानी सोने की जगह। एक मशहूर परंपरा इसे महाभारत से जोड़ती है। माना जाता है कि युधिष्ठिर ने सुलह के लिए दुर्योधन से सिर्फ़ पाँच जगहें माँगी थीं, इंद्रप्रस्थ, पानीपत, सोनीपत, बाग़पत और तिलपत। दुर्योधन ने मना कर दिया, और फिर महाभारत का युद्ध हुआ। पुराने व्याकरण लेखक पाणिनि ने भी अपनी किताब में सोनप्रस्थ नाम के एक नगर का ज़िक्र किया है।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "sonipat",
+      "tomb",
+      "lodi",
+      "khwaja khizr"
+    ],
+    "location": {
+      "lng": 77.01401,
+      "lat": 29.00689
+    },
+    "interestingness": 8.0,
+    "confidence": 0.86,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/haryana/sonepats-hidden-treasure-the-tomb-of-khwaja-khizr-635462/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Lodi tomb hidden among Sonipat's houses",
+        "shortDescription": "The tomb of Khwaja Khizr in Sonipat was built between 1522 and 1524, in the time of Ibrahim Lodi. It is a protected monument.",
+        "longDescription": "In Sonipat, hidden among shops and houses, is a tomb from the last years before the Mughals. It was built between 1522 and 1524, under Sultan Ibrahim Lodi, for a saint named Khwaja Khizr. His father, Darya Khan, was a noble at the Lodi court. The tomb stands on a high platform. It is built of red sandstone, and its ceiling is painted with flowers. Two years later, Ibrahim Lodi died at Panipat.",
+        "narrationHint": "Quiet and unhurried; pause before the last line."
+      },
+      "hi": {
+        "title": "सोनीपत के घरों के बीच छिपा लोदी मक़बरा",
+        "shortDescription": "सोनीपत में ख़्वाजा ख़िज़्र का मक़बरा 1522 से 1524 के बीच इब्राहीम लोदी के समय में बना था। यह एक संरक्षित स्मारक है।",
+        "longDescription": "सोनीपत में दुकानों और घरों के बीच एक मक़बरा छिपा है, जो मुग़लों के आने से ठीक पहले का है। यह 1522 से 1524 के बीच सुल्तान इब्राहीम लोदी के समय में ख़्वाजा ख़िज़्र नाम के एक संत के लिए बना था। उनके पिता दरिया ख़ान लोदी दरबार के अमीर थे। मक़बरा एक ऊँचे चबूतरे पर खड़ा है। यह लाल बलुआ पत्थर से बना है, और इसकी छत पर फूलों की रंगीन चित्रकारी है। इसके दो साल बाद इब्राहीम लोदी पानीपत में मारा गया।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "murthal",
+      "dhaba",
+      "parantha",
+      "amrik sukhdev",
+      "truck drivers"
+    ],
+    "location": {
+      "lng": 77.063516,
+      "lat": 29.058703
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Scroll.in (excerpt from India's Most Legendary Restaurants, Aleph)",
+    "sourceUrl": "https://scroll.in/article/1067566/these-innovations-have-made-amrik-sukhdev-dhaba-in-murthal-the-truck-drivers-favourite-since-1967",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The truck stop that became Murthal's biggest name",
+        "shortDescription": "Amrik Sukhdev dhaba at Murthal was started in 1956 by Prakash Singh as a stop for truck drivers. It is known for its aloo parantha and is open day and night.",
+        "longDescription": "Murthal's most famous dhaba began in 1956 as a simple stop for truck drivers. Prakash Singh served dal, roti and three kinds of parantha, and drivers sat on cots in the open. Later they could bathe and sleep here too. The dhaba carries the names of his sons, Amrik and Sukhdev. Today it is open day and night. Order the aloo parantha, which comes with butter, pickle and curd, and a glass of lassi.",
+        "narrationHint": "Warm and hungry; end on the food."
+      },
+      "hi": {
+        "title": "ट्रक वालों का ढाबा जो मुरथल की पहचान बना",
+        "shortDescription": "मुरथल का अमरीक सुखदेव ढाबा 1956 में प्रकाश सिंह ने ट्रक ड्राइवरों के लिए शुरू किया था। यह आलू पराँठे के लिए मशहूर है और दिन रात खुला रहता है।",
+        "longDescription": "मुरथल का सबसे मशहूर ढाबा 1956 में ट्रक ड्राइवरों के लिए एक सादे ठिकाने के रूप में शुरू हुआ था। प्रकाश सिंह दाल, रोटी और तीन तरह के पराँठे खिलाते थे, और ड्राइवर खुले में चारपाइयों पर बैठते थे। बाद में वे यहाँ नहा भी सकते थे और सो भी सकते थे। ढाबे का नाम उनके बेटों अमरीक और सुखदेव के नाम पर है। आज यह दिन रात खुला रहता है। यहाँ आलू का पराँठा मँगाइए, जो मक्खन, अचार और दही के साथ आता है, और साथ में लस्सी का गिलास।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "murthal",
+      "dhaba",
+      "parantha",
+      "white butter",
+      "pahalwan dhaba"
+    ],
+    "location": {
+      "lng": 77.072906,
+      "lat": 29.031212
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Business Today",
+    "sourceUrl": "https://www.businesstoday.in/latest/photo/from-murthal-to-ladakh-6-north-indian-dhabas-that-became-legendary-549244-2026-08-15",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The village people drive to for paranthas",
+        "shortDescription": "Murthal, about 45 kilometres from Delhi, is known for the dhabas along the Grand Trunk Road and their stuffed paranthas with butter. Pahalwan Dhaba is one of the well known names.",
+        "longDescription": "You are coming into Murthal, a village known far and wide for one thing: paranthas. Dhabas line the Grand Trunk Road here, about 45 kilometres from Delhi. Places like these were once used only by truck drivers. Now families drive out just to eat. Pahalwan Dhaba was drawing travellers before Murthal became famous. People stop there for very large stuffed paranthas, served with homemade butter. Ask for yours hot, with butter on top.",
+        "narrationHint": "Cheerful, as if the dhabas are just coming into view."
+      },
+      "hi": {
+        "title": "वह गाँव जहाँ लोग पराँठे खाने आते हैं",
+        "shortDescription": "दिल्ली से क़रीब 45 किलोमीटर दूर मुरथल जी टी रोड के ढाबों और मक्खन वाले भरवाँ पराँठों के लिए मशहूर है। पहलवान ढाबा यहाँ के जाने माने नामों में है।",
+        "longDescription": "आप मुरथल पहुँच रहे हैं, एक ऐसा गाँव जो दूर दूर तक एक ही चीज़ के लिए मशहूर है, पराँठे। दिल्ली से क़रीब 45 किलोमीटर दूर यहाँ जी टी रोड के किनारे ढाबों की क़तार है। कभी ऐसे ढाबों पर सिर्फ़ ट्रक ड्राइवर रुकते थे। अब परिवार सिर्फ़ खाने के लिए यहाँ तक गाड़ी चलाकर आते हैं। पहलवान ढाबा तब से मुसाफ़िरों को खींच रहा है जब मुरथल इतना मशहूर नहीं हुआ था। लोग वहाँ बहुत बड़े भरवाँ पराँठों के लिए रुकते हैं, जो घर के बने मक्खन के साथ मिलते हैं। अपना पराँठा गरम और ऊपर मक्खन के साथ मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "samalkha",
+      "nirankari",
+      "samagam",
+      "gathering"
+    ],
+    "location": {
+      "lng": 77.014025,
+      "lat": 29.197644
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "IANS",
+    "sourceUrl": "https://ianslive.in/78th-nirankari-sant-samagam-in-samalkha-draws-devotees-from-25-countries-over-1-lakh-volunteers-serve-langar--20251031233349",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The ground that becomes a city each autumn",
+        "shortDescription": "The Sant Nirankari Spiritual Complex beside the highway near Samalkha covers nearly 650 acres. The Nirankari Mission holds its yearly gathering here.",
+        "longDescription": "Beside the highway near Samalkha is a huge open ground that fills up once a year. This is the Sant Nirankari Spiritual Complex, spread over nearly 650 acres. Every autumn the Nirankari Mission holds its yearly gathering here. In 2025 the organisers expected more than ten lakh people, from 25 countries. Volunteers ran the kitchens day and night, and were said to make nearly three lakh chapatis every 24 hours.",
+        "narrationHint": "Let the big numbers sound big, but stay matter of fact."
+      },
+      "hi": {
+        "title": "वह मैदान जो हर साल शहर बन जाता है",
+        "shortDescription": "समालखा के पास हाईवे के किनारे संत निरंकारी आध्यात्मिक स्थल क़रीब 650 एकड़ में फैला है। निरंकारी मिशन का सालाना समागम यहीं होता है।",
+        "longDescription": "समालखा के पास हाईवे के किनारे एक बहुत बड़ा खुला मैदान है, जो साल में एक बार पूरा भर जाता है। यह संत निरंकारी आध्यात्मिक स्थल है, जो क़रीब 650 एकड़ में फैला है। हर साल सर्दियों से पहले निरंकारी मिशन का सालाना समागम यहीं होता है। 2025 में आयोजकों को 25 देशों से 10 लाख से ज़्यादा लोगों के आने की उम्मीद थी। सेवादार दिन रात लंगर चलाते रहे, और बताया गया कि हर 24 घंटे में क़रीब 3 लाख रोटियाँ बनती थीं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "panipat",
+      "battle",
+      "1526",
+      "babur",
+      "mosque"
+    ],
+    "location": {
+      "lng": 76.989137,
+      "lat": 29.395804
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kabuli_Bagh_Mosque",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The mosque Babur built after winning Panipat",
+        "shortDescription": "Babur built the Kabuli Bagh Mosque in Panipat in 1527 to mark his win over Ibrahim Lodi in 1526. That battle began Mughal rule in India.",
+        "longDescription": "On the twenty-first of April 1526, Babur stood near here with about twelve thousand men. Facing him was Sultan Ibrahim Lodi, with a far bigger army and war elephants. But Babur had cannons and muskets. The noise scared the elephants, and by the end Lodi was dead. Mughal rule in India began that day. A year later Babur built a mosque in Panipat to mark the win. It still stands, and is called Kabuli Bagh.",
+        "narrationHint": "Tell it like a battle story, slow down at the last two sentences."
+      },
+      "hi": {
+        "title": "वह मस्जिद जो बाबर ने पानीपत जीतकर बनवाई",
+        "shortDescription": "बाबर ने 1526 में इब्राहिम लोदी पर जीत की याद में 1527 में पानीपत में काबुली बाग़ मस्जिद बनवाई। इसी लड़ाई से भारत में मुग़ल राज शुरू हुआ।",
+        "longDescription": "21 अप्रैल 1526 को बाबर क़रीब 12 हज़ार सैनिकों के साथ यहीं पास में खड़ा था। सामने सुल्तान इब्राहिम लोदी था, कहीं बड़ी फ़ौज और जंगी हाथियों के साथ। पर बाबर के पास तोपें और बंदूक़ें थीं। धमाकों से हाथी घबरा गए और लड़ाई के आख़िर तक लोदी मारा गया। उसी दिन भारत में मुग़ल राज शुरू हुआ। एक साल बाद बाबर ने जीत की याद में पानीपत में एक मस्जिद बनवाई। वह आज भी खड़ी है और काबुली बाग़ कहलाती है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "panipat",
+      "ibrahim lodi",
+      "tomb",
+      "1526"
+    ],
+    "location": {
+      "lng": 76.97288,
+      "lat": 29.401578
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Ibrahim_Lodi",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A sultan's plain grave in a Panipat park",
+        "shortDescription": "Ibrahim Lodi, the last sultan of the Lodi line, was killed at Panipat in 1526. His simple brick tomb stands in a park in the town.",
+        "longDescription": "In a small park in Panipat lies a king. Ibrahim Lodi was the last sultan of Delhi from the Lodi family. He was killed here in 1526, fighting Babur. His tomb is plain: a brick grave on a high platform, with steps going up. No dome, no garden. In the 1860s the British repaired it while they were building the Grand Trunk Road. Many people wrongly think he is buried in Lodi Gardens in Delhi.",
+        "narrationHint": "Quiet and a little wry; the contrast is a sultan with a very plain grave."
+      },
+      "hi": {
+        "title": "पानीपत के एक पार्क में सुल्तान की सादी क़ब्र",
+        "shortDescription": "लोदी ख़ानदान का आख़िरी सुल्तान इब्राहिम लोदी 1526 में पानीपत में मारा गया। उसका सादा ईंटों का मक़बरा शहर के एक पार्क में है।",
+        "longDescription": "पानीपत के एक छोटे से पार्क में एक बादशाह दफ़न है। इब्राहिम लोदी, लोदी ख़ानदान से दिल्ली का आख़िरी सुल्तान था। वह 1526 में यहीं बाबर से लड़ते हुए मारा गया। उसका मक़बरा बहुत सादा है। ऊँचे चबूतरे पर ईंटों की एक क़ब्र, और ऊपर जाने के लिए सीढ़ियाँ। न गुंबद, न बाग़। 1860 के दशक में अंग्रेज़ों ने ग्रैंड ट्रंक रोड बनाते समय इसकी मरम्मत करवाई। बहुत से लोग ग़लती से मानते हैं कि वह दिल्ली के लोदी गार्डन में दफ़न है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "panipat",
+      "battle",
+      "1556",
+      "hemu",
+      "akbar"
+    ],
+    "location": {
+      "lng": 76.923083,
+      "lat": 29.395416
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Panipat",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "One arrow that saved Akbar's throne",
+        "shortDescription": "In the Second Battle of Panipat in 1556, Hemu was winning until an arrow hit him in the eye. His army fled and the Mughals kept Delhi.",
+        "longDescription": "In November 1556, a second great battle was fought at Panipat. Akbar was only thirteen years old. Against him came Hemu, who had just taken Delhi and crowned himself king. Hemu led from the back of an elephant, and he was winning. Then a single arrow struck him in the eye. He fell, and his soldiers ran. Hemu was captured and beheaded. A memorial to him stands at Shodapur village, west of Panipat.",
+        "narrationHint": "Build up to the arrow, then pause before the result."
+      },
+      "hi": {
+        "title": "एक तीर जिसने अकबर की गद्दी बचा ली",
+        "shortDescription": "1556 में पानीपत की दूसरी लड़ाई में हेमू जीत रहा था, तभी एक तीर उसकी आँख में लगा। उसकी फ़ौज भाग गई और दिल्ली मुग़लों के पास रही।",
+        "longDescription": "नवंबर 1556 में पानीपत में दूसरी बड़ी लड़ाई हुई। अकबर तब सिर्फ़ 13 साल का था। उसके सामने था हेमू, जिसने अभी अभी दिल्ली जीतकर ख़ुद को राजा घोषित किया था। हेमू हाथी पर बैठकर फ़ौज की अगुवाई कर रहा था, और वह जीत रहा था। तभी एक तीर उसकी आँख में आ लगा। वह गिर पड़ा और उसके सैनिक भाग खड़े हुए। हेमू को पकड़कर उसका सिर काट दिया गया। पानीपत के पश्चिम में शोदापुर गाँव में उसकी याद में एक स्मारक है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "panipat",
+      "battle",
+      "1761",
+      "maratha",
+      "kala amb"
+    ],
+    "location": {
+      "lng": 77.021348,
+      "lat": 29.396186
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Panipat district website",
+    "sourceUrl": "https://panipat.gov.in/tourist-place/the-kala-amb-park/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The black mango tree of Panipat",
+        "shortDescription": "Kala Amb, east of Panipat, marks the field of the Third Battle of Panipat in 1761, where the Afghans under Ahmad Shah Durrani beat the Marathas.",
+        "longDescription": "East of Panipat is a park called Kala Amb, the black mango. On the fourteenth of January 1761, the Maratha army met the Afghan army of Ahmad Shah Durrani on these fields. It was one of the biggest battles of that century, and tens of thousands died. People say the Maratha commander, Sadashivrao Bhau, made his last stand under a black mango tree. The tree is gone. A red pillar marks the spot.",
+        "narrationHint": "Sombre and steady. Let the last two short sentences land."
+      },
+      "hi": {
+        "title": "पानीपत का काला आम",
+        "shortDescription": "पानीपत के पूरब में काला आम, 1761 की पानीपत की तीसरी लड़ाई का मैदान है, जहाँ अहमद शाह दुर्रानी की अफ़ग़ान फ़ौज ने मराठों को हराया।",
+        "longDescription": "पानीपत के पूरब में एक पार्क है जिसका नाम है काला आम। 14 जनवरी 1761 को इन्हीं खेतों में मराठा फ़ौज और अहमद शाह दुर्रानी की अफ़ग़ान फ़ौज आमने सामने आईं। यह उस सदी की सबसे बड़ी लड़ाइयों में से एक थी, और हज़ारों हज़ार लोग मारे गए। कहा जाता है कि मराठा सेनापति सदाशिवराव भाऊ ने अपनी आख़िरी लड़ाई एक काले आम के पेड़ के नीचे लड़ी। वह पेड़ अब नहीं रहा। उस जगह पर एक लाल खंभा खड़ा है।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "panipat",
+      "sufi",
+      "dargah",
+      "qalandar"
+    ],
+    "location": {
+      "lng": 76.97929,
+      "lat": 29.392326
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bu_Ali_Shah_Qalandar",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Panipat's saint, visited by every faith",
+        "shortDescription": "The dargah of the Sufi saint Bu Ali Shah Qalandar is in the old town of Panipat. It was built by Mahabat Khan, a general of the emperor Jahangir.",
+        "longDescription": "Panipat is known for war, but its best loved place is a shrine of peace. In the old town is the dargah of Bu Ali Shah Qalandar, a Sufi saint and Persian poet who is said to have lived here about seven hundred years ago. The shrine was built by Mahabat Khan, a general of the emperor Jahangir. Every Thursday, Hindus, Muslims, Sikhs and Christians all come here to pray.",
+        "narrationHint": "Warm and calm, a contrast to the battle stories."
+      },
+      "hi": {
+        "title": "पानीपत के वह संत जिनके दर पर हर मज़हब आता है",
+        "shortDescription": "सूफ़ी संत बू अली शाह क़लंदर की दरगाह पानीपत के पुराने शहर में है। इसे बादशाह जहाँगीर के सेनापति महाबत ख़ान ने बनवाया था।",
+        "longDescription": "पानीपत लड़ाइयों के लिए मशहूर है, पर यहाँ की सबसे प्यारी जगह अमन की एक दरगाह है। पुराने शहर में बू अली शाह क़लंदर की दरगाह है। वे सूफ़ी संत और फ़ारसी के शायर थे, और माना जाता है कि क़रीब 700 साल पहले यहीं रहते थे। यह दरगाह बादशाह जहाँगीर के सेनापति महाबत ख़ान ने बनवाई थी। हर गुरुवार को हिंदू, मुसलमान, सिख और ईसाई, सब यहाँ दुआ माँगने आते हैं।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "panipat",
+      "textile",
+      "recycling",
+      "blankets"
+    ],
+    "location": {
+      "lng": 76.969664,
+      "lat": 29.397858
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/haryana/handloom-city-panipat-weaves-worlds-largest-recycling-empire",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Where the world's old clothes become blankets",
+        "shortDescription": "Panipat's mills take in used clothes from many countries and spin them into yarn for blankets, mats and carpets. About 300 tonnes are recycled here each day.",
+        "longDescription": "A sweater thrown away in Germany or Canada may well end up here. Panipat is one of the world's biggest centres for recycling clothes. About three hundred tonnes of used clothing reach its mills every day. Workers sort the cloth by colour, so it needs no new dye. Then it is torn up and spun into fresh yarn. That yarn becomes blankets, bath mats and carpets, and most of it is sold abroad again.",
+        "narrationHint": "Start with the surprise of the sweater; keep it brisk."
+      },
+      "hi": {
+        "title": "जहाँ दुनिया के पुराने कपड़े कंबल बन जाते हैं",
+        "shortDescription": "पानीपत की मिलें कई देशों से आए पुराने कपड़ों से धागा बनाती हैं, जिससे कंबल, पायदान और क़ालीन बनते हैं। यहाँ रोज़ क़रीब 300 टन कपड़ा दोबारा काम में लाया जाता है।",
+        "longDescription": "जर्मनी या कनाडा में किसी ने जो पुराना स्वेटर फेंक दिया, हो सकता है वह यहीं पहुँचे। पानीपत पुराने कपड़ों को दोबारा काम में लाने के दुनिया के सबसे बड़े केंद्रों में से एक है। यहाँ की मिलों में रोज़ क़रीब 300 टन पुराने कपड़े आते हैं। मज़दूर कपड़ों को रंग के हिसाब से छाँटते हैं, इसलिए नया रंग चढ़ाने की ज़रूरत नहीं पड़ती। फिर कपड़े को फाड़कर उससे नया धागा काता जाता है। इसी धागे से कंबल, पायदान और क़ालीन बनते हैं, और ज़्यादातर माल फिर विदेश चला जाता है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "panipat",
+      "pickle",
+      "pachranga",
+      "achaar"
+    ],
+    "location": {
+      "lng": 76.970878,
+      "lat": 29.39277
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/archive/features/spice-of-life-surrender-to-panipat-pickle-181599",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Panipat's five-colour pickle",
+        "shortDescription": "Panipat is known for pachranga achaar, a mixed pickle in mustard oil. Pickle shops line both sides of the highway through the town.",
+        "longDescription": "Watch the shop signs in Panipat. Again and again you will read one word: Pachranga. It means five colours, and it is a mixed pickle of vegetables and fruit, aged in mustard oil and whole spices. The family behind the name says it began in the 1930s in what is now Pakistan, and came to India in 1943. Today pickle shops line both sides of this highway. Take home a jar of pachranga.",
+        "narrationHint": "Light and friendly, like a tip from a local."
+      },
+      "hi": {
+        "title": "पानीपत का पचरंगा अचार",
+        "shortDescription": "पानीपत पचरंगा अचार के लिए मशहूर है, जो सरसों के तेल में बना मिला जुला अचार है। शहर से गुज़रते हाईवे के दोनों तरफ़ अचार की दुकानें हैं।",
+        "longDescription": "पानीपत से गुज़रते हुए दुकानों के बोर्ड देखिए। बार बार एक ही नाम दिखेगा, पचरंगा। इसका मतलब है पाँच रंग। यह सब्ज़ियों और फलों का मिला जुला अचार है, जो सरसों के तेल और खड़े मसालों में पकता है। इस नाम के पीछे के परिवार का कहना है कि इसकी शुरुआत 1930 के दशक में उस इलाक़े में हुई जो अब पाकिस्तान में है, और 1943 में यह भारत आया। आज इस हाईवे के दोनों तरफ़ अचार की दुकानें हैं। घर के लिए पचरंगा अचार का एक डिब्बा ले जाइए।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "gharaunda",
+      "mughal",
+      "sarai",
+      "grand trunk road"
+    ],
+    "location": {
+      "lng": 76.969792,
+      "lat": 29.536192
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gharuanda_Gateways_of_Old_Mughal_Sarai",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Two gates left from a Mughal inn",
+        "shortDescription": "At Gharaunda, two tall brick gateways are all that remain of a travellers' inn built in the 1630s, in the time of Shah Jahan.",
+        "longDescription": "Four hundred years ago, the trip from Delhi to Lahore took weeks, and travellers needed safe places to sleep. At Gharaunda, the town you are passing, a noble named Feroz Khan built a large inn, a sarai, in the time of the emperor Shah Jahan. It was a square of rooms around a courtyard. The rooms are gone. But two gateways still stand in the town, each three storeys high, with brick towers and balconies.",
+        "narrationHint": "Help the listener picture the old road and its tired travellers."
+      },
+      "hi": {
+        "title": "मुग़ल सराय के बचे हुए दो दरवाज़े",
+        "shortDescription": "घरौंडा में ईंटों के दो ऊँचे दरवाज़े उस सराय की आख़िरी निशानी हैं जो 1630 के दशक में शाहजहाँ के समय में मुसाफ़िरों के लिए बनी थी।",
+        "longDescription": "400 साल पहले दिल्ली से लाहौर के सफ़र में हफ़्तों लग जाते थे, और मुसाफ़िरों को रात रुकने के लिए महफ़ूज़ जगह चाहिए होती थी। घरौंडा में, जिस क़स्बे से आप गुज़र रहे हैं, फ़िरोज़ ख़ान नाम के एक अमीर ने बादशाह शाहजहाँ के समय में एक बड़ी सराय बनवाई। यह एक आँगन के चारों तरफ़ छोटे कमरों का चौकोर घेरा था। कमरे अब नहीं रहे। पर इसके दो दरवाज़े क़स्बे में आज भी खड़े हैं। हर एक तीन मंज़िल ऊँचा है, ईंटों के बुर्ज और छज्जों के साथ।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "karnal",
+      "karna",
+      "mahabharata",
+      "lake"
+    ],
+    "location": {
+      "lng": 76.97533,
+      "lat": 29.743383
+    },
+    "interestingness": 8.0,
+    "confidence": 0.78,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Karna_Lake",
+    "familyFriendly": true,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "The lake where Karna gave away his armour",
+        "shortDescription": "Local tradition says Karnal is named after Karna of the Mahabharata, and that he bathed at Karna Lake, beside the highway north of the city.",
+        "longDescription": "Karnal is said to take its name from Karna, the great warrior of the Mahabharata. The story goes that he bathed every day in a lake here. And it was here, people say, that he gave away the armour that kept him safe, because the god Indra came and asked for it. Karna never refused a gift. Karna Lake is just off the highway, about halfway between Delhi and Chandigarh.",
+        "narrationHint": "Tell it as a legend, gently; it is a belief, not history."
+      },
+      "hi": {
+        "title": "वह झील जहाँ कर्ण ने अपना कवच दान किया",
+        "shortDescription": "परंपरा के अनुसार करनाल का नाम महाभारत के कर्ण पर पड़ा, और वे शहर के उत्तर में हाईवे के पास की कर्ण झील में नहाते थे।",
+        "longDescription": "माना जाता है कि करनाल का नाम महाभारत के महान योद्धा कर्ण के नाम पर पड़ा। कहानी है कि वे रोज़ यहाँ की एक झील में नहाते थे। और लोग कहते हैं कि यहीं उन्होंने अपना वह कवच दान कर दिया जो उनकी रक्षा करता था, क्योंकि देवता इंद्र उसे माँगने आए थे। कर्ण कभी दान से मना नहीं करते थे। कर्ण झील हाईवे से बिल्कुल पास है, दिल्ली और चंडीगढ़ के लगभग बीच में।"
+      }
+    }
+  },
+  {
+    "category": "science",
+    "tags": [
+      "karnal",
+      "ndri",
+      "buffalo",
+      "cloning"
+    ],
+    "location": {
+      "lng": 76.982,
+      "lat": 29.704
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Indian Council of Agricultural Research",
+    "sourceUrl": "https://www.icar.org.in/en/node/3906",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The world's first cloned buffalo was born here",
+        "shortDescription": "Scientists at the National Dairy Research Institute in Karnal produced the world's first cloned buffalo calf in February 2009, and a second, Garima, in June 2009.",
+        "longDescription": "Karnal has a place in the history of science. On the sixth of February 2009, at the National Dairy Research Institute here, the world's first cloned buffalo calf was born. The scientists grew her from a cell taken from the ear of another buffalo. Sadly she lived only a few days. Four months later a second cloned calf was born, weighing forty-three kilograms. They named her Garima. The institute has been in Karnal since 1955.",
+        "narrationHint": "Tell it with quiet pride; soften the voice for the calf that died."
+      },
+      "hi": {
+        "title": "दुनिया की पहली क्लोन भैंस यहीं पैदा हुई",
+        "shortDescription": "करनाल के राष्ट्रीय डेरी अनुसंधान संस्थान के वैज्ञानिकों ने फ़रवरी 2009 में दुनिया की पहली क्लोन कटड़ी पैदा की, और जून 2009 में दूसरी, जिसका नाम गरिमा रखा गया।",
+        "longDescription": "विज्ञान के इतिहास में करनाल की अपनी जगह है। 6 फ़रवरी 2009 को यहाँ के राष्ट्रीय डेरी अनुसंधान संस्थान में दुनिया की पहली क्लोन कटड़ी पैदा हुई। वैज्ञानिकों ने उसे एक दूसरी भैंस के कान से ली गई कोशिका से तैयार किया था। अफ़सोस, वह कुछ ही दिन ज़िंदा रही। 4 महीने बाद दूसरी क्लोन कटड़ी पैदा हुई, जिसका वज़न 43 किलो था। उसका नाम गरिमा रखा गया। यह संस्थान 1955 से करनाल में है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "karnal",
+      "ndri",
+      "dairy",
+      "ice cream",
+      "paneer"
+    ],
+    "location": {
+      "lng": 76.985821,
+      "lat": 29.70066
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "National Dairy Research Institute",
+    "sourceUrl": "https://www.ndri.res.in/experimental-dairy",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Ice cream made by dairy scientists",
+        "shortDescription": "The National Dairy Research Institute in Karnal sells its own ice cream, paneer, butter, cheese and kalakand from a milk parlour at its main gate.",
+        "longDescription": "Here is a stop most people drive past. The National Dairy Research Institute in Karnal is where India trains its dairy scientists. It has its own small dairy plant, set up in 1961. What the students and scientists make there is sold to anyone, from a milk parlour at the main gate. You can buy ice cream, paneer, butter, cheese and a milk sweet called kalakand. Try the ice cream or the kalakand.",
+        "narrationHint": "Cheerful, like sharing a small secret."
+      },
+      "hi": {
+        "title": "डेरी वैज्ञानिकों के हाथ की आइसक्रीम",
+        "shortDescription": "करनाल का राष्ट्रीय डेरी अनुसंधान संस्थान अपने मेन गेट पर बने मिल्क पार्लर से अपनी बनाई आइसक्रीम, पनीर, मक्खन, चीज़ और कलाकंद बेचता है।",
+        "longDescription": "यह वह जगह है जिसके पास से ज़्यादातर लोग बिना रुके निकल जाते हैं। करनाल का राष्ट्रीय डेरी अनुसंधान संस्थान वह जगह है जहाँ देश के डेरी वैज्ञानिक तैयार होते हैं। इसका अपना छोटा डेरी प्लांट है, जो 1961 में लगा था। वहाँ छात्र और वैज्ञानिक जो बनाते हैं, वह मेन गेट के मिल्क पार्लर पर हर किसी को बिकता है। यहाँ आइसक्रीम, पनीर, मक्खन, चीज़ और कलाकंद मिलता है। आइसक्रीम या कलाकंद ज़रूर चखिए।"
+      }
+    }
+  },
+  {
+    "category": "science",
+    "tags": [
+      "karnal",
+      "kalpana chawla",
+      "space",
+      "astronaut"
+    ],
+    "location": {
+      "lng": 76.989797,
+      "lat": 29.697734
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kalpana_Chawla",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Karnal girl who went to space",
+        "shortDescription": "Kalpana Chawla, the first woman of Indian origin to fly in space, was born in Karnal in 1962 and went to school here.",
+        "longDescription": "A girl from this town went to space. Kalpana Chawla was born here in 1962 and studied at Tagore Baal Niketan school. She is said to have fallen in love with flying as a small child, watching a plane pass overhead. In 1997 she became the first woman of Indian origin in space. She died in 2003, when the space shuttle Columbia broke apart on its way home. Karnal's medical college carries her name.",
+        "narrationHint": "Proud, then gentle at the mention of her death."
+      },
+      "hi": {
+        "title": "करनाल की वह लड़की जो अंतरिक्ष तक गई",
+        "shortDescription": "अंतरिक्ष में जाने वाली भारतीय मूल की पहली महिला कल्पना चावला का जन्म 1962 में करनाल में हुआ और उन्होंने यहीं स्कूल की पढ़ाई की।",
+        "longDescription": "इस शहर की एक लड़की अंतरिक्ष तक गई। कल्पना चावला का जन्म 1962 में करनाल में हुआ और उन्होंने यहीं के टैगोर बाल निकेतन स्कूल में पढ़ाई की। कहा जाता है कि बचपन में सिर के ऊपर से गुज़रते एक हवाई जहाज़ को देखकर उन्हें उड़ान से लगाव हो गया। 1997 में वे अंतरिक्ष में जाने वाली भारतीय मूल की पहली महिला बनीं। 2003 में उनकी मौत हो गई, जब कोलंबिया अंतरिक्ष यान धरती पर लौटते समय टूट गया। करनाल का मेडिकल कॉलेज उन्हीं के नाम पर है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "taraori",
+      "tarain",
+      "prithviraj chauhan",
+      "1191",
+      "1192"
+    ],
+    "location": {
+      "lng": 76.927378,
+      "lat": 29.800459
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Tarain",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Two battles, one year apart, changed India",
+        "shortDescription": "At Tarain, today's Taraori, Prithviraj Chauhan beat Muhammad of Ghor in 1191 and lost to him in 1192. The second battle opened the way for the Delhi Sultanate.",
+        "longDescription": "The small town of Taraori was once called Tarain, and two battles here changed India. In 1191, Prithviraj Chauhan met the army of Muhammad of Ghor on these fields and won. Muhammad was badly wounded and only just got away. The next year he came back with a bigger army and attacked before sunrise. This time Prithviraj lost. That one defeat opened north India to the rulers who went on to found the Delhi Sultanate.",
+        "narrationHint": "Tell it as two acts: the win, then the return."
+      },
+      "hi": {
+        "title": "एक साल के फ़र्क़ से हुई दो लड़ाइयाँ जिन्होंने भारत बदल दिया",
+        "shortDescription": "तराइन यानी आज के तरावड़ी में पृथ्वीराज चौहान ने 1191 में मुहम्मद ग़ोरी को हराया और 1192 में उससे हार गए। दूसरी लड़ाई ने दिल्ली सल्तनत का रास्ता खोल दिया।",
+        "longDescription": "छोटे से क़स्बे तरावड़ी का पुराना नाम तराइन था, और यहाँ की दो लड़ाइयों ने भारत को बदल दिया। 1191 में पृथ्वीराज चौहान का सामना इन्हीं मैदानों में मुहम्मद ग़ोरी की फ़ौज से हुआ, और वे जीत गए। ग़ोरी बुरी तरह घायल हुआ और मुश्किल से बचकर निकला। अगले साल वह और बड़ी फ़ौज लेकर लौटा और सूरज निकलने से पहले हमला कर दिया। इस बार पृथ्वीराज हार गए। इसी एक हार ने उत्तर भारत का रास्ता उन हुक्मरानों के लिए खोल दिया जिन्होंने आगे चलकर दिल्ली सल्तनत बनाई।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "taraori",
+      "basmati",
+      "rice",
+      "karnal"
+    ],
+    "location": {
+      "lng": 76.938035,
+      "lat": 29.797791
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "CCS Haryana Agricultural University",
+    "sourceUrl": "https://hau.ac.in/page/home-23",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The town with a basmati named after it",
+        "shortDescription": "Taraori is a rice-milling town, and a well-known traditional basmati variety is named Taraori Basmati. It is still the standard that new basmati is tested against.",
+        "longDescription": "If you like basmati rice, you are passing a famous name. Taraori is a town of rice mills, and one of India's classic basmati varieties is called Taraori Basmati. Scientists still use it as the standard for quality. When a new basmati is bred anywhere in India, its grain is tested against Taraori's for its cooking and eating quality. So the next time you open a bag of basmati, remember this small town.",
+        "narrationHint": "Warm, a little proud of the local grain."
+      },
+      "hi": {
+        "title": "वह क़स्बा जिसके नाम पर एक बासमती है",
+        "shortDescription": "तरावड़ी चावल मिलों का क़स्बा है, और एक मशहूर पुरानी बासमती क़िस्म का नाम तरावड़ी बासमती है। नई बासमती की परख आज भी इसी से की जाती है।",
+        "longDescription": "अगर आपको बासमती चावल पसंद है, तो आप एक मशहूर नाम के पास से गुज़र रहे हैं। तरावड़ी चावल मिलों का क़स्बा है, और भारत की एक पुरानी और जानी मानी बासमती क़िस्म का नाम तरावड़ी बासमती है। वैज्ञानिक आज भी इसे अच्छी बासमती का पैमाना मानते हैं। देश में कहीं भी नई बासमती तैयार होती है, तो उसके दाने की परख तरावड़ी बासमती से मिलाकर की जाती है। तो अगली बार बासमती का पैकेट खोलें, तो इस छोटे से क़स्बे को याद कीजिए।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "nilokheri",
+      "partition",
+      "refugees",
+      "1947"
+    ],
+    "location": {
+      "lng": 76.931803,
+      "lat": 29.839774
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/2006/20060923/saturday/main1.htm",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A town built by refugees, from a swamp",
+        "shortDescription": "Nilokheri was built around 1948 to 1950 on marshy jungle land as a new home for about 7,000 people who had lost everything in Partition.",
+        "longDescription": "Nilokheri, the town you are passing, was built after 1947. After Partition, thousands of people who had fled Pakistan were living in tents near here. A man named S. K. Dey was given five hundred acres of marshy jungle. The refugees cleared it themselves and built a town for seven thousand people, with houses, workshops, farms and a round market. Prime Minister Nehru liked it so much that he wanted many more Nilokheris across India.",
+        "narrationHint": "Respectful and hopeful; this is a story of people rebuilding their lives."
+      },
+      "hi": {
+        "title": "दलदल पर शरणार्थियों का बसाया हुआ शहर",
+        "shortDescription": "नीलोखेड़ी 1948 से 1950 के आसपास दलदली जंगल की ज़मीन पर बसाया गया, उन क़रीब 7000 लोगों के नए घर के तौर पर जिनका बँटवारे में सब कुछ छिन गया था।",
+        "longDescription": "नीलोखेड़ी, जिस क़स्बे से आप गुज़र रहे हैं, 1947 के बाद बसाया गया। बँटवारे के बाद पाकिस्तान से आए हज़ारों लोग यहीं पास के कैंपों में तंबुओं में रह रहे थे। एस के डे नाम के एक आदमी को 500 एकड़ दलदली जंगल दिया गया। शरणार्थियों ने उसे ख़ुद साफ़ किया और 7000 लोगों के लिए एक शहर बसाया, जिसमें छोटे मकान, कारख़ाने, खेत और एक गोल बाज़ार था। प्रधानमंत्री नेहरू को यह इतना पसंद आया कि वे चाहते थे कि पूरे भारत में ऐसे कई नीलोखेड़ी बनें।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "kurukshetra",
+      "pipli",
+      "gita",
+      "mahabharata",
+      "jyotisar"
+    ],
+    "location": {
+      "lng": 76.892351,
+      "lat": 29.976654
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jyotisar",
+    "familyFriendly": true,
+    "storyType": "local_tradition",
+    "translations": {
+      "en": {
+        "title": "You are crossing the land of the Gita",
+        "shortDescription": "The country west of Pipli is Kurukshetra, the land of the Mahabharata war. At Jyotisar, tradition says, Krishna spoke the Bhagavad Gita to Arjuna.",
+        "longDescription": "The fields to the west of this road are Kurukshetra, the land where, by tradition, the great war of the Mahabharata was fought. A short drive from here is Jyotisar. Hindus believe that there, under a banyan tree, Krishna spoke the Bhagavad Gita to Arjuna, who did not want to fight. A banyan there is honoured as an offshoot of that very tree. Pilgrims walk a circuit of forty-eight kos around this holy land.",
+        "narrationHint": "Reverent but plain; these are beliefs, so keep the 'by tradition' tone."
+      },
+      "hi": {
+        "title": "आप गीता की धरती से गुज़र रहे हैं",
+        "shortDescription": "पिपली के पश्चिम का इलाक़ा कुरुक्षेत्र है, महाभारत के युद्ध की धरती। परंपरा के अनुसार ज्योतिसर में कृष्ण ने अर्जुन को भगवद गीता सुनाई थी।",
+        "longDescription": "इस सड़क के पश्चिम के खेत कुरुक्षेत्र हैं। परंपरा के अनुसार महाभारत का महान युद्ध इसी धरती पर लड़ा गया था। यहाँ से थोड़ी ही दूर ज्योतिसर है। हिंदू मानते हैं कि वहाँ बरगद के एक पेड़ के नीचे कृष्ण ने अर्जुन को भगवद गीता सुनाई थी, जब अर्जुन लड़ना नहीं चाहते थे। वहाँ खड़ा एक बरगद उसी पेड़ का वंशज माना जाता है और पूजा जाता है। तीर्थयात्री इस पवित्र धरती की 48 कोस की परिक्रमा करते हैं।"
+      }
+    }
+  },
+  {
+    "category": "religion",
+    "tags": [
+      "kurukshetra",
+      "brahma sarovar",
+      "thanesar",
+      "pilgrimage"
+    ],
+    "location": {
+      "lng": 76.8274,
+      "lat": 29.961277
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brahma_Sarovar",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The tank that fills up at every eclipse",
+        "shortDescription": "Brahma Sarovar in Kurukshetra is a holy tank about a kilometre long. Hindus believe a bath here during a solar eclipse washes away sins, and huge crowds come.",
+        "longDescription": "In Kurukshetra is a holy water tank so big that it looks like a lake. Brahma Sarovar is about a kilometre long. Hindus believe that a bath here during a solar eclipse washes away sins. So at every eclipse the steps fill with people. In March 2006 about a million came. In the middle stands a huge bronze chariot with Krishna and Arjuna. Each winter, at Gita Jayanti, lamps are floated on the water.",
+        "narrationHint": "Paint the picture: the size, the crowd, the lamps."
+      },
+      "hi": {
+        "title": "वह सरोवर जो हर ग्रहण पर भर जाता है",
+        "shortDescription": "कुरुक्षेत्र का ब्रह्म सरोवर क़रीब 1 किलोमीटर लंबा पवित्र सरोवर है। हिंदू मानते हैं कि सूर्य ग्रहण पर यहाँ नहाने से पाप धुल जाते हैं, और भारी भीड़ जुटती है।",
+        "longDescription": "कुरुक्षेत्र में एक पवित्र सरोवर है जो इतना बड़ा है कि झील जैसा लगता है। ब्रह्म सरोवर क़रीब 1 किलोमीटर लंबा है। हिंदू मानते हैं कि सूर्य ग्रहण के समय यहाँ नहाने से पाप धुल जाते हैं। इसलिए हर ग्रहण पर इसके घाट लोगों से भर जाते हैं। मार्च 2006 में यहाँ क़रीब 10 लाख लोग आए थे। बीच में कृष्ण और अर्जुन का काँसे का एक विशाल रथ खड़ा है। हर सर्दी में गीता जयंती पर पानी में दीये बहाए जाते हैं।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "kurukshetra",
+      "thanesar",
+      "sheikh chilli",
+      "mughal",
+      "tomb"
+    ],
+    "location": {
+      "lng": 76.82812,
+      "lat": 29.97666
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sheikh_Chilli%27s_Tomb",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The fine tomb that carries Sheikh Chilli's name",
+        "shortDescription": "Sheikh Chilli's Tomb in Thanesar is a Mughal tomb and college of a Sufi scholar, thought to have been built by prince Dara Shikoh.",
+        "longDescription": "Many of us know Sheikh Chilli as the daydreamer of funny old stories. But in Thanesar, in Kurukshetra, there is a real and very fine tomb that carries his name. It belongs to a Sufi scholar, and it was probably built by Dara Shikoh, the eldest son of Shah Jahan. Beside the tomb is an old college, a stone mosque and a Mughal garden. There is a small museum too. It is closed on Fridays.",
+        "narrationHint": "Start playful with the name, then turn respectful."
+      },
+      "hi": {
+        "title": "वह ख़ूबसूरत मक़बरा जो शेख़ चिल्ली के नाम से जाना जाता है",
+        "shortDescription": "थानेसर में शेख़ चिल्ली का मक़बरा एक सूफ़ी विद्वान का मुग़ल दौर का मक़बरा और मदरसा है, जिसे शायद शहज़ादे दारा शिकोह ने बनवाया था।",
+        "longDescription": "हम में से बहुत लोग शेख़ चिल्ली को मज़ेदार पुराने क़िस्सों के ख़याली पुलाव पकाने वाले के रूप में जानते हैं। पर कुरुक्षेत्र के थानेसर में उनके नाम का एक असली और बहुत ख़ूबसूरत मक़बरा है। यह एक सूफ़ी विद्वान का है, और माना जाता है कि इसे शाहजहाँ के बड़े बेटे दारा शिकोह ने बनवाया था। मक़बरे के साथ एक पुराना मदरसा, पत्थर की एक मस्जिद और एक मुग़ल बाग़ है। यहाँ एक छोटा संग्रहालय भी है। यह शुक्रवार को बंद रहता है।"
+      }
+    }
+  },
+  {
+    "category": "sport",
+    "tags": [
+      "shahabad",
+      "hockey",
+      "rani-rampal",
+      "women"
+    ],
+    "location": {
+      "lng": 76.861666,
+      "lat": 30.165885
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rani_Rampal",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The small town that fills India's hockey team",
+        "shortDescription": "Shahabad Markanda's hockey academy has produced more than thirty Indian women internationals, including Olympic captain Rani Rampal.",
+        "longDescription": "The small town you are passing, Shahabad Markanda, has sent girl after girl into India's hockey team. Rani Rampal was born here. Her father pulled a cart. She trained at the Shahabad Hockey Academy under coach Baldev Singh and played for India at fourteen. At the Tokyo Olympics she captained India to the semifinal, the team's first ever. The academy has produced more than thirty international players.",
+        "narrationHint": "Warm and proud; slow down on Rani Rampal's name."
+      },
+      "hi": {
+        "title": "वह छोटा क़स्बा जो भारत की हॉकी टीम भरता है",
+        "shortDescription": "शाहाबाद मारकंडा की हॉकी अकादमी से 30 से ज़्यादा महिला अंतरराष्ट्रीय खिलाड़ी निकली हैं, जिनमें ओलंपिक कप्तान रानी रामपाल भी हैं।",
+        "longDescription": "आप जिस छोटे क़स्बे से गुज़र रहे हैं, वह शाहाबाद मारकंडा है। यहाँ से एक के बाद एक लड़कियाँ भारत की हॉकी टीम में पहुँची हैं। रानी रामपाल यहीं पैदा हुईं। उनके पिता ठेला खींचते थे। रानी ने शाहाबाद हॉकी अकादमी में कोच बलदेव सिंह से खेल सीखा और 14 साल की उम्र में भारत के लिए खेलीं। टोक्यो ओलंपिक में उनकी कप्तानी में भारत पहली बार सेमीफ़ाइनल तक पहुँचा। इस अकादमी से 30 से ज़्यादा अंतरराष्ट्रीय खिलाड़ी निकली हैं।"
+      }
+    }
+  },
+  {
+    "category": "geography",
+    "tags": [
+      "markanda",
+      "river",
+      "shahabad",
+      "ghaggar"
+    ],
+    "location": {
+      "lng": 76.8667,
+      "lat": 30.1667
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Markanda_River,_Haryana",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The river that gave Shahabad its second name",
+        "shortDescription": "The Markanda is a seasonal river from the Shivalik hills that flows past Shahabad and joins the Ghaggar. Its ancient name was Aruna.",
+        "longDescription": "At Shahabad the highway crosses the Markanda river. For much of the year it carries little water. In the monsoon it fills with rain rushing down from the Shivalik hills of Himachal Pradesh. The river runs about ninety kilometres and then joins the Ghaggar. Its ancient name was Aruna. The town beside it is called Shahabad Markanda after the sage Markandeya, and a temple in his name stands on the riverbank.",
+        "narrationHint": "Calm and descriptive; point the listener to the river crossing."
+      },
+      "hi": {
+        "title": "वह नदी जिससे शाहाबाद को दूसरा नाम मिला",
+        "shortDescription": "मारकंडा शिवालिक की पहाड़ियों से आने वाली बरसाती नदी है, जो शाहाबाद के पास से बहकर घग्गर में मिल जाती है। इसका पुराना नाम अरुणा था।",
+        "longDescription": "शाहाबाद में सड़क मारकंडा नदी को पार करती है। साल के ज़्यादातर महीनों में इसमें पानी कम रहता है। बरसात में हिमाचल प्रदेश की शिवालिक पहाड़ियों से आया पानी इसे भर देता है। यह नदी क़रीब 90 किलोमीटर बहकर घग्गर में मिल जाती है। इसका पुराना नाम अरुणा था। पास के क़स्बे का नाम मारकंडेय ऋषि के नाम पर शाहाबाद मारकंडा पड़ा, और नदी के किनारे उनके नाम का मंदिर है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ambala",
+      "cantonment",
+      "1843",
+      "malaria",
+      "kipling"
+    ],
+    "location": {
+      "lng": 76.828696,
+      "lat": 30.338243
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ambala",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "An army town born from a malaria outbreak",
+        "shortDescription": "The British set up Ambala Cantonment in 1843 after leaving Karnal, which had been hit by a malaria epidemic in 1841 and 1842.",
+        "longDescription": "Ambala Cantonment exists because of malaria. The British army was first based at Karnal, further south on this road. Then malaria swept through Karnal in 1841 and 1842. The army left, moved here, and set up a new cantonment in 1843. It is still an army town, home to one of the Indian Army's strike corps. In Rudyard Kipling's novel Kim, the boy hero takes a train here. The book spells it Umballa.",
+        "narrationHint": "Tell it as a surprising cause and effect; light tone on the Kipling line."
+      },
+      "hi": {
+        "title": "मलेरिया की वजह से बसी फ़ौजी छावनी",
+        "shortDescription": "अंग्रेज़ों ने 1843 में अंबाला छावनी बसाई, जब 1841 और 1842 में मलेरिया फैलने के बाद उन्होंने करनाल छोड़ दिया।",
+        "longDescription": "अंबाला छावनी मलेरिया की वजह से बसी। अंग्रेज़ों की फ़ौज पहले करनाल में रहती थी, जो इसी सड़क पर दक्षिण की तरफ़ है। फिर 1841 और 1842 में करनाल में मलेरिया फैल गया। फ़ौज वहाँ से निकली और 1843 में यहाँ नई छावनी बसाई। आज भी यह फ़ौजी शहर है और यहाँ भारतीय सेना की एक स्ट्राइक कोर का ठिकाना है। रुडयार्ड किपलिंग के उपन्यास किम में भी लड़का किम रेलगाड़ी से अंबाला आता है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ambala",
+      "1857",
+      "memorial",
+      "revolt"
+    ],
+    "location": {
+      "lng": 76.828696,
+      "lat": 30.338243
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/top-headlines/shaheed-smarak-rs-600-crore-memorial-on-1857-revolt-set-for-opening-in-ambala/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Did 1857 begin here, hours before Meerut",
+        "shortDescription": "Some historians say the 1857 revolt began at Ambala about nine hours before Meerut. A large memorial to it opened at Ambala Cantonment in November 2026.",
+        "longDescription": "Most books say the revolt of 1857 began at Meerut. Some historians say it began here in Ambala, about nine hours earlier. On the tenth of May 1857, Indian soldiers of two infantry regiments rose against their British officers, but they were quickly surrounded. Beside the highway at Ambala Cantonment, a large memorial with a tall lotus-shaped tower opened in November 2026. It carries the names of more than seven hundred fighters.",
+        "narrationHint": "Open as a question; keep 'some historians say' clearly audible."
+      },
+      "hi": {
+        "title": "क्या 1857 की लड़ाई मेरठ से पहले यहाँ शुरू हुई",
+        "shortDescription": "कुछ इतिहासकार मानते हैं कि 1857 की बग़ावत मेरठ से क़रीब 9 घंटे पहले अंबाला में शुरू हुई थी। नवंबर 2026 में अंबाला छावनी में इसका बड़ा स्मारक खुला।",
+        "longDescription": "ज़्यादातर किताबें कहती हैं कि 1857 की बग़ावत मेरठ से शुरू हुई। पर कुछ इतिहासकार मानते हैं कि यह क़रीब 9 घंटे पहले यहाँ अंबाला में शुरू हो गई थी। 10 मई 1857 को पैदल फ़ौज की 2 रेजिमेंटों के भारतीय सिपाही अपने अंग्रेज़ अफ़सरों के ख़िलाफ़ उठ खड़े हुए, पर उन्हें जल्दी ही घेर लिया गया। अंबाला छावनी में सड़क के किनारे नवंबर 2026 में एक बड़ा स्मारक खुला है, जिसकी ऊँची मीनार कमल जैसी है। इस पर 700 से ज़्यादा सेनानियों के नाम लिखे हैं।"
+      }
+    }
+  },
+  {
+    "category": "infrastructure",
+    "tags": [
+      "ambala",
+      "air-force",
+      "rafale",
+      "golden-arrows"
+    ],
+    "location": {
+      "lng": 76.81778,
+      "lat": 30.37083
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ambala_Air_Force_Station",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Where India's first Rafale jets landed",
+        "shortDescription": "India's first five Rafale fighter jets landed at Ambala Air Force Station on 29 July 2020. The airbase dates back to 1919.",
+        "longDescription": "If a fighter jet roars overhead near Ambala, it may be a Rafale. India's first five Rafale jets flew in from France and landed at Ambala Air Force Station on the twenty-ninth of July 2020. They joined Number 17 Squadron, known as the Golden Arrows. The airbase is far older than the jets. The British built it in 1919, and it is one of the oldest airbases in the country.",
+        "narrationHint": "Energetic opening; invite the listener to look up at the sky."
+      },
+      "hi": {
+        "title": "जहाँ भारत के पहले रफ़ाल विमान उतरे",
+        "shortDescription": "भारत के पहले 5 रफ़ाल लड़ाकू विमान 29 जुलाई 2020 को अंबाला वायुसेना अड्डे पर उतरे थे। यह हवाई अड्डा 1919 का बना है।",
+        "longDescription": "अंबाला के पास अगर ऊपर से कोई लड़ाकू विमान गरजता हुआ निकले, तो हो सकता है वह रफ़ाल हो। भारत के पहले 5 रफ़ाल विमान फ़्रांस से उड़कर 29 जुलाई 2020 को अंबाला वायुसेना अड्डे पर उतरे थे। इन्हें 17 नंबर स्क्वाड्रन में शामिल किया गया, जिसे गोल्डन एरोज़ कहा जाता है। यह हवाई अड्डा इन विमानों से बहुत पुराना है। अंग्रेज़ों ने इसे 1919 में बनाया था और यह देश के सबसे पुराने हवाई अड्डों में से एक है।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "ambala",
+      "church",
+      "1965-war",
+      "st-pauls"
+    ],
+    "location": {
+      "lng": 76.828817,
+      "lat": 30.353622
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Haryana Tourism",
+    "sourceUrl": "https://haryanatourism.gov.in/places_of_interest/st-pauls-church/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The church with only its tower left",
+        "shortDescription": "St Paul's Church in Ambala Cantonment, consecrated in January 1857, was bombed in the 1965 war. Only its tower still stands.",
+        "longDescription": "In Ambala Cantonment stands a tall church tower with no church behind it. This was St Paul's, built by the British and consecrated on the fourth of January 1857, just months before the great revolt. During the 1965 war with Pakistan, an enemy aircraft bombed it. The main hall was destroyed and only the tower was left standing. The ruin now lies with the Indian Air Force, a quiet reminder of that war.",
+        "narrationHint": "Start with the image of the lone tower; steady, respectful tone."
+      },
+      "hi": {
+        "title": "वह गिरजाघर जिसकी सिर्फ़ मीनार बची है",
+        "shortDescription": "अंबाला छावनी का सेंट पॉल गिरजाघर जनवरी 1857 में शुरू हुआ था और 1965 की लड़ाई में बम से टूट गया। आज सिर्फ़ उसकी मीनार खड़ी है।",
+        "longDescription": "अंबाला छावनी में एक ऊँची मीनार खड़ी है, जिसके पीछे गिरजाघर नहीं है। यह सेंट पॉल गिरजाघर था, जिसे अंग्रेज़ों ने बनवाया था। इसमें 4 जनवरी 1857 को पूजा शुरू हुई, यानी बड़ी बग़ावत से कुछ ही महीने पहले। 1965 में पाकिस्तान के साथ लड़ाई के दौरान दुश्मन के एक विमान ने इस पर बम गिरा दिया। बड़ा हॉल टूट गया और सिर्फ़ मीनार बची। अब यह खंडहर भारतीय वायुसेना के पास है और उस लड़ाई की याद दिलाता है।"
+      }
+    }
+  },
+  {
+    "category": "industry",
+    "tags": [
+      "ambala",
+      "scientific-instruments",
+      "microscope",
+      "industry"
+    ],
+    "location": {
+      "lng": 76.84806,
+      "lat": 30.36194
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/haryana/ambala-scientific-industrys-survival-at-stake-due-to-cheaper-chinese-imports",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Your school microscope may have come from here",
+        "shortDescription": "Ambala is India's largest centre for making scientific instruments, with over 2,000 units making microscopes, lab glassware and teaching equipment.",
+        "longDescription": "Remember the microscope and the glass beakers in your school science lab? They may well have been made in Ambala. For about a hundred years this town has made scientific instruments: microscopes, laboratory glassware and teaching equipment. It is known as the City of Scientific Instruments. More than two thousand small and large units work in and around Ambala Cantonment. Lately many of them have been struggling against cheaper imports from China.",
+        "narrationHint": "Friendly, start like a question to the listener."
+      },
+      "hi": {
+        "title": "आपके स्कूल का माइक्रोस्कोप शायद यहीं बना हो",
+        "shortDescription": "अंबाला भारत में वैज्ञानिक उपकरण बनाने का सबसे बड़ा केंद्र है। यहाँ 2,000 से ज़्यादा इकाइयाँ माइक्रोस्कोप, काँच का सामान और पढ़ाई के उपकरण बनाती हैं।",
+        "longDescription": "स्कूल की विज्ञान प्रयोगशाला का माइक्रोस्कोप और काँच के बीकर याद हैं? हो सकता है वे अंबाला में बने हों। क़रीब 100 साल से यह शहर वैज्ञानिक उपकरण बना रहा है, जैसे माइक्रोस्कोप, प्रयोगशाला का काँच का सामान और पढ़ाई के उपकरण। इसे वैज्ञानिक उपकरणों का शहर कहा जाता है। अंबाला छावनी और उसके आसपास 2,000 से ज़्यादा छोटी-बड़ी इकाइयाँ यह काम करती हैं। पिछले कुछ सालों से चीन से आने वाले सस्ते माल ने इनकी मुश्किल बढ़ा दी है।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "zirakpur",
+      "chhatbir",
+      "zoo",
+      "lion-safari"
+    ],
+    "location": {
+      "lng": 76.7928,
+      "lat": 30.6036
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mahendra_Chaudhary_Zoological_Park",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A lion safari just off the highway",
+        "shortDescription": "Chhatbir Zoo near Zirakpur opened in 1977 and is one of the largest zoos in North India, with a lion safari.",
+        "longDescription": "Near Zirakpur, a few kilometres off the highway, is Chhatbir Zoo. It opened on the thirteenth of April 1977. Its official name honours Mahendra Mohan Chaudhary, the Punjab governor who opened it. The first animals came all the way from the Guwahati zoo in Assam. Spread over about two hundred hectares, it is among the largest zoos in North India. Visitors can take a lion safari and a deer safari.",
+        "narrationHint": "Bright, family-outing tone."
+      },
+      "hi": {
+        "title": "सड़क से ज़रा हटकर शेरों की सफ़ारी",
+        "shortDescription": "ज़ीरकपुर के पास छतबीड़ चिड़ियाघर 1977 में खुला था। यह उत्तर भारत के सबसे बड़े चिड़ियाघरों में से एक है और यहाँ शेरों की सफ़ारी भी है।",
+        "longDescription": "ज़ीरकपुर के पास, सड़क से कुछ किलोमीटर हटकर, छतबीड़ चिड़ियाघर है। यह 13 अप्रैल 1977 को खुला था। इसका सरकारी नाम पंजाब के उस समय के राज्यपाल महेंद्र मोहन चौधरी के नाम पर है, जिन्होंने इसे खोला था। यहाँ के पहले जानवर असम के गुवाहाटी चिड़ियाघर से लाए गए थे। क़रीब 200 हेक्टेयर में फैला यह चिड़ियाघर उत्तर भारत के सबसे बड़े चिड़ियाघरों में गिना जाता है। यहाँ आप शेरों की सफ़ारी और हिरणों की सफ़ारी कर सकते हैं।"
+      }
+    }
+  },
+  {
+    "category": "history",
+    "tags": [
+      "chandigarh",
+      "partition",
+      "le-corbusier",
+      "lahore"
+    ],
+    "location": {
+      "lng": 76.789677,
+      "lat": 30.703699
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A capital built because Lahore was lost",
+        "shortDescription": "Chandigarh was built as a new capital for Indian Punjab after Partition gave Lahore to Pakistan. Le Corbusier took over its planning in 1951.",
+        "longDescription": "You are entering a city that did not exist in 1947. When Partition gave Lahore to Pakistan, Indian Punjab was left without a capital, so a new one was built from scratch. The first planner was an American, Albert Mayer. He was dropped after his architect, Matthew Nowicki, died in a plane crash in 1950. Le Corbusier took over in 1951. The city's name comes from a temple of the goddess Chandi nearby.",
+        "narrationHint": "Start with a sense of arrival; clear and unhurried with the names."
+      },
+      "hi": {
+        "title": "लाहौर छिन गया, इसलिए बनी यह राजधानी",
+        "shortDescription": "बँटवारे में लाहौर पाकिस्तान के पास चला गया, इसलिए भारत के पंजाब के लिए चंडीगढ़ नई राजधानी के रूप में बसाया गया। 1951 में ल कार्बूज़िए ने इसकी योजना सँभाली।",
+        "longDescription": "आप ऐसे शहर में आ रहे हैं जो 1947 में था ही नहीं। बँटवारे में लाहौर पाकिस्तान के पास चला गया और भारत का पंजाब बिना राजधानी के रह गया। इसलिए बिल्कुल नए सिरे से एक राजधानी बनाई गई। पहले इसकी योजना अमरीका के अल्बर्ट मेयर बना रहे थे। 1950 में उनके वास्तुकार मैथ्यू नोविकी की हवाई हादसे में मौत हो गई और मेयर को हटा दिया गया। 1951 में ल कार्बूज़िए ने काम सँभाला। शहर का नाम पास के चंडी देवी के मंदिर से पड़ा है।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "chandigarh",
+      "sectors",
+      "sector-13",
+      "mani-majra"
+    ],
+    "location": {
+      "lng": 76.782589,
+      "lat": 30.740065
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/chandigarh/its-official-mani-majra-is-sector-13-39042",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The city that skipped the number thirteen",
+        "shortDescription": "Chandigarh's numbered sectors had no Sector 13 for decades. In 2020 the old town of Mani Majra was officially named Sector 13.",
+        "longDescription": "Chandigarh is laid out as a grid of numbered blocks called sectors, and people here give their address by sector number. But for decades the numbers jumped straight from twelve to fourteen. Le Corbusier left out thirteen, and it is widely believed he thought the number unlucky. The city finally got a Sector 13 only in 2020, when the old town of Mani Majra on its eastern side was officially given that name.",
+        "narrationHint": "Light and curious; a small pause before 'thirteen'."
+      },
+      "hi": {
+        "title": "वह शहर जिसने 13 नंबर छोड़ दिया",
+        "shortDescription": "चंडीगढ़ के नंबर वाले सेक्टरों में कई दशक तक 13 नंबर का सेक्टर नहीं था। 2020 में पुराने क़स्बे मनीमाजरा को सेक्टर 13 का नाम मिला।",
+        "longDescription": "चंडीगढ़ नंबर वाले खानों में बँटा है, जिन्हें सेक्टर कहते हैं, और यहाँ लोग अपना पता सेक्टर के नंबर से बताते हैं। पर कई दशक तक गिनती 12 से सीधे 14 पर पहुँच जाती थी। ल कार्बूज़िए ने 13 नंबर छोड़ दिया था। माना जाता है कि वे इस नंबर को अशुभ समझते थे। शहर को सेक्टर 13 आख़िरकार 2020 में मिला, जब इसके पूरब की तरफ़ के पुराने क़स्बे मनीमाजरा को सरकारी तौर पर यह नाम दे दिया गया।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "chandigarh",
+      "capitol-complex",
+      "unesco",
+      "le-corbusier"
+    ],
+    "location": {
+      "lng": 76.80472,
+      "lat": 30.75917
+    },
+    "interestingness": 8.0,
+    "confidence": 0.92,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh_Capitol_Complex",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Two states share this World Heritage complex",
+        "shortDescription": "Le Corbusier's Capitol Complex in Chandigarh holds the Secretariat, Assembly and High Court used by both Punjab and Haryana. UNESCO listed it in 2016.",
+        "longDescription": "At the northern edge of Chandigarh, below the Shivalik hills, stands the Capitol Complex. Le Corbusier designed its three great concrete buildings: the Secretariat, the Assembly and the High Court. Two states, Punjab and Haryana, share them, because Chandigarh is the capital of both. In 2016 UNESCO put the complex on its World Heritage list, as one of seventeen Le Corbusier works chosen from seven countries.",
+        "narrationHint": "Measured, with weight on 'two states' and 'World Heritage'."
+      },
+      "hi": {
+        "title": "दो राज्यों की साझा विश्व धरोहर",
+        "shortDescription": "चंडीगढ़ के कैपिटल कॉम्प्लेक्स में सचिवालय, विधानसभा और उच्च न्यायालय हैं, जिन्हें पंजाब और हरियाणा दोनों इस्तेमाल करते हैं। यूनेस्को ने 2016 में इसे विश्व धरोहर घोषित किया।",
+        "longDescription": "चंडीगढ़ के उत्तरी छोर पर, शिवालिक की पहाड़ियों के नीचे, कैपिटल कॉम्प्लेक्स है। ल कार्बूज़िए ने इसकी 3 बड़ी कंक्रीट की इमारतें बनाईं, यानी सचिवालय, विधानसभा और उच्च न्यायालय। पंजाब और हरियाणा, दोनों राज्य इन्हें मिलकर इस्तेमाल करते हैं, क्योंकि चंडीगढ़ दोनों की राजधानी है। 2016 में यूनेस्को ने इसे विश्व धरोहर की सूची में शामिल किया। यह 7 देशों से चुनी गई ल कार्बूज़िए की 17 रचनाओं में से एक है।"
+      }
+    }
+  },
+  {
+    "category": "architecture",
+    "tags": [
+      "chandigarh",
+      "open-hand",
+      "le-corbusier",
+      "monument"
+    ],
+    "location": {
+      "lng": 76.807404,
+      "lat": 30.759093
+    },
+    "interestingness": 8.0,
+    "confidence": 0.92,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Open_Hand_Monument",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A giant metal hand that turns with the wind",
+        "shortDescription": "The Open Hand, Le Corbusier's 26-metre monument and the symbol of Chandigarh, turns in the wind. It was completed in 1985, twenty years after his death.",
+        "longDescription": "The symbol of Chandigarh is a giant metal hand. The Open Hand monument rises twenty-six metres in the Capitol Complex and turns with the wind like a weather vane. The hand itself is fourteen metres tall and weighs about fifty tons. Le Corbusier said it was open to give and open to receive. He never saw it built. It was finished only in 1985, twenty years after he died.",
+        "narrationHint": "Paint the picture of the turning hand; soften for the last two lines."
+      },
+      "hi": {
+        "title": "हवा के साथ घूमता लोहे का बड़ा हाथ",
+        "shortDescription": "ओपन हैंड ल कार्बूज़िए का बनाया 26 मीटर ऊँचा स्मारक और चंडीगढ़ का निशान है। यह हवा के साथ घूमता है और उनकी मौत के 20 साल बाद 1985 में बनकर पूरा हुआ।",
+        "longDescription": "चंडीगढ़ का निशान धातु का एक बहुत बड़ा हाथ है। खुला हाथ नाम का यह स्मारक कैपिटल कॉम्प्लेक्स में 26 मीटर ऊँचा खड़ा है और हवा के साथ घूमता है। अकेला हाथ 14 मीटर ऊँचा है और उसका वज़न क़रीब 50 टन है। ल कार्बूज़िए कहते थे कि यह हाथ देने के लिए भी खुला है और लेने के लिए भी। वे इसे बनता हुआ नहीं देख पाए। यह 1985 में पूरा हुआ, उनकी मौत के 20 साल बाद।"
+      }
+    }
+  },
+  {
+    "category": "culture",
+    "tags": [
+      "chandigarh",
+      "rock-garden",
+      "nek-chand",
+      "sculpture"
+    ],
+    "location": {
+      "lng": 76.80663,
+      "lat": 30.753196
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nek_Chand",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The garden one man built in secret",
+        "shortDescription": "Road inspector Nek Chand secretly built a sculpture garden from waste in a forest gorge for eighteen years, until officials found it in 1975.",
+        "longDescription": "Nek Chand was a government road inspector in Chandigarh. In his spare time he gathered stones and waste from demolition sites and built sculptures in a forest gorge near Sukhna Lake. The land was protected, so his work was illegal, and he kept it hidden for eighteen years. Officials found it in 1975. Public support saved it from demolition. The city then gave him a salary and fifty workers. That is today's Rock Garden.",
+        "narrationHint": "Storytelling tone, like a secret being let out."
+      },
+      "hi": {
+        "title": "वह बाग़ जो एक आदमी ने छिपकर बनाया",
+        "shortDescription": "सड़क निरीक्षक नेक चंद ने 18 साल तक जंगल की एक खाई में कबाड़ से मूर्तियों का बाग़ छिपकर बनाया। 1975 में अफ़सरों को इसका पता चला।",
+        "longDescription": "नेक चंद चंडीगढ़ में सरकारी सड़क निरीक्षक थे। ख़ाली समय में वे टूटी इमारतों के मलबे से पत्थर और कबाड़ जमा करते और सुखना झील के पास जंगल की एक खाई में मूर्तियाँ बनाते। वह ज़मीन सुरक्षित जंगल थी, इसलिए यह काम ग़ैरक़ानूनी था। उन्होंने इसे 18 साल तक छिपाकर रखा। 1975 में अफ़सरों को इसका पता चला। लोगों के साथ ने इसे टूटने से बचा लिया। फिर शहर ने उन्हें तनख़्वाह और 50 मज़दूर दिए। यही आज का रॉक गार्डन है।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "chandigarh",
+      "sukhna-lake",
+      "le-corbusier",
+      "jeanneret"
+    ],
+    "location": {
+      "lng": 76.817675,
+      "lat": 30.741978
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Incredible India",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The lake where motorboats are not allowed",
+        "shortDescription": "Sukhna Lake was made in 1958 by damming a seasonal stream. Le Corbusier had motorboats banned on it to keep it quiet.",
+        "longDescription": "Sukhna Lake looks natural, but it was made in 1958 by damming the Sukhna Choe, a seasonal stream from the Shivalik hills. Le Corbusier wanted it kept peaceful. So motorboats are forbidden on the water, and vehicles are not allowed on the promenade along the dam. The lake covers about three square kilometres. The ashes of Pierre Jeanneret, Le Corbusier's cousin and Chandigarh's chief architect, were immersed here in 1970.",
+        "narrationHint": "Quiet, calm voice to match the subject."
+      },
+      "hi": {
+        "title": "वह झील जहाँ मोटर वाली नाव नहीं चलती",
+        "shortDescription": "सुखना झील 1958 में एक बरसाती नाले पर बाँध बनाकर तैयार की गई थी। ल कार्बूज़िए ने शांति बनाए रखने के लिए इसमें मोटर वाली नावों पर रोक लगवाई।",
+        "longDescription": "सुखना झील क़ुदरती लगती है, पर इसे 1958 में बनाया गया था। शिवालिक की पहाड़ियों से आने वाले बरसाती नाले सुखना चो पर बाँध बनाकर यह झील तैयार हुई। ल कार्बूज़िए चाहते थे कि यहाँ शांति बनी रहे। इसलिए पानी में मोटर वाली नाव चलाना मना है और बाँध के ऊपर की सैरगाह पर गाड़ियाँ नहीं चलतीं। झील क़रीब 3 वर्ग किलोमीटर में फैली है। ल कार्बूज़िए के चचेरे भाई और चंडीगढ़ के मुख्य वास्तुकार पियरे जेनरे की अस्थियाँ 1970 में इसी झील में बहाई गई थीं।"
+      }
+    }
+  },
+  {
+    "category": "nature",
+    "tags": [
+      "chandigarh",
+      "rose-garden",
+      "sector-16",
+      "roses"
+    ],
+    "location": {
+      "lng": 76.781477,
+      "lat": 30.745821
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Fifty thousand rose bushes in one garden",
+        "shortDescription": "Chandigarh's Zakir Hussain Rose Garden, set up in 1967, has about 50,000 rose bushes of 1,600 kinds across 30 acres.",
+        "longDescription": "In Sector 16 of Chandigarh there is a garden with about fifty thousand rose bushes of some sixteen hundred different kinds. The Zakir Hussain Rose Garden was set up in 1967 under Mohinder Singh Randhawa, Chandigarh's first chief commissioner, and it is named after President Zakir Hussain. It covers thirty acres. If you are here in February or March, look out for the Rose Festival, which the city holds every year.",
+        "narrationHint": "Pleasant and inviting; stress the big numbers."
+      },
+      "hi": {
+        "title": "एक ही बाग़ में 50,000 गुलाब के पौधे",
+        "shortDescription": "चंडीगढ़ का ज़ाकिर हुसैन रोज़ गार्डन 1967 में बना था। 30 एकड़ के इस बाग़ में 1,600 क़िस्मों के क़रीब 50,000 गुलाब के पौधे हैं।",
+        "longDescription": "चंडीगढ़ के सेक्टर 16 में एक ऐसा बाग़ है जहाँ क़रीब 1,600 क़िस्मों के लगभग 50,000 गुलाब के पौधे लगे हैं। ज़ाकिर हुसैन रोज़ गार्डन 1967 में चंडीगढ़ के पहले मुख्य आयुक्त महेंद्र सिंह रंधावा की देखरेख में बना था। इसका नाम राष्ट्रपति ज़ाकिर हुसैन के नाम पर रखा गया। यह 30 एकड़ में फैला है। अगर आप फ़रवरी या मार्च में यहाँ हों, तो गुलाब मेला ज़रूर देखिए, जो शहर में हर साल लगता है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandigarh",
+      "sector-17",
+      "coffee-house",
+      "cooperative"
+    ],
+    "location": {
+      "lng": 76.780603,
+      "lat": 30.740224
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/musings/for-that-old-cup-of-coffee-393025",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The coffee house run by its own workers",
+        "shortDescription": "The Indian Coffee House in Sector 17 belongs to a chain run by workers' cooperatives. The Chandigarh branch began in Sector 22 in the 1960s.",
+        "longDescription": "In Sector 17, the Indian Coffee House has poured the same coffee for decades. It belongs to a chain with an unusual story. In the 1950s the Coffee Board decided to close its coffee houses. The workers took them over and have run them as cooperatives ever since. The Chandigarh branch began in Sector 22 in the 1960s and later moved here. Order the filter coffee with a dosa or a plate of vegetable pakoras.",
+        "narrationHint": "Relaxed, a little nostalgic; clear on the order."
+      },
+      "hi": {
+        "title": "वह कॉफ़ी हाउस जिसे उसके कर्मचारी चलाते हैं",
+        "shortDescription": "सेक्टर 17 का इंडियन कॉफ़ी हाउस उस शृंखला का हिस्सा है जिसे कर्मचारियों की सहकारी समितियाँ चलाती हैं। चंडीगढ़ में यह 1960 के दशक में सेक्टर 22 से शुरू हुआ था।",
+        "longDescription": "सेक्टर 17 का इंडियन कॉफ़ी हाउस कई दशकों से वही कॉफ़ी पिला रहा है। यह जिस शृंखला का हिस्सा है, उसकी कहानी अलग है। 1950 के दशक में कॉफ़ी बोर्ड ने अपने कॉफ़ी हाउस बंद करने का फ़ैसला किया। तब कर्मचारियों ने उन्हें अपने हाथ में ले लिया और तब से सहकारी समितियाँ बनाकर ख़ुद चला रहे हैं। चंडीगढ़ में यह 1960 के दशक में सेक्टर 22 में शुरू हुआ और बाद में यहाँ आ गया। यहाँ फ़िल्टर कॉफ़ी के साथ डोसा या सब्ज़ी के पकौड़े मँगवाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandigarh",
+      "sector-28",
+      "dhaba",
+      "punjabi-food"
+    ],
+    "location": {
+      "lng": 76.80155,
+      "lat": 30.719101
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Outlook Traveller",
+    "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A dhaba tucked among the tyre shops",
+        "shortDescription": "Pal Dhaba in Chandigarh's Sector 28 market is one of the city's best-known dhabas, known for mutton rogan josh, keema kaleji and butter chicken.",
+        "longDescription": "In the Sector 28 market, in a lane full of car tyre shops, is Pal Dhaba, one of Chandigarh's best-known dhabas. It says it has been serving since 1960, though accounts of its age differ. People here argue over which dish is its best. The usual orders are mutton rogan josh, keema kaleji and butter chicken, with dal makhani on the side. Many finish the meal with a glass of lassi.",
+        "narrationHint": "Friendly and practical; no hype."
+      },
+      "hi": {
+        "title": "टायर की दुकानों के बीच छिपा ढाबा",
+        "shortDescription": "चंडीगढ़ के सेक्टर 28 के बाज़ार का पाल ढाबा शहर के सबसे जाने-माने ढाबों में है। यह मटन रोग़न जोश, क़ीमा कलेजी और बटर चिकन के लिए मशहूर है।",
+        "longDescription": "सेक्टर 28 के बाज़ार में, गाड़ियों के टायर की दुकानों के बीच, पाल ढाबा है। यह चंडीगढ़ के सबसे जाने-माने ढाबों में से एक है। ढाबे का कहना है कि यह 1960 से चल रहा है, हालाँकि इसकी उम्र के बारे में अलग-अलग बातें कही जाती हैं। यहाँ की सबसे अच्छी चीज़ कौन सी है, इस पर लोग बहस करते हैं। ज़्यादातर लोग मटन रोग़न जोश, क़ीमा कलेजी और बटर चिकन मँगवाते हैं, साथ में दाल मखनी। आख़िर में बहुत से लोग लस्सी का गिलास लेते हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandigarh",
+      "sector-23",
+      "chaat",
+      "street-food"
+    ],
+    "location": {
+      "lng": 76.766195,
+      "lat": 30.739918
+    },
+    "interestingness": 8.0,
+    "confidence": 0.78,
+    "sourceName": "Outlook Traveller",
+    "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The chaat booth Chandigarh keeps going back to",
+        "shortDescription": "Garg Chaat, a small booth in Chandigarh's Sector 23 market, is known for its papri chaat, mixed chaat plate and bhalla.",
+        "longDescription": "For chaat in Chandigarh, one name comes up again and again: Garg Chaat. It is a small booth, number thirty-four, in the Sector 23 market. People come for the papri chaat, crisp papri under curd and chutneys. The mixed chaat plate and the bhalla plate are the other usual orders, and there is paneer tikka too. It is a good quick stop if you want a snack rather than a full meal.",
+        "narrationHint": "Quick and appetising; keep it short and practical."
+      },
+      "hi": {
+        "title": "वह चाट की दुकान जहाँ चंडीगढ़ बार-बार लौटता है",
+        "shortDescription": "चंडीगढ़ के सेक्टर 23 के बाज़ार की छोटी सी दुकान गर्ग चाट अपनी पापड़ी चाट, मिक्स चाट और भल्ले के लिए जानी जाती है।",
+        "longDescription": "चंडीगढ़ में चाट की बात हो तो एक नाम बार-बार आता है, गर्ग चाट। यह सेक्टर 23 के बाज़ार में 34 नंबर की छोटी सी दुकान है। लोग यहाँ पापड़ी चाट खाने आते हैं, जिसमें करारी पापड़ी पर दही और चटनियाँ डाली जाती हैं। मिक्स चाट की प्लेट और भल्ले की प्लेट भी ख़ूब मँगवाई जाती है, और पनीर टिक्का भी मिलता है। अगर पूरा खाना नहीं, बस कुछ हल्का खाना हो, तो यह रुकने की अच्छी जगह है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandigarh",
+      "sector-9",
+      "kulcha",
+      "amritsari"
+    ],
+    "location": {
+      "lng": 76.789589,
+      "lat": 30.743183
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "The Tribune",
+    "sourceUrl": "https://www.tribuneindia.com/news/archive/life-style/amritsari-kulche-waali-gali-405585",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Two brothers who brought Amritsar's kulcha here",
+        "shortDescription": "Brothers' Kulcha Hub was started in 2010 by two brothers from Amritsar who missed the kulchas of home. Its Sector 9 booth is known for choor-choor kulcha.",
+        "longDescription": "Two brothers from Amritsar moved to Chandigarh and felt the food sold here as Amritsari did not taste like home. So in 2010 they opened their own shop, Brothers' Kulcha Hub. It did so well that other kulcha shops soon opened beside the first one. Their booth in Sector 9 is now a regular stop for kulcha lovers. Try the choor-choor kulcha or the paneer kulcha, with a glass of malai lassi.",
+        "narrationHint": "Warm, a small success story; clear on the order."
+      },
+      "hi": {
+        "title": "दो भाई जो अमृतसर का कुलचा यहाँ ले आए",
+        "shortDescription": "ब्रदर्स कुलचा हब 2010 में अमृतसर के दो भाइयों ने शुरू किया, जिन्हें घर जैसा कुलचा यहाँ नहीं मिलता था। सेक्टर 9 की इनकी दुकान चूर-चूर कुलचे के लिए जानी जाती है।",
+        "longDescription": "अमृतसर के दो भाई चंडीगढ़ आए तो उन्हें लगा कि यहाँ अमृतसरी के नाम पर जो खाना बिकता है, उसमें घर जैसा स्वाद नहीं है। इसलिए 2010 में उन्होंने अपनी दुकान खोली, ब्रदर्स कुलचा हब। दुकान इतनी चली कि पहली दुकान के पास कुलचे की और दुकानें खुल गईं। सेक्टर 9 की इनकी दुकान अब कुलचे के शौक़ीनों का पक्का ठिकाना है। यहाँ चूर-चूर कुलचा या पनीर कुलचा मँगवाइए, साथ में मलाई लस्सी का गिलास।"
+      }
+    }
+  }
+]

@@ -1,0 +1,1130 @@
+{
+ "version": "v1",
+ "createdOn": "2026-11-24",
+ "route": "Delhi to Chandigarh: National Highway 44 to Ambala, then the Ambala to Chandigarh highway, and Chandigarh city.",
+ "storyCount": 54,
+ "foodStories": 11,
+ "languages": [
+  "en",
+  "hi"
+ ],
+ "qualityNote": "Researched and written by AI helpers under a written brief, then read by an AI editor who dropped four stories. Every fact is listed per story with its source link; many history facts rest on Wikipedia. Not yet read by a person. Hindi not reviewed by a native editor.",
+ "coordinateNote": "Stories marked \"approximate\" are pinned to a town centre or the nearest findable landmark, not the exact spot. Check these on a map before relying on them.",
+ "approximateCoordinates": [
+  "One of five towns the Pandavas asked for",
+  "The ground that becomes a city each autumn",
+  "One arrow that saved Akbar's throne",
+  "Where the world's old clothes become blankets",
+  "Panipat's five-colour pickle",
+  "Two gates left from a Mughal inn",
+  "Ice cream made by dairy scientists",
+  "Two battles, one year apart, changed India",
+  "The town with a basmati named after it",
+  "A town built by refugees, from a swamp",
+  "You are crossing the land of the Gita",
+  "The small town that fills India's hockey team",
+  "The river that gave Shahabad its second name",
+  "Did 1857 begin here, hours before Meerut",
+  "Your school microscope may have come from here",
+  "The chaat booth Chandigarh keeps going back to"
+ ],
+ "foodStoriesToConfirmStillOpen": [
+  "Little Tibet, and a cold noodle called laphing",
+  "The tiny shop every North Campus student knows",
+  "The truck stop that became Murthal's biggest name",
+  "The village people drive to for paranthas",
+  "Panipat's five-colour pickle",
+  "Ice cream made by dairy scientists",
+  "The town with a basmati named after it",
+  "The coffee house run by its own workers",
+  "A dhaba tucked among the tyre shops",
+  "The chaat booth Chandigarh keeps going back to",
+  "Two brothers who brought Amritsar's kulcha here"
+ ],
+ "droppedByEditor": [
+  {
+   "title": "A highway dhaba built around a film star",
+   "reason": "Could not confirm it is still open; the seat count is the owners' own claim."
+  },
+  {
+   "title": "The milestones that are 400 years old",
+   "reason": "A second kos minar story; the Sonipat one names a real pillar, this one was pinned to Karnal city centre."
+  },
+  {
+   "title": "A Punjabi haveli built beside the highway",
+   "reason": "One magazine feature only, and its map point was 2 km from the real place."
+  },
+  {
+   "title": "The Ambala dhaba that everyone copies",
+   "reason": "Several dhabas use the name, one listing says the original was sold in 2022, and no source after 2018 confirms it."
+  }
+ ],
+ "stories": [
+  {
+   "title": "The gate that was blown open in 1857",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Kashmiri Gate, Delhi (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "Kashmiri Gate was the northern gate of Shahjahanabad, named for the road leading towards Kashmir.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kashmiri_Gate,_Delhi"
+    },
+    {
+     "fact": "On 14 September 1857 British forces used gunpowder to destroy the bridge and the left leaf of the gate, starting the final assault in the Siege of Delhi; a plaque on the gate commemorates this.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kashmiri_Gate,_Delhi"
+    },
+    {
+     "fact": "The Maharana Pratap Inter-State Bus Terminus at Kashmere Gate opened in 1976.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kashmiri_Gate,_Delhi"
+    }
+   ],
+   "note": "Wikipedia gives two different building dates for the gate (Shah Jahan's time and 1835), so the story does not say who built it."
+  },
+  {
+   "title": "The boatman who gave this place its name",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Gurudwara Majnu Tilla Sahib",
+   "facts": [
+    {
+     "fact": "The name means the hillock of Majnu; in the reign of Sikandar Lodi a Sufi named Abdulla, nicknamed Majnu, ferried people across the Yamuna for free and met Guru Nanak on 20 July 1505.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Majnu-ka-tilla"
+    },
+    {
+     "fact": "Sikh military leader Baghel Singh built the Majnu ka Tila gurdwara in 1783 to commemorate Guru Nanak's stay.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Majnu-ka-tilla"
+    }
+   ],
+   "note": "The meeting of Majnu and Guru Nanak is Sikh tradition, so it is worded as tradition. The 1783 gurdwara is a recorded fact."
+  },
+  {
+   "title": "Little Tibet, and a cold noodle called laphing",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for AMA Cafe, New Camp, Tibetan Colony, Majnu Ka Tila",
+   "facts": [
+    {
+     "fact": "The Tibetan colony is officially New Aruna Nagar; the land was allotted by the Government of India to the refugees in 1960, and it is nicknamed Little Tibet.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Majnu-ka-tilla"
+    },
+    {
+     "fact": "Laphing is a spicy mung bean noodle roll, served dry or in broth, sold at a kiosk near the monastery (article updated July 2023).",
+     "sourceUrl": "https://www.outlooktraveller.com/experiences/shopping/majnu-ka-tilla-heres-how-to-spend-a-day-at-delhis-mini-tibet"
+    },
+    {
+     "fact": "AMA Cafe is recommended for hot brews, banana muffin and mud cake; the article also recommends tingmo and thukpa at the colony's restaurants.",
+     "sourceUrl": "https://www.outlooktraveller.com/experiences/shopping/majnu-ka-tilla-heres-how-to-spend-a-day-at-delhis-mini-tibet"
+    }
+   ],
+   "note": "Sources differ a little on the colony's start (1959, 1960 or 1962). The story uses the 1960 land allotment given on Wikipedia."
+  },
+  {
+   "title": "A bridge tower twice as tall as Qutb Minar",
+   "category": "infrastructure",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Signature Bridge (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "Signature Bridge is a cantilever spar cable-stayed bridge across the Yamuna at Wazirabad, opened on 4 November 2018; its pylon is 165 metres high, about twice the height of the Qutb Minar.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Signature_Bridge"
+    },
+    {
+     "fact": "The old Wazirabad bridge was built in the 14th century by Firoz Shah Tughlaq (reigned 1351 to 1388); it is made of rubble, has nine arches, and has been resurfaced for modern vehicles.",
+     "sourceUrl": "https://www.livehistoryindia.com/story/monuments/wazirabad-bridge-a-tughlaq-era-marvel"
+    }
+   ],
+   "note": "The old bridge now crosses a drain, not the main river. Coordinates are for the Signature Bridge."
+  },
+  {
+   "title": "The tiny shop every North Campus student knows",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Chache di Hatti, Kamla Nagar",
+   "facts": [
+    {
+     "fact": "Chache di Hatti is in Kamla Nagar; its chole is made without onion, garlic or tomato, the bhature are soft and light, and you may have to wait for your plate.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/check-out-these-5-spots-for-delhis-best-chhole-bhature"
+    },
+    {
+     "fact": "Second-generation owner Kawal Kishor Saluja told The Indian Express that North Campus students know the shop and that Amitabh Bachchan used to come from his college to eat here; the shop is about 10 feet by 4 feet and the aloo chole bhature is recommended (article dated 8 January 2024).",
+     "sourceUrl": "https://www.thebetterindia.com/337715/best-chole-bhature-eateries-in-delhi-chache-di-hatti-sita-ram-diwan-chand-civil-lines-virat-kohli-ranveer-brar/"
+    }
+   ],
+   "note": "No reliable source gives the founding year, so none is stated. The Amitabh Bachchan detail is the owner's own claim and is worded that way. Kamla Nagar is about 3 kilometres west of the Ring Road at Majnu ka Tila."
+  },
+  {
+   "title": "Where the statues of the Raj were sent",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Coronation Park, Delhi (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "Coronation Park is on Burari Road near Nirankari Sarovar; the Delhi Durbars of 1877, 1903 and 1911 were held at this site, and a sandstone obelisk marks the spot.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Park,_Delhi"
+    },
+    {
+     "fact": "The marble statue of George V, about 15 metres high, was moved here in the 1960s from the canopy opposite India Gate; of 19 pedestals built, most are vacant.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Park,_Delhi"
+    },
+    {
+     "fact": "Marble statues of George V and British viceroys were moved to the park in the 1960s; the obelisk stands where the 1911 Coronation Durbar was held.",
+     "sourceUrl": "https://www.aljazeera.com/news/2023/5/3/delhis-coronation-park-a-neglected-site-of-indias-colonial-past"
+    }
+   ],
+   "note": "The story avoids the capital announcement of 1911, which is already a live story. Wikipedia gives both 'mid-1960s' and August 1968 for the move of the statue, so the story says 'in the 1960s'. The park is about 3 kilometres from the Outer Ring Road."
+  },
+  {
+   "title": "Where Delhi's fruit and vegetables come from",
+   "category": "industry",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Azadpur Mandi Office",
+   "facts": [
+    {
+     "fact": "Azadpur Mandi is described as Asia's largest fruit and vegetable hub market and covers more than 80 acres.",
+     "sourceUrl": "https://thecrimson.com/article/2012/8/13/harvard-delhi-postcard"
+    },
+    {
+     "fact": "Azadpur Mandi is considered the largest vegetable and fruit market in Asia.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Azadpur"
+    },
+    {
+     "fact": "The market committee's page says the market was built by the Delhi Development Authority in 1977, when the old Barafkhana vegetable market was moved here.",
+     "sourceUrl": "https://delagrimarket.nic.in/general%20info/ginfo_azadpur.html"
+    }
+   ],
+   "note": "The market committee's page could not be opened directly; its 1977 date came through a search summary, so the story only says 'in the 1970s'. Area figures vary by source (about 44 to over 90 acres); 'more than 80 acres' is from the Harvard Crimson. 'Largest in Asia' is worded as a common description."
+  },
+  {
+   "title": "The 1857 battle fought across this road",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Battle of Badli-ki-Serai (matches OpenStreetMap for Badli ki Sarai)",
+   "facts": [
+    {
+     "fact": "The Battle of Badli-ki-Serai was fought on 8 June 1857; the British were led by Major-General Sir Henry Barnard and captured the village, serai and rebel artillery.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Badli-ki-Serai"
+    },
+    {
+     "fact": "After the battle the British occupied the Delhi Ridge; the siege lasted about three and a half months. The site is at the gateways of Badli ki Sarai, near Adarsh Nagar.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Badli-ki-Serai"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The tall memorial at Delhi's northern door",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Guru Tegh Bahadur Memorial, Grand Trunk Road",
+   "facts": [
+    {
+     "fact": "The Guru Tegh Bahadur Memorial is near the Singhu Border on G.T. Karnal Road, spread over 11.87 acres; the central pylon is 24 metres high with petals at the base representing the Guru and his strength.",
+     "sourceUrl": "https://delhitourism.gov.in/tourist_place/gtb.html"
+    },
+    {
+     "fact": "The three C-shaped arches denote his three followers and the monoliths represent the ten Sikh Gurus with their sayings inscribed; it was set up by the Government of Delhi at an entry point to the city.",
+     "sourceUrl": "https://delhitourism.gov.in/tourist_place/gtb.html"
+    },
+    {
+     "fact": "In June 2025 the Delhi government announced plans to renovate the memorial and start a light and sound show.",
+     "sourceUrl": "https://www.tribuneindia.com/news/delhi/renovation-of-guru-tegh-bahadurs-memorial-at-singhu-border-on-cards"
+    }
+   ],
+   "note": "No reliable source gave the year the memorial opened, so none is stated."
+  },
+  {
+   "title": "The old road from Bengal to Kabul",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point on Grand Trunk Road at Alipur, Delhi",
+   "facts": [
+    {
+     "fact": "The Grand Trunk Road is one of Asia's oldest and longest roads, running about 3,655 kilometres between Bengal and Kabul; Sher Shah Suri repaired and widened it in the 16th century and built caravanserais along it.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Trunk_Road"
+    },
+    {
+     "fact": "In Kim, Kipling calls the road 'such a river of life as nowhere else exists in the world'. National Highway 44 follows it from Delhi to Jalandhar.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Trunk_Road"
+    },
+    {
+     "fact": "Sher Shah Suri ruled Hindustan from 17 May 1540 to 22 May 1545 and issued the first rupiya, a silver coin that is the forerunner of the modern rupee.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sher_Shah_Suri"
+    }
+   ],
+   "note": "A story about the road itself, placed at a real point on the highway at Alipur."
+  },
+  {
+   "title": "The brick pillars that were once milestones",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia list of Monuments of National Importance in Haryana, coordinates for Akbarpur Barota Mughal Kos Minar (N-HR-80)",
+   "facts": [
+    {
+     "fact": "Kos minars are solid round pillars about 30 feet (9.1 metres) high, introduced by Sher Shah Suri at every kos and continued by the Mughal emperors; a kos is roughly 3.2 kilometres.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kos_Minar"
+    },
+    {
+     "fact": "Sonipat district has protected kos minars at Akbarpur Barota, Bayanpur, Ganaur, Jagdishpur, Jawahri, Panchi Gujran, Rajpur and Sonipat city; Akbarpur Barota is at 28°53′44″N 77°04′10″E.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Monuments_of_National_Importance_in_Haryana"
+    },
+    {
+     "fact": "Haryana's kos minars were built in the reigns of Sher Shah Suri, Akbar and Jahangir and guided travellers along the Grand Trunk Road; a 2023 to 2025 survey documented 47 in the state.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/many-kos-minars-stand-tall-but-some-cry-for-attention-survey"
+    }
+   ],
+   "note": "The listed coordinates put most Sonipat minars 4 to 6 kilometres west of National Highway 44, along the railway line. The story says only that they stand west of the highway. The Akbarpur Barota minar is about 4.5 kilometres from the highway near Rai. Some coordinates in the Wikipedia list look doubtful (for example Ganaur), so only Akbarpur Barota is used."
+  },
+  {
+   "title": "A school where sport counts like studies",
+   "category": "sport",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Motilal Nehru School of Sports (close to OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "The Motilal Nehru School of Sports, Rai, was founded by the Government of Haryana in July 1973; it is a fully residential co-educational school on 300 acres, and Randeep Hooda is among its alumni.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Motilal_Nehru_School_of_Sports"
+    },
+    {
+     "fact": "The Sports University of Haryana was established at Rai in 2022 under a state act.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Motilal_Nehru_School_of_Sports"
+    },
+    {
+     "fact": "A separate university has been set up on the school premises, and the school is under the administrative control of the university's Vice-Chancellor.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/rai-school-to-be-under-control-of-sports-university-vice-chancellor-631433"
+    }
+   ],
+   "note": "Wikipedia describes the university as the former school, while The Tribune says the school continues under the university's control. The story says only that the university was set up at Rai."
+  },
+  {
+   "title": "One of five towns the Pandavas asked for",
+   "category": "culture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) town centre of Sonipat",
+   "facts": [
+    {
+     "fact": "The name Sonipat comes from Sonpat, meaning suvarna prastha (gold place); a popular tradition counts it among five patas or prasthas demanded by Yudhishthira from Duryodhana, with Indraprastha, Panipat, Talpat and Baghpat.",
+     "sourceUrl": "https://sonipat.gov.in/history/"
+    },
+    {
+     "fact": "Panini's Ashtadhyayi mentions Sonaprastha among towns whose names end in prastha.",
+     "sourceUrl": "https://sonipat.gov.in/history/"
+    }
+   ],
+   "note": "A tradition, marked as such. The district site also gives a second tradition (founding by Raja Soni), which is left out. Sonipat town centre is about 7 kilometres west of the highway."
+  },
+  {
+   "title": "A Lodi tomb hidden among Sonipat's houses",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Khwaja Khizr Tomb (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "The tomb, in Jatwara, Sonipat, was built in 1522 to 1524 by Ibrahim Lodi; it sits among shops and houses, on a high platform, built of kankar blocks, red sandstone and lakhauri bricks, with a ceiling painted with floral designs.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/sonepats-hidden-treasure-the-tomb-of-khwaja-khizr-635462/"
+    },
+    {
+     "fact": "It commemorates the saint Khwaja Khizr, son of Darya Khan, a noble of the Lodi court named in a Persian inscription; the monument is under the Archaeological Survey of India.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Khwaja_Khizr_Tomb"
+    },
+    {
+     "fact": "Ibrahim Lodi was killed at the First Battle of Panipat in 1526.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ibrahim_Lodi"
+    }
+   ],
+   "note": "Sources differ on whose court Darya Khan served (Sikandar Lodi in The Tribune, Ibrahim Lodi on Wikipedia), so the story says only 'the Lodi court'. One weaker source names a different builder; the story says 'in the time of Ibrahim Lodi'. The tomb is about 7.5 kilometres west of the highway."
+  },
+  {
+   "title": "The truck stop that became Murthal's biggest name",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Amrik Sukhdev, Grand Trunk Road",
+   "facts": [
+    {
+     "fact": "Prakash Singh set up his dhaba in Murthal in 1956 after truck drivers suggested the place; the first menu had rotis, dal and three kinds of paranthas, and by the early 1960s truckers could bathe, sleep on coir beds and drink tea there.",
+     "sourceUrl": "https://scroll.in/article/1067566/these-innovations-have-made-amrik-sukhdev-dhaba-in-murthal-the-truck-drivers-favourite-since-1967"
+    },
+    {
+     "fact": "Founded in 1956 by Sardar Prakash Singh, serving truck drivers seated on charpais in the open; his sons Amrik and Sukhdev joined in 1990; open round the clock, with 5,000 to 10,000 visitors a day (article of July 2025).",
+     "sourceUrl": "https://www.tribuneindia.com/news/delhi/no-ads-just-paranthas-this-haryana-dhaba-serves-10000-daily-earns-rs-100-crore-annually"
+    },
+    {
+     "fact": "Ranked 13th on the TasteAtlas list of 100 most iconic restaurants in the world (January 2025); known for its aloo parantha served with butter, pickles and yoghurt.",
+     "sourceUrl": "https://www.outlooktraveller.com/News/murthals-amrik-sukhdev-is-now-among-the-13-iconic-eateries-in-the-world"
+    },
+    {
+     "fact": "Known for stuffed paranthas, white butter and lassi.",
+     "sourceUrl": "https://www.businesstoday.in/latest/photo/from-murthal-to-ladakh-6-north-indian-dhabas-that-became-legendary-549244-2026-08-15"
+    }
+   ],
+   "note": "The first dhaba stood a few kilometres from the present site; the present building opened in 2000 (Scroll). Revenue figures seen in news reports come from a social media video and are left out."
+  },
+  {
+   "title": "The village people drive to for paranthas",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Pahalwan Dhaba, Grand Trunk Road, Murthal",
+   "facts": [
+    {
+     "fact": "Pahalwan Dhaba was drawing travellers before Murthal became a famous food highway and is known for large stuffed paranthas with homemade butter (photo feature of August 2026).",
+     "sourceUrl": "https://www.businesstoday.in/latest/photo/from-murthal-to-ladakh-6-north-indian-dhabas-that-became-legendary-549244-2026-08-15"
+    },
+    {
+     "fact": "Murthal is about 45 kilometres from New Delhi on the Delhi to Amritsar highway and is notable for its highway dhabas.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Murthal"
+    },
+    {
+     "fact": "Dhabas were once frequented only by truck drivers; dhabas in Murthal on the Grand Trunk Road are known for the Murthal parantha.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Dhaba"
+    }
+   ],
+   "note": "No reliable source gives a founding year for Pahalwan Dhaba, so none is stated. Gulshan Dhaba is also called one of the oldest by food sites, but only weaker sources say so, and it is left out."
+  },
+  {
+   "title": "The ground that becomes a city each autumn",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Bhodwal Majri, the village and railway station next to the gathering grounds; the complex itself was not found on the map",
+   "facts": [
+    {
+     "fact": "The 78th annual Nirankari Sant Samagam was held at the Sant Nirankari Spiritual Complex along GT Road, Samalkha, spread over nearly 650 acres, from 31 October to 3 November 2025; attendance was expected to exceed 10 lakh, with devotees from 25 countries.",
+     "sourceUrl": "https://ianslive.in/78th-nirankari-sant-samagam-in-samalkha-draws-devotees-from-25-countries-over-1-lakh-volunteers-serve-langar--20251031233349"
+    },
+    {
+     "fact": "The community kitchens ran 24 hours and produced nearly 3 lakh chapatis every 24 hours, as reported by the organisers.",
+     "sourceUrl": "https://ianslive.in/78th-nirankari-sant-samagam-in-samalkha-draws-devotees-from-25-countries-over-1-lakh-volunteers-serve-langar--20251031233349"
+    },
+    {
+     "fact": "Bhodwal Majri lies between the Grand Trunk Road and the Ambala to Delhi railway line near Samalkha; the mission says its station is adjacent to the gathering grounds.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bhodwal_Majri"
+    }
+   ],
+   "note": "All crowd and kitchen numbers are the organisers' own figures and are worded that way. The gathering has been held in late October or November in recent years. Coordinates are for the neighbouring village, not the complex gate."
+  },
+  {
+   "title": "The mosque Babur built after winning Panipat",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Kabuli Bagh Mosque",
+   "facts": [
+    {
+     "fact": "Kabuli Bagh Mosque was built in 1527 by Babur to mark his victory over Ibrahim Lodi at the First Battle of Panipat in 1526.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kabuli_Bagh_Mosque"
+    },
+    {
+     "fact": "The First Battle of Panipat was fought on 21 April 1526; Babur's army was about 12,000 strong and had cannons and matchlocks; Ibrahim's army was reported at 50,000 to 70,000 with war elephants and no gunpowder arms.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat"
+    },
+    {
+     "fact": "The noise of cannon panicked the elephants; Ibrahim was killed; the victory marked the beginning of Mughal rule in India.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat"
+    }
+   ],
+   "note": "Army sizes differ between sources, so the text only says Lodi's army was far bigger."
+  },
+  {
+   "title": "A sultan's plain grave in a Panipat park",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Tomb of Ibrahim Lodhi, Panipat",
+   "facts": [
+    {
+     "fact": "Ibrahim Lodi was the last ruler of the Lodi dynasty, reigning from 1517 until he was defeated and killed at Panipat by Babur's army in 1526.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Ibrahim_Lodi"
+    },
+    {
+     "fact": "The tomb is a simple rectangular structure on a high platform approached by a flight of steps; it is often mistaken to be the Shisha Gumbad in Lodi Gardens, Delhi.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Ibrahim_Lodi"
+    },
+    {
+     "fact": "In 1866 the British relocated and renovated the tomb during construction of the Grand Trunk Road.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Ibrahim_Lodi"
+    },
+    {
+     "fact": "The tomb is in a park in the Tehsil Camp area, built of Lakhauri bricks; an inscription says it was rebuilt during British rule in 1867; it is an ASI protected monument.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/etched-in-stone-memory-of-first-battle-of-panipat-slowly-withering-away/"
+    }
+   ],
+   "note": "Wikipedia says the British relocated the tomb in 1866; The Tribune (April 2026) says an inscription gives 1867 for rebuilding. The text says 'in the 1860s' and 'repaired'."
+  },
+  {
+   "title": "One arrow that saved Akbar's throne",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Shodapur village, Panipat, where Hemu's memorial is said to stand; the memorial itself was not found on the map",
+   "facts": [
+    {
+     "fact": "The Second Battle of Panipat was fought on 5 November 1556 between the Mughals under Akbar and Hemu, who had taken Delhi and Agra and crowned himself Vikramaditya.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Panipat"
+    },
+    {
+     "fact": "Hemu led his army from an elephant; on the cusp of victory he was struck in the eye by an arrow and collapsed; his army broke and fled; he was captured and beheaded. Akbar was 13.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Panipat"
+    },
+    {
+     "fact": "Hemu's Samadhi Sthal is a memorial at Shodapur village on Jind road near Panipat city.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hemu%27s_Samadhi_Sthal"
+    }
+   ],
+   "note": "Sources differ on who struck the final blow (Akbar or Bairam Khan), so the text does not say. The memorial site is reported to be neglected and disputed; the story only says it stands there."
+  },
+  {
+   "title": "The black mango tree of Panipat",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Overpass) result for Panipat Battle Field Memorial (Kala Amb)",
+   "facts": [
+    {
+     "fact": "The Third Battle of Panipat took place on 14 January 1761 between the Maratha army led by Sadashivrao Bhau and the Durrani army of Ahmad Shah Durrani; it is considered one of the largest battles of the 18th century, with an estimated 60,000 to 70,000 killed in the fighting.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat"
+    },
+    {
+     "fact": "Kala Amb is about 8 km from Panipat city; a red obelisk marks where Sadashiv Rao Bhau fell; by local tradition a black mango tree stood here and Bhau fought his last action under it; the tree no longer exists.",
+     "sourceUrl": "https://panipat.gov.in/tourist-place/the-kala-amb-park/"
+    }
+   ],
+   "note": "The black mango tree is a local tradition and is worded as such."
+  },
+  {
+   "title": "Panipat's saint, visited by every faith",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Shrine of Hazrat Bu-Ali Shah Qalandar, Panipat",
+   "facts": [
+    {
+     "fact": "Bu Ali Shah Qalandar was a Sufi saint whose dargah is in Panipat; one account says he was born in 1209 and lived till 1324; he left a collection of Persian poetry.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bu_Ali_Shah_Qalandar"
+    },
+    {
+     "fact": "The dargah, mosque and enclosure at Qalandar Chowk were constructed by Mahabat Khan, a general in the service of Jahangir.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bu_Ali_Shah_Qalandar"
+    },
+    {
+     "fact": "People from all walks of life, Hindus, Muslims, Sikhs and Christians, visit the tomb and offer prayers each Thursday and during the annual Urs.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bu_Ali_Shah_Qalandar"
+    }
+   ],
+   "note": "The saint's dates (1209 to 1324) come from one traditional account, so the text says 'is said to have lived here about seven hundred years ago'."
+  },
+  {
+   "title": "Where the world's old clothes become blankets",
+   "category": "industry",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Panipat Bus Stand on the Grand Trunk Road, used as a point on the highway for a story about the whole town",
+   "facts": [
+    {
+     "fact": "About 300 tonnes of discarded cloth are recycled daily in around 200 spinning mills in Panipat district (July 2025).",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/handloom-city-panipat-weaves-worlds-largest-recycling-empire"
+    },
+    {
+     "fact": "Rags are imported from Germany, Spain, Belgium, Italy, France, Canada, Bangladesh and the United States; cloth is sorted by colour so no chemical dyes are used; the yarn goes into blankets, bath mats, carpets and more; 80 to 90 percent of the recycled yarn is exported.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/handloom-city-panipat-weaves-worlds-largest-recycling-empire"
+    },
+    {
+     "fact": "Panipat is known as the 'city of weavers' and 'cast-off clothes capital' of the world.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Panipat"
+    }
+   ],
+   "note": "The claim that Panipat is the single biggest hub comes from an industry voice in The Tribune, so the text says 'one of the world's biggest'. Tonnage figures vary a lot between reports."
+  },
+  {
+   "title": "Panipat's five-colour pickle",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Pachranga Bazar, Panipat; the pickle shops themselves are spread along the highway",
+   "facts": [
+    {
+     "fact": "The Pachranga brand was created by Murli Dhar Dhingra; the family says its roots are in Pakistan with first outlets in the 1930s, and that the family brought the business to India in 1943.",
+     "sourceUrl": "https://www.tribuneindia.com/news/archive/features/spice-of-life-surrender-to-panipat-pickle-181599"
+    },
+    {
+     "fact": "Panipat had 15 to 20 pickle factories and about 100 outlets on both sides of the highway (January 2016).",
+     "sourceUrl": "https://www.tribuneindia.com/news/archive/features/spice-of-life-surrender-to-panipat-pickle-181599"
+    },
+    {
+     "fact": "Pachranga means five colours; the vegetables are matured in mustard oil and whole spices, with ingredients like raw mango, chickpeas, lotus stem, karonda and lime.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Panipat"
+    }
+   ],
+   "note": "Several unrelated makers sell under the Pachranga name, so the story names the pickle and not one shop. The origin dates are the family's own account. The Tribune feature is from 2016; shop counts may have changed."
+  },
+  {
+   "title": "Two gates left from a Mughal inn",
+   "category": "architecture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Gharaunda town centre; the sarai gateways were not found on the map",
+   "facts": [
+    {
+     "fact": "Feroz Khan built the sarai at Gharaunda in 1637 during the reign of Shah Jahan; it was quadrangular with cells on all four sides.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gharuanda_Gateways_of_Old_Mughal_Sarai"
+    },
+    {
+     "fact": "Two gateways remain, about 100 metres apart, each of three storeys in Lakhauri brick with panels, balconies and rounded towers.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gharuanda_Gateways_of_Old_Mughal_Sarai"
+    },
+    {
+     "fact": "Gharaunda lies on the Grand Trunk Road and has the Mughal sarai gateway and kos minars.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gharaunda"
+    }
+   ],
+   "note": "Sources give 1632, 1637 or 1638 for the building date, so the text says only 'in the time of Shah Jahan' and the short description says 'the 1630s'. Whether the gates can be seen from the present highway was not confirmed, so the text says they stand 'in the town'."
+  },
+  {
+   "title": "The lake where Karna gave away his armour",
+   "category": "culture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Karna Lake, Uchana, Karnal",
+   "facts": [
+    {
+     "fact": "Folklore has it that Karna used to bathe in this lake and that here he gave away his protective armour to Indra; the city of Karnal is surmised to derive its name from Karna.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karna_Lake"
+    },
+    {
+     "fact": "Karna Lake is about 125 km from both Chandigarh and Delhi, a midway halt on the Grand Trunk Road, maintained by Haryana Tourism Corporation.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karna_Lake"
+    },
+    {
+     "fact": "According to local tradition, the city is believed to have been named after Karna of the Mahabharata.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karnal"
+    }
+   ],
+   "note": "All of this is legend and is worded that way. 'Karna never refused a gift' is the well-known Mahabharata tradition about him, not from the cited page."
+  },
+  {
+   "title": "The world's first cloned buffalo was born here",
+   "category": "science",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for National Dairy Research Institute, Karnal",
+   "facts": [
+    {
+     "fact": "The world's first buffalo calf through the hand-guided cloning technique was born on 6 February 2009 at NDRI, Karnal, and died within 7 days; the second cloned calf, Garima, was born on 6 June 2009 weighing 43 kg; somatic cells from the ear of a donor buffalo were used.",
+     "sourceUrl": "https://www.icar.org.in/en/node/3906"
+    },
+    {
+     "fact": "The institute was shifted to its present site in Karnal in 1955 and renamed National Dairy Research Institute.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/National_Dairy_Research_Institute"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "Ice cream made by dairy scientists",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for National Dairy Research Institute on NDRI Main Road, Karnal; the parlour at the main gate was not found separately",
+   "facts": [
+    {
+     "fact": "NDRI's Experimental Dairy was set up in 1961; surplus milk is converted into dairy products; the milk parlour is located at the main entrance gate of the Institute and sells table butter, paneer, cheese, ice cream, kalakand and more.",
+     "sourceUrl": "https://www.ndri.res.in/experimental-dairy"
+    },
+    {
+     "fact": "NDRI is a public research institute and deemed university at Karnal under the Indian Council of Agricultural Research.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/National_Dairy_Research_Institute"
+    }
+   ],
+   "note": "Source is the institute's own page; no newspaper feature on the parlour was found. Opening hours were not confirmed. The institute is inside Karnal city, a short way off the highway bypass."
+  },
+  {
+   "title": "The Karnal girl who went to space",
+   "category": "science",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Overpass) result for Kalpana Chawla Government Medical College and Hospital, Karnal, which is named after her",
+   "facts": [
+    {
+     "fact": "Kalpana Chawla (17 March 1962 – 1 February 2003) was born in Karnal; she was the first woman of Indian heritage to fly into space; she flew on STS-87 in 1997 and STS-107 in 2003; Columbia disintegrated on its return, killing all seven on board.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kalpana_Chawla"
+    },
+    {
+     "fact": "She developed an interest in flight after observing a plane passing over her at the age of three; she attended Tagore Baal Niketan Senior Secondary School.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kalpana_Chawla"
+    },
+    {
+     "fact": "Kalpana Chawla Government Medical College, Karnal, was established in 2017 and is named in her honour.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kalpana_Chawla_Government_Medical_College"
+    }
+   ],
+   "note": "The story is placed at the medical college named after her, since her birthplace has no single marked spot."
+  },
+  {
+   "title": "Two battles, one year apart, changed India",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Taraori town; the exact battlefield is not known",
+   "facts": [
+    {
+     "fact": "The First Battle of Tarain was fought in 1191 between Muhammad of Ghor and Prithviraj Chauhan near Tarain (modern Taraori); the Rajputs won and Muhammad of Ghor managed to escape.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/First_Battle_of_Tarain"
+    },
+    {
+     "fact": "The Second Battle of Tarain was fought in 1192 near modern Taraori; Muhammad, seriously injured in the first battle, returned; the Ghurids attacked the Chahamana army before sunrise and won decisively; the battle laid the foundation for the Delhi Sultanate.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Tarain"
+    },
+    {
+     "fact": "Taraori is also known as Tarain; it lies 14 km north of Karnal off National Highway 44.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taraori"
+    }
+   ],
+   "note": "Medieval accounts of army sizes are thought to be exaggerated, so no numbers are given."
+  },
+  {
+   "title": "The town with a basmati named after it",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Taraori railway station on the Grand Trunk Road, used as a point for a story about the town's rice",
+   "facts": [
+    {
+     "fact": "The Rice Research Station at Kaul released Taraori Basmati; it is still used as the quality check in the national basmati rice improvement programme.",
+     "sourceUrl": "https://hau.ac.in/page/home-23"
+    },
+    {
+     "fact": "Most of Taraori's population works in agriculture, particularly basmati rice; the town has a large number of rice mills and a grain market.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taraori"
+    }
+   ],
+   "note": "This is a 'local speciality' food story, not a shop. The source says Taraori Basmati is the 'quality check' in the national programme; 'tested against it for cooking and eating quality' is my plain wording of that."
+  },
+  {
+   "title": "A town built by refugees, from a swamp",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Nilokheri town",
+   "facts": [
+    {
+     "fact": "S.K. Dey created Nilokheri to resettle refugees from Pakistan; 500 acres of marshy jungle land were allotted; Dey came to Kurukshetra in 1948 and the township was built within two years; it was meant for up to 7,000 displaced persons from camps in Kurukshetra and Ambala.",
+     "sourceUrl": "https://www.tribuneindia.com/2006/20060923/saturday/main1.htm"
+    },
+    {
+     "fact": "Small houses replaced tents; the plan had a circular Gol Market, farmland, a dairy and workshops; Nehru wanted 'many more Nilokheris' across the country.",
+     "sourceUrl": "https://www.tribuneindia.com/2006/20060923/saturday/main1.htm"
+    },
+    {
+     "fact": "Dey's model became the Mazdoori Manzil project at Nilokheri, designed to rehabilitate 7,000 refugees from Pakistan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/S._K._Dey"
+    }
+   ],
+   "note": "Start dates differ a little between sources (1948 in The Tribune, 1950 for the formal project on Wikipedia)."
+  },
+  {
+   "title": "You are crossing the land of the Gita",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Pipli on the Grand Trunk Road, the highway turn-off for Kurukshetra; used as a point on the highway for a story about the region",
+   "facts": [
+    {
+     "fact": "According to Hindu tradition, Krishna delivered the Bhagavad Gita to Arjuna at Jyotisar beneath a banyan tree; a local banyan, traditionally considered an offshoot of the original tree, stands on a raised plinth at the site.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Jyotisar"
+    },
+    {
+     "fact": "The 48 kos parikrama is a pilgrimage circuit of Mahabharata-related sites around Kurukshetra.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/48_kos_parikrama"
+    }
+   ],
+   "note": "Jyotisar itself is about 12 km west of the highway (measured from its Wikipedia coordinates), which is beyond the 8 km limit, so it has no story of its own. This is a region story placed at Pipli on the highway."
+  },
+  {
+   "title": "The tank that fills up at every eclipse",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Brahma Sarovar, Thanesar, Kurukshetra",
+   "facts": [
+    {
+     "fact": "Brahma Sarovar is 3600 feet long and 1500 feet wide.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Brahma_Sarovar"
+    },
+    {
+     "fact": "It is believed that bathing there during a solar eclipse is an ablution of sin; on 29 March 2006 a solar eclipse drew an estimated one million people to the site.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Brahma_Sarovar"
+    },
+    {
+     "fact": "A monumental bronze chariot of Krishna and Arjuna stands at Brahma Sarovar; Gita Jayanti is celebrated in late November and early December with a ceremony of floating lamps.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Brahma_Sarovar"
+    }
+   ],
+   "note": "3600 feet is about 1.1 kilometres, given as 'about a kilometre'. The sarovar is about 6 km west of the highway."
+  },
+  {
+   "title": "The fine tomb that carries Sheikh Chilli's name",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Sheikh Chilli's Tomb, Thanesar",
+   "facts": [
+    {
+     "fact": "Sheikh Chilli's Tomb in Thanesar is a complex with two tombs, a madrasa and Mughal gardens; the main tomb belongs to a Sufi scholar popularly known as Sheikh Chilli and was likely built by the Mughal prince Dara Shikoh.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sheikh_Chilli%27s_Tomb"
+    },
+    {
+     "fact": "The complex has a red sandstone mosque called Pathar Masjid and an Archaeological Survey of India museum; the monument is closed only on Fridays.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sheikh_Chilli%27s_Tomb"
+    }
+   ],
+   "note": "The link between this Sufi scholar and the Sheikh Chilli of folk tales is only the shared name; the text does not claim they are the same person. That Sheikh Chilli is a folk-tale daydreamer is common knowledge and not from the cited page. Dara Shikoh as Shah Jahan's eldest son is general knowledge. The tomb is about 6 km west of the highway."
+  },
+  {
+   "title": "The small town that fills India's hockey team",
+   "category": "sport",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Shahabad Markanda town on the Grand Trunk Road; used as the town centre",
+   "facts": [
+    {
+     "fact": "Rani Rampal was born on 4 December 1994 in Shahabad Markanda; her father worked as a cart-puller; she trained under Dronacharya awardee Baldev Singh at the Shahabad Hockey Academy; senior debut at 14.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rani_Rampal"
+    },
+    {
+     "fact": "Under her captaincy India reached the semifinal of the 2020 Tokyo Olympics for the first time and finished fourth.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rani_Rampal"
+    },
+    {
+     "fact": "The Shahabad Hockey Academy has produced over 30 women's hockey internationals in about 15 years.",
+     "sourceUrl": "https://thebridge.in/featured/rani-rampals-shahabad-the-nursery-womens-hockey-india/"
+    }
+   ],
+   "note": "Counts of internationals vary by source (30+ in The Bridge; a 2026 Padma citation is reported to credit Baldev Singh with 80+ over four decades). The lower, sourced figure is used."
+  },
+  {
+   "title": "The river that gave Shahabad its second name",
+   "category": "geography",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Shahabad Markanda town (30°10′N 76°52′E); the exact highway bridge point could not be looked up",
+   "facts": [
+    {
+     "fact": "The Markanda rises in the Shivalik hills in Sirmaur district, Himachal Pradesh, is a seasonal river about 90 km long, flows past Shahabad Markanda and joins the Ghaggar; its ancient name was Aruna.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Markanda_River,_Haryana"
+    },
+    {
+     "fact": "Shahabad Markanda lies on the bank of the Markanda; the town is named for Rishi Markandeya and a Markandeya temple stands on the riverbank.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Shahabad_Markanda"
+    }
+   ],
+   "note": "I did not confirm from a map exactly where National Highway 44 crosses the river relative to the town centre; the text only says 'at Shahabad'. Please check the crossing point and move the pin to the bridge if needed."
+  },
+  {
+   "title": "An army town born from a malaria outbreak",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Ambala Cantonment Junction railway station on the Grand Trunk Road",
+   "facts": [
+    {
+     "fact": "Ambala Army Cantonment was established in 1843 after the British left Karnal following the 1841–42 malaria epidemic; it houses 2 Corps, one of the Indian Army's three strike corps.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ambala"
+    },
+    {
+     "fact": "In Kipling's Kim, Kim buys a ticket to Umballa and travels there by train with the lama.",
+     "sourceUrl": "https://standardebooks.org/ebooks/rudyard-kipling/kim/text/chapter-2"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "Did 1857 begin here, hours before Meerut",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Ambala Cantonment Junction on the Grand Trunk Road, the nearest findable landmark; the memorial itself is on the Ambala-Delhi highway at Ambala Cantonment and was not found on the map",
+   "facts": [
+    {
+     "fact": "On 10 May 1857 the 60th Native Infantry (with the 5th) revolted at Ambala about nine hours before the outbreak at Meerut; the sepoys were surrounded by a superior European force.",
+     "sourceUrl": "https://www.tribuneindia.com/news/archive/haryana-tribune/1857-uprising-sparked-at-ambala-engulfed-entire-state-587901"
+    },
+    {
+     "fact": "The Shaheed Smarak on the Ambala-Delhi National Highway has a 63-metre lotus tower and 22 galleries.",
+     "sourceUrl": "https://www.tribuneindia.com/news/top-headlines/shaheed-smarak-rs-600-crore-memorial-on-1857-revolt-set-for-opening-in-ambala/"
+    },
+    {
+     "fact": "The memorial at Ambala Cantt, about 22 acres, was inaugurated on 5 November 2026 and carries the names of over 700 heroes of 1857.",
+     "sourceUrl": "https://newsonair.gov.in/hm-amit-shah-inaugurates-1857-martyrs-memorial-in-haryana/"
+    }
+   ],
+   "note": "The 'Ambala before Meerut' view comes from historian K C Yadav and local records; it is not the standard account, so the text says 'some historians say'. Reports differ on the tower height (63 or 68 metres), so no height is spoken. Pin is approximate."
+  },
+  {
+   "title": "Where India's first Rafale jets landed",
+   "category": "infrastructure",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Ambala Air Force Station",
+   "facts": [
+    {
+     "fact": "Ambala Air Force Station was established in 1919 as RAF Ambala; No. 17 Squadron became the first Rafale squadron there.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ambala_Air_Force_Station"
+    },
+    {
+     "fact": "Five Rafale jets, the first batch from France, landed at Ambala on 29 July 2020 for the Golden Arrows squadron.",
+     "sourceUrl": "https://www.tribuneindia.com/news/nation/5-rafale-jets-touch-down-at-ambala-airbase-4132"
+    },
+    {
+     "fact": "Ambala Air Force Base is one of the oldest and largest airbases inherited from the British.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ambala"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The church with only its tower left",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for St Paul's church, Ambala Cantt",
+   "facts": [
+    {
+     "fact": "St Paul's Church was consecrated on 4 January 1857 and bombed by a Pakistani aircraft during the 1965 Indo-Pak war; today only the tower remains.",
+     "sourceUrl": "https://haryanatourism.gov.in/places_of_interest/st-pauls-church/"
+    },
+    {
+     "fact": "The church was bombed in September 1965 and now belongs to the Indian Air Force (Tribune article reproduced).",
+     "sourceUrl": "https://www.mangalorean.com/ambala-a-leaf-from-the-history"
+    },
+    {
+     "fact": "Wikipedia's Ambala Cantonment page shows St Paul's before it was bombed by the Pakistani Air Force in 1965.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ambala_Cantonment"
+    }
+   ],
+   "note": "The Haryana Tourism page could not be opened directly (certificate error); its text was read through search results. The ruin is in a defence area, so visitors may not be allowed in; the text does not suggest visiting."
+  },
+  {
+   "title": "Your school microscope may have come from here",
+   "category": "industry",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Ambala Cantonment (30°21′43″N 76°50′53″E); the industry is spread across the town",
+   "facts": [
+    {
+     "fact": "Over 2,000 small and large manufacturing units in Ambala Cantonment and Saha make glassware, educational instruments and scientific apparatus, with turnover over Rs 3,000 crore; they face cheaper Chinese imports (2025).",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/ambala-scientific-industrys-survival-at-stake-due-to-cheaper-chinese-imports"
+    },
+    {
+     "fact": "The Ambala cluster is the largest in India for scientific instruments and apparatus and is about 100 years old.",
+     "sourceUrl": "https://www.business-standard.com/article/companies/ambala-scientific-cluster-gears-up-for-revival-111040600002_1.html"
+    },
+    {
+     "fact": "Ambala is called the 'City of Scientific Instruments'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ambala"
+    }
+   ],
+   "note": "I looked for a reliable source on Ambala's mixer-grinder industry and found only trade listings and one draft cluster report, so mixer-grinders are left out."
+  },
+  {
+   "title": "A lion safari just off the highway",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Mahendra Chaudhary Zoological Park (Chhatbir Zoo)",
+   "facts": [
+    {
+     "fact": "The zoo opened in 1977, was named after Mahendra Chaudhary, then governor of Punjab, and its first animals came from Guwahati Zoo.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mahendra_Chaudhary_Zoological_Park"
+    },
+    {
+     "fact": "Inaugurated on 13 April 1977 by Governor Mahendra Mohan Chaudhury; described as one of the largest zoos in northern India.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/chhatbir-zoo"
+    },
+    {
+     "fact": "Central Zoo Authority reports list the area as 202 hectares with a lion safari and deer safari.",
+     "sourceUrl": "https://cza.nic.in/uploads/documents/reports/english/AR_mcchattbirzoo_2021.pdf"
+    }
+   ],
+   "note": "Tourism sites say 202 acres but the Central Zoo Authority says 202 hectares; the official hectare figure is used. The zoo is about 5 kilometres from the highway."
+  },
+  {
+   "title": "A capital built because Lahore was lost",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Tribune Chowk, where the Ambala road enters Chandigarh; the story is about the city as a whole",
+   "facts": [
+    {
+     "fact": "After the 1947 partition Lahore went to Pakistan, leaving East Punjab without a capital; Albert Mayer was selected in December 1949 and dropped in 1950 after Matthew Nowicki died in a plane crash in August 1950; Le Corbusier arrived in February 1951 and took over the master plan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh"
+    },
+    {
+     "fact": "The name means 'fort of Chandi' and comes from a temple of the goddess Chandi; Chandi Mandir still stands on the outskirts in Panchkula district.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The city that skipped the number thirteen",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Sector 17, the city centre; the story is about the city's sector grid",
+   "facts": [
+    {
+     "fact": "In February 2020 the UT Administrator notified Mani Majra as Sector 13; Le Corbusier had refused to include a Sector 13, believed to be largely due to a superstition around the number.",
+     "sourceUrl": "https://www.tribuneindia.com/news/chandigarh/its-official-mani-majra-is-sector-13-39042"
+    },
+    {
+     "fact": "Le Corbusier's plan standardised the city's blocks into 'sectors'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh"
+    }
+   ],
+   "note": "The superstition is a common belief, not a documented reason; one account in the administration's papers says Sectors 12 and 13 were first marked as a cultural zone and later dropped. The text says 'widely believed'. Sector size (800 by 1,200 metres) is often quoted but I found it only in weak sources, so it is left out."
+  },
+  {
+   "title": "Two states share this World Heritage complex",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Chandigarh Capitol Complex",
+   "facts": [
+    {
+     "fact": "The Capitol Complex comprises the Palace of Assembly, the Secretariat and the High Court; it was inscribed by UNESCO in 2016 as part of 'The Architectural Work of Le Corbusier'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh_Capitol_Complex"
+    },
+    {
+     "fact": "The UNESCO listing covers 17 sites in seven countries, inscribed in 2016.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/The_Architectural_Work_of_Le_Corbusier"
+    },
+    {
+     "fact": "Chandigarh became the joint capital of Punjab and Haryana in 1966.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "A giant metal hand that turns with the wind",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for the Open Hand monument, Sector 1",
+   "facts": [
+    {
+     "fact": "The Open Hand is 26 m high overall; the metal vane is 14 m high and weighs 50 short tons; it rotates in the wind; completed in 1985, about 20 years after Le Corbusier's death in 1965.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Open_Hand_Monument"
+    },
+    {
+     "fact": "Le Corbusier called it a symbol of peace and reconciliation: 'open to give and open to receive'. It is the emblem of the Chandigarh government.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Open_Hand_Monument"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The garden one man built in secret",
+   "category": "culture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for the Rock Garden, Sector 1",
+   "facts": [
+    {
+     "fact": "Nek Chand was a roads inspector for the Public Works Department; he built the garden in his spare time from material collected at demolition sites, in a gorge in a protected forest near Sukhna Lake; he hid it for eighteen years until authorities discovered it in 1975.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nek_Chand"
+    },
+    {
+     "fact": "The work faced demolition but public support saved it; he was given a salary, a title and 50 labourers.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nek_Chand"
+    },
+    {
+     "fact": "He began around 1957; the garden uses bottles, bangles, tiles, ceramic pots and other waste.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh"
+    }
+   ],
+   "note": "The year the garden opened to the public is given differently in different places, so it is left out. Britannica could not be opened (blocked), so this rests on two Wikipedia pages."
+  },
+  {
+   "title": "The lake where motorboats are not allowed",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Sukhna Lake",
+   "facts": [
+    {
+     "fact": "The lake was created in 1958 by damming the Sukhna Choe, a seasonal stream from the Shivalik hills; it is a 3 sq km rain-fed reservoir; motorboats are forbidden and vehicles cannot use the dam promenade.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-lake"
+    },
+    {
+     "fact": "Le Corbusier had motorboats banned and vehicles barred from the promenade; Pierre Jeanneret's ashes were immersed in the lake in 1970.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sukhna_Lake"
+    },
+    {
+     "fact": "Pierre Jeanneret, Le Corbusier's cousin, was chief architect and town planner of Chandigarh.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandigarh"
+    }
+   ],
+   "note": "Wikipedia's Sukhna Lake page also says the lake became a Ramsar wetland site in 2026; I did not check this further and left it out."
+  },
+  {
+   "title": "Fifty thousand rose bushes in one garden",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for the Rose Garden, Sector 16",
+   "facts": [
+    {
+     "fact": "The garden was founded in 1967 under Mohinder Singh Randhawa, Chandigarh's first chief commissioner; it covers 30 acres with about 50,000 rose bushes of 1,600 varieties; it is in Sector 16.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden"
+    },
+    {
+     "fact": "The Rose Festival is held every year in February or March.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The coffee house run by its own workers",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Indian Coffee House, Sector 17",
+   "facts": [
+    {
+     "fact": "In the mid-1950s the Coffee Board decided to close its coffee houses; the workers took over the outlets and formed Indian Coffee Workers' Co-operatives; the Chandigarh branch originally operated in Sector 22 and later shifted to Sector 17.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Indian_Coffee_House"
+    },
+    {
+     "fact": "A regular writes (January 2025) that the outlet was in Sector 22 in the mid-1960s and later moved to Sector 17; the coffee tastes the same as decades ago; dosa, idli and vegetable pakoras are served.",
+     "sourceUrl": "https://www.tribuneindia.com/news/musings/for-that-old-cup-of-coffee-393025"
+    },
+    {
+     "fact": "Listed at SCO 12, Sector 17 E; order filter coffee, French toast, vada (August 2025).",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat"
+    }
+   ],
+   "note": "Sources disagree on exact years (opened 1964 or 1969; moved to Sector 17 in 1970 or 1971), so the text only says 'in the 1960s' and 'later'."
+  },
+  {
+   "title": "A dhaba tucked among the tyre shops",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Pal Dhaba (old), Sector 28",
+   "facts": [
+    {
+     "fact": "Pal Dhaba, SCO 151-152, Sector 28 D; order mutton rogan josh, keema kaleji, tandoori Afghani chicken (August 2025).",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat"
+    },
+    {
+     "fact": "Described as established in 1960, in the Sector 28 market among car tyre outlets; known for butter chicken, dal makhani, mutton curry and lassi (March 2024).",
+     "sourceUrl": "https://www.republicworld.com/lifestyle/food/pal-dhaba-the-new-celebrity-pit-spot-that-going-viral"
+    },
+    {
+     "fact": "Ranked among the city's top dhabas; opinions differ on whether the butter chicken or chana masala is better.",
+     "sourceUrl": "https://site.outlookindia.com/traveller/cuisine/where-to-eat-in-punjab-all-you-need-to-know/"
+    }
+   ],
+   "note": "Founding year differs by source (1960, about 1967, or 1969), so the text says 'says it has been serving since 1960'. No major newspaper feature found; sources are Outlook Traveller (2018, 2025) and Republic (2024)."
+  },
+  {
+   "title": "The chaat booth Chandigarh keeps going back to",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) centre point of Sector 23; the booth itself was not found on the map",
+   "facts": [
+    {
+     "fact": "Garg Chaat, Booth 34, Sector 23; order mix chaat plate, paneer tikka, bhalla plate (August 2025).",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat"
+    },
+    {
+     "fact": "Garg Chaat in Sector 23 is known for its papri chaat (2018).",
+     "sourceUrl": "https://site.outlookindia.com/traveller/cuisine/where-to-eat-in-punjab-all-you-need-to-know/"
+    }
+   ],
+   "note": "Thinner story: confirmed by two Outlook Traveller pieces but no newspaper feature and no reliable founding date (listing sites say 1960s), so no age is claimed. Editor may drop it if a stronger story is wanted. Pin is the sector centre, not the booth."
+  },
+  {
+   "title": "Two brothers who brought Amritsar's kulcha here",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Brother's Amritsari Kulcha Hub, Booth 101, Sector 9 (Overpass lookup)",
+   "facts": [
+    {
+     "fact": "Brothers Tejinder Singh and Rohit Chadha moved from Amritsar, found local 'regional' food lacked authentic flavour and opened Brothers' Kulcha Hub in 2010 at Mansa Devi Complex; its success led to more kulcha outlets on the lane; there is a sister outlet in Sector 9; picks are choor-choor, paneer and methi-paneer kulchas with malai lassi (May 2017).",
+     "sourceUrl": "https://www.tribuneindia.com/news/archive/life-style/amritsari-kulche-waali-gali-405585"
+    },
+    {
+     "fact": "Brother's Kulcha Hub, Booth 101, Sector 9 C; order cheese kulcha, aloo garlic chur chur kulcha (August 2025).",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-foodies-guide-to-chandigarh-where-to-go-and-what-to-eat"
+    }
+   ],
+   "note": "The first outlet was at Mansa Devi Complex (Panchkula side); the story is pinned to the Sector 9 booth inside Chandigarh. A newer place (2010), included for its story and two good sources."
+  }
+ ]
+}
