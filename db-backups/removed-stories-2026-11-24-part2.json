@@ -1,0 +1,381 @@
+{
+ "madeAt": "2026-11-24T16:26:08.176Z",
+ "note": "Rows switched off (active = false) after the first-pass story review. Nothing was deleted. To undo: UPDATE content SET active = true, rejection_reason = NULL WHERE id IN (the ids in this file).",
+ "plan": [
+  {
+   "id": "1b560fa9-4090-4736-a41c-b8be4566c9be",
+   "title": "Engineering is part of Meerut’s industrial mix",
+   "why": "drop",
+   "story": 277,
+   "reason": "First-pass review 2026-11-24: drop (score 1)"
+  },
+  {
+   "id": "0c5a3b2d-b6b4-4fec-9f4b-8b016b43cf74",
+   "title": "Ghaziabad became a separate district in 1976",
+   "why": "drop",
+   "story": 278,
+   "reason": "First-pass review 2026-11-24: drop (score 3)"
+  },
+  {
+   "id": "e892d499-838d-4f0c-946f-a629b1b7e422",
+   "title": "Lakshmi-Narayana Temple is listed among Modinagar attractions",
+   "why": "drop",
+   "story": 279,
+   "reason": "First-pass review 2026-11-24: drop (score 1)"
+  },
+  {
+   "id": "ab4a6264-c706-41b1-ae03-8dd68447dd5b",
+   "title": "Meerut has an old Digambar Jain temple",
+   "why": "drop",
+   "story": 280,
+   "reason": "First-pass review 2026-11-24: drop (score 3)"
+  },
+  {
+   "id": "4be19c56-6a39-4a66-84a3-f6b7885c0070",
+   "title": "Modi Garden is a Modinagar landmark",
+   "why": "drop",
+   "story": 281,
+   "reason": "First-pass review 2026-11-24: drop (score 1)"
+  },
+  {
+   "id": "7f769c43-223a-4a02-8f30-0bbc857588e7",
+   "title": "Modinagar became a tehsil in 1989",
+   "why": "drop",
+   "story": 282,
+   "reason": "First-pass review 2026-11-24: drop (score 1)"
+  },
+  {
+   "id": "d7ad7f96-9859-4cf7-b94a-5634ea2daf7e",
+   "title": "Sheetla Devi Mandir is a Modinagar attraction",
+   "why": "drop",
+   "story": 288,
+   "reason": "First-pass review 2026-11-24: drop (score 1)"
+  }
+ ],
+ "content": [
+  {
+   "id": "0c5a3b2d-b6b4-4fec-9f4b-8b016b43cf74",
+   "content_key": "7d4530f1be2b4e8104d9bd1a6b3311ca",
+   "category": "history",
+   "tags": [
+    "ghaziabad",
+    "city",
+    "cluster:ghaziabad",
+    "angle:fact"
+   ],
+   "location": "0101000020E61000005C8FC2F5285C5340EC51B81E85AB3C40",
+   "interestingness": "7.40",
+   "confidence": "0.960",
+   "source_name": "Ghaziabad District Administration",
+   "source_url": "https://ghaziabad.nic.in/en/about-district/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "5.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.44,
+   "lat": 28.67
+  },
+  {
+   "id": "1b560fa9-4090-4736-a41c-b8be4566c9be",
+   "content_key": "a3975aa4ed4d78f1a7e454176c05e359",
+   "category": "industry",
+   "tags": [
+    "meerut",
+    "engineering",
+    "cluster:meerut-economy",
+    "angle:fact"
+   ],
+   "location": "0101000020E6100000CDCCCCCCCC6C53400000000000003D40",
+   "interestingness": "7.30",
+   "confidence": "0.960",
+   "source_name": "Meerut District Administration",
+   "source_url": "https://meerut.nic.in/economy/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.7,
+   "lat": 29
+  },
+  {
+   "id": "4be19c56-6a39-4a66-84a3-f6b7885c0070",
+   "content_key": "fa52a3674d6551e34b7d950338dcf3ec",
+   "category": "culture",
+   "tags": [
+    "modinagar",
+    "modi-garden",
+    "cluster:modinagar",
+    "angle:fact"
+   ],
+   "location": "0101000020E61000006666666666765340713D0AD7A3B03C40",
+   "interestingness": "7.20",
+   "confidence": "0.960",
+   "source_name": "Ghaziabad District Administration",
+   "source_url": "https://ghaziabad.nic.in/en/culture-heritage/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.85,
+   "lat": 28.69
+  },
+  {
+   "id": "7f769c43-223a-4a02-8f30-0bbc857588e7",
+   "content_key": "b65de801de435e52168e3c0c435d171e",
+   "category": "history",
+   "tags": [
+    "modinagar",
+    "tehsil",
+    "cluster:modinagar",
+    "angle:fact"
+   ],
+   "location": "0101000020E61000006666666666765340713D0AD7A3B03C40",
+   "interestingness": "6.90",
+   "confidence": "0.960",
+   "source_name": "Ghaziabad District Administration",
+   "source_url": "https://ghaziabad.nic.in/en/history-of-ghaziabad/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.85,
+   "lat": 28.69
+  },
+  {
+   "id": "ab4a6264-c706-41b1-ae03-8dd68447dd5b",
+   "content_key": "7e1fed601575c72480f732c01d32322c",
+   "category": "culture",
+   "tags": [
+    "meerut",
+    "jain",
+    "cluster:meerut-religion",
+    "angle:fact"
+   ],
+   "location": "0101000020E6100000CDCCCCCCCC6C53403D0AD7A370FD3C40",
+   "interestingness": "8.00",
+   "confidence": "0.960",
+   "source_name": "Meerut District Administration",
+   "source_url": "https://meerut.nic.in/tourist-places/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.7,
+   "lat": 28.99
+  },
+  {
+   "id": "d7ad7f96-9859-4cf7-b94a-5634ea2daf7e",
+   "content_key": "78e0b88f69bfd6d40b6a1624a59c7aa2",
+   "category": "culture",
+   "tags": [
+    "modinagar",
+    "sheetla-devi",
+    "cluster:modinagar",
+    "angle:fact"
+   ],
+   "location": "0101000020E61000006666666666765340713D0AD7A3B03C40",
+   "interestingness": "7.30",
+   "confidence": "0.960",
+   "source_name": "Ghaziabad District Administration",
+   "source_url": "https://ghaziabad.nic.in/en/culture-heritage/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.85,
+   "lat": 28.69
+  },
+  {
+   "id": "e892d499-838d-4f0c-946f-a629b1b7e422",
+   "content_key": "e9d4e7e3a00b111d9069223e2df08fa0",
+   "category": "culture",
+   "tags": [
+    "modinagar",
+    "lakshmi-narayan",
+    "cluster:modinagar",
+    "angle:fact"
+   ],
+   "location": "0101000020E61000006666666666765340713D0AD7A3B03C40",
+   "interestingness": "7.50",
+   "confidence": "0.960",
+   "source_name": "Ghaziabad District Administration",
+   "source_url": "https://ghaziabad.nic.in/en/culture-heritage/",
+   "review_status": "verified",
+   "rejection_reason": null,
+   "verified": true,
+   "family_friendly": true,
+   "active": true,
+   "editorial_score": "4.00",
+   "story_type": "verified_fact",
+   "trigger_mode": "roadside",
+   "created_at": "2026-10-03T18:28:42.191Z",
+   "updated_at": "2026-10-03T18:28:42.191Z",
+   "source_type": "placeholder",
+   "verified_at": null,
+   "lng": 77.85,
+   "lat": 28.69
+  }
+ ],
+ "translations": [
+  {
+   "content_id": "0c5a3b2d-b6b4-4fec-9f4b-8b016b43cf74",
+   "language": "en",
+   "title": "Ghaziabad became a separate district in 1976",
+   "short_description": "Ghaziabad was a tehsil of Meerut district before becoming a separate district on 14 November 1976.",
+   "long_description": null,
+   "narration_hint": "Ghaziabad became a separate district in 1976"
+  },
+  {
+   "content_id": "0c5a3b2d-b6b4-4fec-9f4b-8b016b43cf74",
+   "language": "hi",
+   "title": "गाजियाबाद 1976 में अलग जिला बना",
+   "short_description": "गाजियाबाद 14 नवंबर 1976 से पहले मेरठ जिले की तहसील था और उसी दिन अलग जिला बना।",
+   "long_description": null,
+   "narration_hint": "जिस जिले से आप गुजर रहे हैं उसकी प्रशासनिक कहानी के रूप में बताएं।"
+  },
+  {
+   "content_id": "1b560fa9-4090-4736-a41c-b8be4566c9be",
+   "language": "en",
+   "title": "Engineering is part of Meerut’s industrial mix",
+   "short_description": "The district economy page lists engineering among prominent industries.",
+   "long_description": null,
+   "narration_hint": "Engineering is part of Meerut’s industrial mix"
+  },
+  {
+   "content_id": "1b560fa9-4090-4736-a41c-b8be4566c9be",
+   "language": "hi",
+   "title": "इंजीनियरिंग मेरठ के औद्योगिक मिश्रण का हिस्सा है",
+   "short_description": "जिला अर्थव्यवस्था पेज इंजीनियरिंग को प्रमुख उद्योगों में गिनता है।",
+   "long_description": null,
+   "narration_hint": "छोटा आधुनिक अर्थव्यवस्था तथ्य रखें।"
+  },
+  {
+   "content_id": "4be19c56-6a39-4a66-84a3-f6b7885c0070",
+   "language": "en",
+   "title": "Modi Garden is a Modinagar landmark",
+   "short_description": "The district heritage page lists Modi Garden among notable Modinagar attractions.",
+   "long_description": null,
+   "narration_hint": "Modi Garden is a Modinagar landmark"
+  },
+  {
+   "content_id": "4be19c56-6a39-4a66-84a3-f6b7885c0070",
+   "language": "hi",
+   "title": "मोदी गार्डन मोदीनगर का एक स्थानीय आकर्षण है",
+   "short_description": "जिला विरासत पेज मोदी गार्डन को मोदीनगर के प्रमुख आकर्षणों में सूचीबद्ध करता है।",
+   "long_description": null,
+   "narration_hint": "हल्की स्थानीय-लैंडमार्क कहानी की तरह सुनाएं।"
+  },
+  {
+   "content_id": "7f769c43-223a-4a02-8f30-0bbc857588e7",
+   "language": "en",
+   "title": "Modinagar became a tehsil in 1989",
+   "short_description": "Ghaziabad district history says Modinagar received tehsil status on 30 September 1989.",
+   "long_description": null,
+   "narration_hint": "Modinagar became a tehsil in 1989"
+  },
+  {
+   "content_id": "7f769c43-223a-4a02-8f30-0bbc857588e7",
+   "language": "hi",
+   "title": "मोदीनगर को 1989 में तहसील का दर्जा मिला",
+   "short_description": "गाजियाबाद जिला इतिहास के अनुसार मोदीनगर को 30 सितंबर 1989 को तहसील का दर्जा मिला।",
+   "long_description": null,
+   "narration_hint": "प्रशासनिक इतिहास की छोटी कहानी रखें।"
+  },
+  {
+   "content_id": "ab4a6264-c706-41b1-ae03-8dd68447dd5b",
+   "language": "en",
+   "title": "Meerut has an old Digambar Jain temple",
+   "short_description": "The district describes a Digambar Jain Temple among Meerut’s old temples and notes seven altars and many Tirthankara images.",
+   "long_description": null,
+   "narration_hint": "Meerut has an old Digambar Jain temple"
+  },
+  {
+   "content_id": "ab4a6264-c706-41b1-ae03-8dd68447dd5b",
+   "language": "hi",
+   "title": "मेरठ में पुराना दिगंबर जैन मंदिर है",
+   "short_description": "जिला मेरठ के पुराने मंदिरों में दिगंबर जैन मंदिर का उल्लेख करता है और सात वेदियों तथा तीर्थंकर प्रतिमाओं की बात बताता है।",
+   "long_description": null,
+   "narration_hint": "मंदिर की आयु के असमर्थित दावे न जोड़ें।"
+  },
+  {
+   "content_id": "d7ad7f96-9859-4cf7-b94a-5634ea2daf7e",
+   "language": "en",
+   "title": "Sheetla Devi Mandir is a Modinagar attraction",
+   "short_description": "Sheetla Devi Mandir is listed by the district among Modinagar attractions.",
+   "long_description": null,
+   "narration_hint": "Sheetla Devi Mandir is a Modinagar attraction"
+  },
+  {
+   "content_id": "d7ad7f96-9859-4cf7-b94a-5634ea2daf7e",
+   "language": "hi",
+   "title": "शीतला देवी मंदिर मोदीनगर का एक स्थानीय आकर्षण है",
+   "short_description": "जिला प्रशासन शीतला देवी मंदिर को मोदीनगर के आकर्षणों में सूचीबद्ध करता है।",
+   "long_description": null,
+   "narration_hint": "छोटी स्थानीय-संस्कृति कहानी रखें।"
+  },
+  {
+   "content_id": "e892d499-838d-4f0c-946f-a629b1b7e422",
+   "language": "en",
+   "title": "Lakshmi-Narayana Temple is listed among Modinagar attractions",
+   "short_description": "The district heritage page lists Lakshmi-Narayana Temple among Modinagar attractions.",
+   "long_description": null,
+   "narration_hint": "Lakshmi-Narayana Temple is listed among Modinagar attractions"
+  },
+  {
+   "content_id": "e892d499-838d-4f0c-946f-a629b1b7e422",
+   "language": "hi",
+   "title": "लक्ष्मी-नारायण मंदिर मोदीनगर के प्रमुख आकर्षणों में है",
+   "short_description": "जिला विरासत पेज लक्ष्मी-नारायण मंदिर को मोदीनगर के आकर्षणों में गिनता है।",
+   "long_description": null,
+   "narration_hint": "रूट के पास होने पर ही इसे ट्रिगर करें।"
+  }
+ ]
+}

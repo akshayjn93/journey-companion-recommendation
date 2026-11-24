@@ -1,0 +1,991 @@
+{
+ "version": "v1",
+ "createdOn": "2026-11-24",
+ "storyCount": 59,
+ "languages": [
+  "en",
+  "hi"
+ ],
+ "purpose": "Rewrites of the stories rated \"weak\" in the first-pass review (story-review-first-pass.xlsx). 94 weak stories became these stories; the old versions were switched off.",
+ "qualityNote": "Rewritten by AI helpers under a written brief and then read by an AI editor. Added facts were checked by web search and are listed per story with their source. Not yet read by a person. Hindi not reviewed by a native editor.",
+ "stories": [
+  {
+   "title": "The Factory Town Once Ranked the World's Most Polluted",
+   "replacesReviewNumbers": [
+    6,
+    5
+   ],
+   "newFacts": [
+    {
+     "fact": "IQAir's World Air Quality Report for 2021 ranked Bhiwadi the most polluted city in the world (it was third in the 2022 report).",
+     "sourceUrl": "https://www.aljazeera.com/news/2022/4/15/india-workers-face-health-risks-in-worlds-most-polluted-city-bhiwadi"
+    }
+   ],
+   "note": "Merged the new-district fact (5) into the Bhiwadi story (6) as one closing line. The ranking is for 2021 only; local pollution officials questioned it, so the text says 'was ranked', not 'is'."
+  },
+  {
+   "title": "An Army Post and a Cave Temple of Shiva",
+   "replacesReviewNumbers": [
+    10
+   ],
+   "newFacts": [
+    {
+     "fact": "Jhirkeshwar Mahadev (Jhir Mandir) is a cave temple of Shiva at the foothills of the Aravallis in Firozpur Jhirka; legend links its lingam to Yudhishthira during the Pandavas' exile; a big fair is held on Maha Shivaratri and in Shraavana.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Jhirkeshwar_mahadev"
+    }
+   ],
+   "note": "Sources disagree on the founder: the input (Britannica) says Sultan Firuz Shah of Delhi; Wikipedia says Khanzada Feroz Khan of Mewat, 1419. I wrote only 'a ruler named Firoz' and kept 'is said to'. I could not confirm that 'Jhirka' means a spring, so I left that out."
+  },
+  {
+   "title": "The Day Gandhi Asked Mewat to Stay",
+   "replacesReviewNumbers": [
+    20
+   ],
+   "newFacts": [
+    {
+     "fact": "On 19 December 1947 Mahatma Gandhi visited Ghasera village (now in Nuh district), where Meos displaced from Alwar and Bharatpur had halted on their way to Pakistan, and urged them to stay; many stayed. The date is observed as Mewat Diwas.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ghasera"
+    },
+    {
+     "fact": "Hindustan Times report on Gandhi's Ghasera visit and its legacy.",
+     "sourceUrl": "https://www.pressreader.com/india/hindustan-times-lucknow/20161002/281487865845201"
+    }
+   ],
+   "note": "Replaced the dry renaming fact (Mewat district renamed Nuh in 2016) with the Gandhi visit. Sources differ on how many stayed (one says about half), so the text says only 'Many did'. The story point is not exactly at Ghasera; the text says 'in this district'."
+  },
+  {
+   "title": "Hauz Khas Means the Royal Tank",
+   "replacesReviewNumbers": [
+    28
+   ],
+   "newFacts": [
+    {
+     "fact": "The tank was dug under Alauddin Khalji (reigned 1296-1316) to supply Siri; Firoz Shah Tughlaq re-excavated the silted tank and set up the madrasa in 1352; his domed tomb stands in the complex; 'Hauz Khas' means royal tank.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hauz_Khas_Complex"
+    }
+   ],
+   "note": "The meaning 'royal tank' is the common explanation, but Wikipedia marks that line as needing a citation."
+  },
+  {
+   "title": "It Took Three Sultans to Build the Qutb Minar",
+   "replacesReviewNumbers": [
+    29
+   ],
+   "newFacts": [
+    {
+     "fact": "The minar is 72.5 metres high with five storeys; lightning damaged the top in the 14th century and Firoz Shah Tughlaq repaired it and added a storey.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Qutb_Minar"
+    }
+   ],
+   "note": "Left out the year of the lightning strike (sources give both 1368 and 1369) and the number of steps (379 or 399)."
+  },
+  {
+   "title": "The Day a King Moved India's Capital to Delhi",
+   "replacesReviewNumbers": [
+    31
+   ],
+   "newFacts": [
+    {
+     "fact": "George V announced the shift of the capital at the Delhi Durbar on 12 December 1911 and laid the foundation stone three days later; Lutyens and Baker planned the city; it was inaugurated on 13 February 1931 by Viceroy Lord Irwin.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/New_Delhi"
+    },
+    {
+     "fact": "The Durbar was held on 12 December 1911 at Coronation Park, where George V announced the move of the capital.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Delhi_Durbar"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "Delhi Is Not One City but Many",
+   "replacesReviewNumbers": [
+    32
+   ],
+   "newFacts": [
+    {
+     "fact": "Lal Kot, described as Delhi's first fortified city, is in present-day Mehrauli near the Qutb complex; Shahjahanabad is the city now known as Old Delhi.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mehrauli"
+    }
+   ],
+   "note": "The list of cities is the one in the input. Other counts of Delhi's 'seven cities' also include Tughlaqabad and Jahanpanah; I kept to the input list and gave no total number."
+  },
+  {
+   "title": "India Gate Has Thousands of Names Carved on It",
+   "replacesReviewNumbers": [
+    33
+   ],
+   "newFacts": [
+    {
+     "fact": "13,313 names are inscribed on India Gate; the foundation stone was laid on 10 February 1921 by the Duke of Connaught and the memorial was unveiled on 12 February 1931 by Lord Irwin.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/India_Gate"
+    }
+   ],
+   "note": "I did not give the total number of soldiers commemorated: Wikipedia gives both 74,187 and about 70,000."
+  },
+  {
+   "title": "The Emperor Who Fell Down His Library Stairs",
+   "replacesReviewNumbers": [
+    34
+   ],
+   "newFacts": [
+    {
+     "fact": "On 24 January 1556 Humayun fell from the stairs of the Sher Mandal, used as his library, inside Purana Qila, and died two days later; Sher Shah Suri had defeated Humayun and strengthened the fort before Humayun retook it.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Purana_Qila"
+    }
+   ],
+   "note": "Left out the Indraprastha tradition for length; it could be its own story."
+  },
+  {
+   "title": "Ten Kilometres Without a Single Red Light",
+   "replacesReviewNumbers": [
+    40
+   ],
+   "newFacts": [],
+   "note": "No new facts; same facts as the input, told as a tip for the driver. 'UP Gate' is kept as the place name."
+  },
+  {
+   "title": "A Huge Stone Temple Built Without Steel",
+   "replacesReviewNumbers": [
+    41
+   ],
+   "newFacts": [
+    {
+     "fact": "Construction began on 8 November 2000 and the temple opened on 6 November 2005; about 7,000 carvers and 3,000 volunteers worked on it; the mandir has no steel or concrete support; it uses Rajasthani pink sandstone and Italian Carrara marble; its plinth has 148 life-sized elephants; Guinness World Records named it the 'World's Largest Comprehensive Hindu Temple' on 17 December 2007.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)"
+    }
+   ],
+   "note": "'No steel' applies to the temple building itself; the foundation did use concrete, so the text says only 'the temple itself uses no steel'."
+  },
+  {
+   "title": "The Tomb a Queen Built, Long Before the Taj",
+   "replacesReviewNumbers": [
+    42
+   ],
+   "newFacts": [
+    {
+     "fact": "Bega Begum was Humayun's first wife and chief consort; the tomb was completed in 1572; it was the first garden-tomb on the Indian subcontinent and set the precedent that led to the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Humayun%27s_Tomb"
+    }
+   ],
+   "note": "Wikipedia says she commissioned it in 1558 and construction began in 1565; the input says commissioned in 1565. The text says work started in 1565, which fits both."
+  },
+  {
+   "title": "People Lived by the Hindon 4,500 Years Ago",
+   "replacesReviewNumbers": [
+    56,
+    276
+   ],
+   "newFacts": [
+    {
+     "fact": "The Kaseri mound is on the bank of the Hindon, about 2 km north of Mohan Nagar (same district page as the input).",
+     "sourceUrl": "https://ghaziabad.nic.in/en/history-of-ghaziabad/"
+    }
+   ],
+   "note": "The 2500 BC date rests only on the district site; I found no excavation report for it. One secondary source (Live History India) says the mound was dug in the 1950s and yielded Painted Grey Ware, which is usually dated later than 2500 BC. Editor may want to lower the claim."
+  },
+  {
+   "title": "Ghaziabad Is a Short Form of a Longer Name",
+   "replacesReviewNumbers": [
+    72,
+    58
+   ],
+   "newFacts": [
+    {
+     "fact": "Ghazi-ud-din was a wazir at the court of the Mughal emperor Muhammad Shah; the name was shortened to Ghaziabad with the opening of the railway in 1864.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ghaziabad"
+    }
+   ],
+   "note": "Wikipedia gives both 1864 and 1865 for the railway, so the text says 'in the 1860s'."
+  },
+  {
+   "title": "Two Days of Battle on the Hindon in 1857",
+   "replacesReviewNumbers": [
+    62,
+    73
+   ],
+   "newFacts": [
+    {
+     "fact": "The British force was the Meerut Brigade under Brigadier Archdale Wilson; the result was a British victory.",
+     "sourceUrl": "https://wiki.fibis.org/w/Battle_of_Hindun_River"
+    },
+    {
+     "fact": "Wilson left Meerut on 27 May 1857 and won an action between Meerut and Delhi on 30 May before joining the Delhi Field Force.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Archdale_Wilson"
+    },
+    {
+     "fact": "Wilson's dispatch of 1 June 1857 from 'Ghazee Nuggur' describes mutineers from Delhi with heavy guns, and a company of the 60th Rifles sent to hold the iron bridge.",
+     "sourceUrl": "https://www.thegazette.co.uk/London/issue/22050/page/3398/data.pdf"
+    }
+   ],
+   "note": "The detail about rebels coming from Delhi with heavy guns and the bridge being held comes from Wilson's own dispatch as shown in search results; I could not open the Gazette PDF itself, so please treat that line as less certain. No casualty numbers or graves are mentioned because I could not confirm any."
+  },
+  {
+   "title": "The Gallows the British Built at Dasna",
+   "replacesReviewNumbers": [
+    67
+   ],
+   "newFacts": [
+    {
+     "fact": "Dasna is said to have been built by a Rajput king named Salarasi, who built a fort here (same district heritage page as the input).",
+     "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/"
+    }
+   ],
+   "note": "The only source for the hanging house is the district heritage page; I found no second source, no numbers and no names of those hanged. The page dates Salarasi to the time of 'Muhammad Ghazni', which is unclear, so I left the period out. The last line ('people here still talk about') is a framing line, not a sourced fact; cut it if you prefer."
+  },
+  {
+   "title": "One Man Turned a Village Into Modinagar",
+   "replacesReviewNumbers": [
+    75,
+    177
+   ],
+   "newFacts": [
+    {
+     "fact": "Begumabad was built by Nawab Zafar Ali and named in honour of a royal Begum of Delhi (same district heritage page as the input).",
+     "sourceUrl": "https://ghaziabad.nic.in/en/culture-heritage/"
+    },
+    {
+     "fact": "Gujarmal Modi's first venture at Begumabad was a sugar mill.",
+     "sourceUrl": "https://theprint.in/theprint-profile/gujarmal-modi-the-sugar-baron-british-celebrated-on-meerut-roads/181326"
+    },
+    {
+     "fact": "Begumabad was renamed Modinagar in 1945 in honour of Gujarmal Modi.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Modinagar"
+    }
+   ],
+   "note": "Used the location of story 75 (in Modinagar). The location on story 177 (lng 77.85, lat 28.69) is far from Modinagar and looks wrong. Some sources date the sugar mill to 1934 rather than 1933; the district page gives 1933 for the founding of the town."
+  },
+  {
+   "title": "This Canal Was Dug Because of a Famine",
+   "replacesReviewNumbers": [
+    82
+   ],
+   "newFacts": [
+    {
+     "fact": "The Agra famine of 1837-38 killed nearly 800,000 people and led to the canal; Proby Cautley designed it; digging began in April 1842; it opened on 8 April 1854; it begins at Haridwar.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ganges_Canal"
+    }
+   ],
+   "note": "One Wikipedia caption gives 1840 as the start of construction; the history section and the Institution of Civil Engineers give 1842, which I used."
+  },
+  {
+   "title": "An army base more than 200 years old",
+   "replacesReviewNumbers": [
+    83
+   ],
+   "newFacts": [
+    {
+     "fact": "The Meerut region came under British rule in 1803 and regiments were stationed there between 1803 and 1806.",
+     "sourceUrl": "https://usiofindia.org/publication-journal/meerut-cantonment-and-the-war-of-independence-1857.html"
+    },
+    {
+     "fact": "The cantonment covers 35.68 square kilometres.",
+     "sourceUrl": "https://meerut.nic.in/about-district/"
+    }
+   ],
+   "note": "Sources disagree on the founding year: the input and one part of Wikipedia say 1803, other sources (Outlook, another part of Wikipedia) say 1806. I worded it as 'took the region in 1803 and soon began stationing regiments', which both versions support."
+  },
+  {
+   "title": "The brown sweet to buy in Mathura",
+   "replacesReviewNumbers": [
+    85
+   ],
+   "newFacts": [
+    {
+     "fact": "Mathura peda is made from khoya, milk, sugar and ghee with cardamom; it is sold as a sweet and as prasad and is prepared for Janmashtami.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mathura_peda"
+    },
+    {
+     "fact": "Peda originated in Mathura, is brown in colour, and is believed to be Krishna's favourite sweet.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Peda"
+    },
+    {
+     "fact": "Brijwasi makes peda near the Dwarkadhish temple and supplies several Brijwasi shops in the Braj area.",
+     "sourceUrl": "https://inditales.com/making-of-mathura-peda-brijwasi/"
+    }
+   ],
+   "note": "The old source URL was a placeholder (example.com), so I switched the source to Wikipedia. The Brijwasi shop name rests on a travel blog, not an official source; drop that last sentence if you do not want to name a business."
+  },
+  {
+   "title": "The temple well where the 1857 sepoys met",
+   "replacesReviewNumbers": [
+    92
+   ],
+   "newFacts": [
+    {
+     "fact": "The temple is commonly called Kali Paltan Mandir, stands close to the army barracks, and houses the well where the sepoys of 1857 met.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kali_Paltan_Mandir"
+    },
+    {
+     "fact": "Indian troops were called 'Kali Paltan' (black army) and the temple took that name; tradition says the priest's taunt over the greased cartridges stirred the soldiers.",
+     "sourceUrl": "https://www.inkl.com/news/up-temples-from-where-bells-for-revolution-tolled"
+    },
+    {
+     "fact": "A kalash of 4.5 kilograms of gold was installed on the spire in 2001.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    }
+   ],
+   "note": "The reviewer asked to merge with story 93, which is not in my input file. This story should cover it; check that 93 is not rewritten again elsewhere. The priest-and-well story is local tradition and is marked as such."
+  },
+  {
+   "title": "India's wedding bands get their brass here",
+   "replacesReviewNumbers": [
+    107
+   ],
+   "newFacts": [
+    {
+     "fact": "In 1885 Nadir Ali, a bandleader in the British army, took early retirement and started a wedding band with his cousin Imam Buksh; they later began making instruments, and Jali Kothi became a hub for brass instruments.",
+     "sourceUrl": "https://homegrown.co.in/homegrown-voices/inside-a-neighbourhood-in-meerut-that-makes-95-of-indias-brass-instruments"
+    },
+    {
+     "fact": "Nadir Ali and Company, makers of brass band instruments, was founded in 1885.",
+     "sourceUrl": "https://openthemagazine.com/openspace/band-baaja-since-the-raj"
+    }
+   ],
+   "note": "News reports say Jali Kothi makes 90 or 95 percent of India's brass instruments. The two figures disagree, so I left the number out. One family member calls Nadir Ali a colonel, most reports say bandleader; I used bandleader."
+  },
+  {
+   "title": "Was Meerut the home of Ravana's wife?",
+   "replacesReviewNumbers": [
+    108
+   ],
+   "newFacts": [
+    {
+     "fact": "Maya was the architect of the asuras, and his daughter Mandodari was the wife of Ravana.",
+     "sourceUrl": "https://meerut.nic.in/history/"
+    }
+   ],
+   "note": "This is a name legend, marked as tradition. Wikipedia also lists another version linking the name to King Mahipala; I left that out to keep one clear story."
+  },
+  {
+   "title": "The city that printed India's Hindi thrillers",
+   "replacesReviewNumbers": [
+    109
+   ],
+   "newFacts": [
+    {
+     "fact": "Meerut emerged as the hub of Hindi pulp fiction in the 1980s.",
+     "sourceUrl": "https://www.outlookindia.com/national/hindi-diwas-when-pulp-fiction-once-ruled-the-hindi-belt-news-223220"
+    },
+    {
+     "fact": "Ved Prakash Sharma was born in Meerut and wrote 176 novels; Vardi Wala Gunda came out in 1992 and, according to his Times of India obituary, sold 15 lakh copies on its first day.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ved_Prakash_Sharma"
+    }
+   ],
+   "note": "Reviewer called the original 'mild', so I added the pulp fiction angle to give it a hook. The first-day sales figure comes from a newspaper obituary quoted on Wikipedia and is worded as 'reported'. Larger lifetime sales claims (8 crore) are publisher figures and are left out."
+  },
+  {
+   "title": "The Indus Valley reached as far as Meerut",
+   "replacesReviewNumbers": [
+    110
+   ],
+   "newFacts": [
+    {
+     "fact": "Alamgirpur in Meerut district was excavated in 1958 and 1959 by the Archaeological Survey of India; it is the easternmost known site of the Indus Valley civilisation; its earliest level is dated to about 2600 to 2200 BC; finds include pottery, beads, toy carts and a humped bull figurine.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Alamgirpur"
+    }
+   ],
+   "note": "The story pin stays on Meerut city, as in the input. Alamgirpur itself is a village elsewhere in the district, so the text says 'in Meerut district' and does not point at anything from the road."
+  },
+  {
+   "title": "Meerut's month-long fair, older than the Raj",
+   "replacesReviewNumbers": [
+    120
+   ],
+   "newFacts": [
+    {
+     "fact": "The fair starts on the second Sunday after Holi and runs about a month; one account dates it to 1672 as a cattle fair.",
+     "sourceUrl": "https://meerut.nic.in/festival-events/"
+    },
+    {
+     "fact": "The fair is named after the old Chandi Devi temple on the ground, which stands opposite the Bale Miyan mazaar; it was not held in 1858; the Nauchandi Express to Lucknow is named after it.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nauchandi_Mela"
+    }
+   ],
+   "note": "The reviewer said stories 120 to 124 should become one. Only 120 is in my input file. This story is written to stand for all five, so 121 to 124 should be dropped or pointed here, not rewritten again in another batch. The origin is debated, so 1672 is given as 'one account'."
+  },
+  {
+   "title": "Scissors made from old trains and cars",
+   "replacesReviewNumbers": [
+    125
+   ],
+   "newFacts": [
+    {
+     "fact": "Meerut scissors have been made for over three centuries, traced to Asli Akhun around 1653; blades use recycled carbon steel from old railway stock and automobiles; they got a Geographical Indication tag in January 2013; the local saying is 'Dada le, pota barte'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Meerut_scissors"
+    }
+   ],
+   "note": "The founder's name and the year 1653 come from Wikipedia only, so they are worded as 'is traced to'."
+  },
+  {
+   "title": "A marble pillar for the dead of 1857",
+   "replacesReviewNumbers": [
+    126
+   ],
+   "newFacts": [
+    {
+     "fact": "The Government Freedom Struggle Museum in the Shaheed Smarak compound on Delhi Road was established in 1997.",
+     "sourceUrl": "https://meerut.nic.in/tourist-place/shaheed-smarak/"
+    },
+    {
+     "fact": "The Shaheed Smarak is a 30-metre-high marble memorial.",
+     "sourceUrl": "https://mdameerut.in/major-attraction.php"
+    },
+    {
+     "fact": "The museum has paintings and dioramas of the 1857 events.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    }
+   ],
+   "note": "I wrote 'white marble'; the Meerut Development Authority page says marble and a travel site says white marble. One article (The Wire) dates the museum to 2007, but the district site says 1997, so I used 1997."
+  },
+  {
+   "title": "The empress's tomb that never got a roof",
+   "replacesReviewNumbers": [
+    128,
+    129
+   ],
+   "newFacts": [
+    {
+     "fact": "The mausoleum honours the local saint Hazrat Shahpeer, who is believed to have been a teacher of Emperor Jahangir.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    }
+   ],
+   "note": "Merged 128 and 129 as asked. The district page's wording on why work stopped is muddled (it mentions the saint's death), so I kept only 'the local story is that the work stopped midway'."
+  },
+  {
+   "title": "A 200-year-old church with graves from 1857",
+   "replacesReviewNumbers": [
+    131,
+    132
+   ],
+   "newFacts": [
+    {
+     "fact": "The church was founded to serve the military garrison, seats about 3,000, and is described as the oldest church in the northern half of India; older graves in the cemetery are deteriorating from weathering.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/St._John%27s_Church,_Meerut"
+    },
+    {
+     "fact": "The district site calls it the oldest church in Northern India.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    },
+    {
+     "fact": "The revolt began on Sunday, 10 May 1857, around the time of the evening church service.",
+     "sourceUrl": "https://mattersindia.com/?p=261731"
+    }
+   ],
+   "note": "Merged 131 and 132 as asked. 'Oldest church in North India' is a common claim, so I wrote 'often described as'. Reports give different counts of 1857 graves (9 visible, 32 buried), so I gave no number."
+  },
+  {
+   "title": "Where Karna gave up his armour",
+   "replacesReviewNumbers": [
+    135
+   ],
+   "newFacts": [
+    {
+     "fact": "The pond was built in 1714 by Lawar Jawahar Lal, a wealthy businessman, and temples including the Baba Manohar Nath temple surround it.",
+     "sourceUrl": "https://mdameerut.in/major-attraction.php"
+    },
+    {
+     "fact": "Suraj Kund is now a park kept by the Municipal Corporation, and a fair is held there every Dussehra.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    }
+   ],
+   "note": "The Karna story is a belief and is marked so. The 1714 builder comes from the Meerut Development Authority page and travel sites, so it is worded 'is said to'. Sources spell his name 'Lawar Jawahar Lal'; I used 'Jawahar Lal' because 'Lawar' may be a title or a misprint."
+  },
+  {
+   "title": "First elephants, then the army's horses",
+   "replacesReviewNumbers": [
+    170
+   ],
+   "newFacts": [
+    {
+     "fact": "The Equine Breeding Stud at Babugarh was established in 1811; it breeds horses and mules for the army; mules carry supplies to mountain posts; its 193-metre main stable, built in 1823, is described as the longest in the world.",
+     "sourceUrl": "https://www.oneindia.com/2006/03/05/ebs-babugarh-armys-horse-power-house-1141623882.html"
+    }
+   ],
+   "note": "UNSURE: the 1811 date, the 1823 stable and the 'longest in the world' claim all rest on one 2006 news agency article. They are worded as 'traces its start to' and 'has been called'. The elephant farm is confirmed only by the Ghaziabad district page, with no date."
+  },
+  {
+   "title": "A sugar mill that has run since 1933",
+   "replacesReviewNumbers": [
+    140
+   ],
+   "newFacts": [
+    {
+     "fact": "Khatauli's Triveni sugar mill has operated since 1933 and is described as the largest in Asia by production and storage capacity.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Khatauli"
+    },
+    {
+     "fact": "The Ain-i-Akbari lists Khatauli as a pargana under the sarkar of Saharanpur, with a force of 300 infantry and 40 cavalry.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Khatauli"
+    }
+   ],
+   "note": "The 'largest in Asia' claim rests on Wikipedia and a Dialogue Earth article, not official capacity data, so it is worded as 'often described as'. Another search result says the Triveni company bought the Khatauli plant in 1952; the story only says the mill has run since 1933. Cane trolleys on the road are a seasonal sight (roughly November to April)."
+  },
+  {
+   "title": "The Kaurava capital that the Ganga washed away",
+   "replacesReviewNumbers": [
+    180
+   ],
+   "newFacts": [
+    {
+     "fact": "Hastinapur means 'City of Elephants' in Sanskrit.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hastinapur"
+    },
+    {
+     "fact": "The Mahabharata tradition says that under King Nichakshu a Ganga flood carried away much of Hastinapur and the capital moved to Kaushambi.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hastinapur"
+    },
+    {
+     "fact": "B. B. Lal excavated Hastinapur in the early 1950s and found an erosional scar in the mound, which he dated to about 800 BCE and linked to the flood story.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hastinapur"
+    }
+   ],
+   "note": "The flood is told as epic tradition. Lal's link between the scar and the Mahabharata flood is his own reading and is debated; the story only says he found a flood scar. Hastinapur is about 37 kilometres from Meerut, so 'near here' depends on where the story fires."
+  },
+  {
+   "title": "Almost half of India's sugarcane grows in this state",
+   "replacesReviewNumbers": [
+    185
+   ],
+   "newFacts": [
+    {
+     "fact": "Uttar Pradesh was India's largest sugarcane producer in 2024-25, with about 48.6 percent of national output.",
+     "sourceUrl": "https://www.ibef.org/states/uttar-pradesh.aspx"
+    }
+   ],
+   "note": "The old text said UP makes 'roughly half of India's sugar'; the checked figure is for sugarcane (45 to 49 percent depending on the year), so the story says 'almost half of the sugarcane'. Dropped the unverified claim that this gur is 'among the finest'."
+  },
+  {
+   "title": "Stop at Brijghat for the evening Ganga aarti",
+   "replacesReviewNumbers": [
+    186,
+    187
+   ],
+   "newFacts": [
+    {
+     "fact": "Brijghat is on the bank of the Ganga, 5 kilometres from Garhmukteshwar; a Ganga Mandir and a Hanuman Mandir are among the places there.",
+     "sourceUrl": "https://hapur.nic.in/tourist-place/brijghat/"
+    }
+   ],
+   "note": "Merged the aarti and the fair. 'Lamps and bells' is the usual form of a Ganga aarti, not a detail from the source page."
+  },
+  {
+   "title": "A small highway town with world-size factories",
+   "replacesReviewNumbers": [
+    194
+   ],
+   "newFacts": [
+    {
+     "fact": "Gajraula is home to Jubilant Life Sciences, RACL Geartech and the Israeli pharma company Teva API.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gajraula"
+    },
+    {
+     "fact": "Jubilant Ingrevia is one of the two largest manufacturers of vitamin B3 in the world and one of the two producers of pyridine.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Jubilant_Bhartia_Group"
+    },
+    {
+     "fact": "Jubilant's pyridine and picolines plant at Gajraula started in 1990.",
+     "sourceUrl": "https://www.pocketful.in/stocks/jubilant-ingrevia-ltd/history"
+    }
+   ],
+   "note": "The vitamin B3 ranking is for the Jubilant company as a whole, and the sentence is worded that way; I could not confirm that the B3 itself is made at Gajraula. 'API' in Teva API means active pharmaceutical ingredients, told here as 'medicine ingredients'. Company names come from Wikipedia only. Dropped the old claims about 'thousands of workers' and the 1990s."
+  },
+  {
+   "title": "This river has already flowed through Corbett's tiger forest",
+   "replacesReviewNumbers": [
+    214
+   ],
+   "newFacts": [
+    {
+     "fact": "The Ramganga rises on the southern slopes of Dudhatoli hill in Chamoli district, flows into Jim Corbett National Park, and enters the plains at Kalagarh in Bijnor district, where a dam has been built. Moradabad is on its right bank.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ramganga"
+    }
+   ],
+   "note": "Left out where it joins the Ganga: the old text said near Kannauj, Wikipedia says Katri Chandapur village in Hardoi district (across the river from Kannauj). Left out the unverified meaning of the name and the claim that Corbett park was created to protect the watershed. 'Tigers and elephants drink from it' is a fair picture of Corbett but is not a quoted source line."
+  },
+  {
+   "title": "Moradabad was named after a baby prince",
+   "replacesReviewNumbers": [
+    220
+   ],
+   "newFacts": [
+    {
+     "fact": "The town was first named Rustam Nagar by Rustam Khan in 1624; he also built the Jama Masjid.",
+     "sourceUrl": "https://moradabad.nic.in/about-district/"
+    },
+    {
+     "fact": "Murad Bakhsh was born in October 1624, the youngest surviving son of Shah Jahan and Mumtaz Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Murad_Bakhsh"
+    },
+    {
+     "fact": "Rustam Khan built a fort and the Jama Masjid on the bank of the Ramganga.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Moradabad"
+    }
+   ],
+   "note": "The 'one-year-old' hook is worked out from two sources: renamed in 1625 (district site) and prince born in October 1624 (Wikipedia). In 1625 Shah Jahan was still a prince, not yet emperor; the story avoids calling him emperor. Wikipedia says 'youngest surviving son'."
+  },
+  {
+   "title": "Ghalib was on the Rampur Nawab's payroll",
+   "replacesReviewNumbers": [
+    227,
+    231
+   ],
+   "newFacts": [
+    {
+     "fact": "Dagh, Ghalib and Ameer Minai were attached to the Rampur court, and the Nawabs paid the poets attached to the court.",
+     "sourceUrl": "https://rampur.nic.in/culture-and-heritage/"
+    },
+    {
+     "fact": "Ustad Inayat Hussain Khan (1849-1919) founded the Rampur-Sahaswan gharana; court musician Mushtaq Hussain Khan was the first to receive the Padma Bhushan for classical music.",
+     "sourceUrl": "https://rampur.nic.in/culture-and-heritage/"
+    },
+    {
+     "fact": "Mushtaq Hussain Khan was the first Indian classical vocalist to receive the Padma Bhushan, in 1957, and was a student of Inayat Hussain Khan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mushtaq_Hussain_Khan"
+    }
+   ],
+   "note": "Merged the Urdu poetry and gharana stories into one story about the Nawabs' court."
+  },
+  {
+   "title": "A fort said to be built by Arjuna's grandson",
+   "replacesReviewNumbers": [
+    286,
+    287
+   ],
+   "newFacts": [
+    {
+     "fact": "The coins found in the fort in 1916 were silver, and Nain Singh is described as a Gurjar king.",
+     "sourceUrl": "https://meerut.nic.in/tourist-places/"
+    }
+   ],
+   "note": "Merged the two Parikshitgarh stories. All facts are from the same district page."
+  },
+  {
+   "title": "A village here dug up Harappan gold overnight",
+   "replacesReviewNumbers": [
+    144
+   ],
+   "newFacts": [
+    {
+     "fact": "The hoard was found in June 2000 by three women scraping mud from a mound; most of the village dug that night; authorities estimate about 500 kg was dug up and only 10 kg recovered; ASI and state archaeology experts dated it to the Late Harappan period; most was sold to traders and melted.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mandi,_Uttar_Pradesh"
+    }
+   ],
+   "note": "Reviewer asked to merge with story 145, but 145 was not in my input file, so this is a stand-alone rewrite. If 145 is another Mandi story, this one can replace it too. The district page calls the site 'mature Harappan'; ASI experts quoted on Wikipedia say 'Late Harappan', so I used 'late Harappan age'. The 500 kg figure is an official estimate, and is worded as one."
+  },
+  {
+   "title": "The juice stalls here follow the cane harvest",
+   "replacesReviewNumbers": [
+    158
+   ],
+   "newFacts": [],
+   "note": ""
+  },
+  {
+   "title": "A 57-foot Jain pillar stands at Vahelna",
+   "replacesReviewNumbers": [
+    164,
+    165
+   ],
+   "newFacts": [
+    {
+     "fact": "Vahelna is about 4 km from Muzaffarnagar city, the temple has an old idol of Lord Parshwanath, and it is an important Jain pilgrimage place.",
+     "sourceUrl": "https://muzaffarnagar.nic.in/tourist-place/vehlna/"
+    }
+   ],
+   "note": "Reviewer asked to merge 164-168 with 167 as lead. Only 164 and 165 were in my input; the mosque, Shiva temple and Jain temple side-by-side story is already live, so this story covers only the pillar and the statue and does not repeat it. I could not confirm that the pillar is visible from the highway, so the text says 'look for' and does not promise a view."
+  },
+  {
+   "title": "You cannot buy an egg near Har Ki Pauri",
+   "replacesReviewNumbers": [
+    198
+   ],
+   "newFacts": [
+    {
+     "fact": "Haridwar bylaws dating to 1935 prohibit the sale of meat, liquor and eggs within a 5 km radius of Har Ki Pauri (as stated by the Municipal Commissioner).",
+     "sourceUrl": "https://scroll.in/latest/1091974/uttarakhand-haridwar-to-shift-all-meat-shops-out-of-city-limits"
+    },
+    {
+     "fact": "In 2026 the Haridwar Municipal Corporation board voted to extend the ban on raw meat shops to the whole municipal area and shift them outside.",
+     "sourceUrl": "https://theprint.in/india/uttarakhand-haridwar-civic-body-to-shift-raw-meat-shops-out-of-city-before-ardh-kumbh/2898200"
+    }
+   ],
+   "note": "The input said the ban covers the whole municipal area for meat, eggs and alcohol. News reports say the old 1935 rule covers a 5 km radius around Har Ki Pauri, and only the raw meat ban was extended to the whole municipal area in 2026. I wrote the narrower, sourced version. The input had no source URL, so I set the source to the news report."
+  },
+  {
+   "title": "A cable car climbs to the goddess above Haridwar",
+   "replacesReviewNumbers": [
+    199
+   ],
+   "newFacts": [
+    {
+     "fact": "The ropeway (Chandi Devi Udankhatola) is about 740 metres long and rises 208 metres; the walking route from Chandighat is about 3 km; the main idol is said to have been installed by Adi Shankaracharya in the 8th century.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chandi_Devi_Temple,_Haridwar"
+    }
+   ],
+   "note": "I dropped the input's line 'built in the 17th century and expanded in the early 1900s'. Wikipedia says the present temple was built in 1929 by Suchat Singh, king of Kashmir. The dates disagree, so no building date is given. The last line about the wide view is the only unsourced line; it follows from the temple being on a hilltop over the town, but remove it if you want strict sourcing."
+  },
+  {
+   "title": "Rishikesh is a town with no butcher's shop",
+   "replacesReviewNumbers": [
+    202,
+    204
+   ],
+   "newFacts": [
+    {
+     "fact": "The sale of meat, fish and eggs has been banned in Rishikesh since 1956; Rishikesh is described as a vegetarian-only and alcohol-free city.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rishikesh"
+    },
+    {
+     "fact": "In 2004 the Supreme Court upheld the Rishikesh Municipal Board's ban on selling eggs, noting meat and fish were already prohibited.",
+     "sourceUrl": "https://www.hinduismtoday.com/hpi/?p=13409"
+    },
+    {
+     "fact": "The International Yoga Festival has been held in Rishikesh every year in the first week of March since 1999.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rishikesh"
+    }
+   ],
+   "note": "FACT FIX for story 204: the input called Haridwar 'upriver' of Rishikesh. Haridwar is downriver; the short text now says so. The alcohol ban rests only on Wikipedia's 'alcohol-free city' line, so it is worded as 'known as an alcohol-free town'. A 2022 news report says some meat shop licences were issued in the area, so 'no butcher's shop' describes the rule, not a guarantee."
+  },
+  {
+   "title": "Here the Ganga leaves the mountains and roads enter",
+   "replacesReviewNumbers": [
+    203,
+    207
+   ],
+   "newFacts": [
+    {
+     "fact": "The Ganges emerges from the hills at Rishikesh and then debouches onto the Gangetic Plain at Haridwar.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Rishikesh"
+    }
+   ],
+   "note": "The input for 207 said the Ganga enters the plains exactly at Rishikesh. Sources put the entry onto the plains at Haridwar, with the river emerging from the mountains at Rishikesh. The story is worded to match that."
+  },
+  {
+   "title": "This district's name remembers a 21-year wait",
+   "replacesReviewNumbers": [
+    239
+   ],
+   "newFacts": [
+    {
+     "fact": "Udham Singh was born in 1899 in Sunam, Punjab; on 13 March 1940 at Caxton Hall, London, he shot dead Michael O'Dwyer, former lieutenant governor of Punjab, in revenge for the 1919 Jallianwala Bagh massacre; he was hanged at Pentonville Prison on 31 July 1940; the district was named after him in October 1995.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Udham_Singh"
+    }
+   ],
+   "note": "Mentions a shooting and a hanging, told plainly and without detail; I kept familyFriendly true, but the editor may want to review. O'Dwyer was lieutenant governor; the Hindi says 'governor' for simple speech."
+  },
+  {
+   "title": "The fields of Pantnagar helped feed India",
+   "replacesReviewNumbers": [
+    250,
+    251,
+    253
+   ],
+   "newFacts": [
+    {
+     "fact": "The university was inaugurated on 17 November 1960 by Prime Minister Jawaharlal Nehru; the University of Illinois mentored it under a 1959 contract; Norman Borlaug's Mexican wheat varieties were tested there; Borlaug called it the 'Harbinger of Green Revolution'; it is described as the first agricultural university of independent India.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/G._B._Pant_University_of_Agriculture_and_Technology"
+    }
+   ],
+   "note": "Farm size 'nearly 6,000 acres' is from the input (university's own figure for the research farm). Wikipedia gives the whole campus as 12,661 acres, which is a different measure, so I kept the input figure."
+  },
+  {
+   "title": "That stony riverbed is the Gaula river",
+   "replacesReviewNumbers": [
+    261
+   ],
+   "newFacts": [
+    {
+     "fact": "The Gaula passes Kathgodam and Haldwani; the Gaula Barrage at Kathgodam provides irrigation water; the river supplies water to Haldwani and Kathgodam.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gaula_River_(India)"
+    }
+   ],
+   "note": "I left out the river's source and length. The input says it rises 'near Nainital'; Wikipedia says Paharpani village and gives two different lengths (500 and 578 km), and the page is flagged as needing citations. 'Kumaon hills' is safe."
+  },
+  {
+   "title": "Sattal means seven lakes, hidden in an oak forest",
+   "replacesReviewNumbers": [
+    262
+   ],
+   "newFacts": [
+    {
+     "fact": "Sattal is at 1,370 m, 12 km from Bhowali; lakes in order of approach are Nal Damyanti, Panna (Garud), then a cluster of Ram, Laxman and Sita.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/sattal/"
+    },
+    {
+     "fact": "The name Sattal literally means 'seven lakes'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sattal"
+    }
+   ],
+   "note": "The district page names only five lakes; Wikipedia lists seven (adding Hanuman Tal and Sukha or Bharat Tal). The story names only the five on the official page."
+  },
+  {
+   "title": "Bhowali sold fruit and treated Kamala Nehru",
+   "replacesReviewNumbers": [
+    264
+   ],
+   "newFacts": [
+    {
+     "fact": "Bhimtal and Nainital are each 11 km from Bhowali.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/bhowali/"
+    },
+    {
+     "fact": "The sanatorium (King Edward VII Sanatorium) was set in pine forest; Kamala Nehru was admitted in 1935 for prolonged tuberculosis treatment; the fruit market deals in apples, peaches, plums and apricots.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bhowali"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "Nainital's big open ground sits on an old landslide",
+   "replacesReviewNumbers": [
+    266,
+    271
+   ],
+   "newFacts": [
+    {
+     "fact": "A landslip on 18 September 1880 at the north end of Nainital buried 151 people; the recreation area known as The Flats was later built on the site.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nainital"
+    }
+   ],
+   "note": "Location copied from story 271 (The Flats), the main subject. The district page also claims the post office on the lake bridge is the only one of its kind in the world; I left that out as an unproven boast."
+  },
+  {
+   "title": "A cable car climbs to Nainital's snow view",
+   "replacesReviewNumbers": [
+    267,
+    270
+   ],
+   "newFacts": [
+    {
+     "fact": "Snow View has a temple and tea and snack stalls; seven hills are mirrored in Naini Lake.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/naini-lake/"
+    }
+   ],
+   "note": "Location copied from story 270 (Snow View), the main subject. No peak names are given because the official page does not name them."
+  },
+  {
+   "title": "A 113-room castle for a summer capital",
+   "replacesReviewNumbers": [
+    268,
+    269
+   ],
+   "newFacts": [
+    {
+     "fact": "Construction of Raj Bhavan began in April 1897 and took two years; it is in Gothic style, described as built like a Scottish castle; the golf course was built in 1936.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Raj_Bhavan,_Nainital"
+    },
+    {
+     "fact": "Raj Bhavan is modelled on Buckingham Palace, has 113 rooms over two storeys, and is the residence of the Governor of Uttarakhand.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/governors-house-raj-bhavan/"
+    }
+   ],
+   "note": "Sources describe the style differently (district page: modelled on Buckingham Palace; Wikipedia: Gothic, like a Scottish castle), so the Buckingham Palace line is worded as 'often said'. Location copied from story 269."
+  },
+  {
+   "title": "There is an aquarium on the island in Bhimtal",
+   "replacesReviewNumbers": [
+    274
+   ],
+   "newFacts": [
+    {
+     "fact": "The island is 91 m from the shore; the 17th-century Bhimeshwar temple complex stands along the 40-foot-high dam.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/bhimtal/"
+    },
+    {
+     "fact": "Legend: Bhima struck his mace into the ground to release a spring for a thirsty Draupadi; the lake is named after him.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Bhimtal"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The lake with nine corners is also the deepest",
+   "replacesReviewNumbers": [
+    275
+   ],
+   "newFacts": [
+    {
+     "fact": "Naukuchiatal is 4 km from Bhimtal, 983 m long and 40.3 m deep.",
+     "sourceUrl": "https://nainital.nic.in/tourist-place/naukuchiatal/"
+    },
+    {
+     "fact": "It is described as the deepest lake in the Nainital region; a small Brahma temple stands nearby and locals say a parikrama of the lake brings Brahma's blessing.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Naukuchiatal"
+    }
+   ],
+   "note": "Wikipedia gives two depths (175 feet in the intro, 40.3 m in the infobox); I used the district page's 40.3 m as 'more than 40 metres'. 'Deepest lake' is worded as 'often called'. The gloss 'nau means nine, kuchia means corners' is the plain meaning of the name and has no separate source; cut that sentence if you want strict sourcing."
+  },
+  {
+   "title": "Muzaffarnagar is a son's gift to his father",
+   "replacesReviewNumbers": [
+    283,
+    284,
+    285
+   ],
+   "newFacts": [],
+   "note": "All facts come from the three input stories and the district history page. 'He did not finish it' follows from the page saying his project was completed by his son."
+  }
+ ],
+ "weakStoriesNotRewritten": [
+  {
+   "n": 48,
+   "reason": "Only a small naming fact (Indirapuram is named after Indira Gandhi). I found nothing that would make it interesting without padding."
+  },
+  {
+   "n": 66,
+   "reason": "Only a naming fact (Noida Extension became Greater Noida West). The reviewer calls it fine as an opening line but weak as a story."
+  },
+  {
+   "n": 79,
+   "reason": "Reviewer says to merge it with story 76, which is not in this batch. It belongs inside the live story 'India's First 14-Lane National Highway' (travel time cut from over 2.5 hours to about 45 minutes)."
+  },
+  {
+   "n": 90,
+   "reason": "Same event as the live story 'Meerut is where the 1857 revolt began'. The reviewer asked to drop it."
+  },
+  {
+   "n": 95,
+   "reason": "Reviewer asked to merge into story 111, which is not in this batch. It is covered by the live story 'Meerut is India's sports goods manufacturing hub'."
+  },
+  {
+   "n": 104,
+   "reason": "A small detail of 1857 that belongs inside the live story 'Meerut is where the 1857 revolt began'."
+  },
+  {
+   "n": 116,
+   "reason": "Web search found no reliable source naming a parantha lane or shop in Meerut's old city. It cannot be made specific without inventing a place."
+  },
+  {
+   "n": 118,
+   "reason": "Editor: the source contradicts itself on the age and builder, and no second source was found."
+  },
+  {
+   "n": 136,
+   "reason": "The march to Delhi is part of the live story 'Meerut is where the 1857 revolt began'."
+  },
+  {
+   "n": 147,
+   "reason": "Only one detail (eleven Shivlings at the Bhairon temple) and no story around it. I did not find a hook worth telling without inventing one."
+  },
+  {
+   "n": 226,
+   "reason": "Rampur kite making: the district page only says kites of many sizes and shapes are made here. I found no solid, checkable hook (one older magazine piece mentions about 5,000 workers and exports, undated). It does not fit the court-arts story, and on its own it stays mild."
+  },
+  {
+   "n": 229,
+   "reason": "Editor: the main claim (Gandhi's ashes) rests on a single news article that could not be opened."
+  },
+  {
+   "n": 257,
+   "reason": "Reviewer says merge into story 256, which is not in my input. A Kainchi Dham story is already live (the one about famous technology figures); the founding year 1962 and Neem Karoli Baba belong inside that story."
+  },
+  {
+   "n": 259,
+   "reason": "Overlaps with the live story 'Almost everything sold in the Kumaon hills passes through Haldwani first' (reviewer says merge with 258, which is not in my input)."
+  },
+  {
+   "n": 263,
+   "reason": "The fact is wrong. Ronald Ross was born on 13 May 1857 in Almora, not Nainital (Wikipedia: https://en.wikipedia.org/wiki/Ronald_Ross). I found no true Nainital link, so the story is dropped. It could be reused as an Almora story."
+  }
+ ]
+}

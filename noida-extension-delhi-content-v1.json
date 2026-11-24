@@ -1,8 +1,17 @@
 [
   {
     "category": "culture",
-    "tags": ["bisrakh", "ravana", "local-tradition", "navratri", "dussehra"],
-    "location": { "lng": 77.432116, "lat": 28.571298 },
+    "tags": [
+      "bisrakh",
+      "ravana",
+      "local-tradition",
+      "navratri",
+      "dussehra"
+    ],
+    "location": {
+      "lng": 77.432116,
+      "lat": 28.571298
+    },
     "interestingness": 8.5,
     "confidence": 0.86,
     "sourceName": "Outlook India",
@@ -16,13 +25,26 @@
         "shortDescription": "In Bisrakh, some residents regard Ravana as an ancestor, and local Navratri and Dussehra observances reflect that community tradition.",
         "longDescription": "Bisrakh, near Greater Noida West, carries a distinctive local tradition connected to the Ramayana. Residents interviewed by Outlook describe Ravana as an ancestor and explain why the village's Navratri and Dussehra practices differ from the effigy-burning celebrations common elsewhere. This is a story about living belief and local identity, not a claim that epic events can be verified as history.",
         "narrationHint": "Near Greater Noida West is Bisrakh, where some residents remember Ravana as an ancestor. Their Dussehra traditions show how one epic can live differently from village to village."
+      },
+      "hi": {
+        "title": "बिसरख और रावण की परंपरा",
+        "shortDescription": "बिसरख में कुछ लोग रावण को अपना पूर्वज मानते हैं, और यहाँ नवरात्रि और दशहरा उसी परंपरा के हिसाब से मनाए जाते हैं।",
+        "longDescription": "ग्रेटर नोएडा वेस्ट के पास बसे बिसरख गाँव में रामायण से जुड़ी एक अलग ही परंपरा है। आउटलुक पत्रिका से बात करने वाले गाँव के लोगों ने रावण को अपना पूर्वज बताया, और समझाया कि उनके यहाँ नवरात्रि और दशहरा बाक़ी जगहों की तरह पुतला जलाकर क्यों नहीं मनाया जाता। यह कहानी लोगों की आस्था और उनकी पहचान की है। यह दावा नहीं है कि महाकाव्य की घटनाएँ इतिहास के रूप में साबित की जा सकती हैं।"
       }
     }
   },
   {
     "category": "nature",
-    "tags": ["indirapuram", "park", "urban-green-space", "ghaziabad"],
-    "location": { "lng": 77.3683182, "lat": 28.6417161 },
+    "tags": [
+      "indirapuram",
+      "park",
+      "urban-green-space",
+      "ghaziabad"
+    ],
+    "location": {
+      "lng": 77.3683182,
+      "lat": 28.6417161
+    },
     "interestingness": 7.4,
     "confidence": 0.9,
     "sourceName": "Google Maps place listing",
@@ -36,13 +58,27 @@
         "shortDescription": "Swarna Jayanti Park offers a public green space in Indirapuram, with jogging paths and boating listed among its recreation features.",
         "longDescription": "The route passes close to Swarna Jayanti Park in Indirapuram. Its public listing describes a park with jogging tracks and boating, a change of pace from the surrounding residential and road corridor. It is a small but useful reminder that neighborhood green spaces are part of the everyday geography of Ghaziabad.",
         "narrationHint": "Around Indirapuram, Swarna Jayanti Park offers a green pause from the apartment blocks and busy roads, with paths and boating among its listed features."
+      },
+      "hi": {
+        "title": "स्वर्ण जयंती पार्क, इंदिरापुरम की हरियाली",
+        "shortDescription": "स्वर्ण जयंती पार्क इंदिरापुरम का एक सार्वजनिक पार्क है। यहाँ दौड़ने के रास्ते हैं और नौका विहार भी होता है।",
+        "longDescription": "यह रास्ता इंदिरापुरम के स्वर्ण जयंती पार्क के पास से गुज़रता है। इसकी सार्वजनिक जानकारी के अनुसार इस पार्क में दौड़ने के ट्रैक हैं और नौका विहार की सुविधा है। आसपास के मकानों और सड़कों के बीच यह एक अलग ही ठहराव देता है। यह छोटी सी बात याद दिलाती है कि मोहल्लों के पार्क भी ग़ाज़ियाबाद की रोज़मर्रा की ज़िंदगी का हिस्सा हैं।"
       }
     }
   },
   {
     "category": "architecture",
-    "tags": ["akshardham", "delhi", "architecture", "culture", "yamuna"],
-    "location": { "lng": 77.277262, "lat": 28.612674 },
+    "tags": [
+      "akshardham",
+      "delhi",
+      "architecture",
+      "culture",
+      "yamuna"
+    ],
+    "location": {
+      "lng": 77.277262,
+      "lat": 28.612674
+    },
     "interestingness": 8.8,
     "confidence": 0.99,
     "sourceName": "Swaminarayan Akshardham",
@@ -56,13 +92,27 @@
         "shortDescription": "Inaugurated in 2005, Swaminarayan Akshardham brings traditional stone carving and devotional art into a modern Delhi cultural campus.",
         "longDescription": "Akshardham was inaugurated in New Delhi on 6 November 2005. Its official site describes a traditionally styled mandir built with intricately carved sandstone and marble, alongside exhibitions and gardens. Seen from the road, the complex connects contemporary Delhi with long-running traditions of devotional architecture and craft.",
         "narrationHint": "Just off this route stands Akshardham, a modern Delhi landmark inaugurated in 2005 and shaped by traditional stone carving and devotional art."
+      },
+      "hi": {
+        "title": "अक्षरधाम: आज के ज़माने में मंदिर की कारीगरी",
+        "shortDescription": "2005 में शुरू हुआ स्वामीनारायण अक्षरधाम, पत्थर की पुरानी नक़्क़ाशी और भक्ति की कला को दिल्ली के एक आधुनिक परिसर में लेकर आया।",
+        "longDescription": "अक्षरधाम का उद्घाटन नई दिल्ली में 6 नवंबर 2005 को हुआ था। इसकी आधिकारिक वेबसाइट के अनुसार यह पारंपरिक शैली का मंदिर है, जो बारीक नक़्क़ाशी वाले बलुआ पत्थर और संगमरमर से बना है, और इसके साथ प्रदर्शनियाँ और बाग़ भी हैं। सड़क से दिखता यह परिसर आज की दिल्ली को मंदिर बनाने की बरसों पुरानी कला और कारीगरी से जोड़ता है।"
       }
     }
   },
   {
     "category": "transport",
-    "tags": ["noida", "sector-62", "delhi-metro", "blue-line", "commute"],
-    "location": { "lng": 77.37493, "lat": 28.6279412 },
+    "tags": [
+      "noida",
+      "sector-62",
+      "delhi-metro",
+      "blue-line",
+      "commute"
+    ],
+    "location": {
+      "lng": 77.37493,
+      "lat": 28.6279412
+    },
     "interestingness": 7.6,
     "confidence": 0.97,
     "sourceName": "Delhi Metro Rail Corporation",
@@ -76,6 +126,11 @@
         "shortDescription": "Noida Electronic City is the eastern terminus of the Delhi Metro Blue Line, serving Sector 62 and nearby Noida-Ghaziabad neighborhoods.",
         "longDescription": "The Blue Line reaches Noida Electronic City in Sector 62, where the Delhi Metro lists Noida Electronic City as the service terminus. The station serves a work-and-residential corridor around Noida and Indirapuram, linking daily local travel to the wider NCR network.",
         "narrationHint": "Near Sector 62, the Blue Line ends at Noida Electronic City, a daily connection point for Noida and nearby Ghaziabad neighborhoods."
+      },
+      "hi": {
+        "title": "नोएडा इलेक्ट्रॉनिक सिटी, ब्लू लाइन का आख़िरी स्टेशन",
+        "shortDescription": "नोएडा इलेक्ट्रॉनिक सिटी दिल्ली मेट्रो की ब्लू लाइन का पूर्वी आख़िरी स्टेशन है। यह सेक्टर 62 और नोएडा-ग़ाज़ियाबाद के आसपास के इलाक़ों के काम आता है।",
+        "longDescription": "ब्लू लाइन सेक्टर 62 में नोएडा इलेक्ट्रॉनिक सिटी तक पहुँचती है, और दिल्ली मेट्रो इसे इस लाइन का आख़िरी स्टेशन बताती है। यह स्टेशन नोएडा और इंदिरापुरम के आसपास के दफ़्तरों और रिहायशी इलाक़ों के काम आता है, और रोज़ के आने-जाने को एनसीआर के बड़े मेट्रो जाल से जोड़ता है।"
       }
     }
   }

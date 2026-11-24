@@ -1,8 +1,13 @@
 [
   {
     "category": "education",
-    "tags": ["cluster:roorkee"],
-    "location": { "lng": 77.8965, "lat": 29.8656 },
+    "tags": [
+      "cluster:roorkee"
+    ],
+    "location": {
+      "lng": 77.8965,
+      "lat": 29.8656
+    },
     "interestingness": 7.5,
     "confidence": 0.9,
     "sourceName": "IIT Roorkee official history",
@@ -12,13 +17,23 @@
         "shortDescription": "IIT Roorkee began in 1847 as Thomason College of Civil Engineering, making it the oldest engineering institution in Asia.",
         "longDescription": "Founded in 1847 as Thomason College of Civil Engineering, the institution here became a University of Roorkee in 1949 and was converted into an Indian Institute of Technology in 2001. It is widely cited as the oldest engineering institution in Asia.",
         "narrationHint": "The town on your right built engineers for over 175 years."
+      },
+      "hi": {
+        "title": "रुड़की में है एशिया का सबसे पुराना इंजीनियरिंग संस्थान",
+        "shortDescription": "आईआईटी रुड़की 1847 में थॉमसन कॉलेज ऑफ़ सिविल इंजीनियरिंग के नाम से शुरू हुआ था। इस तरह यह एशिया का सबसे पुराना इंजीनियरिंग संस्थान है।",
+        "longDescription": "1847 में थॉमसन कॉलेज ऑफ़ सिविल इंजीनियरिंग के नाम से बना यह संस्थान 1949 में रुड़की विश्वविद्यालय बना। 2001 में इसे भारतीय प्रौद्योगिकी संस्थान यानी आईआईटी बना दिया गया। इसे आम तौर पर एशिया का सबसे पुराना इंजीनियरिंग संस्थान बताया जाता है।"
       }
     }
   },
   {
     "category": "infrastructure",
-    "tags": ["cluster:roorkee"],
-    "location": { "lng": 77.889, "lat": 29.885 },
+    "tags": [
+      "cluster:roorkee"
+    ],
+    "location": {
+      "lng": 77.889,
+      "lat": 29.885
+    },
     "interestingness": 7,
     "confidence": 0.85,
     "sourceName": "Upper Ganga Canal engineering history",
@@ -28,13 +43,23 @@
         "shortDescription": "Near Roorkee, the Upper Ganga Canal is carried over the Solani river on a masonry aqueduct, an unusual 19th-century engineering solution.",
         "longDescription": "When British engineers built the Upper Ganga Canal in the 1850s, the alignment had to cross the Solani river. Rather than let the canal and river mix, they built the Solani Aqueduct, an elevated channel that carries canal water clean over the riverbed below.",
         "narrationHint": "Water flowing over water, not into it."
+      },
+      "hi": {
+        "title": "रुड़की के पास एक नहर पुल पर चढ़कर नदी पार करती है",
+        "shortDescription": "रुड़की के पास ऊपरी गंगा नहर चिनाई के बने एक नहर-पुल पर सोलानी नदी के ऊपर से गुज़रती है। यह 19वीं सदी की इंजीनियरिंग का एक अनोखा हल है।",
+        "longDescription": "1850 के दशक में जब अंग्रेज़ इंजीनियरों ने ऊपरी गंगा नहर बनाई, तो नहर के रास्ते में सोलानी नदी पड़ती थी। नहर और नदी का पानी आपस में न मिले, इसके लिए उन्होंने सोलानी एक्वाडक्ट बनाया। यह ऊँचाई पर बना एक रास्ता है, जो नहर के पानी को नीचे नदी के तल के ऊपर से साफ़ पार करा देता है।"
       }
     }
   },
   {
     "category": "religion",
-    "tags": ["cluster:roorkee"],
-    "location": { "lng": 77.9436, "lat": 29.7961 },
+    "tags": [
+      "cluster:roorkee"
+    ],
+    "location": {
+      "lng": 77.9436,
+      "lat": 29.7961
+    },
     "interestingness": 6.5,
     "confidence": 0.85,
     "sourceName": "Piran Kaliyar dargah history",
@@ -44,13 +69,23 @@
         "shortDescription": "The dargah of Sufi saint Alauddin Ali Ahmad Sabir Kaliyari at Kaliyar village near Roorkee hosts a major annual Urs fair.",
         "longDescription": "Kaliyar village, a short distance from Roorkee, is home to the dargah of 13th-century Sufi saint Alauddin Ali Ahmad Sabir Kaliyari. Its annual Urs fair draws large crowds of both Muslim and Hindu pilgrims, reflecting a long shared devotional tradition in this area.",
         "narrationHint": "A shrine nearby is visited across faith lines every year."
+      },
+      "hi": {
+        "title": "रुड़की के पास एक सूफ़ी दरगाह पर कई धर्मों के लोग आते हैं",
+        "shortDescription": "रुड़की के पास कलियर गाँव में सूफ़ी संत अलाउद्दीन अली अहमद साबिर कलियरी की दरगाह है, जहाँ हर साल उर्स का बड़ा मेला लगता है।",
+        "longDescription": "रुड़की से थोड़ी ही दूर कलियर गाँव में 13वीं सदी के सूफ़ी संत अलाउद्दीन अली अहमद साबिर कलियरी की दरगाह है। यहाँ हर साल लगने वाले उर्स के मेले में मुसलमान और हिंदू, दोनों तरह के श्रद्धालु बड़ी तादाद में आते हैं। यह इस इलाक़े में साझी आस्था की पुरानी परंपरा को दिखाता है।"
       }
     }
   },
   {
     "category": "religion",
-    "tags": ["cluster:haridwar"],
-    "location": { "lng": 78.1642, "lat": 29.9457 },
+    "tags": [
+      "cluster:haridwar"
+    ],
+    "location": {
+      "lng": 78.1642,
+      "lat": 29.9457
+    },
     "interestingness": 8.5,
     "confidence": 0.95,
     "sourceName": "Har Ki Pauri, Haridwar",
@@ -60,13 +95,23 @@
         "shortDescription": "Har Ki Pauri ghat in Haridwar hosts a daily evening Ganga Aarti, one of the most recognizable religious rituals on the river.",
         "longDescription": "Har Ki Pauri, meaning 'footsteps of the Lord', is Haridwar's most sacred ghat on the Ganges. Every evening at sunset, priests perform an Aarti with fire and flowers as crowds gather along the steps, a ritual that draws pilgrims and visitors year-round.",
         "narrationHint": "This ghat lights up with fire lamps every evening at sunset."
+      },
+      "hi": {
+        "title": "हर की पौड़ी पर शाम की गंगा आरती पीढ़ियों से होती आ रही है",
+        "shortDescription": "हरिद्वार के हर की पौड़ी घाट पर हर शाम गंगा आरती होती है। यह गंगा किनारे की सबसे जानी-पहचानी धार्मिक रस्मों में से एक है।",
+        "longDescription": "हर की पौड़ी का मतलब है भगवान के क़दम। यह गंगा पर हरिद्वार का सबसे पवित्र घाट है। हर शाम सूरज ढलते समय पुजारी आग और फूलों से आरती करते हैं और सीढ़ियों पर भीड़ जमा हो जाती है। यह रस्म साल भर तीर्थयात्रियों और सैलानियों को खींचती है।"
       }
     }
   },
   {
     "category": "culture",
-    "tags": ["cluster:haridwar"],
-    "location": { "lng": 78.1642, "lat": 29.9457 },
+    "tags": [
+      "cluster:haridwar"
+    ],
+    "location": {
+      "lng": 78.1642,
+      "lat": 29.9457
+    },
     "interestingness": 8,
     "confidence": 0.9,
     "sourceName": "Kumbh Mela rotation history",
@@ -76,13 +121,23 @@
         "shortDescription": "The Kumbh Mela, one of the largest religious gatherings on earth, rotates between four cities in India, and Haridwar is one of them.",
         "longDescription": "The Kumbh Mela rotates roughly every 12 years between four sacred river locations: Haridwar, Prayagraj, Nashik, and Ujjain. Haridwar's turn draws millions of pilgrims to bathe in the Ganges at exactly this stretch of river.",
         "narrationHint": "Once every 12 years, millions gather right here."
+      },
+      "hi": {
+        "title": "हरिद्वार कुंभ मेले की सिर्फ़ चार जगहों में से एक है",
+        "shortDescription": "कुंभ मेला दुनिया के सबसे बड़े धार्मिक जमावड़ों में से एक है। यह भारत के चार शहरों में बारी-बारी से लगता है, और हरिद्वार उनमें से एक है।",
+        "longDescription": "कुंभ मेला लगभग हर 12 साल में नदी किनारे की चार पवित्र जगहों पर बारी-बारी से लगता है: हरिद्वार, प्रयागराज, नासिक और उज्जैन। जब हरिद्वार की बारी आती है, तो लाखों तीर्थयात्री गंगा के ठीक इसी हिस्से में नहाने आते हैं।"
       }
     }
   },
   {
     "category": "religion",
-    "tags": ["cluster:haridwar"],
-    "location": { "lng": 78.1857, "lat": 29.9598 },
+    "tags": [
+      "cluster:haridwar"
+    ],
+    "location": {
+      "lng": 78.1857,
+      "lat": 29.9598
+    },
     "interestingness": 6.5,
     "confidence": 0.85,
     "sourceName": "Chandi Devi Temple, Haridwar",
@@ -92,13 +147,23 @@
         "shortDescription": "Chandi Devi Temple sits atop Neel Parvat hill overlooking Haridwar and is reachable by a ropeway.",
         "longDescription": "Chandi Devi Temple, built in the 17th century and expanded in the early 1900s, sits atop Neel Parvat hill on the eastern bank of the Ganges. It is considered one of the Siddh Peeths and is reached today by a ropeway that runs above the town.",
         "narrationHint": "A temple on the hill above town, reached by cable car."
+      },
+      "hi": {
+        "title": "हरिद्वार के ऊपर पहाड़ी पर बने मंदिर तक केबल कार से पहुँचा जाता है",
+        "shortDescription": "चंडी देवी मंदिर नील पर्वत पहाड़ी की चोटी पर है, जहाँ से हरिद्वार दिखता है। यहाँ रोपवे से पहुँचा जा सकता है।",
+        "longDescription": "चंडी देवी मंदिर 17वीं सदी में बना था और 1900 के शुरुआती सालों में इसे बढ़ाया गया। यह गंगा के पूर्वी किनारे पर नील पर्वत पहाड़ी की चोटी पर है। इसे सिद्ध पीठों में से एक माना जाता है। आज यहाँ एक रोपवे से पहुँचा जाता है, जो शहर के ऊपर से गुज़रता है।"
       }
     }
   },
   {
     "category": "geography",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.2938, "lat": 30.1042 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.2938,
+      "lat": 30.1042
+    },
     "interestingness": 7,
     "confidence": 0.9,
     "sourceName": "Rishikesh geography",
@@ -108,13 +173,23 @@
         "shortDescription": "Rishikesh sits at the exact point where the Ganges exits the Himalayan foothills and enters the plains.",
         "longDescription": "Rishikesh marks the transition point where the Ganges, after descending through the Himalayan foothills, reaches the plains of northern India. This geographic position is part of why the town has long been treated as a threshold between mountain pilgrimage routes and the plains below.",
         "narrationHint": "The river beside you just left the mountains behind."
+      },
+      "hi": {
+        "title": "ऋषिकेश में गंगा पहाड़ों को छोड़ देती है",
+        "shortDescription": "ऋषिकेश ठीक उस जगह पर बसा है जहाँ गंगा हिमालय की तलहटी से निकलकर मैदानों में आती है।",
+        "longDescription": "ऋषिकेश वह जगह है जहाँ गंगा हिमालय की तलहटी की पहाड़ियों से उतरकर उत्तर भारत के मैदानों में पहुँचती है। यही एक वजह है कि इस शहर को लंबे समय से पहाड़ों के तीर्थ रास्तों और नीचे के मैदानों के बीच की दहलीज़ माना जाता रहा है।"
       }
     }
   },
   {
     "category": "culture",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.2938, "lat": 30.1042 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.2938,
+      "lat": 30.1042
+    },
     "interestingness": 7.5,
     "confidence": 0.85,
     "sourceName": "Rishikesh yoga tourism history",
@@ -124,13 +199,23 @@
         "shortDescription": "Rishikesh has hosted yoga ashrams and teaching centers for over a century and is widely promoted as the world's yoga capital.",
         "longDescription": "Rishikesh has been a center for yoga instruction and ashram life since the early 20th century, with dozens of ashrams and yoga schools now operating along the river. The town markets itself internationally as the Yoga Capital of the World and hosts an annual International Yoga Festival.",
         "narrationHint": "This is the town that calls itself the world's yoga capital."
+      },
+      "hi": {
+        "title": "ऋषिकेश ख़ुद को दुनिया की योग राजधानी कहता है",
+        "shortDescription": "ऋषिकेश में एक सदी से ज़्यादा समय से योग आश्रम और योग सिखाने के केंद्र चल रहे हैं। इसे बड़े पैमाने पर दुनिया की योग राजधानी के रूप में पेश किया जाता है।",
+        "longDescription": "20वीं सदी की शुरुआत से ही ऋषिकेश योग सीखने और आश्रम के जीवन का केंद्र रहा है। आज नदी के किनारे दर्जनों आश्रम और योग स्कूल चल रहे हैं। यह शहर दुनिया भर में ख़ुद को दुनिया की योग राजधानी के रूप में पेश करता है और यहाँ हर साल अंतरराष्ट्रीय योग महोत्सव होता है।"
       }
     }
   },
   {
     "category": "history",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.3293, "lat": 30.1211 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.3293,
+      "lat": 30.1211
+    },
     "interestingness": 7,
     "confidence": 0.85,
     "sourceName": "Lakshman Jhula bridge history",
@@ -140,13 +225,23 @@
         "shortDescription": "The iron suspension bridge at Lakshman Jhula was built in 1929 after an earlier rope bridge and a subsequent bridge were both washed away by floods.",
         "longDescription": "An early rope bridge at this crossing was destroyed by floods in 1924. It was replaced in 1929 by the iron suspension bridge that still stands today, a recognizable landmark connecting the two banks of the Ganges at Rishikesh. It was closed to vehicle and heavy foot traffic in 2024 due to structural concerns.",
         "narrationHint": "This bridge replaced one that floods washed away a century ago."
+      },
+      "hi": {
+        "title": "लक्ष्मण झूला एक पुराने रस्सी के पुल की जगह बना था",
+        "shortDescription": "लक्ष्मण झूला का लोहे का झूला पुल 1929 में बना था। इससे पहले एक रस्सी का पुल और उसके बाद बना एक और पुल, दोनों बाढ़ में बह गए थे।",
+        "longDescription": "इस जगह पर बना एक पुराना रस्सी का पुल 1924 की बाढ़ में टूट गया था। उसकी जगह 1929 में लोहे का झूला पुल बना, जो आज भी खड़ा है। यह ऋषिकेश में गंगा के दोनों किनारों को जोड़ने वाली एक जानी-पहचानी निशानी है। ढाँचे की मज़बूती को लेकर चिंता की वजह से 2024 में इसे गाड़ियों और पैदल चलने वालों की भारी भीड़ के लिए बंद कर दिया गया।"
       }
     }
   },
   {
     "category": "religion",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.3129, "lat": 30.1126 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.3129,
+      "lat": 30.1126
+    },
     "interestingness": 6.5,
     "confidence": 0.85,
     "sourceName": "Swarg Ashram, Rishikesh",
@@ -156,13 +251,23 @@
         "shortDescription": "The Swarg Ashram area near Ram Jhula is lined with ashrams, temples, and ghats that have drawn spiritual seekers for decades.",
         "longDescription": "Swarg Ashram, on the eastern bank near Ram Jhula, grew around a cluster of ashrams and temples in the early-to-mid 20th century. Pedestrian-only lanes here are lined with shops, temples, and meditation halls, and the area remains one of Rishikesh's main centers for spiritual visitors.",
         "narrationHint": "This riverside stretch has been an ashram town for decades."
+      },
+      "hi": {
+        "title": "स्वर्ग आश्रम गंगा किनारे बसे आश्रमों का एक समूह है",
+        "shortDescription": "राम झूला के पास स्वर्ग आश्रम के इलाक़े में क़तार से आश्रम, मंदिर और घाट हैं, जो दशकों से अध्यात्म की तलाश में आने वालों को खींचते रहे हैं।",
+        "longDescription": "स्वर्ग आश्रम पूर्वी किनारे पर राम झूला के पास है। यह इलाक़ा 20वीं सदी के शुरुआती और बीच के सालों में कई आश्रमों और मंदिरों के आसपास बसा। यहाँ की गलियों में सिर्फ़ पैदल चला जा सकता है, और इनके दोनों तरफ़ दुकानें, मंदिर और ध्यान के हॉल हैं। यह इलाक़ा आज भी अध्यात्म के लिए आने वालों के लिए ऋषिकेश के ख़ास केंद्रों में से एक है।"
       }
     }
   },
   {
     "category": "culture",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.3238, "lat": 30.1244 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.3238,
+      "lat": 30.1244
+    },
     "interestingness": 7.5,
     "confidence": 0.85,
     "sourceName": "Beatles Ashram (Chaurasi Kutia) history",
@@ -172,13 +277,23 @@
         "shortDescription": "In 1968 the Beatles spent weeks at Maharishi Mahesh Yogi's ashram near Rishikesh, an abandoned site now known as the Beatles Ashram.",
         "longDescription": "In February 1968, the Beatles traveled to Maharishi Mahesh Yogi's ashram near Rishikesh to study Transcendental Meditation, writing much of what became The White Album during their stay. The site was later abandoned, absorbed into forest department land, and reopened to visitors in 2015 as a heritage site nicknamed the Beatles Ashram, now known for its wall murals.",
         "narrationHint": "The Beatles wrote songs near here in 1968."
+      },
+      "hi": {
+        "title": "बीटल्स ने कभी यहीं पास में ध्यान सीखा था",
+        "shortDescription": "1968 में बीटल्स ने ऋषिकेश के पास महर्षि महेश योगी के आश्रम में कई हफ़्ते बिताए थे। यह वीरान पड़ी जगह अब बीटल्स आश्रम के नाम से जानी जाती है।",
+        "longDescription": "फ़रवरी 1968 में बीटल्स भावातीत ध्यान सीखने के लिए ऋषिकेश के पास महर्षि महेश योगी के आश्रम आए थे। यहाँ रहते हुए उन्होंने उन गानों का बड़ा हिस्सा लिखा, जो आगे चलकर द व्हाइट एल्बम बना। बाद में यह जगह वीरान हो गई और वन विभाग की ज़मीन में शामिल हो गई। 2015 में इसे एक धरोहर स्थल के रूप में सैलानियों के लिए फिर खोला गया। लोग इसे बीटल्स आश्रम कहते हैं और अब यह अपनी दीवारों पर बनी तस्वीरों के लिए मशहूर है।"
       }
     }
   },
   {
     "category": "culture",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.2938, "lat": 30.1042 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.2938,
+      "lat": 30.1042
+    },
     "interestingness": 6.5,
     "confidence": 0.8,
     "sourceName": "Char Dham Yatra route",
@@ -188,13 +303,23 @@
         "shortDescription": "Road journeys to the Himalayan Char Dham shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath typically begin from Rishikesh.",
         "longDescription": "Rishikesh serves as the main staging point for pilgrims traveling by road to the four Char Dham shrines in the Garhwal Himalayas: Yamunotri, Gangotri, Kedarnath, and Badrinath. Buses, taxis, and pilgrim convoys heading further into the mountains typically pass through or start from here.",
         "narrationHint": "Mountain pilgrimage routes to four shrines all start near here."
+      },
+      "hi": {
+        "title": "ऋषिकेश चार धाम यात्रा का सड़क वाला दरवाज़ा है",
+        "shortDescription": "हिमालय के चार धाम, यानी यमुनोत्री, गंगोत्री, केदारनाथ और बद्रीनाथ की सड़क यात्रा आम तौर पर ऋषिकेश से शुरू होती है।",
+        "longDescription": "गढ़वाल हिमालय के चार धाम हैं यमुनोत्री, गंगोत्री, केदारनाथ और बद्रीनाथ। सड़क से वहाँ जाने वाले तीर्थयात्रियों के लिए ऋषिकेश सबसे बड़ा पड़ाव है। पहाड़ों में आगे जाने वाली बसें, टैक्सियाँ और यात्रियों के क़ाफ़िले आम तौर पर यहीं से गुज़रते हैं या यहीं से चलते हैं।"
       }
     }
   },
   {
     "category": "food",
-    "tags": ["cluster:haridwar"],
-    "location": { "lng": 78.1642, "lat": 29.9457 },
+    "tags": [
+      "cluster:haridwar"
+    ],
+    "location": {
+      "lng": 78.1642,
+      "lat": 29.9457
+    },
     "interestingness": 7.5,
     "confidence": 0.85,
     "sourceName": "Chotiwala restaurant history, Haridwar",
@@ -204,13 +329,23 @@
         "shortDescription": "Chotiwala, a pure-vegetarian restaurant near Har Ki Pauri, is fronted by a costumed doorman with a distinctive oversized topknot and has become a recognizable landmark on the ghat itself.",
         "longDescription": "Since the mid-20th century, a restaurant called Chotiwala near Har Ki Pauri has stationed a costumed figure with a painted face and an oversized topknot, or 'choti', outside its entrance. The mascot became so well known that a second, rival Chotiwala restaurant later opened nearby using the same character, and both remain fixtures of the ghat's food scene today.",
         "narrationHint": "Look for a costumed doorman with a giant topknot outside a restaurant near the ghat — that's Chotiwala."
+      },
+      "hi": {
+        "title": "एक रेस्तरां का किरदार दशकों से इस घाट की पहचान रहा है",
+        "shortDescription": "चोटीवाला हर की पौड़ी के पास एक शुद्ध शाकाहारी रेस्तरां है। इसके दरवाज़े पर ख़ास पोशाक पहने एक दरबान रहता है, जिसकी बहुत बड़ी और अलग-सी चोटी है। यह अब घाट की ही एक जानी-पहचानी निशानी बन गया है।",
+        "longDescription": "20वीं सदी के बीच के सालों से हर की पौड़ी के पास चोटीवाला नाम का एक रेस्तरां अपने दरवाज़े के बाहर ख़ास पोशाक वाले एक आदमी को रखता आया है, जिसका चेहरा रंगा होता है और सिर पर बहुत बड़ी चोटी होती है। यह किरदार इतना मशहूर हो गया कि बाद में पास ही में चोटीवाला नाम का एक दूसरा, मुक़ाबले का रेस्तरां खुल गया, जिसने यही किरदार अपना लिया। दोनों आज भी घाट के खाने-पीने की दुनिया का पक्का हिस्सा हैं।"
       }
     }
   },
   {
     "category": "food",
-    "tags": ["cluster:haridwar"],
-    "location": { "lng": 78.1642, "lat": 29.9457 },
+    "tags": [
+      "cluster:haridwar"
+    ],
+    "location": {
+      "lng": 78.1642,
+      "lat": 29.9457
+    },
     "interestingness": 7,
     "confidence": 0.88,
     "sourceName": "Haridwar municipal food regulations",
@@ -220,13 +355,23 @@
         "shortDescription": "As a major pilgrimage site, Haridwar enforces a pure-vegetarian, satvik food culture — the sale of meat, eggs, and alcohol is prohibited within municipal limits.",
         "longDescription": "Haridwar's status as one of Hinduism's holiest river towns comes with civic food rules: the municipal area prohibits the sale of meat, eggs, and alcohol, and most eateries serve only satvik vegetarian food, often without onion or garlic, in keeping with pilgrim dietary traditions.",
         "narrationHint": "This town restricts what can legally be sold as food, right down to onion and garlic."
+      },
+      "hi": {
+        "title": "हरिद्वार का खाना तीर्थ नगरी के सख़्त नियमों पर चलता है",
+        "shortDescription": "बड़ा तीर्थ होने की वजह से हरिद्वार में शुद्ध शाकाहारी, सात्विक खाने का चलन सख़्ती से लागू है। नगरपालिका की सीमा के अंदर मांस, अंडे और शराब बेचना मना है।",
+        "longDescription": "हरिद्वार हिंदू धर्म के सबसे पवित्र नदी किनारे के शहरों में से एक है, और इसी वजह से यहाँ खाने को लेकर नगर के नियम हैं। नगरपालिका के इलाक़े में मांस, अंडे और शराब बेचना मना है। ज़्यादातर खाने की जगहों पर सिर्फ़ सात्विक शाकाहारी खाना मिलता है, जो अक्सर बिना प्याज़ और लहसुन का होता है। यह तीर्थयात्रियों के खान-पान की परंपरा के मुताबिक़ है।"
       }
     }
   },
   {
     "category": "food",
-    "tags": ["cluster:rishikesh"],
-    "location": { "lng": 78.2938, "lat": 30.1042 },
+    "tags": [
+      "cluster:rishikesh"
+    ],
+    "location": {
+      "lng": 78.2938,
+      "lat": 30.1042
+    },
     "interestingness": 7,
     "confidence": 0.85,
     "sourceName": "Rishikesh municipal food regulations and yoga tourism history",
@@ -236,13 +381,23 @@
         "shortDescription": "Like Haridwar upriver, Rishikesh prohibits the sale of meat and alcohol, and its food scene leans heavily toward vegetarian, Ayurvedic, and health-focused cafes catering to yoga travellers.",
         "longDescription": "Rishikesh's municipal limits ban the sale of meat and alcohol, a rule tied to its identity as a pilgrimage and yoga town. In recent decades this has combined with an influx of international yoga travellers to produce a distinctive cafe culture — vegetarian and vegan menus, Ayurvedic thalis, and health-food restaurants line the ghats alongside more traditional pilgrim food stalls.",
         "narrationHint": "No meat or alcohol is sold anywhere in this town, and its cafes lean vegetarian and Ayurvedic."
+      },
+      "hi": {
+        "title": "ऋषिकेश में शहर की सीमा के अंदर मांस या शराब नहीं बिकती",
+        "shortDescription": "नदी के ऊपर की तरफ़ बसे हरिद्वार की तरह ऋषिकेश में भी मांस और शराब बेचना मना है। यहाँ के खाने में ज़्यादा ज़ोर शाकाहारी, आयुर्वेदिक और सेहत वाले कैफ़े पर है, जो योग के लिए आने वाले मुसाफ़िरों के लिए चलते हैं।",
+        "longDescription": "ऋषिकेश की नगरपालिका सीमा में मांस और शराब बेचने पर रोक है। यह नियम तीर्थ और योग के शहर के रूप में इसकी पहचान से जुड़ा है। पिछले कुछ दशकों में दुनिया भर से योग के लिए आने वाले मुसाफ़िरों की भीड़ बढ़ी, और इन दोनों बातों ने मिलकर यहाँ कैफ़े का एक अलग ही चलन बना दिया। घाटों के किनारे शाकाहारी और वीगन खाना, आयुर्वेदिक थालियाँ और सेहतमंद खाने के रेस्तरां हैं, और उनके साथ तीर्थयात्रियों के पुराने ढंग के खाने के ठेले भी हैं।"
       }
     }
   },
   {
     "category": "food",
-    "tags": ["cluster:roorkee"],
-    "location": { "lng": 77.8965, "lat": 29.8656 },
+    "tags": [
+      "cluster:roorkee"
+    ],
+    "location": {
+      "lng": 77.8965,
+      "lat": 29.8656
+    },
     "interestingness": 6.5,
     "confidence": 0.8,
     "sourceName": "Common breakfast-stall format, UP-Uttarakhand highway corridor",
@@ -252,6 +407,11 @@
         "shortDescription": "Roadside stalls around Roorkee serve the classic Uttar Pradesh–Uttarakhand breakfast of kachori with spiced potato sabzi, a common quick meal for early travellers on this route.",
         "longDescription": "Kachori-sabzi — a deep-fried lentil-stuffed kachori served with a spiced potato curry — is a standard roadside breakfast across much of Uttar Pradesh and Uttarakhand, and stalls around Roorkee are a common stop for travellers making an early start on this corridor.",
         "narrationHint": "This is classic kachori-sabzi breakfast territory."
+      },
+      "hi": {
+        "title": "कचौड़ी-सब्ज़ी का मशहूर नाश्ता यहाँ हाईवे पर आम है",
+        "shortDescription": "रुड़की के आसपास सड़क किनारे की दुकानों पर उत्तर प्रदेश और उत्तराखंड का मशहूर नाश्ता मिलता है, यानी कचौड़ी और आलू की मसालेदार सब्ज़ी। इस रास्ते पर सुबह जल्दी निकलने वाले मुसाफ़िरों के लिए यह एक आम और झटपट खाना है।",
+        "longDescription": "कचौड़ी-सब्ज़ी यानी दाल भरी, तेल में तली कचौड़ी और साथ में आलू की मसालेदार तरी वाली सब्ज़ी। यह उत्तर प्रदेश और उत्तराखंड के बड़े हिस्से में सड़क किनारे का आम नाश्ता है। इस रास्ते पर सुबह जल्दी निकलने वाले मुसाफ़िर अक्सर रुड़की के आसपास की दुकानों पर रुकते हैं।"
       }
     }
   }

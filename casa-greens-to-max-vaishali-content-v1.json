@@ -1,8 +1,16 @@
 [
   {
     "category": "urban",
-    "tags": ["greater-noida-west", "noida-extension", "planned-city", "urban-growth"],
-    "location": { "lng": 77.4571069, "lat": 28.6125573 },
+    "tags": [
+      "greater-noida-west",
+      "noida-extension",
+      "planned-city",
+      "urban-growth"
+    ],
+    "location": {
+      "lng": 77.4571069,
+      "lat": 28.6125573
+    },
     "interestingness": 7.6,
     "confidence": 0.91,
     "sourceName": "The Times of India",
@@ -16,13 +24,26 @@
         "shortDescription": "The residential district around Casa Greens 1 is widely known as Greater Noida West; the name Noida Extension reflects its earlier identity as an extension of Noida.",
         "longDescription": "This journey begins in a part of the National Capital Region whose name tells a story of urban expansion. The area was first promoted as Noida Extension, then came to be known as Greater Noida West. Its growing residential sectors show how the NCR has continued to spread beyond the older city boundaries.",
         "narrationHint": "You are starting in Greater Noida West, a district whose earlier name, Noida Extension, captured its role in the NCR's outward growth."
+      },
+      "hi": {
+        "title": "नोएडा एक्सटेंशन, जो अब ग्रेटर नोएडा वेस्ट है",
+        "shortDescription": "कासा ग्रीन्स 1 के आसपास का रिहायशी इलाक़ा ग्रेटर नोएडा वेस्ट के नाम से जाना जाता है। नोएडा एक्सटेंशन नाम इसकी पुरानी पहचान बताता है, जब इसे नोएडा का ही बढ़ा हुआ हिस्सा माना जाता था।",
+        "longDescription": "यह सफ़र राष्ट्रीय राजधानी क्षेत्र के उस हिस्से से शुरू होता है, जिसका नाम ही शहर के फैलने की कहानी कहता है। पहले इस इलाक़े को नोएडा एक्सटेंशन कहकर बसाया गया, फिर यह ग्रेटर नोएडा वेस्ट कहलाने लगा। यहाँ बढ़ते रिहायशी सेक्टर दिखाते हैं कि एनसीआर पुराने शहर की सीमाओं से आगे लगातार फैलता गया है।"
       }
     }
   },
   {
     "category": "urban",
-    "tags": ["ghaziabad", "national-highway", "transport", "ncr"],
-    "location": { "lng": 77.411591, "lat": 28.640878 },
+    "tags": [
+      "ghaziabad",
+      "national-highway",
+      "transport",
+      "ncr"
+    ],
+    "location": {
+      "lng": 77.411591,
+      "lat": 28.640878
+    },
     "interestingness": 7.4,
     "confidence": 0.94,
     "sourceName": "Press Information Bureau, Government of India",
@@ -36,13 +57,26 @@
         "shortDescription": "Ghaziabad connects to National Highway 9, a long-distance route that runs from Delhi through Uttar Pradesh toward Uttarakhand.",
         "longDescription": "The roads and flyovers around this stretch sit within a much larger regional transport network. The Government of India's highway description for NH 9 lists both Delhi and Ghaziabad among the places along its route, which continues across Uttar Pradesh toward Uttarakhand. It is a reminder that local commutes share space with journeys spanning several states.",
         "narrationHint": "These flyovers are part of Ghaziabad's local road network, connected to a much longer highway corridor running across North India."
+      },
+      "hi": {
+        "title": "उत्तर भारत के एक बड़े राजमार्ग पर बसा ग़ाज़ियाबाद",
+        "shortDescription": "ग़ाज़ियाबाद राष्ट्रीय राजमार्ग 9 से जुड़ा है, जो दिल्ली से उत्तर प्रदेश होते हुए उत्तराखंड की ओर जाने वाला लंबा रास्ता है।",
+        "longDescription": "इस हिस्से की सड़कें और फ़्लाईओवर एक बहुत बड़े सड़क जाल का हिस्सा हैं। भारत सरकार के राष्ट्रीय राजमार्ग 9 के ब्योरे में दिल्ली और ग़ाज़ियाबाद, दोनों इसके रास्ते की जगहों में गिने गए हैं। यह रास्ता उत्तर प्रदेश से होता हुआ उत्तराखंड की ओर जाता है। यानी यहाँ रोज़ का आना-जाना और कई राज्यों को पार करने वाले लंबे सफ़र, दोनों एक ही सड़क पर चलते हैं।"
       }
     }
   },
   {
     "category": "transport",
-    "tags": ["vaishali", "delhi-metro", "blue-line", "public-transit"],
-    "location": { "lng": 77.339711, "lat": 28.649947 },
+    "tags": [
+      "vaishali",
+      "delhi-metro",
+      "blue-line",
+      "public-transit"
+    ],
+    "location": {
+      "lng": 77.339711,
+      "lat": 28.649947
+    },
     "interestingness": 7.8,
     "confidence": 0.96,
     "sourceName": "Delhi Metro Rail Corporation",
@@ -56,6 +90,11 @@
         "shortDescription": "Vaishali station is a Delhi Metro Blue Line stop serving Vaishali and nearby Ghaziabad neighborhoods.",
         "longDescription": "Near the destination, the journey reaches Vaishali, where the metro provides another way to move through the NCR. The station is part of the Delhi Metro Blue Line and serves Vaishali and neighboring areas on Ghaziabad's Trans-Hindon side, linking local residential districts to the wider metro network.",
         "narrationHint": "As you approach Vaishali, the road journey meets another regional connection: the Delhi Metro's Blue Line."
+      },
+      "hi": {
+        "title": "वैशाली और मेट्रो की ब्लू लाइन",
+        "shortDescription": "वैशाली स्टेशन दिल्ली मेट्रो की ब्लू लाइन का स्टेशन है, जो वैशाली और ग़ाज़ियाबाद के आसपास के मोहल्लों के काम आता है।",
+        "longDescription": "मंज़िल के पास यह सफ़र वैशाली पहुँचता है, जहाँ एनसीआर में घूमने का एक और ज़रिया मेट्रो है। यह स्टेशन दिल्ली मेट्रो की ब्लू लाइन पर है। यह वैशाली और ग़ाज़ियाबाद के हिंडन पार वाले हिस्से के आसपास के इलाक़ों के काम आता है, और यहाँ के रिहायशी इलाक़ों को बड़े मेट्रो जाल से जोड़ता है।"
       }
     }
   }
