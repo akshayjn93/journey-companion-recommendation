@@ -3,6 +3,7 @@ import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { z } from 'zod';
 import { db } from '../../common/db.js';
 import { RECOMMENDATION_CONFIG } from '../recommendation/config.js';
+import { dedupeStories } from './dedupe.js';
 import { findNearPoint } from './repository.js';
 
 // ---------------------------------------------------------------------------
@@ -205,20 +206,8 @@ export async function contentRoutes(app: FastifyInstance) {
       limit,
     );
 
-    // The same story can reach us more than once: imported from two files, or
-    // written twice as "X" and "X — why it matters on this drive". Keep one
-    // per story, and prefer the plain title. Rows stay nearest first.
-    const storyKey = (title: string) =>
-      title.trim().toLowerCase().replace(/\s*[—–-]\s*why it matters on this drive\.?$/, '');
-    const bestByKey = new Map<string, (typeof rows)[number]>();
-    for (const row of rows) {
-      // Compare English titles, so this also works when the text is in Hindi.
-      const key = storyKey(row.en_title);
-      const kept = bestByKey.get(key);
-      if (!kept || row.en_title.trim().length < kept.en_title.trim().length) bestByKey.set(key, row);
-    }
-    const keptRows = new Set(bestByKey.values());
-    const uniqueRows = rows.filter(row => keptRows.has(row));
+    // One copy per story (see dedupe.ts). Rows stay nearest first.
+    const uniqueRows = dedupeStories(rows, row => row.en_title);
 
     const stories = uniqueRows.map(row => ({
       id: row.id,

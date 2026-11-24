@@ -1,5 +1,6 @@
 import { db } from '../../common/db.js';
 import type { ContentCandidate } from '../content/repository.js';
+import { dedupeStories } from '../content/dedupe.js';
 import { recommendationEngine } from '../recommendation/engine.js';
 import { RECOMMENDATION_CONFIG } from '../recommendation/config.js';
 import { deriveCandidateContext } from '../recommendation/location.js';
@@ -170,6 +171,7 @@ export async function simulateJourney(journeyId: string, opts: SimulatorOptions 
     `SELECT
        c.id,
        COALESCE(t.title, te.title) AS title,
+       te.title AS en_title,
        COALESCE(t.short_description, te.short_description) AS short_description,
        COALESCE(t.long_description, te.long_description) AS long_description,
        COALESCE(t.narration_hint, te.narration_hint) AS narration_hint,
@@ -190,14 +192,19 @@ export async function simulateJourney(journeyId: string, opts: SimulatorOptions 
     [route_geojson, radiusMeters, language],
   );
 
-  const candidates = result.rows as ContentCandidate[];
+  const retrieved = result.rows as ContentCandidate[];
+
+  // Tell each story once. The same story can be in the database more than
+  // once (two files, or an extra "why it matters on this drive" copy).
+  const candidates = dedupeStories(retrieved, row => row.en_title ?? row.title);
 
   // Detect content that looks duplicated within this route's corridor (same
   // normalized title retrieved under different content ids). This is a
   // regression canary for the historical duplicate-content bug, not expected
   // to fire now that content_key has a unique DB constraint.
   const titleGroups = new Map<string, string[]>();
-  for (const candidate of candidates) {
+  // Counted on everything retrieved, before the repeat filter above.
+  for (const candidate of retrieved) {
     const key = candidate.title.trim().toLowerCase();
     const ids = titleGroups.get(key) ?? [];
     ids.push(candidate.id);

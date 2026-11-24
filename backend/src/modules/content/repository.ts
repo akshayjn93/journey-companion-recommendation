@@ -1,9 +1,12 @@
 import { db } from '../../common/db.js';
+import { dedupeStories } from './dedupe.js';
 
 export type ContentCandidate = {
   id: string;
   content_key?: string;
   title: string;
+  /** English title. Used to spot the same story in any language. */
+  en_title?: string;
   short_description: string;
   long_description: string | null;
   narration_hint: string | null;
@@ -27,6 +30,7 @@ const candidateSelect = `
   c.id,
   c.content_key,
   COALESCE(t.title, te.title) AS title,
+  te.title AS en_title,
   COALESCE(t.short_description, te.short_description) AS short_description,
   COALESCE(t.long_description, te.long_description) AS long_description,
   COALESCE(t.narration_hint, te.narration_hint) AS narration_hint,
@@ -52,7 +56,8 @@ export async function findNearRoute(routeGeoJson: object, radiusMeters = 5000, l
     LIMIT 200;
   `;
   const result = await db.query(sql, [JSON.stringify(routeGeoJson), radiusMeters, language]);
-  return result.rows as ContentCandidate[];
+  // One copy per story. Rows stay in route order.
+  return dedupeStories(result.rows as ContentCandidate[], row => row.en_title ?? row.title);
 }
 
 export type NearbyStoryRow = {

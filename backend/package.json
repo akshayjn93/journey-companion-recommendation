@@ -11,7 +11,7 @@
     "update-journey-route": "tsx scripts/update-journey-route.ts",
     "playback-report": "tsx scripts/playback-report.ts",
     "narration-frequency": "tsx scripts/narration-frequency-experiment.ts",
-    "test": "node --import tsx --test src/modules/recommendation/engine.test.ts src/modules/journey/routes.test.ts src/modules/content/nearby.test.ts"
+    "test": "node --import tsx --test src/modules/recommendation/engine.test.ts src/modules/journey/routes.test.ts src/modules/content/nearby.test.ts src/modules/content/dedupe.test.ts"
   },
   "dependencies": {
     "@fastify/cors": "latest",
