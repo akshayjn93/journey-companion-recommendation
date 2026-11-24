@@ -1,4 +1,5 @@
 import * as Speech from 'expo-speech';
+import { prepareForSpeech } from './speechText';
 import type { StoryLanguage } from './types';
 import { getVoiceFor, SPEECH_RATE } from './voice';
 
@@ -44,6 +45,8 @@ function end(token: number, reason: EndReason) {
  */
 export function speakStory(text: string, onEnd: OnEnd, language: string = 'en') {
   const spokenLanguage: StoryLanguage = language === 'hi' ? 'hi' : 'en';
+  // What the voice is given. Short forms and road numbers are written out.
+  const spokenText = prepareForSpeech(text, spokenLanguage);
   // Cut off anything still playing. Nothing to stop on a quiet phone.
   if (current) stopSpeaking('stopped');
   const token = ++nextToken;
@@ -56,10 +59,10 @@ export function speakStory(text: string, onEnd: OnEnd, language: string = 'en') 
     }, START_TIMEOUT_MS),
     // Safety net in case the phone never reports that speech ended:
     // allow about 3 words per second at the slowest, and at least 30 seconds.
-    maxMs: Math.max(30000, text.length * 150),
+    maxMs: Math.max(30000, spokenText.length * 150),
     onEnd,
   };
-  Speech.speak(text, {
+  Speech.speak(spokenText, {
     language: spokenLanguage,
     voice: getVoiceFor(spokenLanguage),
     rate: SPEECH_RATE,
