@@ -5,9 +5,15 @@ import type { JourneySimulationResult, NearbyStoriesResult, Story, TriggerPoint 
  * into a flat list of stories with real trigger points, mirroring the
  * normalizeJourneyData() logic in mobile-shell/app.js.
  */
+/** True when the text is written in Hindi (Devanagari) letters. */
+function looksHindi(text: string): boolean {
+  return /[\u0900-\u097F]/.test(text);
+}
+
 export async function fetchJourneySimulation(
   apiBase: string,
   journeyId: string,
+  language: string = 'en',
 ): Promise<JourneySimulationResult> {
   const trimmedBase = apiBase.trim().replace(/\/+$/, '');
   const response = await fetch(`${trimmedBase}/v1/journeys/${journeyId}/simulate`, {
@@ -18,7 +24,7 @@ export async function fetchJourneySimulation(
       assumedSpeedKmh: 60,
       decisionWindowMinutes: 1,
       interests: ['history', 'culture', 'nature', 'food'],
-      language: 'en',
+      language,
       includeStepDiagnostics: true,
     }),
   });
@@ -40,17 +46,23 @@ export async function fetchJourneySimulation(
         ? { lng: event.triggerPoint.lng, lat: event.triggerPoint.lat }
         : null;
 
+    const summary: string =
+      narration.summary ||
+      content.long_description ||
+      content.short_description ||
+      content.title ||
+      'Route story';
+
     return {
       id: content.id ?? `route-story-${index}`,
       title: content.title ?? `Story ${index + 1}`,
       category: content.category ?? 'history',
       tags: Array.isArray(content.tags) ? content.tags : [content.category ?? 'history'],
-      summary:
-        narration.summary ||
-        content.long_description ||
-        content.short_description ||
-        content.title ||
-        'Route story',
+      summary,
+      // This endpoint does not say which language it used, so read it off the text.
+      language: looksHindi(summary) ? 'hi' : 'en',
+      sourceName: content.source_name ?? undefined,
+      sourceUrl: content.source_url ?? undefined,
       cue: narration.cue || content.narration_hint || `Short ${content.category ?? 'route'} note.`,
       triggerPoint,
       approxKm: typeof event.approxKm === 'number' ? event.approxKm : null,
@@ -104,7 +116,13 @@ export async function fetchNearbyStories(
         tags: Array.isArray(item.tags) ? item.tags : [],
         summary: item.summary || item.title || 'Nearby story',
         cue: item.cue || '',
-        language: item.language === 'hi' ? 'hi' : 'en',
+        // Trust the server's tag, and fall back to the text if an older server sent none.
+        language:
+          item.language === 'hi' || (!item.language && looksHindi(item.summary ?? ''))
+            ? 'hi'
+            : 'en',
+        sourceName: item.sourceName ?? undefined,
+        sourceUrl: item.sourceUrl ?? undefined,
         triggerPoint: null,
         point: { lng: item.point.lng, lat: item.point.lat },
         approxKm: null,

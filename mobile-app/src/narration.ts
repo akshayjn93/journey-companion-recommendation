@@ -94,12 +94,14 @@ export function stopSpeaking(reason: EndReason = 'stopped') {
 }
 
 /** Speaks one short line and reports whether the phone's voice works. */
-export function testVoice(language: StoryLanguage = 'en'): Promise<EndReason> {
+export function testVoice(
+  language: StoryLanguage = 'en',
+): Promise<{ reason: EndReason; seconds: number }> {
   const line =
     language === 'hi'
       ? 'यह सफ़रनामा है। आपकी आवाज़ ठीक काम कर रही है।'
       : 'This is Safarnama. Your voice is working.';
   return new Promise(resolve => {
-    speakStory(line, reason => resolve(reason), language);
+    speakStory(line, (reason, seconds) => resolve({ reason, seconds }), language);
   });
 }

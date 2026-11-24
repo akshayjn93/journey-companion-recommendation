@@ -22,7 +22,8 @@ import {
   recordError,
   type LastRun,
 } from './src/diagnostics';
-import { prepareExplore } from './src/explore';
+import { fetchNearbyForPreview, prepareExplore } from './src/explore';
+import { PreviewScreen } from './src/PreviewScreen';
 import './src/locationTask';
 import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
 import { testVoice } from './src/narration';
@@ -67,6 +68,7 @@ export default function App() {
   const [storyLanguage, setStoryLanguage] = useState<StoryLanguage>('en');
   const [voices, setVoices] = useState<PhoneVoice[]>([]);
   const [voiceId, setVoiceId] = useState<string | undefined>(undefined);
+  const [preview, setPreview] = useState<{ title: string; stories: Story[] } | null>(null);
 
   useEffect(() => {
     AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
@@ -125,23 +127,40 @@ export default function App() {
   // Moves to the next voice on the phone and plays a sample of it. After the
   // last voice it goes back to the phone's default voice.
   const handleNextVoice = async () => {
-    const index = voices.findIndex(voice => voice.identifier === voiceId);
+    // With no saved choice, Hindi is already using the first voice in the list.
+    const current = voiceId ?? (storyLanguage === 'hi' ? voices[0]?.identifier : undefined);
+    const index = voices.findIndex(voice => voice.identifier === current);
     const next = index + 1 < voices.length ? voices[index + 1] : undefined;
     await setVoiceFor(storyLanguage, next?.identifier);
     setVoiceId(next?.identifier);
     await handleTestVoice();
   };
 
+  const NO_HINDI_VOICE =
+    'This phone has no Hindi voice. Open phone Settings, search for "Text-to-speech", open the engine settings (Speech Services by Google), choose "Install voice data", and install Hindi. Then reopen Safarnama.';
+
   const handleTestVoice = async () => {
+    if (storyLanguage === 'hi' && !voices.length) {
+      setVoiceResult(NO_HINDI_VOICE);
+      return;
+    }
     setVoiceResult('Testing... you should hear a short line now.');
-    const reason = await testVoice(storyLanguage);
-    if (reason === 'finished') {
+    const { reason, seconds } = await testVoice(storyLanguage);
+    if (reason === 'finished' && seconds < 2) {
+      // The test line takes about four seconds to say. Ending at once means
+      // the phone accepted it but had no voice that could read it.
+      setVoiceResult(
+        storyLanguage === 'hi'
+          ? 'The Hindi line ended at once, so it was probably not spoken. Tap "Try next voice", or install the Hindi voice data in the phone\'s Text-to-speech settings.'
+          : 'The line ended at once, so it was probably not spoken. Tap "Try next voice".',
+      );
+    } else if (reason === 'finished') {
       setVoiceResult('Voice works. If you heard nothing, turn up the media volume.');
     } else if (reason === 'no_voice' || reason === 'error' || reason === 'timeout') {
       setVoiceResult(
         storyLanguage === 'hi'
-          ? "The phone's Hindi voice did not start. In phone Settings, search for Text-to-speech and install the Hindi voice."
-          : "The phone's voice did not start. In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.",
+          ? `The Hindi voice did not start (${reason}). Tap "Try next voice", or install the Hindi voice data in the phone's Text-to-speech settings.`
+          : `The phone's voice did not start (${reason}). In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.`,
       );
     } else {
       setVoiceResult(null);
@@ -215,6 +234,10 @@ export default function App() {
     setLoadError(null);
     try {
       await saveSettings();
+      if (storyLanguage === 'hi' && !voices.length) {
+        setLoadError(NO_HINDI_VOICE);
+        return;
+      }
       const prepared = await prepareExplore(apiBase, storyLanguage);
       if (!prepared.ok) {
         setLoadError(prepared.message);
@@ -228,6 +251,46 @@ export default function App() {
         err?.name === 'AbortError'
           ? 'The server took too long to answer. Check your internet and try again.'
           : (err?.message ?? 'Failed to load nearby stories.'),
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Preview: load stories and play them by hand, with no GPS and no driving.
+  const handlePreview = async (source: 'journey' | 'nearby') => {
+    setIsLoading(true);
+    setLoadError(null);
+    try {
+      await saveSettings();
+      const languageName = storyLanguage === 'hi' ? 'Hindi' : 'English';
+      if (source === 'journey') {
+        const result = await fetchJourneySimulation(apiBase, journeyId, storyLanguage);
+        if (!result.stories.length) {
+          setLoadError('This journey returned no stories. Check the journey ID and API base.');
+          return;
+        }
+        setPreview({
+          title: `Planned journey, in the order they would play (${languageName})`,
+          stories: result.stories,
+        });
+      } else {
+        const result = await fetchNearbyForPreview(apiBase, storyLanguage);
+        if (!result.stories.length) {
+          setLoadError('No stories within 100 km of you yet.');
+          return;
+        }
+        setPreview({
+          title: `Stories within 100 km of you, nearest first (${languageName})`,
+          stories: result.stories,
+        });
+      }
+    } catch (err: any) {
+      await recordError('Preview stories', err);
+      setLoadError(
+        err?.name === 'AbortError'
+          ? 'The server took too long to answer. Check your internet and try again.'
+          : (err?.message ?? 'Failed to load stories.'),
       );
     } finally {
       setIsLoading(false);
@@ -271,6 +334,16 @@ export default function App() {
     story => story.id === drivingState.currentStoryId,
   );
 
+  if (!drivingState.isDriving && preview) {
+    return (
+      <PreviewScreen
+        title={preview.title}
+        stories={preview.stories}
+        onClose={() => setPreview(null)}
+      />
+    );
+  }
+
   if (!drivingState.isDriving) {
     return (
       <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
@@ -299,7 +372,9 @@ export default function App() {
           Voice:{' '}
           {voices.find(voice => voice.identifier === voiceId)
             ? voiceLabel(voices.find(voice => voice.identifier === voiceId)!)
-            : "phone's default"}
+            : storyLanguage === 'hi' && voices.length
+              ? `${voiceLabel(voices[0])}, picked automatically`
+              : "phone's default"}
           {voices.length
             ? ` (${voices.length} on this phone)`
             : storyLanguage === 'hi'
@@ -348,6 +423,18 @@ export default function App() {
         {isLoading ? null : (
           <View style={styles.spacer}>
             <Button title="Start planned journey" onPress={handleStartDriving} />
+          </View>
+        )}
+        <Text style={[styles.label, styles.spacer]}>
+          Preview stories (no GPS, no driving). Plays them with a Play button, in the language
+          chosen above.
+        </Text>
+        {isLoading ? null : (
+          <View>
+            <Button title="Preview this journey ID" onPress={() => handlePreview('journey')} />
+            <View style={styles.smallSpacer}>
+              <Button title="Preview stories near me" onPress={() => handlePreview('nearby')} />
+            </View>
           </View>
         )}
         {loadError ? <Text style={styles.error}>{loadError}</Text> : null}

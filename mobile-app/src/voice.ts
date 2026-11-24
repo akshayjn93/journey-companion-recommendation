@@ -19,6 +19,10 @@ export type PhoneVoice = {
 };
 
 let chosen: Partial<Record<StoryLanguage, string>> = {};
+// The best voice the phone has for each language. Used when the user has not
+// picked one, so we never depend on the phone guessing a voice from the
+// language code alone.
+let fallback: Partial<Record<StoryLanguage, string>> = {};
 let loading: Promise<void> | null = null;
 
 /** Safe to call many times. The background task calls it after a relaunch. */
@@ -32,6 +36,10 @@ export function loadVoiceSettings(): Promise<void> {
       } catch {
         // No saved choice: use the phone's default voice.
       }
+      for (const language of ['en', 'hi'] as const) {
+        const voices = await listVoices(language);
+        if (voices.length) fallback[language] = voices[0].identifier;
+      }
     })();
   }
   return loading;
@@ -39,7 +47,14 @@ export function loadVoiceSettings(): Promise<void> {
 
 /** The voice picked for this language, or undefined for the phone's default. */
 export function getVoiceFor(language: StoryLanguage): string | undefined {
-  return chosen[language];
+  // English is fine on the phone's own default. Hindi needs a Hindi voice
+  // named outright, or the phone may read it with an English voice.
+  return chosen[language] ?? (language === 'hi' ? fallback.hi : undefined);
+}
+
+/** True when the phone has at least one voice for this language. */
+export function hasVoiceFor(language: StoryLanguage): boolean {
+  return Boolean(fallback[language]);
 }
 
 export async function setVoiceFor(language: StoryLanguage, identifier: string | undefined) {

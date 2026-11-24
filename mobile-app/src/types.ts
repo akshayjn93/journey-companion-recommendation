@@ -12,6 +12,9 @@ export type Story = {
   cue: string;
   /** Route mode: the point on the route where the story should start. */
   triggerPoint: TriggerPoint | null;
+  /** Where the facts come from. Shown in the story preview. */
+  sourceName?: string;
+  sourceUrl?: string;
   /** Language of the story text: 'en' or 'hi'. English when missing. */
   language?: string;
   /** Explore mode: where the place really is. */

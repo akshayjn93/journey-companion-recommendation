@@ -89,6 +89,28 @@ export async function prepareExplore(
   return { ok: true, message: `${fresh} new stories saved.` };
 }
 
+/**
+ * Downloads the stories around the phone for the preview screen. It does not
+ * start a drive and does not touch the saved journey.
+ */
+export async function fetchNearbyForPreview(apiBase: string, language: StoryLanguage) {
+  const permission = await Location.requestForegroundPermissionsAsync();
+  if (permission.status !== 'granted') {
+    throw new Error('Location permission (while using the app) was denied.');
+  }
+  const fix =
+    (await Location.getLastKnownPositionAsync({ maxAge: 5 * 60 * 1000 })) ??
+    (await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced }));
+  const center = { lng: fix.coords.longitude, lat: fix.coords.latitude };
+  return fetchNearbyStories(
+    apiBase,
+    center,
+    DOWNLOAD_RADIUS_METERS,
+    FIRST_DOWNLOAD_TIMEOUT_MS,
+    language,
+  );
+}
+
 /** Downloads a fresh set of stories once the traveller has moved far enough. */
 function refreshIfNeeded(position: Position) {
   const { apiBase, center, storyLanguage } = getState();
