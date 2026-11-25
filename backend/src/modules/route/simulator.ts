@@ -179,10 +179,10 @@ export async function simulateJourney(journeyId: string, opts: SimulatorOptions 
        c.source_name, c.source_url, c.family_friendly,
        c.editorial_score, c.story_type,
        ST_Distance(c.location::geography, route.geom::geography) AS distance_m,
-       ST_LineLocatePoint(route.geom, c.location) AS route_fraction,
+       LEAST(1, GREATEST(0, ST_LineLocatePoint(route.geom, c.location))) AS route_fraction,
        ST_Length(route.geom::geography) AS route_length_m,
-       ST_X(ST_LineInterpolatePoint(route.geom, ST_LineLocatePoint(route.geom, c.location))) AS trigger_lng,
-       ST_Y(ST_LineInterpolatePoint(route.geom, ST_LineLocatePoint(route.geom, c.location))) AS trigger_lat
+       ST_X(ST_LineInterpolatePoint(route.geom, LEAST(1, GREATEST(0, ST_LineLocatePoint(route.geom, c.location))))) AS trigger_lng,
+       ST_Y(ST_LineInterpolatePoint(route.geom, LEAST(1, GREATEST(0, ST_LineLocatePoint(route.geom, c.location))))) AS trigger_lat
      FROM (SELECT ST_GeomFromGeoJSON($1) AS geom) route
      JOIN content c ON c.active = true AND c.verified = true
      JOIN content_translations te ON te.content_id = c.id AND te.language = 'en'
