@@ -1,0 +1,1500 @@
+{
+ "version": "v1",
+ "createdOn": "2026-11-25",
+ "route": "Delhi to Agra on both roads: the old highway (National Highway 44 through Faridabad, Palwal, Kosi and Mathura) and the Yamuna Expressway from Greater Noida, plus Mathura, Vrindavan and Agra city.",
+ "storyCount": 66,
+ "foodStories": 10,
+ "languages": [
+  "en",
+  "hi"
+ ],
+ "qualityNote": "Researched and written by AI helpers under a written brief, then read by an AI editor who dropped two stories and edited five. Every fact is listed per story with its source link; many history facts rest on Wikipedia. Not yet read by a person. Hindi not reviewed by a native editor.",
+ "editorChanges": [
+  "Greater Noida and Tappal stories reworded so they also make sense when driving towards Delhi.",
+  "Noida airport: the exact first-flight date (from Wikipedia only) was replaced with \"opened to passengers in 2026\".",
+  "Mathura bedai story: one line about jalebi added, replacing a separate jalebi story.",
+  "Lassi story: a shop named by a single magazine list was removed."
+ ],
+ "coordinateNote": "Stories marked \"approximate\" are pinned to a town centre or the nearest findable landmark. Check these on a map before relying on them.",
+ "approximateCoordinates": [
+  "A kebab shop named after a poet",
+  "A village street that runs through an inn",
+  "The milestones emperors left beside this road",
+  "The town refugees built with their own hands",
+  "Where India's yellow diggers come from",
+  "You are now in Krishna's cattle country",
+  "The inn at Chhata that looks like a fort",
+  "The town that claims Eklavya's clay teacher",
+  "Why this road slows down every winter",
+  "A headless emperor was dug up near here",
+  "The morning a fighter jet landed here",
+  "The Muslim poet who sang only of Krishna",
+  "Krishna's big brother has his own town",
+  "The Greeks knew this city as Methora",
+  "Where Holi lasts more than a week",
+  "The widows of Vrindavan now play Holi",
+  "A highway town named after Brahma's four faces",
+  "Mathura's breakfast: bedai and potato curry",
+  "Lassi in a clay cup in milk country",
+  "India's first elephant hospital is near this road",
+  "The Taj's stone flowers are still made here",
+  "A marble shrine a hundred years in the making",
+  "Agra's famous sweet is made from a vegetable",
+  "The petha shop every visitor to Agra hears about",
+  "Agra's breakfast: bedai first, then jalebi",
+  "Agra's other souvenir is salty, not sweet",
+  "One paratha here is enough for two"
+ ],
+ "recheckEachSeason": [
+  "Why this road slows down every winter (fog speed limits)",
+  "Do not plan the Taj for a Friday (visiting rules)",
+  "A temple planned as tall as a skyscraper (still under construction)",
+  "Delhi's second airport rises from Jewar's fields (opening details)"
+ ],
+ "droppedByEditor": [
+  {
+   "title": "A highway stop named after a diving bird",
+   "reason": "No source names a dish, so the story could not say what to order."
+  },
+  {
+   "title": "In Mathura, jalebi is eaten with potato curry",
+   "reason": "A second story about the same Mathura shop; its jalebi line was folded into the bedai story."
+  }
+ ],
+ "stories": [
+  {
+   "title": "The poet's tomb that lost its marble",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) monument: Tomb of Abdul Rahim Khan-i-Khanan, Nizamuddin East",
+   "facts": [
+    {
+     "fact": "Abdur Rahim Khan-i-Khanan built the mausoleum in 1598 for his wife Mah Banu and was later buried there himself.",
+     "sourceUrl": "https://the.akdn/en/resources-media/whats-new/news-release/aktc-completes-conservation-works-abdur-rahim-khan-i-khanans-mausoleum-delhi"
+    },
+    {
+     "fact": "Conservation by the Aga Khan Trust for Culture ran from 2014 and was completed on 17 December 2020, a six-year effort.",
+     "sourceUrl": "https://the.akdn/en/resources-media/whats-new/news-release/aktc-completes-conservation-works-abdur-rahim-khan-i-khanans-mausoleum-delhi"
+    },
+    {
+     "fact": "The tomb is in Nizamuddin East on the Mathura Road; his body was placed in it in 1627.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Abdul_Rahim_Khan-i-Khanan"
+    },
+    {
+     "fact": "In 1753-54 marble and sandstone from this tomb was used in building Safdarjung's Tomb.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Abdul_Rahim_Khan-i-Khanan"
+    },
+    {
+     "fact": "Rahim was one of Akbar's Navaratnas and is known for his Hindustani dohe (couplets).",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Abdul_Rahim_Khan-i-Khanan"
+    }
+   ],
+   "note": "Humayun's Tomb is already live; this story is only about Rahim's tomb next to it."
+  },
+  {
+   "title": "A royal cook's family still feeds Nizamuddin",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap restaurant node named Karim's in Nizamuddin West (Overpass query)",
+   "facts": [
+    {
+     "fact": "Haji Karimuddin decided to set up a stall selling food to those attending the Delhi Durbar (1911); the first menu was alu-gosht and dal.",
+     "sourceUrl": "https://openthemagazine.com/art-culture/100-years-of-karims"
+    },
+    {
+     "fact": "His father, Mohd Aziz, is said to have worked in the royal kitchens of the Red Fort.",
+     "sourceUrl": "https://openthemagazine.com/art-culture/100-years-of-karims"
+    },
+    {
+     "fact": "The first branch of Karim's was opened at Nizamuddin (the article says in the 1960s).",
+     "sourceUrl": "https://openthemagazine.com/art-culture/100-years-of-karims"
+    },
+    {
+     "fact": "Nihari and burra kebab are among the dishes the restaurant is known for.",
+     "sourceUrl": "https://openthemagazine.com/art-culture/100-years-of-karims"
+    },
+    {
+     "fact": "Karim's runs a restaurant at Nizamuddin West (Dastarkhwan-e-Karim).",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karim%27s"
+    }
+   ],
+   "note": "Sources disagree on when the Nizamuddin branch opened (Open magazine: 1960s; Wikipedia: 1990s), so no year is given. Wikipedia gives 1913 as the founding year of the Jama Masjid restaurant; the text only says 'around the Delhi Durbar of 1911' for the first stall. Non-vegetarian restaurant."
+  },
+  {
+   "title": "A kebab shop named after a poet",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap node for Mirza Ghalib's Tomb on Ghalib Road, the nearest findable landmark to the shop (Shop 57, Ghalib Road)",
+   "facts": [
+    {
+     "fact": "Delhi Tourism lists Ghalib Kebab Corner in Nizamuddin, 'whose delicacies were awarded the best kebab award at the Maurya Sheraton Kebab festival'.",
+     "sourceUrl": "https://delhitourism.gov.in/dt/delhi_delicacies/nizamuddin.html"
+    },
+    {
+     "fact": "The shop is at Shop 57, Ghalib Road, Nizamuddin, with prominent signage; the mutton shammi kebabs are a speciality (article updated January 2022).",
+     "sourceUrl": "https://www.slurrp.com/article/kebab-corners-try-these-6-places-in-delhi-for-some-kebab-indulgence-1637579456479"
+    },
+    {
+     "fact": "Mirza Ghalib's tomb is in Nizamuddin Basti.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ghalib"
+    }
+   ],
+   "note": "Weakest-sourced food story. The official Delhi Tourism page confirms the shop and the award; the most recent source I found that it is running is a January 2022 Slurrp article, not a major newspaper. A founding year of 1971 appears only on a food-walk blog, so no age is given. 'Rumali roti' is a common pairing mentioned in reviews, not in the two main sources: remove if you want strict sourcing. Non-vegetarian."
+  },
+  {
+   "title": "The fort a saint is said to have cursed",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Tughlaqabad Fort",
+   "facts": [
+    {
+     "fact": "Tughlaqabad Fort was built in 1321 by Ghiyath al-Din Tughluq and abandoned in 1327.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tughlaqabad_Fort"
+    },
+    {
+     "fact": "The walls are 10 to 15 metres high with a circuit of about 6.4 kilometres.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tughlaqabad_Fort"
+    },
+    {
+     "fact": "Legend: the sultan tried to stop work on Nizamuddin Auliya's stepwell; the saint's curse was 'Ya rahe ujjar, ya base Gujjar'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tughlaqabad_Fort"
+    },
+    {
+     "fact": "Ghiyasuddin built the Qutub-Badarpur road linking the city to the Grand Trunk Road; it is now the Mehrauli-Badarpur Road.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tughlaqabad_Fort"
+    }
+   ],
+   "note": "The curse is legend and is worded as such. The fort is about 4 kilometres west of the Mathura Road at Badarpur."
+  },
+  {
+   "title": "Where \"Dilli abhi door hai\" comes from",
+   "category": "culture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim): Hazrat Nizamuddin Ki Baoli",
+   "facts": [
+    {
+     "fact": "Legend: when the sultan vowed to deal with the saint on return from Bengal, Nizamuddin Auliya said 'Hunuz Dilli dur ast', meaning 'Delhi is still far off'.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tughlaqabad_Fort"
+    },
+    {
+     "fact": "Ghiyath al-Din Tughluq died in February 1325 when a wooden pavilion built for his reception collapsed on his way back from Bengal, killing him and his second son.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ghiyath_al-Din_Tughluq"
+    },
+    {
+     "fact": "Legend: Ghiyasuddin Tughlaq forbade workers from working on Nizamuddin's baoli (stepwell) while his fort was being built, so they worked at night.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nizamuddin_Dargah"
+    }
+   ],
+   "note": "Legend, worded as such. The Tughlaqabad Fort article gives 1324 in one place and the Ghiyath al-Din article gives February 1325; most histories use 1325, which is used here. The place of death (Kara-Manikpur or Afghanpur near Delhi) differs by source and is left out. Placed at the saint's stepwell in Nizamuddin, beside the Mathura Road."
+  },
+  {
+   "title": "A village street that runs through an inn",
+   "category": "architecture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Badarpur suburb, Delhi; the sarai is inside Badarpur village and its exact point was not found",
+   "facts": [
+    {
+     "fact": "The gateways belong to the Sarai of Badarpur on the Delhi-Mathura Road; there are northern, central and southern gateways lying in an axial line, with two enclosures.",
+     "sourceUrl": "https://archaeology.delhi.gov.in/archaeology/gateways-badarpur"
+    },
+    {
+     "fact": "The southern enclosure held arched cells for travellers, now mostly ruined.",
+     "sourceUrl": "https://archaeology.delhi.gov.in/archaeology/gateways-badarpur"
+    },
+    {
+     "fact": "Sarai Badarpur lies east of the old Grand Trunk Road and has aligned northern and southern gateways with a central gateway; it is protected by the Delhi Department of Archaeology.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1930"
+    },
+    {
+     "fact": "The three gateways are in a line along the central road through the sarai, which now forms the central road through Badarpur village.",
+     "sourceUrl": "https://sarsonkekhet.in/2012/10/26/badarpur-sarai/"
+    }
+   ],
+   "note": "Builder and date are left out on purpose: the Delhi archaeology page says it 'may be said to have been built by Jahangir' and also mentions the Tughlaq period, while the VMIS survey attributes it to Raushan al-Daula (died 1736-37). The detail that the village street runs through the gates comes from a heritage blog plus the official description of the layout."
+  },
+  {
+   "title": "The power plant Delhi switched off for good",
+   "category": "infrastructure",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Badarpur Thermal Power Station",
+   "facts": [
+    {
+     "fact": "The first unit of Badarpur Thermal Power Station was commissioned on 26 July 1973; installed capacity was 705 megawatts.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badarpur_Thermal_Power_Station"
+    },
+    {
+     "fact": "The plant was shut down permanently on 15 October 2018.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badarpur_Thermal_Power_Station"
+    },
+    {
+     "fact": "A 2015 Centre for Science and Environment study found the plant supplied about 8% of Delhi's electricity but produced 30% to 40% of the city's particulate matter pollution from the energy sector.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badarpur_Thermal_Power_Station"
+    },
+    {
+     "fact": "Operation was closed down permanently as the last unit stopped at 20:30 on 15 October 2018.",
+     "sourceUrl": "https://cea.nic.in/wp-content/uploads/2020/04/badarpur.pdf"
+    }
+   ],
+   "note": "An eco park on the plant's ash pond was announced in 2019 (PTI); I could not confirm its present state, so it is not mentioned. The text does not say the chimneys can still be seen, because I could not confirm that."
+  },
+  {
+   "title": "The milestones emperors left beside this road",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for Sarai Khwaja, Faridabad, on the Mathura Road; the kos minar is recorded at Sector 29 / Khwaja Sarai and its exact point was not found",
+   "facts": [
+    {
+     "fact": "Sher Shah Suri introduced brick pillars at every kos; Akbar and later Mughal emperors built more. Kos minars are solid round pillars around 30 feet (9.1 metres) high on a masonry platform. A kos is roughly 3.22 kilometres.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kos_Minar"
+    },
+    {
+     "fact": "A 2025 survey studied 47 kos minars in Haryana; those at Faridabad, Gharaunda, Karnal, Daha and Ambala are in very good condition.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/many-kos-minars-stand-tall-but-some-cry-for-attention-survey"
+    },
+    {
+     "fact": "Kos Minar 11 is at Sector 29, Khwaja Sarai, Faridabad: an octagonal tower of lakhori brick, protected by the Archaeological Survey of India and well maintained.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1863"
+    },
+    {
+     "fact": "A kos minar stands in the main market of Palwal, west of the old Grand Trunk Road.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1888"
+    },
+    {
+     "fact": "Most of the kos minars in Faridabad and Palwal districts have suffered from poor conservation and encroachment.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/kos-minars-victim-of-poor-conservation-482050"
+    }
+   ],
+   "note": "The length of a kos varied (3.2 to 4.2 kilometres in different studies); the text says 'roughly three kilometres'. I could not confirm that any minar is visible from the main carriageway, so the text does not say 'look left'."
+  },
+  {
+   "title": "The picnic lake that mining drank dry",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim): Badkhal Lake, Faridabad",
+   "facts": [
+    {
+     "fact": "The lake was built soon after Independence in 1947 by constructing a bund between two low-lying Aravalli hills to trap run-off for irrigation.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badkhal_Lake"
+    },
+    {
+     "fact": "Unchecked mining in neighbouring areas obstructed water flow and damaged aquifers; borewells and low rainfall added to it. Since 2009 the lake has been observed as completely dried up.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badkhal_Lake"
+    },
+    {
+     "fact": "The Government of Haryana built a resort near the lake in 1972.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badkhal_Lake"
+    },
+    {
+     "fact": "A lake revival project worth Rs 79 crore was taken up in 2018.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Badkhal_Lake"
+    },
+    {
+     "fact": "The revival project has missed several deadlines.",
+     "sourceUrl": "https://www.tribuneindia.com/news/haryana/5-deadlines-later-badkhal-lake-revival-remains-work-in-progress"
+    }
+   ],
+   "note": "The lake is about 3 to 4 kilometres west of the Mathura Road. Wikipedia reports water back in the lake by 2025 (up to 7 metres deep) but the project has slipped many deadlines, so the text only says refilling work began in 2018. 'Delhi's favourite picnic spot' is a common description; soften to 'a popular picnic spot' if preferred."
+  },
+  {
+   "title": "The town refugees built with their own hands",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for NIT 3, New Industrial Township, Faridabad; the township is a large area, so this is its middle",
+   "facts": [
+    {
+     "fact": "About 30,000 refugees from the North West Frontier Province were housed at Faridabad; they refused to take the government's dole and offered to work as labourers to build the city themselves.",
+     "sourceUrl": "https://www.downtoearth.org.in/governance/independence-day-2024-how-faridabad-near-delhi-became-a-city-of-hope-for-thousands-displaced-from-khyber-pakhtunkhwa-in-1947-48"
+    },
+    {
+     "fact": "The Faridabad Development Board was formed on 10 June 1949 with Rajendra Prasad as chairman; the foundation was laid on 17 October 1949.",
+     "sourceUrl": "https://www.downtoearth.org.in/governance/independence-day-2024-how-faridabad-near-delhi-became-a-city-of-hope-for-thousands-displaced-from-khyber-pakhtunkhwa-in-1947-48"
+    },
+    {
+     "fact": "The plan was for 5,196 houses; the township also got about 20 miles of roads, eight schools, a hospital and an industrial sector.",
+     "sourceUrl": "https://www.downtoearth.org.in/governance/independence-day-2024-how-faridabad-near-delhi-became-a-city-of-hope-for-thousands-displaced-from-khyber-pakhtunkhwa-in-1947-48"
+    },
+    {
+     "fact": "Nehru took part in 21 of the 24 meetings of the Faridabad Development Board.",
+     "sourceUrl": "https://www.downtoearth.org.in/governance/independence-day-2024-how-faridabad-near-delhi-became-a-city-of-hope-for-thousands-displaced-from-khyber-pakhtunkhwa-in-1947-48"
+    },
+    {
+     "fact": "The township was built on a cooperative basis with Kamaladevi Chattopadhyay, Sudhir Ghosh and L C Jain leading the effort.",
+     "sourceUrl": "https://www.livehistoryindia.com/story/snapshort-histories-making-of-modern-india/faridabad-a-city-that-built-itself/"
+    }
+   ],
+   "note": "Figures come from Down To Earth, which draws on L C Jain's book 'The City of Hope: The Faridabad Story'. The existing live story on Sheikh Farid founding Faridabad in 1607 is not repeated. 'N I T' is spelled with spaces so the voice reads the letters."
+  },
+  {
+   "title": "Where India's yellow diggers come from",
+   "category": "industry",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Photon) point for Raja Nahar Singh metro station, Ballabgarh, on the Mathura Road; the factory's own point was not found (its address is 23/7 Mathura Road, Ballabgarh)",
+   "facts": [
+    {
+     "fact": "JCB India started as a joint venture in 1979. The Ballabgarh factory near New Delhi is described by the company as the world's largest factory for backhoe loaders and is JCB India's headquarters.",
+     "sourceUrl": "https://www.jcb.com/en-in/company/about-jcb-india"
+    },
+    {
+     "fact": "JCB India's registered and head office address is 23/7 Mathura Road, Ballabgarh.",
+     "sourceUrl": "https://www.protenders.com/en/companies/jcb-india-limited"
+    },
+    {
+     "fact": "The Ballabgarh headquarters and main plant claims to be the largest backhoe-loader factory in the world.",
+     "sourceUrl": "https://www.enr.com/articles/9447-in-india-small-backhoes-mean-big-business"
+    },
+    {
+     "fact": "Wikipedia's JCB page notes that a backhoe loader is called a 'JCB' in the UK, Ireland and India.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/JCB_(company)"
+    }
+   ],
+   "note": "'World's largest' is the company's own claim and is worded that way. The line that people in India call the machine a JCB is supported by Wikipedia's JCB page (backhoe loader 'called JCB in the UK, Ireland, India'). The existing live Ballabhgarh story (Raja Nahar Singh) is not repeated."
+  },
+  {
+   "title": "Gandhi was pulled off a train at Palwal",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim): Palwal railway station",
+   "facts": [
+    {
+     "fact": "Gandhi: before the train reached Palwal he was served a written order prohibiting him from entering Punjab; 'At Palwal railway station I was taken out of the train and put under police custody.' He was taken via Mathura and put on a train towards Bombay, where he was released.",
+     "sourceUrl": "https://mkgandhi.org/storyofmylife/51rowlatt_act.php"
+    },
+    {
+     "fact": "Mahatma Gandhi was arrested on 10 April 1919 at Palwal railway station while going to Punjab against the Rowlatt Act.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Palwal"
+    }
+   ],
+   "note": "Wikipedia gives the date as 10 April 1919; some Gandhi chronologies give the night of 9 April, so the spoken text says only 'April 1919'. Some quiz sites call this his first arrest in India; that is not claimed here."
+  },
+  {
+   "title": "You are now in Krishna's cattle country",
+   "category": "culture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Kosi Kalan town on the highway; the story is about the region",
+   "facts": [
+    {
+     "fact": "Braj is a region on both sides of the Yamuna with its centre at Mathura-Vrindavan; it includes Palwal in south-eastern Haryana. The word comes from Sanskrit vraja, a pasture or shelter for cattle.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Braj"
+    },
+    {
+     "fact": "The Braj parikrama circuit is 84 kos, about 300 kilometres long.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Braj"
+    },
+    {
+     "fact": "Braj Bhasha is spoken in south-eastern Haryana around Palwal and Faridabad as well as the Mathura region; Surdas's Sur Sagar is written in it.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Braj_Bhasha"
+    },
+    {
+     "fact": "Hodal is part of the Braj region; Braj Bhasha is a regional language there.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hodal"
+    }
+   ],
+   "note": "Krishna's childhood in Braj is stated as belief. 'Soft, sing-song' is my description of the dialect, not a sourced fact. Other writers cover Mathura and Vrindavan; this story is only about entering the region and its language."
+  },
+  {
+   "title": "The inn at Chhata that looks like a fort",
+   "category": "architecture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Chhata town; the sarai stands in the town about 90 metres east of the old road and its own point was not found",
+   "facts": [
+    {
+     "fact": "Akbari Sarai, Chhata, is a Mughal-period caravanserai about 90 metres east of the old Grand Trunk Road: a rectangular enclosure with high battlemented walls, octagonal corner towers and imposing three-storeyed gateways.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1846"
+    },
+    {
+     "fact": "Its gateways are the Delhi Darwaza (south-east) and Agra Darwaza (north-west).",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1846"
+    },
+    {
+     "fact": "The south-east bastion was lost during the 1857 uprising; parts remain occupied and a mosque inside still functions. It is protected by the Archaeological Survey of India, Agra Circle.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1846"
+    },
+    {
+     "fact": "Seventeenth-century travellers described it as a large, fortified structure.",
+     "sourceUrl": "https://vmis.in/ArchiveCategories/collection_by_category/1846"
+    }
+   ],
+   "note": "Builder and date left out: the survey says it was partly built under Sher Shah Suri and later Asaf Khan, likely finished under Jahangir, and also gives 1611 to 1615, which do not fit neatly together. 'Most people take it for a fort' reflects that locals call it Chhata fort (qila); soften if needed. A similar, smaller Mughal sarai survives at Kosi Kalan; I left it out to avoid two alike stories."
+  },
+  {
+   "title": "165 kilometres of concrete to Agra",
+   "category": "infrastructure",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap geometry: northern end point of the Yamuna Expressway carriageway at Greater Noida",
+   "facts": [
+    {
+     "fact": "The Yamuna Expressway is 165.537 km long, six lanes expandable to eight, access controlled, with a concrete surface.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Yamuna_Expressway"
+    },
+    {
+     "fact": "It runs from Pari Chowk, Greater Noida to Kuberpur, Agra, and was inaugurated on 9 August 2012 by Chief Minister Akhilesh Yadav.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Yamuna_Expressway"
+    },
+    {
+     "fact": "Projected travel time from Greater Noida to Agra fell from about four hours to about 1 hour 40 minutes.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Yamuna_Expressway"
+    }
+   ],
+   "note": "The four-hour figure is the projected saving quoted on Wikipedia, so the story says 'around four hours'."
+  },
+  {
+   "title": "A city with neighbourhoods named in Greek",
+   "category": "geography",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Greater Noida city",
+   "facts": [
+    {
+     "fact": "Greater Noida's sectors are named after Greek letters; Alpha, Beta and Gamma are the oldest; newer ones include Xi, Delta, Mu, Omicron and Tau.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Greater_Noida"
+    },
+    {
+     "fact": "It was created as an extension of Noida under the UP Industrial Area Development Act, 1976; the notified area covers 380 square kilometres and 124 villages.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Greater_Noida"
+    },
+    {
+     "fact": "All cabling and utilities are underground.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Greater_Noida"
+    }
+   ],
+   "note": "Founding year left out on purpose: Wikipedia shows both 1991 and 1997."
+  },
+  {
+   "title": "Afghanistan's home cricket ground is here",
+   "category": "sport",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Greater Noida Cricket Stadium (Shaheed Vijay Singh Pathik Sports Complex)",
+   "facts": [
+    {
+     "fact": "The Shaheed Vijay Singh Pathik Sports Complex in Greater Noida (capacity 8,000) is listed as Afghanistan's home ground from 2015; first men's international matches were Afghanistan v Ireland in March 2017.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Greater_Noida_Cricket_Stadium"
+    },
+    {
+     "fact": "The one-off Afghanistan v New Zealand Test of 9 to 13 September 2024 was abandoned without a ball bowled because of a wet outfield and then rain.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Greater_Noida_Cricket_Stadium"
+    },
+    {
+     "fact": "It was only the eighth Test abandoned without a ball bowled, and the first since 1998.",
+     "sourceUrl": "https://dawn.com/news/1858802"
+    }
+   ],
+   "note": "The 'eighth time, first since 1998' count came from news search summaries (ESPNcricinfo, Dawn, Gulf News); I could not open those pages directly. The reason Afghanistan plays outside its own country is general knowledge, worded loosely. The stadium is about 3.4 kilometres from the start of the expressway."
+  },
+  {
+   "title": "India's Formula One track beside the road",
+   "category": "sport",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Buddh International Circuit",
+   "facts": [
+    {
+     "fact": "The Grand Prix circuit is 5.125 km long with 16 turns, designed by Hermann Tilke; inaugurated 18 October 2011; first Formula One race held 30 October 2011.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Buddh_International_Circuit"
+    },
+    {
+     "fact": "Sebastian Vettel won the Indian Grand Prix in 2011, 2012 and 2013.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Buddh_International_Circuit"
+    },
+    {
+     "fact": "The race was suspended for 2014 and later cancelled because of a tax dispute with the Government of Uttar Pradesh.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Buddh_International_Circuit"
+    }
+   ],
+   "note": "'The only track in India where Formula One cars have raced' follows from the Indian Grand Prix having been held only here; check wording if unsure."
+  },
+  {
+   "title": "The town that claims Eklavya's clay teacher",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Dankaur town centre; the temple itself was not found on the map",
+   "facts": [
+    {
+     "fact": "Dankaur has a Dronacharya temple; tradition says Eklavya practised archery here before a statue of Dronacharya, and that the town was earlier called Dronkaur.",
+     "sourceUrl": "https://www.bhaktibharat.com/en/mandir/dronacharya-mandir-dankaur"
+    },
+    {
+     "fact": "A legend recorded by Vijayendra Kumar Mathur says the town was founded by Dronacharya and gets its name from him.",
+     "sourceUrl": "https://static.jatland.com/home/Dankaur"
+    },
+    {
+     "fact": "Dankaur is a town on the Yamuna Expressway opposite the Buddh International Circuit.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Dankaur"
+    }
+   ],
+   "note": "Weak sourcing: only a devotional site and Jatland Wiki confirm the tradition; no newspaper or official page was found. Everything is worded as tradition. The 'clay' in the title follows the usual Mahabharata telling of Eklavya's statue; drop the word if you want to be strict. A separate Eklavya temple exists in Gurugram with its own claim."
+  },
+  {
+   "title": "The tallest flying bird lives near here",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Dhanauri Wetlands",
+   "facts": [
+    {
+     "fact": "The Dhanauri Wetlands near Dankaur are described as home to over 120 sarus cranes; the site is still awaiting Ramsar status.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Dhanauri_Wetlands"
+    },
+    {
+     "fact": "The sarus crane is the world's tallest flying bird, up to 1.8 metres, with a bare red head and upper neck; it was declared the state bird of Uttar Pradesh in 2013.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sarus_crane"
+    },
+    {
+     "fact": "Sarus cranes are widely believed in India to mate for life.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Sarus_crane"
+    }
+   ],
+   "note": "Counts vary a lot: Wikipedia says over 120, a 2019 report about 100, but the 2021 waterbird census found only 7. The story says 'birdwatchers have counted more than a hundred'. The wetland is about 6.8 kilometres from the expressway."
+  },
+  {
+   "title": "Two villages that changed India's land law",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Parsaul village",
+   "facts": [
+    {
+     "fact": "Farmers of Bhatta and Parsaul near Dankaur protested low rates for land taken by the Yamuna Expressway authority; on 7 May 2011 a gun battle with police killed two policemen and two civilians.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/2011_land_acquisition_protests_in_Uttar_Pradesh"
+    },
+    {
+     "fact": "The protests highlighted problems in the Land Acquisition Act of 1894 and led to the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/2011_land_acquisition_protests_in_Uttar_Pradesh"
+    }
+   ],
+   "note": "The Wikipedia article gives 'three deaths' in one place and two policemen plus two civilians in another, so the story gives no number. Sensitive topic; told without taking sides. Parsaul is about 3.9 kilometres from the expressway."
+  },
+  {
+   "title": "Delhi's second airport rises from Jewar's fields",
+   "category": "infrastructure",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Noida International Airport",
+   "facts": [
+    {
+     "fact": "Noida International Airport is at Jewar, Gautam Buddha Nagar; foundation stone laid 25 November 2021; Phase one inaugurated 28 March 2026; commercial operations began 15 June 2026 with an IndiGo flight from Lucknow.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Noida_International_Airport"
+    },
+    {
+     "fact": "Runway 10/28 is 3,900 metres long.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Noida_International_Airport"
+    },
+    {
+     "fact": "Zurich Airport International won the bid in 2019 and signed a 40-year concession in October 2020; the operator is its subsidiary Yamuna International Airport Private Limited.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Noida_International_Airport"
+    }
+   ],
+   "note": "Very recent facts (2026 opening) taken from Wikipedia only; please double-check the opening dates. 'Delhi's second airport' in the title is a common description of it as the capital region's second big international airport (Hindon also has civil flights); change if you prefer. The airport is about 4 kilometres from the expressway."
+  },
+  {
+   "title": "Why this road slows down every winter",
+   "category": "infrastructure",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap geometry: point on the Yamuna Expressway nearest to Tappal town, the halfway patrol point",
+   "facts": [
+    {
+     "fact": "The general speed limit on the Yamuna Expressway is 100 km/h; a highway patrol station is at Tappal, the halfway point; CCTV cameras are placed every 5 km.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Yamuna_Expressway"
+    },
+    {
+     "fact": "For winter fog the limit was cut to 75 km/h for light vehicles and 60 km/h for heavy vehicles from 15 December to 15 February (2024-25 season).",
+     "sourceUrl": "https://theprint.in/india/max-speed-capped-at-75-kmph-on-noida-greater-noida-yamuna-expressways-in-view-of-winter-fog/2805140"
+    },
+    {
+     "fact": "The same 15 December to 15 February reduction was applied for winter 2025-26.",
+     "sourceUrl": "https://www.businesstoday.in/india/story/dense-fog-in-delhi-ncr-noida-imposes-speed-limits-on-yamuna-expressway-506551-2025-12-14"
+    }
+   ],
+   "note": "No notice for winter 2026-27 was found yet, so the story says 'in recent years'. Limits can change; re-check each season. The news pages were confirmed through search summaries, not opened directly."
+  },
+  {
+   "title": "A headless emperor was dug up near here",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Mant town; the exact mound (Tokri Tila) was not found on the map",
+   "facts": [
+    {
+     "fact": "The Kanishka statue in the Mathura Museum was found at Mant (Mat), Mathura; a Brahmi inscription along the bottom of the coat reads 'The Great King, King of Kings, Son of God, Kanishka'. Kanishka ruled about 127 to 150 CE.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kanishka"
+    },
+    {
+     "fact": "The statue shows him in a heavy coat and riding boots of Central Asian style, holding a sword and a mace.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kushan_art"
+    },
+    {
+     "fact": "The statue was excavated at Mat, a Kushan dynastic shrine near Mathura; its head and arms are lost.",
+     "sourceUrl": "https://mapacademy.io/?p=3010"
+    },
+    {
+     "fact": "Record of the statue citing the Archaeological Survey of India Annual Report 1911-12; findspot Tokri Tila near Mat village.",
+     "sourceUrl": "https://digitalcollections.universiteitleiden.nl/view/item/81218"
+    }
+   ],
+   "note": "Britannica and Encyclopaedia Iranica pages on Mat exist but blocked my reader, so the story rests on Wikipedia, MAP Academy and a Leiden University record. I left out the year of the find (1911-12) and the excavator's name because I could not open a source that states them plainly. Coordinates are Mant town, about 2.4 kilometres from the expressway."
+  },
+  {
+   "title": "The morning a fighter jet landed here",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap geometry: point on the Yamuna Expressway nearest to Raya town; the exact landing spot is not published",
+   "facts": [
+    {
+     "fact": "An Indian Air Force Mirage 2000 from Gwalior touched down on the Yamuna Expressway near Mathura at about 6:40 am on Thursday 21 May 2015 and took off again; it first made a practice approach down to 100 metres; described as a first for India; traffic was halted for a few hours.",
+     "sourceUrl": "https://www.dnaindia.com/india/report-in-a-first-for-india-fighter-jet-test-lands-at-yamuna-expressway-2087994"
+    },
+    {
+     "fact": "The landing on 21 May 2015 was near Raya village, Mathura, as a drill to test highways for emergency military landings.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Yamuna_Expressway"
+    }
+   ],
+   "note": "The exact landing spot is not published; the story is placed on the expressway at Raya."
+  },
+  {
+   "title": "The Muslim poet who sang only of Krishna",
+   "category": "culture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Mahaban village; the tomb itself was not found on the map",
+   "facts": [
+    {
+     "fact": "Raskhan, born Syed Ibrahim Khan, was born a Muslim and became a Vaishnav devotee of Krishna, a disciple of Vitthalanath; his works include Sujan Raskhan and Premavatika; he wrote in forms such as the savayya.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Raskhan"
+    },
+    {
+     "fact": "His tomb (samadhi) is at Mahaban, about six miles east of Mathura; he is said to have died in 1628.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Raskhan"
+    },
+    {
+     "fact": "According to the Bhagavata Purana, Gokul is where Krishna spent his childhood; before the 16th century texts treat Mahaban and Gokul as the same place.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gokul"
+    },
+    {
+     "fact": "Mahavan's sights include Raskhan's tomb and Chaurasi Khamba (84 pillars).",
+     "sourceUrl": "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/mathura-vrindavan/mahavan.html"
+    }
+   ],
+   "note": "Raskhan's birth year is disputed (1548, 1614 or 1630 are all given), so the story says 'some four hundred years ago'. 'Taught in schools' is general knowledge about the Hindi syllabus, not from a fetched source; drop if you want strict sourcing. Mahavan is across the Yamuna from Mathura town, about 3.6 kilometres from the expressway; check it does not overlap with the Mathura writer's stories."
+  },
+  {
+   "title": "Krishna's big brother has his own town",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Baldeo town centre; the temple itself was not found on the map",
+   "facts": [
+    {
+     "fact": "Baldeo is named after Balarama, Krishna's elder brother, locally called Dauji; the temple has a stone statue of Dauji with his wife Revati; tradition says the image was first installed by Vajranabha and reinstalled in Mughal times by Goswami Gokulnath.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Baldeo"
+    },
+    {
+     "fact": "Holi is celebrated at the temple as Huranga, which draws visitors from other places including abroad; Dauji's Huranga follows Holi.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Baldeo"
+    },
+    {
+     "fact": "Beside the temple is a brick tank over 80 yards square called Kshir Sagar.",
+     "sourceUrl": "https://en.krishnakosh.org/krishna/Baldeo"
+    }
+   ],
+   "note": "Baldeo is about 1.5 kilometres from the expressway by the map. Temple history is tradition, so it is kept out of the spoken text. The tank detail comes from Krishnakosh, which quotes an old district account."
+  },
+  {
+   "title": "A god born in a prison cell",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Krishna Janmasthan Temple Complex",
+   "facts": [
+    {
+     "fact": "According to Hindu tradition, Krishna was born to Devaki and Vasudeva in a prison cell where they were confined by his maternal uncle Kamsa, king of Mathura, because of a prophecy of his death by Devaki's child.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Krishna_Janmasthan_Temple_Complex"
+    },
+    {
+     "fact": "The Mathura district site describes Shri Krishna Janambhumi as the place where Krishna appeared in a prison house.",
+     "sourceUrl": "https://mathura.nic.in/tourist-places/"
+    },
+    {
+     "fact": "In the traditional account Vasudeva carried the newborn Krishna across the Yamuna the same night; Janmashtami is celebrated at midnight.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Krishna_Janmashtami"
+    }
+   ],
+   "note": "Kept strictly to the birth tradition. Nothing about the later history of the site or any present-day dispute."
+  },
+  {
+   "title": "The riverbank where Krishna is said to have rested",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Vishram Ghat, Mathura",
+   "facts": [
+    {
+     "fact": "Krishna is said to have rested at Vishram Ghat after killing Kamsa, which gives the ghat its name; the traditional parikrama starts and ends here.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Vishram_Ghat"
+    },
+    {
+     "fact": "The evening aarti at dusk with lamps is the site's main draw and attracts thousands; visitors can take a boat ride on the Yamuna.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/vishram-ghat"
+    },
+    {
+     "fact": "On Yam Dwitiya (Bhai Dooj) brothers and sisters bathe together in the Yamuna at Vishram Ghat; about 1.25 lakh devotees came in 2025.",
+     "sourceUrl": "https://ianslive.in/125-lakh-devotees-take-holy-dip-in-yamuna-on-bhai-dooj-in-mathura--20251023132502"
+    }
+   ],
+   "note": "Wikipedia's coordinates for the ghat sit about 800 metres north of the OpenStreetMap point; the OpenStreetMap point is next to Dwarkadhish temple, which matches the ghat's known position, so that was used."
+  },
+  {
+   "title": "The king with no head in Mathura's museum",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Government Museum, Mathura",
+   "facts": [
+    {
+     "fact": "The museum was founded in 1874 by F. S. Growse, then collector of Mathura district, and is known for Mathura school sculpture of the Kushan and Gupta periods.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Government_Museum,_Mathura"
+    },
+    {
+     "fact": "The statue of Kanishka in the Mathura Museum, found at Mat near Mathura, carries the inscription 'Maharaja Rajadhiraja Devaputra Kanishka' (the great king, king of kings, son of god, Kanishka) along the bottom of the coat. Kanishka reigned about 127 to 150 CE and Mathura was a major capital.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Kanishka"
+    },
+    {
+     "fact": "The statue's head and arms are missing; the right hand holds a club and the left a sword.",
+     "sourceUrl": "https://imp-art.org/articles/headless-kanishka-statue/"
+    }
+   ],
+   "note": "The imp-art.org (MAP Academy) article could not be opened directly; the head, arms, club and sword details come from its search summary and match the widely published description of the statue."
+  },
+  {
+   "title": "The Greeks knew this city as Methora",
+   "category": "history",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Mathura city (the story is about the city as a whole)",
+   "facts": [
+    {
+     "fact": "Megasthenes, writing in the early 3rd century BCE, called the city Methora; Arrian's Indica quotes him naming Methora among the cities of the Surasenians.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mathura"
+    },
+    {
+     "fact": "The Kushans made Mathura one of their capitals.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mathura"
+    },
+    {
+     "fact": "Faxian (about 400 CE) described Mathura as a Buddhist centre; Xuanzang visited in 634 CE and recorded twenty Buddhist monasteries and many Hindu temples.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mathura"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The refinery that worried the Taj Mahal",
+   "category": "industry",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Mathura Refinery",
+   "facts": [
+    {
+     "fact": "The Mathura Refinery of Indian Oil was commissioned on 19 January 1982; construction began in October 1972. It is about 50 kilometres from the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mathura_Refinery"
+    },
+    {
+     "fact": "A committee chaired by Dr S. Varadarajan reported in 1978 that sulphur dioxide from the Mathura Refinery and local industries threatened the Taj Mahal. M. C. Mehta filed a public interest petition in 1984. On 30 December 1996 the Supreme Court banned coal and coke use by industries in the Taj Trapezium Zone.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/M._C._Mehta_v._Union_of_India_and_Others"
+    },
+    {
+     "fact": "The Taj Trapezium Zone covers about 10,400 square kilometres around Agra, including Mathura and Vrindavan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Trapezium_Zone"
+    }
+   ],
+   "note": "One Wikipedia page gives the distance to the Taj as about 50 kilometres, another as about 40; the story says 'about fifty'. This is a settled 1996 environmental ruling, not a religious dispute. The refinery lies right next to National Highway 44 near Baad, before Farah."
+  },
+  {
+   "title": "Where Holi lasts more than a week",
+   "category": "culture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Holi Gate, Mathura, used as the anchor for a story about the whole Braj region",
+   "facts": [
+    {
+     "fact": "Lathmar Holi takes place in the towns of Barsana and Nandgaon; women of Barsana playfully hit the visiting men of Nandgaon with sticks. The festivities last more than a week.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Lathmar_Holi"
+    },
+    {
+     "fact": "Phoolon ki Holi at the Banke Bihari temple in Vrindavan is a brief event of about half an hour in which priests shower flowers on worshippers, held on the Ekadashi before Holi.",
+     "sourceUrl": "https://www.outlooktraveller.com/explore/culture/floral-festivities-the-phuloon-ki-holi-in-vrindavan"
+    }
+   ],
+   "note": "Barsana is named only as a place further away, as instructed."
+  },
+  {
+   "title": "The temple that keeps closing its curtain",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Banke Bihari Temple",
+   "facts": [
+    {
+     "fact": "There is a popular belief that uninterrupted darshan will cause Banke Bihari to accompany devotees home and leave the temple empty, so the curtains are drawn every five minutes.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Banke_Bihari_Temple"
+    },
+    {
+     "fact": "Banke Bihari is worshipped in the form of a small child; to avoid disturbing the deity no early morning aarti is performed (except on Janmashtami) and no bells are hung in the temple.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Banke_Bihari_Temple"
+    },
+    {
+     "fact": "The present temple was built around 1864; the image was earlier worshipped at Nidhivan by Swami Haridas.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Banke_Bihari_Temple"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "A white marble temple that glows after dark",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Prem Mandir, Vrindavan",
+   "facts": [
+    {
+     "fact": "The foundation stone of Prem Mandir was laid on 14 January 2001 by Jagadguru Kripalu Maharaj; it was inaugurated 15 to 17 February 2012. Around 1,000 artisans worked on it over about 11 to 12 years.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
+    },
+    {
+     "fact": "The temple is built of pure white marble on a 54-acre site, with carvings of Radha and Krishna's stories on the outer walls, fountains in the gardens, and a sound and light show at sundown.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/prem-mandir"
+    }
+   ],
+   "note": "Wikipedia says 'around 12 years' of work; January 2001 to February 2012 is 11 years, so the story says 'around eleven'."
+  },
+  {
+   "title": "The Hare Krishna movement came home here",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Krishna Balaram Mandir (ISKCON Vrindavan)",
+   "facts": [
+    {
+     "fact": "A. C. Bhaktivedanta Swami Prabhupada, founder of the International Society for Krishna Consciousness, inaugurated the Krishna Balaram Mandir on Ram Navami, 20 April 1975.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Krishna_Balaram_Mandir"
+    },
+    {
+     "fact": "The presiding deities are Krishna and Balarama at the central altar; the white marble samadhi of Prabhupada stands at the entrance to the complex.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Krishna_Balaram_Mandir"
+    },
+    {
+     "fact": "Prabhupada founded the International Society for Krishna Consciousness in New York in 1966.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/International_Society_for_Krishna_Consciousness"
+    }
+   ],
+   "note": "The line about devotees from America, Europe and Russia is a general, widely reported observation about this temple, not a counted fact."
+  },
+  {
+   "title": "The widows of Vrindavan now play Holi",
+   "category": "culture",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Vrindavan town (the story is about the town as a whole)",
+   "facts": [
+    {
+     "fact": "An estimated 15,000 to 20,000 widows live in and around Vrindavan; many sing bhajans at bhajan ashrams.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Vrindavan"
+    },
+    {
+     "fact": "Widows from shelter homes celebrated Holi with flower petals and herbal gulal at the Gopinath temple in Vrindavan; the celebration was started in 2013 by Sulabh International, setting aside orthodox traditions that kept widows away from Holi.",
+     "sourceUrl": "https://www.outlookindia.com/national/lasting-colours-widows-celebrate-holi-at-vrindavan-temple-news-187027"
+    },
+    {
+     "fact": "The widows' Holi moved into a Krishna temple (Gopinath temple) for the first time in 2016.",
+     "sourceUrl": "https://www.business-standard.com/article/news-ians/vrindavan-widows-celebrate-holi-at-a-temple-116032100511_1.html"
+    }
+   ],
+   "note": "A sensitive subject, told through the hopeful change. The number is kept as 'thousands' because estimates vary. The charity (Sulabh International) is not named in the spoken text."
+  },
+  {
+   "title": "A red stone temple that lost its top",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Govind Dev Temple, Vrindavan",
+   "facts": [
+    {
+     "fact": "Raja Man Singh built the temple with the Goswamis of Vrindavan during Akbar's reign; construction was completed in 1590. It is of red sandstone with a great hall laid out as a Greek cross with a vaulted ceiling. Part of the structure was destroyed on Aurangzeb's order, and the original image was moved to Jaipur in the early 18th century.",
+     "sourceUrl": "https://ranasafvi.com/the-govind-deva-temple-in-vrindavan/"
+    },
+    {
+     "fact": "The temple is described as once seven storeys high, with the upper storeys destroyed under Aurangzeb.",
+     "sourceUrl": "https://latest.sundayguardianlive.com/?p=91302"
+    }
+   ],
+   "note": "Unsure: the number of original storeys. Sources say seven, but one says four reduced to two, so the story says 'is said to have'. Sources also differ on exactly when the image left (before the damage, or in the early 1700s); the story avoids a date. Historical event told briefly and neutrally; editor may wish to review tone."
+  },
+  {
+   "title": "The grove that is locked every night",
+   "category": "religion",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Nidhivan, Vrindavan",
+   "facts": [
+    {
+     "fact": "It is a common belief among devotees that Nidhivan still witnesses the rasa-lila of Radha and Krishna at night, so it is closed at night; no one is allowed inside after sunset.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nidhivan,_Vrindavan"
+    },
+    {
+     "fact": "The tulsi trees are short, found in pairs with entangled trunks and bend towards the ground; the belief is that they turn into gopis at night.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nidhivan,_Vrindavan"
+    },
+    {
+     "fact": "At the Rang Mahal shrine priests make the bed each evening and leave water, sweets and other items; it is said that in the morning they appear used.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Nidhivan,_Vrindavan"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "A temple planned as tall as a skyscraper",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Vrindavan Chandrodaya Mandir (construction site)",
+   "facts": [
+    {
+     "fact": "The Vrindavan Chandrodaya Mandir is under construction; as planned it will be the tallest religious monument in the world at about 210 metres (700 feet).",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Vrindavan_Chandrodaya_Mandir"
+    },
+    {
+     "fact": "The project was inspired by a 1972 statement by Srila Prabhupada in Vrindavan about building a skyscraper-like temple for Krishna; the foundation stone was laid on 16 March 2014.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Vrindavan_Chandrodaya_Mandir"
+    },
+    {
+     "fact": "The project's own site still describes it as the upcoming Vrindavan Chandrodaya Mandir.",
+     "sourceUrl": "https://www.vcm.org.in/"
+    },
+    {
+     "fact": "The Qutb Minar is about 72.5 metres tall.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Qutb_Minar"
+    }
+   ],
+   "note": "Time-sensitive: completion dates in sources range from 2026 to 2028 and a first-phase opening may happen; the story only says it is still being built. Recheck before long-term use. Height is given as 210 metres by Wikipedia's text and 213 metres elsewhere."
+  },
+  {
+   "title": "A highway town named after Brahma's four faces",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Chaumuhan town; the exact spot of the Brahma temple was not found",
+   "facts": [
+    {
+     "fact": "Chaumuhan is a town on the Delhi to Agra national highway in Mathura district, about 10 kilometres from Chhata.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chaumuhan"
+    },
+    {
+     "fact": "In the legend, Brahma stole Krishna's calves and cowherds; Krishna expanded into the same number of calves and cowherds; Brahma realised his mistake and did penance at Chaumuha. The village name indicates the four heads of Brahma, and the town has a Brahma temple.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chaumuhan"
+    }
+   ],
+   "note": "Single source (Wikipedia town page), so confidence is low. The page's claim that this is one of only two Brahma temples in India is wrong and was left out."
+  },
+  {
+   "title": "Mathura's breakfast: bedai and potato curry",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) result for Holi Gate, Mathura; the shop is in the bazaar beside it and was not found on the map",
+   "facts": [
+    {
+     "fact": "Bedhai is deep-fried wheat bread served with spicy potato sabzi as breakfast; Oma Pehalwan Kachori Wala in Mathura is named for bedhai, dal kachori and alu ki sabzi.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/enjoy-a-taste-of-mathura"
+    },
+    {
+     "fact": "Outlook Traveller (February 2024) lists Oma Pahalwan Kachodi Wale at Chatta Bazar, opposite Brijwasi Mithai Wala, Tilak Dwar, for bedai with aloo sabzi.",
+     "sourceUrl": "https://www.outlooktraveller.com/amp/story/experiences/food-and-drink/chaat-to-lassi-your-guide-to-must-try-street-foods-in-mathura"
+    },
+    {
+     "fact": "Listings give the shop's hours as morning only (about 7:30 to 11:30, or 8 to 2).",
+     "sourceUrl": "https://yappe.in/uttar-pradesh/mathura/oma-kachodi-wala/38305"
+    }
+   ],
+   "note": "No founding year was found in a reliable source, so no age claim is made. Exact shop coordinates not found; Holi Gate is the nearest mapped landmark (Tilak Dwar is another name used for the same gate area). Opening hours differ between listings, so the story only says 'go early'."
+  },
+  {
+   "title": "Krishna's favourite snack: butter and sugar",
+   "category": "food",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Banke Bihari Temple, where the sweet is offered",
+   "facts": [
+    {
+     "fact": "Makhan mishri, fresh butter with sugar candy, is described as Krishna's favourite dish and is served daily at the Banke Bihari Temple of Vrindavan as part of the prasad.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/enjoy-a-taste-of-mathura"
+    },
+    {
+     "fact": "Makhan mishri is offered as prasad and is also sold by local mithai shops in Mathura and Vrindavan.",
+     "sourceUrl": "https://www.slurrp.com/article/holi-2026-mathura-vrindavan-food-guide-for-first-time-visitors-1771753237994"
+    }
+   ],
+   "note": "No single shop is named because no reliable source singles one out."
+  },
+  {
+   "title": "Lassi in a clay cup in milk country",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for the Krishna Janmasthan complex; Outlook Traveller places the named lassi shop in the Janam Bhumi area, exact spot not found",
+   "facts": [
+    {
+     "fact": "Outlook Traveller (February 2024) lists Kesariya Lassi at Janam Bhumi, Mathura, for lassi.",
+     "sourceUrl": "https://www.outlooktraveller.com/amp/story/experiences/food-and-drink/chaat-to-lassi-your-guide-to-must-try-street-foods-in-mathura"
+    },
+    {
+     "fact": "In Vrindavan lassi is served in earthen cups (kulhad) with thick cream and dry fruits, sold by vendors in the lanes each morning.",
+     "sourceUrl": "https://www.slurrp.com/article/holi-2026-mathura-vrindavan-food-guide-for-first-time-visitors-1771753237994"
+    },
+    {
+     "fact": "Lassi is listed among the foods of Mathura on the Incredible India page.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/enjoy-a-taste-of-mathura"
+    }
+   ],
+   "note": "Weakest of the food stories: Kesariya Lassi is named by one magazine list only, with no history given, so no age or fame claim is made. Consider dropping the shop name if it cannot be rechecked."
+  },
+  {
+   "title": "India's first elephant hospital is near this road",
+   "category": "nature",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for 'Wildlife SOS, NH44, Shehzadpur, Mathura', the Wildlife SOS elephant centre beside the highway near Farah; the hospital itself is a few kilometres away at Churmura",
+   "facts": [
+    {
+     "fact": "The Wildlife SOS Elephant Hospital is at Churmura village, Farah block, Mathura, on the banks of the Yamuna; it was inaugurated in November 2018.",
+     "sourceUrl": "https://theprint.in/governance/mathuras-elephant-rehabilitation-centre-gets-hospital-cuts-treatment-time/152885"
+    },
+    {
+     "fact": "Equipment includes wireless digital X-ray, laser therapy, thermal imaging, ultrasonography, a digital weighing scale and an elephant ambulance.",
+     "sourceUrl": "https://theprint.in/governance/mathuras-elephant-rehabilitation-centre-gets-hospital-cuts-treatment-time/152885"
+    },
+    {
+     "fact": "The Elephant Conservation and Care Centre is about 4 km from the hospital and housed 20 rescued elephants in 2018.",
+     "sourceUrl": "https://theprint.in/governance/mathuras-elephant-rehabilitation-centre-gets-hospital-cuts-treatment-time/152885"
+    },
+    {
+     "fact": "Wildlife SOS describes it as the first medical facility of its kind in India, inaugurated in November 2018.",
+     "sourceUrl": "https://wildlifesos.org/elephant/indias-1st-elephant-hospital-in-mathura-completes-5-years-of-elephant-care/"
+    }
+   ],
+   "note": "Coordinates are the OSM point for the Wildlife SOS elephant centre on the highway, not the hospital building itself. Visits need advance booking with Wildlife SOS; I did not state visiting rules in the story."
+  },
+  {
+   "title": "A lake full of winter birds beside the highway",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Keetham Lake (Sur Sarovar)",
+   "facts": [
+    {
+     "fact": "Sur Sarovar (Keetham Lake) is about 20 km from Agra on the Agra-Delhi highway near Runakta; it hosts more than 165 resident and migratory bird species including pelicans and painted storks.",
+     "sourceUrl": "https://agra.nic.in/tourist-place/sur-sarovar-keetham-bird-sanctuary/"
+    },
+    {
+     "fact": "Keetham Lake is pentagonal, has artificial islands for birds, gets its water from the Agra Canal, was declared a bird sanctuary on 27 March 1991 and has been a Ramsar site since 2020; more than 106 bird species recorded.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Keetham_Lake"
+    },
+    {
+     "fact": "Over 30,000 water birds visit annually; declared a Ramsar site in 2020.",
+     "sourceUrl": "https://telanganatoday.com/agras-soor-sarovar-now-ramsar-site"
+    }
+   ],
+   "note": "Species counts differ by source (106 on Wikipedia/IANS, 165 on the district site), so the story says 'more than a hundred'. Hindi uses a general phrase for storks."
+  },
+  {
+   "title": "Where India's dancing bears came to rest",
+   "category": "nature",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Agra Bear Rescue Facility",
+   "facts": [
+    {
+     "fact": "The Agra Bear Rescue Facility was established in 1999 by Wildlife SOS with the Uttar Pradesh Forest Department inside Sur Sarovar Bird Sanctuary; it houses over 170 sloth bears.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Bear_Rescue_Facility"
+    },
+    {
+     "fact": "Keeping 'dancing bears' has been illegal under the Wildlife Protection Act 1972; a rope or ring was put through the bear's muzzle.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Bear_Rescue_Facility"
+    },
+    {
+     "fact": "Young men of the Kalandar community, who used to keep the bears, are employed at the facility as keepers.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Bear_Rescue_Facility"
+    },
+    {
+     "fact": "The district site calls it the world's largest centre for rescued sloth bears; visits need prior booking.",
+     "sourceUrl": "https://agra.nic.in/tourist-place/sur-sarovar-keetham-bird-sanctuary/"
+    }
+   ],
+   "note": "Bear count (over 170) is the Wikipedia figure and will change with time."
+  },
+  {
+   "title": "An emperor's tomb with no dome",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Akbar's tomb, Sikandra",
+   "facts": [
+    {
+     "fact": "Akbar's tomb at Sikandra was built in 1605-1613 by his son Jahangir on 119 acres, on the Mathura road about 8 km from Agra's centre.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Akbar%27s_tomb"
+    },
+    {
+     "fact": "The south gate has four white marble chhatri-topped minarets which pre-date those of the Taj Mahal; the tomb building is a four-tiered pyramid topped by a marble pavilion.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Akbar%27s_tomb"
+    },
+    {
+     "fact": "The tomb possesses no dome.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Origins_and_architecture_of_the_Taj_Mahal"
+    },
+    {
+     "fact": "About 80 blackbucks inhabited the grounds around Akbar's tomb in 2019, when a plan to shift them to Etawah Safari Park was announced.",
+     "sourceUrl": "https://www.business-standard.com/article/pti-stories/akbar-s-tomb-to-lose-its-blackbucks-119111801536_1.html"
+    }
+   ],
+   "note": "UNSURE: a 2019 PTI report said the roughly 80 blackbuck here were to be moved to Etawah Safari Park. I could not confirm whether that happened, so the story says the garden 'has long been known for' blackbuck rather than promising the listener will see them. Please check the current position."
+  },
+  {
+   "title": "The Rajput princess buried beside Akbar",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Tomb of Mariam-uz-Zamani (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "Mariam-uz-Zamani was born Harkha Bai, eldest daughter of Raja Bharmal of Amer, married Akbar in 1562 and gave birth to Jahangir in 1569; she died on 19 May 1623 and Jahangir built her tomb between 1623 and 1627.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Mariam-uz-Zamani"
+    },
+    {
+     "fact": "She is commonly known by the misnomer Jodha Bai; she is the only wife of Akbar buried close to him.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_Mariam-uz-Zamani"
+    },
+    {
+     "fact": "Her tomb is about 1 km from Akbar's tomb; it was originally an open baradari built in 1495 under Sikandar Lodi, converted into a mausoleum by Jahangir.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Akbar%27s_tomb"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The queen who never saw her tomb",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "Mumtaz Mahal died on 17 June 1631 at Burhanpur while giving birth to her 14th child; she had been accompanying Shah Jahan on a campaign in the Deccan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mumtaz_Mahal"
+    },
+    {
+     "fact": "She was temporarily buried at Burhanpur; her body was disinterred in December 1631 and brought to Agra.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mumtaz_Mahal"
+    },
+    {
+     "fact": "The Taj Mahal was commissioned in 1631 by Shah Jahan to house her tomb; Shah Jahan died in 1666 and was buried beside her.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "Twenty thousand workers and a thousand elephants",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "Construction commenced in 1632; the mausoleum was completed in 1648 and the complex is believed to have been completed in 1653.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "It is believed that more than 20,000 artisans, labourers and others were involved; the chief architect was Ustad Ahmad Lahori.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "The white marble came from Makrana in Rajasthan; 28 types of precious and semi-precious stone were inlaid into the white marble.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "Over 1,000 elephants were used to transport building materials; the marble was brought about 400 km (250 miles) from Makrana.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Origins_and_architecture_of_the_Taj_Mahal"
+    }
+   ],
+   "note": "The elephant figure is a traditional one repeated on Wikipedia, so the story says 'are said to have'."
+  },
+  {
+   "title": "The Taj's towers lean away on purpose",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "Four minarets, each more than 40 metres tall, stand at the corners of the plinth.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "The minarets were constructed slightly oriented towards the outside of the plinth so that in the event of collapse, the material would tend to fall away from the tomb.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    }
+   ],
+   "note": "The earthquake example is my illustration of 'in the event of collapse'; the source does not name a cause."
+  },
+  {
+   "title": "Do not plan the Taj for a Friday",
+   "category": "culture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "The complex is open on all days except Fridays, from one hour before sunrise to 45 minutes before sunset; it is open for limited night viewing on the day of the full moon, excluding the month of Ramadan.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "The white marble reflects varying hues: pinkish in the morning, milky white during the day, golden in the moonlight.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    }
+   ],
+   "note": "Visiting rules can change; worth re-checking against the official Taj Mahal site before each release. I could not open tajmahal.gov.in during research."
+  },
+  {
+   "title": "The Taj Mahal gets a face pack",
+   "category": "science",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "The mud pack is fuller's earth, known as multani mitti, a common face pack that absorbs dust and dirt; after it flakes off the surface is washed with distilled water. The monument was treated in 1994, 2001, 2008 and 2014.",
+     "sourceUrl": "https://www.theweek.in/news/india/Mud-pack-treatment-for-Taj-Mahal.html"
+    },
+    {
+     "fact": "A thick paste layer absorbs dirt and grease and is washed off with distilled water; work is done in small patches on scaffolding. The marble had yellowed mainly from air pollution.",
+     "sourceUrl": "https://www.tribuneindia.com/news/archive/features/wah-taj-451236"
+    },
+    {
+     "fact": "In the 2020s mud packs have again been used to restore the white colour.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The year the Taj Mahal went into hiding",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Taj Mahal",
+   "facts": [
+    {
+     "fact": "In 1942, the government erected scaffolding to disguise the building in anticipation of air attacks by the Japanese Air Force.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "During the India-Pakistan wars of 1965 and 1971, scaffolding was again erected to mislead bomber pilots.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    }
+   ],
+   "note": "'Nothing was ever dropped on it' is my inference from the absence of any recorded attack; the source does not say it in so many words."
+  },
+  {
+   "title": "The Black Taj that was never built",
+   "category": "culture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for the Black Taj Mahal legend site (Mehtab Bagh, across the Yamuna from the Taj)",
+   "facts": [
+    {
+     "fact": "A longstanding myth holds that Shah Jahan planned a mausoleum in black marble across the Yamuna; the idea originates from the writings of Jean-Baptiste Tavernier, who visited Agra in 1665.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "Excavations in the 1990s found that the supposed black marble ruins in Mehtab Bagh were discoloured white stones that had turned black.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Black_Taj_Mahal"
+    }
+   ],
+   "note": "Clearly a legend; told as one."
+  },
+  {
+   "title": "The garden made for watching the Taj",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap (Nominatim) for Mehtab Bagh, Agra; matches Wikipedia coordinates",
+   "facts": [
+    {
+     "fact": "Mehtab Bagh ('Moonlight Garden') lies north of the Taj Mahal across the Yamuna, perfectly aligned with it; it is square, about 300 by 300 metres.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mehtab_Bagh"
+    },
+    {
+     "fact": "Floods and removal of building material left it little more than a sand mound by the 1990s; ASI excavation in 1994 found a large octagonal tank with 25 fountains.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mehtab_Bagh"
+    },
+    {
+     "fact": "A large octagonal pond on the southern edge reflects the Taj mausoleum.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Mehtab_Bagh"
+    }
+   ],
+   "note": "Wikipedia is inconsistent about who first laid out the garden (Babur or Shah Jahan), so the story does not name a builder."
+  },
+  {
+   "title": "The emperor locked up within sight of the Taj",
+   "category": "history",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Agra Fort",
+   "facts": [
+    {
+     "fact": "Agra Fort was rebuilt in red sandstone by Akbar from 1565 to 1573; it is about 2.5 km northwest of the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Fort"
+    },
+    {
+     "fact": "Aurangzeb placed his father under house arrest in the Musamman Burj of Agra Fort; Shah Jahan remained confined there until his death in 1666, by legend spending his final years gazing at the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Fort"
+    },
+    {
+     "fact": "In 1658 Shah Jahan was deposed by Aurangzeb and put under house arrest at Agra Fort, from where he could see the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "fact": "The Musamman Burj was rebuilt in white marble between 1632 and 1640, in Shah Jahan's reign.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Fort"
+    }
+   ],
+   "note": "The 'gazing at the Taj' detail is marked as a story ('the story goes')."
+  },
+  {
+   "title": "The Baby Taj, built by a daughter",
+   "category": "architecture",
+   "coordinateQuality": "exact",
+   "coordinateSource": "Wikipedia coordinates for Itmad Ud Daulah (matches OpenStreetMap)",
+   "facts": [
+    {
+     "fact": "Itmad Ud Daulah, also called the Baby Taj, was built between 1622 and 1628, commissioned by Nur Jahan for her father Mirza Ghiyas Beg, who held the title I'timad-ud-Daulah.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"
+    },
+    {
+     "fact": "Ghiyas Beg was a Persian nobleman who became vazir (prime minister) under Jahangir; he was the grandfather of Mumtaz Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"
+    },
+    {
+     "fact": "The white marble mausoleum has no central dome and has pietra dura inlay; it stands on the eastern bank of the Yamuna and is seen as a forerunner of the Taj Mahal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "title": "The Taj's stone flowers are still made here",
+   "category": "craft",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Gokulpura Road, Agra, one of the neighbourhoods where inlay artisans work; the craft is spread across several parts of the city",
+   "facts": [
+    {
+     "fact": "Parchin kari is the inlay of coloured or semi-precious stones into a stone base; stones are shaped with a hand-operated machine, recesses are chiselled into the marble, and several artisans may work on one piece for days.",
+     "sourceUrl": "https://www.outlookindia.com/travel/parchin-kari-mughals-gem-studded-legacy-in-agra-news-199131"
+    },
+    {
+     "fact": "Agra's parchin kari craftsmen are believed to be descendants of the craftsmen who built the Taj Mahal.",
+     "sourceUrl": "https://www.outlookindia.com/travel/parchin-kari-mughals-gem-studded-legacy-in-agra-news-199131"
+    },
+    {
+     "fact": "Artisans in Taj Ganj, Nai ki Mandi and Gokulpura continue to produce inlaid tables, trays and boxes.",
+     "sourceUrl": "https://www.business-standard.com/india-news/pachchikari-artisans-agra-taj-mahal-inlay-work-struggles-income-125092800249_1.html"
+    },
+    {
+     "fact": "In Mughal India pietra dura was known as parchin kari; there is a flourishing industry of such work in Agra.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Pietra_dura"
+    }
+   ],
+   "note": "Coordinates point to Gokulpura, one of three artisan areas named by Business Standard (2025); I read that article only through a search summary because the page blocked direct access. The Hindi uses the common local word 'pachchikari'."
+  },
+  {
+   "title": "A marble shrine a hundred years in the making",
+   "category": "religion",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for the Soami Bagh locality in Dayalbagh, Agra; the samadh building stands inside this colony",
+   "facts": [
+    {
+     "fact": "Work on the new design began in 1904; after a hold-up of a few years it has continued without pause since 1922. Some artisans followed their fathers and grandfathers onto the site.",
+     "sourceUrl": "https://daijiworld.com/news/newsDisplay?newsID=125558"
+    },
+    {
+     "fact": "The samadh honours Soamiji Maharaj (Shiv Dayal Singh), born in Agra in 1818, who established the Radhasoami faith in 1861; it is built of white Makrana marble with inlay work.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/uttar-pradesh/agra/radhasoami-samadhi-soamibagh-temple"
+    },
+    {
+     "fact": "A May 2024 report described the structure as newly completed after 104 years.",
+     "sourceUrl": "https://www.republicworld.com/info/agra-s-soami-bagh-attracts-visitors-with-spiritual-beauty-and-modern-marvels"
+    }
+   ],
+   "note": "UNSURE: sources disagree on the start year (1904 in IANS reports, 1908 on Incredible India, 1905 on Wikipedia) and on whether it is finished (Incredible India still says 'work in progress'; 2024 news reports say completed). Height figures also conflict (110 vs 193 feet), so I left height out."
+  },
+  {
+   "title": "Agra's famous sweet is made from a vegetable",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Rawatpara market in old Agra, where The Tribune notes petha sellers; petha is made and sold across the city",
+   "facts": [
+    {
+     "fact": "Petha is a translucent soft candy made from ash gourd (white pumpkin); the pieces are cured for a few hours in calcium hydroxide solution, boiled until soft and soaked in sugar syrup. The lime helps keep the pieces firm.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Petha"
+    },
+    {
+     "fact": "A legend says petha originated under Shah Jahan to feed the workers building the Taj Mahal, but this is considered highly unlikely.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Petha"
+    },
+    {
+     "fact": "Ash gourd is cut, left in calcium hydroxide for a few hours, washed, boiled until translucent, soaked in sugar syrup and dried.",
+     "sourceUrl": "https://www.thenationalnews.com/lifestyle/food/how-the-indian-delicacy-petha-pays-bittersweet-tribute-to-the-taj-mahal-1.1200568"
+    }
+   ],
+   "note": "Speciality story with no single shop, so it is placed at Rawatpara market in the old city."
+  },
+  {
+   "title": "The petha shop every visitor to Agra hears about",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for the Panchhi Petha outlet on Taj Road, Sadar Bazaar; the original shop is at Noori Darwaza, which I could not locate on OpenStreetMap",
+   "facts": [
+    {
+     "fact": "Panchhi Petha was founded in 1926 at Noori Gate, Agra, by Seth Pancham Lal Goyal ('Panchhi'); it is run by his son and grandson and sells many varieties including dry, moist, chocolate and paan.",
+     "sourceUrl": "https://www.thenationalnews.com/lifestyle/food/how-the-indian-delicacy-petha-pays-bittersweet-tribute-to-the-taj-mahal-1.1200568"
+    },
+    {
+     "fact": "The eatery was established in 1926 by the late Shri Pancham Lal Goyal; flavours include classic, angoori, kesar, mango and chocolate.",
+     "sourceUrl": "https://thebetterindia.com/357477/agra-list-of-iconic-eateries-to-try-chole-bhature-petha-bedhai-jaleebi-dosa-chaat-house"
+    },
+    {
+     "fact": "Outlook Traveller (2024) lists Panchhi Petha in Sadar Bazaar and recommends paan and angoori petha.",
+     "sourceUrl": "https://www.outlooktraveller.com/amp/story/experiences/food-and-drink/foodies-delight-a-guide-to-eating-through-agra"
+    }
+   ],
+   "note": "UNSURE on age: two magazines give 1926, but one page of the company's own site says 'since 1942', so the story says 'is said to have begun in 1926'. Many unrelated shops in Agra use the Panchhi name. Coordinates are for the Sadar Bazaar outlet, not the original Noori Darwaza shop."
+  },
+  {
+   "title": "Agra's breakfast: bedai first, then jalebi",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Pratap Pura on Mahatma Gandhi Road, Agra; the shop is at the Pratap Pura crossing but is not itself mapped there",
+   "facts": [
+    {
+     "fact": "Deviram Sweets on Mahatma Gandhi Road, Pratap Pura, is one of the oldest sweet shops in Agra and the most popular place for bedai and jalebi; bedai is served from 9 am to 2 pm.",
+     "sourceUrl": "https://www.outlooktraveller.com/amp/story/experiences/food-and-drink/foodies-delight-a-guide-to-eating-through-agra"
+    },
+    {
+     "fact": "Deviram Sweets & Restaurant was established in 1965 and is known for bedhai aloo with jalebi.",
+     "sourceUrl": "https://thebetterindia.com/357477/agra-list-of-iconic-eateries-to-try-chole-bhature-petha-bedhai-jaleebi-dosa-chaat-house"
+    },
+    {
+     "fact": "Bedai is a puffy deep-fried kachori with spicy filling, served with spicy potato curry.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra"
+    }
+   ],
+   "note": "The 1965 date comes from one magazine article (The Better India, 2024), so it is worded 'said to date from'. Serving hours are from Outlook Traveller (2024) and may change."
+  },
+  {
+   "title": "Agra's other souvenir is salty, not sweet",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Wikipedia coordinates for Agra city centre; dalmoth is a city-wide speciality with no single home",
+   "facts": [
+    {
+     "fact": "Dalmoth is a crunchy, spicy, tangy snack of fried moth dal and besan sev with spices; Agra, Bareilly and Farrukhabad are all credited with inventing it.",
+     "sourceUrl": "https://www.goya.in/blog/the-colouful-history-of-dalmoth-up-favourite-snack"
+    },
+    {
+     "fact": "Agra dalmoth uses pepper instead of red chilli and is spicy and tart; Panchhi is the most popular dalmoth brand in Agra.",
+     "sourceUrl": "https://www.goya.in/blog/the-colouful-history-of-dalmoth-up-favourite-snack"
+    },
+    {
+     "fact": "Dalmoth is described as a dish endemic to Agra, a dry snack of spicy fried lentils.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra"
+    }
+   ],
+   "note": "Speciality story with no single shop, placed at the city centre. I left out shop founding claims such as 'since 1865' because only shop listings support them."
+  },
+  {
+   "title": "One paratha here is enough for two",
+   "category": "food",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap (Nominatim) point for Belanganj, Agra; the shop's address is 6/127 Belanganj but the shop itself is not mapped",
+   "facts": [
+    {
+     "fact": "Ram Babu Paranthe Wale, 6/127 Belanganj, is one of the oldest paratha joints in Agra, serving thick ghee-doused parathas with chutneys and curries; one plate serves two.",
+     "sourceUrl": "https://www.outlooktraveller.com/amp/story/experiences/food-and-drink/foodies-delight-a-guide-to-eating-through-agra"
+    },
+    {
+     "fact": "Paratha stuffed with potato, cauliflower or other fillings is a popular Agra food, eaten with curd, pickle and chutney.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Agra"
+    }
+   ],
+   "note": "Only one magazine source (Outlook Traveller, June 2024) and it gives no founding year, so none is stated. The shop also has newer branches; the story is about the Belanganj original."
+  }
+ ]
+}
