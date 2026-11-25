@@ -25,6 +25,8 @@ export type DrivingState = {
   isPaused: boolean;
   /** True while a story is being spoken. Not saved on the phone. */
   isSpeaking: boolean;
+  /** When the current drive began (ISO time). Used for the trip summary. */
+  driveStartedAt: string | null;
   statusMessage: string;
 };
 
@@ -41,6 +43,7 @@ const state: DrivingState = {
   currentStoryId: null,
   isPaused: false,
   isSpeaking: false,
+  driveStartedAt: null,
   statusMessage: 'Not driving yet.',
 };
 
@@ -62,6 +65,7 @@ function saveProgress() {
     queuedIds: state.queuedIds,
     currentStoryId: state.currentStoryId,
     isPaused: state.isPaused,
+    driveStartedAt: state.driveStartedAt,
     isDriving: state.isDriving,
   });
   if (state.mode === 'explore') {
@@ -132,6 +136,7 @@ export function hydrate(): Promise<void> {
           state.triggeredIds = new Set(progress.triggeredIds ?? []);
           state.queuedIds = Array.isArray(progress.queuedIds) ? progress.queuedIds : [];
           state.isPaused = Boolean(progress.isPaused);
+          state.driveStartedAt = typeof progress.driveStartedAt === 'string' ? progress.driveStartedAt : null;
           state.currentStoryId = progress.currentStoryId ?? null;
           state.isDriving = Boolean(progress.isDriving);
         }
@@ -160,6 +165,7 @@ export function setState(partial: Partial<DrivingState>) {
     'queuedIds' in partial ||
     'currentStoryId' in partial ||
     'isPaused' in partial ||
+    'driveStartedAt' in partial ||
     'isDriving' in partial
   ) {
     saveProgress();
@@ -207,7 +213,7 @@ export function resetJourneyState(
     currentStoryId: null,
     isPaused: false,
     isSpeaking: false,
-    statusMessage: 'Waiting for GPS fix...',
+    statusMessage: 'Finding where you are…',
   });
   saveJourney();
   saveProgress();

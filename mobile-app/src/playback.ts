@@ -2,6 +2,7 @@ import { haversineMeters } from './geo';
 import { markStep, recordError } from './diagnostics';
 import { isSpeaking, speakStory, stopSpeaking, type EndReason } from './narration';
 import { logPlay } from './playLog';
+import { GAP_MINUTES, getSettings } from './settings';
 import { getState, setState } from './store';
 import type { Story } from './types';
 
@@ -12,13 +13,13 @@ import type { Story } from './types';
 export const MIN_GAP_MS = 60 * 1000;
 
 /**
- * Explore mode has no plan, so the phone does all the pacing itself. This
- * matches the backend's default gap (defaultMinGapMinutes = 5).
+ * Explore mode has no plan, so the phone does all the pacing itself. The gap
+ * comes from the user's "how talkative" setting: 8, 5 or 3 minutes. The middle
+ * one matches the backend's default (defaultMinGapMinutes = 5).
  */
-export const EXPLORE_MIN_GAP_MS = 5 * 60 * 1000;
-
 function minGapMs(): number {
-  return getState().mode === 'explore' ? EXPLORE_MIN_GAP_MS : MIN_GAP_MS;
+  if (getState().mode !== 'explore') return MIN_GAP_MS;
+  return GAP_MINUTES[getSettings().talkativeness] * 60 * 1000;
 }
 
 /** True when a new story may start right now. */
@@ -169,7 +170,7 @@ function onStoryEnd(story: Story, reason: EndReason, listenedSeconds: number) {
       isSpeaking: false,
       triggeredIds,
       statusMessage:
-        "The phone's voice did not start. Stop driving and use Test voice on the start screen.",
+        "The phone's voice did not start. End the drive and check the voice in Settings.",
     });
   } else {
     setState({ isSpeaking: false });

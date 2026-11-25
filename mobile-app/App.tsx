@@ -1,17 +1,5 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { StatusBar } from 'expo-status-bar';
-import { useEffect, useState } from 'react';
-import {
-  ActivityIndicator,
-  Alert,
-  Button,
-  ScrollView,
-  Share,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Alert, BackHandler, Share } from 'react-native';
 import appConfig from './app.json';
 import { fetchJourneySimulation } from './src/api';
 import {
@@ -23,183 +11,284 @@ import {
   type LastRun,
 } from './src/diagnostics';
 import { fetchNearbyForPreview, prepareExplore } from './src/explore';
-import { PreviewScreen } from './src/PreviewScreen';
 import './src/locationTask';
 import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
-import { testVoice } from './src/narration';
 import { replayCurrentStory, setPaused, skipCurrentStory } from './src/playback';
 import { clearPlayLog, readPlayLog, type PlayLogEntry } from './src/playLog';
+import { PreviewScreen } from './src/PreviewScreen';
+import { getRatings, loadRatings, rateStory, subscribeRatings, type Rating } from './src/ratings';
+import { Developer } from './src/screens/Developer';
+import { Driving } from './src/screens/Driving';
+import { Home } from './src/screens/Home';
+import { Onboarding } from './src/screens/Onboarding';
+import { SettingsScreen } from './src/screens/Settings';
+import { Summary } from './src/screens/Summary';
+import {
+  getSettings,
+  loadSettings,
+  subscribeSettings,
+  updateSettings,
+  type Settings,
+} from './src/settings';
 import {
   forgetExplorePlayed,
   getState,
   hydrate,
   readExplorePlayed,
+  resetJourneyState,
   setState,
   subscribe,
-  resetJourneyState,
   type DrivingState,
 } from './src/store';
-import type { Story, StoryLanguage } from './src/types';
-import {
-  getVoiceFor,
-  listVoices,
-  loadVoiceSettings,
-  setVoiceFor,
-  voiceLabel,
-  type PhoneVoice,
-} from './src/voice';
-
-// Bumped to v2 so devices with a stale LAN-IP apiBase saved under the old key
-// pick up the new Render default instead of silently overriding it.
-const SETTINGS_KEY = 'journey-companion:settings:v2';
+import { buildTripSummary, type TripSummary } from './src/trip';
+import type { Story } from './src/types';
+import { Screen } from './src/ui';
+import { hasVoiceFor, loadVoiceSettings } from './src/voice';
 
 installGlobalErrorHandler();
 
+const VERSION = `${appConfig.expo.version} (build ${appConfig.expo.android.versionCode})`;
+
+type Page = 'home' | 'settings' | 'developer';
+
+const NO_HINDI_VOICE =
+  'This phone has no Hindi voice yet. Open Settings in Safarnama to see how to add one, or switch to English.';
+
+/** Turns a technical error into something a driver can act on. */
+function friendly(err: any, fallback: string): string {
+  if (err?.name === 'AbortError') {
+    return 'The stories took too long to arrive. Check your internet and try again.';
+  }
+  const message = String(err?.message ?? '');
+  if (/network request failed|failed to fetch/i.test(message)) {
+    return 'No internet right now. Connect and try again.';
+  }
+  return message || fallback;
+}
+
 export default function App() {
-  const [apiBase, setApiBase] = useState('https://journey-companion-recommendation.onrender.com');
-  const [journeyId, setJourneyId] = useState('4e322cd9-43a0-4dd2-aec4-d474e0ba797f');
-  const [isLoading, setIsLoading] = useState(false);
-  const [loadError, setLoadError] = useState<string | null>(null);
+  const [ready, setReady] = useState(false);
+  const [settings, setSettings] = useState<Settings>({ ...getSettings() });
   const [drivingState, setDrivingState] = useState<DrivingState>(getState());
+  const [ratings, setRatings] = useState<Record<string, Rating>>(getRatings());
+  const [page, setPage] = useState<Page>('home');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [trip, setTrip] = useState<TripSummary | null>(null);
+  const [preview, setPreview] = useState<{ title: string; stories: Story[] } | null>(null);
   const [lastRun, setLastRun] = useState<LastRun | null>(null);
   const [playLog, setPlayLog] = useState<PlayLogEntry[]>([]);
-  const [explorePlayed, setExplorePlayed] = useState(0);
-  const [voiceResult, setVoiceResult] = useState<string | null>(null);
-  const [storyLanguage, setStoryLanguage] = useState<StoryLanguage>('en');
-  const [voices, setVoices] = useState<PhoneVoice[]>([]);
-  const [voiceId, setVoiceId] = useState<string | undefined>(undefined);
-  const [preview, setPreview] = useState<{ title: string; stories: Story[] } | null>(null);
+  const [playedCount, setPlayedCount] = useState(0);
+  const versionTaps = useRef<number[]>([]);
 
   useEffect(() => {
-    AsyncStorage.getItem(SETTINGS_KEY).then(raw => {
-      if (!raw) return;
-      try {
-        const saved = JSON.parse(raw);
-        if (saved.apiBase) setApiBase(saved.apiBase);
-        if (saved.journeyId) setJourneyId(saved.journeyId);
-        if (saved.storyLanguage === 'hi') setStoryLanguage('hi');
-      } catch {
-        // ignore malformed saved settings
-      }
-    });
-    const unsubscribe = subscribe(setDrivingState);
-    // If the app was closed mid-drive and tracking is still running, go straight
-    // back to the driving screen. If tracking has stopped, the start screen
-    // offers "Resume saved journey" instead. We never restart tracking without
-    // a tap, so a crash can not turn into a crash loop.
-    hydrate().then(async () => {
+    const stopSettings = subscribeSettings(setSettings);
+    const stopDrivingState = subscribe(setDrivingState);
+    const stopRatings = subscribeRatings(setRatings);
+
+    (async () => {
+      setSettings(await loadSettings());
+      await loadRatings();
+      setRatings(getRatings());
+      // If the app was closed mid-drive and tracking is still running, go
+      // straight back to the driving screen. We never restart tracking without
+      // a tap, so a crash can not turn into a crash loop.
+      await hydrate();
       const active = await isTrackingActive();
       if (getState().isDriving !== active) setState({ isDriving: active });
       if (!active) setLastRun(await readLastRun());
-    });
-    readPlayLog().then(setPlayLog);
-    readExplorePlayed().then(ids => setExplorePlayed(ids.length));
-    return unsubscribe;
+      setPlayedCount((await readExplorePlayed()).length);
+      setReady(true);
+    })();
+
+    return () => {
+      stopSettings();
+      stopDrivingState();
+      stopRatings();
+    };
   }, []);
 
-  // The list of phone voices depends on the chosen story language.
+  // The phone's Back button steps back through our screens before leaving the app.
   useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      await loadVoiceSettings();
-      const found = await listVoices(storyLanguage);
-      if (cancelled) return;
-      setVoices(found);
-      setVoiceId(getVoiceFor(storyLanguage));
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [storyLanguage]);
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (getState().isDriving) return false;
+      if (preview) {
+        setPreview(null);
+        return true;
+      }
+      if (trip) {
+        setTrip(null);
+        return true;
+      }
+      if (page === 'developer') {
+        setPage('settings');
+        return true;
+      }
+      if (page === 'settings') {
+        setPage('home');
+        return true;
+      }
+      return false;
+    });
+    return () => sub.remove();
+  }, [page, preview, trip]);
 
-  const saveSettings = (language: StoryLanguage = storyLanguage) =>
-    AsyncStorage.setItem(
-      SETTINGS_KEY,
-      JSON.stringify({ apiBase, journeyId, storyLanguage: language }),
-    );
-
-  const handleLanguage = async (language: StoryLanguage) => {
-    setStoryLanguage(language);
-    setVoiceResult(null);
-    await saveSettings(language);
+  /** Checks the phone can speak the chosen language before a drive starts. */
+  const voiceProblem = async (): Promise<string | null> => {
+    await loadVoiceSettings();
+    return settings.storyLanguage === 'hi' && !hasVoiceFor('hi') ? NO_HINDI_VOICE : null;
   };
 
-  // Moves to the next voice on the phone and plays a sample of it. After the
-  // last voice it goes back to the phone's default voice.
-  const handleNextVoice = async () => {
-    // With no saved choice, Hindi is already using the first voice in the list.
-    const current = voiceId ?? (storyLanguage === 'hi' ? voices[0]?.identifier : undefined);
-    const index = voices.findIndex(voice => voice.identifier === current);
-    const next = index + 1 < voices.length ? voices[index + 1] : undefined;
-    await setVoiceFor(storyLanguage, next?.identifier);
-    setVoiceId(next?.identifier);
-    await handleTestVoice();
-  };
-
-  const NO_HINDI_VOICE =
-    'This phone has no Hindi voice. Open phone Settings, search for "Text-to-speech", open the engine settings (Speech Services by Google), choose "Install voice data", and install Hindi. Then reopen Safarnama.';
-
-  const handleTestVoice = async () => {
-    if (storyLanguage === 'hi' && !voices.length) {
-      setVoiceResult(NO_HINDI_VOICE);
-      return;
-    }
-    setVoiceResult('Testing... you should hear a short line now.');
-    const { reason, seconds } = await testVoice(storyLanguage);
-    if (reason === 'finished' && seconds < 2) {
-      // The test line takes about four seconds to say. Ending at once means
-      // the phone accepted it but had no voice that could read it.
-      setVoiceResult(
-        storyLanguage === 'hi'
-          ? 'The Hindi line ended at once, so it was probably not spoken. Tap "Try next voice", or install the Hindi voice data in the phone\'s Text-to-speech settings.'
-          : 'The line ended at once, so it was probably not spoken. Tap "Try next voice".',
-      );
-    } else if (reason === 'finished') {
-      setVoiceResult('Voice works. If you heard nothing, turn up the media volume.');
-    } else if (reason === 'no_voice' || reason === 'error' || reason === 'timeout') {
-      setVoiceResult(
-        storyLanguage === 'hi'
-          ? `The Hindi voice did not start (${reason}). Tap "Try next voice", or install the Hindi voice data in the phone's Text-to-speech settings.`
-          : `The phone's voice did not start (${reason}). In phone Settings, search for Text-to-speech and check that an engine and an English voice are installed.`,
-      );
-    } else {
-      setVoiceResult(null);
+  const handleStart = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const problem = await voiceProblem();
+      if (problem) {
+        setError(problem);
+        return;
+      }
+      const prepared = await prepareExplore(settings.apiBase, settings.storyLanguage);
+      if (!prepared.ok) {
+        setError(prepared.message);
+        return;
+      }
+      const outcome = await startDriving();
+      if (!outcome.ok) setError(outcome.message);
+    } catch (err: any) {
+      await recordError('Start drive', err);
+      setError(friendly(err, 'Could not get the stories. Please try again.'));
+    } finally {
+      setLoading(false);
     }
   };
 
-  const handleForgetPlayed = () => {
-    Alert.alert(
-      'Forget played stories?',
-      'Explore mode will be able to tell every story again, including ones you have already heard.',
-      [
-        { text: 'Cancel', style: 'cancel' },
-        {
-          text: 'Forget',
-          style: 'destructive',
-          onPress: async () => {
-            await forgetExplorePlayed();
-            setExplorePlayed(0);
-          },
-        },
-      ],
-    );
+  // Starts a drive with the stories already on the phone, for when there is no internet.
+  const handleUseSaved = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const outcome = await startDriving();
+      if (!outcome.ok) setError(outcome.message);
+    } catch (err: any) {
+      await recordError('Drive with saved stories', err);
+      setError(friendly(err, 'Could not start the drive.'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleStop = async () => {
+    const state = getState();
+    let summary: TripSummary = { minutes: 0, stories: [] };
+    try {
+      summary = await buildTripSummary(state.driveStartedAt, state.stories);
+    } catch (err) {
+      await recordError('Trip summary', err);
+    }
+    await stopDriving();
+    await clearLastRun();
+    setLastRun(null);
+    setPlayedCount((await readExplorePlayed()).length);
+    setError(null);
+    setPage('home');
+    setTrip(summary);
+  };
+
+  // Five quick taps on the version number unlock the developer menu.
+  const handleVersionTap = () => {
+    const now = Date.now();
+    versionTaps.current = [...versionTaps.current.filter(at => now - at < 3000), now];
+    if (versionTaps.current.length >= 5 && !settings.developer) {
+      versionTaps.current = [];
+      updateSettings({ developer: true });
+      Alert.alert('Developer menu unlocked', 'You will find it at the bottom of Settings.');
+    }
+  };
+
+  const handleForgetPlayed = async () => {
+    await forgetExplorePlayed();
+    setPlayedCount(0);
+  };
+
+  // ---- Developer menu actions -------------------------------------------
+
+  const handleStartPlanned = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      await markStep('Downloading the journey');
+      const result = await fetchJourneySimulation(
+        settings.apiBase,
+        settings.journeyId,
+        settings.storyLanguage,
+      );
+      await markStep(`Journey downloaded, ${result.stories.length} stories`);
+      if (!result.stories.length) {
+        setError('This journey returned no stories. Check the journey ID and backend address.');
+        return;
+      }
+      resetJourneyState(result.journeyId, result.stories);
+      const outcome = await startDriving();
+      if (!outcome.ok) setError(outcome.message);
+    } catch (err: any) {
+      await recordError('Start planned journey', err);
+      setError(friendly(err, 'Failed to load the journey.'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handlePreview = async (source: 'journey' | 'nearby') => {
+    setLoading(true);
+    setError(null);
+    try {
+      const languageName = settings.storyLanguage === 'hi' ? 'Hindi' : 'English';
+      if (source === 'journey') {
+        const result = await fetchJourneySimulation(
+          settings.apiBase,
+          settings.journeyId,
+          settings.storyLanguage,
+        );
+        if (!result.stories.length) {
+          setError('This journey returned no stories. Check the journey ID and backend address.');
+          return;
+        }
+        setPreview({
+          title: `Planned journey, in the order they would play (${languageName})`,
+          stories: result.stories,
+        });
+      } else {
+        const result = await fetchNearbyForPreview(settings.apiBase, settings.storyLanguage);
+        if (!result.stories.length) {
+          setError('No stories within 100 km of you yet.');
+          return;
+        }
+        setPreview({
+          title: `Stories within 100 km of you, nearest first (${languageName})`,
+          stories: result.stories,
+        });
+      }
+    } catch (err: any) {
+      await recordError('Preview stories', err);
+      setError(friendly(err, 'Failed to load stories.'));
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleShareLog = async () => {
     const entries = await readPlayLog();
     setPlayLog(entries);
     try {
-      await Share.share({
-        title: 'Safarnama play log',
-        message: JSON.stringify(entries),
-      });
+      await Share.share({ title: 'Safarnama play log', message: JSON.stringify(entries) });
     } catch (err) {
       await recordError('Share play log', err);
     }
   };
 
   const handleClearLog = () => {
-    Alert.alert('Clear play log?', 'This removes the saved test drive log from this phone.', [
+    Alert.alert('Clear play log?', 'This removes the saved drive log from this phone.', [
       { text: 'Cancel', style: 'cancel' },
       {
         text: 'Clear',
@@ -212,129 +301,36 @@ export default function App() {
     ]);
   };
 
-  const countEvents = (event: PlayLogEntry['event']) =>
-    playLog.filter(entry => entry.event === event).length;
-
-  const handleResumeSaved = async () => {
-    setIsLoading(true);
-    setLoadError(null);
-    try {
-      const outcome = await startDriving();
-      if (!outcome.ok) setLoadError(outcome.message);
-    } catch (err: any) {
-      await recordError('Resume journey', err);
-      setLoadError(err?.message ?? 'Failed to resume journey.');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleStartExploring = async () => {
-    setIsLoading(true);
-    setLoadError(null);
-    try {
-      await saveSettings();
-      if (storyLanguage === 'hi' && !voices.length) {
-        setLoadError(NO_HINDI_VOICE);
-        return;
-      }
-      const prepared = await prepareExplore(apiBase, storyLanguage);
-      if (!prepared.ok) {
-        setLoadError(prepared.message);
-        return;
-      }
-      const outcome = await startDriving();
-      if (!outcome.ok) setLoadError(outcome.message);
-    } catch (err: any) {
-      await recordError('Start exploring', err);
-      setLoadError(
-        err?.name === 'AbortError'
-          ? 'The server took too long to answer. Check your internet and try again.'
-          : (err?.message ?? 'Failed to load nearby stories.'),
-      );
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // Preview: load stories and play them by hand, with no GPS and no driving.
-  const handlePreview = async (source: 'journey' | 'nearby') => {
-    setIsLoading(true);
-    setLoadError(null);
-    try {
-      await saveSettings();
-      const languageName = storyLanguage === 'hi' ? 'Hindi' : 'English';
-      if (source === 'journey') {
-        const result = await fetchJourneySimulation(apiBase, journeyId, storyLanguage);
-        if (!result.stories.length) {
-          setLoadError('This journey returned no stories. Check the journey ID and API base.');
-          return;
-        }
-        setPreview({
-          title: `Planned journey, in the order they would play (${languageName})`,
-          stories: result.stories,
-        });
-      } else {
-        const result = await fetchNearbyForPreview(apiBase, storyLanguage);
-        if (!result.stories.length) {
-          setLoadError('No stories within 100 km of you yet.');
-          return;
-        }
-        setPreview({
-          title: `Stories within 100 km of you, nearest first (${languageName})`,
-          stories: result.stories,
-        });
-      }
-    } catch (err: any) {
-      await recordError('Preview stories', err);
-      setLoadError(
-        err?.name === 'AbortError'
-          ? 'The server took too long to answer. Check your internet and try again.'
-          : (err?.message ?? 'Failed to load stories.'),
-      );
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleStartDriving = async () => {
-    setIsLoading(true);
-    setLoadError(null);
-    try {
-      await saveSettings();
-      await markStep('Downloading the journey');
-      const result = await fetchJourneySimulation(apiBase, journeyId);
-      await markStep(`Journey downloaded, ${result.stories.length} stories`);
-      if (!result.stories.length) {
-        setLoadError('This journey returned no stories. Check the journey ID and API base.');
-        return;
-      }
-      resetJourneyState(result.journeyId, result.stories);
-      const outcome = await startDriving();
-      if (!outcome.ok) {
-        setLoadError(outcome.message);
-      }
-    } catch (err: any) {
-      await recordError('Start driving', err);
-      setLoadError(err?.message ?? 'Failed to load journey.');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleStopDriving = async () => {
-    await stopDriving();
-    await clearLastRun();
-    setLastRun(null);
+  const openDeveloper = async () => {
+    setError(null);
     setPlayLog(await readPlayLog());
-    setExplorePlayed((await readExplorePlayed()).length);
+    setLastRun(await readLastRun());
+    setPage('developer');
   };
 
-  const currentStory: Story | undefined = drivingState.stories.find(
-    story => story.id === drivingState.currentStoryId,
-  );
+  // ---- Which screen to show ---------------------------------------------
 
-  if (!drivingState.isDriving && preview) {
+  if (!ready) return <Screen>{null}</Screen>;
+
+  if (drivingState.isDriving) {
+    const story = drivingState.stories.find(item => item.id === drivingState.currentStoryId);
+    return (
+      <Driving
+        state={drivingState}
+        story={story}
+        rating={story ? ratings[story.id] : undefined}
+        onRate={rating => story && rateStory(story, rating)}
+        onSkip={skipCurrentStory}
+        onReplay={replayCurrentStory}
+        onPause={setPaused}
+        onStop={handleStop}
+      />
+    );
+  }
+
+  if (trip) return <Summary trip={trip} onDone={() => setTrip(null)} />;
+
+  if (preview) {
     return (
       <PreviewScreen
         title={preview.title}
@@ -344,283 +340,75 @@ export default function App() {
     );
   }
 
-  if (!drivingState.isDriving) {
+  if (!settings.onboarded) {
     return (
-      <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
-        <Text style={styles.heading}>Safarnama</Text>
-        <Text style={styles.storyMeta}>
-          Version {appConfig.expo.version} (build {appConfig.expo.android.versionCode})
-        </Text>
-        <Text style={styles.label}>Story language (explore mode)</Text>
-        <View style={styles.row}>
-          <View style={styles.rowItem}>
-            <Button
-              title={storyLanguage === 'en' ? '✓ English' : 'English'}
-              color={storyLanguage === 'en' ? '#1B2A4E' : '#8a8a8a'}
-              onPress={() => handleLanguage('en')}
-            />
-          </View>
-          <View style={styles.rowItem}>
-            <Button
-              title={storyLanguage === 'hi' ? '✓ हिंदी' : 'हिंदी'}
-              color={storyLanguage === 'hi' ? '#1B2A4E' : '#8a8a8a'}
-              onPress={() => handleLanguage('hi')}
-            />
-          </View>
-        </View>
-        <Text style={styles.storyMeta}>
-          Voice:{' '}
-          {voices.find(voice => voice.identifier === voiceId)
-            ? voiceLabel(voices.find(voice => voice.identifier === voiceId)!)
-            : storyLanguage === 'hi' && voices.length
-              ? `${voiceLabel(voices[0])}, picked automatically`
-              : "phone's default"}
-          {voices.length
-            ? ` (${voices.length} on this phone)`
-            : storyLanguage === 'hi'
-              ? ' (no Hindi voice found on this phone)'
-              : ''}
-        </Text>
-        <View style={styles.row}>
-          <View style={styles.rowItem}>
-            <Button title="Test voice" onPress={handleTestVoice} />
-          </View>
-          <View style={styles.rowItem}>
-            <Button title="Try next voice" onPress={handleNextVoice} disabled={!voices.length} />
-          </View>
-        </View>
-        {voiceResult ? <Text style={styles.storyMeta}>{voiceResult}</Text> : null}
-        <Text style={styles.label}>Backend API base URL</Text>
-        <TextInput
-          style={styles.input}
-          value={apiBase}
-          onChangeText={setApiBase}
-          autoCapitalize="none"
-          autoCorrect={false}
-          placeholder="https://journey-companion-recommendation.onrender.com"
-        />
-        {isLoading ? (
-          <ActivityIndicator style={styles.spacer} />
-        ) : (
-          <View style={styles.spacer}>
-            <Button title="Start exploring (no route needed)" onPress={handleStartExploring} />
-            <Text style={styles.storyMeta}>
-              Downloads the stories around you, then tells them as you drive past. Works from
-              anywhere, in any direction.
-            </Text>
-          </View>
-        )}
-        <Text style={[styles.label, styles.spacer]}>Or follow a planned journey</Text>
-        <Text style={styles.label}>Journey ID</Text>
-        <TextInput
-          style={styles.input}
-          value={journeyId}
-          onChangeText={setJourneyId}
-          autoCapitalize="none"
-          autoCorrect={false}
-          placeholder="journey id"
-        />
-        {isLoading ? null : (
-          <View style={styles.spacer}>
-            <Button title="Start planned journey" onPress={handleStartDriving} />
-          </View>
-        )}
-        <Text style={[styles.label, styles.spacer]}>
-          Preview stories (no GPS, no driving). Plays them with a Play button, in the language
-          chosen above.
-        </Text>
-        {isLoading ? null : (
-          <View>
-            <Button title="Preview this journey ID" onPress={() => handlePreview('journey')} />
-            <View style={styles.smallSpacer}>
-              <Button title="Preview stories near me" onPress={() => handlePreview('nearby')} />
-            </View>
-          </View>
-        )}
-        {loadError ? <Text style={styles.error}>{loadError}</Text> : null}
-        {!isLoading && drivingState.stories.length ? (
-          <View style={[styles.card, styles.spacer]}>
-            <Text style={styles.storyBody}>
-              Saved on this phone ({drivingState.mode === 'explore' ? 'explore' : 'planned journey'}
-              ): {drivingState.stories.length} stories, {drivingState.triggeredIds.size} already
-              played. No internet needed.
-            </Text>
-            <Button
-              title={drivingState.mode === 'explore' ? 'Resume exploring' : 'Resume saved journey'}
-              onPress={handleResumeSaved}
-            />
-          </View>
-        ) : null}
-        {lastRun?.step || lastRun?.error ? (
-          <View style={[styles.card, styles.spacer]}>
-            <Text style={styles.storyMeta}>Test info: last session did not end with Stop.</Text>
-            {lastRun.step ? <Text style={styles.storyMeta}>Last step: {lastRun.step}</Text> : null}
-            {lastRun.error ? (
-              <Text selectable style={styles.storyMeta}>
-                Error: {lastRun.error}
-              </Text>
-            ) : null}
-          </View>
-        ) : null}
-        {!isLoading && explorePlayed ? (
-          <View style={[styles.card, styles.spacer]}>
-            <Text style={styles.storyBody}>
-              Explore mode remembers {explorePlayed} stories you have heard and will not repeat
-              them.
-            </Text>
-            <Button title="Forget played stories" color="#b00020" onPress={handleForgetPlayed} />
-          </View>
-        ) : null}
-        {playLog.length ? (
-          <View style={[styles.card, styles.spacer]}>
-            <Text style={styles.storyBody}>
-              Play log: {countEvents('started')} played, {countEvents('finished')} heard to the end,{' '}
-              {countEvents('skipped')} skipped, {countEvents('dropped')} dropped.
-            </Text>
-            <Button title="Share play log" onPress={handleShareLog} />
-            <View style={styles.smallSpacer}>
-              <Button title="Clear play log" color="#b00020" onPress={handleClearLog} />
-            </View>
-          </View>
-        ) : null}
-        <StatusBar style="auto" />
-      </ScrollView>
+      <Onboarding
+        language={settings.storyLanguage}
+        onLanguage={storyLanguage => updateSettings({ storyLanguage })}
+        onDone={() => updateSettings({ onboarded: true })}
+      />
+    );
+  }
+
+  if (page === 'settings') {
+    return (
+      <SettingsScreen
+        settings={settings}
+        onLanguage={storyLanguage => updateSettings({ storyLanguage })}
+        onTalkativeness={talkativeness => updateSettings({ talkativeness })}
+        playedCount={playedCount}
+        onForgetPlayed={handleForgetPlayed}
+        onDeveloper={openDeveloper}
+        onBack={() => setPage('home')}
+        version={VERSION}
+      />
+    );
+  }
+
+  if (page === 'developer') {
+    return (
+      <Developer
+        settings={settings}
+        onChange={updateSettings}
+        loading={loading}
+        error={error}
+        onStartPlanned={handleStartPlanned}
+        onPreviewJourney={() => handlePreview('journey')}
+        onPreviewNearby={() => handlePreview('nearby')}
+        playLog={playLog}
+        onShareLog={handleShareLog}
+        onClearLog={handleClearLog}
+        lastRun={lastRun}
+        onHide={() => {
+          updateSettings({ developer: false });
+          setPage('home');
+        }}
+        onBack={() => {
+          setError(null);
+          setPage('settings');
+        }}
+      />
     );
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.heading}>Driving</Text>
-      <Text style={styles.status}>{drivingState.statusMessage}</Text>
-
-      {currentStory ? (
-        <View style={styles.card}>
-          <Text style={styles.tag}>{currentStory.category}</Text>
-          <Text style={styles.storyTitle}>{currentStory.title}</Text>
-          <Text style={styles.storyBody}>{currentStory.summary}</Text>
-          <Text style={styles.storyMeta}>Cue: {currentStory.cue}</Text>
-          <Text style={styles.storyMeta}>Tags: {currentStory.tags.join(', ') || 'general'}</Text>
-          <View style={styles.spacer}>
-            {drivingState.isSpeaking ? (
-              <Button title="Skip story" onPress={skipCurrentStory} />
-            ) : (
-              <Button title="Replay narration" onPress={replayCurrentStory} />
-            )}
-          </View>
-        </View>
-      ) : (
-        <View style={styles.card}>
-          <Text style={styles.storyBody}>
-            {drivingState.mode === 'explore'
-              ? 'No story has played yet. Keep driving and the nearest story ahead of you will play automatically.'
-              : 'No story has triggered yet — drive towards your route and the nearest story will play automatically.'}
-          </Text>
-        </View>
-      )}
-
-      <Text style={styles.label}>
-        {drivingState.mode === 'explore'
-          ? `${drivingState.triggeredIds.size} played, ${drivingState.stories.length} stories saved for this area`
-          : `${drivingState.triggeredIds.size} of ${drivingState.stories.length} stories triggered`}
-        {drivingState.queuedIds.length ? `, ${drivingState.queuedIds.length} waiting` : ''}
-      </Text>
-
-      <View style={styles.spacer}>
-        <Button
-          title={drivingState.isPaused ? 'Resume stories' : 'Pause stories'}
-          onPress={() => setPaused(!drivingState.isPaused)}
-        />
-      </View>
-
-      <View style={styles.spacer}>
-        <Button title="Stop driving" color="#b00020" onPress={handleStopDriving} />
-      </View>
-      <StatusBar style="auto" />
-    </ScrollView>
+    <Home
+      language={settings.storyLanguage}
+      onLanguage={storyLanguage => {
+        setError(null);
+        updateSettings({ storyLanguage });
+      }}
+      loading={loading}
+      error={error}
+      savedStories={drivingState.stories.length}
+      onStart={handleStart}
+      onUseSaved={handleUseSaved}
+      onSettings={() => {
+        setError(null);
+        setPage('settings');
+      }}
+      version={VERSION}
+      onVersionTap={handleVersionTap}
+    />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flexGrow: 1,
-    backgroundColor: '#fff',
-    padding: 24,
-    paddingTop: 72,
-    // Room below the last button, so the phone's navigation bar does not cover it.
-    paddingBottom: 64,
-  },
-  heading: {
-    fontSize: 24,
-    fontWeight: '700',
-    marginBottom: 16,
-  },
-  label: {
-    fontSize: 13,
-    color: '#555',
-    marginTop: 12,
-    marginBottom: 4,
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    fontSize: 15,
-  },
-  spacer: {
-    marginTop: 20,
-  },
-  smallSpacer: {
-    marginTop: 8,
-  },
-  row: {
-    flexDirection: 'row',
-    gap: 12,
-    marginTop: 8,
-  },
-  rowItem: {
-    flex: 1,
-  },
-  error: {
-    color: '#b00020',
-    marginTop: 16,
-  },
-  status: {
-    color: '#555',
-    marginBottom: 16,
-  },
-  card: {
-    borderWidth: 1,
-    borderColor: '#e0e0e0',
-    borderRadius: 12,
-    padding: 16,
-  },
-  tag: {
-    alignSelf: 'flex-start',
-    backgroundColor: '#eef2ff',
-    color: '#3949ab',
-    fontSize: 12,
-    fontWeight: '600',
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 6,
-    marginBottom: 8,
-    textTransform: 'uppercase',
-  },
-  storyTitle: {
-    fontSize: 18,
-    fontWeight: '700',
-    marginBottom: 8,
-  },
-  storyBody: {
-    fontSize: 15,
-    lineHeight: 22,
-    marginBottom: 8,
-  },
-  storyMeta: {
-    fontSize: 13,
-    color: '#555',
-    marginTop: 4,
-  },
-});

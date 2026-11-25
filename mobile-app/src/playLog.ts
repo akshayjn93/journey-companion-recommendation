@@ -19,6 +19,8 @@ export type PlayLogEvent =
   | 'no_voice' // the phone never started speaking
   | 'dropped' // waited too long in the queue, the place was already passed
   | 'replayed'
+  | 'liked' // thumbs up from the listener
+  | 'disliked' // thumbs down from the listener
   | 'stories_paused'
   | 'stories_resumed';
 

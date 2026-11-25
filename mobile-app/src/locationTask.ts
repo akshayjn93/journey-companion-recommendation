@@ -6,6 +6,7 @@ import { exploreStep, resetExplore } from './explore';
 import { playNext, queueStory, resetPlayback, type Position } from './playback';
 import { markStep, recordError } from './diagnostics';
 import { getState, hydrate, setState } from './store';
+import { loadSettings } from './settings';
 import { loadVoiceSettings } from './voice';
 
 export const LOCATION_TASK_NAME = 'journey-companion-location-task';
@@ -47,6 +48,7 @@ async function handleFix(latest: Location.LocationObject) {
   // Android may have relaunched the app with empty memory.
   await hydrate();
   await loadVoiceSettings();
+  await loadSettings();
   const { stories, triggeredIds, queuedIds, isPaused, mode } = getState();
 
   const speed = latest.coords.speed;
@@ -153,7 +155,11 @@ export async function startDriving(): Promise<{ ok: boolean; message: string }> 
       },
     });
     await markStep('Tracking started, waiting for first GPS fix');
-    setState({ isDriving: true, statusMessage: 'Waiting for GPS fix...' });
+    setState({
+      isDriving: true,
+      driveStartedAt: new Date().toISOString(),
+      statusMessage: 'Finding where you are…',
+    });
     return { ok: true, message: 'Driving started.' };
   } catch (err) {
     // Expo Go can't register background location (ERR_LOCATION_INFO_PLIST),
@@ -173,7 +179,8 @@ export async function startDriving(): Promise<{ ok: boolean; message: string }> 
   await markStep('Tracking started (app open only), waiting for first GPS fix');
   setState({
     isDriving: true,
-    statusMessage: 'Waiting for GPS fix... (keep the app open, background tracking is off)',
+    driveStartedAt: new Date().toISOString(),
+    statusMessage: 'Finding where you are… Keep Safarnama open: this phone will not let it run in the background.',
   });
   return {
     ok: true,
@@ -202,5 +209,5 @@ export async function stopDriving(): Promise<void> {
   }
   resetPlayback();
   resetExplore();
-  setState({ isDriving: false, statusMessage: 'Driving stopped.' });
+  setState({ isDriving: false, statusMessage: 'Drive ended.' });
 }

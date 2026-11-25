@@ -155,7 +155,7 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
     return;
   }
   if (headingDeg === null) {
-    setState({ statusMessage: 'Finding your direction of travel. Keep driving...' });
+    setState({ statusMessage: 'Working out which way you are heading. Keep driving.' });
     return;
   }
 
@@ -179,15 +179,15 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
   if (tellable.length) {
     const minutes = Math.ceil(gapSecondsLeft() / 60);
     setState({
-      statusMessage: `Next: "${tellable[0].story.title}" after a quiet gap of about ${minutes} min.`,
+      statusMessage: `Next up: "${tellable[0].story.title}", in about ${minutes} min.`,
     });
   } else if (upcoming) {
     setState({
-      statusMessage: `Next: "${upcoming.story.title}" about ${kmText(upcoming.aheadMeters)} ahead.`,
+      statusMessage: `Next up: "${upcoming.story.title}", about ${kmText(upcoming.aheadMeters)} ahead.`,
     });
   } else {
     setState({
-      statusMessage: `No stories ahead right now. ${state.stories.length} stories saved for this area.`,
+      statusMessage: 'No stories just ahead. Enjoy the quiet.',
     });
   }
 }
