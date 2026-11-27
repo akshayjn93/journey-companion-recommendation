@@ -71,7 +71,8 @@
       "majnu ka tila",
       "tibetan",
       "laphing",
-      "cafe"
+      "cafe",
+      "veg"
     ],
     "location": {
       "lng": 77.228411,
@@ -136,7 +137,8 @@
       "delhi",
       "kamla nagar",
       "chole bhature",
-      "north campus"
+      "north campus",
+      "veg"
     ],
     "location": {
       "lng": 77.206024,
@@ -463,7 +465,8 @@
       "parantha",
       "amrik sukhdev",
       "truck drivers",
-      "must-hear"
+      "must-hear",
+      "veg"
     ],
     "location": {
       "lng": 77.063516,
@@ -496,7 +499,8 @@
       "dhaba",
       "parantha",
       "white butter",
-      "pahalwan dhaba"
+      "pahalwan dhaba",
+      "veg"
     ],
     "location": {
       "lng": 77.072906,
@@ -756,7 +760,8 @@
       "panipat",
       "pickle",
       "pachranga",
-      "achaar"
+      "achaar",
+      "veg"
     ],
     "location": {
       "lng": 76.970878,
@@ -886,7 +891,8 @@
       "ndri",
       "dairy",
       "ice cream",
-      "paneer"
+      "paneer",
+      "veg"
     ],
     "location": {
       "lng": 76.985821,
@@ -983,7 +989,8 @@
       "taraori",
       "basmati",
       "rice",
-      "karnal"
+      "karnal",
+      "veg"
     ],
     "location": {
       "lng": 76.938035,
@@ -1628,7 +1635,8 @@
       "chandigarh",
       "sector-17",
       "coffee-house",
-      "cooperative"
+      "cooperative",
+      "veg"
     ],
     "location": {
       "lng": 76.780603,
@@ -1660,7 +1668,8 @@
       "chandigarh",
       "sector-28",
       "dhaba",
-      "punjabi-food"
+      "punjabi-food",
+      "non-veg"
     ],
     "location": {
       "lng": 76.80155,
@@ -1692,7 +1701,8 @@
       "chandigarh",
       "sector-23",
       "chaat",
-      "street-food"
+      "street-food",
+      "veg"
     ],
     "location": {
       "lng": 76.766195,
@@ -1724,7 +1734,8 @@
       "chandigarh",
       "sector-9",
       "kulcha",
-      "amritsari"
+      "amritsari",
+      "veg"
     ],
     "location": {
       "lng": 76.789589,

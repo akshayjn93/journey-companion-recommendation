@@ -4006,7 +4006,8 @@
       "jaggery",
       "gur",
       "cluster:muzaffarnagar-food",
-      "angle:fact"
+      "angle:fact",
+      "veg"
     ],
     "location": {
       "lng": 77.7,
@@ -5258,7 +5259,8 @@
       "gazak",
       "sweets",
       "cluster:meerut-food",
-      "angle:fact"
+      "angle:fact",
+      "veg"
     ],
     "location": {
       "lng": 77.71,

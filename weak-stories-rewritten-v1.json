@@ -624,7 +624,8 @@
       "peda",
       "sweets",
       "krishna",
-      "janmashtami"
+      "janmashtami",
+      "veg"
     ],
     "location": {
       "lng": 77.6737,
@@ -1370,7 +1371,8 @@
       "muzaffarnagar",
       "sugarcane",
       "juice",
-      "roadside"
+      "roadside",
+      "veg"
     ],
     "location": {
       "lng": 77.7,
@@ -1434,7 +1436,8 @@
       "haridwar",
       "vegetarian",
       "har ki pauri",
-      "rules"
+      "rules",
+      "veg"
     ],
     "location": {
       "lng": 78.1642,

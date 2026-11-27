@@ -6,7 +6,8 @@
       "parantha",
       "old-delhi",
       "street-food",
-      "must-hear"
+      "must-hear",
+      "veg"
     ],
     "location": {
       "lng": 77.230481,
@@ -39,7 +40,8 @@
       "jalebi",
       "old-delhi",
       "sweets",
-      "must-hear"
+      "must-hear",
+      "veg"
     ],
     "location": {
       "lng": 77.233487,
@@ -72,7 +74,8 @@
       "chaat",
       "dahi-bhalle",
       "old-delhi",
-      "street-food"
+      "street-food",
+      "veg"
     ],
     "location": {
       "lng": 77.230504,
@@ -105,7 +108,8 @@
       "daulat-ki-chaat",
       "winter",
       "street-food",
-      "sweets"
+      "sweets",
+      "veg"
     ],
     "location": {
       "lng": 77.231853,
@@ -138,7 +142,8 @@
       "mughlai",
       "kebab",
       "old-delhi",
-      "must-hear"
+      "must-hear",
+      "non-veg"
     ],
     "location": {
       "lng": 77.233741,
@@ -170,7 +175,8 @@
       "chandni-chowk",
       "sweets",
       "old-delhi",
-      "sohan-halwa"
+      "sohan-halwa",
+      "veg"
     ],
     "location": {
       "lng": 77.230481,
@@ -202,7 +208,8 @@
       "chawri-bazar",
       "kulfi",
       "old-delhi",
-      "sweets"
+      "sweets",
+      "veg"
     ],
     "location": {
       "lng": 77.226906,
@@ -235,7 +242,8 @@
       "chandni-chowk",
       "rabri-falooda",
       "old-delhi",
-      "sweets"
+      "sweets",
+      "veg"
     ],
     "location": {
       "lng": 77.223256,
@@ -268,7 +276,8 @@
       "chandni-chowk",
       "sweets",
       "karachi-halwa",
-      "old-delhi"
+      "old-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.222633,
@@ -300,7 +309,8 @@
       "daryaganj",
       "butter-chicken",
       "tandoori",
-      "old-delhi"
+      "old-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.239981,
@@ -332,7 +342,8 @@
       "karol-bagh",
       "kulfi",
       "falooda",
-      "sweets"
+      "sweets",
+      "veg"
     ],
     "location": {
       "lng": 77.192302,
@@ -363,7 +374,8 @@
     "tags": [
       "connaught-place",
       "bakery",
-      "pastry"
+      "pastry",
+      "non-veg"
     ],
     "location": {
       "lng": 77.21807,
@@ -396,7 +408,8 @@
       "coffee",
       "baba-kharak-singh-marg",
       "cafe",
-      "must-hear"
+      "must-hear",
+      "veg"
     ],
     "location": {
       "lng": 77.216051,
@@ -428,7 +441,8 @@
       "connaught-place",
       "coffee",
       "cafe",
-      "restaurant"
+      "restaurant",
+      "non-veg"
     ],
     "location": {
       "lng": 77.221373,
@@ -460,7 +474,8 @@
       "bengali-market",
       "sweets",
       "chaat",
-      "mandi-house"
+      "mandi-house",
+      "veg"
     ],
     "location": {
       "lng": 77.231898,
@@ -493,7 +508,8 @@
       "namkeen",
       "snacks",
       "old-delhi",
-      "street-food"
+      "street-food",
+      "veg"
     ],
     "location": {
       "lng": 77.230481,
@@ -526,7 +542,8 @@
       "india-gate",
       "butter-chicken",
       "punjabi-food",
-      "new-delhi"
+      "new-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.230067,
@@ -558,7 +575,8 @@
       "khan-market",
       "kebab-roll",
       "street-snack",
-      "new-delhi"
+      "new-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.2273,
@@ -591,7 +609,8 @@
       "india-gate",
       "thali",
       "state-canteen",
-      "biryani"
+      "biryani",
+      "veg"
     ],
     "location": {
       "lng": 77.225545,
@@ -624,7 +643,8 @@
       "street-snack",
       "shahjahan-road",
       "india-gate",
-      "aloo-tikki"
+      "aloo-tikki",
+      "veg"
     ],
     "location": {
       "lng": 77.228101,
@@ -656,7 +676,8 @@
       "safdarjung-enclave",
       "dhaba",
       "kebab",
-      "south-delhi"
+      "south-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.198968,
@@ -688,7 +709,8 @@
       "defence-colony",
       "dosa",
       "south-indian",
-      "south-delhi"
+      "south-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.23014,
@@ -721,7 +743,8 @@
       "paan",
       "chaat",
       "street-snack",
-      "south-delhi"
+      "south-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.236229,
@@ -754,7 +777,8 @@
       "coffee",
       "roastery",
       "khanna-market",
-      "new-delhi"
+      "new-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.222013,
@@ -787,7 +811,8 @@
       "saidulajab",
       "coffee",
       "champa-gali",
-      "south-delhi"
+      "south-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.199773,
@@ -820,7 +845,8 @@
       "safdarjung-enclave",
       "north-east-food",
       "food-lane",
-      "south-delhi"
+      "south-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.194362,
@@ -853,7 +879,8 @@
       "bengali-food",
       "fish-market",
       "sweets",
-      "south-delhi"
+      "south-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.248682,
@@ -886,7 +913,8 @@
       "momos",
       "street-snack",
       "tibetan",
-      "south-delhi"
+      "south-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.240611,
@@ -919,7 +947,8 @@
       "ina",
       "regional-food",
       "crafts",
-      "south-delhi"
+      "south-delhi",
+      "veg"
     ],
     "location": {
       "lng": 77.207253,
@@ -952,7 +981,8 @@
       "kebab",
       "kakori",
       "lucknow",
-      "new-delhi"
+      "new-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.177158,
@@ -985,7 +1015,8 @@
       "momos",
       "street-snack",
       "yashwant-place",
-      "new-delhi"
+      "new-delhi",
+      "non-veg"
     ],
     "location": {
       "lng": 77.191659,
@@ -1018,7 +1049,8 @@
       "sadar-bazaar",
       "doda",
       "sweet-shop",
-      "partition"
+      "partition",
+      "veg"
     ],
     "location": {
       "lng": 77.029284,
@@ -1051,7 +1083,8 @@
       "sadar-bazaar",
       "jalebi",
       "street-food",
-      "partition"
+      "partition",
+      "veg"
     ],
     "location": {
       "lng": 77.030765,
@@ -1083,7 +1116,8 @@
       "gurugram",
       "doda-barfi",
       "sweet-shop",
-      "om-sweets"
+      "om-sweets",
+      "veg"
     ],
     "location": {
       "lng": 77.047692,
@@ -1116,7 +1150,8 @@
       "ghaziabad",
       "shikanji",
       "drink",
-      "delhi-meerut-road"
+      "delhi-meerut-road",
+      "veg"
     ],
     "location": {
       "lng": 77.570143,
@@ -1149,7 +1184,8 @@
       "nit",
       "falooda",
       "ice-cream",
-      "kulfi"
+      "kulfi",
+      "veg"
     ],
     "location": {
       "lng": 77.300735,
@@ -1183,7 +1219,8 @@
       "brahmaputra-market",
       "chaat",
       "street-food",
-      "dosa"
+      "dosa",
+      "veg"
     ],
     "location": {
       "lng": 77.332725,
