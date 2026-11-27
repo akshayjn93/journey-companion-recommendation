@@ -1,8 +1,16 @@
 [
   {
     "category": "history",
-    "tags": ["meerut", "cantonment", "history", "british-india"],
-    "location": { "lng": 77.6480, "lat": 28.9550 },
+    "tags": [
+      "meerut",
+      "cantonment",
+      "history",
+      "british-india"
+    ],
+    "location": {
+      "lng": 77.648,
+      "lat": 28.955
+    },
     "interestingness": 8.0,
     "confidence": 0.9,
     "editorialScore": 4,
@@ -25,8 +33,17 @@
   },
   {
     "category": "history",
-    "tags": ["meerut", "1857", "revolt", "history"],
-    "location": { "lng": 77.7064, "lat": 28.9845 },
+    "tags": [
+      "meerut",
+      "1857",
+      "revolt",
+      "history",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 77.7064,
+      "lat": 28.9845
+    },
     "interestingness": 9.3,
     "confidence": 0.95,
     "editorialScore": 5,
@@ -49,8 +66,16 @@
   },
   {
     "category": "craft",
-    "tags": ["meerut", "sports-goods", "industry", "craft"],
-    "location": { "lng": 77.7100, "lat": 28.9900 },
+    "tags": [
+      "meerut",
+      "sports-goods",
+      "industry",
+      "craft"
+    ],
+    "location": {
+      "lng": 77.71,
+      "lat": 28.99
+    },
     "interestingness": 8.1,
     "confidence": 0.87,
     "editorialScore": 4,

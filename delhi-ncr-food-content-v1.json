@@ -1,0 +1,1212 @@
+[
+  {
+    "category": "food",
+    "tags": [
+      "chandni-chowk",
+      "parantha",
+      "old-delhi",
+      "street-food",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 77.230481,
+      "lat": 28.656082
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gali_Paranthe_Wali",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A lane that has sold paranthas since the 1870s",
+        "shortDescription": "Paranthe Wali Gali, off Chandni Chowk, has had parantha shops since the 1870s. The oldest shops still running date from that time.",
+        "longDescription": "Off Chandni Chowk runs a narrow lane called Paranthe Wali Gali. Parantha shops began moving in here in the 1870s, and the oldest ones still open date from those years. Jawaharlal Nehru, Indira Gandhi and Vijaya Lakshmi Pandit all came here to eat. The paranthas are stuffed with things you may not expect, like rabri, khoya, cashew and almond. No onion or garlic is used. Order two different kinds and share.",
+        "narrationHint": "Warm and inviting; slow down a little on the list of fillings."
+      },
+      "hi": {
+        "title": "वह गली जहाँ 1870 के दशक से पराँठे बिक रहे हैं",
+        "shortDescription": "चाँदनी चौक की पराँठे वाली गली में 1870 के दशक से पराँठों की दुकानें हैं। सबसे पुरानी दुकानें उसी दौर की हैं और आज भी चल रही हैं।",
+        "longDescription": "चाँदनी चौक से एक पतली सी गली निकलती है, जिसका नाम है पराँठे वाली गली। यहाँ पराँठों की दुकानें 1870 के दशक में खुलनी शुरू हुईं, और सबसे पुरानी दुकानें उसी दौर की हैं। जवाहरलाल नेहरू, इंदिरा गांधी और विजयलक्ष्मी पंडित भी यहाँ पराँठे खाने आए थे। यहाँ पराँठों में रबड़ी, खोया, काजू और बादाम तक भरे जाते हैं। खाने में प्याज़ और लहसुन नहीं डलता। दो अलग तरह के पराँठे मँगाइए और मिलकर खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandni-chowk",
+      "jalebi",
+      "old-delhi",
+      "sweets",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 77.233487,
+      "lat": 28.656014
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Slurrp (Hindustan Times group)",
+    "sourceUrl": "https://www.slurrp.com/article/old-famous-jalebi-wala-delhis-iconic-sweet-shop-serving-legendary-jalebis-since-1884-1726645042200",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Thick jalebis from the same corner since 1884",
+        "shortDescription": "Old Famous Jalebi Wala, at the Dariba Kalan corner of Chandni Chowk, has sold jalebis since 1884. It was started by Lala Nem Chand Jain, who came from a village near Agra.",
+        "longDescription": "At the corner where Dariba Kalan meets Chandni Chowk, a shop has been selling jalebis since 1884. Lala Nem Chand Jain came from a village near Agra and started it. His family says he arrived with two rupees from a wedding gift. The fourth generation runs it now. The jalebis are thick, fried in desi ghee over a coal fire, and soaked in khandsari sugar syrup. Ask for one with rabri on top.",
+        "narrationHint": "Friendly and a little hungry; stress 'since 1884'."
+      },
+      "hi": {
+        "title": "1884 से उसी नुक्कड़ पर मोटी जलेबियाँ",
+        "shortDescription": "चाँदनी चौक में दरीबा कलाँ के नुक्कड़ पर ओल्ड फ़ेमस जलेबी वाला 1884 से जलेबी बेच रहा है। इसे आगरा के पास के एक गाँव से आए लाला नेम चंद जैन ने शुरू किया था।",
+        "longDescription": "जहाँ दरीबा कलाँ चाँदनी चौक से मिलता है, उस नुक्कड़ पर एक छोटी सी दुकान 1884 से जलेबी बेच रही है। इसे लाला नेम चंद जैन ने शुरू किया, जो आगरा के पास के एक गाँव से आए थे। परिवार बताता है कि वे शादी में मिले 2 रुपये लेकर दिल्ली पहुँचे थे। अब चौथी पीढ़ी दुकान चलाती है। यहाँ की जलेबी मोटी होती है, कोयले की आँच पर देसी घी में तली जाती है और खांडसारी की चाशनी में डुबोई जाती है। ऊपर रबड़ी डलवाकर खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandni-chowk",
+      "chaat",
+      "dahi-bhalle",
+      "old-delhi",
+      "street-food"
+    ],
+    "location": {
+      "lng": 77.230504,
+      "lat": 28.656225
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "Delhi Tourism",
+    "sourceUrl": "https://www.delhitourism.gov.in/dt/food_tour/natraj_dahi_bhalla.html",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Chandni Chowk shop with only two dishes",
+        "shortDescription": "Natraj Dahi Bhalle Wala on the main Chandni Chowk road sells only two things: dahi bhalle and aloo tikki. It says it has been serving since 1940.",
+        "longDescription": "Here is a shop with only two things on its menu. Natraj Dahi Bhalle Wala stands on the main Chandni Chowk road, a few steps from Paranthe Wali Gali, and says it has been serving since 1940. You can have dahi bhalle, which are soft lentil dumplings in curd with sweet tamarind chutney and roasted cumin. Or you can have aloo tikki, a fried potato patty with tangy sauces. That is the whole menu.",
+        "narrationHint": "Light and amused; pause before 'That is the whole menu.'"
+      },
+      "hi": {
+        "title": "चाँदनी चौक की वह दुकान जहाँ बस 2 चीज़ें मिलती हैं",
+        "shortDescription": "चाँदनी चौक की मुख्य सड़क पर नटराज दही भल्ले वाला सिर्फ़ 2 चीज़ें बेचता है, दही भल्ले और आलू टिक्की। दुकान का कहना है कि वह 1940 से चल रही है।",
+        "longDescription": "यह ऐसी दुकान है जहाँ खाने की बस 2 चीज़ें मिलती हैं। नटराज दही भल्ले वाला चाँदनी चौक की मुख्य सड़क पर है, पराँठे वाली गली से कुछ ही क़दम दूर। दुकान का कहना है कि वह 1940 से चल रही है। आप दही भल्ले ले सकते हैं, यानी दही में डूबे नरम भल्ले, ऊपर मीठी इमली की चटनी और भुना जीरा। या फिर आलू टिक्की, खट्टी मीठी चटनियों के साथ। बस, यही पूरा मेन्यू है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "old-delhi",
+      "daulat-ki-chaat",
+      "winter",
+      "street-food",
+      "sweets"
+    ],
+    "location": {
+      "lng": 77.231853,
+      "lat": 28.655152
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The National",
+    "sourceUrl": "https://thenationalnews.com/news/asia/2025/01/10/postcard-from-delhi-the-snack-of-wealth-keeping-a-city-warm-in-winter",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The winter sweet made of milk foam",
+        "shortDescription": "Daulat ki chaat is a foamy milk sweet sold from carts in Old Delhi only from November to March. It is churned by hand through the night.",
+        "longDescription": "From November to March, look for carts in the lanes of Old Delhi carrying a wide platter of pale froth. This is daulat ki chaat, and it is not a chaat at all. It is a sweet made of milk foam. Makers churn buffalo milk and cream by hand for hours in the cold night and collect the foam. It is served with saffron, powdered sugar and nuts. Go in the morning, around Kinari Bazaar.",
+        "narrationHint": "A sense of wonder; this is a seasonal treat, so sound like you are sharing a secret."
+      },
+      "hi": {
+        "title": "दूध के झाग से बनी सर्दियों की मिठाई",
+        "shortDescription": "दौलत की चाट दूध के झाग से बनी मिठाई है, जो पुरानी दिल्ली में ठेलों पर सिर्फ़ नवंबर से मार्च तक मिलती है। इसे रात भर हाथ से मथकर बनाया जाता है।",
+        "longDescription": "नवंबर से मार्च के बीच पुरानी दिल्ली की गलियों में ऐसे ठेले देखिए जिन पर बड़ी सी परात में हल्का सफ़ेद झाग रखा होता है। यह दौलत की चाट है, और यह चाट है ही नहीं। यह दूध के झाग से बनी मिठाई है। कारीगर ठंडी रात में भैंस के दूध और मलाई को घंटों हाथ से मथते हैं और ऊपर आया झाग इकट्ठा करते हैं। इसे केसर, पिसी चीनी और मेवों के साथ परोसा जाता है। सुबह के समय किनारी बाज़ार की तरफ़ जाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "jama-masjid",
+      "mughlai",
+      "kebab",
+      "old-delhi",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 77.233741,
+      "lat": 28.649429
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Karim%27s",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Karim's began in this lane with two dishes",
+        "shortDescription": "The first Karim's opened in 1913 in Gali Kababian near Jama Masjid. Haji Karimuddin started it with just aloo gosht and dal.",
+        "longDescription": "In a lane called Gali Kababian, beside Jama Masjid, Haji Karimuddin opened a small eating place in 1913. He began with only two dishes, aloo gosht and dal, served with rumali roti. The family says his father was a cook in the court of the last Mughal emperor, Bahadur Shah Zafar. The fourth generation runs Karim's today, and this is the original. Order the mutton korma, seekh kebabs or nihari with a sheermal.",
+        "narrationHint": "Steady storytelling voice; a little pride on 'this is the original'."
+      },
+      "hi": {
+        "title": "करीम की शुरुआत इसी गली में 2 पकवानों से हुई",
+        "shortDescription": "पहला करीम होटल 1913 में जामा मस्जिद के पास गली कबाबियान में खुला था। हाजी करीमुद्दीन ने इसे सिर्फ़ आलू गोश्त और दाल से शुरू किया था।",
+        "longDescription": "जामा मस्जिद के पास एक गली है, गली कबाबियान। यहाँ 1913 में हाजी करीमुद्दीन ने खाने की एक छोटी सी दुकान खोली। शुरू में बस 2 चीज़ें मिलती थीं, आलू गोश्त और दाल, साथ में रुमाली रोटी। परिवार बताता है कि उनके पिता आख़िरी मुग़ल बादशाह बहादुर शाह ज़फ़र के दरबार में बावर्ची थे। आज चौथी पीढ़ी करीम चलाती है, और यही असली पहली दुकान है। यहाँ मटन कोरमा, सीख़ कबाब या निहारी के साथ शीरमाल मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandni-chowk",
+      "sweets",
+      "old-delhi",
+      "sohan-halwa"
+    ],
+    "location": {
+      "lng": 77.230481,
+      "lat": 28.656082
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "ThePrint (PTI)",
+    "sourceUrl": "https://theprint.in/india/yesterday-once-more-dilli-6s-mughal-era-sweet-shop-ghantewala-reopens-with-much-fanfare/2229394",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The 1790 sweet shop that came back",
+        "shortDescription": "Ghantewala, a Chandni Chowk sweet shop founded in 1790, closed in 2015 and reopened in 2024. It is known for sohan halwa.",
+        "longDescription": "Here is a sweet shop that opened in 1790, shut in 2015, and came back in 2024. Ghantewala in Chandni Chowk was started by Lala Sukh Lal Jain. Ghanta means bell. One story says the founder walked the streets selling sweets and ringing a bell. Another says the shop stood below a school bell that the Mughal emperor could hear from the Red Fort. The family is running it again. Ask for sohan halwa.",
+        "narrationHint": "Tell it like a comeback story; keep the two bell stories light, as stories."
+      },
+      "hi": {
+        "title": "1790 की वह मिठाई की दुकान जो लौट आई",
+        "shortDescription": "चाँदनी चौक की घंटेवाला मिठाई की दुकान 1790 में शुरू हुई, 2015 में बंद हुई और 2024 में फिर खुल गई। यह सोहन हलवे के लिए मशहूर है।",
+        "longDescription": "यह मिठाई की दुकान 1790 में खुली, 2015 में बंद हो गई, और 2024 में लौट आई। चाँदनी चौक की घंटेवाला दुकान लाला सुख लाल जैन ने शुरू की थी। नाम के पीछे 2 क़िस्से हैं। एक के अनुसार वे घंटी बजाते हुए गलियों में मिठाई बेचते थे। दूसरे के अनुसार दुकान एक स्कूल की घंटी के नीचे थी, जिसकी आवाज़ मुग़ल बादशाह को लाल क़िले तक सुनाई देती थी। अब वही परिवार इसे फिर चला रहा है। यहाँ सोहन हलवा ज़रूर माँगिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chawri-bazar",
+      "kulfi",
+      "old-delhi",
+      "sweets"
+    ],
+    "location": {
+      "lng": 77.226906,
+      "lat": 28.647647
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "ThePrint",
+    "sourceUrl": "https://theprint.in/feature/kuremal-kulfi-wimbledon-strawberry-cream/2983826/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Kulfi frozen inside a real mango",
+        "shortDescription": "Kuremal Mohan Lal Kulfi Wale, in Kucha Pati Ram near Chawri Bazar, has made kulfi since 1906. It is known for kulfi served inside the shell of the fruit.",
+        "longDescription": "In Kucha Pati Ram, near Chawri Bazar, one family has made kulfi since 1906. Kuremal Mohan Lal Kulfi Wale is known for kulfi served inside real fruit. The fruit is hollowed out, filled with kulfi made from its own pulp, and frozen in its shell. So a mango kulfi arrives looking like a mango. In 2026 the shop made a strawberries and cream kulfi with Wimbledon. Try the mango or the kesar pista.",
+        "narrationHint": "Playful; let the mango image land before moving on."
+      },
+      "hi": {
+        "title": "असली आम के अंदर जमी कुल्फ़ी",
+        "shortDescription": "चावड़ी बाज़ार के पास कूचा पाती राम में कूड़ेमल मोहन लाल कुल्फ़ी वाले 1906 से कुल्फ़ी बना रहे हैं। यह दुकान फल के छिलके के अंदर जमी कुल्फ़ी के लिए मशहूर है।",
+        "longDescription": "चावड़ी बाज़ार के पास की गलियों में, कूचा पाती राम में, एक परिवार 1906 से कुल्फ़ी बना रहा है। कूड़ेमल मोहन लाल कुल्फ़ी वाले की पहचान है असली फल के अंदर जमी कुल्फ़ी। फल को अंदर से खोखला किया जाता है, उसी के गूदे से बनी कुल्फ़ी भरी जाती है, और छिलके समेत जमा दी जाती है। इसलिए आम की कुल्फ़ी देखने में पूरा आम लगती है। 2026 में दुकान ने विंबलडन के साथ मिलकर स्ट्रॉबेरी और क्रीम की कुल्फ़ी भी बनाई। यहाँ आम वाली या केसर पिस्ता कुल्फ़ी खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "fatehpuri",
+      "chandni-chowk",
+      "rabri-falooda",
+      "old-delhi",
+      "sweets"
+    ],
+    "location": {
+      "lng": 77.223256,
+      "lat": 28.657931
+    },
+    "interestingness": 8.0,
+    "confidence": 0.87,
+    "sourceName": "The Better India",
+    "sourceUrl": "https://www.thebetterindia.com/260756/best-ice-cream-delhi-giani-iconic-eatery-partition-history-india/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Where the Giani's ice cream name began",
+        "shortDescription": "Giani's di Hatti near Fatehpuri was started in the early 1950s by Giani Gurcharan Singh, a Partition refugee from Lyallpur. It began with rabri falooda and fruit shakes.",
+        "longDescription": "Near Fatehpuri Masjid, on Church Mission Road, is the shop where the Giani's name began. Giani Gurcharan Singh came from Lyallpur, now in Pakistan, as a refugee after Partition. In the early 1950s he opened a small shop here selling rabri falooda and fruit shakes. People called it Giani di Hatti, which simply means Giani's shop. That name is now on over two hundred ice cream shops. Here, order the rabri falooda he started with.",
+        "narrationHint": "Warm, with a small smile on 'simply means Giani's shop'."
+      },
+      "hi": {
+        "title": "जहाँ से ज्ञानी आइसक्रीम का नाम शुरू हुआ",
+        "shortDescription": "फ़तेहपुरी के पास ज्ञानी दी हट्टी 1950 के दशक की शुरुआत में ज्ञानी गुरचरण सिंह ने खोली थी, जो बँटवारे के बाद लायलपुर से आए थे। शुरुआत रबड़ी फ़ालूदा और फलों के शेक से हुई थी।",
+        "longDescription": "फ़तेहपुरी मस्जिद के पास, चर्च मिशन रोड पर, वह दुकान है जहाँ से ज्ञानी का नाम शुरू हुआ। ज्ञानी गुरचरण सिंह बँटवारे के बाद लायलपुर से शरणार्थी बनकर दिल्ली आए थे, जो अब पाकिस्तान में है। 1950 के दशक की शुरुआत में उन्होंने यहाँ एक छोटी सी दुकान खोली और रबड़ी फ़ालूदा और फलों के शेक बेचने लगे। लोग इसे ज्ञानी दी हट्टी कहने लगे, यानी ज्ञानी की दुकान। आज यह नाम 200 से ज़्यादा आइसक्रीम की दुकानों पर है। यहाँ वही रबड़ी फ़ालूदा खाइए जिससे सब शुरू हुआ।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "fatehpuri",
+      "chandni-chowk",
+      "sweets",
+      "karachi-halwa",
+      "old-delhi"
+    ],
+    "location": {
+      "lng": 77.222633,
+      "lat": 28.656642
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Outlook Traveller Eats",
+    "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/these-are-old-delhis-best-spots-for-some-piping-hot-halwa-this-winter",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Lahore sweet shop beside Fatehpuri Masjid",
+        "shortDescription": "Chaina Ram Sindhi Confectioners traces its start to 1901 in Lahore's Anarkali Bazaar and moved to Fatehpuri in Delhi after Partition. It is known for Karachi halwa.",
+        "longDescription": "Right beside Fatehpuri Masjid, at the far end of Chandni Chowk, is a sweet shop that began in another country. Chaina Ram traces its start to 1901, in Anarkali Bazaar in Lahore. After Partition in 1947, the family moved the business here, into the ground floor of the mosque building. It is known for Karachi halwa, a chewy sweet, and for ghewar and sev badam. In winter, people also come for its hot halwas.",
+        "narrationHint": "Calm and clear; a small pause after 'another country'."
+      },
+      "hi": {
+        "title": "फ़तेहपुरी मस्जिद के पास लाहौर की मिठाई की दुकान",
+        "shortDescription": "चैना राम सिंधी कन्फ़ेक्शनर्स की शुरुआत 1901 में लाहौर के अनारकली बाज़ार में मानी जाती है। बँटवारे के बाद यह दुकान दिल्ली के फ़तेहपुरी में आ गई। यह कराची हलवे के लिए मशहूर है।",
+        "longDescription": "चाँदनी चौक के आख़िरी सिरे पर, फ़तेहपुरी मस्जिद से बिल्कुल लगी हुई, मिठाई की एक ऐसी दुकान है जो किसी और मुल्क में शुरू हुई थी। चैना राम अपनी शुरुआत 1901 में लाहौर के अनारकली बाज़ार से बताती है। 1947 के बँटवारे के बाद परिवार यह काम यहाँ ले आया, मस्जिद की इमारत की निचली मंज़िल में। यह दुकान कराची हलवे के लिए जानी जाती है, और घेवर और सेव बादाम के लिए भी। सर्दियों में लोग यहाँ गरम हलवा खाने भी आते हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "daryaganj",
+      "butter-chicken",
+      "tandoori",
+      "old-delhi"
+    ],
+    "location": {
+      "lng": 77.239981,
+      "lat": 28.646887
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/features/2024/2/17/butter-chicken-battle-how-the-dish-brought-two-indian-restaurants-to-court",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The butter chicken claim that went to court",
+        "shortDescription": "Moti Mahal in Daryaganj opened in 1947 and claims to be where butter chicken was invented. The claim is disputed and reached the Delhi High Court in 2024.",
+        "longDescription": "On Netaji Subhash Marg in Daryaganj stands Moti Mahal, opened in 1947 by refugees from Peshawar. This restaurant claims to be where butter chicken was invented, when leftover tandoori chicken was put into a tomato gravy. The claim is disputed. In 2024 the families of two founders, Kundan Lal Gujral and Kundan Lal Jaggi, went to court over who made it first. Jawaharlal Nehru was among its fans. Order the butter chicken and dal makhani.",
+        "narrationHint": "A hint of courtroom drama, but keep it neutral; do not take a side."
+      },
+      "hi": {
+        "title": "बटर चिकन का वह दावा जो अदालत तक पहुँचा",
+        "shortDescription": "दरियागंज का मोती महल 1947 में खुला था और दावा करता है कि बटर चिकन यहीं बना था। इस दावे पर विवाद है और 2024 में मामला दिल्ली हाई कोर्ट पहुँचा।",
+        "longDescription": "दरियागंज में नेताजी सुभाष मार्ग पर मोती महल है, जिसे 1947 में पेशावर से आए शरणार्थियों ने खोला था। इस रेस्तराँ का दावा है कि बटर चिकन यहीं बना, जब बचे हुए तंदूरी चिकन को टमाटर की ग्रेवी में डाला गया। पर इस दावे पर विवाद है। 2024 में 2 संस्थापकों, कुंदन लाल गुजराल और कुंदन लाल जग्गी, के परिवार इसी बात पर अदालत पहुँच गए कि इसे पहले किसने बनाया। जवाहरलाल नेहरू भी यहाँ के खाने के शौक़ीन थे। यहाँ बटर चिकन और दाल मखनी मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "karol-bagh",
+      "kulfi",
+      "falooda",
+      "sweets"
+    ],
+    "location": {
+      "lng": 77.192302,
+      "lat": 28.650444
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Better India",
+    "sourceUrl": "https://thebetterindia.com/254840/ishan-soni-roshan-lal-soni-roshan-di-kulfi-iconic-eatery-delhi-sweets-partition-of-india-karol-bagh-1997-bomb-blasts-family-legacy-food-business-culture-div200",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "From dry fruit seller to Karol Bagh kulfi",
+        "shortDescription": "Roshan di Kulfi on Ajmal Khan Road was started by Roshan Lal Soni, who came from Lahore after Partition. It is still run by his family.",
+        "longDescription": "On Ajmal Khan Road in Karol Bagh, look for Roshan di Kulfi. Roshan Lal Soni came to Delhi from Lahore after Partition and first sold dry fruits door to door. Then he set up a kulfi stall in Karol Bagh. The stall grew into one of Karol Bagh's best-known shops, and his grandson runs it now. Order the kesar pista kulfi with falooda.",
+        "narrationHint": "Warm and simple; end on what to order."
+      },
+      "hi": {
+        "title": "सूखे मेवे बेचने वाले से करोल बाग़ की कुल्फ़ी तक",
+        "shortDescription": "अजमल ख़ान रोड की रोशन दी कुल्फ़ी रोशन लाल सोनी ने शुरू की थी, जो बँटवारे के बाद लाहौर से आए थे। आज भी उनका परिवार इसे चला रहा है।",
+        "longDescription": "करोल बाग़ में अजमल ख़ान रोड पर रोशन दी कुल्फ़ी देखिए। रोशन लाल सोनी बँटवारे के बाद लाहौर से दिल्ली आए थे और पहले घर घर जाकर सूखे मेवे बेचते थे। फिर उन्होंने करोल बाग़ में कुल्फ़ी का ठेला लगाया। वही ठेला आगे चलकर करोल बाग़ की सबसे जानी-मानी दुकानों में गिना जाने लगा, और आज उनके पोते इसे चलाते हैं। यहाँ केसर पिस्ता कुल्फ़ी फ़ालूदे के साथ खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "connaught-place",
+      "bakery",
+      "pastry"
+    ],
+    "location": {
+      "lng": 77.21807,
+      "lat": 28.63338
+    },
+    "interestingness": 8.0,
+    "confidence": 0.9,
+    "sourceName": "Outlook Traveller Eats",
+    "sourceUrl": "https://oteats.outlooktraveller.com/whats-new/wengers-100-years-of-delhis-original-sweet-spot",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Swiss bakery of Connaught Place",
+        "shortDescription": "Wenger's in A Block, Connaught Place was started by a Swiss couple in the 1920s. The Tandon family has run it since the mid 1940s.",
+        "longDescription": "In A Block of Connaught Place's Inner Circle is Wenger's, a bakery about a hundred years old. A Swiss couple, the Wengers, started it in the 1920s to serve British troops. By 1926 it was a tearoom at Kashmere Gate, and later it moved here. In the mid 1940s they sold it to their manager, Brij Mohan Tandon. His family still runs it. Join the queue for shami kebabs, patties and pineapple pastry.",
+        "narrationHint": "Easy, nostalgic tone; brighten on the food at the end."
+      },
+      "hi": {
+        "title": "कनॉट प्लेस की स्विस बेकरी",
+        "shortDescription": "कनॉट प्लेस के ए ब्लॉक की वेंगर्स बेकरी 1920 के दशक में एक स्विस दंपती ने शुरू की थी। 1940 के दशक के बीच से इसे टंडन परिवार चला रहा है।",
+        "longDescription": "कनॉट प्लेस के इनर सर्कल के ए ब्लॉक में वेंगर्स है, क़रीब 100 साल पुरानी बेकरी। इसे 1920 के दशक में एक स्विस दंपती, वेंगर साहब और उनकी पत्नी, ने अंग्रेज़ फ़ौजियों के लिए शुरू किया था। 1926 तक यह कश्मीरी गेट में चाय और केक की दुकान बन चुकी थी, और बाद में यहाँ आ गई। 1940 के दशक के बीच में उन्होंने इसे अपने मैनेजर बृज मोहन टंडन को बेच दिया। आज भी उन्हीं का परिवार इसे चलाता है, और दुकान बस यही एक है। यहाँ क़तार में लगिए और शामी कबाब, पैटी और पाइनएप्पल पेस्ट्री लीजिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "connaught-place",
+      "coffee",
+      "baba-kharak-singh-marg",
+      "cafe",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 77.216051,
+      "lat": 28.630689
+    },
+    "interestingness": 8.0,
+    "confidence": 0.87,
+    "sourceName": "The Patriot",
+    "sourceUrl": "https://thepatriot.in/culture/history/the-coffee-house-delhi-refuses-to-forget-80882/amp",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The coffee house owned by its workers",
+        "shortDescription": "The Indian Coffee House in Mohan Singh Place is run by a workers' cooperative formed in Delhi in 1957. It moved here after the old coffee house in Connaught Place was demolished in 1976.",
+        "longDescription": "Climb the stairs of Mohan Singh Place on Baba Kharak Singh Marg to reach a coffee house owned by its own workers. In the 1950s the Coffee Board decided to shut its coffee houses. The workers formed cooperatives and took over. Delhi's began in December 1957. The old coffee house in Connaught Place was pulled down in 1976, and it moved here. Writers and politicians met here. Order a coffee and a dosa.",
+        "narrationHint": "Unhurried, like an old regular telling the story."
+      },
+      "hi": {
+        "title": "वह कॉफ़ी हाउस जिसके मालिक उसके कर्मचारी हैं",
+        "shortDescription": "मोहन सिंह प्लेस का इंडियन कॉफ़ी हाउस कर्मचारियों की सहकारी समिति चलाती है, जो दिल्ली में 1957 में बनी थी। कनॉट प्लेस का पुराना कॉफ़ी हाउस 1976 में तोड़े जाने के बाद यह यहाँ आया।",
+        "longDescription": "बाबा खड़क सिंह मार्ग पर मोहन सिंह प्लेस की सीढ़ियाँ चढ़िए, तो आप ऐसे कॉफ़ी हाउस में पहुँचते हैं जिसके मालिक उसके अपने कर्मचारी हैं। 1950 के दशक में कॉफ़ी बोर्ड ने अपने कॉफ़ी हाउस बंद करने का फ़ैसला किया। तब कर्मचारियों ने सहकारी समितियाँ बनाईं और इन्हें ख़ुद चलाने लगे। दिल्ली की समिति दिसंबर 1957 में बनी। कनॉट प्लेस का पुराना कॉफ़ी हाउस 1976 में तोड़ दिया गया, और यह यहाँ आ गया। लेखक और नेता यहीं बैठकें जमाते थे। यहाँ कॉफ़ी और डोसा मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "connaught-place",
+      "coffee",
+      "cafe",
+      "restaurant"
+    ],
+    "location": {
+      "lng": 77.221373,
+      "lat": 28.632378
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "ThePrint",
+    "sourceUrl": "https://theprint.in/feature/united-coffee-house-the-central-perk-cafe-of-our-times-has-a-big-responsibility/1775722",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Connaught Place coffee house open since 1942",
+        "shortDescription": "United Coffee House in Connaught Place was opened in 1942 by Lala Hans Raj Kalra. His family still runs it.",
+        "longDescription": "In the Inner Circle of Connaught Place, United Coffee House has been open since 1942. Lala Hans Raj Kalra had run a liquor business in Sialkot. He bought a grocery shop here and turned it into the grand coffee house he had imagined. His family still runs it, with Akash Kalra in charge. People come for coffee with cutlets, patties and sandwiches, and stay for old favourites like nargisi kofta, shahi tukda and baked Alaska.",
+        "narrationHint": "Smooth and a little old-world."
+      },
+      "hi": {
+        "title": "कनॉट प्लेस का कॉफ़ी हाउस जो 1942 से खुला है",
+        "shortDescription": "कनॉट प्लेस का यूनाइटेड कॉफ़ी हाउस 1942 में लाला हंस राज कालरा ने खोला था। आज भी उनका परिवार इसे चला रहा है।",
+        "longDescription": "कनॉट प्लेस के इनर सर्कल में यूनाइटेड कॉफ़ी हाउस 1942 से खुला है। लाला हंस राज कालरा सियालकोट में शराब का कारोबार करते थे। उन्होंने यहाँ किराने की एक दुकान ख़रीदी और उसे वैसा शानदार कॉफ़ी हाउस बना दिया जैसा उन्होंने सोचा था। आज भी उनका परिवार इसे चलाता है, और कमान आकाश कालरा के हाथ में है। लोग यहाँ कॉफ़ी के साथ कटलेट, पैटी और सैंडविच खाने आते हैं, और नरगिसी कोफ़्ता, शाही टुकड़ा और बेक्ड अलास्का जैसी पुरानी पसंद भी मँगाते हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "bengali-market",
+      "sweets",
+      "chaat",
+      "mandi-house"
+    ],
+    "location": {
+      "lng": 77.231898,
+      "lat": 28.629465
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "ThePrint",
+    "sourceUrl": "https://theprint.in/feature/bengali-sweet-house-was-one-of-the-first-to-bring-rasgulla-to-delhi-srk-ambani-came-too/1858309",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Bengali Market is not named after Bengalis",
+        "shortDescription": "Bengali Market is named after Lala Bengali Mal Lohia, who won the land at auction. Bengali Sweet House has stood on its corner since 1937.",
+        "longDescription": "Bengali Market is not named after Bengalis. It takes its name from Lala Bengali Mal Lohia, who won this land at a public auction. On its corner, Lala Bhim Sain opened Bengali Sweet House in 1937. His family were sweet makers from Bikaner. The shop became known for bringing the Bengali rasgulla to Delhi. Today people stop here for chaat, chole bhature and samosas as much as for the sweets. Try the rasgulla too.",
+        "narrationHint": "Open with a smile; the first line is the surprise."
+      },
+      "hi": {
+        "title": "बंगाली मार्केट का नाम बंगालियों पर नहीं पड़ा",
+        "shortDescription": "बंगाली मार्केट का नाम लाला बंगाली मल लोहिया के नाम पर है, जिन्होंने यह ज़मीन नीलामी में ली थी। इसके नुक्कड़ पर बंगाली स्वीट हाउस 1937 से है।",
+        "longDescription": "बंगाली मार्केट का नाम बंगालियों पर नहीं पड़ा। यह नाम लाला बंगाली मल लोहिया से आया, जिन्होंने यह ज़मीन सरकारी नीलामी में ली थी। इसी बाज़ार के नुक्कड़ पर लाला भीम सैन ने 1937 में बंगाली स्वीट हाउस खोला। उनका परिवार बीकानेर के हलवाइयों का था। यह दुकान दिल्ली वालों तक बंगाली रसगुल्ला पहुँचाने के लिए मशहूर हुई। आज लोग यहाँ मिठाई के साथ साथ चाट, छोले भटूरे और समोसे खाने भी रुकते हैं। रसगुल्ला भी ज़रूर चखिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chandni-chowk",
+      "namkeen",
+      "snacks",
+      "old-delhi",
+      "street-food"
+    ],
+    "location": {
+      "lng": 77.230481,
+      "lat": 28.656082
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "ThePrint",
+    "sourceUrl": "https://theprint.in/feature/pista-barfi-pioneer-kanwarji-was-chandni-chowks-og-snacking-site-now-selfie-spot-too/1398189",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A snack shop older than its own records",
+        "shortDescription": "Kanwarji, at the mouth of Paranthe Wali Gali, says it began around 1850. It is known for dal biji and other snacks fried in desi ghee.",
+        "longDescription": "Where Paranthe Wali Gali meets the main Chandni Chowk road is Kanwarji, a snack shop that says it began around 1850. There are no written records, but the fifth generation of the family runs it. The founder came from Bahadurgarh in Haryana. The shop is known for dal biji, a crunchy salty mix, and for aloo ka lachcha. Everything is fried in desi ghee. It also claims to have made the first pista barfi.",
+        "narrationHint": "Friendly, slightly teasing on 'no written records'."
+      },
+      "hi": {
+        "title": "नमकीन की वह दुकान जो अपने काग़ज़ों से भी पुरानी है",
+        "shortDescription": "पराँठे वाली गली के मुहाने पर कँवरजी की दुकान है, जो अपनी शुरुआत 1850 के आसपास बताती है। यह दाल बीजी और देसी घी में तले नमकीन के लिए मशहूर है।",
+        "longDescription": "जहाँ पराँठे वाली गली चाँदनी चौक की मुख्य सड़क से मिलती है, वहीं कँवरजी है, नमकीन की एक दुकान जो अपनी शुरुआत 1850 के आसपास बताती है। इसका कोई लिखा हुआ सबूत नहीं है, पर परिवार की पाँचवीं पीढ़ी आज गल्ले पर बैठी है। दुकान शुरू करने वाले हरियाणा के बहादुरगढ़ से आए थे। यह दुकान दाल बीजी के लिए मशहूर है, जो एक कुरकुरा नमकीन है, और आलू के लच्छे के लिए भी। सब कुछ देसी घी में तला जाता है। दुकान का दावा है कि पिस्ता बर्फ़ी भी सबसे पहले इसी ने बनाई।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "pandara-road",
+      "india-gate",
+      "butter-chicken",
+      "punjabi-food",
+      "new-delhi"
+    ],
+    "location": {
+      "lng": 77.230067,
+      "lat": 28.60785
+    },
+    "interestingness": 8.0,
+    "confidence": 0.82,
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/magazines/post-magazine/travel/article/3258671/butter-chicken-wars-who-does-delhis-signature-dish-best-everyone-has-their-opinion",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Four old Punjabi kitchens in one row",
+        "shortDescription": "Pandara Road Market near India Gate has four old Punjabi restaurants side by side: Gulati, Havemore, Pindi and Chicken Inn. All four opened between 1948 and 1960.",
+        "longDescription": "Just south of India Gate is Pandara Road Market, a short row of restaurants known for Punjabi food. Four old names stand side by side here: Gulati, Havemore, Pindi and Chicken Inn. All four opened between 1948 and 1960. Gulati says it began as a small dhaba in 1959 and grew from there. Order the butter chicken and the dal makhani, with hot naan straight from the tandoor.",
+        "narrationHint": "Warm and hungry; say the four names slowly, one by one."
+      },
+      "hi": {
+        "title": "एक क़तार में 4 पुराने पंजाबी रेस्तरां",
+        "shortDescription": "इंडिया गेट के पास पंडारा रोड मार्केट में गुलाटी, हैवमोर, पिंडी और चिकन इन एक साथ खड़े हैं। चारों 1948 से 1960 के बीच खुले थे।",
+        "longDescription": "इंडिया गेट के ठीक दक्षिण में पंडारा रोड मार्केट है। यह रेस्तरां की एक छोटी क़तार है, जो पंजाबी खाने के लिए मशहूर है। यहाँ 4 पुराने नाम एक साथ खड़े हैं: गुलाटी, हैवमोर, पिंडी और चिकन इन। चारों 1948 से 1960 के बीच खुले थे। गुलाटी का कहना है कि वह 1959 में एक छोटे ढाबे के रूप में शुरू हुआ था। यहाँ बटर चिकन और दाल मखनी मँगाइए, तंदूर से निकले गरम नान के साथ।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "khan-market",
+      "kebab-roll",
+      "street-snack",
+      "new-delhi"
+    ],
+    "location": {
+      "lng": 77.2273,
+      "lat": 28.600698
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Scroll.in",
+    "sourceUrl": "https://amp.scroll.in/magazine/919057/scroll_in",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The kebab stall students named Khan Chacha",
+        "shortDescription": "Khan Chacha began in 1972 as a tiny kebab stall in Khan Market, opened by Haji Banda Hasan. It is known for kebabs rolled in roomali roti.",
+        "longDescription": "In 1972 a cook named Haji Banda Hasan opened a tiny kebab stall in Khan Market. He had come from Saharanpur and learned Mughlai cooking near Jama Masjid. Students began calling him Khan Chacha, and the name stuck. It has grown into a chain of more than twenty outlets, now run by other owners. The Khan Market shop is still here. Order a tikka roll in roomali roti, or seekh kebabs.",
+        "narrationHint": "Tell it as one man's story, friendly and quick."
+      },
+      "hi": {
+        "title": "कबाब की वह दुकान जिसे छात्रों ने नाम दिया",
+        "shortDescription": "ख़ान चाचा 1972 में ख़ान मार्केट में कबाब की एक छोटी सी दुकान के रूप में शुरू हुआ था। इसे हाजी बंदा हसन ने खोला था और यह रूमाली रोटी में लिपटे कबाब के लिए मशहूर है।",
+        "longDescription": "1972 में हाजी बंदा हसन नाम के एक बावर्ची ने ख़ान मार्केट में कबाब की एक छोटी सी दुकान खोली। वे सहारनपुर से आए थे और उन्होंने जामा मस्जिद के पास मुग़लई खाना बनाना सीखा था। छात्र उन्हें ख़ान चाचा कहने लगे और यही नाम चल पड़ा। आज यह 20 से ज़्यादा दुकानों की चेन है, जिसे अब दूसरे मालिक चलाते हैं। ख़ान मार्केट वाली दुकान आज भी यहीं है। रूमाली रोटी में चिकन टिक्का रोल या सीख़ कबाब मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "andhra-bhavan",
+      "india-gate",
+      "thali",
+      "state-canteen",
+      "biryani"
+    ],
+    "location": {
+      "lng": 77.225545,
+      "lat": 28.616987
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "The Patriot",
+    "sourceUrl": "https://thepatriot.in/?p=34037",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A state guest house that feeds the city",
+        "shortDescription": "The canteen at Andhra Bhavan near India Gate is open to the public. It is known for its Andhra thali and its Sunday Hyderabadi dum biryani.",
+        "longDescription": "Near India Gate, on Ashoka Road, is the guest house of the Andhra Pradesh government. Its canteen is open to everyone, and it is one of the oldest state canteens in Delhi. You pay first, then sit down. The thali comes on a steel plate: rice, poori, dal, sambar, rasam, two vegetables, curd and a sweet. On Sundays there is Hyderabadi dum biryani, and the queue can stretch a hundred metres to the main gate.",
+        "narrationHint": "List the thali items at a steady pace, like a waiter filling the plate."
+      },
+      "hi": {
+        "title": "सरकारी गेस्ट हाउस जो पूरे शहर को खिलाता है",
+        "shortDescription": "इंडिया गेट के पास आंध्र भवन की कैंटीन आम लोगों के लिए खुली है। यह अपनी आंध्र थाली और रविवार की हैदराबादी दम बिरयानी के लिए मशहूर है।",
+        "longDescription": "इंडिया गेट के पास अशोक रोड पर आंध्र प्रदेश सरकार का गेस्ट हाउस है। इसकी कैंटीन सबके लिए खुली है और यह दिल्ली की सबसे पुरानी राज्य कैंटीनों में से एक है। यहाँ पहले पैसे दीजिए, फिर बैठिए। थाली स्टील की प्लेट में आती है: चावल, पूरी, दाल, सांभर, रसम, 2 सब्ज़ियाँ, दही और एक मिठाई। रविवार को हैदराबादी दम बिरयानी मिलती है और क़तार 100 मीटर दूर मुख्य गेट तक पहुँच जाती है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chaat",
+      "street-snack",
+      "shahjahan-road",
+      "india-gate",
+      "aloo-tikki"
+    ],
+    "location": {
+      "lng": 77.228101,
+      "lat": 28.610029
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "India.com",
+    "sourceUrl": "https://www.india.com/business/all-about-the-man-behind-delhis-hugely-popular-upsc-chaat-bhandar-which-opened-in-1935-prabhu-chaat-bhandar-opposite-upsc-building-7499813/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The chaat stall older than independent India",
+        "shortDescription": "Prabhu Chaat Bhandar, beside the Union Public Service Commission on Shahjahan Road, says it has served chaat since 1935. The same family still runs it.",
+        "longDescription": "Beside the Union Public Service Commission, where India's civil servants are chosen, is a chaat stall older than independent India. Prabhu Chaat Bhandar says it has been serving since 1935, and the same family still runs it. Most people know it simply by the name of the office next door. It is on Shahjahan Road, near India Gate. Order the aloo tikki, the bhalla papdi or the stuffed gol gappe, and finish with kulfi falooda.",
+        "narrationHint": "Light and fond, with a smile on the line about the office next door."
+      },
+      "hi": {
+        "title": "आज़ाद भारत से भी पुरानी चाट की दुकान",
+        "shortDescription": "शाहजहाँ रोड पर संघ लोक सेवा आयोग के पास प्रभु चाट भंडार का कहना है कि वह 1935 से चाट खिला रहा है। आज भी वही परिवार इसे चलाता है।",
+        "longDescription": "संघ लोक सेवा आयोग के ठीक पास, जहाँ देश के अफ़सर चुने जाते हैं, चाट की एक दुकान है जो आज़ाद भारत से भी पुरानी है। प्रभु चाट भंडार का कहना है कि वह 1935 से चल रहा है और आज भी वही परिवार इसे चलाता है। ज़्यादातर लोग इसे बगल वाले दफ़्तर के नाम से ही जानते हैं। यह शाहजहाँ रोड पर है, इंडिया गेट के पास। यहाँ आलू टिक्की, भल्ला पापड़ी या भरवाँ गोलगप्पे खाइए और आख़िर में कुल्फ़ी फ़ालूदा लीजिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "safdarjung-enclave",
+      "dhaba",
+      "kebab",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.198968,
+      "lat": 28.565123
+    },
+    "interestingness": 8.0,
+    "confidence": 0.83,
+    "sourceName": "Slurrp (HT Media)",
+    "sourceUrl": "https://www.slurrp.com/article/rajinder-da-dhaba-delhis-beloved-iconic-restaurant-with-a-rich-legacy-1725349958291",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "From a fried fish stall to Rajinder's",
+        "shortDescription": "Rajinder da Dhaba in Safdarjung Enclave began in 1968 as a stall selling fried fish and fried eggs near Kamal Cinema. The founder's family still runs it.",
+        "longDescription": "In 1968 Rajinder Kumar Dua set up a small stall near Kamal Cinema in Safdarjung Enclave, selling fried fish and fried eggs. He had come to Delhi as a child refugee at Partition. Today Rajinder da Dhaba fills a corner of the market here, and his family still runs it. Come in the evening for the chicken curry with roomali roti, the mutton galouti kebab, or the fried fish that started it all.",
+        "narrationHint": "Start with the year and the small stall; end with appetite."
+      },
+      "hi": {
+        "title": "तली मछली के ठेले से राजिंदर दा ढाबा",
+        "shortDescription": "सफ़दरजंग एन्क्लेव का राजिंदर दा ढाबा 1968 में कमल सिनेमा के पास तली मछली और अंडे के एक ठेले से शुरू हुआ था। आज भी इसे वही परिवार चलाता है।",
+        "longDescription": "1968 में राजिंदर कुमार दुआ ने सफ़दरजंग एन्क्लेव में कमल सिनेमा के पास एक छोटा सा ठेला लगाया। वे तली मछली और तले अंडे बेचते थे। बँटवारे के समय वे बचपन में शरणार्थी बनकर दिल्ली आए थे। आज राजिंदर दा ढाबा यहाँ की मार्केट का एक पूरा कोना घेरता है और उनका परिवार ही इसे चलाता है। शाम को आइए और रूमाली रोटी के साथ चिकन करी, मटन गलौटी कबाब या वही तली मछली खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "defence-colony",
+      "dosa",
+      "south-indian",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.23014,
+      "lat": 28.573329
+    },
+    "interestingness": 8.0,
+    "confidence": 0.84,
+    "sourceName": "Outlook Business",
+    "sourceUrl": "https://www.outlookbusiness.com/enterprise/regional-brand/keeping-it-hot-487",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The dishwasher who sold Delhi its dosas",
+        "shortDescription": "Jayaram Banan opened a forty-seat South Indian restaurant called Sagar in Defence Colony Market in 1986. It grew into the Sagar Ratna chain.",
+        "longDescription": "In 1986 a man from near Udupi opened a forty-seat South Indian restaurant in Defence Colony Market and called it Sagar. Jayaram Banan had run away from home as a boy and washed dishes for a living. His rent here was 3,250 rupees a week. On the first day he sold food worth just 408 rupees. That room grew into the Sagar Ratna chain, and it is still here. Order a masala dosa and idli.",
+        "narrationHint": "Slow down on the two rupee figures so the gap between them lands."
+      },
+      "hi": {
+        "title": "बर्तन धोने वाला जिसने दिल्ली को डोसा खिलाया",
+        "shortDescription": "जयराम बनान ने 1986 में डिफ़ेंस कॉलोनी मार्केट में 40 सीटों का दक्षिण भारतीय रेस्तरां सागर खोला था। यही आगे चलकर सागर रत्ना चेन बना।",
+        "longDescription": "1986 में उडुपी के पास के एक आदमी ने डिफ़ेंस कॉलोनी मार्केट में 40 सीटों का दक्षिण भारतीय रेस्तरां खोला और उसका नाम सागर रखा। जयराम बनान बचपन में घर से भाग गए थे और उन्होंने बर्तन धोकर गुज़ारा किया था। यहाँ का किराया हर हफ़्ते 3,250 रुपये था। पहले दिन सिर्फ़ 408 रुपये की बिक्री हुई। वही छोटा सा कमरा आगे चलकर सागर रत्ना चेन बना। रेस्तरां आज भी इसी मार्केट में है। यहाँ मसाला डोसा और इडली मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "greater-kailash",
+      "paan",
+      "chaat",
+      "street-snack",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.236229,
+      "lat": 28.549565
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Hyperpure by Zomato",
+    "sourceUrl": "https://www.hyperpure.com/blog/how-a-paan-shop-in-delhi-created-one-of-indias-most-famous-chaats",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The paan shop that built a chaat",
+        "shortDescription": "Prince Paan in Greater Kailash One has sold paan since 1965. Its chaat counter, added in the early 1990s, is known for palak patta chaat.",
+        "longDescription": "The crowd at the corner of M Block Market in Greater Kailash One is waiting for paan and chaat. The Tekwani family has sold paan here since 1965. In the early 1990s they added a chaat counter next to the paan shop. It is known for palak patta chaat, built on a crisp fried spinach leaf, which the family says Jyoti Tekwani created. Try that and the gol gappe, then finish with a sweet paan.",
+        "narrationHint": "Point at the crowd first, then explain it."
+      },
+      "hi": {
+        "title": "पान की दुकान जिसने एक चाट बना दी",
+        "shortDescription": "ग्रेटर कैलाश 1 का प्रिंस पान 1965 से पान बेच रहा है। 1990 के दशक की शुरुआत में जुड़ा इसका चाट काउंटर पालक पत्ता चाट के लिए मशहूर है।",
+        "longDescription": "ग्रेटर कैलाश 1 की एम ब्लॉक मार्केट के कोने पर जो भीड़ दिखती है, वह पान और चाट के लिए खड़ी है। टेकवानी परिवार यहाँ 1965 से पान बेच रहा है। 1990 के दशक की शुरुआत में उन्होंने पान की दुकान के बगल में चाट का काउंटर जोड़ा। यह पालक पत्ता चाट के लिए मशहूर है, जो पालक के कुरकुरे तले पत्ते पर बनती है। परिवार का कहना है कि इसे ज्योति टेकवानी ने बनाया था। यह चाट और गोलगप्पे खाइए, फिर मीठा पान लीजिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "lodhi-colony",
+      "coffee",
+      "roastery",
+      "khanna-market",
+      "new-delhi"
+    ],
+    "location": {
+      "lng": 77.222013,
+      "lat": 28.579897
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Wire",
+    "sourceUrl": "https://m.thewire.in/article/culture/watch-brewing-since-1962-devans-is-a-hit-with-coffee-lovers-in-delhi",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Roasting coffee in Lodhi Colony since 1962",
+        "shortDescription": "Devan's in Khanna Market, Lodhi Colony, has roasted and sold coffee since 1962. The same family added a coffee bar in 2018.",
+        "longDescription": "Long before Delhi had a cafe in every market, people came to Khanna Market in Lodhi Colony to buy freshly ground coffee. The shop, once called South Indian Coffee and Tea, has been roasting here since 1962. The same family runs it, now in its third generation. In 2018 they added a small coffee bar, and the sign now reads Devan's at Lodhi. Have a cup, and take home fresh beans.",
+        "narrationHint": "Calm and unhurried, like a slow morning coffee."
+      },
+      "hi": {
+        "title": "लोधी कॉलोनी में 1962 से भुनती कॉफ़ी",
+        "shortDescription": "लोधी कॉलोनी की खन्ना मार्केट में देवन्स 1962 से कॉफ़ी भूनकर बेच रहा है। उसी परिवार ने 2018 में यहाँ कॉफ़ी बार भी जोड़ा।",
+        "longDescription": "जब दिल्ली की हर मार्केट में कैफ़े नहीं थे, तब भी लोग ताज़ा पिसी कॉफ़ी ख़रीदने लोधी कॉलोनी की खन्ना मार्केट आते थे। इस दुकान का नाम पहले साउथ इंडियन कॉफ़ी एंड टी था और यहाँ 1962 से कॉफ़ी भूनी जा रही है। इसे वही परिवार चलाता है, अब तीसरी पीढ़ी। 2018 में उन्होंने एक छोटा कॉफ़ी बार जोड़ा और अब बोर्ड पर देवन्स एट लोधी लिखा है। काउंटर पर एक कप पीजिए और ताज़ा भुनी कॉफ़ी का पैकेट घर ले जाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "saket",
+      "saidulajab",
+      "coffee",
+      "champa-gali",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.199773,
+      "lat": 28.51743
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Business Today",
+    "sourceUrl": "https://www.businesstoday.in/amp/magazine/interview/story/were-just-at-the-start-of-indias-coffee-story-blue-tokai-co-founder-and-coo-shivam-shahi-513394-2026-01-29",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A coffee chain born on a chicken farm",
+        "shortDescription": "Blue Tokai opened its first roastery and cafe in Champa Gali, a lane in Saidulajab near Saket that used to be a chicken farm.",
+        "longDescription": "Champa Gali, a lane in Saidulajab village near Saket, used to be a chicken farm. Blue Tokai picked this odd spot for its first roastery and cafe in 2015, because the rent was low. The company had started with Matt Chitharanjan and Namrata Asthana roasting coffee in a spare bedroom of her parents' home. It now has well over a hundred cafes. Walk into the lane for a cup of Indian-grown coffee.",
+        "narrationHint": "Enjoy the surprise of the chicken farm; keep it light."
+      },
+      "hi": {
+        "title": "मुर्ग़ी फ़ार्म से निकली कॉफ़ी की चेन",
+        "shortDescription": "ब्लू टोकाई ने अपनी पहली रोस्टरी और कैफ़े चंपा गली में खोला था। साकेत के पास सैदुलाजाब की यह गली पहले मुर्ग़ी फ़ार्म थी।",
+        "longDescription": "साकेत के पास सैदुलाजाब गाँव की चंपा गली पहले एक मुर्ग़ी फ़ार्म थी। ब्लू टोकाई ने 2015 में अपनी पहली रोस्टरी और कैफ़े के लिए यही अजीब जगह चुनी, क्योंकि यहाँ किराया कम था। कंपनी की शुरुआत मैट चित्तरंजन और नम्रता अस्थाना ने की थी, जो नम्रता के माता-पिता के घर के एक ख़ाली कमरे में कॉफ़ी भूनते थे। आज इसके 100 से कहीं ज़्यादा कैफ़े हैं। जिस गली से यह शुरू हुआ, वहाँ जाकर भारत में उगी कॉफ़ी का एक कप पीजिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "humayunpur",
+      "safdarjung-enclave",
+      "north-east-food",
+      "food-lane",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.194362,
+      "lat": 28.561258
+    },
+    "interestingness": 8.0,
+    "confidence": 0.86,
+    "sourceName": "The Patriot",
+    "sourceUrl": "https://thepatriot.in/?p=50032",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A Delhi village that cooks the North-East",
+        "shortDescription": "Humayunpur, an urban village beside Safdarjung Enclave, is packed with small restaurants serving food from the north-eastern states, Nepal, Tibet, Korea and Burma.",
+        "longDescription": "Beside Safdarjung Enclave, near Deer Park, a big blue board says Welcome to Humayunpur. It is an old Delhi village, and over the years many people from the north-eastern states have made it home. Its narrow lanes are now full of small kitchens: Naga, Manipuri, Mizo, Nepali, Tibetan, Korean and Burmese. Leave the car outside and walk in. Try laphing at Yo Tibet, or the jhol momos and Thakali thali at Bhansagar.",
+        "narrationHint": "Curious and inviting; read the list of cuisines with energy."
+      },
+      "hi": {
+        "title": "दिल्ली का गाँव जहाँ पूर्वोत्तर का खाना मिलता है",
+        "shortDescription": "सफ़दरजंग एन्क्लेव के पास का शहरी गाँव हुमायूँपुर छोटे रेस्तरां से भरा है। यहाँ पूर्वोत्तर के राज्यों, नेपाल, तिब्बत, कोरिया और बर्मा का खाना मिलता है।",
+        "longDescription": "सफ़दरजंग एन्क्लेव के पास, डियर पार्क के नज़दीक, एक बड़ा नीला बोर्ड हुमायूँपुर में आपका स्वागत करता है। यह दिल्ली का एक पुराना गाँव है और बरसों में पूर्वोत्तर के राज्यों के बहुत से लोग यहाँ बस गए हैं। इसकी तंग गलियाँ अब छोटी रसोइयों से भरी हैं: नागा, मणिपुरी, मिज़ो, नेपाली, तिब्बती, कोरियाई और बर्मी। गाड़ी बाहर छोड़िए और पैदल अंदर जाइए। यो तिब्बत में लाफिंग खाइए या भानसागर में झोल मोमो और थकाली थाली।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chittaranjan-park",
+      "bengali-food",
+      "fish-market",
+      "sweets",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.248682,
+      "lat": 28.540213
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "Outlook Traveller",
+    "sourceUrl": "https://www.outlooktraveller.com/experiences/food-and-drink/durga-puja-2024-heres-where-to-find-the-best-bengali-food-in-cr-park",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Delhi's Bengali markets began as a refugee colony",
+        "shortDescription": "Chittaranjan Park was set up in the 1960s for people displaced from East Bengal. Its markets are known for fish, Bengali sweets and Kolkata street food.",
+        "longDescription": "Chittaranjan Park began in the early 1960s as a colony for families displaced from East Bengal. Its first name was the East Pakistan Displaced Persons Colony. Today its numbered markets are where Delhi comes for Bengali food, and they hold one of the city's main freshwater fish markets. Around them, stalls sell puchka, fish cutlets and Kolkata biryani with egg and potato. At a sweet shop, ask for rosogolla, sandesh and mishti doi.",
+        "narrationHint": "Begin with the history plainly, then brighten for the food."
+      },
+      "hi": {
+        "title": "शरणार्थी कॉलोनी से बनी दिल्ली की बंगाली मार्केट",
+        "shortDescription": "चित्तरंजन पार्क 1960 के दशक में पूर्वी बंगाल से उजड़े लोगों के लिए बसाया गया था। इसकी मार्केट मछली, बंगाली मिठाई और कोलकाता के चटपटे खाने के लिए मशहूर हैं।",
+        "longDescription": "चित्तरंजन पार्क 1960 के दशक की शुरुआत में पूर्वी बंगाल से उजड़े परिवारों की कॉलोनी के रूप में बसा था। इसका पहला नाम ईस्ट पाकिस्तान डिस्प्लेस्ड पर्सन्स कॉलोनी था। आज बंगाली खाने के लिए दिल्ली इसकी नंबर वाली मार्केट में आती है। यहाँ शहर की मीठे पानी की मछली की बड़ी मंडियों में से एक है। आसपास के ठेलों पर फुचका, फ़िश कटलेट और अंडे-आलू वाली कोलकाता बिरयानी मिलती है। मिठाई की दुकान पर रसगुल्ला, संदेश और मिष्टी दोई माँगिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "lajpat-nagar",
+      "momos",
+      "street-snack",
+      "tibetan",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.240611,
+      "lat": 28.569207
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "The Better India",
+    "sourceUrl": "https://www.thebetterindia.com/247460/dolma-aunty-tsering-tibet-momos-delhi-woman-entrepreneur-street-food-c24/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "When Delhi thought momos were raw",
+        "shortDescription": "Dolma Tsering, a Tibetan woman, set up a momo stall in Lajpat Nagar in 1994. It is believed to be one of the first in Delhi's markets.",
+        "longDescription": "In 1994 a Tibetan woman named Dolma Tsering set up a momo stall in Lajpat Nagar market. It is believed to be one of the first momo stalls in Delhi. At first almost nobody bought them. People thought the steamed dumplings were raw. Her chilli garlic chutney changed their minds. Today Dolma Aunty Momos has three shops, and her son helps run the business. Order a plate of steamed momos with the red chutney.",
+        "narrationHint": "Tell it with a little amusement at the word raw."
+      },
+      "hi": {
+        "title": "जब दिल्ली मोमो को कच्चा समझती थी",
+        "shortDescription": "तिब्बती महिला डोलमा त्सेरिंग ने 1994 में लाजपत नगर में मोमो का ठेला लगाया था। माना जाता है कि यह दिल्ली के सबसे पहले मोमो ठेलों में से एक था।",
+        "longDescription": "1994 में डोलमा त्सेरिंग नाम की एक तिब्बती महिला ने लाजपत नगर मार्केट में मोमो का ठेला लगाया। माना जाता है कि यह दिल्ली के सबसे पहले मोमो ठेलों में से एक था। शुरू में लगभग कोई नहीं ख़रीदता था। लोगों को भाप में पके मोमो कच्चे लगते थे। फिर उनकी मिर्च और लहसुन की चटनी ने लोगों का मन बदल दिया। आज डोलमा आंटी मोमोज़ की 3 दुकानें हैं और उनका बेटा काम सँभालने में मदद करता है। लाल चटनी के साथ भाप वाले मोमो की एक प्लेट मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "dilli-haat",
+      "ina",
+      "regional-food",
+      "crafts",
+      "south-delhi"
+    ],
+    "location": {
+      "lng": 77.207253,
+      "lat": 28.573193
+    },
+    "interestingness": 8.0,
+    "confidence": 0.86,
+    "sourceName": "Incredible India (Ministry of Tourism)",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/delhi/delhi/dilli-haat",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Eat your way across India in one courtyard",
+        "shortDescription": "Dilli Haat, opposite INA Market, is a government-run open-air craft bazaar opened in 1994. Its food plaza has about twenty-five stalls serving regional food.",
+        "longDescription": "Opposite INA Market is Dilli Haat, an open-air craft bazaar that the government opened in 1994. It was built to look like a village market. The craft stalls keep changing, because craftspeople from across India take them in turns. The food plaza stays. It has about twenty-five stalls serving food from different regions of the country. Buy a ticket at the gate, pick a state whose food you have never tried, and order its thali.",
+        "narrationHint": "Friendly, like suggesting a small adventure."
+      },
+      "hi": {
+        "title": "एक ही आँगन में पूरे भारत का खाना",
+        "shortDescription": "आईएनए मार्केट के सामने दिल्ली हाट 1994 में खुला सरकारी खुला बाज़ार है, जहाँ दस्तकारी बिकती है। इसके फ़ूड प्लाज़ा में अलग-अलग इलाक़ों के खाने के क़रीब 25 स्टॉल हैं।",
+        "longDescription": "आईएनए मार्केट के सामने दिल्ली हाट है। यह दस्तकारी का खुला बाज़ार है, जिसे सरकार ने 1994 में खोला था। इसे गाँव की हाट जैसा बनाया गया है। दस्तकारी के स्टॉल बदलते रहते हैं, क्योंकि देश भर के कारीगरों को ये बारी-बारी से मिलते हैं। पर खाने का हिस्सा वहीं रहता है। यहाँ क़रीब 25 स्टॉल हैं, जहाँ देश के अलग-अलग इलाक़ों का खाना मिलता है। गेट पर टिकट लीजिए, कोई ऐसा राज्य चुनिए जिसका खाना आपने कभी नहीं चखा, और उसकी थाली मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chanakyapuri",
+      "kebab",
+      "kakori",
+      "lucknow",
+      "new-delhi"
+    ],
+    "location": {
+      "lng": 77.177158,
+      "lat": 28.595379
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "Time Out Delhi",
+    "sourceUrl": "https://www.timeout.com/delhi/restaurants/alkakori-alkauser",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Lucknow's kakori kebab at a Chanakyapuri counter",
+        "shortDescription": "Alkauser in Chanakyapuri is a small kebab counter known for Lucknow's kakori kebab. It is said to be among the first kebab stalls outside Old Delhi.",
+        "longDescription": "Near Jesus and Mary College in Chanakyapuri, a small takeaway counter sells the kakori kebab of Lucknow, a very soft kebab of minced mutton. Alkauser is said to be among the first kebab stalls to open outside Old Delhi. Its cooking comes from Ishtiyaq Ahmed, the son of a Lucknow cook. The writer Sadia Dehlvi's family helped bring him here. Order kakori kebabs, galouti and warqi paratha, and end with phirni.",
+        "narrationHint": "Say kakori and galouti clearly; keep the tone of a tip from a friend."
+      },
+      "hi": {
+        "title": "चाणक्यपुरी के काउंटर पर लखनऊ का काकोरी कबाब",
+        "shortDescription": "चाणक्यपुरी का अलकौसर कबाब का एक छोटा काउंटर है, जो लखनऊ के काकोरी कबाब के लिए मशहूर है। माना जाता है कि यह पुरानी दिल्ली के बाहर खुले सबसे पहले कबाब ठेलों में से एक था।",
+        "longDescription": "चाणक्यपुरी में जीसस एंड मेरी कॉलेज के पास एक छोटे से काउंटर पर लखनऊ का काकोरी कबाब मिलता है। यह क़ीमे का बहुत नरम कबाब होता है। माना जाता है कि अलकौसर पुरानी दिल्ली के बाहर खुले सबसे पहले कबाब ठेलों में से एक था। इसका हुनर इश्तियाक़ अहमद का है, जो लखनऊ के एक बावर्ची के बेटे हैं। लेखिका सादिया देहलवी के परिवार ने उन्हें शहर के इस हिस्से में लाने में मदद की थी। काकोरी कबाब, गलौटी और वर्क़ी पराठा मँगाइए और आख़िर में फिरनी खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "chanakyapuri",
+      "momos",
+      "street-snack",
+      "yashwant-place",
+      "new-delhi"
+    ],
+    "location": {
+      "lng": 77.191659,
+      "lat": 28.584941
+    },
+    "interestingness": 8.0,
+    "confidence": 0.83,
+    "sourceName": "The Patriot",
+    "sourceUrl": "https://thepatriot.in/?p=76617",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The momo market behind the embassies",
+        "shortDescription": "Yashwant Place in Chanakyapuri is an old shopping complex known across Delhi as the momo market, with a row of small kitchens selling many kinds of momos.",
+        "longDescription": "Behind the embassy lanes of Chanakyapuri is Yashwant Place, an ageing shopping complex that Delhi knows as the momo market. A row of small kitchens here serves momos steamed, fried or tandoori. The fillings run from chicken and buff to prawn, and cheese with spinach. One stall claims that tandoori momos were first tasted here before they spread across the city. Sit at the tables outside and order a plate with red chilli chutney.",
+        "narrationHint": "Playful; let the list of fillings build."
+      },
+      "hi": {
+        "title": "दूतावासों के पीछे मोमो की मार्केट",
+        "shortDescription": "चाणक्यपुरी का यशवंत प्लेस एक पुराना शॉपिंग कॉम्प्लेक्स है, जिसे दिल्ली मोमो मार्केट के नाम से जानती है। यहाँ छोटी रसोइयों की एक क़तार में कई तरह के मोमो मिलते हैं।",
+        "longDescription": "चाणक्यपुरी में दूतावासों की गलियों के पीछे यशवंत प्लेस है। यह एक पुराना शॉपिंग कॉम्प्लेक्स है, जिसे दिल्ली मोमो मार्केट के नाम से जानती है। यहाँ छोटी रसोइयों की एक क़तार में भाप वाले, तले हुए और तंदूरी मोमो मिलते हैं। भरावन में चिकन, बफ़, झींगा और पनीर-पालक तक सब कुछ है। एक दुकान का दावा है कि तंदूरी मोमो सबसे पहले यहीं चखे गए और फिर पूरे शहर में फैल गए। बाहर की मेज़ों पर बैठिए और लाल मिर्च की चटनी के साथ एक प्लेट मँगाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "gurugram",
+      "sadar-bazaar",
+      "doda",
+      "sweet-shop",
+      "partition"
+    ],
+    "location": {
+      "lng": 77.029284,
+      "lat": 28.460863
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "The Delhi Walla (Mayank Austen Soofi, Hindustan Times columnist)",
+    "sourceUrl": "https://thedelhiwalla.blog/2025/12/03/city-food-doda-mithai-sham-sweets/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "A refugee's sweet shop and Gurugram's own barfi",
+        "shortDescription": "Sham Sweets in Gurugram's Sadar Bazaar was opened in 1951 by Partition refugee Sham Lal Bajaj. It is known for doda, a sprouted wheat sweet.",
+        "longDescription": "In 1951, a Partition refugee named Sham Lal Bajaj opened a sweet shop in Gurugram's Sadar Bazaar. His family had run a halwai shop in Dera Ghazi Khan, now in Pakistan. Sham Sweets still stands on the street facing the old stone gateway of Ghamand Sarai. Ask for doda, a dark brown sweet made from sprouted wheat cooked in desi ghee, topped with almonds and cashews. The milk cake is popular too.",
+        "narrationHint": "Warm and unhurried; slow down on the word doda and on what it is made of."
+      },
+      "hi": {
+        "title": "एक शरणार्थी की दुकान और गुरुग्राम की अपनी बर्फ़ी",
+        "shortDescription": "गुरुग्राम के सदर बाज़ार की शाम स्वीट्स 1951 में बँटवारे के बाद आए शाम लाल बजाज ने खोली थी। यह दुकान डोडा के लिए मशहूर है, जो अंकुरित गेहूँ की मिठाई है।",
+        "longDescription": "1951 में बँटवारे के बाद आए शाम लाल बजाज ने गुरुग्राम के सदर बाज़ार में मिठाई की दुकान खोली। उनके परिवार की हलवाई की दुकान डेरा ग़ाज़ी ख़ान में थी, जो अब पाकिस्तान में है। शाम स्वीट्स आज भी उसी गली में है, घमंड सराय के पुराने पत्थर के दरवाज़े के सामने। यहाँ डोडा ज़रूर माँगिए। यह गहरे भूरे रंग की मिठाई है, जो अंकुरित गेहूँ को देसी घी में पकाकर बनती है और ऊपर बादाम और काजू लगे होते हैं। यहाँ का मिल्क केक भी लोग ख़ूब ले जाते हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "gurugram",
+      "sadar-bazaar",
+      "jalebi",
+      "street-food",
+      "partition"
+    ],
+    "location": {
+      "lng": 77.030765,
+      "lat": 28.462105
+    },
+    "interestingness": 8.0,
+    "confidence": 0.88,
+    "sourceName": "The Delhi Walla (Mayank Austen Soofi, Hindustan Times columnist)",
+    "sourceUrl": "https://thedelhiwalla.blog/2024/04/22/city-food-five-spots-gurugrams-sadar-bazar/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Seventy years of jalebis under a neem tree",
+        "shortDescription": "Sardar Jalebi in Gurugram's Sadar Bazaar has fried jalebis for more than seventy years. It was started by Arjun Singh, a Partition refugee.",
+        "longDescription": "Look for the neem tree in Gurugram's Sadar Bazaar. The shop facing it, Sardar Jalebi, has been frying jalebis for more than seventy years. It was started by Arjun Singh, who came to this town as a refugee from what is now Pakistan after Partition. The jalebis here are thin and crisp, and they are said to taste good even when they have gone cold. Buy a small bag and eat it in the lane.",
+        "narrationHint": "Friendly and light, like a tip from a local; pause after the neem tree."
+      },
+      "hi": {
+        "title": "नीम के पेड़ के सामने सत्तर साल की जलेबी",
+        "shortDescription": "गुरुग्राम के सदर बाज़ार में सरदार जलेबी पर सत्तर साल से ज़्यादा समय से जलेबी बन रही है। इसे बँटवारे के बाद आए अर्जुन सिंह ने शुरू किया था।",
+        "longDescription": "गुरुग्राम के सदर बाज़ार में नीम का पेड़ ढूँढिए। उसके सामने की दुकान सरदार जलेबी है, जहाँ 70 साल से ज़्यादा समय से जलेबी तली जा रही है। इसे अर्जुन सिंह ने शुरू किया था, जो बँटवारे के बाद आज के पाकिस्तान से शरणार्थी बनकर इस शहर में आए थे। यहाँ की जलेबी पतली और कुरकुरी होती है। कहा जाता है कि यह ठंडी होने पर भी अच्छी लगती है। एक छोटी थैली लीजिए और गली में खड़े होकर खाइए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "gurugram",
+      "doda-barfi",
+      "sweet-shop",
+      "om-sweets"
+    ],
+    "location": {
+      "lng": 77.047692,
+      "lat": 28.473481
+    },
+    "interestingness": 8.0,
+    "confidence": 0.85,
+    "sourceName": "ThePrint",
+    "sourceUrl": "https://theprint.in/ground-reports/om-sweets-gurugram-doda-barfi/2658360",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "Ten thousand kilograms of doda barfi a day",
+        "shortDescription": "Om Sweets began in 1960 in Arjun Nagar, old Gurugram, started by the Kathuria family from Multan. It is reported to sell eight to ten thousand kilograms of doda barfi a day.",
+        "longDescription": "Gurugram has a sweet it is known for: doda barfi, dark brown and nutty, made from sprouted wheat. The name most people link with it is Om Sweets. The Kathuria family came from Multan, and in 1960 Om Prakash Kathuria, then twenty-five, opened their first shop in Arjun Nagar in old Gurugram. Today the chain is reported to sell eight to ten thousand kilograms of doda on a normal day. Try the kaju doda.",
+        "narrationHint": "Let the big number land; say it slowly and with a little surprise."
+      },
+      "hi": {
+        "title": "रोज़ 10 हज़ार किलो तक डोडा बर्फ़ी",
+        "shortDescription": "ओम स्वीट्स 1960 में पुराने गुरुग्राम के अर्जुन नगर से शुरू हुई थी। इसे मुल्तान से आए कथूरिया परिवार ने शुरू किया। बताया जाता है कि यहाँ रोज़ 8 से 10 हज़ार किलो डोडा बर्फ़ी बिकती है।",
+        "longDescription": "गुरुग्राम की एक मिठाई बहुत मशहूर है, डोडा बर्फ़ी। यह गहरे भूरे रंग की होती है और अंकुरित गेहूँ से बनती है। इसके साथ सबसे ज़्यादा जुड़ा नाम ओम स्वीट्स का है। कथूरिया परिवार मुल्तान से आया था। 1960 में ओम प्रकाश कथूरिया ने 25 साल की उम्र में पुराने गुरुग्राम के अर्जुन नगर में पहली दुकान खोली। बताया जाता है कि आज इनकी दुकानों पर आम दिन में 8 से 10 हज़ार किलो डोडा बिकता है। यहाँ काजू डोडा चखकर देखिए।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "modinagar",
+      "ghaziabad",
+      "shikanji",
+      "drink",
+      "delhi-meerut-road"
+    ],
+    "location": {
+      "lng": 77.570143,
+      "lat": 28.830063
+    },
+    "interestingness": 8.0,
+    "confidence": 0.8,
+    "sourceName": "The Delhi Walla (Mayank Austen Soofi, Hindustan Times columnist)",
+    "sourceUrl": "https://thedelhiwalla.blog/2026/05/11/city-food-modinagar-ki-danedar-shikanji-around-town/",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The town that gave its name to shikanji",
+        "shortDescription": "Modinagar is known for its shikanji, a spiced lemon drink. The shop Jain Shikanji says it began here in 1957 as a small paan counter.",
+        "longDescription": "Modinagar has given its name to a drink. Modinagar shikanji is lemon water with cumin and a spice mix, and carts as far away as Gurugram sell it under the town's name. A well-known shop here, Jain Shikanji, says it began in 1957 as a tiny paan counter near the police station, run by Parmatma Sharan Jain and his wife Shakuntala, who ground the spices every day. It also sells hot paneer pakoras.",
+        "narrationHint": "Open with a little surprise; keep 'says it began' clear, as this is the shop's own claim."
+      },
+      "hi": {
+        "title": "वह क़स्बा जिसके नाम से शिकंजी बिकती है",
+        "shortDescription": "मोदीनगर अपनी शिकंजी के लिए मशहूर है, जो मसालेदार नींबू पानी है। जैन शिकंजी का कहना है कि उसकी शुरुआत 1957 में यहीं एक छोटे से पान के काउंटर से हुई थी।",
+        "longDescription": "मोदीनगर के नाम से एक पेय बिकता है। मोदीनगर की शिकंजी नींबू पानी है, जिसमें ज़ीरा और ख़ास मसाला पड़ता है। गुरुग्राम तक के ठेलों पर यह इसी क़स्बे के नाम से बिकती है। यहाँ की एक मशहूर दुकान जैन शिकंजी है। दुकान का कहना है कि इसकी शुरुआत 1957 में थाने के पास पान के एक छोटे से काउंटर से हुई थी। इसे परमात्मा शरण जैन और उनकी पत्नी शकुंतला चलाते थे और शकुंतला रोज़ मसाले पीसती थीं। यहाँ गरम पनीर पकौड़े भी मिलते हैं।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "faridabad",
+      "nit",
+      "falooda",
+      "ice-cream",
+      "kulfi"
+    ],
+    "location": {
+      "lng": 77.300735,
+      "lat": 28.381961
+    },
+    "interestingness": 8.0,
+    "confidence": 0.78,
+    "sourceName": "ETV Bharat",
+    "sourceUrl": "https://www.etvbharat.com/hi/!state/fifty-years-old-faluda-ice-cream-shop-in-faridabad-nit-its-taste-is-famous-till-delhi-started-from-a-street-vendor-today-owns-property-worth-crores-haryana-news-hrs25043004033",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "From a handcart to Faridabad's falooda shop",
+        "shortDescription": "Azad Falooda Ice Cream in Faridabad's NIT market began as a handcart in the early 1970s. The founder's sons still use his recipe.",
+        "longDescription": "Azad Falooda Ice Cream, in Faridabad's NIT market, began as a handcart in the early 1970s. Its founder, Gurbachan Singh, sold from that cart for about forty years before the family moved into a shop. In the early days, an ice cream here cost twenty-five paise. His sons run it now and say they still use his recipe. Order the falooda ice cream or a kulfi. It opens around one in the afternoon.",
+        "narrationHint": "Tell it as a small family success story; smile at the twenty-five paise."
+      },
+      "hi": {
+        "title": "रेहड़ी से शुरू हुई फ़रीदाबाद की फ़ालूदा दुकान",
+        "shortDescription": "फ़रीदाबाद के एनआईटी बाज़ार की आज़ाद फ़ालूदा आइसक्रीम 1970 के शुरुआती सालों में एक रेहड़ी से शुरू हुई थी। आज भी बेटे पिता के नुस्ख़े से ही सब बनाते हैं।",
+        "longDescription": "फ़रीदाबाद के एनआईटी बाज़ार की आज़ाद फ़ालूदा आइसक्रीम 1970 के शुरुआती सालों में एक रेहड़ी से शुरू हुई थी। इसे शुरू करने वाले गुरबचन सिंह ने क़रीब 40 साल उसी रेहड़ी पर सामान बेचा। उसके बाद परिवार ने दुकान ली। शुरू के दिनों में यहाँ आइसक्रीम 25 पैसे की मिलती थी। अब उनके बेटे दुकान चलाते हैं। उनका कहना है कि सब कुछ आज भी यहीं बनता है, पिता के नुस्ख़े से। यहाँ फ़ालूदा आइसक्रीम या कुल्फ़ी लीजिए। दुकान दोपहर 1 बजे के आसपास खुलती है।"
+      }
+    }
+  },
+  {
+    "category": "food",
+    "tags": [
+      "noida",
+      "sector-29",
+      "brahmaputra-market",
+      "chaat",
+      "street-food",
+      "dosa"
+    ],
+    "location": {
+      "lng": 77.332725,
+      "lat": 28.569899
+    },
+    "interestingness": 8.0,
+    "confidence": 0.75,
+    "sourceName": "Amar Ujala",
+    "sourceUrl": "https://www.amarujala.com/photo-gallery/lifestyle/travel/noida-s-brahmaputra-market-is-full-of-delicious-food",
+    "familyFriendly": true,
+    "storyType": "verified_fact",
+    "translations": {
+      "en": {
+        "title": "The Noida market people visit just to eat",
+        "shortDescription": "Brahmaputra Market in Noida's Sector 29 is known for cheap street food: chaat, rolls and dosas.",
+        "longDescription": "Noida's Sector 29 has a small shopping complex that many people visit mainly to eat. This is Brahmaputra Market. The chaat stalls here sell stuffed golgappas, aloo tikki, bhalla papdi and Bombay bhel puri, and there are Kolkata-style rolls too. There are dosa counters as well. Come hungry, and walk from stall to stall.",
+        "narrationHint": "Light and hungry; list the snacks with relish."
+      },
+      "hi": {
+        "title": "नोएडा का वह बाज़ार जहाँ लोग बस खाने आते हैं",
+        "shortDescription": "नोएडा के सेक्टर 29 का ब्रह्मपुत्र मार्केट सस्ते स्ट्रीट फ़ूड के लिए जाना जाता है। यहाँ चाट, रोल और डोसा मिलता है।",
+        "longDescription": "नोएडा के सेक्टर 29 में एक छोटा सा बाज़ार है, जहाँ बहुत से लोग ख़ास तौर पर खाने के लिए आते हैं। यह ब्रह्मपुत्र मार्केट है। यहाँ चाट के ठेलों पर भरवाँ गोलगप्पे, आलू टिक्की, भल्ला पापड़ी और बॉम्बे भेलपूरी मिलती है। कोलकाता वाले रोल भी मिलते हैं। यहाँ डोसे के काउंटर भी हैं। भूखे आइए और एक ठेले से दूसरे ठेले तक घूमिए।"
+      }
+    }
+  }
+]

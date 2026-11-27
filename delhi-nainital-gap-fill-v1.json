@@ -1,8 +1,17 @@
 [
   {
     "category": "agriculture",
-    "tags": ["sugarcane", "UP", "sugar", "agriculture", "plains"],
-    "location": { "lng": 78.0800, "lat": 28.7900 },
+    "tags": [
+      "sugarcane",
+      "UP",
+      "sugar",
+      "agriculture",
+      "plains"
+    ],
+    "location": {
+      "lng": 78.08,
+      "lat": 28.79
+    },
     "interestingness": 8.2,
     "confidence": 0.94,
     "sourceName": "National Federation of Cooperative Sugar Factories / Ministry of Agriculture India",
@@ -25,8 +34,18 @@
   },
   {
     "category": "geography",
-    "tags": ["indo-gangetic", "plain", "alluvial", "flat", "fertile", "geology"],
-    "location": { "lng": 78.2500, "lat": 28.8400 },
+    "tags": [
+      "indo-gangetic",
+      "plain",
+      "alluvial",
+      "flat",
+      "fertile",
+      "geology"
+    ],
+    "location": {
+      "lng": 78.25,
+      "lat": 28.84
+    },
     "interestingness": 8.4,
     "confidence": 0.97,
     "sourceName": "Geological Survey of India",
@@ -49,8 +68,18 @@
   },
   {
     "category": "history",
-    "tags": ["rohilkhand", "rohilla", "history", "afghan", "mughal", "region"],
-    "location": { "lng": 78.6500, "lat": 28.8800 },
+    "tags": [
+      "rohilkhand",
+      "rohilla",
+      "history",
+      "afghan",
+      "mughal",
+      "region"
+    ],
+    "location": {
+      "lng": 78.65,
+      "lat": 28.88
+    },
     "interestingness": 8.5,
     "confidence": 0.92,
     "sourceName": "Imperial Gazetteer of India / Rohilkhand University",
@@ -73,8 +102,18 @@
   },
   {
     "category": "nature",
-    "tags": ["ramganga", "river", "tributary", "ganges", "plains", "moradabad"],
-    "location": { "lng": 78.7200, "lat": 28.8500 },
+    "tags": [
+      "ramganga",
+      "river",
+      "tributary",
+      "ganges",
+      "plains",
+      "moradabad"
+    ],
+    "location": {
+      "lng": 78.72,
+      "lat": 28.85
+    },
     "interestingness": 7.9,
     "confidence": 0.93,
     "sourceName": "Central Water Commission India",
@@ -97,8 +136,17 @@
   },
   {
     "category": "interesting",
-    "tags": ["gajraula", "junction", "industry", "pharmaceutical", "manufacturing"],
-    "location": { "lng": 78.2200, "lat": 28.8500 },
+    "tags": [
+      "gajraula",
+      "junction",
+      "industry",
+      "pharmaceutical",
+      "manufacturing"
+    ],
+    "location": {
+      "lng": 78.22,
+      "lat": 28.85
+    },
     "interestingness": 7.7,
     "confidence": 0.86,
     "sourceName": "UP Industrial Development Authority",
@@ -121,8 +169,18 @@
   },
   {
     "category": "nature",
-    "tags": ["terai", "ecology", "wildlife", "forest", "transition", "himalaya"],
-    "location": { "lng": 79.1800, "lat": 28.9600 },
+    "tags": [
+      "terai",
+      "ecology",
+      "wildlife",
+      "forest",
+      "transition",
+      "himalaya"
+    ],
+    "location": {
+      "lng": 79.18,
+      "lat": 28.96
+    },
     "interestingness": 9.0,
     "confidence": 0.95,
     "sourceName": "WWF India / Wildlife Institute of India",
@@ -145,8 +203,18 @@
   },
   {
     "category": "nature",
-    "tags": ["sal", "forest", "terai", "trees", "ecology", "timber"],
-    "location": { "lng": 79.2500, "lat": 28.9900 },
+    "tags": [
+      "sal",
+      "forest",
+      "terai",
+      "trees",
+      "ecology",
+      "timber"
+    ],
+    "location": {
+      "lng": 79.25,
+      "lat": 28.99
+    },
     "interestingness": 8.0,
     "confidence": 0.93,
     "sourceName": "Forest Survey of India",
@@ -169,8 +237,19 @@
   },
   {
     "category": "history",
-    "tags": ["kashipur", "ancient", "govisana", "xuanzang", "drona", "uttarakhand"],
-    "location": { "lng": 79.0100, "lat": 29.1800 },
+    "tags": [
+      "kashipur",
+      "ancient",
+      "govisana",
+      "xuanzang",
+      "drona",
+      "uttarakhand",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 79.01,
+      "lat": 29.18
+    },
     "interestingness": 8.6,
     "confidence": 0.88,
     "sourceName": "Archaeological Survey of India",
@@ -193,8 +272,18 @@
   },
   {
     "category": "geography",
-    "tags": ["foothills", "himalayas", "transition", "landscape", "kumaon", "geology"],
-    "location": { "lng": 79.4000, "lat": 29.1200 },
+    "tags": [
+      "foothills",
+      "himalayas",
+      "transition",
+      "landscape",
+      "kumaon",
+      "geology"
+    ],
+    "location": {
+      "lng": 79.4,
+      "lat": 29.12
+    },
     "interestingness": 8.8,
     "confidence": 0.97,
     "sourceName": "Geological Survey of India",
@@ -217,8 +306,18 @@
   },
   {
     "category": "nature",
-    "tags": ["gaula", "river", "haldwani", "kumaon", "hills", "nainital"],
-    "location": { "lng": 79.5050, "lat": 29.2100 },
+    "tags": [
+      "gaula",
+      "river",
+      "haldwani",
+      "kumaon",
+      "hills",
+      "nainital"
+    ],
+    "location": {
+      "lng": 79.505,
+      "lat": 29.21
+    },
     "interestingness": 7.9,
     "confidence": 0.92,
     "sourceName": "Uttarakhand Jal Sansthan",
@@ -241,8 +340,18 @@
   },
   {
     "category": "places",
-    "tags": ["haldwani", "gateway", "kumaon", "hills", "market", "plains"],
-    "location": { "lng": 79.5168, "lat": 29.2183 },
+    "tags": [
+      "haldwani",
+      "gateway",
+      "kumaon",
+      "hills",
+      "market",
+      "plains"
+    ],
+    "location": {
+      "lng": 79.5168,
+      "lat": 29.2183
+    },
     "interestingness": 8.5,
     "confidence": 0.95,
     "sourceName": "Uttarakhand Tourism",
@@ -265,8 +374,19 @@
   },
   {
     "category": "history",
-    "tags": ["kathgodam", "railway", "british", "terminus", "mountains", "1884"],
-    "location": { "lng": 79.5221, "lat": 29.2380 },
+    "tags": [
+      "kathgodam",
+      "railway",
+      "british",
+      "terminus",
+      "mountains",
+      "1884",
+      "must-hear"
+    ],
+    "location": {
+      "lng": 79.5221,
+      "lat": 29.238
+    },
     "interestingness": 8.4,
     "confidence": 0.95,
     "sourceName": "North Eastern Railway Zone India / Indian Railways",
@@ -289,10 +409,20 @@
   },
   {
     "category": "interesting",
-    "tags": ["haldwani", "wholesale", "market", "supply", "hills", "trade"],
-    "location": { "lng": 79.5100, "lat": 29.2050 },
+    "tags": [
+      "haldwani",
+      "wholesale",
+      "market",
+      "supply",
+      "hills",
+      "trade"
+    ],
+    "location": {
+      "lng": 79.51,
+      "lat": 29.205
+    },
     "interestingness": 7.8,
-    "confidence": 0.90,
+    "confidence": 0.9,
     "sourceName": "Uttarakhand State Agricultural Marketing Board",
     "sourceUrl": "https://en.wikipedia.org/wiki/Haldwani",
     "familyFriendly": true,

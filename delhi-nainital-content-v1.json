@@ -2557,7 +2557,8 @@
       "govisana",
       "xuanzang",
       "drona",
-      "uttarakhand"
+      "uttarakhand",
+      "must-hear"
     ],
     "location": {
       "lng": 79.01,
@@ -2693,7 +2694,8 @@
       "british",
       "terminus",
       "mountains",
-      "1884"
+      "1884",
+      "must-hear"
     ],
     "location": {
       "lng": 79.5221,
@@ -2761,7 +2763,8 @@
       "tiger",
       "wildlife",
       "conservation",
-      "himalaya"
+      "himalaya",
+      "must-hear"
     ],
     "location": {
       "lng": 79.126,
@@ -2795,7 +2798,8 @@
       "conservationist",
       "author",
       "kumaon",
-      "man-eaters"
+      "man-eaters",
+      "must-hear"
     ],
     "location": {
       "lng": 79.118,
@@ -2909,7 +2913,7 @@
       "lat": 28.974
     },
     "interestingness": 7.8,
-    "confidence": 0.90,
+    "confidence": 0.9,
     "sourceName": "GI Registry of India / Wikipedia — Sambhal",
     "sourceUrl": "https://en.wikipedia.org/wiki/Sambhal",
     "familyFriendly": true,
@@ -2938,7 +2942,8 @@
       "alluvium",
       "river",
       "groundwater",
-      "terrain"
+      "terrain",
+      "must-hear"
     ],
     "location": {
       "lng": 79.247,
@@ -3011,8 +3016,8 @@
       "administration"
     ],
     "location": {
-      "lng": 79.000,
-      "lat": 29.180
+      "lng": 79.0,
+      "lat": 29.18
     },
     "interestingness": 8.0,
     "confidence": 0.92,
@@ -3044,7 +3049,7 @@
       "uttarakhand"
     ],
     "location": {
-      "lng": 79.010,
+      "lng": 79.01,
       "lat": 29.165
     },
     "interestingness": 8.3,
@@ -3078,7 +3083,7 @@
       "pilgrimage"
     ],
     "location": {
-      "lng": 79.000,
+      "lng": 79.0,
       "lat": 29.214
     },
     "interestingness": 8.6,
@@ -3146,8 +3151,8 @@
       "landscape"
     ],
     "location": {
-      "lng": 79.060,
-      "lat": 29.250
+      "lng": 79.06,
+      "lat": 29.25
     },
     "interestingness": 8.5,
     "confidence": 0.88,

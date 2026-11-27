@@ -28,7 +28,8 @@
   {
     "category": "infrastructure",
     "tags": [
-      "cluster:roorkee"
+      "cluster:roorkee",
+      "must-hear"
     ],
     "location": {
       "lng": 77.889,
@@ -262,7 +263,8 @@
   {
     "category": "culture",
     "tags": [
-      "cluster:rishikesh"
+      "cluster:rishikesh",
+      "must-hear"
     ],
     "location": {
       "lng": 78.3238,
@@ -314,7 +316,8 @@
   {
     "category": "food",
     "tags": [
-      "cluster:haridwar"
+      "cluster:haridwar",
+      "must-hear"
     ],
     "location": {
       "lng": 78.1642,

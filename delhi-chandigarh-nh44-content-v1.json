@@ -299,7 +299,8 @@
       "grand trunk road",
       "sher shah suri",
       "highway",
-      "alipur"
+      "alipur",
+      "must-hear"
     ],
     "location": {
       "lng": 77.136639,
@@ -461,7 +462,8 @@
       "dhaba",
       "parantha",
       "amrik sukhdev",
-      "truck drivers"
+      "truck drivers",
+      "must-hear"
     ],
     "location": {
       "lng": 77.063516,
@@ -559,7 +561,8 @@
       "battle",
       "1526",
       "babur",
-      "mosque"
+      "mosque",
+      "must-hear"
     ],
     "location": {
       "lng": 76.989137,
@@ -849,7 +852,8 @@
       "karnal",
       "ndri",
       "buffalo",
-      "cloning"
+      "cloning",
+      "must-hear"
     ],
     "location": {
       "lng": 76.982,
@@ -1398,7 +1402,8 @@
       "chandigarh",
       "partition",
       "le-corbusier",
-      "lahore"
+      "lahore",
+      "must-hear"
     ],
     "location": {
       "lng": 76.789677,
@@ -1526,7 +1531,8 @@
       "chandigarh",
       "rock-garden",
       "nek-chand",
-      "sculpture"
+      "sculpture",
+      "must-hear"
     ],
     "location": {
       "lng": 76.80663,

@@ -1,0 +1,841 @@
+{
+ "version": "v1",
+ "createdOn": "2026-11-27",
+ "area": "Food places in Delhi (Old Delhi, central, New Delhi and South Delhi) and a few in Gurugram, Modinagar, Faridabad and Noida.",
+ "storyCount": 37,
+ "languages": [
+  "en",
+  "hi"
+ ],
+ "qualityNote": "Researched and written by AI helpers under a written brief, then read by an AI editor who dropped six stories and edited two. Each place was confirmed by a newspaper, magazine or official source; the newest source for each is in its note. Not yet read by a person. Hindi not reviewed by a native editor.",
+ "recheckNote": "Food places close, move and change hands. Recheck every few months that each is open. \"The winter sweet made of milk foam\" (daulat ki chaat) is sold only from November to March and should be hidden in summer.",
+ "gaps": "No stories for West Delhi, East Delhi, Ghaziabad city, Greater Noida or Indirapuram: no shop there had a reliable source. Noida has one story.",
+ "editorChanges": [
+  "Roshan di Kulfi: the 1997 bomb blast was removed from the story.",
+  "Brahmaputra Market: a named dosa was removed because its only source is from 2019."
+ ],
+ "approximateCoordinates": [
+  "The winter sweet made of milk foam",
+  "The 1790 sweet shop that came back",
+  "A Lahore sweet shop beside Fatehpuri Masjid",
+  "A snack shop older than its own records",
+  "The chaat stall older than independent India",
+  "From a fried fish stall to Rajinder's",
+  "A refugee's sweet shop and Gurugram's own barfi",
+  "Ten thousand kilograms of doda barfi a day",
+  "The town that gave its name to shikanji",
+  "From a handcart to Faridabad's falooda shop"
+ ],
+ "droppedByEditor": [
+  {
+   "title": "Chole bhature that began on a cycle cart",
+   "reason": "The Paharganj shop closed for a time in 2026 and no newspaper clearly confirms it reopened."
+  },
+  {
+   "title": "Bengali Market is not named after Bengal",
+   "reason": "Same place as another story (Bengali Sweet House); one was kept."
+  },
+  {
+   "title": "Tikki and golgappas since 1965",
+   "reason": "No address in any reliable source, so a driver could not find it."
+  },
+  {
+   "title": "The only kebab stall outside the mosque",
+   "reason": "An unnamed stall with one source, and the story centred on a shared hookah."
+  },
+  {
+   "title": "Colombian coffee, roasted on Golf Course Road",
+   "reason": "The cafe is only weeks old, so it is not a well-known place yet."
+  },
+  {
+   "title": "The lassi made from home-kept buffaloes",
+   "reason": "One source from 2022 and no address."
+  }
+ ],
+ "stories": [
+  {
+   "title": "A lane that has sold paranthas since the 1870s",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap line for the lane Paranthe Wali Gali",
+   "facts": [
+    {
+     "fact": "Chandni Chowk's lane was known for silverware shops before the parantha shops moved in, starting in the 1870s.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gali_Paranthe_Wali"
+    },
+    {
+     "fact": "Of about 20 parantha shops in the late 1960s, a few remain, including Pt Kanhaiyalal Durgaprasad Dixit (1875), Pt Dayanand Shivcharan (1882) and Pt Baburam Devidayal (1886).",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gali_Paranthe_Wali"
+    },
+    {
+     "fact": "Jawaharlal Nehru, Indira Gandhi and Vijaya Lakshmi Pandit came to eat paranthas in this lane.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gali_Paranthe_Wali"
+    },
+    {
+     "fact": "Fillings include kaju, badam, matar, rabri, khoya and gobhi; cooked dishes do not include onion or garlic.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Gali_Paranthe_Wali"
+    },
+    {
+     "fact": "Pandit Gaya Prasad Shiv Charan Paranthe Wale is described as founded in 1872 and run by the sixth generation.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/5-legendary-restaurants-in-delhi-that-are-over-100-years-old"
+    },
+    {
+     "fact": "The lane's paranthas are listed in a December 2025 Chandni Chowk food guide.",
+     "sourceUrl": "https://www.slurrp.com/article/chandni-chowk-food-guide-5-iconic-snacks-you-cant-skip-1764920817193"
+    }
+   ],
+   "note": "Newest source: Slurrp guide updated December 2025; Outlook Traveller Eats June 2025. Individual shop founding years differ a little between sources (1872 vs 1882 for one shop), so the story only says '1870s'. Walking lane, no cars."
+  },
+  {
+   "title": "Thick jalebis from the same corner since 1884",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point 'Jalebi Wala' at the Dariba Kalan corner of Chandni Chowk",
+   "facts": [
+    {
+     "fact": "Lala Nem Chand Jain opened the shop in Chandni Chowk in 1884.",
+     "sourceUrl": "https://www.slurrp.com/article/old-famous-jalebi-wala-delhis-iconic-sweet-shop-serving-legendary-jalebis-since-1884-1726645042200"
+    },
+    {
+     "fact": "He came from Hari Ki Garhi village in the Agra area and moved to Delhi with 2 rupees received as a dowry gift (family account).",
+     "sourceUrl": "https://www.slurrp.com/article/old-famous-jalebi-wala-delhis-iconic-sweet-shop-serving-legendary-jalebis-since-1884-1726645042200"
+    },
+    {
+     "fact": "Jalebis are fried in desi ghee, use khandsari sugar syrup, and are cooked over a coal fire; the recipe has passed through four generations.",
+     "sourceUrl": "https://www.slurrp.com/article/old-famous-jalebi-wala-delhis-iconic-sweet-shop-serving-legendary-jalebis-since-1884-1726645042200"
+    },
+    {
+     "fact": "The shop also sells rabri and samosas; it is run by Abhishek Jain and his father Kailash Jain.",
+     "sourceUrl": "https://www.slurrp.com/article/old-famous-jalebi-wala-delhis-iconic-sweet-shop-serving-legendary-jalebis-since-1884-1726645042200"
+    },
+    {
+     "fact": "Address: 1795, Dariba Corner, Dariba Kalan, Chandni Chowk; jalebis are a thicker kind, optionally topped with rabri.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/5-legendary-restaurants-in-delhi-that-are-over-100-years-old"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller Eats June 2025 and Slurrp guide December 2025; main feature September 2024. One outlier source gives 1888 instead of 1884. The two-rupee story is a family account and is worded that way."
+  },
+  {
+   "title": "A Chandni Chowk shop with only two dishes",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Natraj Dahi Bhalle Wala",
+   "facts": [
+    {
+     "fact": "Natraj Dahi Bhalla in Chandni Chowk offers just two dishes: aloo tikki (fried potato cutlets with tangy sauces) and dahi bhalle (fried ground lentil balls served with curd).",
+     "sourceUrl": "https://www.delhitourism.gov.in/dt/food_tour/natraj_dahi_bhalla.html"
+    },
+    {
+     "fact": "Guide listings say it was founded in 1940 and is run by the founder's grandson.",
+     "sourceUrl": "https://www.lonelyplanet.com/pois/1504702"
+    },
+    {
+     "fact": "Dahi bhalla here is served with sweet imli chutney and roasted jeera powder.",
+     "sourceUrl": "https://www.slurrp.com/article/chandni-chowk-food-guide-5-iconic-snacks-you-cant-skip-1764920817193"
+    }
+   ],
+   "note": "Newest source: Slurrp guide updated December 2025; Delhi Tourism page is undated. The 1940 date comes only from guide listings (Lonely Planet and similar), not a newspaper feature, so the story says 'says it has been serving since 1940'. I could not open the Lonely Planet page directly; the date was seen in search results. The shop sits beside the mouth of Paranthe Wali Gali per its OpenStreetMap point."
+  },
+  {
+   "title": "The winter sweet made of milk foam",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap line for Kinari Bazar, one of the lanes where the carts stand; vendors are mobile",
+   "facts": [
+    {
+     "fact": "Daulat ki chaat is a foamy, milk-based winter dessert available only from November to March, sold from carts in Old Delhi in the morning.",
+     "sourceUrl": "https://thenationalnews.com/news/asia/2025/01/10/postcard-from-delhi-the-snack-of-wealth-keeping-a-city-warm-in-winter"
+    },
+    {
+     "fact": "Buffalo milk and cream are churned with a wooden churner (mathani); churning starts around 2 am and runs about four hours; the foam is kept on ice.",
+     "sourceUrl": "https://thenationalnews.com/news/asia/2025/01/10/postcard-from-delhi-the-snack-of-wealth-keeping-a-city-warm-in-winter"
+    },
+    {
+     "fact": "It is served with saffron, coarsely powdered sugar, roasted condensed milk, nuts and dried fruit.",
+     "sourceUrl": "https://thenationalnews.com/news/asia/2025/01/10/postcard-from-delhi-the-snack-of-wealth-keeping-a-city-warm-in-winter"
+    },
+    {
+     "fact": "Vendor Khemchand Adesh Kumar is known for selling it from a stall at Kinari Bazar.",
+     "sourceUrl": "https://www.outlooktraveller.com/explore/food-and-drink/the-snack-of-wealth"
+    }
+   ],
+   "note": "Newest source: The National, January 2025. Coordinates are approximate: the sellers use carts and move between Kinari Bazaar, Dariba and Chawri Bazar; pinned to Kinari Bazaar. Only in season (November to March), so consider hiding this story in summer. Origin legends (Afghanistan, Mughal kitchens) were left out because sources only call them beliefs."
+  },
+  {
+   "title": "Karim's began in this lane with two dishes",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Karim's near Jama Masjid",
+   "facts": [
+    {
+     "fact": "Karim's was established in 1913 by Haji Karimuddin in Gali Kababian near Jama Masjid.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karim%27s"
+    },
+    {
+     "fact": "The dhaba first sold two items, alu gosht and daal, served with rumali roti.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karim%27s"
+    },
+    {
+     "fact": "Karimuddin's father Mohammed Aziz is described as a cook in the court of Bahadur Shah Zafar (family account; Wikipedia's lead and history sections differ on who held the post).",
+     "sourceUrl": "https://slurrp.com/article/why-karims-remains-delhis-favourite-mughal-restaurant-after-110-years-1723291254908"
+    },
+    {
+     "fact": "Fourth-generation family members run the business; dishes include mutton nihari, mutton korma, seekh kebabs, sheermal.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Karim%27s"
+    },
+    {
+     "fact": "Karim's seekh kebabs are listed in a December 2025 Chandni Chowk food guide.",
+     "sourceUrl": "https://www.slurrp.com/article/chandni-chowk-food-guide-5-iconic-snacks-you-cant-skip-1764920817193"
+    }
+   ],
+   "note": "Newest source: Slurrp guide updated December 2025; Slurrp feature August 2024. The royal-cook link is a family account and is worded as 'the family says'. The live Karim's story covers the Nizamuddin branch; this is the Jama Masjid original, as the brief allows. Reached on foot from Matia Mahal."
+  },
+  {
+   "title": "The 1790 sweet shop that came back",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Shop not on OpenStreetMap; pinned to the Paranthe Wali Gali junction on the main Chandni Chowk road, which Wikipedia says is close to the shop",
+   "facts": [
+    {
+     "fact": "Ghantewala was founded in 1790 by Lala Sukh Lal Jain; it closed in 2015 and reopened at its old address in Chandni Chowk in August 2024.",
+     "sourceUrl": "https://theprint.in/india/yesterday-once-more-dilli-6s-mughal-era-sweet-shop-ghantewala-reopens-with-much-fanfare/2229394"
+    },
+    {
+     "fact": "It is run by Sushant Jain and his son Aryan Jain; the signature sweet is sohan halwa.",
+     "sourceUrl": "https://theprint.in/india/yesterday-once-more-dilli-6s-mughal-era-sweet-shop-ghantewala-reopens-with-much-fanfare/2229394"
+    },
+    {
+     "fact": "Two naming stories: the emperor Shah Alam II called it the shop below the bell, the bell being a nearby school's that could be heard at the Red Fort; or the founder sold sweets on the streets ringing a bell.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ghantewala"
+    },
+    {
+     "fact": "Listed as open in Chandni Chowk in a January 2026 Outlook Traveller Eats guide.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/these-are-old-delhis-best-spots-for-some-piping-hot-halwa-this-winter"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller Eats, January 2026. Coordinates approximate (same pin as Paranthe Wali Gali; sources give two addresses, 1862-A Chandni Chowk main road and a Maliwara one). Reopening month: PTI reported August 2024, Wikipedia says November 2024; story only says 2024. The bell stories are traditions and are told as 'one story says'."
+  },
+  {
+   "title": "Kulfi frozen inside a real mango",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point 'kuremal mohanlal kulfiwale' in Kucha Pati Ram",
+   "facts": [
+    {
+     "fact": "Kuremal Kulfi was started in 1906 in Chawri Bazar; the original shop still operates in the lanes of Kucha Pati Ram and is run by Vishal Sharma and his brothers.",
+     "sourceUrl": "https://theprint.in/feature/kuremal-kulfi-wimbledon-strawberry-cream/2983826/"
+    },
+    {
+     "fact": "The signature style uses real fruit pulp in the kulfi, often served back inside the fruit shell.",
+     "sourceUrl": "https://theprint.in/feature/kuremal-kulfi-wimbledon-strawberry-cream/2983826/"
+    },
+    {
+     "fact": "In 2026 it partnered with the All England Lawn Tennis Club on a limited-edition Strawberries and Cream kulfi.",
+     "sourceUrl": "https://theprint.in/feature/kuremal-kulfi-wimbledon-strawberry-cream/2983826/"
+    },
+    {
+     "fact": "Seeds are removed while the fruit shell is kept, and the shell is filled with the fruit's pulp mixed with kulfi; fruits include mango, orange, apple and pomegranate.",
+     "sourceUrl": "https://www.thebetterindia.com/331511/story-behind-kuremal-mohanlal-kulfi-iconic-brand-old-delhi-haryana-farmer/"
+    },
+    {
+     "fact": "Mango-stuffed kulfi and kesar pista kulfi are the items recommended in a December 2025 guide.",
+     "sourceUrl": "https://www.slurrp.com/article/chandni-chowk-food-guide-5-iconic-snacks-you-cant-skip-1764920817193"
+    }
+   ],
+   "note": "Newest source: ThePrint, July 2026. Sources disagree on the founder's exact name and on who introduced the stuffed kulfi and when (around 1980), so the story leaves both out. The lane is too narrow for cars; nearest drop is Chawri Bazar."
+  },
+  {
+   "title": "Where the Giani's ice cream name began",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Giani's di Hatti, Church Mission Road",
+   "facts": [
+    {
+     "fact": "Giani Gurcharan Singh, from Lyallpur, settled in Fatehpuri, Chandni Chowk as a Partition refugee and set up a small store selling rabri falooda and mango and pineapple shakes.",
+     "sourceUrl": "https://www.thebetterindia.com/260756/best-ice-cream-delhi-giani-iconic-eatery-partition-history-india/"
+    },
+    {
+     "fact": "The business was established around 1951-52 and officially registered in 1956, according to third-generation owner Taranjeet Singh.",
+     "sourceUrl": "https://www.thebetterindia.com/260756/best-ice-cream-delhi-giani-iconic-eatery-partition-history-india/"
+    },
+    {
+     "fact": "Customers gave the shop the name 'Giani Di Hatti', loosely meaning Giani's shop; the Giani ice cream brand now has over 200 stores.",
+     "sourceUrl": "https://yourstory.com/smbstory/giani-ice-cream-delhi-business-entrepreneur-inspiring-story"
+    },
+    {
+     "fact": "OpenStreetMap places Giani's di Hatti at 642-643 Church Mission Road.",
+     "sourceUrl": "https://www.openstreetmap.org/search?query=Giani%27s%20di%20Hatti%20Delhi"
+    }
+   ],
+   "note": "Newest source: The Better India, August 2021 (within five years, but the oldest 'newest source' in this batch); a Delhi Tourism food-tour page also lists the shop but is undated. Start date: some sources say 1956, the family says 1951-52 with registration in 1956, so the story says 'early 1950s'. The family later split into two businesses (Giani's and Giani Ice Cream); the '200 stores' figure is for the wider Giani name."
+  },
+  {
+   "title": "A Lahore sweet shop beside Fatehpuri Masjid",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for Fatehpuri Masjid; the shop is on the ground floor of the mosque building",
+   "facts": [
+    {
+     "fact": "Chaina Ram Sindhi Confectioners was founded in 1901 in Lahore's Anarkali Bazaar and moved to Fatehpuri Chowk, Delhi, after Partition in 1947.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/these-are-old-delhis-best-spots-for-some-piping-hot-halwa-this-winter"
+    },
+    {
+     "fact": "Address: Ground Floor, Fatehpuri Masjid, 6499, Katra Bariyan, Fatehpuri, Chandni Chowk.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/these-are-old-delhis-best-spots-for-some-piping-hot-halwa-this-winter"
+    },
+    {
+     "fact": "Known for Karachi halwa, ghewar and sev badam; also sohan, badam, gajar and moong dal halwas.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/these-are-old-delhis-best-spots-for-some-piping-hot-halwa-this-winter"
+    },
+    {
+     "fact": "An August 2026 feature repeats the 1901 Lahore origin and lists malai ghewar and Karachi halwa as signatures.",
+     "sourceUrl": "https://curlytales.com/india/food/this-year-old-delhi-halwai-has-a-malai-ghewar-worth-a-chandni-chowk-detour/"
+    }
+   ],
+   "note": "Newest source: Curly Tales, August 2026; Outlook Traveller Eats, January 2026. Coordinates approximate but within a few metres (pinned to Fatehpuri Masjid, whose ground floor holds the shop). The 1901 date comes from the shop and food features, not independent records, so the story says 'traces its start to 1901'."
+  },
+  {
+   "title": "The butter chicken claim that went to court",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Moti Mahal restaurant, Netaji Subhash Marg, Daryaganj",
+   "facts": [
+    {
+     "fact": "Moti Mahal was founded in Delhi in 1947 after Partition; Kundan Lal Jaggi partnered with Kundan Lal Gujral to open it.",
+     "sourceUrl": "https://www.aljazeera.com/features/2024/2/17/butter-chicken-battle-how-the-dish-brought-two-indian-restaurants-to-court"
+    },
+    {
+     "fact": "Both families say their grandfather created butter chicken by adding a tomato gravy to leftover tandoori chicken; Moti Mahal's owners sued the Daryaganj restaurant chain in the Delhi High Court in 2024 over the claim.",
+     "sourceUrl": "https://www.aljazeera.com/features/2024/2/17/butter-chicken-battle-how-the-dish-brought-two-indian-restaurants-to-court"
+    },
+    {
+     "fact": "The founders had worked at a Peshawar eatery; the partners restarted in Daryaganj, and in 1992 the original Daryaganj property was sold to Vinod Chaddha while the brand went to the Gujral family.",
+     "sourceUrl": "https://www.theweek.in/theweek/cover/2021/12/16/betting-on-butter-chicken.html"
+    },
+    {
+     "fact": "Jawaharlal Nehru was introduced to the restaurant and became a fan; its food became part of his hospitality for state guests.",
+     "sourceUrl": "https://theprint.in/feature/nehru-was-a-fan-of-moti-mahal-restaurant-it-brought-old-delhi-and-lutyens-together/1691022"
+    },
+    {
+     "fact": "A February 2026 guide lists Moti Mahal at 3704, Netaji Subhash Marg, Daryaganj, open 12 pm to 11 pm, with butter chicken and dal makhani to order.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/a-butter-chicken-lover-these-hotspots-in-delhi-will-never-disappoint"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller Eats, February 2026. The invention claim is disputed and worded as a claim. I found no report of a final court ruling. Editor should know: the original Daryaganj restaurant has been separately owned since about 1992 and is not part of the Moti Mahal Delux chain, and the rival 'Daryaganj' chain is a different restaurant. Whether the dish was first made in Peshawar or Delhi is also disputed, so the story does not say where."
+  },
+  {
+   "title": "From dry fruit seller to Karol Bagh kulfi",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Roshan Di Kulfi, Ajmal Khan Road",
+   "facts": [
+    {
+     "fact": "Roshan Lal Soni migrated from Lahore to Delhi after Partition, first sold dry fruits door to door, then set up a street stall selling kulfi in Karol Bagh.",
+     "sourceUrl": "https://thebetterindia.com/254840/ishan-soni-roshan-lal-soni-roshan-di-kulfi-iconic-eatery-delhi-sweets-partition-of-india-karol-bagh-1997-bomb-blasts-family-legacy-food-business-culture-div200"
+    },
+    {
+     "fact": "In 1997 a blast struck the customer seating area just before Diwali, killing one woman and injuring several; the store was severely damaged and reopened.",
+     "sourceUrl": "https://thebetterindia.com/254840/ishan-soni-roshan-lal-soni-roshan-di-kulfi-iconic-eatery-delhi-sweets-partition-of-india-karol-bagh-1997-bomb-blasts-family-legacy-food-business-culture-div200"
+    },
+    {
+     "fact": "Kesar pista falooda kulfi is the most popular item; chole bhature is also sold; third-generation owner Ishan Soni runs it.",
+     "sourceUrl": "https://thebetterindia.com/254840/ishan-soni-roshan-lal-soni-roshan-di-kulfi-iconic-eatery-delhi-sweets-partition-of-india-karol-bagh-1997-bomb-blasts-family-legacy-food-business-culture-div200"
+    },
+    {
+     "fact": "OpenStreetMap places Roshan Di Kulfi on Ajmal Khan Road, Karol Bagh.",
+     "sourceUrl": "https://www.openstreetmap.org/search?query=Roshan%20Di%20Kulfi%20Karol%20Bagh"
+    }
+   ],
+   "note": "Newest source: The Better India, May 2021 (about five and a half years old; no newer major feature found, only listings that show it trading). Start year differs between sources (1947 vs 1951), so the story says 'after Partition'. The blast killed one person; the story mentions the blast but not the death, to keep it family friendly. Editor may prefer to drop the blast line."
+  },
+  {
+   "title": "The Swiss bakery of Connaught Place",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Wenger's, Inner Circle, Connaught Place",
+   "facts": [
+    {
+     "fact": "Wenger's was founded by a Swiss couple in 1924 as a catering outfit for British troops; by 1926 it was a tearoom and confectionery in Kashmere Gate; it moved to Connaught Place in the early 1930s; it is in Block A of the Inner Circle.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/whats-new/wengers-100-years-of-delhis-original-sweet-spot"
+    },
+    {
+     "fact": "It was sold in 1945 to Brij Mohan Tandon, the former general manager; Aman and Atul Tandon are the third generation.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/whats-new/wengers-100-years-of-delhis-original-sweet-spot"
+    },
+    {
+     "fact": "ThePrint gives the sale year as 1944 and says the bakery has one location with no franchising; known items include patties, shami kebabs, cream roll and pineapple pastry.",
+     "sourceUrl": "https://theprint.in/feature/a-swiss-couple-set-it-up-british-flocked-to-it-wengers-was-heart-of-delhi-glamour/1290732"
+    },
+    {
+     "fact": "Shami kebabs, patties and pineapple pastry are recommended; a queue often stretches outside the shop.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/guides/5-legendary-restaurants-in-delhi-that-are-over-100-years-old"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller Eats, August 2026. Sources differ on details: start 1924 or 1926, move to Connaught Place late 1920s or early 1930s, sale 1944 or 1945. The story uses '1920s', 'by 1926', 'later' and 'mid 1940s' to stay inside what all sources agree on."
+  },
+  {
+   "title": "The coffee house owned by its workers",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Indian Coffee House at Mohan Singh Place, Baba Kharak Singh Marg",
+   "facts": [
+    {
+     "fact": "In the mid-1950s the Coffee Board decided to close its coffee houses; workers formed cooperatives and renamed the network Indian Coffee House; a cooperative was established in Delhi on 27 December 1957.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Indian_Coffee_House"
+    },
+    {
+     "fact": "The old Coffee House in Connaught Place, where Palika Bazaar now stands, was demolished during the Emergency in 1976 and the Coffee House moved to Mohan Singh Place, where it still runs.",
+     "sourceUrl": "https://thepatriot.in/culture/history/the-coffee-house-delhi-refuses-to-forget-80882/amp"
+    },
+    {
+     "fact": "Writers such as Vishnu Prabhakar, Bhisham Sahni and Rajendra Yadav sat at the Mohan Singh Place coffee house; political leaders were regulars of the older one.",
+     "sourceUrl": "https://thepatriot.in/culture/history/the-coffee-house-delhi-refuses-to-forget-80882/amp"
+    },
+    {
+     "fact": "The Mohan Singh Place branch is two flights of stairs up and serves coffee and snacks including dosas and omelettes.",
+     "sourceUrl": "https://slurrp.com/article/the-story-of-a-delhi-coffee-house-from-1957-1653648504452"
+    }
+   ],
+   "note": "Newest source: The Patriot, January 2026. One older source says the Mohan Singh Place branch dates from 1969; the two better sources say it moved after the 1976 demolition, which the story follows. The coffee house is on an upper floor and cannot be seen from the road."
+  },
+  {
+   "title": "A Connaught Place coffee house open since 1942",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for United Coffee House, Inner Circle, Connaught Place",
+   "facts": [
+    {
+     "fact": "United Coffee House was founded in 1942 by Lala Hans Raj Kalra, who ran a liquor business in Sialkot before buying a grocery shop in Connaught Place.",
+     "sourceUrl": "https://theprint.in/feature/united-coffee-house-the-central-perk-cafe-of-our-times-has-a-big-responsibility/1775722"
+    },
+    {
+     "fact": "He envisioned a 'beautiful Victorian coffee house'; items include cutlets, patties, layered sandwiches, nargisi kofta, shahi tukda and baked Alaska; Akash Kalra is managing director.",
+     "sourceUrl": "https://theprint.in/feature/united-coffee-house-the-central-perk-cafe-of-our-times-has-a-big-responsibility/1775722"
+    },
+    {
+     "fact": "Akash Kalra is the founder's grandson.",
+     "sourceUrl": "https://yourstory.com/2017/06/united-coffee-house-delhi"
+    }
+   ],
+   "note": "Newest source: ThePrint, September 2023. Details of what stood on the site before 1942 vary a little between features (a grocery shop, or a grocery shop with a cafe)."
+  },
+  {
+   "title": "Bengali Market is not named after Bengalis",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Bengali Sweet House, Bengali Market",
+   "facts": [
+    {
+     "fact": "Lala Bengali Mal Lohia won the public auction of the land, and the colony and market were named after him.",
+     "sourceUrl": "https://theprint.in/feature/bengali-sweet-house-was-one-of-the-first-to-bring-rasgulla-to-delhi-srk-ambani-came-too/1858309"
+    },
+    {
+     "fact": "Lala Bhim Sain, grandson of a Bikaner mithai maker who moved to Delhi in 1920, opened Bengali Sweet House in 1937 at a corner shop in Bengali Market.",
+     "sourceUrl": "https://theprint.in/feature/bengali-sweet-house-was-one-of-the-first-to-bring-rasgulla-to-delhi-srk-ambani-came-too/1858309"
+    },
+    {
+     "fact": "The shop introduced the Bengali rasgulla to mainstream Delhi and also serves chole bhature, samosa, chaat and Bikaneri sweets; third-generation owner Girish Agarwal runs it.",
+     "sourceUrl": "https://theprint.in/feature/bengali-sweet-house-was-one-of-the-first-to-bring-rasgulla-to-delhi-srk-ambani-came-too/1858309"
+    }
+   ],
+   "note": "Newest source: ThePrint, November 2023. Nathu's Sweets next door was considered but its founding year was not confirmed by a strong source (one listing says 1939), so it was left out."
+  },
+  {
+   "title": "A snack shop older than its own records",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "Shop not on OpenStreetMap; pinned to the Paranthe Wali Gali junction, where ThePrint says the shop stands on the main Chandni Chowk street",
+   "facts": [
+    {
+     "fact": "Kanwarji is said to have started sometime around 1850; there are no written records to confirm it; the founder came from Bahadurgarh in present-day Haryana.",
+     "sourceUrl": "https://theprint.in/feature/pista-barfi-pioneer-kanwarji-was-chandni-chowks-og-snacking-site-now-selfie-spot-too/1398189"
+    },
+    {
+     "fact": "It stands on the main Chandni Chowk street at the edge of Paranthe Wali Gali; fifth-generation owner Rachit Gupta runs it.",
+     "sourceUrl": "https://theprint.in/feature/pista-barfi-pioneer-kanwarji-was-chandni-chowks-og-snacking-site-now-selfie-spot-too/1398189"
+    },
+    {
+     "fact": "Known for dal biji, aloo ka lachcha, matar samosa and kachori; all items are fried in desi ghee; the shop claims to be the pioneer of pista barfi.",
+     "sourceUrl": "https://theprint.in/feature/pista-barfi-pioneer-kanwarji-was-chandni-chowks-og-snacking-site-now-selfie-spot-too/1398189"
+    }
+   ],
+   "note": "Newest source: ThePrint, February 2023. Coordinates approximate but close (same pin as Paranthe Wali Gali, whose corner the shop stands on). The 1850 date and the pista barfi 'first' are the shop's own claims and are worded that way. Note three stories share nearly the same pin (Paranthe Wali Gali, Ghantewala, Kanwarji) and Natraj is a few metres away."
+  },
+  {
+   "title": "Four old Punjabi kitchens in one row",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Gulati restaurant, Pandara Road Market",
+   "facts": [
+    {
+     "fact": "Gulati, Havemore, Pindi and Chicken Inn, all established between 1948 and 1960, stand side by side in Pandara Road Market.",
+     "sourceUrl": "https://www.scmp.com/magazines/post-magazine/travel/article/3258671/butter-chicken-wars-who-does-delhis-signature-dish-best-everyone-has-their-opinion"
+    },
+    {
+     "fact": "Gulati started in 1959 as a modest dhaba at Pandara Road Market; butter chicken and dal makhani are among its signature dishes.",
+     "sourceUrl": "https://restaurantindia.in/article/How-this-modest-Dhaba-transformed-into-most-visited-restaurant-in-Delhi-NCR.9087"
+    }
+   ],
+   "note": "Newest source: South China Morning Post feature, 2024 (I could read only the search excerpt; the page blocked direct fetch). The 1959 date is Gulati's own claim, repeated by Restaurant India (2017) and a 2026 advertorial; no founder name found. A Hindu feature on Gulati exists but could not be opened."
+  },
+  {
+   "title": "The kebab stall students named Khan Chacha",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Khan Chacha in Khan Market",
+   "facts": [
+    {
+     "fact": "Haji Banda Hasan, born in Saharanpur, learned Mughlai cooking near Jama Masjid in the 1960s and opened a small stall in Khan Market in 1972 selling tikka roomali rolls.",
+     "sourceUrl": "https://amp.scroll.in/magazine/919057/scroll_in"
+    },
+    {
+     "fact": "Khan Chacha is now a chain; the Hasan family is no longer associated with the brand, and the founder's sons run a separate shop, Rule The Rolls, in Khan Market.",
+     "sourceUrl": "https://amp.scroll.in/magazine/919057/scroll_in"
+    },
+    {
+     "fact": "He became popular among college students, who started calling him Khan Chacha.",
+     "sourceUrl": "https://khanchachacom.limetray.com/about-us"
+    },
+    {
+     "fact": "Khan Chacha started in 1972 as a small food stall in Khan Market and now has over 20 outlets; rolls and kebabs are its core menu.",
+     "sourceUrl": "https://oteats.outlooktraveller.com/features/chef-profile/why-khan-chacha-is-more-than-just-a-restaurant-in-delhi"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller Eats, July 2026. One account gives December 1971 as the start; most say 1972. The shop has moved within Khan Market over the years and the brand has been in a trademark dispute with the founder's family (Scroll, 2019); the story only says it is 'now run by other owners'."
+  },
+  {
+   "title": "A state guest house that feeds the city",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap building outline for Andhra Bhavan",
+   "facts": [
+    {
+     "fact": "The Andhra Bhavan canteen thali has rice, poori, pappu (dal), sambar, rasam, two vegetables, curd, papad and a sweet; diners pay per head in advance.",
+     "sourceUrl": "https://thepatriot.in/?p=34037"
+    },
+    {
+     "fact": "Hyderabadi dum biryani is the Sunday special; on weekends the line reaches the main entrance, about 100 metres away.",
+     "sourceUrl": "https://thepatriot.in/?p=34037"
+    },
+    {
+     "fact": "Andhra Bhavan, at 1 Ashoka Road near India Gate, is one of the earliest state canteens in the capital; meals are served on large steel plates.",
+     "sourceUrl": "https://www.outlooktraveller.com/experiences/food-and-drink/budget-eats-best-state-canteens-in-delhi-and-what-you-must-order"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller, updated March 2025; The Patriot feature is March 2023. No source gives the year the canteen opened, so none is stated."
+  },
+  {
+   "title": "The chaat stall older than independent India",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap line for Union Public Service Commission Lane, off Shahjahan Road, where the stall stands",
+   "facts": [
+    {
+     "fact": "Prabhu Chaat Bhandar was started in 1935 by street vendor Nathu Laal; his sons and grandsons run it today. It is known for aloo tikki, bharwa gol gappa, bhalla papdi and kulfi falooda.",
+     "sourceUrl": "https://www.india.com/business/all-about-the-man-behind-delhis-hugely-popular-upsc-chaat-bhandar-which-opened-in-1935-prabhu-chaat-bhandar-opposite-upsc-building-7499813/"
+    },
+    {
+     "fact": "The family business dates to 1935 and now stands outside the UPSC building on Shahjahan Road; Jagdish Kumar inherited it from his father.",
+     "sourceUrl": "https://www.thebetterindia.com/70538/visit-prabhu-chaat-bhandar-delhi-chaat-shop-80-year-legacy/"
+    }
+   ],
+   "note": "Newest source: India.com, December 2024. The Better India (2016) says the stall first stood outside Bikaner House on the India Gate circle, while India.com says it began opposite the UPSC building, so the story does not say where it started. Coordinates are for the lane, not the stall itself."
+  },
+  {
+   "title": "From a fried fish stall to Rajinder's",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for the Kamal Cinema bus stop, Safdarjung Enclave; the dhaba is in the market beside the cinema",
+   "facts": [
+    {
+     "fact": "Rajinder da Dhaba was founded in 1968 by Rajinder Kumar Dua as a stall selling fish fry and anda fry on Kamal Cinema Road; his family (Bharat Bhushan Dua and Shreyank Dua) runs it. Known dishes include chicken curry with rumali roti, mutton galouti kebab and fried fish.",
+     "sourceUrl": "https://www.slurrp.com/article/rajinder-da-dhaba-delhis-beloved-iconic-restaurant-with-a-rich-legacy-1725349958291"
+    },
+    {
+     "fact": "Rajinder Dua came to Delhi as a Partition refugee aged five and began by selling fried fish tikkas outside Kamal Cinema in Safdarjung Enclave; his son Bharat Bhushan took over after his death in 2002.",
+     "sourceUrl": "https://www.outlookindia.com/society/rajinders-tikka-khanate-news-267592"
+    }
+   ],
+   "note": "Newest source: Slurrp (Hindustan Times group), September 2024. The 1968 date comes from Slurrp and listing sites; the Outlook profile (2010) gives no year. Coordinates are the Kamal Cinema bus stop, a short walk from the dhaba."
+  },
+  {
+   "title": "The dishwasher who sold Delhi its dosas",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Sagar Ratna in Defence Colony Market",
+   "facts": [
+    {
+     "fact": "Jayaram Banan, born in Karkala near Udupi, ran away to Mumbai after failing school exams and washed dishes in a canteen; he opened Sagar in Defence Colony in 1986 at a rent of 3,250 rupees a week.",
+     "sourceUrl": "https://www.outlookbusiness.com/enterprise/regional-brand/keeping-it-hot-487"
+    },
+    {
+     "fact": "The first Sagar outlet in Defence Colony opened in 1986 with seating for 40; weekly rent was Rs 3,250 and first-day sales were Rs 408.",
+     "sourceUrl": "https://www.dnaindia.com/business/report-sagar-ratna-from-washing-utensils-to-a-millionaire-meet-jayaram-banan-his-net-worth-is-3027699"
+    },
+    {
+     "fact": "Delhi diners recalled queuing for Sagar in Defence Colony in the early 2000s.",
+     "sourceUrl": "https://theprint.in/feature/dosa-idli-experience-delhi-lining-up/2826325"
+    }
+   ],
+   "note": "Newest source that tells the history: DNA, March 2023; ThePrint mentions the Defence Colony restaurant in January 2026. That the Defence Colony restaurant is still open rests on current OpenStreetMap and listing-site entries, not a recent newspaper feature. Some sources give the opening date as 4 December 1986; only the year is used. The story's title is my wording; no source claims he was first to sell dosa in Delhi."
+  },
+  {
+   "title": "The paan shop that built a chaat",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Prince Pan Corner, M Block Market, Greater Kailash 1",
+   "facts": [
+    {
+     "fact": "Yash Tekwani's father started a paan shop in Greater Kailash in 1965 that became Prince Paan; a chaat counter was added next to it in the early 1990s; palak patta chaat, a fried spinach leaf dish, was created by Jyoti Tekwani; golgappas and paan are also popular.",
+     "sourceUrl": "https://www.hyperpure.com/blog/how-a-paan-shop-in-delhi-created-one-of-indias-most-famous-chaats"
+    },
+    {
+     "fact": "The founder shifted his paan shop to Greater Kailash in 1965; the shop in M Block Market is known for its queues.",
+     "sourceUrl": "https://business-standard.com/article/beyond-business/spanned-over-decades-108041201023_1.html"
+    }
+   ],
+   "note": "Newest source: Hyperpure (Zomato's company blog), May 2026. This is not a newspaper; the newspaper source is Business Standard, 2008, which I could read only as a search excerpt. The palak patta chaat origin is the family's own claim and is worded that way."
+  },
+  {
+   "title": "Roasting coffee in Lodhi Colony since 1962",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Devan's at Lodhi, Khanna Market",
+   "facts": [
+    {
+     "fact": "Devan's is a family-run coffee store that has operated since 1962 as a roastery and, since 2018, also as a cafe serving coffee.",
+     "sourceUrl": "https://m.thewire.in/article/culture/watch-brewing-since-1962-devans-is-a-hit-with-coffee-lovers-in-delhi"
+    },
+    {
+     "fact": "The shop in Khanna Market was once called South Indian Coffee & Tea and is now Devan's at Lodhi; the coffee bar is the idea of the third generation of the owning family.",
+     "sourceUrl": "https://business-standard.com/article/current-affairs/devan-s-is-looking-for-a-little-bit-of-history-inside-a-modern-coffee-bar-118033000889_1.html"
+    }
+   ],
+   "note": "Newest dated sources: The Wire and Business Standard, March 2018 (older than five years). It appears in Time Out Delhi's current list of coffee shops and on OpenStreetMap, so it is still running, but I found no newspaper feature from the last five years. The founder's name is not given in any source I could open. Business Standard page was read only as a search excerpt."
+  },
+  {
+   "title": "A coffee chain born on a chicken farm",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap line for Champa Gali, Saidulajab, the lane the cafe stands in",
+   "facts": [
+    {
+     "fact": "Blue Tokai chose 'the oddest possible location to start': Champa Gali, which used to be a chicken farm; low rent made it attractive and it set up its first live roaster there. Around 85 outlets are in Delhi NCR, 48 in Mumbai and 20 each in Pune and Kolkata.",
+     "sourceUrl": "https://www.businesstoday.in/amp/magazine/interview/story/were-just-at-the-start-of-indias-coffee-story-blue-tokai-co-founder-and-coo-shivam-shahi-513394-2026-01-29"
+    },
+    {
+     "fact": "Blue Tokai was founded by Matt Chitharanjan and Namrata Asthana as a small home roasting operation in a spare bedroom of Asthana's parents' house.",
+     "sourceUrl": "https://openthemagazine.com/cover-stories/cafe-capitalists"
+    },
+    {
+     "fact": "Delhi's first roastery-cum-cafe, by Blue Tokai, was reported in December 2015.",
+     "sourceUrl": "https://www.business-standard.com/article/news-ians/delhi-gets-its-first-roasterie-cum-cafe-115121500761_1.html"
+    },
+    {
+     "fact": "In November 2025 Blue Tokai marked ten years since it opened its first public roastery and cafe in Saidulajab.",
+     "sourceUrl": "https://stores.bluetokaicoffee.com/social?page=3"
+    }
+   ],
+   "note": "Newest source: Business Today interview, January 2026. That the Saidulajab cafe is still open rests on the company's own November 2025 anniversary post; please confirm before publishing. The 2015 opening year comes from the IANS report date and the anniversary post, both read only as search excerpts. Coordinates are for the lane; no OpenStreetMap point for the cafe itself was found."
+  },
+  {
+   "title": "A Delhi village that cooks the North-East",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Humayunpur neighbourhood",
+   "facts": [
+    {
+     "fact": "Humayunpur is an urban village in Safdarjung Enclave near Deer Park, marked by a blue 'Welcome to Humayunpur' signboard; migrants from the north-eastern states have made it home and its narrow lanes hold small restaurants. Bhansagar serves jhol momo and Thakali thali; Yo Tibet serves laphing; there are also Korean and Burmese places.",
+     "sourceUrl": "https://thepatriot.in/?p=50032"
+    },
+    {
+     "fact": "Humayunpur has Tibetan, Jat, north-eastern and Nepali residents; restaurants serve Naga, Manipuri and Nepali food in narrow lanes.",
+     "sourceUrl": "https://www.outlooktraveller.com/explore/culture/interesting-neighbourhoods-in-india-humayunpur"
+    },
+    {
+     "fact": "Assamese, Tibetan, Manipuri and Mizo food can all be found in Humayunpur, a locality otherwise dominated by Jats.",
+     "sourceUrl": "https://www.outlooktraveller.com/experiences/food-and-drink/5-north-eastern-restaurants-to-visit-in-humayunpur-delhi"
+    }
+   ],
+   "note": "Newest source: The Patriot, June 2024; a District.in food crawl from August 2026 also lists Yo Tibet and Mizo Diner. Small restaurants here open and close often, so the two named places should be rechecked now and then. 'Leave the car outside' is my advice based on the narrow lanes described in the sources."
+  },
+  {
+   "title": "Delhi's Bengali markets began as a refugee colony",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap area for Market 1, Chittaranjan Park",
+   "facts": [
+    {
+     "fact": "Chittaranjan Park was established in the early 1960s as the EPDP (East Pakistan Displaced Persons) Colony; it has one of the city's main freshwater fish markets and four numbered markets known for Bengali sweets and Kolkata-style street food.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Chittaranjan_Park"
+    },
+    {
+     "fact": "CR Park's markets offer rosogolla, sandesh and mishti doi (Annapurna Sweets), puchka, fish cutlet (Dadu Cutlet Shop) and Kolkata biryani with egg and potato (Kolkata Biryani House, Market No. 1).",
+     "sourceUrl": "https://www.outlooktraveller.com/experiences/food-and-drink/durga-puja-2024-heres-where-to-find-the-best-bengali-food-in-cr-park"
+    }
+   ],
+   "note": "Newest source: Outlook Traveller, October 2024. Sources disagree on which shop is in which market, so the story names dishes and not shops. The pin is Market 1, which a local guide site names as the main fish market; Wikipedia only says the colony has the fish market."
+  },
+  {
+   "title": "When Delhi thought momos were raw",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Dolma Aunty Momos, Lajpat Nagar",
+   "facts": [
+    {
+     "fact": "Dolma Tsering, from Tibet, is believed to have started the first momo stall in Lajpat Nagar in 1994; locals thought momos were 'kaccha' (raw); sales rose after people tried them with her chilli garlic chutney; she now has three shops and her son Ramu manages the business.",
+     "sourceUrl": "https://www.thebetterindia.com/247460/dolma-aunty-tsering-tibet-momos-delhi-woman-entrepreneur-street-food-c24/"
+    },
+    {
+     "fact": "Dolma Tsering opened one of the first momo stalls in Lajpat Nagar, New Delhi, in 1994 and at first had very few buyers.",
+     "sourceUrl": "https://www.aljazeera.com/features/2024/7/21/why-indians-are-mad-for-momos"
+    }
+   ],
+   "note": "Newest source: Al Jazeera, July 2024. The 'first momo stall' claim is a belief, not a documented fact, and is worded as 'believed to be one of the first'."
+  },
+  {
+   "title": "Eat your way across India in one courtyard",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap area for Dilli Haat, INA",
+   "facts": [
+    {
+     "fact": "Dilli Haat was established in 1994 as a marketplace showcasing rural and folk crafts; craft shops rotate periodically; the Dilli Haat Food Plaza has 25 stalls serving regional Indian cuisines; the most prominent one is opposite INA Market.",
+     "sourceUrl": "https://www.incredibleindia.gov.in/en/delhi/delhi/dilli-haat"
+    },
+    {
+     "fact": "Dilli Haat was set up in March 1994 by Delhi Tourism with NDMC and the textiles and tourism ministries; it has 62 craft stalls allotted on a rotational basis, and entry is paid.",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Dilli_Haat"
+    }
+   ],
+   "note": "Newest source: the Incredible India page (current, undated). I did not name specific state stalls or dishes because no reliable recent source listed them. 'Built to look like a village market' follows the tourism description of a rural haat. INA is kept as the market's name; it is an abbreviation the narrator must spell out letter by letter."
+  },
+  {
+   "title": "Lucknow's kakori kebab at a Chanakyapuri counter",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap area for Bapu Dham NDMC Market, Chanakyapuri, where the shop stands",
+   "facts": [
+    {
+     "fact": "Alkauser, at Shop 4, NDMC Bapu Dham Market near Jesus and Mary College, Chanakyapuri, is known for mutton kakori kebabs and galoutis; legend has it that it was among the first kebab stalls outside Old Delhi; the late Sadia Dehlvi championed it. Recommended: kakori kebabs, galouti, varqi paratha and phirni.",
+     "sourceUrl": "https://www.timeout.com/delhi/restaurants/alkakori-alkauser"
+    },
+    {
+     "fact": "Ishtiyaq Ahmed is the cook behind Alkauser's food; his father was a Lucknow cook; the name was inspired by Zeenat Kauser, mother of columnist Sadia Dehlvi, who brought Ishtiyaq to Kautilya Marg in Chanakyapuri, where he set up a kiosk selling kakori kebabs.",
+     "sourceUrl": "https://www.nationalheraldindia.com/food/food-for-mood-delhis-authentic-mughlai-cuisine-at-alkauser"
+    }
+   ],
+   "note": "Newest source: Time Out Delhi, April 2026. Unsure points: the start is given as 'early 70s' by National Herald (2020) and '1980s' by Time Out, so no year is stated. The original kiosk was on Kautilya Marg near Assam House (OpenStreetMap also shows an Alkauser at 28.6019, 77.1937); I pinned the Bapu Dham Market address that Time Out gives in 2026. National Herald also says the cook's father is believed to have invented the kakori recipe; I left that out as unproven."
+  },
+  {
+   "title": "The momo market behind the embassies",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap area for Yashwant Place, Chanakyapuri",
+   "facts": [
+    {
+     "fact": "Yashwant Place in Chanakyapuri, an ageing complex behind the diplomatic lanes, is known as Delhi's 'momo market'; stalls serve chilli garlic prawn momos, cheese and spinach momos, tandoori chicken momos and buff momos with red chilli chutney; a server at Momo Point claims people first tasted tandoori momos there before the trend spread.",
+     "sourceUrl": "https://thepatriot.in/?p=76617"
+    }
+   ],
+   "note": "Newest source: The Patriot, October 2025. No source gives the year the complex or its momo shops opened. The tandoori momo claim is one stall's own claim and is worded that way. 'Cheese with spinach' is rendered as paneer-palak in Hindi; the source says cheese."
+  },
+  {
+   "title": "A refugee's sweet shop and Gurugram's own barfi",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for the Sadar Bazar neighbourhood, Gurugram (the shop itself is not mapped)",
+   "facts": [
+    {
+     "fact": "Sham Sweets was founded on 7 July 1951 by Sham Lal Bajaj, a Partition refugee whose family had a halwai shop in Dera Ghazi Khan.",
+     "sourceUrl": "https://thedelhiwalla.blog/2025/12/03/city-food-doda-mithai-sham-sweets/"
+    },
+    {
+     "fact": "The shop is in Sadar Bazar, Gurugram, on the street facing the Ghamand Sarai stone gateway; it is run by Anil Bajaj, with a second outlet on Basai Road.",
+     "sourceUrl": "https://thedelhiwalla.blog/2025/12/03/city-food-doda-mithai-sham-sweets/"
+    },
+    {
+     "fact": "Doda is a dark brown sprouted wheat sweet cooked in desi ghee and topped with almonds and cashews; the shop is also known for milk cake and rabri.",
+     "sourceUrl": "https://thedelhiwalla.blog/2025/12/03/city-food-doda-mithai-sham-sweets/"
+    },
+    {
+     "fact": "An earlier piece by the same writer also names Sham Sweets in Sadar Bazar as the place to try doda.",
+     "sourceUrl": "https://thedelhiwalla.blog/2024/04/22/city-food-five-spots-gurugrams-sadar-bazar/"
+    }
+   ],
+   "note": "Newest source: December 2025. The Delhi Walla is the personal site of Hindustan Times daily columnist Mayank Austen Soofi; hindustantimes.com itself could not be opened from this tool. Coordinates are the Sadar Bazar neighbourhood point, not the shop door."
+  },
+  {
+   "title": "Seventy years of jalebis under a neem tree",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Sardar Jalebi Wala, Sadar Bazar Main Road, Gurugram",
+   "facts": [
+    {
+     "fact": "The Sardar Jalebi shop in Sadar Bazar, Gurugram, faces a neem tree and has been frying jalebis for more than seventy years.",
+     "sourceUrl": "https://thedelhiwalla.blog/2024/04/22/city-food-five-spots-gurugrams-sadar-bazar/"
+    },
+    {
+     "fact": "Its founder, the late Arjun Singh, came to the city as a Partition refugee from present-day Pakistan.",
+     "sourceUrl": "https://thedelhiwalla.blog/2024/04/22/city-food-five-spots-gurugrams-sadar-bazar/"
+    },
+    {
+     "fact": "The jalebis are thin and crisp, and the writer says they taste good even cold.",
+     "sourceUrl": "https://thedelhiwalla.blog/2024/04/22/city-food-five-spots-gurugrams-sadar-bazar/"
+    }
+   ],
+   "note": "Newest source: April 2024. Listing sites give other ages for the shop (47 years, 72 years); the story uses only the 'more than seventy years' wording from the Hindustan Times columnist's piece."
+  },
+  {
+   "title": "Ten thousand kilograms of doda barfi a day",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for the Om Sweets shop in Sector 14, Gurugram (the original Arjun Nagar shop is not mapped)",
+   "facts": [
+    {
+     "fact": "Om Sweets was founded in 1960 by brothers Om Prakash, Pushpender and Sunil Dutt Kathuria; the first outlet opened in Arjun Nagar, Old Gurugram, and Om Prakash opened it at age 25.",
+     "sourceUrl": "https://theprint.in/ground-reports/om-sweets-gurugram-doda-barfi/2658360"
+    },
+    {
+     "fact": "The family came from pre-Partition Multan, now in Pakistan.",
+     "sourceUrl": "https://theprint.in/ground-reports/om-sweets-gurugram-doda-barfi/2658360"
+    },
+    {
+     "fact": "Doda barfi is a dark brown, nutty sweet made from angoori (sprouted) wheat; Om Sweets sells about 8,000 to 10,000 kg of it on a typical day, and it sells kaju doda and akhrot doda.",
+     "sourceUrl": "https://theprint.in/ground-reports/om-sweets-gurugram-doda-barfi/2658360"
+    },
+    {
+     "fact": "The chain has about 20 outlets in Delhi and the towns around it, including a presence in Sector 14, Gurugram.",
+     "sourceUrl": "https://theprint.in/ground-reports/om-sweets-gurugram-doda-barfi/2658360"
+    }
+   ],
+   "note": "Newest source: June 2025 (ThePrint ground report). The pin is the Om Sweets shop mapped on OpenStreetMap in Sector 14, Gurugram, because the original Arjun Nagar shop could not be found on the map; marked approximate for that reason. The sales figure is the company's own number as reported by ThePrint, so the text says 'is reported to'. An Om Sweets press note elsewhere says the family's sweet business goes back to the 1940s; the story uses only the 1960 Gurugram date."
+  },
+  {
+   "title": "The town that gave its name to shikanji",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for Modinagar Police Station on Meerut Road; the shop says its mother branch is near this police station",
+   "facts": [
+    {
+     "fact": "Modinagar, a town in Ghaziabad district about 50 km from Delhi, has given its name to a shikanji made with lemon, water, cumin and black salt; it is sold under the town's name in Ghaziabad and in old Gurugram, including a cart in Gurugram's Sadar Bazar.",
+     "sourceUrl": "https://thedelhiwalla.blog/2026/05/11/city-food-modinagar-ki-danedar-shikanji-around-town/"
+    },
+    {
+     "fact": "Jain Shikanji says it was started in 1957 in Modinagar by Parmatma Sharan Jain and Shakuntala Jain at a 4x4 paan counter near the local police station; Shakuntala ground the spices and prepared the syrup daily. Its mother branch is still in Modinagar.",
+     "sourceUrl": "https://www.jainshikanji.com/about-us"
+    },
+    {
+     "fact": "Hot paneer pakoras were added in 1996 by Neelam Jain to bring customers through the year.",
+     "sourceUrl": "https://www.jainshikanji.com/about-us"
+    },
+    {
+     "fact": "A press release carried by ThePrint in February 2022 about the brand's Shark Tank India appearance gives a different start year, 1937.",
+     "sourceUrl": "https://theprint.in/ani-press-releases/jain-shikanji-grabbed-40-lakhs-offer-in-shark-tank/822362/"
+    }
+   ],
+   "note": "Newest source: May 2026 for the drink (The Delhi Walla); the shop's history comes from its own website, so it is worded as 'says it began'. Start year is disputed: the shop's site says 1957, a 2022 press release says 1937. The Delhi Walla piece does not name Jain Shikanji; it mentions an unnamed Modinagar shop that claims to have invented the drink, so no 'invented here' claim is made. Modinagar is in Ghaziabad district, about 25 kilometres beyond Ghaziabad city on the Delhi to Meerut road; drop this if it falls outside the wanted area. The shop's site also lists a Kadrabad outlet on the same road. Pin is the police station, the landmark the shop itself names."
+  },
+  {
+   "title": "From a handcart to Faridabad's falooda shop",
+   "coordinateQuality": "approximate",
+   "coordinateSource": "OpenStreetMap point for No 1 Market, NIT 1, Faridabad (the shop itself is not mapped)",
+   "facts": [
+    {
+     "fact": "Azad Faluda Ice Cream in Faridabad's NIT market started as a street cart; the owner says his father started it in 1970 and sold from the cart for about 40 years before moving into a shop. Three brothers run it now with the father's recipe; softy cost 25 paise at the start. It opens around 1 in the afternoon.",
+     "sourceUrl": "https://www.etvbharat.com/hi/!state/fifty-years-old-faluda-ice-cream-shop-in-faridabad-nit-its-taste-is-famous-till-delhi-started-from-a-street-vendor-today-owns-property-worth-crores-haryana-news-hrs25043004033"
+    },
+    {
+     "fact": "Haribhoomi names the founder as Gurbachan Singh and gives the start year as 1974; it says ice cream cost 25 paise then, the ice cream is made in-house, and customers come from Faridabad, Ballabgarh, Gurgaon, Noida and Delhi. The shop sells falooda ice cream and many kinds of kulfi.",
+     "sourceUrl": "https://www.haribhoomi.com/state-local/haryana/faridabad/news/50-years-old-ice-cream-falooda-shop-faridabad-nit-famous-noida-to-delhi-80092"
+    }
+   ],
+   "note": "Newest source: April 2025 (two reports that month). The two reports disagree on the start year, 1970 and 1974, so the story says 'the early 1970s'. Neither report says which NIT market the shop is in; the pin is No 1 Market in NIT 1 as the nearest findable NIT market and is approximate. ETV Bharat says there are several branches under the same name. Editor should confirm the exact market."
+  },
+  {
+   "title": "The Noida market people visit just to eat",
+   "coordinateQuality": "exact",
+   "coordinateSource": "OpenStreetMap point for Brahmaputra complex (marketplace), Sector 29, Noida",
+   "facts": [
+    {
+     "fact": "Brahmaputra Market in Noida is a low-cost street food destination with chaat vendors selling bharwa golgappa, aloo tikki, bhalla papdi and Bombay bhel puri, and a counter selling Kolkata-style rolls.",
+     "sourceUrl": "https://www.amarujala.com/photo-gallery/lifestyle/travel/noida-s-brahmaputra-market-is-full-of-delicious-food"
+    },
+    {
+     "fact": "A stall called Dosa Counter sells an 'Amar Akbar Anthony' dosa, named for its three ingredients: butter, cheese and paneer.",
+     "sourceUrl": "https://www.amarujala.com/photo-gallery/lifestyle/travel/noida-s-brahmaputra-market-is-full-of-delicious-food"
+    },
+    {
+     "fact": "The market is a small shopping complex in Sector 29, Noida, also called BP Market.",
+     "sourceUrl": "https://housing.com/news/brahmaputra-market-noida"
+    }
+   ],
+   "note": "Newest newspaper food source: September 2019 (Amar Ujala), which is older than the five years the brief prefers. Newer mentions of the market's street food are only on listing and guide sites. The market itself is still there, but the named dosa may not be; the text says the counter 'became known for' it. This is the weakest-sourced story in the set and the only Noida one; the editor may want to drop it or check it on the ground."
+  }
+ ]
+}
