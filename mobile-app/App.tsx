@@ -13,10 +13,18 @@ import {
 import { fetchNearbyForPreview, prepareExplore } from './src/explore';
 import './src/locationTask';
 import { isTrackingActive, startDriving, stopDriving } from './src/locationTask';
-import { replayCurrentStory, setPaused, skipCurrentStory } from './src/playback';
+import { speakStory, stopSpeaking } from './src/narration';
+import {
+  getLastPosition,
+  playStoryNow,
+  replayCurrentStory,
+  setPaused,
+  skipCurrentStory,
+} from './src/playback';
 import { clearPlayLog, readPlayLog, type PlayLogEntry } from './src/playLog';
 import { PreviewScreen } from './src/PreviewScreen';
 import { getRatings, loadRatings, rateStory, subscribeRatings, type Rating } from './src/ratings';
+import { Around } from './src/screens/Around';
 import { Developer } from './src/screens/Developer';
 import { Driving } from './src/screens/Driving';
 import { Home } from './src/screens/Home';
@@ -41,7 +49,8 @@ import {
   type DrivingState,
 } from './src/store';
 import { buildTripSummary, type TripSummary } from './src/trip';
-import type { Story } from './src/types';
+import type { Story, TriggerPoint } from './src/types';
+import type { InterestKey } from './src/interests';
 import { Screen } from './src/ui';
 import { hasVoiceFor, loadVoiceSettings } from './src/voice';
 
@@ -80,6 +89,12 @@ export default function App() {
   const [playLog, setPlayLog] = useState<PlayLogEntry[]>([]);
   const [playedCount, setPlayedCount] = useState(0);
   const versionTaps = useRef<number[]>([]);
+  // "Stories around you". During a drive it uses the stories already saved;
+  // from the home screen it downloads the ones near the phone.
+  const [aroundOpen, setAroundOpen] = useState(false);
+  const [around, setAround] = useState<{ stories: Story[]; position: TriggerPoint } | null>(null);
+  const [aroundPlayingId, setAroundPlayingId] = useState<string | null>(null);
+  const [heardIds, setHeardIds] = useState<ReadonlySet<string>>(new Set());
 
   useEffect(() => {
     const stopSettings = subscribeSettings(setSettings);
@@ -111,7 +126,15 @@ export default function App() {
   // The phone's Back button steps back through our screens before leaving the app.
   useEffect(() => {
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
-      if (getState().isDriving) return false;
+      if (getState().isDriving) {
+        if (!aroundOpen) return false;
+        setAroundOpen(false);
+        return true;
+      }
+      if (around) {
+        closeAround();
+        return true;
+      }
       if (preview) {
         setPreview(null);
         return true;
@@ -131,7 +154,7 @@ export default function App() {
       return false;
     });
     return () => sub.remove();
-  }, [page, preview, trip]);
+  }, [page, preview, trip, around, aroundOpen]);
 
   /** Checks the phone can speak the chosen language before a drive starts. */
   const voiceProblem = async (): Promise<string | null> => {
@@ -179,6 +202,7 @@ export default function App() {
   };
 
   const handleStop = async () => {
+    setAroundOpen(false);
     const state = getState();
     let summary: TripSummary = { minutes: 0, stories: [] };
     try {
@@ -195,6 +219,49 @@ export default function App() {
     setTrip(summary);
   };
 
+  // ---- "Stories around you" ----------------------------------------------
+
+  const closeAround = () => {
+    stopSpeaking('stopped');
+    setAroundPlayingId(null);
+    setAround(null);
+  };
+
+  // From the home screen: find the phone and get the stories near it.
+  const handleAround = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const problem = await voiceProblem();
+      if (problem) {
+        setError(problem);
+        return;
+      }
+      const result = await fetchNearbyForPreview(settings.apiBase, settings.storyLanguage);
+      if (!result.stories.length) {
+        setError('No stories within 100 km of you yet.');
+        return;
+      }
+      setHeardIds(new Set(await readExplorePlayed()));
+      setAround({ stories: result.stories, position: result.center });
+    } catch (err: any) {
+      await recordError('Stories around you', err);
+      setError(friendly(err, 'Could not get the stories near you. Please try again.'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Outside a drive, a picked story is simply spoken. It is not marked as heard.
+  const playAround = (story: Story) => {
+    setAroundPlayingId(story.id);
+    speakStory(
+      story.summary,
+      () => setAroundPlayingId(current => (current === story.id ? null : current)),
+      story.language ?? 'en',
+    );
+  };
+
   // Five quick taps on the version number unlock the developer menu.
   const handleVersionTap = () => {
     const now = Date.now();
@@ -204,6 +271,13 @@ export default function App() {
       updateSettings({ developer: true });
       Alert.alert('Developer menu unlocked', 'You will find it at the bottom of Settings.');
     }
+  };
+
+  const toggleInterest = (key: InterestKey) => {
+    const current = getSettings().interests;
+    updateSettings({
+      interests: current.includes(key) ? current.filter(item => item !== key) : [...current, key],
+    });
   };
 
   const handleForgetPlayed = async () => {
@@ -312,6 +386,21 @@ export default function App() {
 
   if (!ready) return <Screen>{null}</Screen>;
 
+  if (drivingState.isDriving && aroundOpen) {
+    const here = getLastPosition();
+    return (
+      <Around
+        stories={drivingState.stories}
+        position={here ? { lng: here.lng, lat: here.lat } : null}
+        heardIds={drivingState.triggeredIds}
+        playingId={drivingState.isSpeaking ? drivingState.currentStoryId : null}
+        onPlay={playStoryNow}
+        onStop={skipCurrentStory}
+        onBack={() => setAroundOpen(false)}
+      />
+    );
+  }
+
   if (drivingState.isDriving) {
     const story = drivingState.stories.find(item => item.id === drivingState.currentStoryId);
     return (
@@ -323,12 +412,30 @@ export default function App() {
         onSkip={skipCurrentStory}
         onReplay={replayCurrentStory}
         onPause={setPaused}
+        onAround={() => setAroundOpen(true)}
         onStop={handleStop}
       />
     );
   }
 
   if (trip) return <Summary trip={trip} onDone={() => setTrip(null)} />;
+
+  if (around) {
+    return (
+      <Around
+        stories={around.stories}
+        position={around.position}
+        heardIds={heardIds}
+        playingId={aroundPlayingId}
+        onPlay={playAround}
+        onStop={() => {
+          stopSpeaking('stopped');
+          setAroundPlayingId(null);
+        }}
+        onBack={closeAround}
+      />
+    );
+  }
 
   if (preview) {
     return (
@@ -345,6 +452,8 @@ export default function App() {
       <Onboarding
         language={settings.storyLanguage}
         onLanguage={storyLanguage => updateSettings({ storyLanguage })}
+        interests={settings.interests}
+        onToggleInterest={toggleInterest}
         onDone={() => updateSettings({ onboarded: true })}
       />
     );
@@ -356,6 +465,7 @@ export default function App() {
         settings={settings}
         onLanguage={storyLanguage => updateSettings({ storyLanguage })}
         onTalkativeness={talkativeness => updateSettings({ talkativeness })}
+        onToggleInterest={toggleInterest}
         playedCount={playedCount}
         onForgetPlayed={handleForgetPlayed}
         onDeveloper={openDeveloper}
@@ -403,6 +513,7 @@ export default function App() {
       savedStories={drivingState.stories.length}
       onStart={handleStart}
       onUseSaved={handleUseSaved}
+      onAround={handleAround}
       onSettings={() => {
         setError(null);
         setPage('settings');

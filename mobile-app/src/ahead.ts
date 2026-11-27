@@ -1,4 +1,5 @@
 import { haversineMeters } from './geo';
+import { isMustHear, isWanted, type InterestKey } from './interests';
 import type { Story } from './types';
 
 /**
@@ -136,5 +137,110 @@ export class HeadingTracker {
   reset() {
     this.anchor = null;
     this.heading = null;
+  }
+}
+
+/** True for a story about a place to eat or drink. */
+export function isFood(story: Story): boolean {
+  return story.category === 'food';
+}
+
+/**
+ * Chooses which of the tellable stories to tell next.
+ *
+ * Normally that is the nearest one. But food places sit close together, and
+ * with a quiet gap between stories most of them would never get a turn. So
+ * when both kinds are within range, the app takes turns: after a place story
+ * it tells the nearest food story, and after a food story the nearest place
+ * story. If only one kind is in range, it just tells the nearest.
+ */
+export function pickNext(
+  tellable: AheadCandidate[],
+  lastWasFood: boolean | null,
+): AheadCandidate | null {
+  if (!tellable.length) return null;
+  if (lastWasFood === null) return tellable[0];
+  const otherKind = tellable.find(candidate => isFood(candidate.story) !== lastWasFood);
+  return otherKind ?? tellable[0];
+}
+
+/**
+ * The full choice of what to tell next, in order:
+ * 1. Keep to the kinds of story the listener asked for. This is a preference,
+ *    not a filter: if nothing they asked for is in range, anything may play,
+ *    because silence on a road with few stories is worse.
+ * 2. A story marked "must hear" goes first.
+ * 3. Otherwise take turns between food and place stories, nearest first.
+ */
+export function chooseNext(
+  tellable: AheadCandidate[],
+  options: { lastWasFood: boolean | null; interests: readonly InterestKey[] },
+): AheadCandidate | null {
+  if (!tellable.length) return null;
+  const wanted = tellable.filter(candidate => isWanted(candidate.story, options.interests));
+  const pool = wanted.length ? wanted : tellable;
+  const mustHear = pool.find(candidate => isMustHear(candidate.story));
+  return mustHear ?? pickNext(pool, options.lastWasFood);
+}
+
+// ---- Walking pace ---------------------------------------------------------
+
+/** At or below this speed the listener is on foot, parked, or crawling in traffic. */
+export const WALK_SPEED_KMH = 8;
+/** At walking pace, only stories this close are told, whatever the direction. */
+export const WALK_RADIUS_METERS = 400;
+/** At walking pace, stories that are this close can follow each other sooner. */
+export const WALK_GAP_MS = 2 * 60 * 1000;
+
+/** Unplayed stories within a small circle around the listener, nearest first. */
+export function findNearby(
+  stories: Story[],
+  excludeIds: ReadonlySet<string>,
+  here: LngLat,
+  radiusMeters: number,
+): AheadCandidate[] {
+  const close: AheadCandidate[] = [];
+  for (const story of stories) {
+    if (excludeIds.has(story.id)) continue;
+    const point = story.point ?? story.triggerPoint;
+    if (!point) continue;
+    const distanceMeters = haversineMeters([here.lng, here.lat], [point.lng, point.lat]);
+    if (distanceMeters <= radiusMeters) {
+      close.push({ story, distanceMeters, aheadMeters: distanceMeters, sideMeters: 0 });
+    }
+  }
+  close.sort((a, b) => a.distanceMeters - b.distanceMeters || a.story.id.localeCompare(b.story.id));
+  return close;
+}
+
+/**
+ * Tells whether the listener is moving at walking pace. It needs two slow
+ * readings in a row, so one slow moment at a traffic light does not count.
+ */
+export class PaceTracker {
+  private last: { here: LngLat; at: number } | null = null;
+  private slowCount = 0;
+
+  update(here: LngLat, atMs: number, gpsSpeedKmh?: number): boolean {
+    let speedKmh: number | null = typeof gpsSpeedKmh === 'number' ? gpsSpeedKmh : null;
+    if (this.last) {
+      const seconds = (atMs - this.last.at) / 1000;
+      if (seconds > 120) {
+        // No reading for two minutes means the phone has barely moved.
+        speedKmh = 0;
+      } else if (speedKmh === null && seconds >= 1) {
+        const meters = haversineMeters([this.last.here.lng, this.last.here.lat], [here.lng, here.lat]);
+        speedKmh = (meters / seconds) * 3.6;
+      }
+    }
+    this.last = { here, at: atMs };
+    if (speedKmh === null) return this.slowCount >= 2;
+    this.slowCount = speedKmh <= WALK_SPEED_KMH ? this.slowCount + 1 : 0;
+    return this.slowCount >= 2;
+  }
+
+  reset() {
+    this.last = null;
+    this.slowCount = 0;
   }
 }

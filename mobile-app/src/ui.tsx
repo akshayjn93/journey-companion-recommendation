@@ -111,6 +111,40 @@ export function Choice<T extends string>({
   );
 }
 
+/** A set of choices where any number can be picked, like the kinds of story you like. */
+export function Chips<T extends string>({
+  options,
+  values,
+  onToggle,
+}: {
+  options: { key: T; label: string }[];
+  values: readonly T[];
+  onToggle: (key: T) => void;
+}) {
+  return (
+    <View style={styles.chips}>
+      {options.map(option => {
+        const picked = values.includes(option.key);
+        return (
+          <Pressable
+            key={option.key}
+            accessibilityRole="checkbox"
+            accessibilityState={{ checked: picked }}
+            accessibilityLabel={option.label}
+            onPress={() => onToggle(option.key)}
+            style={[styles.chipButton, picked && styles.choicePicked]}
+          >
+            <Text style={[styles.chipLabel, picked && styles.choiceLabelPicked]}>
+              {picked ? '✓ ' : ''}
+              {option.label}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
 export function Label({ children }: { children: ReactNode }) {
   return <Text style={styles.label}>{children}</Text>;
 }
@@ -169,5 +203,17 @@ const styles = StyleSheet.create({
   choicePicked: { backgroundColor: colors.accent, borderColor: colors.accent },
   choiceLabel: { ...type.body, fontWeight: '600', color: colors.textMuted },
   choiceLabelPicked: { color: colors.accentText },
+  chips: { gap: space.sm },
+  chipButton: {
+    minHeight: 48,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.surface,
+    justifyContent: 'center',
+    paddingHorizontal: space.lg,
+    paddingVertical: space.sm,
+  },
+  chipLabel: { fontSize: 16, fontWeight: '600', color: colors.textMuted },
   label: { ...type.small, marginBottom: space.sm, textTransform: 'uppercase', letterSpacing: 0.6 },
 });

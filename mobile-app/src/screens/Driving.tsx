@@ -14,6 +14,7 @@ export function Driving({
   onSkip,
   onReplay,
   onPause,
+  onAround,
   onStop,
 }: {
   state: DrivingState;
@@ -23,6 +24,7 @@ export function Driving({
   onSkip: () => void;
   onReplay: () => void;
   onPause: (paused: boolean) => void;
+  onAround: () => void;
   onStop: () => void;
 }) {
   const confirmStop = () =>
@@ -83,6 +85,8 @@ export function Driving({
         kind="secondary"
         onPress={() => onPause(!state.isPaused)}
       />
+      <Gap size={space.md} />
+      <AppButton label="Stories around you" kind="secondary" onPress={onAround} />
 
       <Gap size={space.xl} />
       <Text style={[type.small, { textAlign: 'center' }]}>

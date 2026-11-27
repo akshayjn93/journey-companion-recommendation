@@ -1,6 +1,7 @@
 import { Alert, Text, View } from 'react-native';
-import { AppButton, Card, Choice, Gap, Label, Screen } from '../ui';
+import { AppButton, Card, Chips, Choice, Gap, Label, Screen } from '../ui';
 import { colors, space, type } from '../theme';
+import { INTERESTS, type InterestKey } from '../interests';
 import { GAP_MINUTES, type Settings, type Talkativeness } from '../settings';
 import type { StoryLanguage } from '../types';
 import { useVoice } from '../useVoice';
@@ -9,6 +10,7 @@ export function SettingsScreen({
   settings,
   onLanguage,
   onTalkativeness,
+  onToggleInterest,
   playedCount,
   onForgetPlayed,
   onDeveloper,
@@ -18,6 +20,7 @@ export function SettingsScreen({
   settings: Settings;
   onLanguage: (language: StoryLanguage) => void;
   onTalkativeness: (value: Talkativeness) => void;
+  onToggleInterest: (key: InterestKey) => void;
   /** How many stories this phone remembers having told. */
   playedCount: number;
   onForgetPlayed: () => void;
@@ -92,6 +95,16 @@ export function SettingsScreen({
       <Gap size={space.sm} />
       <Text style={type.small}>
         At least {GAP_MINUTES[settings.talkativeness]} minutes of quiet between stories.
+      </Text>
+
+      <Gap size={space.xl} />
+      <Label>What you like to hear</Label>
+      <Chips options={INTERESTS} values={settings.interests} onToggle={onToggleInterest} />
+      <Gap size={space.sm} />
+      <Text style={type.small}>
+        {settings.interests.length === 0
+          ? 'Nothing is picked, so Safarnama will tell every kind of story.'
+          : 'These are told first. Other stories still play when none of these is close.'}
       </Text>
 
       <Gap size={space.xl} />

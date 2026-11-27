@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { ALL_INTERESTS, type InterestKey } from './interests';
 import type { StoryLanguage } from './types';
 
 /**
@@ -23,6 +24,8 @@ export type Settings = {
   journeyId: string;
   storyLanguage: StoryLanguage;
   talkativeness: Talkativeness;
+  /** The kinds of story the listener likes. All six by default. */
+  interests: InterestKey[];
   /** True once the first-run screens have been finished. */
   onboarded: boolean;
   /** True once the hidden developer menu has been unlocked. */
@@ -34,6 +37,7 @@ const settings: Settings = {
   journeyId: DEFAULT_JOURNEY_ID,
   storyLanguage: 'en',
   talkativeness: 'normal',
+  interests: [...ALL_INTERESTS],
   onboarded: false,
   developer: false,
 };
@@ -55,6 +59,9 @@ export function loadSettings(): Promise<Settings> {
           if (saved.storyLanguage === 'hi') settings.storyLanguage = 'hi';
           if (saved.talkativeness === 'quiet' || saved.talkativeness === 'talkative') {
             settings.talkativeness = saved.talkativeness;
+          }
+          if (Array.isArray(saved.interests)) {
+            settings.interests = ALL_INTERESTS.filter(key => saved.interests.includes(key));
           }
           settings.onboarded = Boolean(saved.onboarded);
           settings.developer = Boolean(saved.developer);

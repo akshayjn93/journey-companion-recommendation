@@ -23,16 +23,21 @@ function minGapMs(): number {
 }
 
 /** True when a new story may start right now. */
-export function canStartNow(): boolean {
+export function canStartNow(gapMs: number = minGapMs()): boolean {
   const state = getState();
   if (!state.isDriving || state.isPaused) return false;
   if (isSpeaking()) return false;
-  return Date.now() - lastEndedAt >= minGapMs();
+  return Date.now() - lastEndedAt >= gapMs;
+}
+
+/** The quiet gap that applies right now, from the listener's setting. */
+export function currentGapMs(): number {
+  return minGapMs();
 }
 
 /** Seconds left before the quiet gap is over. 0 when a story may start. */
-export function gapSecondsLeft(): number {
-  return Math.max(0, Math.ceil((minGapMs() - (Date.now() - lastEndedAt)) / 1000));
+export function gapSecondsLeft(gapMs: number = minGapMs()): number {
+  return Math.max(0, Math.ceil((gapMs - (Date.now() - lastEndedAt)) / 1000));
 }
 
 /**
@@ -83,14 +88,14 @@ export function queueStory(story: Story, position: Position) {
  * never talk over a story, keep a quiet gap, and respect pause.
  * Returns the story that started, if any.
  */
-export function playNext(position?: Position): Story | null {
+export function playNext(position?: Position, gapMs: number = minGapMs()): Story | null {
   if (position) lastPosition = position;
   const here = lastPosition;
 
   const state = getState();
   if (!state.isDriving || state.isPaused || !state.queuedIds.length) return null;
   if (isSpeaking()) return null;
-  if (Date.now() - lastEndedAt < minGapMs()) return null;
+  if (Date.now() - lastEndedAt < gapMs) return null;
 
   const queuedIds = [...state.queuedIds];
   const triggeredIds = new Set(state.triggeredIds);
@@ -188,6 +193,43 @@ function onStoryEnd(story: Story, reason: EndReason, listenedSeconds: number) {
       recordError('Play next story', err);
     }
   }, minGapMs() + 500);
+}
+
+/** Where the phone last was. Null before the first GPS fix of a drive. */
+export function getLastPosition(): Position | null {
+  return lastPosition;
+}
+
+/**
+ * Plays a story the listener picked by hand from "Stories around you", right
+ * now. It counts as played, and the usual quiet gap follows it.
+ */
+export function playStoryNow(story: Story) {
+  // Ending the current story first lets its own bookkeeping finish.
+  stopSpeaking('stopped');
+  const state = getState();
+  const triggeredIds = new Set(state.triggeredIds);
+  triggeredIds.add(story.id);
+  setState({
+    triggeredIds,
+    queuedIds: state.queuedIds.filter(id => id !== story.id),
+    currentStoryId: story.id,
+    isSpeaking: true,
+    statusMessage: `Playing "${story.title}".`,
+  });
+  const base = {
+    journeyId: state.journeyId,
+    storyId: story.id,
+    title: story.title,
+    distanceMeters: distanceTo(story, lastPosition),
+  };
+  logPlay({ event: 'picked', ...base });
+  logPlay({ event: 'started', ...base });
+  speakStory(
+    story.summary,
+    (reason, listenedSeconds) => onStoryEnd(story, reason, listenedSeconds),
+    story.language ?? 'en',
+  );
 }
 
 /** Stops the story that is playing now. The next one still waits for the gap. */

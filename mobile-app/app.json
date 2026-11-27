@@ -2,7 +2,7 @@
   "expo": {
     "name": "Safarnama",
     "slug": "journey-companion",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
       }
     },
     "android": {
-      "versionCode": 7,
+      "versionCode": 8,
       "adaptiveIcon": {
         "backgroundColor": "#1B2A4E",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -68,6 +68,12 @@
         "projectId": "40f803b4-3641-456f-aafb-4605b11cf888"
       }
     },
-    "owner": "akshayjn93"
+    "owner": "akshayjn93",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/40f803b4-3641-456f-aafb-4605b11cf888"
+    }
   }
 }

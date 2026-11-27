@@ -12,6 +12,7 @@ export function Home({
   savedStories,
   onStart,
   onUseSaved,
+  onAround,
   onSettings,
   version,
   onVersionTap,
@@ -24,6 +25,7 @@ export function Home({
   savedStories: number;
   onStart: () => void;
   onUseSaved: () => void;
+  onAround: () => void;
   onSettings: () => void;
   version: string;
   onVersionTap: () => void;
@@ -56,6 +58,11 @@ export function Home({
         Tap Start while you have internet. Safarnama saves the stories for the road ahead, so they
         keep playing where there is no signal.
       </Text>
+
+      <Gap size={space.xl} />
+      <AppButton label="Stories around you" kind="secondary" disabled={loading} onPress={onAround} />
+      <Gap size={space.sm} />
+      <Text style={type.small}>Not driving? See what is near you and pick a story to hear.</Text>
 
       {error ? (
         <View>

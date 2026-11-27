@@ -1,19 +1,24 @@
 import { useState } from 'react';
 import { Text, View } from 'react-native';
 import * as Location from 'expo-location';
-import { AppButton, Choice, Gap, Label, Screen } from '../ui';
+import { AppButton, Chips, Choice, Gap, Label, Screen } from '../ui';
 import { colors, space, type } from '../theme';
+import { INTERESTS, type InterestKey } from '../interests';
 import type { StoryLanguage } from '../types';
 import { useVoice } from '../useVoice';
 
-/** The three first-run screens: what this is, location, and language. */
+/** The four first-run screens: what this is, location, what you like, and language. */
 export function Onboarding({
   language,
   onLanguage,
+  interests,
+  onToggleInterest,
   onDone,
 }: {
   language: StoryLanguage;
   onLanguage: (language: StoryLanguage) => void;
+  interests: readonly InterestKey[];
+  onToggleInterest: (key: InterestKey) => void;
   onDone: () => void;
 }) {
   const [step, setStep] = useState(0);
@@ -37,7 +42,7 @@ export function Onboarding({
 
   return (
     <Screen>
-      <Text style={type.small}>Step {step + 1} of 3</Text>
+      <Text style={type.small}>Step {step + 1} of 4</Text>
       <Gap size={space.md} />
 
       {step === 0 ? (
@@ -85,6 +90,21 @@ export function Onboarding({
       ) : null}
 
       {step === 2 ? (
+        <View>
+          <Text style={type.title}>What do you like to hear?</Text>
+          <Gap size={space.sm} />
+          <Text style={type.body}>
+            Safarnama will tell these first. You will still hear other stories when none of these
+            is close.
+          </Text>
+          <Gap />
+          <Chips options={INTERESTS} values={interests} onToggle={onToggleInterest} />
+          <Gap size={space.xxl} />
+          <AppButton label="Next" big onPress={() => setStep(3)} />
+        </View>
+      ) : null}
+
+      {step === 3 ? (
         <View>
           <Text style={type.title}>Pick your language</Text>
           <Gap />

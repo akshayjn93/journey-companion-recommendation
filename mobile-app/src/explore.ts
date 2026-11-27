@@ -1,10 +1,27 @@
 import * as Location from 'expo-location';
-import { findAhead, HeadingTracker } from './ahead';
+import {
+  chooseNext,
+  findAhead,
+  findNearby,
+  HeadingTracker,
+  isFood,
+  PaceTracker,
+  WALK_GAP_MS,
+  WALK_RADIUS_METERS,
+} from './ahead';
 import { fetchNearbyStories } from './api';
 import { markStep, recordError } from './diagnostics';
 import { haversineMeters } from './geo';
 import type { StoryLanguage } from './types';
-import { canStartNow, gapSecondsLeft, playNext, queueStory, type Position } from './playback';
+import {
+  canStartNow,
+  currentGapMs,
+  gapSecondsLeft,
+  playNext,
+  queueStory,
+  type Position,
+} from './playback';
+import { getSettings } from './settings';
 import {
   getState,
   readExplorePlayed,
@@ -32,11 +49,13 @@ const FIRST_DOWNLOAD_TIMEOUT_MS = 70000;
 const REFRESH_TIMEOUT_MS = 20000;
 
 const heading = new HeadingTracker();
+const pace = new PaceTracker();
 let refreshing = false;
 let lastRefreshAttemptAt = 0;
 
 export function resetExplore() {
   heading.reset();
+  pace.reset();
   refreshing = false;
   lastRefreshAttemptAt = 0;
 }
@@ -148,25 +167,48 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
   refreshIfNeeded(position);
 
   const headingDeg = heading.update(position, gpsHeadingDeg, position.speedKmh);
+  const walkingPace = pace.update(position, Date.now(), position.speedKmh);
   const state = getState();
 
   if (state.isPaused) {
     setState({ statusMessage: 'Stories are paused.' });
     return;
   }
-  if (headingDeg === null) {
-    setState({ statusMessage: 'Working out which way you are heading. Keep driving.' });
-    return;
+
+  const last = state.stories.find(item => item.id === state.currentStoryId);
+  const choice = { lastWasFood: last ? isFood(last) : null, interests: getSettings().interests };
+
+  // At walking pace, tell what is close by, in any direction. The direction
+  // of travel is not reliable this slow, and in a crowded bazaar the shop
+  // beside you matters more than one two kilometres ahead.
+  let next = walkingPace
+    ? chooseNext(
+        findNearby(state.stories, state.triggeredIds, position, WALK_RADIUS_METERS),
+        choice,
+      )
+    : null;
+  const closeBy = next !== null;
+  let upcoming: ReturnType<typeof findAhead>['upcoming'] = null;
+
+  if (!next) {
+    if (headingDeg === null) {
+      setState({ statusMessage: 'Working out which way you are heading. Keep driving.' });
+      return;
+    }
+    const ahead = findAhead(state.stories, state.triggeredIds, position, headingDeg);
+    next = chooseNext(ahead.tellable, choice);
+    upcoming = ahead.upcoming;
   }
 
-  const { tellable, upcoming } = findAhead(state.stories, state.triggeredIds, position, headingDeg);
+  // Stories that are right beside the listener can follow each other sooner.
+  const gapMs = closeBy ? Math.min(WALK_GAP_MS, currentGapMs()) : currentGapMs();
 
   try {
     // The story is picked only at the moment it can play, so it is always
-    // the nearest one ahead right now and never a stale choice.
-    if (tellable.length && canStartNow()) {
-      queueStory(tellable[0].story, position);
-      if (playNext(position)) return;
+    // the right one for where the listener is now, never a stale choice.
+    if (next && canStartNow(gapMs)) {
+      queueStory(next.story, position);
+      if (playNext(position, gapMs)) return;
     } else {
       playNext(position);
     }
@@ -176,10 +218,12 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
 
   if (getState().isSpeaking) return; // keep the "Playing ..." message
 
-  if (tellable.length) {
-    const minutes = Math.ceil(gapSecondsLeft() / 60);
+  if (next) {
+    const minutes = Math.ceil(gapSecondsLeft(gapMs) / 60);
     setState({
-      statusMessage: `Next up: "${tellable[0].story.title}", in about ${minutes} min.`,
+      statusMessage: closeBy
+        ? `Close by: "${next.story.title}", in about ${minutes} min.`
+        : `Next up: "${next.story.title}", in about ${minutes} min.`,
     });
   } else if (upcoming) {
     setState({
