@@ -21,6 +21,7 @@ import {
   queueStory,
   type Position,
 } from './playback';
+import { fitsDiet } from './interests';
 import { getSettings } from './settings';
 import {
   getState,
@@ -175,15 +176,19 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
     return;
   }
 
+  const settings = getSettings();
+  // A vegetarian is never told about a place that serves meat.
+  const stories = state.stories.filter(item => fitsDiet(item, settings.diet));
+
   const last = state.stories.find(item => item.id === state.currentStoryId);
-  const choice = { lastWasFood: last ? isFood(last) : null, interests: getSettings().interests };
+  const choice = { lastWasFood: last ? isFood(last) : null, interests: settings.interests };
 
   // At walking pace, tell what is close by, in any direction. The direction
   // of travel is not reliable this slow, and in a crowded bazaar the shop
   // beside you matters more than one two kilometres ahead.
   let next = walkingPace
     ? chooseNext(
-        findNearby(state.stories, state.triggeredIds, position, WALK_RADIUS_METERS),
+        findNearby(stories, state.triggeredIds, position, WALK_RADIUS_METERS),
         choice,
       )
     : null;
@@ -195,7 +200,7 @@ export function exploreStep(position: Position, gpsHeadingDeg: number | null | u
       setState({ statusMessage: 'Working out which way you are heading. Keep driving.' });
       return;
     }
-    const ahead = findAhead(state.stories, state.triggeredIds, position, headingDeg);
+    const ahead = findAhead(stories, state.triggeredIds, position, headingDeg);
     next = chooseNext(ahead.tellable, choice);
     upcoming = ahead.upcoming;
   }

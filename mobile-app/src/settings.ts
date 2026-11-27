@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { ALL_INTERESTS, type InterestKey } from './interests';
+import { ALL_INTERESTS, type Diet, type InterestKey } from './interests';
 import type { StoryLanguage } from './types';
 
 /**
@@ -26,6 +26,8 @@ export type Settings = {
   talkativeness: Talkativeness;
   /** The kinds of story the listener likes. All six by default. */
   interests: InterestKey[];
+  /** Vegetarian only, or everything. Food stories are filtered by this. */
+  diet: Diet;
   /** True once the first-run screens have been finished. */
   onboarded: boolean;
   /** True once the hidden developer menu has been unlocked. */
@@ -38,6 +40,7 @@ const settings: Settings = {
   storyLanguage: 'en',
   talkativeness: 'normal',
   interests: [...ALL_INTERESTS],
+  diet: 'all',
   onboarded: false,
   developer: false,
 };
@@ -63,6 +66,7 @@ export function loadSettings(): Promise<Settings> {
           if (Array.isArray(saved.interests)) {
             settings.interests = ALL_INTERESTS.filter(key => saved.interests.includes(key));
           }
+          if (saved.diet === 'veg') settings.diet = 'veg';
           settings.onboarded = Boolean(saved.onboarded);
           settings.developer = Boolean(saved.developer);
         }

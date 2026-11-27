@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import * as Location from 'expo-location';
 import { AppButton, Chips, Choice, Gap, Label, Screen } from '../ui';
 import { colors, space, type } from '../theme';
-import { INTERESTS, type InterestKey } from '../interests';
+import { INTERESTS, type Diet, type InterestKey } from '../interests';
 import type { StoryLanguage } from '../types';
 import { useVoice } from '../useVoice';
 
@@ -13,12 +13,16 @@ export function Onboarding({
   onLanguage,
   interests,
   onToggleInterest,
+  diet,
+  onDiet,
   onDone,
 }: {
   language: StoryLanguage;
   onLanguage: (language: StoryLanguage) => void;
   interests: readonly InterestKey[];
   onToggleInterest: (key: InterestKey) => void;
+  diet: Diet;
+  onDiet: (diet: Diet) => void;
   onDone: () => void;
 }) {
   const [step, setStep] = useState(0);
@@ -99,6 +103,16 @@ export function Onboarding({
           </Text>
           <Gap />
           <Chips options={INTERESTS} values={interests} onToggle={onToggleInterest} />
+          <Gap size={space.xl} />
+          <Label>For food stories</Label>
+          <Choice
+            value={diet}
+            onChange={onDiet}
+            options={[
+              { value: 'all', label: 'I eat everything' },
+              { value: 'veg', label: 'Vegetarian only' },
+            ]}
+          />
           <Gap size={space.xxl} />
           <AppButton label="Next" big onPress={() => setStep(3)} />
         </View>

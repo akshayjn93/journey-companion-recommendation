@@ -50,13 +50,17 @@ import {
 } from './src/store';
 import { buildTripSummary, type TripSummary } from './src/trip';
 import type { Story, TriggerPoint } from './src/types';
-import type { InterestKey } from './src/interests';
+import { fitsDiet, type InterestKey } from './src/interests';
 import { Screen } from './src/ui';
 import { hasVoiceFor, loadVoiceSettings } from './src/voice';
 
 installGlobalErrorHandler();
 
-const VERSION = `${appConfig.expo.version} (build ${appConfig.expo.android.versionCode})`;
+// Changes sent through Expo Update keep the same version and build number, so
+// this counter is the only way to see on the phone that an update arrived.
+const UPDATE_NUMBER = 1;
+
+const VERSION = `${appConfig.expo.version} (build ${appConfig.expo.android.versionCode}, update ${UPDATE_NUMBER})`;
 
 type Page = 'home' | 'settings' | 'developer';
 
@@ -390,7 +394,7 @@ export default function App() {
     const here = getLastPosition();
     return (
       <Around
-        stories={drivingState.stories}
+        stories={drivingState.stories.filter(item => fitsDiet(item, settings.diet))}
         position={here ? { lng: here.lng, lat: here.lat } : null}
         heardIds={drivingState.triggeredIds}
         playingId={drivingState.isSpeaking ? drivingState.currentStoryId : null}
@@ -423,7 +427,7 @@ export default function App() {
   if (around) {
     return (
       <Around
-        stories={around.stories}
+        stories={around.stories.filter(item => fitsDiet(item, settings.diet))}
         position={around.position}
         heardIds={heardIds}
         playingId={aroundPlayingId}
@@ -454,6 +458,8 @@ export default function App() {
         onLanguage={storyLanguage => updateSettings({ storyLanguage })}
         interests={settings.interests}
         onToggleInterest={toggleInterest}
+        diet={settings.diet}
+        onDiet={diet => updateSettings({ diet })}
         onDone={() => updateSettings({ onboarded: true })}
       />
     );
@@ -466,6 +472,7 @@ export default function App() {
         onLanguage={storyLanguage => updateSettings({ storyLanguage })}
         onTalkativeness={talkativeness => updateSettings({ talkativeness })}
         onToggleInterest={toggleInterest}
+        onDiet={diet => updateSettings({ diet })}
         playedCount={playedCount}
         onForgetPlayed={handleForgetPlayed}
         onDeveloper={openDeveloper}

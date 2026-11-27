@@ -1,7 +1,7 @@
 import { Alert, Text, View } from 'react-native';
 import { AppButton, Card, Chips, Choice, Gap, Label, Screen } from '../ui';
 import { colors, space, type } from '../theme';
-import { INTERESTS, type InterestKey } from '../interests';
+import { INTERESTS, type Diet, type InterestKey } from '../interests';
 import { GAP_MINUTES, type Settings, type Talkativeness } from '../settings';
 import type { StoryLanguage } from '../types';
 import { useVoice } from '../useVoice';
@@ -11,6 +11,7 @@ export function SettingsScreen({
   onLanguage,
   onTalkativeness,
   onToggleInterest,
+  onDiet,
   playedCount,
   onForgetPlayed,
   onDeveloper,
@@ -21,6 +22,7 @@ export function SettingsScreen({
   onLanguage: (language: StoryLanguage) => void;
   onTalkativeness: (value: Talkativeness) => void;
   onToggleInterest: (key: InterestKey) => void;
+  onDiet: (diet: Diet) => void;
   /** How many stories this phone remembers having told. */
   playedCount: number;
   onForgetPlayed: () => void;
@@ -105,6 +107,23 @@ export function SettingsScreen({
         {settings.interests.length === 0
           ? 'Nothing is picked, so Safarnama will tell every kind of story.'
           : 'These are told first. Other stories still play when none of these is close.'}
+      </Text>
+
+      <Gap size={space.xl} />
+      <Label>For food stories</Label>
+      <Choice
+        value={settings.diet}
+        onChange={onDiet}
+        options={[
+          { value: 'all', label: 'I eat everything' },
+          { value: 'veg', label: 'Vegetarian only' },
+        ]}
+      />
+      <Gap size={space.sm} />
+      <Text style={type.small}>
+        {settings.diet === 'veg'
+          ? 'You will only hear about places where the story recommends vegetarian food.'
+          : 'You will hear about every kind of place to eat.'}
       </Text>
 
       <Gap size={space.xl} />

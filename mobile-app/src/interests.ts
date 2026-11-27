@@ -70,3 +70,24 @@ export const MUST_HEAR_TAG = 'must-hear';
 export function isMustHear(story: Story): boolean {
   return Array.isArray(story.tags) && story.tags.includes(MUST_HEAR_TAG);
 }
+
+// ---- Vegetarian or not ----------------------------------------------------
+
+/** What the listener eats. */
+export type Diet = 'all' | 'veg';
+
+/** Editors tag each food story: "veg" when it only recommends vegetarian things. */
+export const VEG_TAG = 'veg';
+export const NON_VEG_TAG = 'non-veg';
+
+/**
+ * True when a story may be told to this listener. Unlike the interest
+ * choices, this is a real filter: a vegetarian should never be told to order
+ * a kebab. Only food stories are affected. A food story with no "veg" tag is
+ * left out for vegetarians, so a story nobody has labelled yet is never told
+ * to them by mistake.
+ */
+export function fitsDiet(story: Story, diet: Diet): boolean {
+  if (diet === 'all' || story.category !== 'food') return true;
+  return Array.isArray(story.tags) && story.tags.includes(VEG_TAG);
+}
